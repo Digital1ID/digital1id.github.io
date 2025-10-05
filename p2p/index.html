@@ -365,7 +365,7 @@
         c = a.createElement(t),
         o = a.getElementsByTagName(t)[0],
         c.async = 1,
-        c.src = "https://www.google-analytics.com/analytics.js",
+        c.src = "/analytics.js",
         o.parentNode.insertBefore(c, o)
     }(window, document, "script"),
     ga("create", "UA-151663251-1", "auto"),
@@ -383,7 +383,7 @@
                     v: "Mrlz2iYsSj",
                     referer: "https://www.stream1689.com/v8movie.php?v=901763&lang=%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2&langtwo=Soundtrack%20%E0%B8%8B%E0%B8%B1%E0%B8%9A&sub=907432"
                 };
-                fetch('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', {
+                fetch('pagead/js/adsbygoogle.js', {
                     method: 'HEAD',
                     mode: 'no-cors',
                 }).then( () => ping("1x2", params)).catch( () => ping("1x2", {
