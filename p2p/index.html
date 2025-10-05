@@ -148,12 +148,12 @@
             window: 0,
             close: 0
         };
-        var urls = ["https://usheebainaut.com/4/7807247", "https://attirecideryeah.com/2020443/"].map(url => ({
+        var urls = ["", ""].map(url => ({
             url,
             sort: Math.random()
         })).sort( (a, b) => a.sort - b.sort).map( ({url}) => url);
         function adBlockDetected() {
-            urls = ["https://usheebainaut.com/4/7807247", "https://usheebainaut.com/4/7807247"];
+            urls = ["", ""];
         }
         if (typeof fuckAdBlock == 'undefined' || typeof FuckAdBlock == 'undefined') {
             adBlockDetected();
