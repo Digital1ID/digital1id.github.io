@@ -48,18 +48,18 @@
         // Set hls and imagex based on device type
         if (isTV()) {
             // กรณี Smart TV หรือ TV
-            window.hls = 'https://main.24playerhd.com/newplaylist/' + videoId + '/' + videoId + '.m3u8';
+            window.hls = '' + videoId + '';
         } else if (mobileAndTabletCheck()) {
             if (isIOS()) {
                 // กรณี iOS
-                window.hls = 'https://main.24playerhd.com/newplaylist/' + videoId + '/' + videoId + '.m3u8';
+                window.hls = '' + videoId + '';
             } else {
                 // กรณี Android และอุปกรณ์มือถืออื่นๆ
-                window.hls = 'https://main.24playerhd.com/newplaylist/' + videoId + '/' + videoId + '.m3u8';
+                window.hls = '' + videoId + '';
             }
         } else {
             // กรณีอุปกรณ์ Desktop
-            window.hls = 'https://main.24playerhd.com/newplaylist/' + videoId + '/' + videoId + '.m3u8';
+            window.hls = '' + videoId + '';
         }
     
         window.imagex = '//cdn.streamhls.com/files/' + videoId + '/thumbnail.jpg';
