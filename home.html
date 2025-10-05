@@ -1,5 +1,5 @@
 <?php include 'www/header.php';?>
-<?php include 'http://oneid151.serv00.net/www/menu.php';?>
+<?php include 'www/menu.php';?>
 
   <style>
 body {
@@ -225,9 +225,9 @@ let currentGroup = 'ช่องรายการ';
 let clapprPlayer = null;
 
 const urls = [
-  { url: 'http://oneid151.serv00.net/iptv2json.php?url=http://oneid151.serv00.net/live/index.php', group: 'ช่องรายการ' },
-  { url: 'http://oneid151.serv00.net/iptv2json.php?url=http://oneid151.serv00.net/live/iptvfw.php', group: 'เทสระบบ' },
-  { url: 'http://oneid151.serv00.net/iptv2json.php?url=http://oneid151.serv00.net/m3u/ball7m_playlist.php', group: 'รายการสด' }
+  { url: '//oneid151.serv00.net/iptv2json.php?url=http://oneid151.serv00.net/live/index.php', group: 'ช่องรายการ' },
+  { url: '//oneid151.serv00.net/iptv2json.php?url=http://oneid151.serv00.net/live/iptvfw.php', group: 'เทสระบบ' },
+  { url: '//oneid151.serv00.net/iptv2json.php?url=http://oneid151.serv00.net/m3u/ball7m_playlist.php', group: 'รายการสด' }
 ];
 
 Promise.allSettled(urls.map(item =>
