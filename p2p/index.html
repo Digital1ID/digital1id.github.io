@@ -6,9 +6,9 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link rel="preload" href="https://content.jwplatform.com/libraries/foHt6P0J.js" as="script">
-      <link rel="preload" href="https://cdn.jsdelivr.net/npm/p2p-media-loader-core@latest/build/p2p-media-loader-core.min.js" as="script">
-      <link rel="preload" href="https://cdn.jsdelivr.net/npm/p2p-media-loader-hlsjs@latest/build/p2p-media-loader-hlsjs.min.js" as="script">
-      <link rel="preload" href="https://cdn.jsdelivr.net/npm/hls.js@0.14.17" as="script">
+      <link rel="preload" href="https://main.24playerhd.com/p2p-media-loader-core_v1.js?v=1" as="script">
+      <link rel="preload" href="https://main.24playerhd.com/jwplayer.hlsjs.min.js" as="script">
+      <link rel="preload" href="https://main.24playerhd.com/hlsv1.js?v=1.2" as="script">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script> <!-- MobileDetect Library -->
       <title>Video Player</title>
       <style>
@@ -19,6 +19,10 @@
       </style>
    </head>
    <body>
+      <script async="" src="https://main.24playerhd.com/p2p-media-loader-hlsjs_v1.js?v=1"></script>
+      <script>
+       const URL_P2P_MEDIA_LOADER_HLSJS = "https://main.24playerhd.com/p2p-media-loader-hlsjs_v1.js?v=1";
+      </script>
       <div id="hls_player1" id="hls_player"></div>
       <script>
    function getVideoIdFromURL() {
