@@ -39,7 +39,8 @@
             const userAgent = navigator.userAgent || navigator.vendor || window.opera;
             return /smart-tv|smarttv|hbbtv|netcast|webos|googletv|appletv|firetv|tizen|roku|tv|viera/i.test(userAgent);
         }
-    
+   
+        const videoId = getVideoIdFromURL();
         const trackerAnnounce = ["wss://t2.24playerhd.com"];
         const HTTP = 3;
         const P2P = 3;
@@ -47,21 +48,21 @@
         // Set hls and imagex based on device type
         if (isTV()) {
             // กรณี Smart TV หรือ TV
-            window.hls = 'https://main.24playerhd.com/newplaylist/${videoId}/${videoId}.m3u8';
+            window.hls = 'https://main.24playerhd.com/newplaylist/' + videoId + '/' + videoId + '.m3u8';
         } else if (mobileAndTabletCheck()) {
             if (isIOS()) {
                 // กรณี iOS
-                window.hls = 'https://main.24playerhd.com/newplaylist/${videoId}/${videoId}.m3u8';
+                window.hls = 'https://main.24playerhd.com/newplaylist/' + videoId + '/' + videoId + '.m3u8';
             } else {
                 // กรณี Android และอุปกรณ์มือถืออื่นๆ
-                window.hls = 'https://main.24playerhd.com/newplaylist/${videoId}/${videoId}.m3u8';
+                window.hls = 'https://main.24playerhd.com/newplaylist/' + videoId + '/' + videoId + '.m3u8';
             }
         } else {
             // กรณีอุปกรณ์ Desktop
-            window.hls = 'https://main.24playerhd.com/newplaylist/${videoId}/${videoId}.m3u8';
+            window.hls = 'https://main.24playerhd.com/newplaylist/' + videoId + '/' + videoId + '.m3u8';
         }
     
-        window.imagex = '//cdn.streamhls.com/files/${videoId}/thumbnail.jpg';
+        window.imagex = '//cdn.streamhls.com/files/' + videoId + '/thumbnail.jpg';
     </script>
       <script async src="https://cdn.jsdelivr.net/npm/p2p-media-loader-core@latest/build/p2p-media-loader-core.min.js"></script>
      <script src="https://cdn.jsdelivr.net/gh/vlogg1527/Vidstack-Player-HLS-P2P@main/videoPlayer.js"></script>
