@@ -21,6 +21,10 @@
    <body>
       <div id="hls_player1" id="hls_player"></div>
       <script>
+   function getVideoIdFromURL() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('id');
+    }
         function mobileAndTabletCheck() {
             const userAgent = navigator.userAgent || navigator.vendor || window.opera;
             return /android|iPhone|iPad|iPod|blackberry|windows phone|opera mini|iemobile|mobile/i.test(userAgent);
@@ -43,18 +47,18 @@
         // Set hls and imagex based on device type
         if (isTV()) {
             // กรณี Smart TV หรือ TV
-            window.hls = 'https://master.streamhls.com/hlsr2/e3101f909524d3d655a0a33eac1df145/master.m3u8';
+            window.hls = 'https://master.streamhls.com/hlsr2/${videoId}/master.m3u8';
         } else if (mobileAndTabletCheck()) {
             if (isIOS()) {
                 // กรณี iOS
-                window.hls = 'https://master.streamhls.com/hlsr2/e3101f909524d3d655a0a33eac1df145/master.m3u8';
+                window.hls = 'https://master.streamhls.com/hlsr2/${videoId}/master.m3u8';
             } else {
                 // กรณี Android และอุปกรณ์มือถืออื่นๆ
-                window.hls = 'https://master.streamhls.com/hlsr2/e3101f909524d3d655a0a33eac1df145/master.m3u8';
+                window.hls = 'https://master.streamhls.com/hlsr2/${videoId}/master.m3u8';
             }
         } else {
             // กรณีอุปกรณ์ Desktop
-            window.hls = 'https://master.streamhls.com/hlsr2/e3101f909524d3d655a0a33eac1df145/master';
+            window.hls = 'https://master.streamhls.com/hlsr2/${videoId}/master';
         }
     
         window.imagex = '//cdn.streamhls.com/files/e3101f909524d3d655a0a33eac1df145/thumbnail.jpg';
