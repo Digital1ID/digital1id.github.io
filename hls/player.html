@@ -1,151 +1,146 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <title>HLS-Player</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css"> 
-    
-    <script src="//content.jwplatform.com/libraries/SAHhwvZq.js"></script> 
-
-    <style>
-        body { 
-            margin: 0px; 
-        }
-        /* กำหนดให้ Player Container รักษาอัตราส่วน 16:9 และกำหนดความกว้างสูงสุด */
-        #jwplayerDiv {
-            aspect-ratio: 16/9; 
-            max-width: 854px; /* กำหนดความกว้างสูงสุดที่เหมาะสม */
-            width: 100%;
-            margin: 0 auto;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>HLS Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="//content.jwplatform.com/libraries/SAHhwvZq.js"></script>
+  <style>
+    body { margin: 0; }
+    #jwplayerDiv {
+      aspect-ratio: 16/9;
+      max-width: 854px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    #debug-log {
+      white-space: pre-wrap;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+  </style>
 </head>
 <body class="bg-gray-900 text-white">
 
-    <header class="bg-gray-900 shadow-xl">
-        <div class="container mx-auto px-4 py-4 flex justify-start items-center">
-            <a href="index.html">
-                <h1 class="text-3xl font-extrabold text-blue-600 tracking-wider">
-                    รับชมฟรี  <span class="text-white">by SAMORN</span>
-                </h1>
-            </a>
-        </div>
-    </header>
+  <header class="bg-gray-900 shadow-xl">
+    <div class="container mx-auto px-4 py-4">
+      <h1 class="text-3xl font-extrabold text-blue-600">รับชมฟรี <span class="text-white">by SAMORN</span></h1>
+    </div>
+  </header>
 
-    <main class="container mx-auto px-4 mt-8 mb-16">
-        
-        <div id="jwplayerDiv">
-        </div>
-        
-        <h2 id="movie-title" class="text-2xl font-bold mt-4 mb-4 text-blue-500">กำลังโหลด...</h2>
+  <main class="container mx-auto px-4 mt-8 mb-16">
+    <div id="jwplayerDiv"></div>
+    <h2 id="movie-title" class="text-2xl font-bold mt-4 mb-4 text-blue-500">กำลังโหลด...</h2>
+    <p id="error-message" class="text-red-500 mt-4 hidden">เกิดข้อผิดพลาดในการโหลดวิดีโอ</p>
 
-        <p id="error-message" class="text-red-500 mt-4 hidden">เกิดข้อผิดพลาดในการโหลดวิดีโอ</p>
-    </main>
+    <button onclick="toggleDebug()" class="bg-yellow-500 px-4 py-2 rounded mt-4">Toggle Debug</button>
+    <pre id="debug-log" class="bg-black text-green-400 p-2 mt-2 hidden"></pre>
+  </main>
 
-<script type="text/javascript">
-    
-    /**
-     * ดึงค่าจาก Query Parameter
-     * @param {string} param - ชื่อพารามิเตอร์ (เช่น 'url', 'name', 'subtitle')
-     */
+  <script>
     function getQueryParam(param) {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get(param);
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
-        const movieUrl = getQueryParam('url');
-        const movieName = getQueryParam('name');
-        const subtitleUrl = getQueryParam('subtitle'); 
+    async function isStreamAvailable(url) {
+      try {
+        const res = await fetch(url, { method: 'HEAD' });
+        return res.ok;
+      } catch {
+        return false;
+      }
+    }
 
-        const titleElement = document.getElementById('movie-title');
-        const errorMessage = document.getElementById('error-message');
-
-        titleElement.textContent = movieName || 'ไม่พบชื่อหนัง';
-        document.title = `ดูหนัง | ${movieName || 'ไม่พบชื่อหนัง'}`;
-
-        if (!movieUrl) {
-             errorMessage.textContent = '❌ ไม่พบ URL ไฟล์หนังที่จำเป็น';
-             errorMessage.classList.remove('hidden');
-             return;
+    async function selectAvailableSource(sources) {
+      for (const url of sources) {
+        if (await isStreamAvailable(url)) {
+          logDebug(`✅ ใช้แหล่งข้อมูล: ${url}`);
+          return url;
         }
-        
-        // ตรวจสอบ Type ของไฟล์เพื่อกำหนด type ใน Config
-        let fileType = 'hls'; // Default for .m3u8
-        if (movieUrl.endsWith('.mpd')) {
-            fileType = 'dash';
-        } else if (movieUrl.endsWith('.mp4')) {
-            fileType = 'mp4';
-        }
+        logDebug(`❌ ไม่สามารถเข้าถึง: ${url}`);
+      }
+      return null;
+    }
 
-        // --- 1. เตรียม Config สำหรับ JW Player ---
-        let playerConfig = {
-            file: movieUrl,
-            type: fileType,
-            autostart: true,
-            controls: true, // ตรวจสอบให้แน่ใจว่า Controls เปิดอยู่
-            stretching: "uniform", 
-            width: "100%",
-            height: "100%", 
-            crossorigin: 'anonymous', // สำคัญสำหรับ CORS (ทั้ง HLS และ Subtitle)
-            
-            // ************************************************
-            // ✅ ตำแหน่งที่ถูกต้อง: captions ต้องอยู่ภายใน playerConfig
-            captions: {
-                position: 'bottom', // บังคับให้ Subtitle แสดงที่ด้านล่างของจอ
-                backgroundOpacity: 0, // ทำให้พื้นหลังโปร่งใส
-                color: '#FFFF00'
-            },
-            // ************************************************
-            
-            tracks: [], // อาร์เรย์สำหรับ Subtitle Tracks
-        };
-        
-        // --- 2. การเพิ่ม Subtitle Track (สำคัญ) ---
-        if (subtitleUrl && subtitleUrl.trim() !== '' && subtitleUrl !== 'undefined') {
-            playerConfig.tracks.push({
-                file: subtitleUrl,
-                label: 'บรรยายไทย',
-                kind: 'captions', // VTT/SRT ใช้ 'captions'
-                default: true // ตั้งค่าให้เปิด Subtitle นี้เป็นค่าเริ่มต้น
-            });
-            console.log(`✅ Subtitle URL ถูกเพิ่มใน Config: ${subtitleUrl}`);
-        } else {
-             // หากไม่พบ URL Subtitle
-             console.log("ℹ️ ไม่พบ Subtitle URL ใน Query Parameter.");
-        }
-        
-        // --- 3. Initialise JW Player ---
-        try {
-            // ติดตั้ง Player ใน div id="jwplayerDiv"
-            const playerInstance = jwplayer("jwplayerDiv").setup(playerConfig);
+    function detectFileType(url) {
+      if (url.endsWith('.mpd')) return 'dash';
+      if (url.endsWith('.mp4')) return 'mp4';
+      return 'hls';
+    }
 
-            // 4. Error Handling
-            playerInstance.on('error', function(event) {
-                const errorMsg = `❌ ข้อผิดพลาดในการเล่นวิดีโอ: ${event.message}`;
-                errorMessage.textContent = errorMsg;
-                errorMessage.classList.remove('hidden');
-                console.error("JW Player Error:", event);
-            });
+    function buildPlayerConfig(url, subtitleUrl) {
+      return {
+        file: url,
+        type: detectFileType(url),
+        autostart: true,
+        controls: true,
+        stretching: "uniform",
+        width: "100%",
+        height: "100%",
+        crossorigin: 'anonymous',
+        captions: {
+          position: 'bottom',
+          backgroundOpacity: 0,
+          color: '#FFFF00'
+        },
+        tracks: subtitleUrl ? [{
+          file: subtitleUrl,
+          label: 'บรรยายไทย',
+          kind: 'captions',
+          default: true
+        }] : []
+      };
+    }
 
-            console.log("JW Player Setup Complete.");
+    let debugEnabled = false;
+    function toggleDebug() {
+      debugEnabled = !debugEnabled;
+      document.getElementById('debug-log').classList.toggle('hidden', !debugEnabled);
+      logDebug(`🔧 Debug mode: ${debugEnabled ? 'ON' : 'OFF'}`);
+    }
 
-        } catch (e) {
-            console.error("JW Player Setup Error:", e);
-            errorMessage.textContent = '❌ ข้อผิดพลาดร้ายแรงในการสร้าง Player';
-            errorMessage.classList.remove('hidden');
-        }
+    function logDebug(msg) {
+      if (!debugEnabled) return;
+      const log = document.getElementById('debug-log');
+      log.textContent += `${new Date().toLocaleTimeString()} - ${msg}\n`;
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const sources = getQueryParam('sources')?.split(',') || [getQueryParam('url')];
+      const subtitleUrl = getQueryParam('subtitle');
+      const movieName = getQueryParam('name');
+
+      const titleElement = document.getElementById('movie-title');
+      const errorMessage = document.getElementById('error-message');
+      titleElement.textContent = movieName || 'ไม่พบชื่อหนัง';
+      document.title = `ดูหนัง | ${movieName || 'ไม่พบชื่อหนัง'}`;
+
+      const selectedUrl = await selectAvailableSource(sources);
+      if (!selectedUrl) {
+        errorMessage.textContent = '❌ ไม่พบแหล่งข้อมูลที่ใช้งานได้';
+        errorMessage.classList.remove('hidden');
+        return;
+      }
+
+      const config = buildPlayerConfig(selectedUrl, subtitleUrl);
+      try {
+        const player = jwplayer("jwplayerDiv").setup(config);
+        player.on('error', e => {
+          errorMessage.textContent = `❌ ข้อผิดพลาด: ${e.message}`;
+          errorMessage.classList.remove('hidden');
+          logDebug(`Player error: ${e.message}`);
+        });
+        logDebug("🎬 Player setup complete.");
+      } catch (e) {
+        errorMessage.textContent = '❌ ข้อผิดพลาดร้ายแรงในการสร้าง Player';
+        errorMessage.classList.remove('hidden');
+        logDebug(`Setup exception: ${e.message}`);
+      }
     });
-</script>
+  </script>
 </body>
 </html>
-
-
-
-
-
 
 
