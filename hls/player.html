@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>JW Player</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com/"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
   <script src="//content.jwplatform.com/libraries/SAHhwvZq.js"></script>
   <style>
     body { margin: 0; }
@@ -19,230 +19,150 @@
       max-height: 200px;
       overflow-y: auto;
     }
-    #bdnOverlay {
-      position: absolute;
-      bottom: 12%;
-      width: 100%;
-      text-align: center;
-      color: white;
-      font-size: 24px;
-      text-shadow: 2px 2px 4px #000;
-      z-index: 998;
-    }
   </style>
 </head>
 <body class="bg-gray-900 text-white">
 
   <main class="container mx-auto px-4 mt-8 mb-16">
     <div id="jwplayerDiv"></div>
-    <video id="video" controls crossorigin="anonymous" class="hidden"></video>
-
     <h2 id="movie-title" class="text-2xl font-bold mt-4 mb-4 text-blue-500">กำลังโหลด...</h2>
     <p id="error-message" class="text-red-500 mt-4 hidden">เกิดข้อผิดพลาดในการโหลดวิดีโอ</p>
-
-    <div class="mt-4 flex gap-4 flex-wrap">
-      <label class="text-white">Subtitle:
-        <select id="subtitleSelector" class="bg-gray-800 text-white px-2 py-1 rounded"></select>
-      </label>
-      <label class="text-white">Audio:
-        <select id="audioSelector" class="bg-gray-800 text-white px-2 py-1 rounded"></select>
-      </label>
-      <label class="text-white">Quality:
-        <select id="qualitySelector" class="bg-gray-800 text-white px-2 py-1 rounded"></select>
-      </label>
-    </div>
 
     <button onclick="toggleDebug()" class="bg-yellow-500 px-4 py-2 rounded mt-4">Toggle Debug</button>
     <pre id="debug-log" class="bg-black text-green-400 p-2 mt-2 hidden"></pre>
   </main>
 
-<script>
-  const cdnList = ['statics-01.duckduckcdn.com', 'statics-02.duckduckcdn.com'];
-  const subtitleSelector = document.getElementById('subtitleSelector');
-  const audioSelector = document.getElementById('audioSelector');
-  const qualitySelector = document.getElementById('qualitySelector');
+  <script>
+    const cdnList = ['statics-01.duckduckcdn.com', 'statics-02.duckduckcdn.com'];
 
-  function getDecodedVideoURL() {
-    const encoded = getQueryParam('url');
-    if (!encoded) return '';
-    try {
-      return decodeURIComponent(atob(encoded));
-    } catch (e) {
-      console.error("❌ Failed to decode base64 URL:", e);
-      return '';
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
     }
-  }
 
-  function extractVideoId(url) {
-    try {
-      const u = new URL(url);
-      const segments = u.pathname.split('/');
-      const uuidRegex = /^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i;
-      for (const segment of segments) {
-        if (uuidRegex.test(segment)) return segment;
+    function getDecodedVideoURL() {
+      const encoded = getQueryParam('url');
+      if (!encoded) return '';
+      try {
+        return decodeURIComponent(atob(encoded));
+      } catch (e) {
+        console.error("❌ Failed to decode base64 URL:", e);
+        return '';
       }
-      return null;
-    } catch (e) {
-      console.error("❌ Invalid URL format:", e);
-      return null;
-    }
-  }
-
-  function getQueryParam(param) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(param);
-  }
-
-  async function isStreamAvailable(url) {
-    try {
-      const res = await fetch(url, { method: 'HEAD' });
-      return res.ok;
-    } catch {
-      return false;
-    }
-  }
-
-  async function selectAvailableSource(sources) {
-    for (const url of sources) {
-      if (await isStreamAvailable(url)) {
-        logDebug(`✅ ใช้แหล่งข้อมูล: ${url}`);
-        return url;
-      }
-      logDebug(`❌ ไม่สามารถเข้าถึง: ${url}`);
-    }
-    return null;
-  }
-
-  function detectFileType(url) {
-    if (url.endsWith('.mpd')) return 'dash';
-    if (url.endsWith('.mp4')) return 'mp4';
-    return 'hls';
-  }
-
-  function buildPlayerConfig(url, subtitleUrl) {
-    return {
-      file: url,
-      type: detectFileType(url),
-      autostart: true,
-      controls: true,
-      stretching: "uniform",
-      width: "100%",
-      height: "100%",
-      crossorigin: 'anonymous',
-      captions: {
-        position: 'bottom',
-        backgroundOpacity: 0,
-        color: '#FFFF00'
-      },
-      tracks: subtitleUrl ? [{
-        file: subtitleUrl,
-        label: 'บรรยายไทย',
-        kind: 'captions',
-        default: true
-      }] : []
-    };
-  }
-
-  let debugEnabled = false;
-  function toggleDebug() {
-    debugEnabled = !debugEnabled;
-    document.getElementById('debug-log').classList.toggle('hidden', !debugEnabled);
-    logDebug(`🔧 Debug mode: ${debugEnabled ? 'ON' : 'OFF'}`);
-  }
-
-  function logDebug(msg) {
-    if (!debugEnabled) return;
-    const log = document.getElementById('debug-log');
-    log.textContent += `${new Date().toLocaleTimeString()} - ${msg}\n`;
-  }
-
-  document.addEventListener('DOMContentLoaded', async () => {
-    const decodedUrl = getDecodedVideoURL();
-    const videoId = extractVideoId(decodedUrl);
-    const subtitleUrl = getQueryParam('subtitle');
-    const movieName = getQueryParam('name');
-
-    const titleElement = document.getElementById('movie-title');
-    const errorMessage = document.getElementById('error-message');
-    titleElement.textContent = movieName || 'ไม่พบชื่อหนัง';
-    document.title = `ดูหนัง | ${movieName || 'ไม่พบชื่อหนัง'}`;
-
-    const sources = cdnList.map(cdn => `https://${cdn}/${videoId}/master.m3u8`);
-    const selectedUrl = await selectAvailableSource(sources);
-    if (!selectedUrl) {
-      errorMessage.textContent = '❌ ไม่พบแหล่งข้อมูลที่ใช้งานได้';
-      errorMessage.classList.remove('hidden');
-      return;
     }
 
-    const config = buildPlayerConfig(selectedUrl, subtitleUrl);
-    try {
-      const player = jwplayer("jwplayerDiv").setup(config);
-      player.on('error', e => {
-        errorMessage.textContent = `❌ ข้อผิดพลาด: ${e.message}`;
-        errorMessage.classList.remove('hidden');
-        logDebug(`Player error: ${e.message}`);
-      });
-      logDebug("🎬 JW Player setup complete.");
-    } catch (e) {
-      errorMessage.textContent = '❌ ข้อผิดพลาดร้ายแรงในการสร้าง Player';
-      errorMessage.classList.remove('hidden');
-      logDebug(`Setup exception: ${e.message}`);
-    }
-
-    // HLS fallback for native <video>
-    const video = document.getElementById('video');
-    let fallbackIndex = 0;
-
-    if (Hls.isSupported()) {
-      const hls = new Hls();
-      hls.attachMedia(video);
-      hls.loadSource(selectedUrl);
-
-      hls.on(Hls.Events.MANIFEST_PARSED, function () {
-        audioSelector.innerHTML = '';
-        hls.audioTracks.forEach((track, index) => {
-          const option = document.createElement('option');
-          option.value = index;
-          option.text = `${track.name} (${track.lang})`;
-          audioSelector.appendChild(option);
-        });
-        audioSelector.addEventListener('change', function () {
-          hls.audioTrack = parseInt(this.value);
-        });
-
-        qualitySelector.innerHTML = '<option value="-1">Auto</option>';
-        hls.levels.forEach((level, index) => {
-          const label = level.height ? `${level.height}p` : `${Math.round(level.bitrate / 1000)}kbps`;
-          const option = document.createElement('option');
-          option.value = index;
-          option.text = label;
-          qualitySelector.appendChild(option);
-        });
-        qualitySelector.addEventListener('change', function () {
-          hls.currentLevel = parseInt(this.value);
-        });
-      });
-
-      hls.on(Hls.Events.ERROR, function (event, data) {
-        if (data.type === 'networkError' || data.details === 'manifestLoadError') {
-          logDebug(`⚠️ HLS error: ${data.details}`);
-          fallbackIndex++;
-          if (fallbackIndex < sources.length) {
-            logDebug(`🔁 Switching to fallback source: ${sources[fallbackIndex]}`);
-            hls.loadSource(sources[fallbackIndex]);
-          } else {
-            errorMessage.textContent = '❌ ไม่สามารถโหลดวิดีโอจากทุก CDN';
-            errorMessage.classList.remove('hidden');
-          }
+    function extractVideoId(url) {
+      try {
+        const u = new URL(url);
+        const segments = u.pathname.split('/');
+        const uuidRegex = /^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i;
+        for (const segment of segments) {
+          if (uuidRegex.test(segment)) return segment;
         }
-      });
-    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-      video.src = selectedUrl;
-      video.classList.remove('hidden');
-      logDebug("📱 Native HLS playback enabled.");
+        return null;
+      } catch (e) {
+        console.error("❌ Invalid URL format:", e);
+        return null;
+      }
     }
-  });
-</script>
+
+    async function isStreamAvailable(url) {
+      try {
+        const res = await fetch(url, { method: 'HEAD' });
+        return res.ok;
+      } catch {
+        return false;
+      }
+    }
+
+    async function selectAvailableSource(sources) {
+      for (const url of sources) {
+        if (await isStreamAvailable(url)) {
+          logDebug(`✅ ใช้แหล่งข้อมูล: ${url}`);
+          return url;
+        }
+        logDebug(`❌ ไม่สามารถเข้าถึง: ${url}`);
+      }
+      return null;
+    }
+
+    function detectFileType(url) {
+      if (url.endsWith('.mpd')) return 'dash';
+      if (url.endsWith('.mp4')) return 'mp4';
+      return 'hls';
+    }
+
+    function buildPlayerConfig(url, subtitleUrl) {
+      return {
+        file: url,
+        type: detectFileType(url),
+        autostart: true,
+        controls: true,
+        stretching: "uniform",
+        width: "100%",
+        height: "100%",
+        crossorigin: 'anonymous',
+        captions: {
+          position: 'bottom',
+          backgroundOpacity: 0,
+          color: '#FFFF00'
+        },
+        tracks: subtitleUrl ? [{
+          file: subtitleUrl,
+          label: 'บรรยายไทย',
+          kind: 'captions',
+          default: true
+        }] : []
+      };
+    }
+
+    let debugEnabled = false;
+    function toggleDebug() {
+      debugEnabled = !debugEnabled;
+      document.getElementById('debug-log').classList.toggle('hidden', !debugEnabled);
+      logDebug(`🔧 Debug mode: ${debugEnabled ? 'ON' : 'OFF'}`);
+    }
+
+    function logDebug(msg) {
+      if (!debugEnabled) return;
+      const log = document.getElementById('debug-log');
+      log.textContent += `${new Date().toLocaleTimeString()} - ${msg}\n`;
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      const decodedUrl = getDecodedVideoURL();
+      const videoId = extractVideoId(decodedUrl);
+      const subtitleUrl = getQueryParam('subtitle');
+      const movieName = getQueryParam('name');
+
+      const titleElement = document.getElementById('movie-title');
+      const errorMessage = document.getElementById('error-message');
+      titleElement.textContent = movieName || 'ไม่พบชื่อหนัง';
+      document.title = `ดูหนัง | ${movieName || 'ไม่พบชื่อหนัง'}`;
+
+      const sources = cdnList.map(cdn => `https://${cdn}/${videoId}/master.m3u8`);
+      const selectedUrl = await selectAvailableSource(sources);
+      if (!selectedUrl) {
+        errorMessage.textContent = '❌ ไม่พบแหล่งข้อมูลที่ใช้งานได้';
+        errorMessage.classList.remove('hidden');
+        return;
+      }
+
+      const config = buildPlayerConfig(selectedUrl, subtitleUrl);
+      try {
+        const player = jwplayer("jwplayerDiv").setup(config);
+        player.on('error', e => {
+          errorMessage.textContent = `❌ ข้อผิดพลาด: ${e.message}`;
+          errorMessage.classList.remove('hidden');
+          logDebug(`Player error: ${e.message}`);
+        });
+        logDebug("🎬 JW Player setup complete.");
+      } catch (e) {
+        errorMessage.textContent = '❌ ข้อผิดพลาดร้ายแรงในการสร้าง Player';
+        errorMessage.classList.remove('hidden');
+        logDebug(`Setup exception: ${e.message}`);
+      }
+    });
+  </script>
 </body>
 </html>
