@@ -33,8 +33,6 @@
   </main>
 
   <script>
-    const cdnList = ['statics-01.duckduckcdn.com', 'statics-02.duckduckcdn.com'];
-
     function getQueryParam(param) {
       const urlParams = new URLSearchParams(window.location.search);
       return urlParams.get(param);
@@ -49,41 +47,6 @@
         console.error("❌ Failed to decode base64 URL:", e);
         return '';
       }
-    }
-
-    function extractVideoId(url) {
-      try {
-        const u = new URL(url);
-        const segments = u.pathname.split('/');
-        const uuidRegex = /^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i;
-        for (const segment of segments) {
-          if (uuidRegex.test(segment)) return segment;
-        }
-        return null;
-      } catch (e) {
-        console.error("❌ Invalid URL format:", e);
-        return null;
-      }
-    }
-
-    async function isStreamAvailable(url) {
-      try {
-        const res = await fetch(url, { method: 'HEAD' });
-        return res.ok;
-      } catch {
-        return false;
-      }
-    }
-
-    async function selectAvailableSource(sources) {
-      for (const url of sources) {
-        if (await isStreamAvailable(url)) {
-          logDebug(`✅ ใช้แหล่งข้อมูล: ${url}`);
-          return url;
-        }
-        logDebug(`❌ ไม่สามารถเข้าถึง: ${url}`);
-      }
-      return null;
     }
 
     function detectFileType(url) {
@@ -129,9 +92,8 @@
       log.textContent += `${new Date().toLocaleTimeString()} - ${msg}\n`;
     }
 
-    document.addEventListener('DOMContentLoaded', async () => {
+    document.addEventListener('DOMContentLoaded', () => {
       const decodedUrl = getDecodedVideoURL();
-      const videoId = extractVideoId(decodedUrl);
       const subtitleUrl = getQueryParam('subtitle');
       const movieName = getQueryParam('name');
 
@@ -140,15 +102,13 @@
       titleElement.textContent = movieName || 'ไม่พบชื่อหนัง';
       document.title = `ดูหนัง | ${movieName || 'ไม่พบชื่อหนัง'}`;
 
-      const sources = cdnList.map(cdn => `https://${cdn}/${videoId}/videos/1080p.m3u8`);
-      const selectedUrl = await selectAvailableSource(sources);
-      if (!selectedUrl) {
-        errorMessage.textContent = '❌ ไม่พบแหล่งข้อมูลที่ใช้งานได้';
+      if (!decodedUrl) {
+        errorMessage.textContent = '❌ ไม่พบ URL วิดีโอที่ถูกต้อง';
         errorMessage.classList.remove('hidden');
         return;
       }
 
-      const config = buildPlayerConfig(selectedUrl, subtitleUrl);
+      const config = buildPlayerConfig(decodedUrl, subtitleUrl);
       try {
         const player = jwplayer("jwplayerDiv").setup(config);
         player.on('error', e => {
