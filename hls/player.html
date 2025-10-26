@@ -140,7 +140,7 @@
       titleElement.textContent = movieName || 'ไม่พบชื่อหนัง';
       document.title = `ดูหนัง | ${movieName || 'ไม่พบชื่อหนัง'}`;
 
-      const sources = cdnList.map(cdn => `https://${cdn}/${videoId}/master.m3u8`);
+      const sources = cdnList.map(cdn => `https://${cdn}/${videoId}/videos/1080p.m3u8`);
       const selectedUrl = await selectAvailableSource(sources);
       if (!selectedUrl) {
         errorMessage.textContent = '❌ ไม่พบแหล่งข้อมูลที่ใช้งานได้';
