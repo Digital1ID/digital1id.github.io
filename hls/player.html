@@ -38,19 +38,6 @@
     return urlParams.get(param);
   }
 
-  function buildSimulatedPlaylist(metaID) {
-    return `#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="eng",NAME="ENG",DEFAULT=YES,AUTOSELECT=YES,URI="https://statics-01.duckduckcdn.com/${metaID}/audio-eng/audio.m3u8"
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="tha",NAME="THA",DEFAULT=NO,AUTOSELECT=NO,URI="https://statics-01.duckduckcdn.com/${metaID}/audio-tha/audio.m3u8"
-#EXT-X-STREAM-INF:BANDWIDTH=3500000,RESOLUTION=1920x1080,CODECS="avc1.4d401e,mp4a.40.2",AUDIO="aac"
-https://statics-01.duckduckcdn.com/${metaID}/videos/1080p.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720,CODECS="avc1.4d401e,mp4a.40.2",AUDIO="aac"
-https://statics-01.duckduckcdn.com/${metaID}/videos/720p.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480,CODECS="avc1.4d401e,mp4a.40.2",AUDIO="aac"
-https://statics-01.duckduckcdn.com/${metaID}/videos/480p.m3u8`;
-  }
-
   function detectFileType(url) {
     if (url.endsWith('.mpd')) return 'dash';
     if (url.endsWith('.mp4')) return 'mp4';
@@ -110,11 +97,7 @@ https://statics-01.duckduckcdn.com/${metaID}/videos/480p.m3u8`;
       return;
     }
 
-    // สร้าง URL สำหรับ playlist.m3u8 จำลอง
-    const playlistUrl = `https://statics-01.duckduckcdn.com/${metaID}/playlist.m3u8`;
-    const simulatedContent = buildSimulatedPlaylist(metaID);
-    logDebug("📄 จำลอง playlist.m3u8:\n" + simulatedContent);
-
+    const playlistUrl = `http://oneid151.serv00.net/api/doo-nang/playlist.php?metaID=${metaID}`;
     const config = buildPlayerConfig(playlistUrl, subtitleUrl);
 
     try {
