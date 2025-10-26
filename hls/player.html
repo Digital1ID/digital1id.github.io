@@ -32,97 +32,105 @@
     <pre id="debug-log" class="bg-black text-green-400 p-2 mt-2 hidden"></pre>
   </main>
 
-  <script>
-    function getQueryParam(param) {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get(param);
+<script>
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+  function buildSimulatedPlaylist(metaID) {
+    return `#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="undefined",NAME="UNDEFINED",DEFAULT=YES,AUTOSELECT=YES,URI="https://statics-01.duckduckcdn.com/${metaID}/audio-undefined/audio.m3u8"
+#EXT-X-STREAM-INF:BANDWIDTH=3500000,RESOLUTION=1920x1080,CODECS="avc1.4d401e,mp4a.40.2",AUDIO="aac"
+https://statics-01.duckduckcdn.com/${metaID}/videos/1080p.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720,CODECS="avc1.4d401e,mp4a.40.2",AUDIO="aac"
+https://statics-01.duckduckcdn.com/${metaID}/videos/720p.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480,CODECS="avc1.4d401e,mp4a.40.2",AUDIO="aac"
+https://statics-01.duckduckcdn.com/${metaID}/videos/480p.m3u8`;
+  }
+
+  function detectFileType(url) {
+    if (url.endsWith('.mpd')) return 'dash';
+    if (url.endsWith('.mp4')) return 'mp4';
+    return 'hls';
+  }
+
+  function buildPlayerConfig(url, subtitleUrl) {
+    return {
+      file: url,
+      type: detectFileType(url),
+      autostart: true,
+      controls: true,
+      stretching: "uniform",
+      width: "100%",
+      height: "100%",
+      crossorigin: 'anonymous',
+      captions: {
+        position: 'bottom',
+        backgroundOpacity: 0,
+        color: '#FFFF00'
+      },
+      tracks: subtitleUrl ? [{
+        file: subtitleUrl,
+        label: 'บรรยายไทย',
+        kind: 'captions',
+        default: true
+      }] : []
+    };
+  }
+
+  let debugEnabled = false;
+  function toggleDebug() {
+    debugEnabled = !debugEnabled;
+    document.getElementById('debug-log').classList.toggle('hidden', !debugEnabled);
+    logDebug(`🔧 Debug mode: ${debugEnabled ? 'ON' : 'OFF'}`);
+  }
+
+  function logDebug(msg) {
+    if (!debugEnabled) return;
+    const log = document.getElementById('debug-log');
+    log.textContent += `${new Date().toLocaleTimeString()} - ${msg}\n`;
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const metaID = getQueryParam('metaID');
+    const subtitleUrl = getQueryParam('subtitle');
+    const movieName = getQueryParam('name');
+
+    const titleElement = document.getElementById('movie-title');
+    const errorMessage = document.getElementById('error-message');
+    titleElement.textContent = movieName || 'ไม่พบชื่อหนัง';
+    document.title = `ดูหนัง | ${movieName || 'ไม่พบชื่อหนัง'}`;
+
+    if (!metaID) {
+      errorMessage.textContent = '❌ ไม่พบ metaID ที่จำเป็น';
+      errorMessage.classList.remove('hidden');
+      return;
     }
 
-    function getDecodedVideoURL() {
-      const encoded = getQueryParam('url');
-      if (!encoded) return '';
-      try {
-        return decodeURIComponent(atob(encoded));
-      } catch (e) {
-        console.error("❌ Failed to decode base64 URL:", e);
-        return '';
-      }
-    }
+    // สร้าง URL สำหรับ playlist.m3u8 จำลอง
+    const playlistUrl = `https://statics-01.duckduckcdn.com/${metaID}/playlist.m3u8`;
+    const simulatedContent = buildSimulatedPlaylist(metaID);
+    logDebug("📄 จำลอง playlist.m3u8:\n" + simulatedContent);
 
-    function detectFileType(url) {
-      if (url.endsWith('.mpd')) return 'dash';
-      if (url.endsWith('.mp4')) return 'mp4';
-      return 'hls';
-    }
+    const config = buildPlayerConfig(playlistUrl, subtitleUrl);
 
-    function buildPlayerConfig(url, subtitleUrl) {
-      return {
-        file: url,
-        type: detectFileType(url),
-        autostart: true,
-        controls: true,
-        stretching: "uniform",
-        width: "100%",
-        height: "100%",
-        crossorigin: 'anonymous',
-        captions: {
-          position: 'bottom',
-          backgroundOpacity: 0,
-          color: '#FFFF00'
-        },
-        tracks: subtitleUrl ? [{
-          file: subtitleUrl,
-          label: 'บรรยายไทย',
-          kind: 'captions',
-          default: true
-        }] : []
-      };
-    }
-
-    let debugEnabled = false;
-    function toggleDebug() {
-      debugEnabled = !debugEnabled;
-      document.getElementById('debug-log').classList.toggle('hidden', !debugEnabled);
-      logDebug(`🔧 Debug mode: ${debugEnabled ? 'ON' : 'OFF'}`);
-    }
-
-    function logDebug(msg) {
-      if (!debugEnabled) return;
-      const log = document.getElementById('debug-log');
-      log.textContent += `${new Date().toLocaleTimeString()} - ${msg}\n`;
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      const decodedUrl = getDecodedVideoURL();
-      const subtitleUrl = getQueryParam('subtitle');
-      const movieName = getQueryParam('name');
-
-      const titleElement = document.getElementById('movie-title');
-      const errorMessage = document.getElementById('error-message');
-      titleElement.textContent = movieName || 'ไม่พบชื่อหนัง';
-      document.title = `ดูหนัง | ${movieName || 'ไม่พบชื่อหนัง'}`;
-
-      if (!decodedUrl) {
-        errorMessage.textContent = '❌ ไม่พบ URL วิดีโอที่ถูกต้อง';
+    try {
+      const player = jwplayer("jwplayerDiv").setup(config);
+      player.on('error', e => {
+        errorMessage.textContent = `❌ ข้อผิดพลาด: ${e.message}`;
         errorMessage.classList.remove('hidden');
-        return;
-      }
+        logDebug(`Player error: ${e.message}`);
+      });
+      logDebug("🎬 JW Player setup complete.");
+    } catch (e) {
+      errorMessage.textContent = '❌ ข้อผิดพลาดร้ายแรงในการสร้าง Player';
+      errorMessage.classList.remove('hidden');
+      logDebug(`Setup exception: ${e.message}`);
+    }
+  });
+</script>
 
-      const config = buildPlayerConfig(decodedUrl, subtitleUrl);
-      try {
-        const player = jwplayer("jwplayerDiv").setup(config);
-        player.on('error', e => {
-          errorMessage.textContent = `❌ ข้อผิดพลาด: ${e.message}`;
-          errorMessage.classList.remove('hidden');
-          logDebug(`Player error: ${e.message}`);
-        });
-        logDebug("🎬 JW Player setup complete.");
-      } catch (e) {
-        errorMessage.textContent = '❌ ข้อผิดพลาดร้ายแรงในการสร้าง Player';
-        errorMessage.classList.remove('hidden');
-        logDebug(`Setup exception: ${e.message}`);
-      }
-    });
-  </script>
 </body>
 </html>
