@@ -21,6 +21,24 @@
 
 
 
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/1T0kO1cgR430AC9I6jurMOezKwg.jpg", The Rats A Witcher Tale (2025) พวกแรทส์ ตำนานนักล่าจอมอสูร
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/755566c3db662108c4de5ac8/755566c3db662108c4de5ac8.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/f18LeJhnI9opCLcIDym3uVH301V.jpg", The Tank (2025) รถถังเจ้าพยัคฆ์
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/edf50323f9634eb56ea96988/edf50323f9634eb56ea96988.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/t4SUgmGGhMS4t9g0DJzAjRS5Hcj.jpg", Alma and The Wolf (2025) อัลมาและมนุษย์หมาป่า
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/d775aab91f7971f91ccf33b9/d775aab91f7971f91ccf33b9.m3u8
+
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aAQdIzd5muq376bf0HZv3wIpmtI.jpg", Demon Slayer Kimetsu no Yaiba (2025) ดาบพิฆาตอสูร ภาคปราสาทไร้ขอบเขต | พากย์ไทย
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/2b771028c7a47aaa066c7796/2b771028c7a47aaa066c7796.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/5MDnvvkOqthhE5gQebzkcOhD1p5.jpg", Anaconda (2025) อนาคอนดา เลื้อยสยองโลก
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/91fb9b2b2c16a928c949eaae/91fb9b2b2c16a928c949eaae.m3u8
@@ -655,13 +673,6 @@ https://main.24playerhd.com/newplaylist/8989d9f05eea67c390f68874/8989d9f05eea67c
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://img.fw4free.com/postor/20250816083644rDmAX6vNsDDSJbtFhOMdbiwHAn.jpg", Night Always Comes คืนวันอันตราย (2025) NETFLIX
 #EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
 ##https://bigapp.direct-stream.com/doodii-vip/movies/Night_Always_Comes_2025_TH_1080p.mp4
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aAQdIzd5muq376bf0HZv3wIpmtI.jpg", Demon Slayer Kimetsu no Yaiba (2025) ดาบพิฆาตอสูร ภาคปราสาทไร้ขอบเขต | พากย์ไทย
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/ca1cafa70bedd79d9ed61524/ca1cafa70bedd79d9ed61524.m3u8
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://img.fw4free.com/postor/20250814072800aFRDH3P7TX61FVGpaLhKr6QiOC1.jpg", Demon Slayer Kimetsu no Yaiba (2025) ดาบพิฆาตอสูร ภาคปราสาทไร้ขอบเขต | พากย์ไทย
-#EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
-
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/fa7ac866d84f05800ca260f456680f53.jpg", Demon Slayer Kimetsu no Yaiba (2025) ดาบพิฆาตอสูร ภาคปราสาทไร้ขอบเขต | บรรยายไทย
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
