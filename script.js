@@ -1,5 +1,6 @@
 // กำหนดหมวดหมู่ทั้งหมดที่คุณต้องการแสดงบนหน้าแรก
 const CATEGORIES = [
+    { key: 'new', title: 'หนังใหม่' },
     { key: 'thai', title: 'หนังไทย' },
     { key: 'korea', title: 'หนังเกาหลี' },
     { key: 'china', title: 'หนังจีน/ฮ่องกง' },
