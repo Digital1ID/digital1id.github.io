@@ -3,57 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SAMORN Movie | หน้าหลัก</title>
+  <title>FLIX Movie | หมวดหมู่</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body class="bg-gray-900 text-white">
     <header class="sticky top-0 z-50 bg-gray-900/90 backdrop-blur-sm shadow-xl">
         <div class="container mx-auto px-4 py-4 flex flex-wrap justify-between items-center">
-            <a href="index.html" class="mb-2 sm:mb-0">
+            <a href="movie.html" class="mb-2 sm:mb-0">
                 <h1 class="text-3xl font-extrabold text-blue-600 tracking-wider">
-                    SAMORN <span class="text-white">Movie</span>
+                    FLIX <span class="text-white">Movie</span>
                 </h1>
             </a>
             
-            <nav id="main-nav" class="flex flex-wrap space-x-2 space-y-2 sm:space-y-0 text-sm font-medium pt-2 sm:pt-0">
-                <a href="movie.html" class="py-1 px-3 rounded-full bg-blue-600 text-white transition duration-300 flex-shrink-0">หน้าหลัก</a>
-                
-                <a href="category.html?cat=thai" class="py-1 px-3 rounded-full hover:bg-gray-700 transition duration-300 flex-shrink-0">ไทย</a>
-                <a href="category.html?cat=korea" class="py-1 px-3 rounded-full hover:bg-gray-700 transition duration-300 flex-shrink-0">เกาหลี</a>
-                <a href="category.html?cat=china" class="py-1 px-3 rounded-full hover:bg-gray-700 transition duration-300 flex-shrink-0">จีน/ฮ่องกง</a>
-                <a href="category.html?cat=inter" class="py-1 px-3 rounded-full hover:bg-gray-700 transition duration-300 flex-shrink-0">สากล</a>
-                <a href="category.html?cat=cartoon" class="py-1 px-3 rounded-full hover:bg-gray-700 transition duration-300 flex-shrink-0">การ์ตูน</a>
-                <a href="category.html?cat=india" class="py-1 px-3 rounded-full hover:bg-gray-700 transition duration-300 flex-shrink-0">อินเดีย</a>
-                <a href="category.html?cat=asia" class="py-1 px-3 rounded-full hover:bg-gray-700 transition duration-300 flex-shrink-0">เอเซีย </a>
-                
+            <nav id="main-nav" class="flex flex-wrap space-x-2 text-sm font-medium">
+                <a href="movie.html" class="py-1 px-3 rounded-full hover:bg-gray-700">หน้าหลัก</a>
+                <a href="category.html?cat=thai" data-category="thai" class="py-1 px-3 rounded-full hover:bg-gray-700">ไทย</a>
+                <a href="category.html?cat=korea" data-category="korea" class="py-1 px-3 rounded-full hover:bg-gray-700">เกาหลี</a>
+                <a href="category.html?cat=china" data-category="china" class="py-1 px-3 rounded-full hover:bg-gray-700">จีน/ฮ่องกง</a>
+                <a href="category.html?cat=inter" data-category="inter" class="py-1 px-3 rounded-full hover:bg-gray-700">สากล</a>
+                <a href="category.html?cat=cartoon" data-category="cartoon" class="py-1 px-3 rounded-full hover:bg-gray-700">การ์ตูน</a>
+                <a href="category.html?cat=india" data-category="india" class="py-1 px-3 rounded-full hover:bg-gray-700">อินเดีย</a>
+                <a href="category.html?cat=asia" data-category="asia" class="py-1 px-3 rounded-full hover:bg-gray-700">เอเชีย</a>
             </nav>
 
-            <form id="search-form" class="w-full mt-2 sm:w-auto sm:mt-0 flex space-x-2" onsubmit="return false;">
-                <input type="text" id="search-input" placeholder="ค้นหาหนัง..." class="px-4 py-2 rounded-full bg-gray-800 border border-gray-700 text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 w-full sm:w-64" oninput="searchMovies()">
-                <button type="submit" onclick="searchMovies()" class="px-3 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300">
-                    🔍
-                </button>
+            <form id="search-form" class="w-full sm:w-auto flex space-x-2 mt-2 sm:mt-0" onsubmit="return false;">
+                <input type="text" id="search-input" placeholder="ค้นหาหนัง..." 
+                       class="px-4 py-2 rounded-full bg-gray-800 border border-gray-700 text-sm focus:ring-2 focus:ring-blue-600 w-full sm:w-64"
+                       oninput="searchMovies()">
+                <button type="submit" onclick="searchMovies()" 
+                        class="px-3 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700">🔍</button>
             </form>
         </div>
     </header>
 
     <main class="container mx-auto px-4 mt-8">
-        
         <h3 id="category-title" class="text-3xl font-bold mb-6 border-l-4 border-blue-600 pl-3"></h3>
         
         <div id="movie-list-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3">
             <p class="text-gray-400 col-span-full">กำลังโหลดหมวดหมู่...</p>
         </div>
         
-        <div id="pagination-container" class="mt-10 mb-10">
-        </div>
-        
+        <div id="pagination-container" class="mt-10 mb-10"></div>
     </main>
 
     <script src="category.js"></script>
 </body>
 </html>
-
-
-
