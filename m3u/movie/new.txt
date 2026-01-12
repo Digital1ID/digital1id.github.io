@@ -30,6 +30,22 @@ http://web02.dynns.com:1935/mthnew//Sisu.Road.to.Revenge.2025.TH.mp4/playlist.m3
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/645abf56072d4cc3e89ebaff/645abf56072d4cc3e89ebaff.m3u8
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/si9tolnefLSUKaqQEGz1bWArOaL.jpg", Wicked: For Good (2025) วิคเค็ด 2
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/bebe6dda8be5d6b46f18b798/bebe6dda8be5d6b46f18b798.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/vHDrjztw6EPVEXxrGGP95lKXahO.jpg", Wildcat (2025) ไวลด์แคท สวยต้องปล้น
+#EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
+http://web02.dynns.com:1935/zoom//Wildcat.2025.ZOOM.mp4/playlist.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xGLoqM9peusKQeuwlSw2Qlhx740.jpg", Nobody 2 (2025) บรรยายไทย
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/bc37f1ab675b400e55dd4bac/bc37f1ab675b400e55dd4bac.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sGdgToQLaq2QE27Z43ZacO9ChSe.jpg", ชินจัง เดอะมูฟวี่ ร้อนแรงแซ่บเวอร์ แดนเซอร์แห่งคาซึคาเบะ (2025)
+#EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
+http://web02.dynns.com:1935/zoom//Crayon.Shin.chan.The.Movie.33.Cho.Karei.Shakunetsu.no.Kasukabe.Dancers.2025.ZOOM.mp4/playlist.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/1T0kO1cgR430AC9I6jurMOezKwg.jpg", The Rats A Witcher Tale (2025) พวกแรทส์ ตำนานนักล่าจอมอสูร
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/755566c3db662108c4de5ac8/755566c3db662108c4de5ac8.m3u8
@@ -125,16 +141,6 @@ https://master.steamhls88.com/hlsr2/d1a5f5c7987e17e96ae77d2e3ccc4b94/master.m3u8
 #EXTINF:-1 type="movie" tvg-logo="https://img.shirokami.me/images/2025/06/25/d4561e8fb4d8a1ba811cba4b896ce21e.jpg" group-title="ANIME", Kpop Demon Hunters เกิร์ลกรุ๊ปนักล่าปีศาจ พากย์ไทย (2025)
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/eb7463d7-49ae-5dc9-8f0e-b81b21302ad9.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/si9tolnefLSUKaqQEGz1bWArOaL.jpg", Wicked: For Good (2025) วิคเค็ด 2 | เสียงไทยโรง
-#EXTVLCOPT:http-referrer=https://vod1.stream25.com/
-https://vod1.stream25.com/Wicked-2-2025-TH-Version-1.mp4.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/si9tolnefLSUKaqQEGz1bWArOaL.jpg", Wicked: For Good (2025) วิคเค็ด 2 | บรรยายไทย
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/dad3e2121aefbf9b168d4421/dad3e2121aefbf9b168d4421.m3u8
-#EXTVLCOPT:http-referrer=https://text-lb.xmoviedo24.com
-##https://text-lb.xmoviedo24.com/playlist2/7a523a6bJ2a1O/master.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/grzNY9N7RczV21xBVMjBbObhbJh.jpg", Now You See Me 3 (2025) อาชญากลปล้นโลก 3 | เสียงไทยโรง
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
@@ -315,14 +321,6 @@ https://main.24playerhd.com/newplaylist/006a872aff0e36eada6b12cf/006a872aff0e36e
 https://main.24playerhd.com/newplaylist/ce8514eb145d5e534ccf7f83/ce8514eb145d5e534ccf7f83.m3u8
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/zlNmT4zKAJmbibf68q1X6DJRAj7.jpg", One Battle After Another (2025) หนึ่งศึกครั้งแล้วครั้งเล่า
 #EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
-
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="", Nobody 2 (2025) บรรยายไทย
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xGLoqM9peusKQeuwlSw2Qlhx740.jpg", Nobody 2 (2025) บรรยายไทย
-#EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
-http://web02.dynns.com:1935/zoom/Nobody.2.2025.ZOOM.mp4/playlist.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/kcmymlJPZ3mDQbKht20XRGBogd2.jpg", Death Whisperer 3 (2025) ธี่หยด 3
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
