@@ -222,6 +222,6 @@ document.addEventListener('DOMContentLoaded', () => {
         loadCategory(categoryKey);
     } else {
         // หากไม่มีพารามิเตอร์ ให้โหลดหมวดหมู่แรกเป็นค่าเริ่มต้น (Thai)
-        loadCategory('thai');
+        loadCategory('new');
     }
 });
