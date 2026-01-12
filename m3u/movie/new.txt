@@ -34,6 +34,10 @@ https://main.24playerhd.com/newplaylist/645abf56072d4cc3e89ebaff/645abf56072d4cc
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/bebe6dda8be5d6b46f18b798/bebe6dda8be5d6b46f18b798.m3u8
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/w5IZBZkoUAwalOV1zQUjAFUbY8I.jpg", Good Boy (2025) มะหมาเห็นผี
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/e7714bf094174b6966ceba6b/e7714bf094174b6966ceba6b.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/vHDrjztw6EPVEXxrGGP95lKXahO.jpg", Wildcat (2025) ไวลด์แคท สวยต้องปล้น
 #EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
 http://web02.dynns.com:1935/zoom//Wildcat.2025.ZOOM.mp4/playlist.m3u8
@@ -273,12 +277,6 @@ https://asset.fembed.co/index/pfs9oj4jrl.m3u8
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/ycalf81uKj3KEoJWuoKps5vYljq.jpg", Saint Young Men The Movie Holy Men vs Demon Army (2024) ศาสดาลาพักร้อน เดอะมูฟวี่
 #EXTVLCOPT:http-referrer=http://web02.dynns.com:1935/
 http://web02.dynns.com:1935/zoom/Saint.Young.Men.The.Movie.Holy.Men.vs.Demon.Army.2024.ZOOM.mp4/playlist.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/w5IZBZkoUAwalOV1zQUjAFUbY8I.jpg", Good Boy (2025) มะหมาเห็นผี
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/799ebe634382f6a563a6df16/799ebe634382f6a563a6df16.m3u8
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/w5IZBZkoUAwalOV1zQUjAFUbY8I.jpg", Good Boy (2025) มะหมาเห็นผี
-#EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
 
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/zpygCOYY1DPBkeUsrrznLRN5js5.jpg", The Lost Bus (2025)
