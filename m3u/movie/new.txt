@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/brBQ79UmzdpHx4Pl3kKRU8F9ubD.jpg", Sisu 2 (2025) สิสู้…เฒ่ามหากาฬ 2
 #EXTVLCOPT:http-referrer=http://web02.dynns.com:1935/
 http://web02.dynns.com:1935/mthnew//Sisu.Road.to.Revenge.2025.TH.mp4/playlist.m3u8
@@ -29,6 +33,10 @@ http://web02.dynns.com:1935/mthnew//Sisu.Road.to.Revenge.2025.TH.mp4/playlist.m3
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/oZg0fthw8egPhvZd2Qtiv8ulJuq.jpg", TRON: Ares (2025) ทรอน แอรีส
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/645abf56072d4cc3e89ebaff/645abf56072d4cc3e89ebaff.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg", Predator Badlands พรีเดเตอร์: แดนเถื่อน (2025) บรรยายไทย
+#EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
+http://web01.dynns.com:1935/msub2016/Predator.Badlands.2025.SUB.mp4/playlist.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qikDbqUNySuvnjv51lpWbYQV3PW.jpg", No Other Choice งานนี้.. ฆ่าเอา (2025)
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
@@ -171,13 +179,6 @@ https://main.24playerhd.com/newplaylist/d312b81f2d633c82a1af7e7f/d312b81f2d633c8
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7MSluuPJEw0EfYc7wPb5Oa5iy3B.jpg", เสือ (2025) Tiger
 #EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
 http://web02.dynns.com:1935/zoom//4.Tigers.2025.ZOOM.mp4/playlist.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg", Predator Badlands พรีเดเตอร์: แดนเถื่อน (2025)
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://master.steamhls88.com/hlsr2/238d580030bbe48b97a58c2aa2e19e59/master.m3u8
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg", Predator Badlands พรีเดเตอร์: แดนเถื่อน (2025)
-#EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
-http://web02.dynns.com:1935/zoom//Predator.Badlands.2025.ZOOM.mp4/playlist.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bYMkAVxY1Z3hA2UWcFXOtvWSfjr.jpg", Good Fortune เทวดาแบบใดห์ (2025) บรรยายไทย
 #EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
