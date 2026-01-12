@@ -22,6 +22,14 @@
 
 
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/brBQ79UmzdpHx4Pl3kKRU8F9ubD.jpg", Sisu 2 (2025) สิสู้…เฒ่ามหากาฬ 2
+#EXTVLCOPT:http-referrer=http://web02.dynns.com:1935/
+http://web02.dynns.com:1935/mthnew//Sisu.Road.to.Revenge.2025.TH.mp4/playlist.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/oZg0fthw8egPhvZd2Qtiv8ulJuq.jpg", TRON: Ares (2025) ทรอน แอรีส
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/645abf56072d4cc3e89ebaff/645abf56072d4cc3e89ebaff.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/1T0kO1cgR430AC9I6jurMOezKwg.jpg", The Rats A Witcher Tale (2025) พวกแรทส์ ตำนานนักล่าจอมอสูร
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/755566c3db662108c4de5ac8/755566c3db662108c4de5ac8.m3u8
@@ -83,10 +91,6 @@ https://main.24playerhd.com/newplaylist/f634ded62e53fbec3eb6bb99/f634ded62e53fbe
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/d9d67fb995287306944f6d27/d9d67fb995287306944f6d27.m3u8
 
-#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/oZg0fthw8egPhvZd2Qtiv8ulJuq.jpg", TRON: Ares (2025) ทรอน แอรีส
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/6212beb87f306a0f29fae67a/6212beb87f306a0f29fae67a.m3u8
-
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://image.tmdb.org/t/p/w260_and_h390_face/j5JspcDP1PhADsb24LSIfYUzDSd.jpg", ท่าแร่ (2025)
 #EXTVLCOPT:http-referrer=http://web02.dynns.com:1935/
 http://web02.dynns.com:1935/nangth//Tha.Rae.The.Exorcist.2025.mp4/playlist.m3u8
@@ -106,10 +110,6 @@ https://main.24playerhd.com/newplaylist/97723b096bda9ac41efa53cb/97723b096bda9ac
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/8hrjZBxfBWy7qCbJ7xOAcCbSqab.jpg", Five Nights at Freddys 2 (2025) 5 คืนสยองที่ร้านเฟรดดี้ 2
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/0f9907f4ede9b7992cf6a7b7/0f9907f4ede9b7992cf6a7b7.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/brBQ79UmzdpHx4Pl3kKRU8F9ubD.jpg", Sisu 2 (2025) สิสู้…เฒ่ามหากาฬ 2
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/5ca294e8383839cbc365a150/5ca294e8383839cbc365a150.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/oXwSYwD5zYKgCwwtRU2NcIy4VXT.jpg", Shelby Oaks (2025) เชลบี้ โอคส์ คลิปเฮี้ยน คดีหลอน
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
