@@ -2,7 +2,7 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv=”X-UA-Compatible” content=”IE=edge, chrome=1″ />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Movie Player</title>
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
@@ -33,12 +33,10 @@
         height: 100vh !important;
       }
     }
-    .back-button {
+    .back-button, .reload-button {
       position: fixed;
       top: 15px;
-      left: 15px;
       z-index: 10000;
-      background-color: rgba(255, 255, 255, 0.2);
       color: #fff;
       padding: 8px 12px;
       border-radius: 4px;
@@ -46,26 +44,31 @@
       font-size: 14px;
       backdrop-filter: blur(4px);
       transition: background-color 0.3s;
+    }
+    .back-button {
+      left: 15px;
+      background-color: rgba(255, 255, 255, 0.2);
     }
     .back-button:hover {
       background-color: rgba(255, 255, 255, 0.4);
     }
     .reload-button {
-      position: fixed;
-      top: 15px;
       right: 20px;
-      z-index: 10000;
       background-color: rgba(0, 123, 255, 0.3);
-      color: #fff;
-      padding: 8px 12px;
-      border-radius: 4px;
-      text-decoration: none;
-      font-size: 14px;
-      backdrop-filter: blur(4px);
-      transition: background-color 0.3s;
     }
     .reload-button:hover {
       background-color: rgba(0, 123, 255, 0.6);
+    }
+    #status {
+      position: fixed;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #fff;
+      font-size: 14px;
+      background: rgba(0,0,0,0.5);
+      padding: 6px 12px;
+      border-radius: 4px;
     }
   </style>
 </head>
@@ -79,36 +82,45 @@
       class="video-js vjs-default-skin"
       controls
       preload="auto"
-      data-setup='{}'>
-      <source id="videoSource" src="" type="">
+      playsinline>
       ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
     </video>
   </div>
 
+  <div id="status">กำลังโหลดวิดีโอ...</div>
+
   <!-- Video.js -->
   <script src="https://unpkg.com/video.js/dist/video.js"></script>
-  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+  <!-- hls.js -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
-  <script>
-    // ดึงค่า url จาก query string เช่น movie.html?url=xxx.m3u8
-    const params = new URLSearchParams(window.location.search);
-    let url = params.get("url") || "";
+<script>
+  const params = new URLSearchParams(window.location.search);
+  let rawUrl = params.get("url") || "";
 
-    // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
-    url = url.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
+  // รองรับทั้ง encode และไม่ encode
+  let url = "";
+  try {
+    url = decodeURIComponent(rawUrl);
+  } catch (e) {
+    url = rawUrl; // ถ้า decode ไม่ได้ก็ใช้ค่าเดิม
+  }
 
-    // ใส่ค่าเข้าไปใน video source
-    const videoSource = document.getElementById("videoSource");
-    if (url) {
-      videoSource.src = url;
-      videoSource.type = url.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
-    }
+  // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
+  url = url.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
 
-    // ปุ่ม reload
-    document.getElementById("reloadBtn").addEventListener("click", () => {
-      location.href = "?url=" + encodeURIComponent(url);
-    });
-  </script>
+  const video = document.getElementById("my-video");
+  const videoSource = document.getElementById("videoSource");
+
+  if (url) {
+    videoSource.src = url;
+    videoSource.type = url.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
+  }
+
+  // ปุ่ม reload → encode ใหม่เสมอ
+  document.getElementById("reloadBtn").addEventListener("click", () => {
+    location.href = "?url=" + encodeURIComponent(url);
+  });
+</script>
 </body>
 </html>
-
