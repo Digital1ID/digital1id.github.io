@@ -20,7 +20,7 @@ let originalSectionsHtml = ''; // เก็บ HTML หน้าหลักเ�
  * ปรับปรุง: เพิ่มการส่งค่า subtitle เข้าไปใน watchUrl
  */
 function createMovieCard(movie) {
-    const movieFile = movie.file || movie.url;
+    const movieFile = movie.file || movie.url || movie.video;
     const movieName = movie.name || '';
     const movieSubtitle = movie.subtitle; // ดึง URL ของ Subtitle
 
@@ -37,7 +37,7 @@ function createMovieCard(movie) {
         <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/30 transition duration-300 poster-card group cursor-pointer">
             <div class="relative">
                 <a href="${watchUrl}">
-                    <img src="${movie.logo || movie.image}"
+                    <img src="${movie.logo || movie.image || movie.video}"
                          onerror="this.onerror=null;this.src='https://via.placeholder.com/150x225?text=No+Image';"
                          alt="${movieName}"
                          class="w-full h-[225px] object-cover transition duration-500">
