@@ -9,19 +9,20 @@
     "name": "TRON: Ares (2025) ทรอน แอรีส",
     "info": "พากย์ไทย",
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/oZg0fthw8egPhvZd2Qtiv8ulJuq.jpg",
-    "video": "https://main.24playerhd.com/newplaylist/645abf56072d4cc3e89ebaff/645abf56072d4cc3e89ebaff.m3u8"
+    "video": "https://master.steamhls88.com/hlsr2/bdbf03fffe0c0a33e1a9065c5b800398/master.m3u8"
   },
   {
     "name": "Sisu 2 (2025) สิสู้…เฒ่ามหากาฬ 2",
     "info": "พากย์ไทย",
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/brBQ79UmzdpHx4Pl3kKRU8F9ubD.jpg",
-    "video": "http://web02.dynns.com:1935/mthnew//Sisu.Road.to.Revenge.2025.TH.mp4/playlist.m3u8"
+    "video": "https://master.steamhls88.com/hlsr2/fa32f6e7863455645a5415d62f8a6faf/master.m3u8"
   },
   {
     "name": "Predator: Badlands (2025) พรีเดเตอร์: แดนเถื่อน",
     "info": "บรรยายไทย",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg",
-    "video": "https://web01.dynns.com:1935/msub2016/Predator.Badlands.2025.SUB.mp4/playlist.m3u8"
+    "video": "https://master.steamhls88.com/hlsr2/2097f3cb82493b08fcfb95ec231a4a2a/master.m3u8",
+    "subtitle": "https://raw.githubusercontent.com/Digital1ID/digital1id.github.io/refs/heads/main/playlist/Predator.srt"
   }
   
 ]
