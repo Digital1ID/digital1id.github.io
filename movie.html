@@ -1,22 +1,26 @@
-<div id="header"></div>
-<script>
-  fetch("header.html")
-    .then(res => res.text())
-    .then(data => {
-      document.getElementById("header").innerHTML = data;
-    });
-</script>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAMORN Movie | หน้าหลัก</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-900 text-white">
+  <div id="header"></div>
+  <script>
+    fetch("header.html")
+      .then(res => res.text())
+      .then(html => { document.getElementById("header").innerHTML = html; })
+      .catch(err => console.error("Header load error:", err));
+  </script>
 
-    <main class="container mx-auto px-4 mt-8">
-        
-        <div id="search-result-container"></div>
-        
-        <div id="movie-sections-container">
-            <p class="text-gray-400">กำลังโหลดรายการหนังทั้งหมด...</p>
-        </div>
-        
-    </main>
+  <main class="container mx-auto px-4 mt-8">
+    <h2 class="text-2xl font-bold">ยินดีต้อนรับสู่ SAMORN Movie</h2>
+    <p class="text-gray-400 mt-2">เลือกดูหนังหรือหมวดหมู่จากเมนูด้านบนได้เลย</p>
+  </main>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
