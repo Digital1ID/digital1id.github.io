@@ -30,6 +30,10 @@ http://web02.dynns.com:1935/mthnew//Sisu.Road.to.Revenge.2025.TH.mp4/playlist.m3
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/645abf56072d4cc3e89ebaff/645abf56072d4cc3e89ebaff.m3u8
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qikDbqUNySuvnjv51lpWbYQV3PW.jpg", No Other Choice งานนี้.. ฆ่าเอา (2025)
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/cb8b3758bbc703a6311d09ae/cb8b3758bbc703a6311d09ae.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/si9tolnefLSUKaqQEGz1bWArOaL.jpg", Wicked: For Good (2025) วิคเค็ด 2
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/bebe6dda8be5d6b46f18b798/bebe6dda8be5d6b46f18b798.m3u8
@@ -182,10 +186,6 @@ http://web02.dynns.com:1935/zoom//Good.Fortune.2025.ZOOM.mp4/playlist.m3u8
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mPuBDGrVIBGOymBxR6rO3iIvBSe.jpg", The Smashing Machine ตำนานเครื่องจักรสังเวียนเดือด (2025)
 #EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
 http://web02.dynns.com:1935/zoom//The.Smashing.Machine.2025.ZOOM.mp4/playlist.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qikDbqUNySuvnjv51lpWbYQV3PW.jpg", No Other Choice งานนี้.. ฆ่าเอา (2025)
-#EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
-http://web02.dynns.com:1935/zoom/No.Other.Choice.2025.ZOOM.mp4/playlist.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xVaAZaSClR9t5Ky96TwBSrZbwW5.jpg", Frankenstein แฟรงเกนสไตน์ (2025)
 #EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
