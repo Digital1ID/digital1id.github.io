@@ -7,32 +7,32 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body class="bg-black text-white">
-    <header class="sticky top-0 z-50 bg-gray-900/90 backdrop-blur-sm shadow-xl">
+<body class="bg-[#141414] text-white">
+    <header class="sticky top-0 z-50 bg-[#141414]/95 backdrop-blur-sm shadow-lg">
         <div class="container mx-auto px-4 py-4 flex flex-wrap justify-between items-center">
             <a href="movie.html" class="mb-2 sm:mb-0">
-                <h1 class="text-3xl font-extrabold text-blue-600 tracking-wider">
+                <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
                     FLIX <span class="text-white">Movie</span>
                 </h1>
             </a>
             
             <nav id="main-nav" class="flex flex-wrap space-x-2 text-sm font-medium">
-                <a href="movie.html" class="py-1 px-3 rounded-full bg-blue-600 text-white">หน้าหลัก</a>
-                <a href="category.html?cat=thai" class="py-1 px-3 rounded-full hover:bg-gray-700">ไทย</a>
-                <a href="category.html?cat=korea" class="py-1 px-3 rounded-full hover:bg-gray-700">เกาหลี</a>
-                <a href="category.html?cat=china" class="py-1 px-3 rounded-full hover:bg-gray-700">จีน/ฮ่องกง</a>
-                <a href="category.html?cat=inter" class="py-1 px-3 rounded-full hover:bg-gray-700">สากล</a>
-                <a href="category.html?cat=cartoon" class="py-1 px-3 rounded-full hover:bg-gray-700">การ์ตูน</a>
-                <a href="category.html?cat=india" class="py-1 px-3 rounded-full hover:bg-gray-700">อินเดีย</a>
-                <a href="category.html?cat=asia" class="py-1 px-3 rounded-full hover:bg-gray-700">เอเชีย</a>
+                <a href="movie.html" class="py-1 px-3 rounded bg-[#E50914] text-white">หน้าหลัก</a>
+                <a href="category.html?cat=thai" class="py-1 px-3 rounded hover:bg-[#333]">ไทย</a>
+                <a href="category.html?cat=korea" class="py-1 px-3 rounded hover:bg-[#333]">เกาหลี</a>
+                <a href="category.html?cat=china" class="py-1 px-3 rounded hover:bg-[#333]">จีน/ฮ่องกง</a>
+                <a href="category.html?cat=inter" class="py-1 px-3 rounded hover:bg-[#333]">สากล</a>
+                <a href="category.html?cat=cartoon" class="py-1 px-3 rounded hover:bg-[#333]">การ์ตูน</a>
+                <a href="category.html?cat=india" class="py-1 px-3 rounded hover:bg-[#333]">อินเดีย</a>
+                <a href="category.html?cat=asia" class="py-1 px-3 rounded hover:bg-[#333]">เอเชีย</a>
             </nav>
 
             <form id="search-form" class="w-full sm:w-auto flex space-x-2 mt-2 sm:mt-0" onsubmit="return false;">
                 <input type="text" id="search-input" placeholder="ค้นหาหนัง..." 
-                       class="px-4 py-2 rounded-full bg-gray-800 border border-gray-700 text-sm focus:ring-2 focus:ring-blue-600 w-full sm:w-64"
+                       class="px-4 py-2 rounded bg-[#333] border border-[#555] text-sm focus:ring-2 focus:ring-[#E50914] text-white w-full sm:w-64"
                        oninput="searchMovies()">
                 <button type="submit" onclick="searchMovies()" 
-                        class="px-3 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700">🔍</button>
+                        class="px-3 py-2 bg-[#E50914] text-white rounded hover:bg-red-700">🔍</button>
             </form>
         </div>
     </header>
