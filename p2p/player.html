@@ -2,7 +2,7 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv=”X-UA-Compatible” content=”IE=edge, chrome=1″ />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Movie Player</title>
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
@@ -20,9 +20,9 @@
       width: 100vw;
       height: 100vh;
     }
-      .video-js {
-        width: 100vw !important;
-        height: 100vh !important;
+    .video-js {
+      width: 100vw !important;
+      height: 100vh !important;
     }
     @media screen and (orientation: landscape) {
       .video-container {
@@ -87,6 +87,7 @@
       preload="auto"
       data-setup='{}'>
       <source id="videoSource" src="" type="">
+      <track id="subtitleTrack" kind="subtitles" srclang="th" label="Thai" src="">
       ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
     </video>
   </div>
@@ -96,25 +97,44 @@
   <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
 
   <script>
-    // ดึงค่า url จาก query string เช่น movie.html?url=xxx.m3u8
-    const params = new URLSearchParams(window.location.search);
-    let url = params.get("file") || "";
-
-    // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
-    url = url.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
-
-    // ใส่ค่าเข้าไปใน video source
-    const videoSource = document.getElementById("videoSource");
-    if (url) {
-      videoSource.src = url;
-      videoSource.type = url.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
     }
 
-    // ปุ่ม reload
-    document.getElementById("reloadBtn").addEventListener("click", () => {
-      location.href = "?url=" + decodeURIComponent(url);
+    document.addEventListener('DOMContentLoaded', () => {
+      const movieUrl = getQueryParam('file') || "";
+      const movieName = getQueryParam('name') || "ไม่พบชื่อหนัง";
+      const subtitleUrl = getQueryParam('subtitle') || "";
+
+      document.title = `ดูหนัง | ${movieName}`;
+
+      if (!movieUrl) {
+        alert("❌ ไม่พบ URL ไฟล์หนังที่จำเป็น");
+        return;
+      }
+
+      // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
+      let url = movieUrl.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
+
+      // ใส่ค่าเข้าไปใน video source
+      const videoSource = document.getElementById("videoSource");
+      videoSource.src = url;
+      videoSource.type = url.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
+
+      // ใส่ subtitle ถ้ามี
+      if (subtitleUrl) {
+        document.getElementById("subtitleTrack").src = subtitleUrl;
+      }
+
+      // ปุ่ม reload
+      document.getElementById("reloadBtn").addEventListener("click", () => {
+        location.href = "?file=" + encodeURIComponent(url) + "&name=" + encodeURIComponent(movieName) + (subtitleUrl ? "&subtitle=" + encodeURIComponent(subtitleUrl) : "");
+      });
+
+      // เริ่มต้น Video.js
+      videojs('my-video');
     });
   </script>
 </body>
 </html>
-
