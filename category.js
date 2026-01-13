@@ -22,13 +22,14 @@ let currentCategory = '';  // หมวดหมู่ที่กำลัง�
  * ปรับปรุง: แก้ไขให้ส่งค่า subtitle เข้าไปใน watchUrl ด้วย
  */
 function createMovieCard(movie) {
+	const moviePlayer= movie.player || 'watch';
     const movieFile = movie.file || movie.url || movie.video;
     const movieName = movie.name || '';
     // *** 1. ดึง URL ของ Subtitle จาก Object ***
     const movieSubtitle = movie.subtitle; 
 
     // 2. สร้าง URL พื้นฐาน (File และ Name)
-    let watchUrl = `watch.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}`;
+    let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}`;
 
     // 3. *** ส่วนที่ถูกแก้ไข: เพิ่ม Subtitle URL ถ้ามีค่า ***
     if (movieSubtitle && movieSubtitle.trim() !== '') {
