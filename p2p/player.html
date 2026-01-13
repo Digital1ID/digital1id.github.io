@@ -98,7 +98,7 @@
   <script>
     // ดึงค่า url จาก query string เช่น movie.html?url=xxx.m3u8
     const params = new URLSearchParams(window.location.search);
-    let url = params.get("url") || "";
+    let url = params.get("file") || "";
 
     // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
     url = url.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
