@@ -24,37 +24,32 @@
       width: 100vw !important;
       height: 100vh !important;
     }
-    @media screen and (orientation: landscape) {
-      .video-container {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        z-index: 9999;
-        background-color: #000;
-      }
-      .video-js {
-        width: 100vw !important;
-        height: 100vh !important;
-      }
-    }
     .back-button, .reload-button {
       position: fixed;
       top: 15px;
       z-index: 10000;
-      color: #fff;
       padding: 8px 12px;
       border-radius: 4px;
       text-decoration: none;
       font-size: 14px;
       backdrop-filter: blur(4px);
       transition: background-color 0.3s;
+      color: #fff;
     }
-    .back-button { left: 15px; background-color: rgba(255, 255, 255, 0.2); }
-    .back-button:hover { background-color: rgba(255, 255, 255, 0.4); }
-    .reload-button { right: 20px; background-color: rgba(0, 123, 255, 0.3); }
-    .reload-button:hover { background-color: rgba(0, 123, 255, 0.6); }
+    .back-button {
+      left: 15px;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    .back-button:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+    .reload-button {
+      right: 20px;
+      background-color: rgba(0, 123, 255, 0.3);
+    }
+    .reload-button:hover {
+      background-color: rgba(0, 123, 255, 0.6);
+    }
   </style>
 </head>
 <body>
@@ -66,71 +61,56 @@
       id="my-video"
       class="video-js vjs-default-skin"
       controls
+      autoplay
       preload="auto"
-      data-setup='{}'>
+      data-setup="{}">
       <source id="videoSource" src="" type="">
-      <track id="subtitleTrack" kind="subtitles" srclang="th" label="Thai" src="">
       ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
     </video>
   </div>
 
   <!-- Video.js -->
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
-  <!-- hls.js -->
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
 
   <script>
-    function getQueryParam(param) {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get(param);
+    // ดึงค่า file และ name จาก query string
+    const params = new URLSearchParams(window.location.search);
+    let file = params.get("file");
+    let name = params.get("name");
+
+    // decode ค่า
+    if (file) file = decodeURIComponent(file);
+    if (name) name = decodeURIComponent(name);
+
+    // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
+    if (file) {
+      file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
-      const movieUrl = getQueryParam('file') || "";
-      const movieName = getQueryParam('name') || "ไม่พบชื่อหนัง";
-      const subtitleUrl = getQueryParam('subtitle') || "";
+    // ใส่ค่าเข้าไปใน video source
+    const videoSource = document.getElementById("videoSource");
+    if (file) {
+      videoSource.src = file;
+      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
+    }
 
-      document.title = `ดูหนัง | ${movieName}`;
-
-      if (!movieUrl) {
-        alert("❌ ไม่พบ URL ไฟล์หนังที่จำเป็น");
-        return;
-      }
-
-      let url = movieUrl.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
-      const video = document.getElementById("my-video");
-      const videoSource = document.getElementById("videoSource");
-
-      // ถ้าเป็น mp4 ใช้ Video.js ตรง ๆ
-      if (!url.includes(".m3u8")) {
-        videoSource.src = url;
-        videoSource.type = "video/mp4";
-        videojs('my-video');
-      } else {
-        // ถ้าเป็น m3u8 → ตรวจสอบว่าเบราว์เซอร์รองรับ HLS หรือไม่
-        if (Hls.isSupported()) {
-          const hls = new Hls();
-          hls.loadSource(url);
-          hls.attachMedia(video);
-        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-          // Safari รองรับ HLS โดยตรง
-          video.src = url;
-        }
-        videojs('my-video');
-      }
-
-      // ใส่ subtitle ถ้ามี
-      if (subtitleUrl) {
-        document.getElementById("subtitleTrack").src = subtitleUrl;
-      }
-
-      // ปุ่ม reload
-      document.getElementById("reloadBtn").addEventListener("click", () => {
-        location.href = "?file=" + encodeURIComponent(movieUrl) + 
-                        "&name=" + encodeURIComponent(movieName) + 
-                        (subtitleUrl ? "&subtitle=" + encodeURIComponent(subtitleUrl) : "");
-      });
+    // สร้าง player
+    const player = videojs('my-video');
+    player.ready(() => {
+      player.controlBar.addChild('fullscreenToggle');
     });
+
+    // ปุ่ม reload
+    document.getElementById("reloadBtn").addEventListener("click", (e) => {
+      e.preventDefault();
+      location.reload();
+    });
+
+    // แสดงชื่อเรื่องใน console (หรือจะเอาไปใช้ใน UI ก็ได้)
+    if (name) {
+      console.log("Now Playing:", name);
+    }
   </script>
 </body>
 </html>
