@@ -96,45 +96,23 @@
   <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
 
   <script>
-    function getQueryParam(param) {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get(param);
-    }
+    // ดึงค่า url จาก query string เช่น movie.html?url=xxx.m3u8
+    const params = new URLSearchParams(window.location.search);
+    let url = params.get("file") || "";
 
-    document.addEventListener('DOMContentLoaded', () => {
-      const movieUrl = getQueryParam('file') || "";
-      const movieName = getQueryParam('name') || "ไม่พบชื่อหนัง";
-      const subtitleUrl = getQueryParam('subtitle') || "";
+    // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
+    url = url.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
 
-      document.title = ดูหนัง | ${movieName};
-
-      if (!movieUrl) {
-        alert("❌ ไม่พบ URL ไฟล์หนังที่จำเป็น");
-        return;
-      }
-
-      // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
-      let url = movieUrl.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
-
-      // ใส่ค่าเข้าไปใน video source
-      const videoSource = document.getElementById("videoSource");
+    // ใส่ค่าเข้าไปใน video source
+    const videoSource = document.getElementById("videoSource");
+    if (url) {
       videoSource.src = url;
       videoSource.type = url.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
+    }
 
-      // ใส่ subtitle ถ้ามี
-      if (subtitleUrl) {
-        document.getElementById("subtitleTrack").src = subtitleUrl;
-      }
-
-      // ปุ่ม reload
-      document.getElementById("reloadBtn").addEventListener("click", () => {
-        location.href = "?file=" + encodeURIComponent(movieUrl) + 
-                        "&name=" + encodeURIComponent(movieName) + 
-                        (subtitleUrl ? "&subtitle=" + encodeURIComponent(subtitleUrl) : "");
-      });
-
-      // เริ่มต้น Video.js
-      videojs('my-video');
+    // ปุ่ม reload
+    document.getElementById("reloadBtn").addEventListener("click", () => {
+      location.href = "?url=" + decodeURIComponent(url);
     });
   </script>
 </body>
