@@ -2,7 +2,7 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv=”X-UA-Compatible” content=”IE=edge, chrome=1″ />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Movie Player</title>
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
@@ -20,9 +20,9 @@
       width: 100vw;
       height: 100vh;
     }
-    .video-js {
-      width: 100vw !important;
-      height: 100vh !important;
+      .video-js {
+        width: 100vw !important;
+        height: 100vh !important;
     }
     @media screen and (orientation: landscape) {
       .video-container {
@@ -87,13 +87,13 @@
       preload="auto"
       data-setup='{}'>
       <source id="videoSource" src="" type="">
-      <track id="subtitleTrack" kind="subtitles" srclang="th" label="Thai" src="">
       ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
     </video>
   </div>
 
-  <!-- Video.js (HLS รองรับในตัวแล้ว ไม่ต้องใช้ contrib-hls) -->
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  <!-- Video.js -->
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
 
   <script>
     function getQueryParam(param) {
@@ -106,7 +106,7 @@
       const movieName = getQueryParam('name') || "ไม่พบชื่อหนัง";
       const subtitleUrl = getQueryParam('subtitle') || "";
 
-      document.title = `ดูหนัง | ${movieName}`;
+      document.title = ดูหนัง | ${movieName};
 
       if (!movieUrl) {
         alert("❌ ไม่พบ URL ไฟล์หนังที่จำเป็น");
@@ -139,3 +139,4 @@
   </script>
 </body>
 </html>
+
