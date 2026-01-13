@@ -129,7 +129,7 @@
 
       // ปุ่ม reload
       document.getElementById("reloadBtn").addEventListener("click", () => {
-        location.href = "?file=" + encodeURIComponent(url) + "&name=" + encodeURIComponent(movieName) + (subtitleUrl ? "&subtitle=" + encodeURIComponent(subtitleUrl) : "");
+        location.href = "?file=" + decodeURIComponent(url) + "&name=" + encodeURIComponent(movieName) + (subtitleUrl ? "&subtitle=" + encodeURIComponent(subtitleUrl) : "");
       });
 
       // เริ่มต้น Video.js
