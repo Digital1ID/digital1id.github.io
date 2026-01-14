@@ -50,24 +50,12 @@
     .reload-button:hover {
       background-color: rgba(0, 123, 255, 0.6);
     }
-    #videoTitle {
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      color: #fff;
-      background: rgba(0,0,0,0.5);
-      padding: 6px 12px;
-      border-radius: 4px;
-      font-size: 16px;
-      z-index: 10000;
-    }
   </style>
 </head>
 <body>
   <a href="../movie.html" class="back-button">ย้อนกลับ</a>
-  <a href="#" id="reloadBtn" class="reload-button">โหลดซ้ำ</a>
   <!-- Overlay ชื่อเรื่อง -->
-  <div id="videoTitle"></div>
+  <a href="#" id="reloadBtn" class="reload-button"><div id="videoTitle"></div></a>
 
   <div class="video-container">
     <video
