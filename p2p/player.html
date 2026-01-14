@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Movie Player</title>
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css"> 
   <style>
     body {
       margin: 0;
@@ -53,11 +55,21 @@
     }
   </style>
 </head>
-<body>
-  <a href="../movie.html" class="back-button">ย้อนกลับ</a>
-  <!-- Overlay ชื่อเรื่อง -->
-  <a href="#" id="reloadBtn" class="reload-button"><div id="videoTitle"></div></a>
+<body class="bg-[#141414] text-white">
 
+    <!-- Header -->
+    <header class="bg-[#141414] shadow-lg">
+        <div class="container mx-auto px-4 py-4 flex justify-start items-center">
+            <a href="movie.html">
+                <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
+                    FLIX <span class="text-white">Movie</span>
+                </h1>
+            </a>
+        </div>
+    </header>
+
+  <!-- Main -->
+<main class="container mx-auto px-4 mt-8 mb-16">
   <div class="video-container">
     <video
       id="my-video"
@@ -70,6 +82,12 @@
       ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
     </video>
   </div>
+</main>
+
+  <a href="../movie.html" class="back-button">ย้อนกลับ</a>
+  <!-- Overlay ชื่อเรื่อง -->
+  <a href="#" id="reloadBtn" class="reload-button">โหลดซ้ำ</a>
+<div id="videoTitle"></div>
 
   <script>
     // ดึงค่า file และ name จาก query string
