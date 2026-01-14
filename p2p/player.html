@@ -8,78 +8,38 @@
   <title>Movie Player</title>
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      margin: 0;
-      background-color: #000;
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-    }
-    .video-container {
-      aspect-ratio: 16/9;
-      max-width: 854px;
-      width: 100vw;
-      margin: 0 auto;
-    }
+      <style>
+        body { margin: 0; }
+        .video-container {
+            aspect-ratio: 16/9; 
+            max-width: 854px;
+            width: 100%;
+            margin: 0 auto;
+        }
     .video-js {
       width: 100% !important;
       height: 100% !important;
       border-radius: 8px;
       overflow: hidden;
     }
-    .overlay-title {
-      position: absolute;
-      bottom: 20px;
-      left: 20px;
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #fff;
-      text-shadow: 0 2px 6px rgba(0,0,0,0.8);
-      background: rgba(0,0,0,0.4);
-      padding: 8px 12px;
-      border-radius: 6px;
-    }
-    .control-btn {
-      position: absolute;
-      top: 20px;
-      z-index: 10000;
-      padding: 8px 14px;
-      border-radius: 6px;
-      font-size: 14px;
-      font-weight: 600;
-      color: #fff;
-      backdrop-filter: blur(6px);
-      transition: all 0.3s;
-    }
-    .back-button {
-      left: 20px;
-      background: rgba(255,255,255,0.15);
-    }
-    .back-button:hover {
-      background: rgba(255,255,255,0.35);
-    }
-    .reload-button {
-      right: 20px;
-      background: rgba(229,9,20,0.6);
-    }
-    .reload-button:hover {
-      background: rgba(229,9,20,0.9);
-    }
-  </style>
+    </style>
 </head>
 <body class="bg-[#141414] text-white">
 
-  <!-- Header -->
-  <header class="bg-[#141414] shadow-lg">
+    <!-- Header -->
+    <header class="bg-[#141414] shadow-lg">
         <div class="container mx-auto px-4 py-4 flex justify-start items-center">
-  <a href="../movie.html" class="control-btn back-button">ย้อนกลับ</a>
-  <a href="#" id="reloadBtn" class="control-btn reload-button">โหลดซ้ำ</a>
+            <a href="../movie.html">
+                <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
+                    FLIX <span class="text-white">Movie</span>
+                </h1>
+            </a>
         </div>
-  </header>
+    </header>
 
-  <!-- Main -->
-    <div class="video-container container mx-auto px-4 mt-6 mb-16">
+    <!-- Main -->
+    <main class="container mx-auto px-4 mt-8 mb-16">
+    <div class="video-container">
       <video
         id="my-video"
         class="video-js vjs-big-play-centered"
@@ -92,6 +52,7 @@
       </video>
     </div>
     <h2 id="videoTitle" class="text-2xl font-bold mt-4 mb-4 text-[#E50914]">กำลังโหลด...</h2>
+    </main>
 
   <script>
     const params = new URLSearchParams(window.location.search);
