@@ -18,10 +18,9 @@
     }
     .video-container {
       aspect-ratio: 16/9;
-      max-width: 1280px;
+      max-width: 854px;
       width: 100%;
       margin: 0 auto;
-      position: relative;
     }
     .video-js {
       width: 100% !important;
@@ -73,13 +72,8 @@
 
   <!-- Header -->
   <header class="bg-[#141414] shadow-lg">
-    <div class="container mx-auto px-4 py-4 flex justify-start items-center">
-      <a href="movie.html">
-        <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
-          FLIX <span class="text-white">Movie</span>
-        </h1>
-      </a>
-    </div>
+  <a href="../movie.html" class="control-btn back-button">ย้อนกลับ</a>
+  <a href="#" id="reloadBtn" class="control-btn reload-button">โหลดซ้ำ</a>
   </header>
 
   <!-- Main -->
@@ -96,12 +90,8 @@
         ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
       </video>
     </div>
-    <h2 id="movie-title" class="text-2xl font-bold mt-4 mb-4 text-[#E50914]">กำลังโหลด...</h2>
+    <h2 id="videoTitle" class="text-2xl font-bold mt-4 mb-4 text-[#E50914]">กำลังโหลด...</h2>
   </main>
-
-  <!-- Buttons -->
-  <a href="../movie.html" class="control-btn back-button">ย้อนกลับ</a>
-  <a href="#" id="reloadBtn" class="control-btn reload-button">โหลดซ้ำ</a>
 
   <script>
     const params = new URLSearchParams(window.location.search);
