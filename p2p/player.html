@@ -83,29 +83,22 @@
   <!-- Overlay ชื่อเรื่อง -->
   <div id="videoTitle"></div>
 
-  <script>
-    // ฟังก์ชัน decode ที่ปลอดภัยและรองรับหลายรอบ
-    function safeDecode(value, maxRounds = 3) {
-      if (!value) return value;
-      let s = value;
-      let rounds = 0;
-      while (rounds < maxRounds) {
-        try {
-          const decoded = decodeURIComponent(s.replace(/\+/g, '%20'));
-          if (decoded === s) break;
-          s = decoded;
-          rounds++;
-        } catch (e) {
-          break;
-        }
-      }
-      return s;
-    }
+  <!-- Video.js core -->
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  <!-- HLS support -->
+  <script src="https://cdn.jsdelivr.net/npm/videojs-contrib-hls/dist/videojs-contrib-hls.min.js"></script>
+  <!-- Quality selector plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/videojs-http-source-selector/dist/videojs-http-source-selector.min.js"></script>
 
+  <script>
     // ดึงค่า file และ name จาก query string
     const params = new URLSearchParams(window.location.search);
-    let file = safeDecode(params.get("file") || "");
-    let name = safeDecode(params.get("name") || "");
+    let file = params.get("file");
+    let name = params.get("name");
+
+    // decode ค่า
+    if (file) file = decodeURIComponent(file);
+    if (name) name = decodeURIComponent(name);
 
     // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
     if (file) {
@@ -131,7 +124,10 @@
       document.getElementById("videoTitle").textContent = name;
       console.log("Now Playing:", name);
     }
+
+    // สร้าง player และเปิดใช้งาน Quality Selector
+    const player = videojs('my-video');
+    player.httpSourceSelector(); // เพิ่มเมนูเลือกความละเอียด
   </script>
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
