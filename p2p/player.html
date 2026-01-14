@@ -50,6 +50,17 @@
     .reload-button:hover {
       background-color: rgba(0, 123, 255, 0.6);
     }
+    #videoTitle {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      color: #fff;
+      background: rgba(0,0,0,0.5);
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 16px;
+      z-index: 10000;
+    }
   </style>
 </head>
 <body>
@@ -69,16 +80,32 @@
     </video>
   </div>
 
+  <!-- Overlay ชื่อเรื่อง -->
+  <div id="videoTitle"></div>
 
   <script>
+    // ฟังก์ชัน decode ที่ปลอดภัยและรองรับหลายรอบ
+    function safeDecode(value, maxRounds = 3) {
+      if (!value) return value;
+      let s = value;
+      let rounds = 0;
+      while (rounds < maxRounds) {
+        try {
+          const decoded = decodeURIComponent(s.replace(/\+/g, '%20'));
+          if (decoded === s) break;
+          s = decoded;
+          rounds++;
+        } catch (e) {
+          break;
+        }
+      }
+      return s;
+    }
+
     // ดึงค่า file และ name จาก query string
     const params = new URLSearchParams(window.location.search);
-    let file = params.get("file");
-    let name = params.get("name");
-
-    // decode ค่า
-    if (file) file = decodeURIComponent(file);
-    if (name) name = decodeURIComponent(name);
+    let file = safeDecode(params.get("file") || "");
+    let name = safeDecode(params.get("name") || "");
 
     // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
     if (file) {
@@ -98,11 +125,13 @@
       location.reload();
     });
 
-    // แสดงชื่อเรื่องใน console (หรือจะเอาไปใช้ใน UI ก็ได้)
+    // แสดงชื่อเรื่องทั้งใน title และ overlay
     if (name) {
+      document.title = name;
+      document.getElementById("videoTitle").textContent = name;
       console.log("Now Playing:", name);
     }
   </script>
-<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
