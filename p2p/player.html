@@ -104,10 +104,12 @@
     }
 
     // ปุ่ม reload
-    document.getElementById("reloadBtn").addEventListener("click", (e) => {
-      e.preventDefault();
-      location.reload();
-    });
+document.getElementById("reloadBtn").addEventListener("click", (e) => {
+  e.preventDefault();
+  const player = videojs("my-video");
+  player.src({ src: file, type: videoSource.type });
+  player.play();
+});
 
     if (name) {
       document.title = name;
