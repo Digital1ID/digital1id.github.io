@@ -8,6 +8,7 @@ const CATEGORIES = [
     { key: 'cartoon', title: 'การ์ตูน/อนิเมชั่น' },
     { key: 'india', title: 'หนังอินเดีย' },
     { key: 'asia', title: 'หนังเอเซีย' },
+    { key: 'laconcin', title: 'ละครจีน' }
 ];
 
 const ITEMS_PER_ROW = 16; 
