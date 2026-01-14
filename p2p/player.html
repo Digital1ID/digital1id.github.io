@@ -66,6 +66,8 @@
 <body>
   <a href="../movie.html" class="back-button">ย้อนกลับ</a>
   <a href="#" id="reloadBtn" class="reload-button">โหลดซ้ำ</a>
+  <!-- Overlay ชื่อเรื่อง -->
+  <div id="videoTitle"></div>
 
   <div class="video-container">
     <video
@@ -79,9 +81,6 @@
       ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
     </video>
   </div>
-
-  <!-- Overlay ชื่อเรื่อง -->
-  <div id="videoTitle"></div>
 
   <script>
     // ดึงค่า file และ name จาก query string
