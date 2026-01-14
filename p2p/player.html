@@ -18,8 +18,8 @@
     }
     .video-container {
       aspect-ratio: 16/9;
-      max-width: 854px;
-      width: 100%;
+      width: 100vw;
+      height: 100vh;
       margin: 0 auto;
     }
     .video-js {
@@ -72,8 +72,10 @@
 
   <!-- Header -->
   <header class="bg-[#141414] shadow-lg">
+        <div class="container mx-auto px-4 py-4 flex justify-start items-center">
   <a href="../movie.html" class="control-btn back-button">ย้อนกลับ</a>
   <a href="#" id="reloadBtn" class="control-btn reload-button">โหลดซ้ำ</a>
+        </div>
   </header>
 
   <!-- Main -->
