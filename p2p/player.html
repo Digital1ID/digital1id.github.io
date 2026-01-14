@@ -72,53 +72,48 @@
   </div>
 
   <script>
-  // ดึงค่า file และ name จาก query string
-  const params = new URLSearchParams(window.location.search);
-  let file = params.get("file");
-  let name = params.get("name");
+    // ดึงค่า file และ name จาก query string
+    const params = new URLSearchParams(window.location.search);
+    let file = params.get("file");
+    let name = params.get("name");
 
-  // decode ค่า
-  if (file) file = decodeURIComponent(file);
-  if (name) name = decodeURIComponent(name);
+    // decode ค่า
+    if (file) file = decodeURIComponent(file);
+    if (name) name = decodeURIComponent(name);
 
-  // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
-  if (file) {
-    file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
-  }
+    // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
+    if (file) {
+      file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
+    }
 
-  // ฟังก์ชันตรวจสอบ MIME type ตามนามสกุลไฟล์
-  function getMimeType(file) {
-    if (!file) return "application/x-mpegURL"; // fallback
+    // ใส่ค่าเข้าไปใน video source
+    const videoSource = document.getElementById("videoSource");
+    if (file) {
+      videoSource.src = file;
+      videoSource.type = file.includes(".m3u8")
+  ? "application/x-mpegURL"
+  : file.includes(".mp4")
+    ? "video/mp4"
+    : file.includes(".webm")
+      ? "video/webm"
+      : file.includes(".ogg")
+        ? "video/ogg"
+        : "video/mp4"; // ค่า default
+    }
 
-    if (file.endsWith(".m3u8")) return "application/x-mpegURL";
-    if (file.endsWith(".mp4")) return "video/mp4";
-    if (file.endsWith(".webm")) return "video/webm";
-    if (file.endsWith(".ogg")) return "video/ogg";
+    // ปุ่ม reload
+    document.getElementById("reloadBtn").addEventListener("click", (e) => {
+      e.preventDefault();
+      location.reload();
+    });
 
-    return "application/x-mpegURL"; // default fallback
-  }
-
-  // ใส่ค่าเข้าไปใน video source
-  const videoSource = document.getElementById("videoSource");
-  if (file) {
-    videoSource.src = file;
-    videoSource.type = getMimeType(file);
-  }
-
-  // ปุ่ม reload
-  document.getElementById("reloadBtn").addEventListener("click", (e) => {
-    e.preventDefault();
-    location.reload();
-  });
-
-  // แสดงชื่อเรื่องทั้งใน title และ overlay และ console
-  if (name) {
-    document.title = name;
-    document.getElementById("videoTitle").textContent = name;
-    console.log("Now Playing:", name);
-  }
-</script>
-
+    // แสดงชื่อเรื่องทั้งใน title และ overlay และ console (หรือจะเอาไปใช้ใน UI ก็ได้)
+    if (name) {
+      document.title = name;
+      document.getElementById("videoTitle").textContent = name;
+      console.log("Now Playing:", name);
+    }
+  </script>
 <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
