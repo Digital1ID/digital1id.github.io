@@ -90,15 +90,7 @@
     const videoSource = document.getElementById("videoSource");
     if (file) {
       videoSource.src = file;
-      videoSource.type = file.includes(".m3u8")
-  ? "application/x-mpegURL"
-  : file.includes(".mp4")
-    ? "video/mp4"
-    : file.includes(".webm")
-      ? "video/webm"
-      : file.includes(".ogg")
-        ? "video/ogg"
-        : "video/mp4"; // ค่า default
+      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
     }
 
     // ปุ่ม reload
