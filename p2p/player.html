@@ -108,6 +108,7 @@ document.getElementById("reloadBtn").addEventListener("click", (e) => {
   e.preventDefault();
   const player = videojs("my-video");
   player.src({ src: file, type: videoSource.type });
+  player.load();
   player.play();
 });
 
