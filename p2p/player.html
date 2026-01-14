@@ -88,14 +88,14 @@
 
   // ฟังก์ชันตรวจสอบ MIME type ตามนามสกุลไฟล์
   function getMimeType(file) {
-    if (!file) return "video/mp4"; // fallback
+    if (!file) return "application/x-mpegURL"; // fallback
 
     if (file.endsWith(".m3u8")) return "application/x-mpegURL";
     if (file.endsWith(".mp4")) return "video/mp4";
     if (file.endsWith(".webm")) return "video/webm";
     if (file.endsWith(".ogg")) return "video/ogg";
 
-    return "video/mp4"; // default fallback
+    return "application/x-mpegURL"; // default fallback
   }
 
   // ใส่ค่าเข้าไปใน video source
