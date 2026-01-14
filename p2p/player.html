@@ -69,10 +69,6 @@
     </video>
   </div>
 
-  <!-- Video.js -->
-  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
-<script src="https://unpkg.com/video.js/dist/video.js"></script>
-<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
 
   <script>
     // ดึงค่า file และ name จาก query string
@@ -95,12 +91,6 @@
       videoSource.src = file;
       videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
     }
-
-    // สร้าง player
-    const player = videojs('my-video');
-    player.ready(() => {
-      player.controlBar.addChild('fullscreenToggle');
-    });
 
     // ปุ่ม reload
     document.getElementById("reloadBtn").addEventListener("click", (e) => {
