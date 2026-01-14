@@ -8,124 +8,130 @@
   <title>Movie Player</title>
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css"> 
   <style>
     body {
       margin: 0;
       background-color: #000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       width: 100vw;
       height: 100vh;
+      overflow: hidden;
     }
     .video-container {
-      aspect-ratio: 16/9; 
-      max-width: 854px;
+      aspect-ratio: 16/9;
+      max-width: 1280px;
       width: 100%;
       margin: 0 auto;
+      position: relative;
     }
     .video-js {
-      width: 100vw !important;
-      height: 100vh !important;
+      width: 100% !important;
+      height: 100% !important;
+      border-radius: 8px;
+      overflow: hidden;
     }
-    .back-button, .reload-button {
-      position: fixed;
-      top: 15px;
-      z-index: 10000;
-      padding: 8px 12px;
-      border-radius: 4px;
-      text-decoration: none;
-      font-size: 14px;
-      backdrop-filter: blur(4px);
-      transition: background-color 0.3s;
+    .overlay-title {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      font-size: 1.5rem;
+      font-weight: bold;
       color: #fff;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+      background: rgba(0,0,0,0.4);
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+    .control-btn {
+      position: fixed;
+      top: 20px;
+      z-index: 10000;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+      backdrop-filter: blur(6px);
+      transition: all 0.3s;
     }
     .back-button {
-      left: 15px;
-      background-color: rgba(255, 255, 255, 0.2);
+      left: 20px;
+      background: rgba(255,255,255,0.15);
     }
     .back-button:hover {
-      background-color: rgba(255, 255, 255, 0.4);
+      background: rgba(255,255,255,0.35);
     }
     .reload-button {
       right: 20px;
-      background-color: rgba(0, 123, 255, 0.3);
+      background: rgba(229,9,20,0.6);
     }
     .reload-button:hover {
-      background-color: rgba(0, 123, 255, 0.6);
+      background: rgba(229,9,20,0.9);
     }
   </style>
 </head>
 <body class="bg-[#141414] text-white">
 
-    <!-- Header -->
-    <header class="bg-[#141414] shadow-lg">
-        <div class="container mx-auto px-4 py-4 flex justify-start items-center">
-            <a href="movie.html">
-                <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
-                    FLIX <span class="text-white">Movie</span>
-                </h1>
-            </a>
-        </div>
-    </header>
+  <!-- Header -->
+  <header class="bg-[#141414] shadow-lg">
+    <div class="container mx-auto px-4 py-4 flex justify-start items-center">
+      <a href="movie.html">
+        <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
+          FLIX <span class="text-white">Movie</span>
+        </h1>
+      </a>
+    </div>
+  </header>
 
   <!-- Main -->
-<main class="container mx-auto px-4 mt-8 mb-16">
-  <div class="video-container">
-    <video
-      id="my-video"
-      class="video-js vjs-default-skin"
-      controls
-      autoplay
-      preload="auto"
-      data-setup="{}">
-      <source id="videoSource" src="" type="">
-      ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
-    </video>
-  </div>
-</main>
+  <main class="container mx-auto px-4 mt-6 mb-16">
+    <div class="video-container">
+      <video
+        id="my-video"
+        class="video-js vjs-big-play-centered"
+        controls
+        autoplay
+        preload="auto"
+        data-setup="{}">
+        <source id="videoSource" src="" type="">
+        ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
+      </video>
+      <div id="videoTitle" class="overlay-title"></div>
+    </div>
+  </main>
 
-  <a href="../movie.html" class="back-button">ย้อนกลับ</a>
-  <!-- Overlay ชื่อเรื่อง -->
-  <a href="#" id="reloadBtn" class="reload-button">โหลดซ้ำ</a>
-<div id="videoTitle"></div>
+  <!-- Buttons -->
+  <a href="../movie.html" class="control-btn back-button">ย้อนกลับ</a>
+  <a href="#" id="reloadBtn" class="control-btn reload-button">โหลดซ้ำ</a>
 
   <script>
-    // ดึงค่า file และ name จาก query string
     const params = new URLSearchParams(window.location.search);
     let file = params.get("file");
     let name = params.get("name");
 
-    // decode ค่า
     if (file) file = decodeURIComponent(file);
     if (name) name = decodeURIComponent(name);
 
-    // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
     if (file) {
       file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
     }
 
-    // ใส่ค่าเข้าไปใน video source
     const videoSource = document.getElementById("videoSource");
     if (file) {
       videoSource.src = file;
       videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
     }
 
-    // ปุ่ม reload
     document.getElementById("reloadBtn").addEventListener("click", (e) => {
       e.preventDefault();
       location.reload();
     });
 
-    // แสดงชื่อเรื่องทั้งใน title และ overlay และ console (หรือจะเอาไปใช้ใน UI ก็ได้)
     if (name) {
       document.title = name;
       document.getElementById("videoTitle").textContent = name;
       console.log("Now Playing:", name);
     }
   </script>
-<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
