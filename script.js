@@ -50,19 +50,21 @@ async function fetchMovies(url) {
   if (!res.ok) throw new Error("โหลดไม่สำเร็จ");
   const rawText = await res.text();
 
-  try {
-    // กรณี response เป็น JSON เพียว ๆ
-    return JSON.parse(rawText);
-  } catch {
-    // กรณี response มี HTML ครอบ → ตัดเฉพาะส่วนที่เป็น JSON array
-    const start = rawText.indexOf("[");
-    const end = rawText.lastIndexOf("]") + 1;
-    if (start >= 0 && end > start) {
-      const jsonText = rawText.slice(start, end);
+  // หาเฉพาะส่วนที่เป็น JSON array
+  const start = rawText.indexOf("[");
+  const end = rawText.lastIndexOf("]") + 1;
+
+  if (start >= 0 && end > start) {
+    const jsonText = rawText.slice(start, end).trim();
+    try {
       return JSON.parse(jsonText);
+    } catch (e) {
+      console.error("Parse error:", e, "jsonText=", jsonText);
+      throw e;
     }
-    throw new Error("Response ไม่ใช่ JSON ที่ถูกต้อง");
   }
+
+  throw new Error("Response ไม่มี JSON array");
 }
 
 // --- [ LOAD MOVIES ] ---
