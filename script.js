@@ -16,7 +16,6 @@ let allMoviesByTitle = {};
 let originalSectionsHtml = ''; // เก็บ HTML หน้าหลักเดิม
 
 // --- [ COMMON FUNCTIONS ] ---
-
 function createMovieCard(movie) {
     const moviePlayer = movie.player || 'watch';
     const movieFile = movie.file || movie.url || movie.video;
@@ -68,7 +67,6 @@ function createMovieSection(title, movies, categoryKey, isSearch = false) {
 }
 
 // --- [ INDEX.HTML LOGIC ] ---
-
 async function loadAllMovies() {
     const container = document.getElementById('movie-sections-container');
     const searchResultContainer = document.getElementById('search-result-container');
@@ -84,8 +82,8 @@ async function loadAllMovies() {
     for (const category of CATEGORIES) {
         let movies = [];
         try {
-            // ✅ ใช้ JSON-Parser.html สำหรับทุก category
-            const parserUrl = `./JSON-Parser.html?file=m3u/${category.key}.txt`;
+            // ✅ ใช้ JSON-Parser.html พร้อม mode=json สำหรับทุก category
+            const parserUrl = `./JSON-Parser.html?file=m3u/${category.key}.txt&mode=json`;
             const response = await fetch(parserUrl);
 
             if (!response.ok) {
