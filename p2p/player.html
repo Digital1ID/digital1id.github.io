@@ -10,7 +10,13 @@
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    body { margin: 0; }
+   body {
+    margin: 0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    line-height: 1.5;
+   }
     .video-container {
       aspect-ratio: 16/9; 
       max-width: 854px;
@@ -23,6 +29,16 @@
       height: 100% !important;
       border-radius: 8px;
       overflow: hidden;
+    }
+  #videoTitle {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+      background: #111;
     }
     .overlay-btn {
       position: absolute;
@@ -83,7 +99,7 @@
       <a href="#" id="reloadBtn" class="overlay-btn reload-button">โหลดซ้ำ</a>
     </div>
 
-    <h2 id="videoTitle" class="text-2xl font-bold mt-4 mb-4 text-[#E50914]">กำลังโหลด...</h2>
+    <div id="videoTitle" class="text-2xl font-bold mt-4 mb-4 text-[#E50914]">กำลังโหลด...</div>
   </main>
 
   <script>
