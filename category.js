@@ -139,7 +139,7 @@ async function loadCategory(categoryKey) {
     let movies = [];
     try {
         // ✅ ใช้ JSON-Parser.html พร้อม mode=json สำหรับทุก category
-        const parserUrl = `./JSON-Parser.html?file=m3u/${categoryKey}.txt&mode=json`;
+        const parserUrl = `./JSON-Parser.html?file=m3u/movie/${categoryKey}.txt&mode=json`;
         const response = await fetch(parserUrl);
         if (!response.ok) throw new Error(`Failed to load: ${parserUrl}`);
         movies = await response.json();
