@@ -83,7 +83,7 @@ async function loadAllMovies() {
         let movies = [];
         try {
             // ✅ ใช้ JSON-Parser.html พร้อม mode=json สำหรับทุก category
-            const parserUrl = `./JSON-Parser.html?file=m3u/${category.key}.txt&mode=json`;
+            const parserUrl = `./JSON-Parser.html?file=m3u/movie/${category.key}.txt&mode=json`;
             const response = await fetch(parserUrl);
 
             if (!response.ok) {
@@ -112,7 +112,7 @@ async function loadAllMovies() {
         container.innerHTML = allSectionsHtml;
         originalSectionsHtml = allSectionsHtml;
     } else {
-        container.innerHTML = '<p class="text-blue-500">ไม่พบรายการหนังในทุกหมวดหมู่. โปรดตรวจสอบไฟล์ TXT ในโฟลเดอร์ **m3u/**</p>';
+        container.innerHTML = '<p class="text-blue-500">ไม่พบรายการหนังในทุกหมวดหมู่. โปรดตรวจสอบไฟล์ TXT ในโฟลเดอร์ **m3u**</p>';
         originalSectionsHtml = '';
     }
 }
