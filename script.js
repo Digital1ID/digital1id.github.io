@@ -57,7 +57,7 @@ async function loadAllMovies() {
 
     try {
         // ✅ โหลดจาก Parser เพียงครั้งเดียว
-        const response = await fetch(`./JSON-Parser.html?file=m3u/movie/new.txt&mode=json`);
+        const response = await fetch(`https://digital1id.github.io/JSON-Parser.html?file=m3u/movie/new.txt&mode=json`);
         if (!response.ok) throw new Error("ไม่สามารถโหลดข้อมูลจาก Parser ได้");
         allMovies = await response.json();
     } catch (error) {
