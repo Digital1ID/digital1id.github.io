@@ -1,28 +1,13 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>M3U8 JSON Parser</title>
+</head>
+<body>
+<pre id="output">[]</pre>
 
-<pre id="output"></pre>
 <script>
-async function main() {
-  const params = new URLSearchParams(window.location.search);
-  const fileUrl = params.get("file");
-  const mode = params.get("mode");
-
-  if (!fileUrl) {
-    document.body.innerText = "กรุณาระบุพารามิเตอร์ ?file=...";
-    return;
-  }
-
-  const res = await fetch(fileUrl);
-  const text = await res.text();
-  const movies = parseM3U8(text); // ฟังก์ชัน parseM3U8 ที่คุณเขียนไว้
-
-  if (mode === "json") {
-    // ✅ ส่งออก JSON จริง ๆ
-    document.body.innerText = JSON.stringify(movies);
-  } else {
-    document.getElementById("output").textContent = JSON.stringify(movies, null, 2);
-  }
-}
-
 function parseM3U8(text) {
   const lines = text.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 0);
   const entries = [];
@@ -43,8 +28,7 @@ function parseM3U8(text) {
     current = null;
   };
 
-  for (let i=0; i<lines.length; i++) {
-    const line = lines[i];
+  for (let line of lines) {
     if (line.startsWith("#EXTINF")) {
       flush();
       current = {
@@ -89,10 +73,11 @@ function parseM3U8(text) {
     const movies = parseM3U8(text);
 
     if (mode === "json") {
-      // ✅ ส่งออก JSON จริงๆ ให้ fetch() อ่านได้
-      document.body.innerText = JSON.stringify(movies);
+      // ✅ ส่งออก JSON เพียว ๆ
+      document.open();
+      document.write(JSON.stringify(movies));
+      document.close();
     } else {
-      // แสดงผลในหน้า HTML
       document.getElementById("output").textContent = JSON.stringify(movies, null, 2);
     }
   } catch (e) {
@@ -100,4 +85,5 @@ function parseM3U8(text) {
   }
 })();
 </script>
-
+</body>
+</html>
