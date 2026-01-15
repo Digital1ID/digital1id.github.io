@@ -82,7 +82,7 @@ async function loadAllMovies() {
 
   try {
     // ✅ โหลดจาก Parser เพียงครั้งเดียว
-    const movies = await fetchMovies("./JSON-Parser.html?file=m3u/all.txt&mode=json");
+    const movies = await fetchMovies("./JSON-Parser.html?file=m3u/movie/new.txt&mode=json");
     allMovies = movies;
 
     // ✅ สร้าง section ตาม group
