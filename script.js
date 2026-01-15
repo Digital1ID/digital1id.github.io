@@ -44,6 +44,27 @@ function createMovieSection(title, movies) {
   `;
 }
 
+// --- [ SAFE JSON PARSER ] ---
+async function fetchMovies(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error("โหลดไม่สำเร็จ");
+  const rawText = await res.text();
+
+  try {
+    // กรณี response เป็น JSON เพียว ๆ
+    return JSON.parse(rawText);
+  } catch {
+    // กรณี response มี HTML ครอบ → ตัดเฉพาะส่วนที่เป็น JSON array
+    const start = rawText.indexOf("[");
+    const end = rawText.lastIndexOf("]") + 1;
+    if (start >= 0 && end > start) {
+      const jsonText = rawText.slice(start, end);
+      return JSON.parse(jsonText);
+    }
+    throw new Error("Response ไม่ใช่ JSON ที่ถูกต้อง");
+  }
+}
+
 // --- [ LOAD MOVIES ] ---
 async function loadAllMovies() {
   const container = document.getElementById("movie-sections-container");
@@ -59,36 +80,34 @@ async function loadAllMovies() {
 
   try {
     // ✅ โหลดจาก Parser เพียงครั้งเดียว
-    const response = await fetch("./JSON-Parser.html?file=m3u/movie/new.txt&mode=json");
-    if (!response.ok) throw new Error("ไม่สามารถโหลดข้อมูลจาก Parser ได้");
-    allMovies = await response.json();
+    const movies = await fetchMovies("./JSON-Parser.html?file=m3u/all.txt&mode=json");
+    allMovies = movies;
+
+    // ✅ สร้าง section ตาม group
+    const groups = [...new Set(allMovies.map(m => m.group || "อื่นๆ"))];
+    for (const group of groups) {
+      const moviesInGroup = allMovies.filter(m => (m.group || "อื่นๆ") === group);
+      if (moviesInGroup.length > 0) {
+        allSectionsHtml += createMovieSection(group, moviesInGroup);
+        moviesInGroup.forEach(movie => {
+          const nameKey = (movie.name || "").toLowerCase();
+          if (!allMoviesByTitle[nameKey]) {
+            allMoviesByTitle[nameKey] = movie;
+          }
+        });
+      }
+    }
+
+    if (allSectionsHtml) {
+      container.innerHTML = allSectionsHtml;
+      originalSectionsHtml = allSectionsHtml;
+    } else {
+      container.innerHTML = "<p class='text-blue-500'>ไม่พบรายการหนัง</p>";
+      originalSectionsHtml = "";
+    }
   } catch (error) {
     console.error("Error loading movies:", error);
     container.innerHTML = "<p class='text-blue-500'>❌ เกิดข้อผิดพลาดในการโหลดข้อมูล</p>";
-    return;
-  }
-
-  // ✅ สร้าง section ตาม group
-  const groups = [...new Set(allMovies.map(m => m.group || "อื่นๆ"))];
-  for (const group of groups) {
-    const moviesInGroup = allMovies.filter(m => (m.group || "อื่นๆ") === group);
-    if (moviesInGroup.length > 0) {
-      allSectionsHtml += createMovieSection(group, moviesInGroup);
-      moviesInGroup.forEach(movie => {
-        const nameKey = (movie.name || "").toLowerCase();
-        if (!allMoviesByTitle[nameKey]) {
-          allMoviesByTitle[nameKey] = movie;
-        }
-      });
-    }
-  }
-
-  if (allSectionsHtml) {
-    container.innerHTML = allSectionsHtml;
-    originalSectionsHtml = allSectionsHtml;
-  } else {
-    container.innerHTML = "<p class='text-blue-500'>ไม่พบรายการหนัง</p>";
-    originalSectionsHtml = "";
   }
 }
 
