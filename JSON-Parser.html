@@ -1,19 +1,30 @@
 <html lang="th">
-<head>
-  <meta charset="UTF-8">
-  <title>M3U8 JSON Parser</title>
-  <style>
-    body { font-family: sans-serif; margin: 20px; }
-    pre { background: #111; color: #eee; padding: 12px; border-radius: 8px; overflow: auto; }
-    .notice { background: #fff3cd; padding: 8px; border: 1px solid #ffeeba; border-radius: 6px; margin-bottom: 12px; }
-  </style>
-</head>
+<head><meta charset="UTF-8"><title>Parser</title></head>
 <body>
-  <h1>M3U8 → JSON Parser</h1>
-  <div class="notice">ใช้พารามิเตอร์ <code>?file=URL</code> และถ้าต้องการ JSON สำหรับ fetch ให้เพิ่ม <code>&mode=json</code></div>
-  <pre id="output">[]</pre>
-
+<pre id="output"></pre>
 <script>
+async function main() {
+  const params = new URLSearchParams(window.location.search);
+  const fileUrl = params.get("file");
+  const mode = params.get("mode");
+
+  if (!fileUrl) {
+    document.body.innerText = "กรุณาระบุพารามิเตอร์ ?file=...";
+    return;
+  }
+
+  const res = await fetch(fileUrl);
+  const text = await res.text();
+  const movies = parseM3U8(text); // ฟังก์ชัน parseM3U8 ที่คุณเขียนไว้
+
+  if (mode === "json") {
+    // ✅ ส่งออก JSON จริง ๆ
+    document.body.innerText = JSON.stringify(movies);
+  } else {
+    document.getElementById("output").textContent = JSON.stringify(movies, null, 2);
+  }
+}
+
 function parseM3U8(text) {
   const lines = text.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 0);
   const entries = [];
