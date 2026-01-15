@@ -113,10 +113,31 @@
   },
   {
     "player": "p2p/player",
+    "name": "แฟนผมคือเจ้าแม่ขาใหญ่",
+    "info": "พากย์ไทย",
+    "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cover-b3YYjU28pU-1152x1536.jpg",
+    "video": "https://media.vdohls.com/pdAy-vaa1_sdd/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
     "name": "ที่รักไม่ต้องร้องไห้ ฉันจะไม่ทิ้งเธอ",
     "info": "พากย์ไทย",
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/unnamed-1.jpg",
     "video": "https://media.vdohls.com/S-1_5yVCYSJBN/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "ทิ้งรัก สามีมหาเศรษฐี",
+    "info": "พากย์ไทย",
+    "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/oMFlXATSkAKZDrfAEjirCjuEoeSfQuiAIKiAIDtplv-tiktokx-origin-1152x1536.jpg",
+    "video": "https://media.vdohls.com/aj_FMaGJV1-Av/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "",
+    "info": "พากย์ไทย",
+    "poster": "",
+    "video": ""
   },
   {
     "player": "p2p/player",
