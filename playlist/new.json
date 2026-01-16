@@ -1,6 +1,27 @@
 [
   {
     "player": "p2p/player",
+    "name": "Smurfs (2025) สเมิร์ฟ",
+    "info": "พากย์ไทย",
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4opAzolezkfzs9nnoiv3gfJogon.jpg",
+    "video": "https://main.24playerhd.com/newplaylist/79d704ffa81e99b0fdf3414a/79d704ffa81e99b0fdf3414a.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Event Horizon (1997) ผ่านรกสุดขอบฟ้า",
+    "info": "พากย์ไทย",
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qfluaDXv0cIdLwgQWzNB2piHL2q.jpg",
+    "video": "https://hot.24playerhd.com/autoplaylist/50cc5cb3336da146e3a53900fec338ba/50cc5cb3336da146e3a53900fec338ba.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "The Smashing Machine (2025) ตำนานเครื่องจักรสังเวียนเดือด",
+    "info": "บรรยายไทย",
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/mPuBDGrVIBGOymBxR6rO3iIvBSe.jpg",
+    "video": "https://main.24playerhd.com/newplaylist/8fe1808dc8b9979dd164c0a6/8fe1808dc8b9979dd164c0a6.m3u8"
+  },
+  {
+    "player": "p2p/player",
     "name": "A Babysitter’s Guide to Monster Hunting (2020) คู่มือล่าปีศาจฉบับพี่เลี้ยง",
     "info": "พากย์ไทย",
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bkld8Me0WiLWipLORRNfF1yIPHu.jpg",
