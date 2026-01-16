@@ -11,7 +11,13 @@
     <script src="//content.jwplatform.com/libraries/SAHhwvZq.js"></script> 
 
     <style>
-        body { margin: 0; }
+   body {
+    margin: 0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    line-height: 1.5;
+   }
         .video-container {
             aspect-ratio: 16/9; 
             max-width: 854px;
@@ -25,6 +31,16 @@
             border-radius: 8px;
             overflow: hidden;
         }
+       #movie-title {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+      background: #111;
+       }
         .overlay-btn {
             position: absolute;
             top: 12px;
@@ -76,7 +92,7 @@
             <a href="#" id="reloadBtn" class="overlay-btn reload-button">โหลดซ้ำ</a>
         </div>
         
-        <h2 id="movie-title" class="text-2xl font-bold mt-4 mb-4 text-[#E50914]">กำลังโหลด...</h2>
+        <div id="movie-title" class="text-2xl font-bold mt-4 mb-4 text-[#E50914]">กำลังโหลด...</div>
         <p id="error-message" class="text-red-500 mt-4 hidden">เกิดข้อผิดพลาดในการโหลดวิดีโอ</p>
     </main>
 
