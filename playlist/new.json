@@ -1,6 +1,34 @@
 [
   {
     "player": "p2p/player",
+    "name": "Greenland 2 Migration (2025) ฝ่าชะตา โลกาวินาศ",
+    "info": "พากย์ไทย",
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kscgi20X3SWi1VjH2SU2uN2hQac.jpg",
+    "video": "https://main.24playerhd.com/newplaylist/8b1f6ea78f972d03517b7239/8b1f6ea78f972d03517b7239.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Strange Darling (2024) รัก ลวง ฆ่า",
+    "info": "พากย์ไทย",
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/lVrwcMH5BR8OjKdXr5I6eEIQUx0.jpg",
+    "video": "https://main.24playerhd.com/newplaylist/7503cc47719e75530b2f96cb/7503cc47719e75530b2f96cb.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "The Cursed Insatiable Desires (2025) เรื่องผีสาป",
+    "info": "พากย์ไทย",
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/vRxZoRi57Ggd7z6SNnDcZvR5Tx3.jpg",
+    "video": "https://main.24playerhd.com/newplaylist/9c16aba4bba6ed192a42809e/9c16aba4bba6ed192a42809e.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "The Housemaid (2025) ความลับแม่บ้านร้าย",
+    "info": "พากย์ไทย",
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/7T2dTV6BLr8F3yVYsibpAcmZvSd.jpg",
+    "video": "https://main.24playerhd.com/newplaylist/d3e9e32befa933d3b06172d7/d3e9e32befa933d3b06172d7.m3u8"
+  },
+  {
+    "player": "p2p/player",
     "name": "The Rip (2026) เงินบาปกระชากคน",
     "info": "พากย์ไทย",
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/2y46LNXNuYtUdSe0MsvKqcQIlUX.jpg",
