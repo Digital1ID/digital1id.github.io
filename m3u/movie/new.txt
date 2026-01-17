@@ -36,7 +36,7 @@ https://main.24playerhd.com/newplaylist/9c16aba4bba6ed192a42809e/9c16aba4bba6ed1
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/7T2dTV6BLr8F3yVYsibpAcmZvSd.jpg", The Housemaid (2025) ความลับแม่บ้านร้าย
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/d3e9e32befa933d3b06172d7/d3e9e32befa933d3b06172d7.m3u8qq
+https://main.24playerhd.com/newplaylist/d3e9e32befa933d3b06172d7/d3e9e32befa933d3b06172d7.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/2y46LNXNuYtUdSe0MsvKqcQIlUX.jpg", The Rip (2026) เงินบาปกระชากคน
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
