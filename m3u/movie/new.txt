@@ -26,6 +26,18 @@
 
 
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/kscgi20X3SWi1VjH2SU2uN2hQac.jpg", Greenland 2 Migration (2025) ฝ่าชะตา โลกาวินาศ
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/8b1f6ea78f972d03517b7239/8b1f6ea78f972d03517b7239.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/vRxZoRi57Ggd7z6SNnDcZvR5Tx3.jpg", The Cursed Insatiable Desires (2025) เรื่องผีสาป
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/9c16aba4bba6ed192a42809e/9c16aba4bba6ed192a42809e.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/7T2dTV6BLr8F3yVYsibpAcmZvSd.jpg", The Housemaid (2025) ความลับแม่บ้านร้าย
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/d3e9e32befa933d3b06172d7/d3e9e32befa933d3b06172d7.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/2y46LNXNuYtUdSe0MsvKqcQIlUX.jpg", The Rip (2026) เงินบาปกระชากคน
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/67b0698384efc6944d6bd52d/67b0698384efc6944d6bd52d.m3u8
