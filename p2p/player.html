@@ -8,6 +8,7 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public">
   <title>Movie Player</title>
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+  <link href="https://unpkg.com/videojs-http-source-selector/dist/videojs-http-source-selector.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
    body {
@@ -22,7 +23,7 @@
       max-width: 854px;
       width: 100%;
       margin: 0 auto;
-      position: relative; /* สำคัญเพื่อให้ overlay อยู่ในกรอบ */
+      position: relative;
     }
     .video-js {
       width: 100% !important;
@@ -30,7 +31,7 @@
       border-radius: 8px;
       overflow: hidden;
     }
-  #videoTitle {
+    #videoTitle {
       width: 100%;
       border-radius: 10px;
       border: 1px solid #333;
@@ -88,9 +89,7 @@
         class="video-js vjs-big-play-centered"
         controls
         autoplay
-        preload="auto"
-        data-setup="{}">
-        <source id="videoSource" src="" type="">
+        preload="auto">
         ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
       </video>
 
@@ -101,6 +100,9 @@
 
     <div id="videoTitle" class="text-2xl font-bold mt-4 mb-4 text-[#E50914]">กำลังโหลด...</div>
   </main>
+
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  <script src="https://unpkg.com/videojs-http-source-selector/dist/videojs-http-source-selector.js"></script>
 
   <script>
     const params = new URLSearchParams(window.location.search);
@@ -114,20 +116,39 @@
       file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
     }
 
-    const videoSource = document.getElementById("videoSource");
-    if (file) {
-      videoSource.src = file;
-      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
-    }
+    // สร้าง player พร้อมกำหนด source โดยตรง
+    const player = videojs("my-video", {
+      controls: true,
+      autoplay: false,
+      preload: "auto",
+      playbackRates: [0.75, 1, 1.25, 1.5, 2],
+      fluid: true,
+      sources: file ? [{
+        src: file,
+        type: file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4"
+      }] : []
+    });
+
+    // ปุ่ม Quality Selector (เฉพาะไฟล์ HLS/DASH ที่มีหลาย bitrate)
+    player.ready(function() {
+      try {
+        if (file && file.includes(".m3u8")) {
+          player.httpSourceSelector();
+        }
+        // ปุ่มเลือกเสียง
+        player.controlBar.addChild("AudioTrackButton", {});
+      } catch (e) {
+        console.warn("Selector error:", e);
+      }
+    });
 
     // ปุ่ม reload
-document.getElementById("reloadBtn").addEventListener("click", (e) => {
-  e.preventDefault();
-  const player = videojs("my-video");
-  player.src({ src: file, type: videoSource.type });
-  player.load();
-  player.play();
-});
+    document.getElementById("reloadBtn").addEventListener("click", (e) => {
+      e.preventDefault();
+      player.src({ src: file, type: file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4" });
+      player.load();
+      player.play();
+    });
 
     if (name) {
       document.title = name;
@@ -135,6 +156,5 @@ document.getElementById("reloadBtn").addEventListener("click", (e) => {
       console.log("Now Playing:", name);
     }
   </script>
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
