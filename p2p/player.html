@@ -111,13 +111,15 @@
     if (name) name = decodeURIComponent(name);
 
     if (file) {
-      file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
+      file = file.replace(/^http:\/\/oneid151\.serv00\.net/, "https://oneid151.serv00.net");
     }
 
     const videoSource = document.getElementById("videoSource");
     if (file) {
       videoSource.src = file;
-      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "application/vnd.apple.mpegurl";
+      videoSource.type = file.includes(".m3u8") 
+    ? "application/x-mpegURL" 
+    : "video/mp4";
     }
 
     // ปุ่ม reload
