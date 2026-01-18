@@ -101,55 +101,40 @@
 
     <div id="videoTitle" class="text-2xl font-bold mt-4 mb-4 text-[#E50914]">กำลังโหลด...</div>
   </main>
-<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
-<script>
-  const params = new URLSearchParams(window.location.search);
-  let file = params.get("file");
-  let name = params.get("name");
 
-  if (file) file = decodeURIComponent(file);
-  if (name) name = decodeURIComponent(name);
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    let file = params.get("file");
+    let name = params.get("name");
 
-  if (file) {
-    file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
-  }
+    if (file) file = decodeURIComponent(file);
+    if (name) name = decodeURIComponent(name);
 
-  const videoSource = document.getElementById("videoSource");
-  if (file) {
-    videoSource.src = file;
-    videoSource.type = "application/x-mpegURL"; // ✅ fix MIME type
-  }
+    if (file) {
+      file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
+    }
 
+    const videoSource = document.getElementById("videoSource");
+    if (file) {
+      videoSource.src = file;
+      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
+    }
+
+    // ปุ่ม reload
+document.getElementById("reloadBtn").addEventListener("click", (e) => {
+  e.preventDefault();
   const player = videojs("my-video");
+  player.src({ src: file, type: videoSource.type });
+  player.load();
+  player.play();
+});
 
-  // ปุ่ม reload
-  document.getElementById("reloadBtn").addEventListener("click", (e) => {
-    e.preventDefault();
-    player.src({ src: file, type: videoSource.type });
-    player.load();
-    player.play();
-  });
-
-  // ✅ อัปเดตชื่อหลัง player พร้อม
-  player.ready(() => {
     if (name) {
       document.title = name;
       document.getElementById("videoTitle").textContent = name;
       console.log("Now Playing:", name);
     }
-
-    // ✅ โหลดตำแหน่งล่าสุดจาก localStorage
-    const savedTime = localStorage.getItem("videoTime_" + file);
-    if (savedTime) {
-      player.currentTime(parseFloat(savedTime));
-      console.log("Resumed at:", savedTime);
-    }
-  });
-
-  // ✅ บันทึกตำแหน่งล่าสุดทุกครั้งที่มีการเล่น
-  player.on("timeupdate", () => {
-    localStorage.setItem("videoTime_" + file, player.currentTime());
-  });
-</script>
+  </script>
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
