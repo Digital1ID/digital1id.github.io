@@ -124,13 +124,10 @@
       videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
     }
 
-    // ปุ่ม reload
+// ปุ่ม reload โหลดทั้งหน้าใหม่
 document.getElementById("reloadBtn").addEventListener("click", (e) => {
   e.preventDefault();
-  const player = videojs("my-video");
-  player.src({ src: file, type: videoSource.type });
-  player.load();
-  player.play();
+  location.reload(); // โหลดหน้าใหม่ทั้งหมด
 });
 
     if (name) {
