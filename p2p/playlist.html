@@ -2,7 +2,6 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Movie Player</title>
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
@@ -44,10 +43,34 @@
 
   <div id="videoTitle">กำลังโหลด...</div>
 
+  <!-- Serial Info -->
+  <div id="serialInfo" class="bg-[#222] p-4 rounded-lg mt-6">
+    <h3 class="text-lg font-semibold mb-2">ข้อมูลซีรีส์</h3>
+    <div id="serialDetails" class="text-sm text-gray-300"></div>
+  </div>
+
+  <!-- Season Selector -->
+  <div class="bg-[#222] p-4 rounded-lg mt-6">
+    <label for="seasonSelect" class="block text-lg font-semibold mb-2">เลือกซีซัน</label>
+    <select id="seasonSelect" class="w-full px-3 py-2 bg-[#333] rounded text-white"></select>
+  </div>
+
+  <!-- Season Info -->
+  <div id="seasonInfo" class="bg-[#222] p-4 rounded-lg mt-6">
+    <h3 class="text-lg font-semibold mb-2">ข้อมูลซีซัน</h3>
+    <div id="seasonDetails" class="text-sm text-gray-300"></div>
+  </div>
+
   <!-- Playlist -->
-  <div class="bg-[#222] p-4 rounded-lg">
+  <div class="bg-[#222] p-4 rounded-lg mt-6">
     <h2 class="text-lg font-semibold mb-2">Playlist</h2>
     <ul id="playlist" class="space-y-2"></ul>
+  </div>
+
+  <!-- Episode Info -->
+  <div id="episodeInfo" class="bg-[#222] p-4 rounded-lg mt-6">
+    <h3 class="text-lg font-semibold mb-2">ข้อมูลตอน</h3>
+    <div id="episodeDetails" class="text-sm text-gray-300"></div>
   </div>
 
   <!-- ปุ่ม Next/Previous -->
@@ -63,6 +86,8 @@
   const player = videojs("my-video");
   let playlistData = [];
   let currentIndex = 0;
+  let currentSeason = null;
+  let serialData = null;
 
   function loadVideo(src, title) {
     videoSource.src = src;
@@ -73,7 +98,6 @@
     document.title = title;
     document.getElementById("videoTitle").textContent = title;
 
-    // โหลดตำแหน่งล่าสุด
     const savedTime = localStorage.getItem("videoTime_" + src);
     if (savedTime) player.currentTime(parseFloat(savedTime));
 
@@ -94,73 +118,113 @@
     });
   }
 
-  // โหลด Playlist จาก JSON
-  fetch("playlist.json")
-    .then(res => res.json())
-    .then(data => {
-      playlistData = data;
-      const playlistEl = document.getElementById("playlist");
-      playlistEl.innerHTML = "";
+  function showSerialInfo(serial) {
+    const serialDetails = document.getElementById("serialDetails");
+    serialDetails.innerHTML = `
+      <p><strong>ชื่อเรื่อง:</strong> ${serial.name}</p>
+      <p><strong>หมวดหมู่:</strong> ${serial.category}</p>
+      <p><strong>ปีที่ออกฉาย:</strong> ${serial.info.release_year}</p>
+      <p><strong>นักแสดง:</strong> ${serial.info.cast.join(", ")}</p>
+      <p><strong>เรื่องย่อ:</strong> ${serial.info.description}</p>
+    `;
+  }
 
-      data.forEach((item, index) => {
-        const li = document.createElement("li");
-        const btn = document.createElement("button");
-        btn.textContent = item.name;
-        btn.className = "w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
-        btn.addEventListener("click", () => {
-          currentIndex = index;
-          loadVideo(item.file, item.name);
-        });
-        li.appendChild(btn);
-        playlistEl.appendChild(li);
+  function showSeasonInfo(season) {
+    const seasonDetails = document.getElementById("seasonDetails");
+    seasonDetails.innerHTML = `
+      <p><strong>Season:</strong> ${season.season}</p>
+      <p><strong>Release Date:</strong> ${season.info.release_date}</p>
+      <p><strong>Episodes Count:</strong> ${season.info.episodes_count}</p>
+    `;
+  }
+
+  function showEpisodeInfo(ep) {
+    const episodeDetails = document.getElementById("episodeDetails");
+    episodeDetails.innerHTML = `
+      <p><strong>Episode:</strong> ${ep.episode}</p>
+      <p><strong>Title:</strong> ${ep.name}</p>
+      <p><strong>Duration:</strong> ${ep.info.duration}</p>
+      <p><strong>Director:</strong> ${ep.info.director}</p>
+      <p><strong>Summary:</strong> ${ep.info.summary}</p>
+    `;
+  }
+
+  function loadSeason(season) {
+    playlistData = season.episodes;
+    const playlistEl = document.getElementById("playlist");
+    playlistEl.innerHTML = "";
+
+    season.episodes.forEach((ep, index) => {
+      const li = document.createElement("li");
+      const btn = document.createElement("button");
+      btn.textContent = `EP${ep.episode}: ${ep.name}`;
+      btn.className = "w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
+      btn.addEventListener("click", () => {
+        currentIndex = index;
+        loadVideo(ep.video, ep.name);
+        showEpisodeInfo(ep);
       });
-
-      // โหลดไฟล์แรกเป็นค่าเริ่มต้น
-      if (data.length > 0) {
-        currentIndex = 0;
-        loadVideo(data[0].file, data[0].name);
-      }
+      li.appendChild(btn);
+      playlistEl.appendChild(li);
     });
 
-  // ปุ่ม Next/Previous
-  document.getElementById("prevBtn").addEventListener("click", () => {
-    if (currentIndex > 0) {
-      currentIndex--;
-      loadVideo(playlistData[currentIndex].file, playlistData[currentIndex].name);
-    }
-  });
+    showSeasonInfo(season);
 
-  document.getElementById("nextBtn").addEventListener("click", () => {
-    if (currentIndex < playlistData.length - 1) {
-      currentIndex++;
-      loadVideo(playlistData[currentIndex].file, playlistData[currentIndex].name);
-    }
-  });
+    if (season.episodes.length > 0) {
+      currentIndex = 0;
+      loadVideo(season.episodes[0].video, season.episodes[0].name);
+      showEpisodeInfo(season.episodes[0]);
+  }
+}
 
-  // บันทึกตำแหน่งล่าสุด
-  player.on("timeupdate", () => {
-    if (playlistData[currentIndex]) {
-      localStorage.setItem("videoTime_" + playlistData[currentIndex].file, player.currentTime());
-    }
-  });
+// ปุ่ม Next/Previous
+document.getElementById("prevBtn").addEventListener("click", () => {
+  if (currentIndex > 0) {
+    currentIndex--;
+    const ep = playlistData[currentIndex];
+    loadVideo(ep.video, ep.name);
+    showEpisodeInfo(ep);
+  }
+});
 
-  // Auto Play ตอนถัดไป
-  player.on("ended", () => {
-    if (currentIndex < playlistData.length - 1) {
-      currentIndex++;
-      loadVideo(playlistData[currentIndex].file, playlistData[currentIndex].name);
-    } else {
-      console.log("ถึงตอนสุดท้ายแล้ว 🎬");
-    }
-  });
+document.getElementById("nextBtn").addEventListener("click", () => {
+  if (currentIndex < playlistData.length - 1) {
+    currentIndex++;
+    const ep = playlistData[currentIndex];
+    loadVideo(ep.video, ep.name);
+    showEpisodeInfo(ep);
+  }
+});
 
-  // ปุ่ม reload
-  document.getElementById("reloadBtn").addEventListener("click", (e) => {
-    e.preventDefault();
-    if (playlistData[currentIndex]) {
-      loadVideo(playlistData[currentIndex].file, playlistData[currentIndex].name);
-    }
-  });
+// บันทึกตำแหน่งล่าสุด
+player.on("timeupdate", () => {
+  if (playlistData[currentIndex]) {
+    localStorage.setItem("videoTime_" + playlistData[currentIndex].video, player.currentTime());
+  }
+});
+
+// Auto Play ตอนถัดไป
+player.on("ended", () => {
+  if (currentIndex < playlistData.length - 1) {
+    currentIndex++;
+    const ep = playlistData[currentIndex];
+    loadVideo(ep.video, ep.name);
+    showEpisodeInfo(ep);
+  } else {
+    console.log("ถึงตอนสุดท้ายแล้ว 🎬");
+  }
+});
+
+// ปุ่ม reload
+document.getElementById("reloadBtn").addEventListener("click", (e) => {
+  e.preventDefault();
+  if (playlistData[currentIndex]) {
+    const ep = playlistData[currentIndex];
+    loadVideo(ep.video, ep.name);
+    showEpisodeInfo(ep);
+  }
+});
 </script>
 </body>
 </html>
+
