@@ -121,7 +121,14 @@
     ? "application/x-mpegURL" 
     : "video/mp4";
     }
-
+    
+  // บันทึกตำแหน่งล่าสุด
+  player.on("timeupdate", () => {
+    if (playlistData[currentIndex]) {
+      localStorage.setItem("videoTime_" + playlistData[currentIndex].video, player.currentTime());
+    }
+  });
+    
     // ปุ่ม reload
 document.getElementById("reloadBtn").addEventListener("click", (e) => {
   e.preventDefault();
