@@ -101,49 +101,75 @@
 
     <div id="videoTitle" class="text-2xl font-bold mt-4 mb-4 text-[#E50914]">กำลังโหลด...</div>
   </main>
+<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  let file = params.get("file");
+  let name = params.get("name");
 
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    let file = params.get("file");
-    let name = params.get("name");
+  if (file) file = decodeURIComponent(file);
+  if (name) name = decodeURIComponent(name);
 
-    if (file) file = decodeURIComponent(file);
-    if (name) name = decodeURIComponent(name);
+  if (file) {
+    file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
+  }
 
-    if (file) {
-      file = file.replace(/^http:\/\/oneid151\.serv00\.net/, "https://oneid151.serv00.net");
-    }
+  const videoSource = document.getElementById("videoSource");
+  if (file) {
+    videoSource.src = file;
+    videoSource.type = "application/x-mpegURL"; // ✅ fix MIME type
+  }
 
-    const videoSource = document.getElementById("videoSource");
-    if (file) {
-      videoSource.src = file;
-      videoSource.type = file.includes(".m3u8") 
-    ? "application/x-mpegURL" 
-    : "video/mp4";
-    }
-    
-  // บันทึกตำแหน่งล่าสุด
-  player.on("timeupdate", () => {
-    if (playlistData[currentIndex]) {
-      localStorage.setItem("videoTime_" + playlistData[currentIndex].video, player.currentTime());
-    }
-  });
-    
-    // ปุ่ม reload
-document.getElementById("reloadBtn").addEventListener("click", (e) => {
-  e.preventDefault();
   const player = videojs("my-video");
-  player.src({ src: file, type: videoSource.type });
-  player.load();
-  player.play();
-});
 
+  // ปุ่ม reload
+  document.getElementById("reloadBtn").addEventListener("click", (e) => {
+    e.preventDefault();
+    player.src({ src: file, type: videoSource.type });
+    player.load();
+    player.play();
+  });
+
+  // ✅ อัปเดตชื่อหลัง player พร้อม
+  player.ready(() => {
     if (name) {
       document.title = name;
       document.getElementById("videoTitle").textContent = name;
       console.log("Now Playing:", name);
     }
-  </script>
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+
+    // ✅ โหลดตำแหน่งล่าสุดจาก localStorage
+    const savedTime = localStorage.getItem("videoTime_" + file);
+    if (savedTime) {
+      // สร้างปุ่มถาม overlay
+      const resumeBtn = document.createElement("button");
+      resumeBtn.textContent = "เล่นต่อจากนาที " + Math.floor(savedTime) + " ?";
+      resumeBtn.className = "overlay-btn reload-button";
+      resumeBtn.style.bottom = "12px";
+      resumeBtn.style.right = "12px";
+
+      resumeBtn.addEventListener("click", () => {
+        player.currentTime(parseFloat(savedTime));
+        player.play();
+        resumeBtn.remove(); // กดแล้วลบปุ่มออก
+      });
+
+      document.querySelector(".video-container").appendChild(resumeBtn);
+
+      // ✅ ตั้งเวลาให้หายไปเองหลัง 10 วิ
+      setTimeout(() => {
+        if (resumeBtn.parentNode) {
+          resumeBtn.remove();
+          console.log("Resume button auto-removed after 10s");
+        }
+      }, 10000);
+    }
+  });
+
+  // ✅ บันทึกตำแหน่งล่าสุดทุกครั้งที่มีการเล่น
+  player.on("timeupdate", () => {
+    localStorage.setItem("videoTime_" + file, player.currentTime());
+  });
+</script>
 </body>
 </html>
