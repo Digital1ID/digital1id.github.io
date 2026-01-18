@@ -141,28 +141,8 @@
     // ✅ โหลดตำแหน่งล่าสุดจาก localStorage
     const savedTime = localStorage.getItem("videoTime_" + file);
     if (savedTime) {
-      // สร้างปุ่มถาม overlay
-      const resumeBtn = document.createElement("button");
-      resumeBtn.textContent = "เล่นต่อจากนาที " + Math.floor(savedTime) + " ?";
-      resumeBtn.className = "overlay-btn reload-button";
-      resumeBtn.style.bottom = "12px";
-      resumeBtn.style.right = "12px";
-
-      resumeBtn.addEventListener("click", () => {
-        player.currentTime(parseFloat(savedTime));
-        player.play();
-        resumeBtn.remove(); // กดแล้วลบปุ่มออก
-      });
-
-      document.querySelector(".video-container").appendChild(resumeBtn);
-
-      // ✅ ตั้งเวลาให้หายไปเองหลัง 10 วิ
-      setTimeout(() => {
-        if (resumeBtn.parentNode) {
-          resumeBtn.remove();
-          console.log("Resume button auto-removed after 10s");
-        }
-      }, 10000);
+      player.currentTime(parseFloat(savedTime));
+      console.log("Resumed at:", savedTime);
     }
   });
 
