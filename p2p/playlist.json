@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ตอนที่ 1",
+    "file": "http://example.com/video1.m3u8"
+  },
+  {
+    "name": "ตอนที่ 2",
+    "file": "http://example.com/video2.m3u8"
+  },
+  {
+    "name": "ตอนที่ 3",
+    "file": "http://example.com/video3.m3u8"
+  }
+]
