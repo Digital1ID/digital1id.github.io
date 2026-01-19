@@ -25,6 +25,8 @@ function createMovieCard(movie) {
 	const moviePlayer= movie.player || 'watch';
     const movieFile = movie.file || movie.url || movie.video;
     const movieName = movie.name || '';
+    const movieSound = movie.sound || '';
+    const movieSubtitles = movie.subtitles || '';
     const movieSubtitle = movie.subtitle; // ดึง URL ของ Subtitle
 
     // 1. สร้าง URL พื้นฐาน (File และ Name)
