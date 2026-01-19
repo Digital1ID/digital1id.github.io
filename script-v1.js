@@ -48,7 +48,8 @@ function createMovieCard(movie) {
             </div>
             <div class="p-2">
                 <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
-                <p class="text-xs text-gray-400">${movie.info || movie.info.sounds}</p>
+                <p class="text-xs text-gray-400">เสียงภาษา : ${movie.info || movie.info.sound}</p>
+                <p class="text-xs text-gray-400">คำบรรยาย : ${movie.info || movie.info.subtitles}</p>
             </div>
         </div>
     `;
