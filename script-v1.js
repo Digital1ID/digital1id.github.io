@@ -48,7 +48,7 @@ function createMovieCard(movie) {
             </div>
             <div class="p-2">
                 <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
-                <p class="text-xs text-gray-400">${movie.info}</p>
+                <p class="text-xs text-gray-400">${movie.info || movie.info.sounds}</p>
             </div>
         </div>
     `;
