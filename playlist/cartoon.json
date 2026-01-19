@@ -1,5 +1,12 @@
 [
-    {
+  {
+    "player": "p2p/player",
+    "name": "Howl's Moving Castle (2024) ปราสาทเวทมนตร์ของฮาวล์ พากย์ไทย เดอะมูฟวี่",
+    "info": "พากย์ไทย",
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/cBCo9c2UHWGjaar83baCJkAcG4l.jpg",
+    "video": "https://files.akuma-player.xyz/view/9300f403-c6a7-5894-a81f-10e2731878e8.m3u8"
+  },
+  {
     "name": "In Your Dreams (2025) ผจญภัยในฝัน",
     "info": "บรรยายไทย",
     "poster": "https://movie22hd.com/wp-content/uploads/2025/11/In-Your-Dreams.webp",
@@ -12,7 +19,6 @@
     "subtitle": "https://statics-01.duckduckcdn.com/7862b838-67b9-5686-a2be-55a9dc2770d4/sub_tha.vtt",
     "info": "บรรยายไทย"
   },
-
   {
     "name": "The Twits (2025) คนซื่อบื้อ",
     "poster": "https://statics-02.duckduckcdn.com/1ed989af-874f-5493-94e8-b71878c9f21a/poster.jpg",
