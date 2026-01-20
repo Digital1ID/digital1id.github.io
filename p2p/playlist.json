@@ -1,19 +1,19 @@
 [
     {
         "id": "2",
-        "name": "",
+        "name": "Taxi Driver แท็กซี่จ้างแค้น",
         "category": "ซีรี่ย์ เกาหลี",
         "info": {
-            "poster": "",
-            "description": "",
+            "poster": "https://media.themoviedb.org/t/p/w600_and_h900_face/jijF1o1BPHu1n5T1TEyO7S1RhX.jpg",
+            "description": "อดีตทหารในหน่วยรบพิเศษแก้แค้นให้เหยื่อของความอยุติธรรมในขณะที่ทำงานให้องค์กรลับที่ใช้บริษัทแท็กซี่เป็นฉากบังหน้า",
             "year": "2025"
         },
         "seasons": [
             {
                 "season": 3,
                 "info": {
-                    "poster": "",
-                    "description": "",
+                    "poster": "https://image.tmdb.org/t/p/w600_and_h900_face/6uRbmbzB029xyRhwC5tIenEmRkU.jpg",
+                    "description": "Taxi Driver Season 3 (2025) แท็กซี่จ้างแค้น ซีซั่น 3",
                     "year": "2025"
                     },
                 "episodes": [
@@ -69,9 +69,9 @@
             },{
                 "season": 2,
                 "info": {
-                    "poster": "",
-                    "description": "",
-                    "year": "2025"
+                    "poster": "https://image.tmdb.org/t/p/w600_and_h900_face/gYXs0NIcFPxJrpI885y96RG8uUK.jpg",
+                    "description": "Taxi Driver Season 2 (2023) แท็กซี่จ้างแค้น ซีซั่น 2",
+                    "year": "2023"
                     },
                 "episodes": [
                     {
@@ -126,9 +126,9 @@
             },{
                 "season": 1,
                 "info": {
-                    "poster": "",
-                    "description": "The Believers (2024) สาธุ ซีซั่น 1",
-                    "year": "2024"
+                    "poster": "https://media.themoviedb.org/t/p/w600_and_h900_face/jijF1o1BPHu1n5T1TEyO7S1RhX.jpg",
+                    "description": "Taxi Driver (2021) แท็กซี่จ้างแค้น",
+                    "year": "2021"
                     },
                 "episodes": [
                     {
