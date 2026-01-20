@@ -17,10 +17,6 @@ let originalSectionsHtml = ''; // เก็บ HTML หน้าหลักเ�
 
 // --- [ COMMON FUNCTIONS ] ---
 
-/**
- * ฟังก์ชันสร้าง Movie Card HTML String (แนวตั้ง 150x225)
- * ปรับปรุง: เพิ่มการส่งค่า subtitle เข้าไปใน watchUrl
- */
 function createMovieCard(movie) {
     const moviePlayer = movie.player || 'watch';
     const movieFile = movie.file || movie.url || movie.video;
@@ -32,7 +28,6 @@ function createMovieCard(movie) {
         watchUrl += `&subtitle=${encodeURIComponent(movieSubtitle)}`;
     }
 
-    // ตรวจสอบว่า info เป็น object หรือ string
     let soundText = '';
     let subtitleText = '';
     if (typeof movie.info === 'object' && movie.info !== null) {
@@ -63,14 +58,9 @@ function createMovieCard(movie) {
 
 // --- [ INDEX.HTML LOGIC ] ---
 
-/**
- * ฟังก์ชันสร้าง Section รายการหนังแบบเลื่อนได้ (Netflix Style)
- * ปรับปรุง: เพิ่มลิงก์ที่หัวข้อ h3 ไปยัง category.html
- */
 function createMovieSection(title, movies, categoryKey, isSearch = false) {
     const limit = isSearch ? movies.length : ITEMS_PER_ROW;
     const limitedMovies = movies.slice(0, limit);
-    // ไม่ต้องแก้ไข: ฟังก์ชันนี้เรียก createMovieCard() ที่ถูกแก้ไขแล้ว
     const cardsHtml = limitedMovies.map(createMovieCard).join(''); 
     
     const categoryUrl = `category.html?cat=${categoryKey}`;
@@ -91,14 +81,10 @@ function createMovieSection(title, movies, categoryKey, isSearch = false) {
     `;
 }
 
-/**
- * ฟังก์ชันหลักในการโหลดรายการหนังทั้งหมดมาแสดงแบบ Netflix
- */
 async function loadAllMovies() {
     const container = document.getElementById('movie-sections-container');
     const searchResultContainer = document.getElementById('search-result-container');
     
-    // ซ่อนผลลัพธ์การค้นหา
     searchResultContainer.innerHTML = '';
     searchResultContainer.style.display = 'none'; 
     container.style.display = 'block';
@@ -122,13 +108,11 @@ async function loadAllMovies() {
         }
         
         if (movies && movies.length > 0) {
-            // ส่ง category.key เข้าไปใน createMovieSection
             allSectionsHtml += createMovieSection(category.title, movies, category.key); 
             
             movies.forEach(movie => {
                 const nameKey = (movie.name || '').toLowerCase();
                 if (!allMoviesByTitle[nameKey]) {
-                    // เก็บข้อมูลหนังสำหรับใช้ในการค้นหา
                     allMoviesByTitle[nameKey] = movie; 
                 }
             });
@@ -137,35 +121,32 @@ async function loadAllMovies() {
 
     if (allSectionsHtml) {
         container.innerHTML = allSectionsHtml;
-        originalSectionsHtml = allSectionsHtml; // เก็บ HTML เดิมไว้
+        originalSectionsHtml = allSectionsHtml;
     } else {
         container.innerHTML = '<p class="text-blue-500">ไม่พบรายการหนังในทุกหมวดหมู่. โปรดตรวจสอบไฟล์ JSON ในโฟลเดอร์ **playlist/**</p>';
         originalSectionsHtml = '';
     }
 }
 
-/**
- * ฟังก์ชันค้นหารายการหนังทั้งหมด
- */
+// --- [ SEARCH LOGIC FIXED ] ---
+
 function searchMovies() {
     const query = document.getElementById('search-input').value.toLowerCase();
     const container = document.getElementById('movie-sections-container');
     const searchResultContainer = document.getElementById('search-result-container');
 
     if (!query || query.length < 2) {
-        // ถ้าช่องค้นหาว่าง ให้กลับไปแสดงรายการทั้งหมด
         searchResultContainer.innerHTML = '';
         searchResultContainer.style.display = 'none';
         container.style.display = 'block';
         if (originalSectionsHtml) {
              container.innerHTML = originalSectionsHtml;
         } else {
-             loadAllMovies(); // โหลดใหม่ถ้าไม่มี Original HTML
+             loadAllMovies();
         }
         return;
     }
     
-    // ซ่อนหน้าหลัก
     container.style.display = 'none';
     searchResultContainer.style.display = 'block';
     
@@ -173,14 +154,19 @@ function searchMovies() {
     
     const filteredMovies = allMoviesArray.filter(movie => {
         const name = (movie.name || '').toLowerCase();
-        const info = (movie.info || '').toLowerCase();
-        return name.includes(query) || info.includes(query);
+        
+        let infoText = '';
+        if (typeof movie.info === 'object' && movie.info !== null) {
+            infoText = `${movie.info.sound || ''} ${movie.info.subtitles || ''}`.toLowerCase();
+        } else if (typeof movie.info === 'string') {
+            infoText = movie.info.toLowerCase();
+        }
+
+        return name.includes(query) || infoText.includes(query);
     });
 
-    // สร้าง Section ใหม่สำหรับผลลัพธ์การค้นหา
     if (filteredMovies.length > 0) {
         const searchTitle = `🔍 ผลการค้นหา "${document.getElementById('search-input').value}" (${filteredMovies.length} รายการ)`;
-        // ใช้คีย์ 'search' เพื่อให้สร้างลิงก์ที่หัวข้อไม่ได้
         const searchSection = createMovieSection(searchTitle, filteredMovies, 'search', true);
         searchResultContainer.innerHTML = searchSection;
     } else {
@@ -188,9 +174,7 @@ function searchMovies() {
     }
 }
 
-// เริ่มต้นโหลดรายการทั้งหมดเมื่อหน้าเว็บโหลดเสร็จ
 document.addEventListener('DOMContentLoaded', () => {
-    // โหลดเฉพาะใน index.html เท่านั้น (ป้องกันการโหลดซ้ำถ้าใช้ category.js ในหน้าอื่น)
     if (document.title.includes('หน้าหลัก')) {
         loadAllMovies(); 
     }
