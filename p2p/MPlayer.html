@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Movie Player</title>
-  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+  <link href="https://vjs.zencdn.net/7.21.0/video-js.css" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-[#141414] text-white font-sans">
@@ -54,7 +54,7 @@
     </div>
   </main>
 
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.21.0/video.min.js"></script>
   <script>
     const params = new URLSearchParams(window.location.search);
     let file = params.get("file");
@@ -97,11 +97,11 @@
             const bandwidthMatch = lines[i].match(/BANDWIDTH=(\d+)/);
             const streamUrl = lines[i+1].trim();
 
-            if (resolutionMatch) {
+            if (resolutionMatch && streamUrl) {
               const resolution = resolutionMatch[1];
               const option = document.createElement("option");
-              // ใช้ absolute URL ถ้า streamUrl เป็น relative
-              option.value = streamUrl.startsWith("http") ? streamUrl : baseUrl + "/" + streamUrl.replace(/^\//, "");
+              // ใช้ absolute URL ให้ถูกต้อง
+              option.value = new URL(streamUrl, url).href;
               option.textContent = resolution + 
                 (bandwidthMatch ? ` (${Math.round(bandwidthMatch[1]/1000)} kbps)` : "");
               qualitySelector.appendChild(option);
