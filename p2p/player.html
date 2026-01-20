@@ -9,65 +9,8 @@
   <title>Movie Player</title>
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-   body {
-    margin: 0;
-    font-family: 'Segoe UI', system-ui, sans-serif;
-    background-color: var(--bg-dark);
-    color: var(--text-light);
-    line-height: 1.5;
-   }
-    .video-container {
-      aspect-ratio: 16/9; 
-      max-width: 854px;
-      width: 100%;
-      margin: 0 auto;
-      position: relative; /* สำคัญเพื่อให้ overlay อยู่ในกรอบ */
-    }
-    .video-js {
-      width: 100% !important;
-      height: 100% !important;
-      border-radius: 8px;
-      overflow: hidden;
-    }
-  #videoTitle {
-      width: 100%;
-      border-radius: 10px;
-      border: 1px solid #333;
-      padding: 8px;
-      text-align: center;
-      margin-bottom: 12px;
-      font-size: 0.95rem;
-      background: #111;
-    }
-    .overlay-btn {
-      position: absolute;
-      top: 12px;
-      padding: 6px 12px;
-      border-radius: 6px;
-      font-size: 14px;
-      font-weight: 600;
-      color: #fff;
-      backdrop-filter: blur(6px);
-      transition: all 0.3s;
-    }
-    .back-button {
-      left: 12px;
-      background: rgba(255,255,255,0.15);
-    }
-    .back-button:hover {
-      background: rgba(255,255,255,0.35);
-    }
-    .reload-button {
-      right: 12px;
-      background: rgba(229,9,20,0.6);
-    }
-    .reload-button:hover {
-      background: rgba(229,9,20,0.9);
-    }
-  </style>
 </head>
-<body class="bg-[#141414] text-white">
+<body class="bg-[#141414] text-white font-sans">
 
   <!-- Header -->
   <header class="bg-[#141414] shadow-lg">
@@ -82,57 +25,94 @@
 
   <!-- Main -->
   <main class="container mx-auto px-4 mt-8 mb-16">
-    <div class="video-container">
+    <div class="relative aspect-video max-w-[854px] mx-auto">
       <video
         id="my-video"
-        class="video-js vjs-big-play-centered"
+        class="video-js vjs-big-play-centered rounded-lg overflow-hidden w-full h-full"
         controls
         autoplay
         preload="auto"
-        data-setup='{}'>
+        data-setup='{
+          "playbackRates": [0.5, 1, 1.5, 2],
+          "fluid": true,
+         }'>
         <source id="videoSource" src="" type="">
-        <track id="subtitleTrack" kind="subtitles" src="" srclang="th" label="Thai" default>
-        ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
       </video>
 
       <!-- ปุ่ม overlay -->
-      <a href="../movie.html" class="overlay-btn back-button">ย้อนกลับ</a>
-      <a href="#" id="reloadBtn" class="overlay-btn reload-button">โหลดซ้ำ</a>
+      <a href="../movie.html" 
+         class="absolute top-3 left-3 px-3 py-1.5 rounded-md text-sm font-semibold text-white backdrop-blur-sm bg-white/15 hover:bg-white/35 transition">
+         ย้อนกลับ
+      </a>
+      <a href="#" id="reloadBtn" 
+         class="absolute top-3 right-3 px-3 py-1.5 rounded-md text-sm font-semibold text-white backdrop-blur-sm bg-red-600/60 hover:bg-red-600/90 transition">
+         โหลดซ้ำ
+      </a>
     </div>
 
-    <div id="videoTitle" class="text-2xl font-bold mt-4 mb-4 text-[#E50914]">กำลังโหลด...</div>
+    <div id="videoTitle" 
+         class="w-full rounded-lg border border-gray-700 p-2 text-center mt-4 mb-4 text-lg font-bold bg-black text-[#E50914]">
+         กำลังโหลด...
+    </div>
   </main>
 
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
   <script>
     const params = new URLSearchParams(window.location.search);
     let file = params.get("file");
     let name = params.get("name");
+    let subtitle = params.get("subtitle");
 
     if (file) file = decodeURIComponent(file);
     if (name) name = decodeURIComponent(name);
+    if (subtitle) subtitle = decodeURIComponent(subtitle);
 
+    // ปรับ protocol ให้ปลอดภัย
     if (file) {
-      file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
+      file = file.replace(/^https?:\/\/oneid151\.serv00\.net/, "https://oneid151.serv00.net");
     }
 
     const videoSource = document.getElementById("videoSource");
     if (file) {
+      const getMimeType = (url) => {
+        if (/\.m3u8$/i.test(url)) return "application/x-mpegURL";
+        if (/\.mp4$/i.test(url)) return "video/mp4";
+        if (/\.webm$/i.test(url)) return "video/webm";
+        return "video/mp4"; // fallback
+      };
       videoSource.src = file;
-      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
+      videoSource.type = getMimeType(file);
     }
 
-// ปุ่ม reload โหลดทั้งหน้าใหม่
-document.getElementById("reloadBtn").addEventListener("click", (e) => {
-  e.preventDefault();
-  location.reload(); // โหลดหน้าใหม่ทั้งหมด
-});
+    const player = videojs("my-video");
+
+    // ✅ ปุ่ม reload โหลดทั้งหน้าใหม่
+    document.getElementById("reloadBtn").addEventListener("click", (e) => {
+      e.preventDefault();
+      location.reload(); // โหลดหน้าใหม่ทั้งหมด
+    });
+
+    // Dynamic subtitle track
+    if (subtitle) {
+      player.addRemoteTextTrack({
+        kind: "subtitles",
+        src: subtitle,
+        srclang: "th",
+        label: "Thai",
+        default: true
+      }, false);
+    }
 
     if (name) {
       document.title = name;
       document.getElementById("videoTitle").textContent = name;
       console.log("Now Playing:", name);
     }
+
+    // Error handling
+    player.on("error", () => {
+      document.getElementById("videoTitle").textContent = "ไม่สามารถโหลดวิดีโอได้";
+    });
   </script>
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
