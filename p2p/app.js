@@ -3,30 +3,6 @@ let currentIndex = 0;
 let currentSeason = null;
 let serialData = null;
 
-function loadIframe(src, title) {
-  const iframe = document.getElementById("videoFrame");
-  iframe.src = src;
-
-  document.title = title;
-  document.getElementById("videoTitle").textContent = title;
-
-  updateButtons();
-  highlightCurrent();
-}
-
-function updateButtons() {
-  document.getElementById("prevBtn").disabled = currentIndex === 0;
-  document.getElementById("nextBtn").disabled = currentIndex === playlistData.length - 1;
-}
-
-function highlightCurrent() {
-  const buttons = document.querySelectorAll("#playlist button");
-  buttons.forEach((btn, idx) => {
-    btn.classList.remove("active-episode");
-    if (idx === currentIndex) btn.classList.add("active-episode");
-  });
-}
-
 function showSerialInfo(serial) {
   const serialDetails = document.getElementById("serialDetails");
   serialDetails.innerHTML = `
@@ -45,27 +21,18 @@ function loadSeason(season) {
 
   season.episodes.forEach((ep, index) => {
     const li = document.createElement("li");
-    const btn = document.createElement("button");
+    const btn = document.createElement("a");
+
+    // ✅ ใช้ query string ./p2p/index.html?file=...&name=...
+    const url = `./p2p/index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
 
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
-    btn.className = "w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
-
-    btn.addEventListener("click", () => {
-      currentIndex = index;
-      loadIframe(ep.video, ep.name);
-    });
+    btn.href = url;
+    btn.className = "block w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
 
     li.appendChild(btn);
     playlistEl.appendChild(li);
   });
-
-  if (season.episodes.length > 0) {
-    currentIndex = 0;
-    loadIframe(season.episodes[0].video, season.episodes[0].name);
-  }
-
-  updateButtons();
-  highlightCurrent();
 }
 
 // โหลดข้อมูลจาก playlist.json
@@ -92,12 +59,13 @@ fetch("playlist.json")
     });
   });
 
-// ปุ่ม Next/Prev
+// ปุ่ม Next/Prev และ Reload ใช้ query string
 document.getElementById("prevBtn").addEventListener("click", () => {
   if (currentIndex > 0) {
     currentIndex--;
     const ep = playlistData[currentIndex];
-    loadIframe(ep.video, ep.name);
+    const url = `./p2p/index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    window.location.href = url;
   }
 });
 
@@ -105,15 +73,16 @@ document.getElementById("nextBtn").addEventListener("click", () => {
   if (currentIndex < playlistData.length - 1) {
     currentIndex++;
     const ep = playlistData[currentIndex];
-    loadIframe(ep.video, ep.name);
+    const url = `./p2p/index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    window.location.href = url;
   }
 });
 
-// ปุ่ม reload
 document.getElementById("reloadBtn").addEventListener("click", (e) => {
   e.preventDefault();
   if (playlistData[currentIndex]) {
     const ep = playlistData[currentIndex];
-    loadIframe(ep.video, ep.name);
+    const url = `./p2p/index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    window.location.href = url;
   }
 });
