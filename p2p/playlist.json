@@ -10,6 +10,65 @@
         },
         "seasons": [
             {
+                "season": 2,
+                "info": " The Believers (2024) สาธุ ซีซั่น 1",
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "ตอนที่ 1",
+                        "video": "https:\/\/main.24playerhd.com\/newplaylist\/b9c3ae9b01e1b7038fd10158\/b9c3ae9b01e1b7038fd10158.m3u8",
+                        "referrer": "https:\/\/main.24playerhd.com\/"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "ตอนที่ 2",
+                        "video": "https:\/\/main.24playerhd.com:443\/m3u8\/f0e5308b8719ea454e1edccf\/f0e5308b8719ea454e1edccf438.m3u8",
+                        "referrer": "https:\/\/main.24playerhd.com\/"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "ตอนที่ 3",
+                        "video": "https:\/\/main.24playerhd.com\/newplaylist\/e3c391c64d3e340c420d457b\/e3c391c64d3e340c420d457b.m3u8",
+                        "referrer": "https:\/\/main.24playerhd.com\/"
+                    },
+                    {
+                        "episode": 4,
+                        "name": "ตอนที่ 4",
+                        "video": "https:\/\/main.24playerhd.com\/newplaylist\/ca43fc5f652593cc10841676\/ca43fc5f652593cc10841676.m3u8",
+                        "referrer": "https:\/\/main.24playerhd.com\/"
+                    },
+                    {
+                        "episode": 5,
+                        "name": "ตอนที่ 5",
+                        "video": "https:\/\/main.24playerhd.com\/newplaylist\/b5907b0e361c7064fb5c0371\/b5907b0e361c7064fb5c0371.m3u8",
+                        "referrer": "https:\/\/main.24playerhd.com\/"
+                    },
+                    {
+                        "episode": 6,
+                        "name": "ตอนที่ 6",
+                        "video": "https:\/\/main.24playerhd.com\/newplaylist\/0efb9360acc7304d45427fa8\/0efb9360acc7304d45427fa8.m3u8",
+                        "referrer": "https:\/\/main.24playerhd.com\/"
+                    },
+                    {
+                        "episode": 7,
+                        "name": "ตอนที่ 7",
+                        "video": "https:\/\/main.24playerhd.com\/newplaylist\/aa8a6d0d7ead267151255cf9\/aa8a6d0d7ead267151255cf9.m3u8",
+                        "referrer": "https:\/\/main.24playerhd.com\/"
+                    },
+                    {
+                        "episode": 8,
+                        "name": "ตอนที่ 8",
+                        "video": "https:\/\/main.24playerhd.com\/newplaylist\/5f1ca10957f65bec20fb1c79\/5f1ca10957f65bec20fb1c79.m3u8",
+                        "referrer": "https:\/\/main.24playerhd.com\/"
+                    },
+                    {
+                        "episode": 9,
+                        "name": "ตอนที่ 9",
+                        "video": "https:\/\/main.24playerhd.com\/newplaylist\/8b0298c51b6fed398588a7d5\/8b0298c51b6fed398588a7d5.m3u8",
+                        "referrer": "https:\/\/main.24playerhd.com\/"
+                    }
+                ]
+            },{
                 "season": 1,
                 "info": {
                     "poster": "https://www.24-hd.com/wp-content/uploads/2024/03/The-Believers-2024-%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B8-187x269.jpg",
