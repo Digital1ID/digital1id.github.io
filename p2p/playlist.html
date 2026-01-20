@@ -10,6 +10,7 @@
     .video-container { aspect-ratio:16/9; max-width:854px; margin:0 auto; position:relative; }
     #videoFrame { width:100%; height:100%; border-radius:8px; }
     #videoTitle { background:#111; border:1px solid #333; border-radius:10px; padding:8px; text-align:center; margin:12px 0; font-size:1rem; color:#E50914; }
+    .overlay-btn { position:absolute; top:12px; padding:6px 12px; border-radius:6px; font-size:14px; font-weight:600; color:#fff; backdrop-filter:blur(6px); transition:all 0.3s; }
     .active-episode { background:#E50914!important; color:#fff!important; }
   </style>
 </head>
@@ -17,15 +18,22 @@
 
 <header class="bg-[#141414] shadow-lg">
   <div class="container mx-auto px-4 py-4 flex justify-start items-center">
-    <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
-      FLIX <span class="text-white">Movie</span>
-    </h1>
+    <a href="../movie.html">
+      <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
+        FLIX <span class="text-white">Movie</span>
+      </h1>
+    </a>
   </div>
 </header>
 
 <main class="container mx-auto px-4 mt-8 mb-16">
   <div class="video-container">
     <iframe id="videoFrame" name="videoFrame" frameborder="0" allowfullscreen></iframe>
+    <!-- ปุ่ม Next/Previous -->
+    <button id="prevBtn" class="overlay-btn back-button">ก่อนหน้า</button>
+    <button id="nextBtn" class="overlay-btn reload-button">ถัดไป</button>
+    <!--a href="../movie.html" class="overlay-btn back-button">ย้อนกลับ</a>
+    <a href="#" id="reloadBtn" class="overlay-btn reload-button">โหลดซ้ำ</a-->
   </div>
 
   <div id="videoTitle">กำลังโหลด...</div>
@@ -49,11 +57,10 @@
   </div>
 
   <!-- ปุ่ม Next/Previous -->
-  <div class="flex justify-between mt-4">
+  <!--div class="flex justify-between mt-4">
     <button id="prevBtn" class="px-4 py-2 bg-[#333] rounded hover:bg-[#444] disabled:opacity-50">ก่อนหน้า</button>
     <button id="nextBtn" class="px-4 py-2 bg-[#333] rounded hover:bg-[#444] disabled:opacity-50">ถัดไป</button>
-    <button id="reloadBtn" class="px-4 py-2 bg-[#333] rounded hover:bg-[#444]">โหลดซ้ำ</button>
-  </div>
+</div-->
 </main>
 
 <script src="app.js"></script>
