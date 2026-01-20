@@ -70,6 +70,43 @@
 
 <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 <script>
+  // ✅ ข้อมูลซีรีส์ (แทน playlist.json)
+  const playlistJSON = [
+    {
+      "name": "The Believers (2024) สาธุ",
+      "category": "ซีรี่ย์ ไทย",
+      "info": {
+        "poster": "https://www.24-hd.com/wp-content/uploads/2024/03/The-Believers-2024-%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B8-187x269.jpg",
+        "description": "ซีรี่ย์ ไทย",
+        "year": "2024"
+      },
+      "seasons": [
+        {
+          "season": 1,
+          "info": {
+            "poster": "https://www.24-hd.com/wp-content/uploads/2024/03/The-Believers-2024-%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B8-187x269.jpg",
+            "description": "The Believers (2024) สาธุ",
+            "year": "2024"
+          },
+          "episodes": [
+            {
+              "episode": 1,
+              "name": "ตอนที่ 1",
+              "video": "https://main.24playerhd.com/newplaylist/b9c3ae9b01e1b7038fd10158/b9c3ae9b01e1b7038fd10158.m3u8",
+              "referrer": "https://main.24playerhd.com/"
+            },
+            {
+              "episode": 2,
+              "name": "ตอนที่ 2",
+              "video": "https://main.24playerhd.com:443/m3u8/f0e5308b8719ea454e1edccf/f0e5308b8719ea454e1edccf438.m3u8",
+              "referrer": "https://main.24playerhd.com/"
+            }
+          ]
+        }
+      ]
+    }
+  ];
+
   const videoSource = document.getElementById("videoSource");
   const player = videojs("my-video");
   let playlistData = [];
@@ -77,6 +114,7 @@
   let currentSeason = null;
   let serialData = null;
 
+  // โหลดวิดีโอ
   function loadVideo(src, title) {
     videoSource.src = src;
     videoSource.type = src.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
@@ -93,11 +131,13 @@
     highlightCurrent();
   }
 
+  // อัพเดตปุ่ม Next/Prev
   function updateButtons() {
     document.getElementById("prevBtn").disabled = currentIndex === 0;
     document.getElementById("nextBtn").disabled = currentIndex === playlistData.length - 1;
   }
 
+  // highlight ตอนที่กำลังเล่น
   function highlightCurrent() {
     const buttons = document.querySelectorAll("#playlist button");
     buttons.forEach((btn, idx) => {
@@ -106,45 +146,19 @@
     });
   }
 
+  // แสดงข้อมูลซีรีส์
   function showSerialInfo(serial) {
     const serialDetails = document.getElementById("serialDetails");
     serialDetails.innerHTML = `
       <p><strong>ชื่อเรื่อง:</strong> ${serial.name}</p>
       <p><strong>หมวดหมู่:</strong> ${serial.category}</p>
-      <p><strong>ปีที่ออกฉาย:</strong> ${serial.info.release_year}</p>
-      <p><strong>นักแสดง:</strong> ${serial.info.cast.join(", ")}</p>
+      <p><strong>ปีที่ออกฉาย:</strong> ${serial.info.year}</p>
       <p><strong>เรื่องย่อ:</strong> ${serial.info.description}</p>
+      <img src="${serial.info.poster}" alt="${serial.name}" class="mt-3 rounded-lg shadow-md">
     `;
   }
 
-  // โหลด Playlist จาก JSON
-  fetch("playlist.json")
-    .then(res => res.json())
-    .then(data => {
-      serialData = data[0]; // ใช้ซีรีส์แรก
-      showSerialInfo(serialData);
-
-      const seasonSelect = document.getElementById("seasonSelect");
-
-      // เติม dropdown ซีซัน
-      serialData.seasons.forEach((season, idx) => {
-        const opt = document.createElement("option");
-        opt.value = idx;
-        opt.textContent = `Season ${season.season}`;
-        seasonSelect.appendChild(opt);
-      });
-
-      // โหลดซีซันแรกเป็นค่าเริ่มต้น
-      currentSeason = serialData.seasons[0];
-      loadSeason(currentSeason);
-
-      // เมื่อเปลี่ยนซีซัน
-      seasonSelect.addEventListener("change", (e) => {
-        currentSeason = serialData.seasons[e.target.value];
-        loadSeason(currentSeason);
-      });
-    });
-
+  // โหลดซีซัน
   function loadSeason(season) {
     playlistData = season.episodes;
     const playlistEl = document.getElementById("playlist");
@@ -153,12 +167,15 @@
     season.episodes.forEach((ep, index) => {
       const li = document.createElement("li");
       const btn = document.createElement("button");
+
       btn.textContent = `EP${ep.episode}: ${ep.name}`;
       btn.className = "w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
+
       btn.addEventListener("click", () => {
         currentIndex = index;
         loadVideo(ep.video, ep.name);
       });
+
       li.appendChild(btn);
       playlistEl.appendChild(li);
     });
@@ -167,9 +184,32 @@
       currentIndex = 0;
       loadVideo(season.episodes[0].video, season.episodes[0].name);
     }
+
+    updateButtons();
+    highlightCurrent();
   }
 
-  // ปุ่ม Next/Previous
+  // โหลดข้อมูลซีรีส์แรก
+  serialData = playlistJSON[0];
+  showSerialInfo(serialData);
+
+  const seasonSelect = document.getElementById("seasonSelect");
+  serialData.seasons.forEach((season, idx) => {
+    const opt = document.createElement("option");
+    opt.value = idx;
+    opt.textContent = `Season ${season.season}`;
+    seasonSelect.appendChild(opt);
+  });
+
+  currentSeason = serialData.seasons[0];
+  loadSeason(currentSeason);
+
+  seasonSelect.addEventListener("change", (e) => {
+    currentSeason = serialData.seasons[e.target.value];
+    loadSeason(currentSeason);
+  });
+
+  // ปุ่ม Next/Prev
   document.getElementById("prevBtn").addEventListener("click", () => {
     if (currentIndex > 0) {
       currentIndex--;
@@ -193,7 +233,7 @@
     }
   });
 
-  // Auto Play ตอนถัดไป
+  // Auto-play ตอนถัดไป
   player.on("ended", () => {
     if (currentIndex < playlistData.length - 1) {
       currentIndex++;
