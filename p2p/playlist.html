@@ -26,10 +26,6 @@
 </header>
 
 <main class="container mx-auto px-4 mt-8 mb-16">
-      <a href="../movie.html" 
-         class="absolute top-3 left-3 px-3 py-1.5 rounded-md text-sm font-semibold text-white backdrop-blur-sm bg-white/15 hover:bg-white/35 transition">
-         ย้อนกลับ
-      </a>
   <div class="video-container">
     <!-- ✅ Placeholder -->
     <div id="placeholder" class="flex items-center justify-center w-full h-full bg-[#222] rounded-lg text-gray-400">
@@ -37,11 +33,19 @@
     </div>
     <!-- ✅ Iframe -->
     <iframe id="videoFrame" name="videoFrame" frameborder="0" allowfullscreen></iframe>
+
+    <!-- ปุ่ม overlay -->
+    <a href="../movie.html" 
+       class="absolute top-3 left-3 px-3 py-1.5 rounded-md text-sm font-semibold text-white backdrop-blur-sm bg-white/15 hover:bg-white/35 transition z-50">
+       ย้อนกลับ
+    </a>
   </div>
+
   <div id="videoTitle" 
      class="w-full rounded-lg border border-gray-700 p-3 text-center mt-4 mb-4 text-lg font-bold bg-gradient-to-r from-black via-[#111] to-black text-[#E50914] shadow-md">
   🎬 กำลังโหลด...
   </div>
+
   <!-- ปุ่ม Next/Previous -->
   <div class="flex justify-between mt-4">
     <button id="prevBtn" class="px-4 py-2 bg-[#333] rounded hover:bg-[#444] disabled:opacity-50">ก่อนหน้า</button>
@@ -68,16 +72,16 @@
 </main>
 
 <script src="app.js"></script>
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    let name = params.get("name");
-    if (name) name = decodeURIComponent(name);
+<script>
+  const params = new URLSearchParams(window.location.search);
+  let name = params.get("name");
+  if (name) name = decodeURIComponent(name);
 
-      if (name) {
-      document.title = name;
-      document.getElementById("videoTitle").textContent = name;
-      console.log("Now Playing:", name);
-    }
-  </script>
+  if (name) {
+    document.title = name;
+    document.getElementById("videoTitle").textContent = name;
+    console.log("Now Playing:", name);
+  }
+</script>
 </body>
 </html>
