@@ -62,15 +62,12 @@
     const params = new URLSearchParams(window.location.search);
     let file = params.get("file");
     let name = params.get("name");
-    let subtitle = params.get("subtitle");
 
     if (file) file = decodeURIComponent(file);
     if (name) name = decodeURIComponent(name);
-    if (subtitle) subtitle = decodeURIComponent(subtitle);
 
-    // ปรับ protocol ให้ปลอดภัย
     if (file) {
-      file = file.replace(/^https?:\/\/oneid151\.serv00\.net/, "https://oneid151.serv00.net");
+      file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
     }
 
     const videoSource = document.getElementById("videoSource");
@@ -79,35 +76,17 @@
       videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
     }
 
-    const player = videojs("my-video");
-
-// ✅ ปุ่ม reload โหลดทั้งหน้าใหม่
+// ปุ่ม reload โหลดทั้งหน้าใหม่
 document.getElementById("reloadBtn").addEventListener("click", (e) => {
   e.preventDefault();
   location.reload(); // โหลดหน้าใหม่ทั้งหมด
 });
-
-    // Dynamic subtitle track
-    if (subtitle) {
-      player.addRemoteTextTrack({
-        kind: "subtitles",
-        src: subtitle,
-        srclang: "th",
-        label: "Thai",
-        default: true
-      }, false);
-    }
 
     if (name) {
       document.title = name;
       document.getElementById("videoTitle").textContent = name;
       console.log("Now Playing:", name);
     }
-
-    // Error handling
-    player.on("error", () => {
-      document.getElementById("videoTitle").textContent = "ไม่สามารถโหลดวิดีโอได้";
-    });
   </script>
 </body>
 </html>
