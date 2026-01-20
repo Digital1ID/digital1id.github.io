@@ -11,10 +11,6 @@
     #videoFrame { width:100%; height:100%; border-radius:8px; }
     #videoTitle { background:#111; border:1px solid #333; border-radius:10px; padding:8px; text-align:center; margin:12px 0; font-size:1rem; color:#E50914; }
     .overlay-btn { position:absolute; top:12px; padding:6px 12px; border-radius:6px; font-size:14px; font-weight:600; color:#fff; backdrop-filter:blur(6px); transition:all 0.3s; }
-    .back-button { left:12px; background:rgba(255,255,255,0.15); }
-    .back-button:hover { background:rgba(255,255,255,0.35); }
-    .reload-button { right:12px; background:rgba(229,9,20,0.6); }
-    .reload-button:hover { background:rgba(229,9,20,0.9); }
     .active-episode { background:#E50914!important; color:#fff!important; }
   </style>
 </head>
@@ -33,8 +29,6 @@
 <main class="container mx-auto px-4 mt-8 mb-16">
   <div class="video-container">
     <iframe id="videoFrame" name="videoFrame" frameborder="0" allowfullscreen></iframe>
-    <a href="../movie.html" class="overlay-btn back-button">ย้อนกลับ</a>
-    <a href="#" id="reloadBtn" class="overlay-btn reload-button">โหลดซ้ำ</a>
   </div>
 
   <div id="videoTitle">กำลังโหลด...</div>
