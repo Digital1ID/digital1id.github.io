@@ -57,7 +57,7 @@ function loadSeason(season) {
     const btn = document.createElement("button");
 
     // ใช้ query string index.html?file=...&name=...
-    const url = `./p2p/index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.className = "w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
     btn.addEventListener("click", () => {
