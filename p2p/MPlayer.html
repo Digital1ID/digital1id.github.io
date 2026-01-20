@@ -24,15 +24,8 @@
       <video
         id="my-video"
         class="video-js vjs-big-play-centered rounded-lg overflow-hidden w-full h-full"
-        controls
-        autoplay
-        preload="auto"
-        data-setup='{
-          "playbackRates": [0.5, 1, 1.5, 2],
-          "fluid": true
-        }'>
-        <source id="videoSource" src="" type="">
-        ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
+        controls autoplay preload="auto"
+        data-setup='{"fluid": true}'>
       </video>
 
       <!-- ปุ่ม overlay -->
@@ -71,11 +64,8 @@
     if (name) name = decodeURIComponent(name);
 
     const player = videojs("my-video");
-    const videoSource = document.getElementById("videoSource");
 
     if (file) {
-      videoSource.src = file;
-      videoSource.type = "application/x-mpegURL";
       player.src({ src: file, type: "application/x-mpegURL" });
       loadPlaylist(file);
     }
@@ -110,7 +100,8 @@
             if (resolutionMatch) {
               const resolution = resolutionMatch[1];
               const option = document.createElement("option");
-              option.value = baseUrl + "/" + streamUrl.replace(/^\//, "");
+              // ใช้ absolute URL ถ้า streamUrl เป็น relative
+              option.value = streamUrl.startsWith("http") ? streamUrl : baseUrl + "/" + streamUrl.replace(/^\//, "");
               option.textContent = resolution + 
                 (bandwidthMatch ? ` (${Math.round(bandwidthMatch[1]/1000)} kbps)` : "");
               qualitySelector.appendChild(option);
