@@ -1,233 +1,137 @@
 [
     {
-        "id": "3",
-        "name": "",
-        "category": "",
+        "id": "4",
+        "name": "Alien: Earth",
+        "category": "ซีรี่ย์ ฝรั่ง",
         "info": {
-            "poster": "",
-            "description": "",
+            "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+            "description": "ยานอวกาศลึกลับตกลงบนโลก ทำให้หญิงสาวคนหนึ่งและทหารยุทธวิธีต้องเผชิญหน้ากับภัยคุกคามดาวโลกที่ยิ่งใหญ่ที่สุดอย่างเลี่ยงไม่ได้",
             "year": 2025
         },
         "seasons": [
             {
-                "season": 2,
+                "season": 1,
                 "info": {
-                    "poster": "",
-                    "description": "",
+                    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+                    "description": "Alien: Earth (2025)",
                     "year": 2025
                     },
                 "episodes": [
                     {
                         "episode": 1,
                         "name": "ตอนที่ 1",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/8b260274429af6e30a3c3cdf/8b260274429af6e30a3c3cdf.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 2,
                         "name": "ตอนที่ 2",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/674f63f5563315187cb6c793/674f63f5563315187cb6c793.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 3,
                         "name": "ตอนที่ 3",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/1e94639fd1c109afbb20555c/1e94639fd1c109afbb20555c.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 4,
                         "name": "ตอนที่ 4",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/bb5383c01685e4d91c611c62/bb5383c01685e4d91c611c62.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 5,
                         "name": "ตอนที่ 5",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/9ce9e9b0701aa2e504395c4b/9ce9e9b0701aa2e504395c4b.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 6,
                         "name": "ตอนที่ 6",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/24b4e044f4345bdd068aab1f/24b4e044f4345bdd068aab1f.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 7,
                         "name": "ตอนที่ 7",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/f18f41a777ea598cff0d2f76/f18f41a777ea598cff0d2f76.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 8,
                         "name": "ตอนที่ 8",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 9,
-                        "name": "ตอนที่ 9",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 9,
-                        "name": "ตอนที่ 9",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 10,
-                        "name": "ตอนที่ 10",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 11,
-                        "name": "ตอนที่ 11",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 12,
-                        "name": "ตอนที่ 12",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 13,
-                        "name": "ตอนที่ 13",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 14,
-                        "name": "ตอนที่ 14",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 15,
-                        "name": "ตอนที่ 15",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 16,
-                        "name": "ตอนที่ 16",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/0b2e5fc4336c1362d890b5e9/0b2e5fc4336c1362d890b5e9.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     }
                 ]
-            },{
+            }
+        ]
+    },{
+        "id": "3",
+        "name": "IT: Welcome to Derry - อิท: ยินดีต้อนรับสู่เดอร์รี่",
+        "category": "ซีรี่ย์ ฝรั่ง",
+        "info": {
+            "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pgMJEVsSdl28pW6cQEBLHxxD2Uy.jpg",
+            "description": "'อิท: ยินดีต้อนรับสู่เดอร์รี่' สร้างจากนิยาย 'อิท' ของคิงและขยายมุมมองที่ผู้กำกับ แอนดี้ มัชชิเอตติวางไว้ใน 'อิท โผล่จากนรก' และ 'อิท โผล่จากนรก 2'",
+            "year": 2025
+        },
+        "seasons": [
+            {
                 "season": 1,
                 "info": {
-                    "poster": "",
-                    "description": "",
+                    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pgMJEVsSdl28pW6cQEBLHxxD2Uy.jpg",
+                    "description": "IT: Welcome to Derry (2025) อิท: ยินดีต้อนรับสู่เดอร์รี่",
                     "year": 2025
                     },
                 "episodes": [
                     {
                         "episode": 1,
                         "name": "ตอนที่ 1",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/b969b278e56854716db95fdb/b969b278e56854716db95fdb.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 2,
                         "name": "ตอนที่ 2",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/2b77a38373a5842595013433/2b77a38373a5842595013433.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 3,
                         "name": "ตอนที่ 3",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/295d172fa99b9c95a20549d1/295d172fa99b9c95a20549d1.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 4,
                         "name": "ตอนที่ 4",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/27cc2f25c02fb68fecb31066/27cc2f25c02fb68fecb31066.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 5,
                         "name": "ตอนที่ 5",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/4dd0eacabc4dbe7dab303644/4dd0eacabc4dbe7dab303644.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 6,
                         "name": "ตอนที่ 6",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/48c998784d6376b1c5045154/48c998784d6376b1c5045154.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 7,
                         "name": "ตอนที่ 7",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/7c21117d2a20e62fa9e66d71/7c21117d2a20e62fa9e66d71.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 8,
                         "name": "ตอนที่ 8",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 9,
-                        "name": "ตอนที่ 9",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 9,
-                        "name": "ตอนที่ 9",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 10,
-                        "name": "ตอนที่ 10",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 11,
-                        "name": "ตอนที่ 11",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 12,
-                        "name": "ตอนที่ 12",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 13,
-                        "name": "ตอนที่ 13",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 14,
-                        "name": "ตอนที่ 14",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 15,
-                        "name": "ตอนที่ 15",
-                        "video": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 16,
-                        "name": "ตอนที่ 16",
-                        "video": "",
+                        "video": "https://main.24playerhd.com/newplaylist/473aa01ade7eb6c1f7116a4a/473aa01ade7eb6c1f7116a4a.m3u8",
                         "referrer": "https://main.24playerhd.com/"
                     }
                 ]
