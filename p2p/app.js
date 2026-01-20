@@ -8,21 +8,24 @@ function getQueryParams() {
   const params = new URLSearchParams(window.location.search);
   return {
     id: params.get("id"),
+    season: params.get("season"),
     name: params.get("name")
   };
 }
 
-function showSerialInfo(serial) {
+// ✅ แสดงข้อมูลซีรีส์/ซีซัน
+function showInfo(info, serialName, category) {
   const serialDetails = document.getElementById("serialDetails");
   serialDetails.innerHTML = `
-    <p><strong>ชื่อเรื่อง:</strong> ${serial.name}</p>
-    <p><strong>หมวดหมู่:</strong> ${serial.category}</p>
-    <p><strong>ปีที่ออกฉาย:</strong> ${serial.info.year}</p>
-    <p><strong>เรื่องย่อ:</strong> ${serial.info.description}</p>
-    <img src="${serial.info.poster}" alt="${serial.name}" class="mt-3 rounded-lg shadow-md">
+    <p><strong>ชื่อเรื่อง:</strong> ${serialName}</p>
+    <p><strong>หมวดหมู่:</strong> ${category}</p>
+    <p><strong>ปีที่ออกฉาย:</strong> ${info.year}</p>
+    <p><strong>เรื่องย่อ:</strong> ${info.description}</p>
+    <img src="${info.poster}" alt="${serialName}" class="mt-3 rounded-lg shadow-md">
   `;
 }
 
+// ✅ โหลดซีซัน
 function loadSeason(season) {
   playlistData = season.episodes;
   const playlistEl = document.getElementById("playlist");
@@ -32,7 +35,6 @@ function loadSeason(season) {
     const li = document.createElement("li");
     const btn = document.createElement("button");
 
-    // ✅ ใช้ playlist.html?id=...&name=...
     const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
 
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
@@ -52,11 +54,11 @@ function loadSeason(season) {
   });
 }
 
-// ✅ โหลดข้อมูลจาก playlist.json ตาม id
+// ✅ โหลดข้อมูลจาก playlist.json ตาม id และ season
 fetch("playlist.json")
   .then(res => res.json())
   .then(data => {
-    const { id } = getQueryParams();
+    const { id, season } = getQueryParams();
     serialData = data.find(item => item.id === id);
 
     if (!serialData) {
@@ -64,23 +66,29 @@ fetch("playlist.json")
       return;
     }
 
-    showSerialInfo(serialData);
+    // ถ้า season มีค่า → ใช้ข้อมูลของ season นั้น
+    let seasonIndex = season ? parseInt(season) - 1 : 0;
+    currentSeason = serialData.seasons[seasonIndex] || serialData.seasons[0];
 
+    // ✅ แสดงข้อมูลตาม season
+    showInfo(currentSeason.info, serialData.name, serialData.category);
+
+    // ✅ สร้าง dropdown season
     const seasonSelect = document.getElementById("seasonSelect");
     seasonSelect.innerHTML = "";
-
-    serialData.seasons.forEach((season, idx) => {
+    serialData.seasons.forEach((s, idx) => {
       const opt = document.createElement("option");
       opt.value = idx;
-      opt.textContent = `Season ${season.season}`;
+      opt.textContent = `Season ${s.season}`;
+      if (idx === seasonIndex) opt.selected = true;
       seasonSelect.appendChild(opt);
     });
 
-    currentSeason = serialData.seasons[0];
     loadSeason(currentSeason);
 
     seasonSelect.addEventListener("change", (e) => {
       currentSeason = serialData.seasons[e.target.value];
+      showInfo(currentSeason.info, serialData.name, serialData.category);
       loadSeason(currentSeason);
     });
   });
