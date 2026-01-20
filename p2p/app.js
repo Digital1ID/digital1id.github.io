@@ -7,7 +7,7 @@ let serialData = null;
 function getQueryParams() {
   const params = new URLSearchParams(window.location.search);
   return {
-    id: params.get("id"),
+    id: params.get("id") || params.get("file"), // ถ้าไม่มี id จะใช้ file แทน
     season: params.get("season"),
     name: params.get("name")
   };
