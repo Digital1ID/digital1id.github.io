@@ -1,8 +1,22 @@
 [
   {
     "player": "p2p/player",
+    "name": "Unrelenting Drug Interdiction (2025) ปราบยาล่าไม่เลิก",
+    "info": {"sound": "จีน","subtitles": "ไทย"},
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bIuFxlWX1piZn4tIG0Q5tgWowKu.jpg",
+    "video": "https://main.24playerhd.com/newplaylist/320d098fc994643b68ac80cd/320d098fc994643b68ac80cd.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "The Legend of Feng Lou Divine Fox (2025) ตำนานเซียนจิ้งจอกแห่งเฟิ่งโหลว",
+    "info": {"sound": "จีน","subtitles": "ไทย"},
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bcZ9kCPf3UhABoXrnDlpe1pA2d5.jpg",
+    "video": "https://main.24playerhd.com/newplaylist/b83938b75deaf572f6bed423/b83938b75deaf572f6bed423.m3u8"
+  },
+  {
+    "player": "p2p/player",
     "name": "Black Storm (2024) พายุทมิฬ",
-    "info": {"sound": "พากย์ไทย","subtitles": ""},
+    "info": {"sound": "ไทย","subtitles": ""},
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/sqILl3CWEZv7M8V70aPtH23GOAl.jpg",
     "video": "https://main.24playerhd.com/newplaylist/c4bcfeb718c48db8e2c64d9e/c4bcfeb718c48db8e2c64d9e.m3u8",
     "subtitle": ""
@@ -132,7 +146,7 @@
   },
   {
     "name": "Predator: Badlands (2025) พรีเดเตอร์: แดนเถื่อน",
-    "info": {"sound": "เสียงไทยโรง","subtitles": "Thai"},
+    "info": {"sound": "ไทยโรง","subtitles": "ไทย"},
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg",
     "video": "https://master.steamhls88.com/hlsr2/2097f3cb82493b08fcfb95ec231a4a2a/master.m3u8",
     "subtitle": "https://raw.githubusercontent.com/Digital1ID/digital1id.github.io/refs/heads/main/playlist/Predator.srt"
