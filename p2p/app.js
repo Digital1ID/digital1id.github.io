@@ -3,7 +3,7 @@ let currentIndex = 0;
 let currentSeason = null;
 let serialData = null;
 
-// ✅ อ่าน query string จาก URL
+// ✅ อ่าน query string
 function getQueryParams() {
   const params = new URLSearchParams(window.location.search);
   return {
@@ -25,6 +25,21 @@ function showInfo(info, serialName, category) {
   `;
 }
 
+// ✅ เล่นตอน
+function playEpisode(url, index) {
+  const videoFrame = document.getElementById("videoFrame");
+  const placeholder = document.getElementById("placeholder");
+
+  placeholder.style.display = "none";   // ซ่อนข้อความ
+  videoFrame.style.display = "block";   // แสดง iframe
+  videoFrame.src = url;
+  videoFrame.scrollIntoView({ behavior: "smooth", block: "center" });
+
+  currentIndex = index;
+  document.querySelectorAll("#playlist button").forEach(b => b.classList.remove("active-episode"));
+  document.querySelectorAll("#playlist button")[index].classList.add("active-episode");
+}
+
 // ✅ โหลดซีซัน
 function loadSeason(season) {
   playlistData = season.episodes;
@@ -40,21 +55,14 @@ function loadSeason(season) {
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.className = "block w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
 
-    btn.addEventListener("click", () => {
-      currentIndex = index;
-      document.getElementById("videoFrame").src = url;
-      document.getElementById("videoFrame").scrollIntoView({ behavior: "smooth", block: "center" });
-
-      document.querySelectorAll("#playlist button").forEach(b => b.classList.remove("active-episode"));
-      btn.classList.add("active-episode");
-    });
+    btn.addEventListener("click", () => playEpisode(url, index));
 
     li.appendChild(btn);
     playlistEl.appendChild(li);
   });
 }
 
-// ✅ โหลดข้อมูลจาก playlist.json ตาม id และ season
+// ✅ โหลดข้อมูลจาก playlist.json
 fetch("playlist.json")
   .then(res => res.json())
   .then(data => {
@@ -66,14 +74,11 @@ fetch("playlist.json")
       return;
     }
 
-    // ถ้า season มีค่า → ใช้ข้อมูลของ season นั้น
     let seasonIndex = season ? parseInt(season) - 1 : 0;
     currentSeason = serialData.seasons[seasonIndex] || serialData.seasons[0];
 
-    // ✅ แสดงข้อมูลตาม season
     showInfo(currentSeason.info, serialData.name, serialData.category);
 
-    // ✅ สร้าง dropdown season
     const seasonSelect = document.getElementById("seasonSelect");
     seasonSelect.innerHTML = "";
     serialData.seasons.forEach((s, idx) => {
@@ -99,8 +104,7 @@ document.getElementById("prevBtn").addEventListener("click", () => {
     currentIndex--;
     const ep = playlistData[currentIndex];
     const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
-    document.getElementById("videoFrame").src = url;
-    document.getElementById("videoFrame").scrollIntoView({ behavior: "smooth", block: "center" });
+    playEpisode(url, currentIndex);
   }
 });
 
@@ -109,23 +113,6 @@ document.getElementById("nextBtn").addEventListener("click", () => {
     currentIndex++;
     const ep = playlistData[currentIndex];
     const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
-    document.getElementById("videoFrame").src = url;
-    document.getElementById("videoFrame").scrollIntoView({ behavior: "smooth", block: "center" });
+    playEpisode(url, currentIndex);
   }
 });
-
-function playEpisode(url, index) {
-  const videoFrame = document.getElementById("videoFrame");
-  const placeholder = document.getElementById("placeholder");
-
-  // ✅ ซ่อนข้อความ placeholder และแสดง iframe
-  placeholder.style.display = "none";
-  videoFrame.style.display = "block";
-
-  videoFrame.src = url;
-  videoFrame.scrollIntoView({ behavior: "smooth", block: "center" });
-
-  currentIndex = index;
-  document.querySelectorAll("#playlist button").forEach(b => b.classList.remove("active-episode"));
-  document.querySelectorAll("#playlist button")[index].classList.add("active-episode");
-}
