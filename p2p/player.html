@@ -38,7 +38,7 @@
           "poster": "poster.jpg"
         }'>
         <source id="videoSource" src="" type="">
-        <track id="subtitleTrack" kind="subtitles" src="" srclang="th" label="Thai" default>
+        <track id="subtitleTrack" kind="subtitles" src="" srclang="" label="" default>
         ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
       </video>
 
@@ -59,13 +59,16 @@
     </div>
   </main>
 
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
   <script>
     const params = new URLSearchParams(window.location.search);
     let file = params.get("file");
     let name = params.get("name");
+    let subtitle = params.get("subtitle");
 
     if (file) file = decodeURIComponent(file);
     if (name) name = decodeURIComponent(name);
+    if (subtitle) subtitle = decodeURIComponent(subtitle);
 
     if (file) {
       file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
@@ -77,10 +80,12 @@
       videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
     }
 
+    const player = videojs("my-video");
+
     // ปุ่ม reload โหลดทั้งหน้าใหม่
     document.getElementById("reloadBtn").addEventListener("click", (e) => {
       e.preventDefault();
-      location.reload(); // โหลดหน้าใหม่ทั้งหมด
+      location.reload();
     });
 
     if (name) {
@@ -88,7 +93,50 @@
       document.getElementById("videoTitle").textContent = name;
       console.log("Now Playing:", name);
     }
+
+    // Dynamic subtitle track
+    if (subtitle) {
+      player.addRemoteTextTrack({
+        kind: "subtitles",
+        src: subtitle,
+        srclang: "th",
+        label: "Thai",
+        default: true
+      }, false);
+    }
+
+    // ✅ เพิ่มปุ่ม Skip -10s และ +10s ใน Control Bar
+    const Button = videojs.getComponent('Button');
+
+    const SkipBackButton = videojs.extend(Button, {
+      constructor: function() {
+        Button.apply(this, arguments);
+        this.controlText("ย้อนกลับ 10 วิ");
+        this.addClass("vjs-skip-back");
+        this.el().innerHTML = "⏪";
+      },
+      handleClick: function() {
+        player.currentTime(player.currentTime() - 10);
+      }
+    });
+
+    const SkipForwardButton = videojs.extend(Button, {
+      constructor: function() {
+        Button.apply(this, arguments);
+        this.controlText("ไปข้างหน้า 10 วิ");
+        this.addClass("vjs-skip-forward");
+        this.el().innerHTML = "⏩";
+      },
+      handleClick: function() {
+        player.currentTime(player.currentTime() + 10);
+      }
+    });
+
+    videojs.registerComponent("SkipBackButton", SkipBackButton);
+    videojs.registerComponent("SkipForwardButton", SkipForwardButton);
+
+    player.getChild("controlBar").addChild("SkipBackButton", {}, 0);
+    player.getChild("controlBar").addChild("SkipForwardButton", {}, 2);
   </script>
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
