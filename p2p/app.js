@@ -1,13 +1,8 @@
-const params = new URLSearchParams(window.location.search);
-const file = params.get("file");
-const name = params.get("name");
-
 let playlistData = [];
 let currentIndex = 0;
 let currentSeason = null;
 let serialData = null;
 
-// โหลด iframe
 function loadIframe(src, title) {
   const iframe = document.getElementById("videoFrame");
   iframe.src = src;
@@ -19,13 +14,11 @@ function loadIframe(src, title) {
   highlightCurrent();
 }
 
-// อัพเดตปุ่ม Next/Prev
 function updateButtons() {
   document.getElementById("prevBtn").disabled = currentIndex === 0;
   document.getElementById("nextBtn").disabled = currentIndex === playlistData.length - 1;
 }
 
-// highlight ตอนที่กำลังเล่น
 function highlightCurrent() {
   const buttons = document.querySelectorAll("#playlist button");
   buttons.forEach((btn, idx) => {
@@ -34,7 +27,6 @@ function highlightCurrent() {
   });
 }
 
-// แสดงข้อมูลซีรีส์
 function showSerialInfo(serial) {
   const serialDetails = document.getElementById("serialDetails");
   serialDetails.innerHTML = `
@@ -46,7 +38,6 @@ function showSerialInfo(serial) {
   `;
 }
 
-// โหลดซีซัน
 function loadSeason(season) {
   playlistData = season.episodes;
   const playlistEl = document.getElementById("playlist");
@@ -56,23 +47,25 @@ function loadSeason(season) {
     const li = document.createElement("li");
     const btn = document.createElement("button");
 
-    // ใช้ query string index.html?file=...&name=...
-    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.className = "w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
+
     btn.addEventListener("click", () => {
       currentIndex = index;
-      window.location.href = url;
+      loadIframe(ep.video, ep.name);
     });
 
     li.appendChild(btn);
     playlistEl.appendChild(li);
   });
 
-  if (season.episodes.length > 0 && !file) {
+  if (season.episodes.length > 0) {
     currentIndex = 0;
     loadIframe(season.episodes[0].video, season.episodes[0].name);
   }
+
+  updateButtons();
+  highlightCurrent();
 }
 
 // โหลดข้อมูลจาก playlist.json
@@ -97,11 +90,6 @@ fetch("playlist.json")
       currentSeason = serialData.seasons[e.target.value];
       loadSeason(currentSeason);
     });
-
-    // ถ้ามีค่า file จาก query string ให้โหลด iframe ทันที
-    if (file) {
-      loadIframe(file, name || "Now Playing");
-    }
   });
 
 // ปุ่ม Next/Prev
@@ -124,7 +112,8 @@ document.getElementById("nextBtn").addEventListener("click", () => {
 // ปุ่ม reload
 document.getElementById("reloadBtn").addEventListener("click", (e) => {
   e.preventDefault();
-  if (file) {
-    loadIframe(file, name || "Now Playing");
+  if (playlistData[currentIndex]) {
+    const ep = playlistData[currentIndex];
+    loadIframe(ep.video, ep.name);
   }
 });
