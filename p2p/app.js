@@ -66,7 +66,7 @@ document.getElementById("prevBtn").addEventListener("click", () => {
     currentIndex--;
     const ep = playlistData[currentIndex];
     const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
-    window.location.href = url;
+    document.getElementById("videoFrame").src = url;   // ✅ เปิดใน iframe
   }
 });
 
@@ -75,15 +75,7 @@ document.getElementById("nextBtn").addEventListener("click", () => {
     currentIndex++;
     const ep = playlistData[currentIndex];
     const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
-    window.location.href = url;
+    document.getElementById("videoFrame").src = url;   // ✅ เปิดใน iframe
   }
 });
 
-document.getElementById("reloadBtn").addEventListener("click", (e) => {
-  e.preventDefault();
-  if (playlistData[currentIndex]) {
-    const ep = playlistData[currentIndex];
-    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
-    window.location.href = url;
-  }
-});
