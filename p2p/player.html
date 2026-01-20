@@ -75,14 +75,8 @@
 
     const videoSource = document.getElementById("videoSource");
     if (file) {
-      const getMimeType = (url) => {
-        if (/\.m3u8$/i.test(url)) return "application/x-mpegURL";
-        if (/\.mp4$/i.test(url)) return "video/mp4";
-        if (/\.webm$/i.test(url)) return "video/webm";
-        return "video/mp4"; // fallback
-      };
       videoSource.src = file;
-      videoSource.type = getMimeType(file);
+      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
     }
 
     const player = videojs("my-video");
