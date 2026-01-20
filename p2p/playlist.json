@@ -1,17 +1,21 @@
 [
     {
         "id": "1",
-        "name": "The Believers (2024) สาธุ",
+        "name": "The Believers สาธุ",
         "category": "ซีรี่ย์ ไทย",
         "info": {
             "poster": "https://www.24-hd.com/wp-content/uploads/2024/03/The-Believers-2024-%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B8-187x269.jpg",
-            "description": "ซีรี่ย์ ไทย",
+            "description": "",
             "year": "2024"
         },
         "seasons": [
             {
                 "season": 2,
-                "info": " The Believers (2024) สาธุ ซีซั่น 1",
+                "info": {
+                    "poster": "https://www.24-hd.com/wp-content/uploads/2024/03/The-Believers-2024-%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B8-187x269.jpg",
+                    "description": "The Believers (2024) สาธุ ซีซั่น 2",
+                    "year": "2025"
+                    },
                 "episodes": [
                     {
                         "episode": 1,
@@ -72,7 +76,7 @@
                 "season": 1,
                 "info": {
                     "poster": "https://www.24-hd.com/wp-content/uploads/2024/03/The-Believers-2024-%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B8-187x269.jpg",
-                    "description": "The Believers (2024) สาธุ",
+                    "description": "The Believers (2024) สาธุ ซีซั่น 1",
                     "year": "2024"
                     },
                 "episodes": [
