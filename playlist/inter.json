@@ -1,5 +1,19 @@
 [
   {
+    "player": "p2p/playlist",
+    "name": "IT: Welcome to Derry (2025) อิท: ยินดีต้อนรับสู่เดอร์รี่",
+    "info": "พากย์ไทย",
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pgMJEVsSdl28pW6cQEBLHxxD2Uy.jpg",
+    "video": "3"
+  },
+  {
+    "player": "p2p/playlist",
+    "name": "Alien: Earth (2025)",
+    "info": "พากย์ไทย",
+    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+    "video": "4"
+  },
+  {
     "name": "Flower Girl (2025) อลวนสาวกลีบหาย",
     "info": "พากย์ไทย",
     "poster": "https://movie22hd.com/wp-content/uploads/2025/11/Flower-Girl.webp",
