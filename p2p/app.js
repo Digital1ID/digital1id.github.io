@@ -3,6 +3,15 @@ let currentIndex = 0;
 let currentSeason = null;
 let serialData = null;
 
+// ✅ อ่าน query string จาก URL
+function getQueryParams() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    id: params.get("id"),
+    name: params.get("name")
+  };
+}
+
 function showSerialInfo(serial) {
   const serialDetails = document.getElementById("serialDetails");
   serialDetails.innerHTML = `
@@ -23,21 +32,17 @@ function loadSeason(season) {
     const li = document.createElement("li");
     const btn = document.createElement("button");
 
-    // ✅ ใช้ query string index.html?file=...&name=...
+    // ✅ ใช้ playlist.html?id=...&name=...
     const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
 
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.className = "block w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
 
-    // ✅ เมื่อคลิกตอน ให้เปลี่ยน src ของ iframe และอัปเดต currentIndex
     btn.addEventListener("click", () => {
       currentIndex = index;
       document.getElementById("videoFrame").src = url;
-
-      // เลื่อนลื่นไปหา iframe
       document.getElementById("videoFrame").scrollIntoView({ behavior: "smooth", block: "center" });
 
-      // ไฮไลท์ตอนที่เลือก
       document.querySelectorAll("#playlist button").forEach(b => b.classList.remove("active-episode"));
       btn.classList.add("active-episode");
     });
@@ -47,14 +52,23 @@ function loadSeason(season) {
   });
 }
 
-// โหลดข้อมูลจาก playlist.json
+// ✅ โหลดข้อมูลจาก playlist.json ตาม id
 fetch("playlist.json")
   .then(res => res.json())
   .then(data => {
-    serialData = data[0];
+    const { id } = getQueryParams();
+    serialData = data.find(item => item.id === id);
+
+    if (!serialData) {
+      document.getElementById("serialDetails").innerHTML = "<p class='text-red-500'>ไม่พบข้อมูลซีรีส์</p>";
+      return;
+    }
+
     showSerialInfo(serialData);
 
     const seasonSelect = document.getElementById("seasonSelect");
+    seasonSelect.innerHTML = "";
+
     serialData.seasons.forEach((season, idx) => {
       const opt = document.createElement("option");
       opt.value = idx;
@@ -71,7 +85,7 @@ fetch("playlist.json")
     });
   });
 
-// ปุ่ม Next/Prev ใช้ currentIndex ที่อัปเดตแล้ว
+// ✅ ปุ่ม Next/Prev
 document.getElementById("prevBtn").addEventListener("click", () => {
   if (currentIndex > 0) {
     currentIndex--;
