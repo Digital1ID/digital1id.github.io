@@ -38,6 +38,10 @@
   <!-- ปุ่ม Next/Previous -->
   <div class="flex justify-between mt-4">
     <button id="prevBtn" class="px-4 py-2 bg-[#333] rounded hover:bg-[#444] disabled:opacity-50">ก่อนหน้า</button>
+    <div id="videoTitle" 
+         class="w-full rounded-lg border border-gray-700 p-2 text-center mt-4 mb-4 text-lg font-bold bg-black text-[#E50914]">
+         กำลังโหลด...
+    </div>
     <button id="nextBtn" class="px-4 py-2 bg-[#333] rounded hover:bg-[#444] disabled:opacity-50">ถัดไป</button>
   </div>
 
@@ -61,5 +65,16 @@
 </main>
 
 <script src="app.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    let name = params.get("name");
+    if (name) name = decodeURIComponent(name);
+
+      if (name) {
+      document.title = name;
+      document.getElementById("videoTitle").textContent = name;
+      console.log("Now Playing:", name);
+    }
+  </script>
 </body>
 </html>
