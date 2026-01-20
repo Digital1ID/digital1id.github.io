@@ -23,8 +23,8 @@ function loadSeason(season) {
     const li = document.createElement("li");
     const btn = document.createElement("a");
 
-    // ✅ ใช้ query string ./p2p/index.html?file=...&name=...
-    const url = `./p2p/index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    // ✅ ใช้ query string index.html?file=...&name=...
+    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
 
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.href = url;
@@ -64,7 +64,7 @@ document.getElementById("prevBtn").addEventListener("click", () => {
   if (currentIndex > 0) {
     currentIndex--;
     const ep = playlistData[currentIndex];
-    const url = `./p2p/index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
     window.location.href = url;
   }
 });
@@ -73,7 +73,7 @@ document.getElementById("nextBtn").addEventListener("click", () => {
   if (currentIndex < playlistData.length - 1) {
     currentIndex++;
     const ep = playlistData[currentIndex];
-    const url = `./p2p/index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
     window.location.href = url;
   }
 });
@@ -82,7 +82,7 @@ document.getElementById("reloadBtn").addEventListener("click", (e) => {
   e.preventDefault();
   if (playlistData[currentIndex]) {
     const ep = playlistData[currentIndex];
-    const url = `./p2p/index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
     window.location.href = url;
   }
 });
