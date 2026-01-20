@@ -28,6 +28,7 @@ function loadSeason(season) {
 
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.href = url;
+    btn.target = "videoFrame"; // ✅ เปิดใน iframe ที่มี name="videoFrame"
     btn.className = "block w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
 
     li.appendChild(btn);
