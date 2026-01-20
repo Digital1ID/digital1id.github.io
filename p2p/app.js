@@ -113,3 +113,19 @@ document.getElementById("nextBtn").addEventListener("click", () => {
     document.getElementById("videoFrame").scrollIntoView({ behavior: "smooth", block: "center" });
   }
 });
+
+function playEpisode(url, index) {
+  const videoFrame = document.getElementById("videoFrame");
+  const placeholder = document.getElementById("placeholder");
+
+  // ✅ ซ่อนข้อความ placeholder และแสดง iframe
+  placeholder.style.display = "none";
+  videoFrame.style.display = "block";
+
+  videoFrame.src = url;
+  videoFrame.scrollIntoView({ behavior: "smooth", block: "center" });
+
+  currentIndex = index;
+  document.querySelectorAll("#playlist button").forEach(b => b.classList.remove("active-episode"));
+  document.querySelectorAll("#playlist button")[index].classList.add("active-episode");
+}
