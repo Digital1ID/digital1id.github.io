@@ -27,9 +27,15 @@
 </header>
 
 <main class="container mx-auto px-4 mt-8 mb-16">
-  <div class="video-container">
-    <iframe id="videoFrame" name="videoFrame" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+  <!-- ข้อความ placeholder -->
+  <div id="placeholder" class="flex items-center justify-center w-full h-full bg-[#222] rounded-lg text-gray-400">
+    กรุณาเลือกตอนเพื่อเริ่มเล่น
   </div>
+
+  <!-- iframe ซ่อนตอนแรก -->
+  <iframe id="videoFrame" name="videoFrame" frameborder="0" allowfullscreen style="display:none;"></iframe>
+</div>
 
   <!-- ปุ่ม Next/Previous อยู่ใต้ iframe -->
   <div class="flex justify-between mt-4">
