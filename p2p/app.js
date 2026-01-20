@@ -1,16 +1,16 @@
-const videoSource = document.getElementById("videoSource");
-const player = videojs("my-video");
+const params = new URLSearchParams(window.location.search);
+const file = params.get("file");
+const name = params.get("name");
+
 let playlistData = [];
 let currentIndex = 0;
 let currentSeason = null;
 let serialData = null;
 
-// โหลดวิดีโอ
-function loadVideo(src, title) {
-  videoSource.src = src;
-  videoSource.type = src.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
-  player.src({ src: src, type: videoSource.type });
-  player.play();
+// โหลด iframe
+function loadIframe(src, title) {
+  const iframe = document.getElementById("videoFrame");
+  iframe.src = src;
 
   document.title = title;
   document.getElementById("videoTitle").textContent = title;
@@ -56,25 +56,23 @@ function loadSeason(season) {
     const li = document.createElement("li");
     const btn = document.createElement("button");
 
+    // ใช้ query string index.html?file=...&name=...
+    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.className = "w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
-
     btn.addEventListener("click", () => {
       currentIndex = index;
-      loadVideo(ep.video, ep.name);
+      window.location.href = url;
     });
 
     li.appendChild(btn);
     playlistEl.appendChild(li);
   });
 
-  if (season.episodes.length > 0) {
+  if (season.episodes.length > 0 && !file) {
     currentIndex = 0;
-    loadVideo(season.episodes[0].video, season.episodes[0].name);
+    loadIframe(season.episodes[0].video, season.episodes[0].name);
   }
-
-  updateButtons();
-  highlightCurrent();
 }
 
 // โหลดข้อมูลจาก playlist.json
@@ -99,6 +97,11 @@ fetch("playlist.json")
       currentSeason = serialData.seasons[e.target.value];
       loadSeason(currentSeason);
     });
+
+    // ถ้ามีค่า file จาก query string ให้โหลด iframe ทันที
+    if (file) {
+      loadIframe(file, name || "Now Playing");
+    }
   });
 
 // ปุ่ม Next/Prev
@@ -106,7 +109,7 @@ document.getElementById("prevBtn").addEventListener("click", () => {
   if (currentIndex > 0) {
     currentIndex--;
     const ep = playlistData[currentIndex];
-    loadVideo(ep.video, ep.name);
+    loadIframe(ep.video, ep.name);
   }
 });
 
@@ -114,26 +117,14 @@ document.getElementById("nextBtn").addEventListener("click", () => {
   if (currentIndex < playlistData.length - 1) {
     currentIndex++;
     const ep = playlistData[currentIndex];
-    loadVideo(ep.video, ep.name);
-  }
-});
-
-// Auto-play ตอนถัดไป
-player.on("ended", () => {
-  if (currentIndex < playlistData.length - 1) {
-    currentIndex++;
-    const ep = playlistData[currentIndex];
-    loadVideo(ep.video, ep.name);
-  } else {
-    console.log("ถึงตอนสุดท้ายแล้ว 🎬");
+    loadIframe(ep.video, ep.name);
   }
 });
 
 // ปุ่ม reload
 document.getElementById("reloadBtn").addEventListener("click", (e) => {
   e.preventDefault();
-  if (playlistData[currentIndex]) {
-    const ep = playlistData[currentIndex];
-    loadVideo(ep.video, ep.name);
+  if (file) {
+    loadIframe(file, name || "Now Playing");
   }
 });
