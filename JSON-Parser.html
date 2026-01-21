@@ -31,13 +31,13 @@ function parseM3U8(text) {
     if (line.startsWith("#EXTINF")) {
       flush();
       current = {
-        player: "p2p/player",
-        group: "",
-        name: "",
-        info: "พากย์ไทย",
-        poster: "",
-        video: "",
-        Referrer: ""
+        "player": "p2p/player",
+        "category": "",
+        "name": "",
+        "info": {"description": "พากย์ไทย"},
+        "poster": "",
+        "video": "",
+        "Referrer": ""
       };
       const commaIdx = line.indexOf(",");
       const header = line.slice(0, commaIdx);
