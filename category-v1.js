@@ -1,5 +1,5 @@
 // กำหนดหมวดหมู่ทั้งหมดพร้อมชื่อเต็ม (ใช้ในการแสดงหัวข้อ)
-const CATEGORIESFULLNAME = {
+const CATEGORIES_FULL_NAME = {
     'new': 'หนังใหม่',
     'thai': 'หนังไทย',
     'korea': 'หนังเกาหลี',
@@ -11,57 +11,45 @@ const CATEGORIESFULLNAME = {
     'laconcin': 'ละครจีน'
 };
 
-const ITEMSPERPAGE = 48; // จำกัดรายการสูงสุด 48 เรื่องต่อหน้า
+const ITEMS_PER_PAGE = 48; // จำกัดรายการสูงสุด 48 เรื่องต่อหน้า
 let allMovies = [];      // เก็บรายการหนังทั้งหมดของหมวดหมู่ปัจจุบัน
 let currentPage = 1;      // หน้าปัจจุบันที่กำลังแสดง
 let currentCategory = '';  // หมวดหมู่ที่กำลังแสดง
 
 // --- [ COMMON FUNCTIONS ] ---
 
-/
+/**
  * ฟังก์ชันสร้าง Movie Card HTML String (แนวตั้ง 150x225)
  * ปรับปรุง: แก้ไขให้ส่งค่า subtitle เข้าไปใน watchUrl ด้วย
  */
 function createMovieCard(movie) {
-	const moviePlayer= movie.player || 'watch';
-    const movieFile = movie.file || movie.url || movie.video;
+    const movieFile = movie.file || movie.url;
     const movieName = movie.name || '';
-    //  1. ดึง URL ของ Subtitle จาก Object 
+    // *** 1. ดึง URL ของ Subtitle จาก Object ***
     const movieSubtitle = movie.subtitle; 
 
     // 2. สร้าง URL พื้นฐาน (File และ Name)
-    let watchUrl = ${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)};
+    let watchUrl = `watch.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}`;
 
-    // 3.  ส่วนที่ถูกแก้ไข: เพิ่ม Subtitle URL ถ้ามีค่า 
+    // 3. *** ส่วนที่ถูกแก้ไข: เพิ่ม Subtitle URL ถ้ามีค่า ***
     if (movieSubtitle && movieSubtitle.trim() !== '') {
-        watchUrl += &subtitle=${encodeURIComponent(movieSubtitle)};
+        watchUrl += `&subtitle=${encodeURIComponent(movieSubtitle)}`;
     }
-    // *
-
-    // ตรวจสอบว่า info เป็น object หรือ string
-    let soundText = '';
-    let subtitleText = '';
-    if (typeof movie.info === 'object' && movie.info !== null) {
-        soundText = movie.info.sound || '';
-        subtitleText = movie.info.subtitles || '';
-    } else if (typeof movie.info === 'string') {
-        soundText = movie.info;
-    }
+    // *******************************************************
 
     return `
-        <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/30 transition duration-300 poster-card group cursor-pointer">
+        <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-red-500/30 transition duration-300 poster-card group cursor-pointer">
             <div class="relative">
                 <a href="${watchUrl}">
-                    <img src="${movie.logo || movie.image || movie.poster}"
+                    <img src="${movie.logo || movie.image}"
                          onerror="this.onerror=null;this.src='https://via.placeholder.com/150x225?text=No+Image';"
-                         alt="${movieName}"
+                         alt="${movie.name}"
                          class="w-full h-[225px] object-cover transition duration-500">
                 </a>
             </div>
             <div class="p-2">
-                <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
-                <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
-                <p class="text-xs text-gray-400">คำบรรยาย : ${subtitleText}</p>
+                <p class="text-sm font-semibold truncate" title="${movie.name}">${movie.name}</p>
+                <p class="text-xs text-gray-400">${movie.info}</p>
             </div>
         </div>
     `;
@@ -74,7 +62,7 @@ function getQueryParam(param) {
     return urlParams.get(param);
 }
 
-/
+/**
  * ฟังก์ชันสร้างและแสดงปุ่มแบ่งหน้า (Pagination)
  */
 function renderPagination(totalItems, totalPages) {
@@ -90,36 +78,36 @@ function renderPagination(totalItems, totalPages) {
     
     // ปุ่ม Previous
     const prevDisabled = (currentPage === 1) ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700';
-    paginationHtml += <button onclick="changePage(${currentPage - 1})" class="py-2 px-4 rounded-lg bg-blue-600 ${prevDisabled}" ${currentPage === 1 ? 'disabled' : ''}>« ก่อนหน้า</button>;
+    paginationHtml += `<button onclick="changePage(${currentPage - 1})" class="py-2 px-4 rounded-lg bg-blue-600 ${prevDisabled}" ${currentPage === 1 ? 'disabled' : ''}>« ก่อนหน้า</button>`;
 
     // แสดงปุ่มหมายเลขหน้า
     let startPage = Math.max(1, currentPage - 2);
     let endPage = Math.min(totalPages, currentPage + 2);
 
     if (startPage > 1) {
-        paginationHtml += <button onclick="changePage(1)" class="py-2 px-4 rounded-lg bg-gray-700 hover:bg-blue-700">1</button>;
-        if (startPage > 2) paginationHtml += <span class="py-2 px-1 text-gray-400">...</span>;
+        paginationHtml += `<button onclick="changePage(1)" class="py-2 px-4 rounded-lg bg-gray-700 hover:bg-blue-700">1</button>`;
+        if (startPage > 2) paginationHtml += `<span class="py-2 px-1 text-gray-400">...</span>`;
     }
 
     for (let i = startPage; i <= endPage; i++) {
         const activeClass = (i === currentPage) ? 'bg-blue-800' : 'bg-gray-700 hover:bg-blue-700';
-        paginationHtml += <button onclick="changePage(${i})" class="py-2 px-4 rounded-lg ${activeClass}">${i}</button>;
+        paginationHtml += `<button onclick="changePage(${i})" class="py-2 px-4 rounded-lg ${activeClass}">${i}</button>`;
     }
 
     if (endPage < totalPages) {
-        if (endPage < totalPages - 1) paginationHtml += <span class="py-2 px-1 text-gray-400">...</span>;
-        paginationHtml += <button onclick="changePage(${totalPages})" class="py-2 px-4 rounded-lg bg-gray-700 hover:bg-blue-700">${totalPages}</button>;
+        if (endPage < totalPages - 1) paginationHtml += `<span class="py-2 px-1 text-gray-400">...</span>`;
+        paginationHtml += `<button onclick="changePage(${totalPages})" class="py-2 px-4 rounded-lg bg-gray-700 hover:bg-blue-700">${totalPages}</button>`;
     }
 
     // ปุ่ม Next
     const nextDisabled = (currentPage === totalPages) ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700';
-    paginationHtml += <button onclick="changePage(${currentPage + 1})" class="py-2 px-4 rounded-lg bg-blue-600 ${nextDisabled}" ${currentPage === totalPages ? 'disabled' : ''}>ถัดไป »</button>;
+    paginationHtml += `<button onclick="changePage(${currentPage + 1})" class="py-2 px-4 rounded-lg bg-blue-600 ${nextDisabled}" ${currentPage === totalPages ? 'disabled' : ''}>ถัดไป »</button>`;
     
     paginationHtml += '</nav>';
     paginationContainer.innerHTML = paginationHtml;
 }
 
-/
+/**
  * ฟังก์ชันแสดงผลรายการหนังบนหน้าจอ (เฉพาะหน้าปัจจุบัน)
  */
 function displayMovies(moviesToDisplay, title) {
@@ -127,10 +115,10 @@ function displayMovies(moviesToDisplay, title) {
     const titleElement = document.getElementById('category-title');
     
     const totalItems = moviesToDisplay.length;
-    const totalPages = Math.ceil(totalItems / ITEMSPERPAGE);
+    const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
 
-    const startIndex = (currentPage - 1) * ITEMSPERPAGE;
-    const endIndex = Math.min(startIndex + ITEMSPERPAGE, totalItems);
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const endIndex = Math.min(startIndex + ITEMS_PER_PAGE, totalItems);
     
     const limitedMovies = moviesToDisplay.slice(startIndex, endIndex);
 
@@ -138,31 +126,31 @@ function displayMovies(moviesToDisplay, title) {
         const cardsHtml = limitedMovies.map(createMovieCard).join('');
         listContainer.innerHTML = cardsHtml;
         
-        titleElement.textContent = ${title} (หน้า ${currentPage}/${totalPages} | รวม ${totalItems} รายการ);
+        titleElement.textContent = `${title} (หน้า ${currentPage}/${totalPages} | รวม ${totalItems} รายการ)`;
     } else {
-        listContainer.innerHTML = <p class="text-blue-500 col-span-full">ไม่พบรายการหนัง!</p>;
-        titleElement.textContent = ${title} (0 รายการ);
+        listContainer.innerHTML = `<p class="text-blue-500 col-span-full">ไม่พบรายการหนัง!</p>`;
+        titleElement.textContent = `${title} (0 รายการ)`;
     }
 
     renderPagination(totalItems, totalPages);
 }
 
-/
+/**
  * ฟังก์ชันเปลี่ยนหน้า (Next/Previous/หมายเลข)
  */
 function changePage(newPage) {
-    const totalPages = Math.ceil(allMovies.length / ITEMSPERPAGE);
+    const totalPages = Math.ceil(allMovies.length / ITEMS_PER_PAGE);
     
     if (newPage >= 1 && newPage <= totalPages) {
         currentPage = newPage;
         document.getElementById('search-input').value = '';
-        displayMovies(allMovies, CATEGORIESFULLNAME[currentCategory]);
+        displayMovies(allMovies, CATEGORIES_FULL_NAME[currentCategory]);
         // เลื่อนไปด้านบนของหน้าเมื่อเปลี่ยนหน้า
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 }
 
-/
+/**
  * ฟังก์ชันหลักสำหรับโหลดและแสดงผลรายการหนังตามหมวดหมู่
  */
 async function loadCategory(categoryKey) {
@@ -176,13 +164,13 @@ async function loadCategory(categoryKey) {
     // 1. ดึงข้อมูล
     let movies = [];
     try {
-        const response = await fetch(./playlist/${categoryKey}.json); 
-        if (!response.ok) throw new Error(Failed to load: ./playlist/${categoryKey}.json);
+        const response = await fetch(`./playlist/${categoryKey}.json`); 
+        if (!response.ok) throw new Error(`Failed to load: ./playlist/${categoryKey}.json`);
         movies = await response.json();
     } catch (error) {
-        console.error(Error loading JSON for ${categoryKey}:, error);
-        document.getElementById('category-title').textContent = CATEGORIESFULLNAME[categoryKey] || 'รายการหนัง';
-        listContainer.innerHTML = <p class="text-blue-500 col-span-full">❌ เกิดข้อผิดพลาดในการโหลดรายการ ${CATEGORIESFULLNAME[categoryKey]} หรือไม่พบไฟล์</p>;
+        console.error(`Error loading JSON for ${categoryKey}:`, error);
+        document.getElementById('category-title').textContent = CATEGORIES_FULL_NAME[categoryKey] || 'รายการหนัง';
+        listContainer.innerHTML = `<p class="text-blue-500 col-span-full">❌ เกิดข้อผิดพลาดในการโหลดรายการ **${CATEGORIES_FULL_NAME[categoryKey]}** หรือไม่พบไฟล์</p>`;
         return; 
     }
     
@@ -200,10 +188,10 @@ async function loadCategory(categoryKey) {
         }
     });
 
-    displayMovies(allMovies, CATEGORIESFULLNAME[categoryKey]);
+    displayMovies(allMovies, CATEGORIES_FULL_NAME[categoryKey]);
 }
 
-/
+/**
  * ฟังก์ชันค้นหารายการหนังในหมวดหมู่ที่กำลังแสดง
  */
 function searchMovies() {
@@ -212,7 +200,7 @@ function searchMovies() {
     if (!query) {
         // ถ้าช่องค้นหาว่าง ให้กลับไปแสดงรายการทั้งหมด
         currentPage = 1;
-        displayMovies(allMovies, CATEGORIESFULLNAME[currentCategory]);
+        displayMovies(allMovies, CATEGORIES_FULL_NAME[currentCategory]);
         return;
     }
     
@@ -225,16 +213,16 @@ function searchMovies() {
     
     // เมื่อค้นหา ให้เริ่มแสดงที่หน้า 1 ของผลลัพธ์การค้นหา
     currentPage = 1; 
-    displayMovies(filteredMovies, ผลการค้นหา "${query}" ใน ${CATEGORIESFULLNAME[currentCategory]});
+    displayMovies(filteredMovies, `ผลการค้นหา "${query}" ใน ${CATEGORIES_FULL_NAME[currentCategory]}`);
 }
 
 // โหลดรายการตามพารามิเตอร์เมื่อหน้าเว็บโหลดเสร็จ
 document.addEventListener('DOMContentLoaded', () => {
     const categoryKey = getQueryParam('cat');
-    if (categoryKey && CATEGORIESFULLNAME[categoryKey]) {
+    if (categoryKey && CATEGORIES_FULL_NAME[categoryKey]) {
         loadCategory(categoryKey);
     } else {
         // หากไม่มีพารามิเตอร์ ให้โหลดหมวดหมู่แรกเป็นค่าเริ่มต้น (Thai)
-        loadCategory('new');
+        loadCategory('thai');
     }
 });
