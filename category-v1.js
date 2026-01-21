@@ -23,45 +23,34 @@ let currentCategory = '';  // หมวดหมู่ที่กำลัง�
  * ปรับปรุง: แก้ไขให้ส่งค่า subtitle เข้าไปใน watchUrl ด้วย
  */
 function createMovieCard(movie) {
-	const moviePlayer= movie.player || 'watch';
-    const movieFile = movie.file || movie.url || movie.video;
+	const moviePlayer = movie.player || 'watch';
+    const movieFile = movie.file || movie.url;
     const movieName = movie.name || '';
-    //  1. ดึง URL ของ Subtitle จาก Object 
+    // *** 1. ดึง URL ของ Subtitle จาก Object ***
     const movieSubtitle = movie.subtitle; 
 
     // 2. สร้าง URL พื้นฐาน (File และ Name)
-    let watchUrl = ${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)};
+    let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}`;
 
-    // 3.  ส่วนที่ถูกแก้ไข: เพิ่ม Subtitle URL ถ้ามีค่า 
+    // 3. *** ส่วนที่ถูกแก้ไข: เพิ่ม Subtitle URL ถ้ามีค่า ***
     if (movieSubtitle && movieSubtitle.trim() !== '') {
-        watchUrl += &subtitle=${encodeURIComponent(movieSubtitle)};
+        watchUrl += `&subtitle=${encodeURIComponent(movieSubtitle)}`;
     }
-    // *
-
-    // ตรวจสอบว่า info เป็น object หรือ string
-    let soundText = '';
-    let subtitleText = '';
-    if (typeof movie.info === 'object' && movie.info !== null) {
-        soundText = movie.info.sound || '';
-        subtitleText = movie.info.subtitles || '';
-    } else if (typeof movie.info === 'string') {
-        soundText = movie.info;
-    }
+    // *******************************************************
 
     return `
-        <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/30 transition duration-300 poster-card group cursor-pointer">
+        <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-red-500/30 transition duration-300 poster-card group cursor-pointer">
             <div class="relative">
                 <a href="${watchUrl}">
                     <img src="${movie.logo || movie.image || movie.poster}"
                          onerror="this.onerror=null;this.src='https://via.placeholder.com/150x225?text=No+Image';"
-                         alt="${movieName}"
+                         alt="${movie.name}"
                          class="w-full h-[225px] object-cover transition duration-500">
                 </a>
             </div>
             <div class="p-2">
-                <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
-                <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
-                <p class="text-xs text-gray-400">คำบรรยาย : ${subtitleText}</p>
+                <p class="text-sm font-semibold truncate" title="${movie.name}">${movie.name}</p>
+                <p class="text-xs text-gray-400">${movie.info}</p>
             </div>
         </div>
     `;
