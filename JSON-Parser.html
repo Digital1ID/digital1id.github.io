@@ -4,8 +4,6 @@
   <title>M3U8 JSON Parser</title>
 </head>
 <body>
-<noscript id="output">[]</noscript>
-
 <script>
 function parseM3U8(text) {
   const lines = text.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 0);
@@ -86,3 +84,4 @@ function parseM3U8(text) {
 </script>
 </body>
 </html>
+<noscript id="output">[]</noscript>
