@@ -1,6 +1,6 @@
 // --- [ CONFIG ] ---
 const CATEGORIES = [
-    { key: 'new2', title: 'หนังใหม่' },
+    { key: 'new', title: 'หนังใหม่' },
     { key: 'thai', title: 'หนังไทย' },
     { key: 'korea', title: 'หนังเกาหลี' },
     { key: 'china', title: 'หนังจีน/ฮ่องกง' },
