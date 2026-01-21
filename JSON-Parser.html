@@ -5,6 +5,7 @@
 </head>
 <body>
   <pre id="output">[]</pre>
+  <noscript id="output">[]</noscript>
 <script>
 function parseM3U8(text) {
   const lines = text.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 0);
