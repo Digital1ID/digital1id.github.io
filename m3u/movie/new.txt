@@ -2278,3 +2278,97 @@ https://main.24playerhd.com/newplaylist/6e61e901605459d317d66f37/6e61e901605459d
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/49adfbd8564684c878425918/49adfbd8564684c878425918.m3u8
 
+
+#### จีนสั้นเต็มเรื่อง ####
+
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/12/cover-892kE0RIW3-1152x1536.jpg" tvg-season="" tvg-episode="", อ่านใจฉันสิ! แล้วจะรักหมดใจ | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/nbD-yvOoK_0PX/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/12/pp.jpg" tvg-season="" tvg-episode="", รัชสมัยของจักรพรรดิผู้ล้างแค้น | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/e1L-b_xfFcj2v/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/12/cover-e7siugQe5b-1152x1536.jpg" tvg-season="" tvg-episode="", ศึกแพทย์หญิงนิติเวชอันดับหนึ่ง | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/BfLgS-x_iZxOs/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/42000000605.jpg" tvg-season="" tvg-episode="", นักวิทย์ข้ามภพปรับสูตรรัก | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/l-RWhTUb_NFYt/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/12/844277379_20251129-113436.jpgtplv-vod-noop.jpg" tvg-season="" tvg-episode="", ราชาซิ่งสายฟ้า | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/V9C_65W-OgDAT/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/12/32.jpg" tvg-season="" tvg-episode="", พันธะเงารัก ในวังหลวง | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/4Jp-W6yB5C_wy/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/12/1763717048_shrFK3MKcG.webp" tvg-season="" tvg-episode="", สามีแสบต้องฝึกโดยภรรยามือสังหาร 2 | บรรยายไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/I2-k_LO2NMVX2/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/9325b8ff650f4ae0a6e367e6597ddfd8-1117x1536.jpg" tvg-season="" tvg-episode="", รักวุ่นวายเมื่อเจ้านายคือแม่เลี้ยง | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/h_Ws9S-FqYLkC/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/%E0%B8%A0%E0%B8%A0%E0%B8%A0.jpg" tvg-season="" tvg-episode="", ทะลุมิติตะลุยวังหลวง | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://media.vdohls.com/
+https://media.vdohls.com/wcuWDhf-CA_E8/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/cover-6HiuhPKjeM-1152x1536.jpg" tvg-season="" tvg-episode="", ใจเมตตามีค่าดั่งทองหมื่น I พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/9huQY4_R-ML2E/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/ooGJZXG4AUf8ASXjzkeKAeQuMAIRQAJ2MQgfQAtplv-tiktokx-origin.jpg" tvg-season="" tvg-episode="", รักษา ภรรยาผู้เป็นมนุษย์ของข้า | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/Is-cT8YXb_aOH/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/a595065b1d725b675fd770834d61d913.jpg@720w_405h_1e_1c_90q.jpg" tvg-season="" tvg-episode="", ศิษย์นำโชค ผู้ทำลายสำนัก | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/ag-Rd5_GwWFuf/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/unnamed-4.jpg" tvg-season="" tvg-episode="", ความหลงใหลที่ขมขื่น(รักกัดใจ) | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/k_HLR81l-TSu8/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/fd183f5ed9baa3458ba8034475712ace.jpg" tvg-season="" tvg-episode="", อิงอิง เกิดใหม่เป็นองค์หญิงดาวเหมียว S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/PVPuS-UZ2L_9e/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/545.jpg" tvg-season="" tvg-episode="", สามีแสบต้องฝึกโดยภรรยามือสังหาร | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/4-Q6_Ye9PLyKu/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%A2%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%A7%E0%B8%87%E0%B8%A8%E0%B9%8C%E0%B8%95%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B9%E0%B8%A52-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2025-594.webp" tvg-season="" tvg-episode="", ย่าเยาว์วัยปฏิวัติวงศ์ตระกูล2 | พากย์ไทย S02 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/D0zLhuY-m2_PK/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/2bea7adf1693f70c0c38ceca078dfbff-1.jpg" tvg-season="" tvg-episode="", แม่ยายปะทะสะใภ้งานหมั้นล่มไม่เป็นท่า | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/u-tn4Lh_9yXwb/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/1756199467110-9529074850247135-3%E6%AF%944jpgtplv-vod-rs_651_868.webp" tvg-season="" tvg-episode="", พ่อจอมมาร เปิดเผยตัวตนคุณสาวเล็ก | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/F9La-W1H6_uJ9/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/11/%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B9%8B%E0%B8%AD%E0%B8%87%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B9%88%E0%B8%AB%E0%B8%B2-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2025-553.webp" tvg-season="" tvg-episode="", ท่านอ๋องยอดเสน่หา | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/U_5DzE0e9F-ws/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/10/1757572268931-8886515822915192-3%E6%AF%944jpgtplv-vod-noop.jpg" tvg-season="" tvg-episode="", บัลลังก์หงส์ | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media-asset.fembed.co/oakepvsvjfwalfp/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/10/cover-qMaPbA5NhQ-1152x1536.jpg" tvg-season="" tvg-episode="", จากชาวนาเป็นมหาบุรุษด้วยระบบแต่งภรรยา -เส้นทางสู่บัลลังก์ของเจ้าผู้ครองยุค- | บรรยายไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://media.vdohls.com/sqlsvgscaodoaen/playlist.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/10/cover-1u21pa1hI8-1152x1536.jpg" tvg-season="" tvg-episode="", สองวิวาห์สลับชะตา เจ้าบ่าวสลับตัว ชะตาถูกผนึก | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://asset.fembed.co/master/th/etjdkjauxhlqfai.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/10/3f963673adbcfac9e2b4c9ea66da5999-1.jpg" tvg-season="" tvg-episode="", สลัดรัก ทายาทหมื่นล้าน | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://asset.fembed.co/master/th/zjdafbdpvqjxtln.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/10/537820219_122149476326700363_7870242889397926835_n.jpg" tvg-season="" tvg-episode="", คุณแม่ขาโหดพาลูกๆ ไปร่ำรวย | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://asset.fembed.co/master/th/malwfqpyviebygg.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/10/bef8563fca5b18b6bd610f2e5eb50d83-1.jpg" tvg-season="" tvg-episode="", ข้ามมิติมาเป็นคุณปู่สุดซ่า | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://asset.fembed.co/master/th/vkimoomifqsqftp.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/10/511158382_122138584658766854_1589299303336774177_n.jpg" tvg-season="" tvg-episode="", ความรักเริ่มต้นจากลูกแฝด | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://asset.fembed.co/master/th/sihlvekmqectfzu.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/10/dec57042515b36f1a85ada0ff4b93452.webp" tvg-season="" tvg-episode="", ข้ามเวลาไปแต่งกับพ่อหม้าย | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://asset.fembed.co/master/th/upuuxnigsazvwrp.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/10/5fe18a306adf94e94466c74d99f85682.webp" tvg-season="" tvg-episode="", ทะลุมิติมาสะสมรัก | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://asset.fembed.co/master/th/wdmrzsevpwypwdg.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/09/544809602_122139396722887990_3093062954725827499_n-1.jpg" tvg-season="" tvg-episode="", รักนี้เริ่มจากใบหย่า | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://asset.fembed.co/master/th/ebuoounlmeqhxli.m3u8
+#EXTINF:-1 type="series" group-title="จีนสั้นเต็มเรื่อง" tvg-logo="https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/09/547250036_122140949360887990_5726208660228210077_n-1.jpg" tvg-season="" tvg-episode="", มือใหม่1000%โน๊บๆแต่โหดๆ | พากย์ไทย S01 E01
+#EXTVLCOPT:http-referrer=https://asset.fembed.co
+https://asset.fembed.co/master/th/jvzowlquezojuaf.m3u8
+
