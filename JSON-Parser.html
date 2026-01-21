@@ -43,7 +43,7 @@ function parseM3U8(text) {
       const header = line.slice(0, commaIdx);
       const title = line.slice(commaIdx+1).trim();
       const attrs = parseAttrs(header);
-      current.group = attrs["group-title"] || "";
+      current.category = attrs["group-title"] || "";
       current.poster = attrs["tvg-logo"] || "";
       current.name = title;
     } else if (line.startsWith("#EXTVLCOPT:http-referrer=")) {
