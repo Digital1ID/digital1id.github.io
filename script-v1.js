@@ -1,4 +1,4 @@
-// กำหนดหมวดหมู่ทั้งหมดที่คุณต้องการแสดงบนหน้าแรก
+// --- [ CONFIG ] ---
 const CATEGORIES = [
     { key: 'new2', title: 'หนังใหม่' },
     { key: 'thai', title: 'หนังไทย' },
@@ -11,12 +11,11 @@ const CATEGORIES = [
     { key: 'laconcin', title: 'ละครจีน' }
 ];
 
-const ITEMS_PER_ROW = 16; 
-let allMoviesByTitle = {}; 
+const ITEMS_PER_ROW = 16;
+let allMoviesByTitle = {};
 let originalSectionsHtml = ''; // เก็บ HTML หน้าหลักเดิม
 
 // --- [ COMMON FUNCTIONS ] ---
-
 function createMovieCard(movie) {
     const moviePlayer = movie.player || 'watch';
     const movieFile = movie.file || movie.url || movie.video;
@@ -24,24 +23,18 @@ function createMovieCard(movie) {
     const movieSubtitle = movie.subtitle;
 
     let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}`;
-    if (movieSubtitle && movieSubtitle.trim() !== '') {
+    if (movieSubtitle?.trim()) {
         watchUrl += `&subtitle=${encodeURIComponent(movieSubtitle)}`;
     }
 
-    let soundText = '';
-    let subtitleText = '';
-    if (typeof movie.info === 'object' && movie.info !== null) {
-        soundText = movie.info.sound || '';
-        subtitleText = movie.info.subtitles || '';
-    } else if (typeof movie.info === 'string') {
-        soundText = movie.info;
-    }
+    const soundText = movie.info?.sound || (typeof movie.info === 'string' ? movie.info : '');
+    const subtitleText = movie.info?.subtitles || '';
 
     return `
         <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/30 transition duration-300 poster-card group cursor-pointer">
             <div class="relative">
                 <a href="${watchUrl}">
-                    <img src="${movie.logo || movie.image || movie.poster || movie.info.poster}"
+                    <img src="${movie.logo || movie.image || movie.poster || movie.info?.poster}"
                          onerror="this.onerror=null;this.src='https://via.placeholder.com/150x225?text=No+Image';"
                          alt="${movieName}"
                          class="w-full h-[225px] object-cover transition duration-500">
@@ -57,14 +50,13 @@ function createMovieCard(movie) {
 }
 
 // --- [ INDEX.HTML LOGIC ] ---
-
 function createMovieSection(title, movies, categoryKey, isSearch = false) {
     const limit = isSearch ? movies.length : ITEMS_PER_ROW;
     const limitedMovies = movies.slice(0, limit);
-    const cardsHtml = limitedMovies.map(createMovieCard).join(''); 
-    
+    const cardsHtml = limitedMovies.map(createMovieCard).join('');
+
     const categoryUrl = `category.html?cat=${categoryKey}`;
-    
+
     return `
         <section class="mb-10">
             <a href="${categoryUrl}" class="group block mb-6">
@@ -73,7 +65,6 @@ function createMovieSection(title, movies, categoryKey, isSearch = false) {
                     <span class="text-red-600 text-xl ml-2 group-hover:ml-3 transition-all duration-300">›</span>
                 </h3>
             </a>
-            
             <div class="horizontal-scroll-container flex space-x-2 overflow-x-auto pb-4 -mx-4 px-4 sm:mx-0 sm:px-0">
                 ${cardsHtml}
             </div>
@@ -84,36 +75,36 @@ function createMovieSection(title, movies, categoryKey, isSearch = false) {
 async function loadAllMovies() {
     const container = document.getElementById('movie-sections-container');
     const searchResultContainer = document.getElementById('search-result-container');
-    
+
     searchResultContainer.innerHTML = '';
-    searchResultContainer.style.display = 'none'; 
+    searchResultContainer.style.display = 'none';
     container.style.display = 'block';
 
     container.innerHTML = '<p class="text-gray-400">กำลังโหลดรายการหนังทั้งหมด...</p>';
     let allSectionsHtml = '';
     allMoviesByTitle = {};
-    
+
     for (const category of CATEGORIES) {
         let movies = [];
         try {
-            const response = await fetch(`./playlist/${category.key}.json`); 
+            const response = await fetch(`./playlist/${category.key}.json`);
             if (!response.ok) {
                 console.warn(`Skipping category ${category.key}: File not found or failed to load.`);
-                continue; 
+                continue;
             }
             movies = await response.json();
         } catch (error) {
             console.error(`Error loading JSON for ${category.key}:`, error);
-            continue; 
+            continue;
         }
-        
+
         if (movies && movies.length > 0) {
-            allSectionsHtml += createMovieSection(category.title, movies, category.key); 
-            
+            allSectionsHtml += createMovieSection(category.title, movies, category.key);
+
             movies.forEach(movie => {
                 const nameKey = (movie.name || '').toLowerCase();
                 if (!allMoviesByTitle[nameKey]) {
-                    allMoviesByTitle[nameKey] = movie; 
+                    allMoviesByTitle[nameKey] = movie;
                 }
             });
         }
@@ -123,13 +114,12 @@ async function loadAllMovies() {
         container.innerHTML = allSectionsHtml;
         originalSectionsHtml = allSectionsHtml;
     } else {
-        container.innerHTML = '<p class="text-blue-500">ไม่พบรายการหนังในทุกหมวดหมู่. โปรดตรวจสอบไฟล์ JSON ในโฟลเดอร์ **playlist/**</p>';
+        container.innerHTML = '<p class="text-blue-500">ไม่พบรายการหนังในทุกหมวดหมู่. โปรดตรวจสอบไฟล์ JSON ในโฟลเดอร์ playlist/</p>';
         originalSectionsHtml = '';
     }
 }
 
-// --- [ SEARCH LOGIC FIXED ] ---
-
+// --- [ SEARCH LOGIC ] ---
 function searchMovies() {
     const query = document.getElementById('search-input').value.toLowerCase();
     const container = document.getElementById('movie-sections-container');
@@ -140,29 +130,26 @@ function searchMovies() {
         searchResultContainer.style.display = 'none';
         container.style.display = 'block';
         if (originalSectionsHtml) {
-             container.innerHTML = originalSectionsHtml;
+            container.innerHTML = originalSectionsHtml;
         } else {
-             loadAllMovies();
+            loadAllMovies();
         }
         return;
     }
-    
+
     container.style.display = 'none';
     searchResultContainer.style.display = 'block';
-    
+
     const allMoviesArray = Object.values(allMoviesByTitle);
-    
+
     const filteredMovies = allMoviesArray.filter(movie => {
         const name = (movie.name || '').toLowerCase();
-        
-        let infoText = '';
-        if (typeof movie.info === 'object' && movie.info !== null) {
-            infoText = `${movie.info.sound || ''} ${movie.info.subtitles || ''}`.toLowerCase();
-        } else if (typeof movie.info === 'string') {
-            infoText = movie.info.toLowerCase();
-        }
+        const description = movie.info?.description?.toLowerCase() || '';
+        const sound = movie.info?.sound?.toLowerCase() || '';
+        const subtitles = movie.info?.subtitles?.toLowerCase() || '';
 
-        return name.includes(query) || infoText.includes(query);
+        const searchText = `${name} ${description} ${sound} ${subtitles}`;
+        return searchText.includes(query);
     });
 
     if (filteredMovies.length > 0) {
@@ -174,8 +161,9 @@ function searchMovies() {
     }
 }
 
+// --- [ INIT ] ---
 document.addEventListener('DOMContentLoaded', () => {
     if (document.title.includes('หน้าหลัก')) {
-        loadAllMovies(); 
+        loadAllMovies();
     }
 });
