@@ -39,7 +39,6 @@ function createMovieCard(movie) {
     }
     // *******************************************************
 
-    const posterText = movie.info?.poster || (typeof movie.info === 'string' ? movie.info : '');
     const soundText = movie.info?.sound || (typeof movie.info === 'string' ? movie.info : '');
     const subtitleText = movie.info?.subtitles || (typeof movie.info === 'string' ? movie.info : '');
 
