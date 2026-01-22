@@ -24,7 +24,7 @@ let currentCategory = '';  // หมวดหมู่ที่กำลัง�
  */
 function createMovieCard(movie) {
 	const moviePlayer = movie.player || 'watch';
-    const movieFile = movie.file || movie.url;
+    const movieFile = movie.file || movie.url || movie.video;
     const movieName = movie.name || '';
     // *** 1. ดึง URL ของ Subtitle จาก Object ***
     const movieSubtitle = movie.subtitle; 
