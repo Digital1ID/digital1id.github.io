@@ -40,7 +40,7 @@ function createMovieCard(movie) {
     // *******************************************************
 
     const soundText = movie.info?.sound || (typeof movie.info === 'string' ? movie.info : '');
-    const subtitleText = movie.info?.subtitles || (typeof movie.info === 'string' ? movie.info : '');
+    const subtitleText = movie.info?.subtitles || '';
 
     return `
         <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-red-500/30 transition duration-300 poster-card group cursor-pointer">
