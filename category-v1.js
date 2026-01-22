@@ -39,6 +39,7 @@ function createMovieCard(movie) {
     }
     // *******************************************************
 
+    const posterText = movie.info?.poster || (typeof movie.info === 'string' ? movie.info : '');
     const soundText = movie.info?.sound || (typeof movie.info === 'string' ? movie.info : '');
     const subtitleText = movie.info?.subtitles || (typeof movie.info === 'string' ? movie.info : '');
 
@@ -46,7 +47,7 @@ function createMovieCard(movie) {
         <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-red-500/30 transition duration-300 poster-card group cursor-pointer">
             <div class="relative">
                 <a href="${watchUrl}">
-                    <img src="${movie.logo || movie.image || movie.poster}"
+                    <img src="${movie.logo || movie.image || movie.poster || movie.info?.poster}"
                          onerror="this.onerror=null;this.src='https://via.placeholder.com/150x225?text=No+Image';"
                          alt="${movie.name}"
                          class="w-full h-[225px] object-cover transition duration-500">
