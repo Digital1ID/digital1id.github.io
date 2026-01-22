@@ -166,9 +166,13 @@ https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/35/35.mpd
 
 
 #EXTINF:-1 tvg-id="PPTV HD.th" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/36.png" group-title="DigitalTV", PPTV HD
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
+https://ww.dooballfree.vip/live/pptv/playlist.m3u8
+
 #EXTVLCOPT:http-user-agent=
 #EXTVLCOPT:http-referrer=https://www.movie2k.io/
 https://www.livedoomovies.com:4431/02_PPTVHD_720p/playlist.m3u8
+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
