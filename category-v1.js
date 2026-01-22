@@ -8,7 +8,8 @@ const CATEGORIES_FULL_NAME = {
     'cartoon': 'การ์ตูน/อนิเมชั่น',
     'india': 'หนังอินเดีย',
     'asia': 'หนังเอเซีย',
-    'laconcin': 'ละครจีน'
+    'laconcin': 'ละครจีน',
+    'new2': 'หนัง'
 };
 
 const ITEMS_PER_PAGE = 48; // จำกัดรายการสูงสุด 48 เรื่องต่อหน้า
