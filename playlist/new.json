@@ -1,6 +1,46 @@
 [
   {
     "player": "p2p/player",
+    "name": "Kidnapped Elizabeth Smart (2026) คดีลักพาตัว เอลิซาเบธ สมาร์ท",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/hMVhZxgbFLXZcDUIZ10NGb6s8w4.jpg",
+        "sound": "ไทย",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/f9d90e41ea4cb25f1e49f096/f9d90e41ea4cb25f1e49f096.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Dream Animals The Movie (2025) ดรีม แอนิมอล เดอะ มูฟวี่",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ub9BOD7DgSUMHbN5aoT54av9iPF.jpg",
+        "sound": "ไทยโรง",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/b70999ce9ea69faa2d13fc3e/b70999ce9ea69faa2d13fc3e.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "The SpongeBob Movie Search for SquarePants (2025) เดอะ สพันจ์บ็อบ มูฟวี่ ภารกิจตามหาสพันจ์บ็อบ",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/rojphxx05QkxzrmMKAP8sIYPZlj.jpg",
+        "sound": "ไทยโรง",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/a1b23f2359ffcc9e2692fb76/a1b23f2359ffcc9e2692fb76.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Dangerous Animals (2025)",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/9tk3Si960hg4E49eMt81dS7Qe9Z.jpg",
+        "sound": "อังกฤษ",
+        "subtitles": "ไทย"
+        },
+    "video": "https://main.24playerhd.com/newplaylist/2cf92faf21bac347dcf3ad04/2cf92faf21bac347dcf3ad04.m3u8"
+  },
+  {
+    "player": "p2p/player",
     "name": "Unrelenting Drug Interdiction (2025) ปราบยาล่าไม่เลิก",
     "info": {"sound": "จีน","subtitles": "ไทย"},
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bIuFxlWX1piZn4tIG0Q5tgWowKu.jpg",
