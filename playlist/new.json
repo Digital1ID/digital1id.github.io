@@ -1,6 +1,36 @@
 [
   {
     "player": "p2p/player",
+    "name": "The Big Fake (2026) จอมปลอม",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qNEL6chkH2s6gwvt0Jt9NfiXG8m.jpg",
+        "sound": "ไทย",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/e1cba647c9565e9705dd03e1/e1cba647c9565e9705dd03e1.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "All the Devils Are Here (2025) ที่นี่…มีแต่ปีศาจ",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4GJTUSjbCGynQo4PpTTNzzxYfBM.jpg",
+        "sound": "ไทย",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/fd7b4f45db0a1dd00039e312/fd7b4f45db0a1dd00039e312.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Cosmic Princess Kaguya! (2026) เจ้าหญิงกระบอกไม้ไผ่",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/9I9cM38gecZcwJ0C6r0cwfvtPJP.jpg",
+        "sound": "ไทย",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/b23553beb0625c54d5394106/b23553beb0625c54d5394106.m3u8"
+  },
+  {
+    "player": "p2p/player",
     "name": "Kidnapped Elizabeth Smart (2026) คดีลักพาตัว เอลิซาเบธ สมาร์ท",
     "info": { 
         "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/hMVhZxgbFLXZcDUIZ10NGb6s8w4.jpg",
