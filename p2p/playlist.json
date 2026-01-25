@@ -573,7 +573,7 @@
                     {
                         "episode": 7,
                         "name": "ตอนที่ 7",
-                        "video": "https://main.24playerhd.com/newplaylist/10394b565285603859bd263f/10394b565285603859bd263f.m3u8",
+                        "video": "https://api.doo-nang.com/video/a46b969d-b79b-549e-b0f2-156467008392/playlist.m3u8",
                         "subtitle": "",
                         "referrer": "https://main.24playerhd.com/"
                     },
