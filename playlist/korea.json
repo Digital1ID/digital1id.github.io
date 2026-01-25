@@ -1,6 +1,16 @@
 [
   {
     "player": "p2p/playlist",
+    "name": "Cashero - แคชฮีโร่ - ซีซั่น 1",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/dm6RoaKgkGUxckamMDzsbqtLhFv.jpg",
+        "sound": "ไทย",
+        "subtitles": ""
+        },
+    "video": "10005"
+  },
+  {
+    "player": "p2p/playlist",
     "name": "Taxi Driver Season 3 (2025) แท็กซี่จ้างแค้น ซีซั่น 3",
     "info": "พากย์ไทย",
     "poster": "https://media.themoviedb.org/t/p/w600_and_h900_face/6uRbmbzB029xyRhwC5tIenEmRkU.jpg",
