@@ -1,266 +1,76 @@
 [
     {
-        "id": "5",
-        "name": "",
-        "category": "",
+        "id": "10005",
+        "name": "Cashero - แคชฮีโร่",
+        "category": "ซีรี่ย์ เกาหลี",
         "info": {
-            "poster": "",
-            "description": "",
+            "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/dm6RoaKgkGUxckamMDzsbqtLhFv.jpg",
+            "description": "ชายธรรมดาผู้ได้รับสืบทอดพละกำลังเหนือมนุษย์ ค้นพบว่ามีอำนาจชั่วร้ายที่ยิ่งใหญ่กว่าจ้องจะขโมยพลังของเขา และทุกครั้งที่ใช้พลัง เงินในกระเป๋าสตางค์ของเขาก็จะหายไป",
             "year": 2025
         },
         "seasons": [
             {
-                "season": 2,
-                "info": {
-                    "poster": "",
-                    "description": "",
-                    "year": 2025
-                    },
-                "episodes": [
-                    {
-                        "episode": 1,
-                        "name": "ตอนที่ 1",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 2,
-                        "name": "ตอนที่ 2",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 3,
-                        "name": "ตอนที่ 3",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 4,
-                        "name": "ตอนที่ 4",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 5,
-                        "name": "ตอนที่ 5",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 6,
-                        "name": "ตอนที่ 6",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 7,
-                        "name": "ตอนที่ 7",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 8,
-                        "name": "ตอนที่ 8",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 9,
-                        "name": "ตอนที่ 9",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 9,
-                        "name": "ตอนที่ 9",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 10,
-                        "name": "ตอนที่ 10",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 11,
-                        "name": "ตอนที่ 11",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 12,
-                        "name": "ตอนที่ 12",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 13,
-                        "name": "ตอนที่ 13",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 14,
-                        "name": "ตอนที่ 14",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 15,
-                        "name": "ตอนที่ 15",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 16,
-                        "name": "ตอนที่ 16",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    }
-                ]
-            },{
                 "season": 1,
+                "name": "Cashero - แคชฮีโร่ - ซีซั่น 1",
                 "info": {
-                    "poster": "",
-                    "description": "",
+                    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/dm6RoaKgkGUxckamMDzsbqtLhFv.jpg",
+                    "description": "ชายธรรมดาผู้ได้รับสืบทอดพละกำลังเหนือมนุษย์ ค้นพบว่ามีอำนาจชั่วร้ายที่ยิ่งใหญ่กว่าจ้องจะขโมยพลังของเขา และทุกครั้งที่ใช้พลัง เงินในกระเป๋าสตางค์ของเขาก็จะหายไป",
                     "year": 2025
                     },
                 "episodes": [
                     {
                         "episode": 1,
                         "name": "ตอนที่ 1",
-                        "video": "",
+                        "video": "https://statics-02.duckduckcdn.com/31db71f6-e773-502a-9827-2b5253990517/audio-tha/audio.m3u8",
                         "subtitle": "",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 2,
                         "name": "ตอนที่ 2",
-                        "video": "",
+                        "video": "https://statics-02.duckduckcdn.com/052abf86-083e-5699-a40f-6f6f61268939/audio-tha/audio.m3u8",
                         "subtitle": "",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 3,
                         "name": "ตอนที่ 3",
-                        "video": "",
+                        "video": "https://statics-02.duckduckcdn.com/dc5c839c-baec-51b2-80fc-3055ba6774fe/audio-tha/audio.m3u8",
                         "subtitle": "",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 4,
                         "name": "ตอนที่ 4",
-                        "video": "",
+                        "video": "https://statics-02.duckduckcdn.com/28f0bbde-5c87-53da-aa9f-102c384cde23/audio-tha/audio.m3u8",
                         "subtitle": "",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 5,
                         "name": "ตอนที่ 5",
-                        "video": "",
+                        "video": "https://statics-02.duckduckcdn.com/28f0bbde-5c87-53da-aa9f-102c384cde23/audio-tha/audio.m3u8",
                         "subtitle": "",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 6,
                         "name": "ตอนที่ 6",
-                        "video": "",
+                        "video": "https://statics-02.duckduckcdn.com/f978ff95-63f8-5bd7-87ce-7178e4e9e2ca/audio-tha/audio.m3u8",
                         "subtitle": "",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 7,
                         "name": "ตอนที่ 7",
-                        "video": "",
+                        "video": "https://statics-02.duckduckcdn.com/6217b64f-70e6-5b1b-b793-1ab46ca6883b/audio-tha/audio.m3u8",
                         "subtitle": "",
                         "referrer": "https://main.24playerhd.com/"
                     },
                     {
                         "episode": 8,
                         "name": "ตอนที่ 8",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 9,
-                        "name": "ตอนที่ 9",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 9,
-                        "name": "ตอนที่ 9",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 10,
-                        "name": "ตอนที่ 10",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 11,
-                        "name": "ตอนที่ 11",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 12,
-                        "name": "ตอนที่ 12",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 13,
-                        "name": "ตอนที่ 13",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 14,
-                        "name": "ตอนที่ 14",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 15,
-                        "name": "ตอนที่ 15",
-                        "video": "",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
-                    },
-                    {
-                        "episode": 16,
-                        "name": "ตอนที่ 16",
-                        "video": "",
+                        "video": "https://statics-02.duckduckcdn.com/d9f392b2-eee0-5607-9f7f-d479ec0a2712/audio-tha/audio.m3u8",
                         "subtitle": "",
                         "referrer": "https://main.24playerhd.com/"
                     }
@@ -268,7 +78,7 @@
             }
         ]
     },{
-        "id": "4",
+        "id": "10004",
         "name": "Alien: Earth",
         "category": "ซีรี่ย์ ฝรั่ง",
         "info": {
@@ -337,7 +147,7 @@
             }
         ]
     },{
-        "id": "3",
+        "id": "10003",
         "name": "IT: Welcome to Derry - อิท: ยินดีต้อนรับสู่เดอร์รี่",
         "category": "ซีรี่ย์ ฝรั่ง",
         "info": {
@@ -406,7 +216,7 @@
             }
         ]
     },{
-        "id": "2",
+        "id": "10002",
         "name": "Taxi Driver แท็กซี่จ้างแค้น",
         "category": "ซีรี่ย์ เกาหลี",
         "info": {
@@ -774,7 +584,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "10001",
         "name": "The Believers สาธุ",
         "category": "ซีรี่ย์ ไทย",
         "info": {
