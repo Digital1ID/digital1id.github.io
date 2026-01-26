@@ -90,7 +90,10 @@
   {
     "player": "p2p/player",
     "name": "The Legend of Feng Lou Divine Fox (2025) ตำนานเซียนจิ้งจอกแห่งเฟิ่งโหลว",
-    "info": {"sound": "จีน","subtitles": "ไทย"},
+    "info": {
+        "sound": "จีน",
+        "subtitles": "ไทย"
+        },
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bcZ9kCPf3UhABoXrnDlpe1pA2d5.jpg",
     "video": "https://main.24playerhd.com/newplaylist/b83938b75deaf572f6bed423/b83938b75deaf572f6bed423.m3u8",
     "Referrer": "https://main.24playerhd.com/"
