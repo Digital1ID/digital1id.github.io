@@ -1,7 +1,17 @@
 [
   {
     "player": "p2p/playlist",
-    "name": "Cashero - แคชฮีโร่ - ซีซั่น 1",
+    "name": "Nice to Not Meet You (2025) ยินดีที่ไม่รู้จัก ซีซั่น 1",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/h14bGZcVxYQzLoxC8KYqUVWvYfU.jpg",
+        "sound": "ไทย",
+        "subtitles": ""
+        },
+    "video": "10006"
+  },
+  {
+    "player": "p2p/playlist",
+    "name": "Cashero (2025) แคชฮีโร่ ซีซั่น 1",
     "info": { 
         "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/dm6RoaKgkGUxckamMDzsbqtLhFv.jpg",
         "sound": "ไทย",
