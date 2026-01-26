@@ -7,7 +7,8 @@
         "sound": "ไทย",
         "subtitles": ""
         },
-    "video": "https://main.24playerhd.com/newplaylist/e1cba647c9565e9705dd03e1/e1cba647c9565e9705dd03e1.m3u8"
+    "video": "https://main.24playerhd.com/newplaylist/e1cba647c9565e9705dd03e1/e1cba647c9565e9705dd03e1.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
@@ -18,6 +19,7 @@
         "subtitles": ""
         },
     "video": "https://main.24playerhd.com/newplaylist/fd7b4f45db0a1dd00039e312/fd7b4f45db0a1dd00039e312.m3u8"
+    "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
@@ -27,7 +29,8 @@
         "sound": "ไทย",
         "subtitles": ""
         },
-    "video": "https://main.24playerhd.com/newplaylist/b23553beb0625c54d5394106/b23553beb0625c54d5394106.m3u8"
+    "video": "https://main.24playerhd.com/newplaylist/b23553beb0625c54d5394106/b23553beb0625c54d5394106.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
@@ -37,7 +40,8 @@
         "sound": "ไทย",
         "subtitles": ""
         },
-    "video": "https://main.24playerhd.com/newplaylist/f9d90e41ea4cb25f1e49f096/f9d90e41ea4cb25f1e49f096.m3u8"
+    "video": "https://main.24playerhd.com/newplaylist/f9d90e41ea4cb25f1e49f096/f9d90e41ea4cb25f1e49f096.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
@@ -47,7 +51,8 @@
         "sound": "ไทยโรง",
         "subtitles": ""
         },
-    "video": "https://main.24playerhd.com/newplaylist/b70999ce9ea69faa2d13fc3e/b70999ce9ea69faa2d13fc3e.m3u8"
+    "video": "https://main.24playerhd.com/newplaylist/b70999ce9ea69faa2d13fc3e/b70999ce9ea69faa2d13fc3e.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
@@ -57,7 +62,8 @@
         "sound": "ไทยโรง",
         "subtitles": ""
         },
-    "video": "https://main.24playerhd.com/newplaylist/a1b23f2359ffcc9e2692fb76/a1b23f2359ffcc9e2692fb76.m3u8"
+    "video": "https://main.24playerhd.com/newplaylist/a1b23f2359ffcc9e2692fb76/a1b23f2359ffcc9e2692fb76.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
@@ -67,14 +73,19 @@
         "sound": "อังกฤษ",
         "subtitles": "ไทย"
         },
-    "video": "https://main.24playerhd.com/newplaylist/2cf92faf21bac347dcf3ad04/2cf92faf21bac347dcf3ad04.m3u8"
+    "video": "https://main.24playerhd.com/newplaylist/2cf92faf21bac347dcf3ad04/2cf92faf21bac347dcf3ad04.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "Unrelenting Drug Interdiction (2025) ปราบยาล่าไม่เลิก",
-    "info": {"sound": "จีน","subtitles": "ไทย"},
-    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bIuFxlWX1piZn4tIG0Q5tgWowKu.jpg",
-    "video": "https://main.24playerhd.com/newplaylist/320d098fc994643b68ac80cd/320d098fc994643b68ac80cd.m3u8"
+    "info": {
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bIuFxlWX1piZn4tIG0Q5tgWowKu.jpg",
+        "sound": "จีน",
+        "subtitles": "ไทย"
+        },
+    "video": "https://main.24playerhd.com/newplaylist/320d098fc994643b68ac80cd/320d098fc994643b68ac80cd.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
