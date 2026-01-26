@@ -1,6 +1,105 @@
 [
   {
     "player": "p2p/player",
+    "name": "Mercy (2025) 90 นาทีสั่งตาย",
+    "category": "ซูมโรง ชนโรง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
+      "description": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/7d35fa31e8b9f3eee7c5b03a/7d35fa31e8b9f3eee7c5b03a.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Primate (2026) ลิงคลั่งพันธุ์ดิบ",
+    "category": "ซูมโรง ชนโรง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg",
+      "description": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/6b1c881e92e88a28e444fcd7/6b1c881e92e88a28e444fcd7.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Return to Silent Hill (2026) เมืองห่าผี นครคืนชีพ",
+    "category": "ซูมโรง ชนโรง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ocVWTfImJpCqlO52DxpQXgj3MQO.jpg",
+      "description": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/855f6a0a065177d44b4b6778/855f6a0a065177d44b4b6778.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Silent Hill Revelation (2012) เมืองห่าผี เรฟเวเลชั่น",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qrQpTL24qRQWoYKL2LvBwvLawVi.jpg",
+      "description": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/3a1590083855f586d33d1fb6/3a1590083855f586d33d1fb6.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Silent Hill (2006) เมืองห่าผี",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/m36I6bhn16rv3MFC9pvf9MNmrl4.jpg",
+      "description": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/5d24600c6a832a72fdc3d3ac/5d24600c6a832a72fdc3d3ac.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Ga la (2024) ไลฟ์ติดผี",
+    "category": "ซูมโรง ชนโรง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/sN4aqFghWpMvDR2Q0CtiRq87bPP.jpg",
+      "description": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/8d374bf3dbdb9cae66d47a0e/8d374bf3dbdb9cae66d47a0e.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "The Yellow Taboo (2025) คำสาปเสื้อกันฝน",
+    "category": "ซูมโรง ชนโรง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/gkO1flmXA84Sjqb01Zb4QcVbQub.jpg",
+      "description": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/eb54b8171ed8f5d78c735452/eb54b8171ed8f5d78c735452.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "The Big Fake (2026) จอมปลอม",
+    "category": "NETFLIX",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qNEL6chkH2s6gwvt0Jt9NfiXG8m.jpg",
+      "description": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/e1cba647c9565e9705dd03e1/e1cba647c9565e9705dd03e1.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "All the Devils Are Here (2025) ที่นี่…มีแต่ปีศาจ",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4GJTUSjbCGynQo4PpTTNzzxYfBM.jpg",
+      "description": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/fd7b4f45db0a1dd00039e312/fd7b4f45db0a1dd00039e312.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "Greenland 2 Migration (2025) ฝ่าชะตา โลกาวินาศ",
     "category": "ซูมโรง ชนโรง",
     "info": {
@@ -981,7 +1080,7 @@
   {
     "player": "p2p/player",
     "name": "She Said Maybe เมื่อเธอตอบว่า...ไม่แน่ (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ujNDflVpoFsBqlbVt58pc7lT1WR.jpg",
       "description": "พากย์ไทย"
@@ -1267,24 +1366,13 @@
   {
     "player": "p2p/player",
     "name": "เขาชุมทอง คะนองชุมโจร Gold Rush Gang (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/9ii6tt7jwGiMiZS7qpWVrKKWwzk.jpg",
       "description": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/e3cf7b53ee83d191ee3c3c6c/e3cf7b53ee83d191ee3c3c6c.m3u8",
     "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/player",
-    "name": "เขาชุมทอง คะนองชุมโจร Gold Rush Gang (2025) NETFLIX",
-    "category": "หนังแนะนำ",
-    "info": {
-      "poster": "https://img.fw4free.com/postor/20250821144632oCW2C7lIFZTognIIT4YZISVz5rd.jpg",
-      "description": "พากย์ไทย"
-    },
-    "video": "http://web02.dynns.com:1935/nangth/Gold.Rush.Gang.2025.mp4/playlist.m3u8",
-    "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
     "player": "p2p/player",
@@ -1344,7 +1432,7 @@
   {
     "player": "p2p/player",
     "name": "Night Always Comes คืนวันอันตราย (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/9WKmOolnpNdmQXpCkGtprCCjOgm.jpg",
       "description": "พากย์ไทย"
@@ -1817,7 +1905,7 @@
   {
     "player": "p2p/player",
     "name": "Wall to Wall ฝันร้าย 84 ตารางเมตร (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w440_and_h660_face/AqHk0d7nRZ3cXYnbiyL65iN6Rp2.jpg",
       "description": "พากย์ไทย"
@@ -1861,7 +1949,7 @@
   {
     "player": "p2p/player",
     "name": "K.O. น็อกเอาท์ (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qcM2sUiAeP4zXwx4ADSvgc9S58k.jpg",
       "description": "พากย์ไทย"
@@ -1883,7 +1971,7 @@
   {
     "player": "p2p/player",
     "name": "Madea's Destination Wedding ป้าลุยแหลกแหกวิวาห์ป่วน (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w440_and_h660_face/9ax7qCi9DQ9eowNK4ZEyVdUwe8k.jpg",
       "description": "พากย์ไทย"
@@ -1894,7 +1982,7 @@
   {
     "player": "p2p/player",
     "name": "A Madea Homecoming มาเดีย โฮมคัมมิง (2022) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://img.fw4free.com/postor/20220227100403Tyler-perrys-a-Madea-Homecoming-2022-english-subtitles-download_11zon-e1645786520826.jpg",
       "description": "พากย์ไทย"
@@ -1905,7 +1993,7 @@
   {
     "player": "p2p/player",
     "name": "A Madea Family Funeral (2019) บรรยายไทย NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://img.fw4free.com/postor/20200422130603tyler-perrys-a-madeas-family-funeral-5ce42498a3f80.jpg",
       "description": "พากย์ไทย"
@@ -1916,7 +2004,7 @@
   {
     "player": "p2p/player",
     "name": "Almost Cops คู่สืบ คู่อันตราย (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w440_and_h660_face/sJv1e6RB2rV39MYf1OLUwI4Ete9.jpg",
       "description": "พากย์ไทย"
@@ -1927,7 +2015,7 @@
   {
     "player": "p2p/player",
     "name": "Brick กำแพง (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w440_and_h660_face/mIDxUofYpL9UVu2sfevbDjz5kHt.jpg",
       "description": "พากย์ไทย"
@@ -1949,7 +2037,7 @@
   {
     "player": "p2p/player",
     "name": "ปากกัด ตีนถีบ Ziam (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/rE5Bf1ejCUuHxmQGIJTZ7W7M13p.jpg",
       "description": "พากย์ไทย"
@@ -1982,7 +2070,7 @@
   {
     "player": "p2p/player",
     "name": "Heads of State ผู้นำสายบู๊กู้วิกฤต (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/urY5rtsuTlI3M73G0iCWcUt86Ws.jpg",
       "description": "พากย์ไทย"
@@ -2015,7 +2103,7 @@
   {
     "player": "p2p/player",
     "name": "Shark Whisperer คนรักษ์ฉลาม (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/v0WEubJKWTfqYX8laBGIPI07Z7t.jpg",
       "description": "พากย์ไทย"
@@ -2213,7 +2301,7 @@
   {
     "player": "p2p/player",
     "name": "KPop Demon Hunters (2025) เกิร์ลกรุ๊ปนักล่าปีศาจ | NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://www.24-hdd.com/wp-content/uploads/2025/06/KPop-Demon-Hunters-2025-%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B9%8A%E0%B8%9B%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%9B%E0%B8%B5%E0%B8%A8%E0%B8%B2%E0%B8%88-187x269.png",
       "description": "พากย์ไทย"
@@ -2367,7 +2455,7 @@
   {
     "player": "p2p/player",
     "name": "Happy Monday (2025) สวัสดีวันจันทร์ | NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://www.24-hdd.com/wp-content/uploads/2025/05/Happy-Mondays-2025-%E0%B8%AA%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C%E0%B8%AA-187x269.png",
       "description": "พากย์ไทย"
@@ -2576,7 +2664,7 @@
   {
     "player": "p2p/player",
     "name": "Havoc ฝ่าหายนะครองเมือง (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://www.24hd-movie.com/wp-content/uploads/2025/04/Havoc-2025-%E0%B8%9D%E0%B9%88%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%B0%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87-187x269.png",
       "description": "พากย์ไทย"
@@ -2719,7 +2807,7 @@
   {
     "player": "p2p/player",
     "name": "Revelations นิมิตสวรรค์ (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://www.24hd-movie.com/wp-content/uploads/2025/03/Revelations-2025-%E0%B8%99%E0%B8%B4%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%AA%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%84%E0%B9%8C-187x269.png",
       "description": "พากย์ไทย"
@@ -2873,7 +2961,7 @@
   {
     "player": "p2p/player",
     "name": "The Electric State ท่องแดนจักรกล (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://movie.server-cdn-streaming.com/api/uploads/movie/5541/20250314165220uwg5.jpg",
       "description": "พากย์ไทย"
@@ -2895,7 +2983,7 @@
   {
     "player": "p2p/player",
     "name": "ไรเดอร์ Rider (2024) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://www.24hd-movie.com/wp-content/uploads/2025/03/Rider-2024-%E0%B9%84%E0%B8%A3%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C-187x269.png",
       "description": "พากย์ไทย"
@@ -3005,7 +3093,7 @@
   {
     "player": "p2p/player",
     "name": "Hit Man - นักฆ่าน่าหลอก (2023) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://www.24hd-movie.com/wp-content/uploads/2024/06/Hit-Man-2023-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%86%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87-187x269.jpg",
       "description": "พากย์ไทย"
@@ -3016,7 +3104,7 @@
   {
     "player": "p2p/player",
     "name": "Hit Man - นักฆ่าน่าหลอก (2023) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://movie.server-cdn-streaming.com/api/uploads/movie/5525/20250302175948jBXt.jpg",
       "description": "พากย์ไทย"
@@ -3082,7 +3170,7 @@
   {
     "player": "p2p/player",
     "name": "Squad 36 หน่วย 36 : ตำรวจมือพระกาฬ (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://www.24hd-movie.com/wp-content/uploads/2025/02/Squad-36-2025-%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%A7%E0%B8%A2-36-%E0%B8%95%E0%B8%B3%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%AC-187x269.png",
       "description": "พากย์ไทย"
@@ -3302,7 +3390,7 @@
   {
     "player": "p2p/player",
     "name": "ศึกค้างคาวกินกล้วย Bat War (2024) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://movie.server-cdn-streaming.com/api/uploads/movie/5473/20250123163425kc2H.jpg",
       "description": "พากย์ไทย"
@@ -3368,7 +3456,7 @@
   {
     "player": "p2p/player",
     "name": "Back in Action สายลับกลับมาลุย (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://www.24hd-movie.com/wp-content/uploads/2025/01/Back-in-Action-2025-%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B2%E0%B8%A5%E0%B8%B8%E0%B8%A2-187x269.png",
       "description": "พากย์ไทย"
@@ -3478,7 +3566,7 @@
   {
     "player": "p2p/player",
     "name": "Ad Vitam ปฏิบัติการเพื่อชีวิต (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://www.24hd-movie.com/wp-content/uploads/2025/01/Ad-Vitam-2025-%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95-187x269.png",
       "description": "พากย์ไทย"
@@ -3577,7 +3665,7 @@
   {
     "player": "p2p/player",
     "name": "The Witcher: Sirens of the Deep เดอะ วิทเชอร์ นักล่าจอมอสูร: ไซเรนแห่งทะเลลึก (2025) NETFLIX",
-    "category": "หนังแนะนำ",
+    "category": "NETFLIX",
     "info": {
       "poster": "https://movie.server-cdn-streaming.com/api/uploads/movie/5504/202502122011046O0y.jpg",
       "description": "พากย์ไทย"
