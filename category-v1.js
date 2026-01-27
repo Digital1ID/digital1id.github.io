@@ -213,7 +213,11 @@ function searchMovies() {
     // กรองรายการหนัง
     const filteredMovies = allMovies.filter(movie => {
         const name = (movie.name || '').toLowerCase();
-        const info = (movie.info || '').toLowerCase();
+        const description = movie.info?.description?.toLowerCase() || '';
+        const sound = movie.info?.sound?.toLowerCase() || '';
+        const subtitles = movie.info?.subtitles?.toLowerCase() || '';
+
+        const searchText = `${name} ${description} ${sound} ${subtitles}`;
         return name.includes(query) || info.includes(query);
     });
     
