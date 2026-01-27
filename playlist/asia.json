@@ -1,5 +1,16 @@
 [
-
+  {
+    "player": "p2p/player",
+    "name": "Due West Our Sex Journey (2012) กามาสัญจร",
+    "category": "หนังเอเชีย",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/iHNfgw9bS5DBjsVxVAXL8Nm6Klm.jpg",
+        "sound": "ไทย",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/a13dec65fa3aa54dfd87e2f5/a13dec65fa3aa54dfd87e2f5.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
   {
     "name": "The Elixir (2025) น้ำทิพย์ชะโลมตาย",
     "info": "พากย์ไทย",
