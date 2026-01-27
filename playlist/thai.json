@@ -2,8 +2,12 @@
   {
     "player": "p2p/playlist",
     "name": "The Believers (2025) สาธุ ซีซั่น 2",
-    "info": "พากย์ไทย",
-    "poster": "https://media.themoviedb.org/t/p/w220_and_h330_face/nQSwaSwscNhu4siZhW0eJgnAChR.jpg",
+    "category": "ซีรี่ย์ ไทย",
+    "info": {
+        "poster": "https://media.themoviedb.org/t/p/w220_and_h330_face/nQSwaSwscNhu4siZhW0eJgnAChR.jpg",
+        "sound": "ไทย",
+        "subtitles": ""
+        },
     "video": "10001"
   },
   {
