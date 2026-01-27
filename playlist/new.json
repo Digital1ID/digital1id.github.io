@@ -1,11 +1,24 @@
 [
   {
     "player": "p2p/player",
+    "name": "The Sniper (2026) มือปืนเทพพระกาฬ",
+    "category": "หนังแนะนำ",
+    "info": { 
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/fDfpKIRpauVYDnxFI47CTa3IZ9v.jpg",
+        "year": 2026,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/78a34cae47bd572d5bbd1560/78a34cae47bd572d5bbd1560.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "Mercy (2025) 90 นาทีสั่งตาย",
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
-      "description": "พากย์ไทย",
+      "description": "",
         "sound": "ไทยโรง",
         "subtitles": ""
     },
@@ -18,7 +31,7 @@
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg",
-      "description": "พากย์ไทย",
+      "description": "",
         "sound": "ไทยโรง",
         "subtitles": ""
     },
@@ -31,7 +44,7 @@
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ocVWTfImJpCqlO52DxpQXgj3MQO.jpg",
-      "description": "พากย์ไทย",
+      "description": "",
         "sound": "ไทยโรง",
         "subtitles": ""
     },
@@ -44,8 +57,8 @@
     "category": "หนังแนะนำ",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qrQpTL24qRQWoYKL2LvBwvLawVi.jpg",
-      "description": "พากย์ไทย",
-        "sound": "ไทย",
+      "description": "",
+        "sound": "พากย์ไทย",
         "subtitles": ""
     },
     "video": "https://main.24playerhd.com/newplaylist/3a1590083855f586d33d1fb6/3a1590083855f586d33d1fb6.m3u8",
@@ -57,8 +70,8 @@
     "category": "หนังแนะนำ",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/m36I6bhn16rv3MFC9pvf9MNmrl4.jpg",
-      "description": "พากย์ไทย",
-        "sound": "ไทย",
+      "description": "",
+        "sound": "พากย์ไทย",
         "subtitles": ""
     },
     "video": "https://main.24playerhd.com/newplaylist/5d24600c6a832a72fdc3d3ac/5d24600c6a832a72fdc3d3ac.m3u8",
@@ -70,7 +83,7 @@
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/sN4aqFghWpMvDR2Q0CtiRq87bPP.jpg",
-      "description": "พากย์ไทย",
+      "description": "",
         "sound": "ไทยโรง",
         "subtitles": ""
     },
@@ -83,7 +96,7 @@
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/gkO1flmXA84Sjqb01Zb4QcVbQub.jpg",
-      "description": "พากย์ไทย",
+      "description": "",
         "sound": "ไทยโรง",
         "subtitles": ""
     },
@@ -96,8 +109,8 @@
     "category": "หนังแนะนำ",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qNEL6chkH2s6gwvt0Jt9NfiXG8m.jpg",
-      "description": "พากย์ไทย",
-        "sound": "ไทย",
+      "description": "",
+        "sound": "พากย์ไทย",
         "subtitles": ""
     },
     "video": "https://main.24playerhd.com/newplaylist/e1cba647c9565e9705dd03e1/e1cba647c9565e9705dd03e1.m3u8",
@@ -109,8 +122,8 @@
     "category": "หนังแนะนำ",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4GJTUSjbCGynQo4PpTTNzzxYfBM.jpg",
-      "description": "พากย์ไทย",
-        "sound": "ไทย",
+      "description": "",
+        "sound": "พากย์ไทย",
         "subtitles": ""
     },
     "video": "https://main.24playerhd.com/newplaylist/fd7b4f45db0a1dd00039e312/fd7b4f45db0a1dd00039e312.m3u8",
@@ -120,8 +133,8 @@
     "player": "p2p/player",
     "name": "The Big Fake (2026) จอมปลอม",
     "info": { 
-        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qNEL6chkH2s6gwvt0Jt9NfiXG8m.jpg",
-        "sound": "ไทย",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qNEL6chkH2s6gwvt0Jt9NfiXG8m.jpg",
+        "sound": "พากย์ไทย",
         "subtitles": ""
         },
     "video": "https://main.24playerhd.com/newplaylist/e1cba647c9565e9705dd03e1/e1cba647c9565e9705dd03e1.m3u8",
@@ -131,8 +144,8 @@
     "player": "p2p/player",
     "name": "All the Devils Are Here (2025) ที่นี่…มีแต่ปีศาจ",
     "info": { 
-        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4GJTUSjbCGynQo4PpTTNzzxYfBM.jpg",
-        "sound": "ไทย",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4GJTUSjbCGynQo4PpTTNzzxYfBM.jpg",
+        "sound": "พากย์ไทย",
         "subtitles": ""
         },
     "video": "https://main.24playerhd.com/newplaylist/fd7b4f45db0a1dd00039e312/fd7b4f45db0a1dd00039e312.m3u8",
@@ -142,8 +155,8 @@
     "player": "p2p/player",
     "name": "Cosmic Princess Kaguya! (2026) เจ้าหญิงกระบอกไม้ไผ่",
     "info": { 
-        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/9I9cM38gecZcwJ0C6r0cwfvtPJP.jpg",
-        "sound": "ไทย",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/9I9cM38gecZcwJ0C6r0cwfvtPJP.jpg",
+        "sound": "พากย์ไทย",
         "subtitles": ""
         },
     "video": "https://main.24playerhd.com/newplaylist/b23553beb0625c54d5394106/b23553beb0625c54d5394106.m3u8",
@@ -153,8 +166,8 @@
     "player": "p2p/player",
     "name": "Kidnapped Elizabeth Smart (2026) คดีลักพาตัว เอลิซาเบธ สมาร์ท",
     "info": { 
-        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/hMVhZxgbFLXZcDUIZ10NGb6s8w4.jpg",
-        "sound": "ไทย",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/hMVhZxgbFLXZcDUIZ10NGb6s8w4.jpg",
+        "sound": "พากย์ไทย",
         "subtitles": ""
         },
     "video": "https://main.24playerhd.com/newplaylist/f9d90e41ea4cb25f1e49f096/f9d90e41ea4cb25f1e49f096.m3u8",
@@ -164,7 +177,7 @@
     "player": "p2p/player",
     "name": "Dream Animals The Movie (2025) ดรีม แอนิมอล เดอะ มูฟวี่",
     "info": { 
-        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ub9BOD7DgSUMHbN5aoT54av9iPF.jpg",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ub9BOD7DgSUMHbN5aoT54av9iPF.jpg",
         "sound": "ไทยโรง",
         "subtitles": ""
         },
@@ -175,7 +188,7 @@
     "player": "p2p/player",
     "name": "The SpongeBob Movie Search for SquarePants (2025) เดอะ สพันจ์บ็อบ มูฟวี่ ภารกิจตามหาสพันจ์บ็อบ",
     "info": { 
-        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/rojphxx05QkxzrmMKAP8sIYPZlj.jpg",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/rojphxx05QkxzrmMKAP8sIYPZlj.jpg",
         "sound": "ไทยโรง",
         "subtitles": ""
         },
@@ -186,7 +199,7 @@
     "player": "p2p/player",
     "name": "Dangerous Animals (2025)",
     "info": { 
-        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/9tk3Si960hg4E49eMt81dS7Qe9Z.jpg",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/9tk3Si960hg4E49eMt81dS7Qe9Z.jpg",
         "sound": "อังกฤษ",
         "subtitles": "ไทย"
         },
@@ -197,7 +210,7 @@
     "player": "p2p/player",
     "name": "Unrelenting Drug Interdiction (2025) ปราบยาล่าไม่เลิก",
     "info": {
-        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bIuFxlWX1piZn4tIG0Q5tgWowKu.jpg",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bIuFxlWX1piZn4tIG0Q5tgWowKu.jpg",
         "sound": "จีน",
         "subtitles": "ไทย"
         },
@@ -208,18 +221,21 @@
     "player": "p2p/player",
     "name": "The Legend of Feng Lou Divine Fox (2025) ตำนานเซียนจิ้งจอกแห่งเฟิ่งโหลว",
     "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bcZ9kCPf3UhABoXrnDlpe1pA2d5.jpg",
         "sound": "จีน",
         "subtitles": "ไทย"
         },
-    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bcZ9kCPf3UhABoXrnDlpe1pA2d5.jpg",
     "video": "https://main.24playerhd.com/newplaylist/b83938b75deaf572f6bed423/b83938b75deaf572f6bed423.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "Black Storm (2024) พายุทมิฬ",
-    "info": {"sound": "ไทย","subtitles": ""},
-    "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/sqILl3CWEZv7M8V70aPtH23GOAl.jpg",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/sqILl3CWEZv7M8V70aPtH23GOAl.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/c4bcfeb718c48db8e2c64d9e/c4bcfeb718c48db8e2c64d9e.m3u8",
     "subtitle": "",
     "Referrer": "https://main.24playerhd.com/"
