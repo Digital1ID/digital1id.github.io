@@ -2,6 +2,7 @@
   {
     "player": "p2p/player",
     "name": "สิ้นกลีบบุปผา",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%81%E0%B8%A5%E0%B8%B5%E0%B8%9A%E0%B8%9A%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%B2-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-971.webp",
         "sound": "ไทย",
@@ -12,6 +13,7 @@
   {
     "player": "p2p/player",
     "name": "แย่แล้ว แฟนเก่าทั้ง 99 คนมาเกิดใหม่",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/unnamed-6.jpg",
         "sound": "ไทย",
@@ -22,6 +24,7 @@
   {
     "player": "p2p/player",
     "name": "ภารกิจลับ ฉบับคุณพ่อ",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%A0%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%9E%E0%B9%88%E0%B8%AD-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1075.webp",
         "sound": "ไทย",
@@ -32,6 +35,7 @@
   {
     "player": "p2p/player",
     "name": "นิทานกริมม์",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%99%E0%B8%B4%E0%B8%97%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%A1%E0%B9%8C-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1091.webp",
         "sound": "ไทย",
@@ -42,6 +46,7 @@
   {
     "player": "p2p/player",
     "name": "เธอเลือกความตาย แต่กลับพบรักแท้",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B9%80%E0%B8%98%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%95%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%9E%E0%B8%9A%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%81%E0%B8%97%E0%B9%89-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1076.webp",
         "sound": "ไทย",
@@ -52,6 +57,7 @@
   {
     "player": "p2p/player",
     "name": "เทพยดาตัวน้อย พิชิตหัวใจ",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A2%E0%B8%94%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%9E%E0%B8%B4%E0%B8%8A%E0%B8%B4%E0%B8%95%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2025-314.webp",
         "sound": "ไทย",
@@ -62,6 +68,7 @@
   {
     "player": "p2p/player",
     "name": "ชายาฮ่องเต้ ข้านี่แหละคือชะตาหงส์ตัวจริง",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/09074180-e45c-11f0-84ad-6b5693b490dc.webp",
         "sound": "ไทย",
@@ -72,6 +79,7 @@
   {
     "player": "p2p/player",
     "name": "จากพี่เลี้ยงสู่ไอดอลบอส",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%9E%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%A5%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%87%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B9%84%E0%B8%AD%E0%B8%94%E0%B8%AD%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%AA-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1093.webp",
         "sound": "ไทย",
@@ -82,6 +90,7 @@
   {
     "player": "p2p/player",
     "name": "ใครกันที่รักพ่อ",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%9E%E0%B9%88%E0%B8%AD-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1101.webp",
         "sound": "ไทย",
@@ -92,6 +101,7 @@
   {
     "player": "p2p/player",
     "name": "คำขอร้อง ที่สายเกินไป",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/oMAtkElpBIBDdwzgAMiAK2Ic1Bfv0AAEiRwXCutplv-tiktokx-origin-1152x1536.jpg",
         "sound": "ไทย",
@@ -102,6 +112,7 @@
   {
     "player": "p2p/player",
     "name": "กุหลาบเคียงสน",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%81%E0%B8%B8%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%9A%E0%B9%80%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%AA%E0%B8%99-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1106.webp",
         "sound": "ไทย",
@@ -112,636 +123,997 @@
   {
     "player": "p2p/player",
     "name": "ฮีโร่ที่ถูกดูหมิ่น",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/ooAAQv0qAFIHibKCiwABOEIBuwmKtA8Bocfg7wtplv-tiktokx-origin-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/9xHHM3w-KO_8H/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "อุ๊ยพี่สาว! เราเข้าผิดหอ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%AD%E0%B8%B8%E0%B9%8A%E0%B8%A2%E0%B8%9E%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%B2%E0%B8%A7%E0%B9%80%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B4%E0%B8%94%E0%B8%AB%E0%B8%AD-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1027.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/wMjIQhE2_O-Iv/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "อุ้มรักสาวโรงงาน",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/211381_0.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/XaUp373_gV-Kv/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "เล่ห์รักสามีเจ้าชู้",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/616836579_122164622162700363_5181793039160606043_n.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/9jI3u-TN_GJgz/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ราชันยมโลกหวนคืน เจ็ดพี่สาวผู้ยิ่งใหญ่",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cover-m4iip209Hh-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/MM5pnpd-xu_yg/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "พันล้าน ต่อวินาที",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/616798831_122164618448700363_3520406285193448584_n.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/hzt-rw_DffOIO/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ชั่วฝันเปลี่ยนชะตา",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/212250_0.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/rPVxx-Cm_OTlC/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "แค้นรักพันธนาการ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/oIBAoy43IEEOUvbonYaiBsBlTpixAAWDOAtA1tplv-tiktokx-origin-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/biy_O-NuC7hUp/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "คู่หูตัวร้ายของตาย(ทิพย์)แล้วหนี l ความรักไม่ได้อยู่ในแผน",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/608911668_122163167450700363_6637750857601619564_n-1.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/jb9_fes-kKfER/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ข้ามเวลา 7 ปีเพื่อรักเธอ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B27%E0%B8%9B%E0%B8%B5%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%98%E0%B8%AD-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1032.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/K-r_oRJsCEecB/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "อุบัติเหตุทำให้ฉันเป็นที่หมายปอง l รักวุ่นๆของสาวยากจน",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%AD%E0%B8%B8%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%80%E0%B8%AB%E0%B8%95%E0%B8%B8%E0%B8%97%E0%B8%B3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%89%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%AD%E0%B8%87-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1020.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/eqdc_8fTV-GuG/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ราชินีสายโหด ทวงบัลลังก์",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/210506_0.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/rnaRgp-4j_rJW/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "รักป่วนหัวใจเจ้าพ่อมาเฟีย",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/211468_0.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/TExEH-F_B4pWB/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ถูกฝังพร้อมความรักของฉัน",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%9D%E0%B8%B1%E0%B8%87%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%89%E0%B8%B1%E0%B8%99-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1022.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/X-3vLDK_ee2WD/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ถลำรักในโลกของเธอ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/6468e1e0-e16f-11f0-84ad-6b5693b490dc-1.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/NIgt-S2_LiQIa/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ตรมรักสามชาติมิอาจเลือน",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/e109c2721b1a429aa2001826fe2b5e94.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/6U_R3f-V0kFfd/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "คุณพ่อมหาเศรษฐี ล้างแค้น",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/ogSDISrIAMQKfAAAiFfE8XQQUD4uDQjfjh0TJAtplv-photomode-zoomcover_720_720.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/n-9mzSmHk_cSx/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "คุณพ่อ กับเสียงกระซิบตัวน้อย",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/d28e67b434336b1c7958893d5391a7a5-1.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/dqQj_Jqsid-8p/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ขอได้ไหมหัวใจพ่อจ๋า",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/212383_0.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/qM-alQNQA_dMD/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "กับดักหัวใจของเขา",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%94%E0%B8%B1%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B2-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1011.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/7rnaY-6v6L_ar/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ลูกพ่อไม่อยากดิ้นรนแล้ว",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/unnamed-5.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/Q-H_ie6UpYNlh/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "เอาชีวิตรอดในแดนร้าง",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/unnamed-4.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/3-w6LlhPN_8xW/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "สามีของฉันคือประธานบริษัท",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/630b965ce1d94a4b83386dd36c5ee5d5-1117x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/UQdrLw_rO-U6r/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "สลับเจ้าสาว เปลี่ยนแปลงชะตา",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/ded20dcc0d45484e9ad5f2fd65922e11-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/bJtyG-leJ_FR8/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "สลับจิต ลิขิตชะตา",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/42000003892.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/tlUUSnPq_k-PD/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "วิวาห์พลั้งรัก",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/42000003822.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/83Ex7_ZRl-wrG/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ลูกเขยขอทาน ผู้ยิ่งใหญ่",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/a3c67e7282314727b406dd3c173194e5tplv-photomode-image.jpeg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/7eY_Pu2HW-SZl/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "รักแท้หลังจากการเดินหน้าต่อ l เพลิงแค้นซ่อนรัก",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/2d63116305dedc731e08d957329c13b1.jpg@720w_405h_1e_1c_90q.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/A-mJAJCN2_xWm/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ปรารถนานิรันดร์กาล",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cfdb86fcb50d47279e1c77cbb4a43fe7-1-scaled.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/tZZ0tte0_b-de/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "บุพเพใต้เงาบุปผา",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/860bc8b7c6664cac8c7fe38d437c3e98-scaled.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/qzdZs-Y_sWdIP/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "บ้านนี้ชอบเป็นตัวสำรอง",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/72e1a1073b994cf0ac20fe3f6763b063-scaled.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/hm-j_op6FrD2P/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ดอกไม้บานในยามใบไม้ผลิ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/3084929f55c84afea3666ad6f4a9803d-1-1117x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/znlOw_N-jEfqa/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ข้าคือผู้บำเพ็ญเซียน",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9A%E0%B8%B3%E0%B9%80%E0%B8%9E%E0%B9%87%E0%B8%8D%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2025-518.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/ej-BqoHi_jNaa/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "หย่าสามีป่วยไข้แล้วแต่งใหม่กับท่านเสนาบดี",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/c5287f30-d180-11f0-84ad-6b5693b490dc.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/u_7x0-tCQ8rts/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "สามีของฉันฆ่าลูกของเรา l หย่าแล้วไม่พังแต่ปังยิ่งกว่าเดิม",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/b72e3f74c90f1596e0b4c7bbdce76b57.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/DJKBOFKP-R_Lt/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "เวลาแห่งการลืมเลือน",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/c22422e913824938bcce3a7d2924bdb6tplv-photomode-image.jpeg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/UwWA_fqH-bjqx/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "รักที่หวนคืน กับคนเดิมของหัวใจ l ย้อนเวลาเพื่อรักเขาก่อนใคร",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/111.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/D_JFIWwY-CkKN/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "เมื่อรักล่วงลา",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/210766_0-1.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/SaYvuZq-r_Hkc/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "เธอขอให้ฉัน เป็นแฟนเธอ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/613691902_122163773768700363_2825185708554086864_n.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/4O-v_q9s9wMqv/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "สามีสายมู",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/12/42000001924.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/3gF_Ca1-0dNvH/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "รุ่นพี่… นี่แค่บังเอิญเหรอ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/12/b4c9570469fc2ac12aaa239a228a64c8.jpg@720w_405h_1e_1c_90q.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/nS-J_AcuyP3ec/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ทะลุมิติมาสะสมรัก 2",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/42000003626.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/m_fQkhUi-oLQ9/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ตัวร้าย นอกบท",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/12/83299d0e3e7303dcb65b573326b95892.jpg@720w_405h_1e_1c_90q.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/2q-WAghb_7Gt4/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ตอนนี้ ฉันคือเทพพิทักษ์แห่งเทียนฉี่",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cover-fnqC4LwB7n-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/1_yL8n51-uNEC/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "เชฟหลงยุค",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/d7d40230bb3f5bd8fa0dce64e1b2406b-1.png",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/TgB_kpcMCE-3R/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "คุณพ่อยามที่แท้เป็นมหาเศรษฐี l พ่อยามเป็นเศรษฐี",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/ef760c9abcdc28903bfa61066a975a76.jpg@720w_405h_1e_1c_90q.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/n_V9q8Y3a-qHU/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "คุณชายสำราญผู้เร้นคม",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/1764490467032-1165390259158211-3%E6%AF%944jpgtplv-vod-rs_651_868.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/r-m_7KYdIdJJY/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ความลับใต้ชุดบุรุษสู่ความวุ่นวายในจวนอ๋อง",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cover-KZxzhgBYGJ-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/e9DE_t-VDfa05/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "กับดักแห่งรัก l รักนี้ไม่มีเบรก",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/2017724433_20260104-143725.jpgtplv-vod-rs_651_868.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/f-Lr_BCVU2OA2/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ลูกชายผมเป็นแฮกเกอร์",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/o4hERCxlEAZPCi6BAY8E7AAiAjaLVII9aWvAB.png",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/3-LgYLX_y3uXA/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "เมื่อหัวใจเลิกยื้อ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B9%80%E0%B8%A1-%E0%B8%AD%E0%B8%AB-%E0%B8%A7%E0%B9%83%E0%B8%88%E0%B9%80%E0%B8%A5-%E0%B8%81%E0%B8%A2-%E0%B8%AD_193_2025.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/f9o-8T8BMS_Lc/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "พี่ชายทั้งห้าของฉันคือบอสใหญ่",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/oAtBpMffAUAQGA9J07ILIeAPIVueeA6PSAG7SVtplv-tiktokx-origin.png",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/H4P-f7g_p7AUh/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "พระนางหล่อสวย l ความลับของคุณหนูพีโอนี",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/1942030929_20260105-114120.jpgtplv-vod-noop.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/6-QPoMVg_aZPi/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ดวงตาสวรรค์ ในเมืองใหญ่",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/f839bd587919d14cc07a766694e057c5.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/ViVFimW-l_NFr/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "สองวิวาห์สองหัวใจ l รักวุ่นบ้านสองพี่น้อง",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/a9baecbb9cc6c828a29964eb789ecbdb-1.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/QHr-tl_vPijLa/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ไรเดอร์ธรรมดาที่ไม่ธรรมดา",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cover-hBcYXkY3eU-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/d_P4vrH-a5pBO/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ภรรยาที่เขา ต้องปกป้อง",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/5a93c292e622cea72f11937f1b378ea1.jpg@720w_405h_1e_1c_90q.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/95EtqQOd_Y-hp/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "แฟนผมคือเจ้าแม่ขาใหญ่",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cover-b3YYjU28pU-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/pdAy-vaa1_sdd/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ซูเปอร์เบบี้สายเปย์",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cover-lO2JdONTmW.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/qIY_Zz-1h6uIE/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ที่รักไม่ต้องร้องไห้ ฉันจะไม่ทิ้งเธอ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/unnamed-1.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/S-1_5yVCYSJBN/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ทิ้งรัก สามีมหาเศรษฐี",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/oMFlXATSkAKZDrfAEjirCjuEoeSfQuiAIKiAIDtplv-tiktokx-origin-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/aj_FMaGJV1-Av/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ดวงใจน้อยนำพารักคืนสู่บ้าน",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cover-ZTOqZXUovu-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/Yb_As-tiOu8ai/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "คำขอโทษที่ไม่มีวันส่งถึง",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/1764390713783-3219632064319393-3%E6%AF%944jpgtplv-vod-rs_651_868.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/I64pim-I_m3Ag/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ฮองเฮามาทำงานแล้วจ้า",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/63636363-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/wBAlW_Mz7-zdx/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "อย่ามาง้อให้คืนดี สามีขี้หึงคนนี้เอาใจยากสุดๆ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/2e53a8be2986da6897082eb635fb4d40.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/XI-5_TKroiAJa/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "สาวงาม ผู้ปราบเสือ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/7154.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/VK-QqM_8WyYI6/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "วิญญาณที่ยังรอ ความรักที่ตายแล้วถึงรู้ l รักเเรกที่ฉันคู่ควร l เกิดใหม่ใกล้ๆเธอ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/99.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/GJnv_Z9I-1xWW/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ราชบุตรประทานพร",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/78.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/ZJbv4I-8mI_MY/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ม้ามังกร",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/581951511_1198630818864143_391924544202268781_n.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/q-2gSA_WZRrTz/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ฟื้นคืนเพื่อล้างแค้น",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%9F%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84%E0%B9%89%E0%B8%99-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-940.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/3I-hLHrvm_kLK/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ประธานขาสปอยล์ที่หนึ่ง",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/13153-1767354236.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/HFL1SG-NX_oGh/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ทะลุมิติแม่สามีสายฟาด",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/590268214_3270263116463172_8753793297157139168_n.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/G0-j5xBM_Lelc/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ข้อยกเว้น ของเขา",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/c8cb54cc3263921ff5bada3713ac44b3.jpg@720w_405h_1e_1c_90q.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/zhv_aTETdo-8L/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ลูกไก่ตัวน้อยในกำมือ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/12/9c6ebae736faa166e51d4674b581ce4b.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/9P9-o_pE3mEyC/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "บทเรียน ต้องห้าม",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/12/a_100523058_m_601_th_520_720.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/1ZYIm_SlQP-21/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ข้าเป็นยอดดวงใจท่านอ่องแล้วองค์รัชทายาทจะเสียใจทำไม",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/12/c79a0b40-cab8-11f0-84ad-6b5693b490dc.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/fdpw-z_oUDPVS/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ลูกฉันใครอย่าแตะ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/12/5177409cfa9b4db1.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/3YM_fhcih1-Je/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ลำนำรักเหมันต์ มนตร์รักโรงแรมหรู",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/12/973735969_P005%E5%86%AC%E6%97%A5%E6%81%8B%E6%AD%8C%EF%BC%9A%E6%83%85%E5%AE%9A%E5%A4%A7%E9%A5%AD%E5%BA%97%E6%B3%B0%E8%AF%AD%E9%85%8D%E9%9F%B3.jpgtplv-vod-rs_651_868.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/IE_T-x6cSE5Mu/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "กรรม พลิกชีวิต",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/12/80cc26ae6ebbda4d4420aa7652fe6f20.jpg@720w_405h_1e_1c_90q.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/cHes-E3M_OBWn/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "อ่านใจฉันสิ! แล้วจะรักหมดใจ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--42ci5cwbi0eub.com/wp-content/uploads/2025/12/cover-892kE0RIW3-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/nbD-yvOoK_0PX/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "รัชสมัยของจักรพรรดิผู้ล้างแค้น",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/12/pp.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/e1L-b_xfFcj2v/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ศึกแพทย์หญิงนิติเวชอันดับหนึ่ง",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/12/cover-e7siugQe5b-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/BfLgS-x_iZxOs/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "สามีของฉัน เป็นราชามังกร",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/11/71d35ba6ee6069ad56d287e31043e26c.jpg@720w_405h_1e_1c_90q.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/Frc1_9G-uPovK/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "รักในสายหมอก",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/11/c12cab69383b97d9da855a311c1f9756.jpg@720w_405h_1e_1c_90q.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/J-EK5rH4Ie_wH/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ทะลุมิติตะลุยวังหลวง",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/11/%E0%B8%A0%E0%B8%A0%E0%B8%A0.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/wcuWDhf-CA_E8/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "รักร้ายหัวใจมาเฟีย",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/11/cover-zUUeNq2ksB.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/W_Lb-gX6awKmk/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "รักเก่าโรยรา รักใหม่ผลิใบ",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/11/1755251732_dQhm2cFWBE.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/dkOs_dO-yYwpK/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "คุณแม่ขาโหดพาลูกๆไปร่ำรวย",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/11/cover-XGW8DsvllM-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/LxW-zCu_czUCl/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ของขวัญรักจากสามี",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/11/e3b0bc10-9126-11ef-a2d6-41216ff1602c.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/CLs9Lu_nO-1lF/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "ชาตินี้ขอไม่ซ้ำรอย",
-    "info": "พากย์ไทย",
+    "category": "ละครสั้นจีน",
+    "info": {
     "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/10/41000114466.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://media.vdohls.com/uaokgpbcaknqngb/playlist.m3u8"
   },
   {
     "player": "p2p/player",
     "name": "วุ่นรักพิชิตใจนายไฮโซ",
+    "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2025/11/cover-kQfhnk2qJr.jpg",
         "sound": "พากย์ไทย",
