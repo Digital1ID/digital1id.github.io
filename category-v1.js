@@ -213,8 +213,20 @@ function searchMovies() {
     // กรองรายการหนัง
     const filteredMovies = allMovies.filter(movie => {
         const name = (movie.name || '').toLowerCase();
-        const info = (movie.info || movie.info?.description || '').toLowerCase();
-        return name.includes(query) || info.includes(query);
+
+        let infoText = '';
+        if (typeof movie.info === 'string') {
+            // ถ้า info เป็น string เช่น "พากย์ไทย"
+            infoText = movie.info.toLowerCase();
+        } else if (typeof movie.info === 'object' && movie.info !== null) {
+            // ถ้า info เป็น object เช่น { sound: "ไทย", subtitles: "" }
+            const sound = movie.info.sound || '';
+            const subtitles = movie.info.subtitles || '';
+            const description = movie.info.description || '';
+            infoText = `${sound} ${subtitles} ${description}`.toLowerCase();
+        }
+
+        return name.includes(query) || infoText.includes(query);
     });
     
     // เมื่อค้นหา ให้เริ่มแสดงที่หน้า 1 ของผลลัพธ์การค้นหา
