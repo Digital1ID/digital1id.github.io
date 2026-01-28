@@ -1,6 +1,17 @@
 [
   {
     "player": "p2p/player",
+    "name": "The Wrecking Crew (2026) คู่พยัคฆ์เดือด เชือดเจ้าพ่อฮาวาย",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/lzc4bvk7FA35bod1YgUQWNleb2q.jpg",
+      "description": "พากย์ไทย"
+    },
+    "video": "https://vod1.stream25.com/The-Wrecking-Crew-2026-TH.mp4.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "The Sniper (2026) มือปืนเทพพระกาฬ",
     "category": "หนังแนะนำ",
     "info": { 
