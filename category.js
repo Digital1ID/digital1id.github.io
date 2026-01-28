@@ -120,7 +120,7 @@ async function loadCategory(groupName) {
     document.getElementById("search-input").value = "";
 
     try {
-        const response = await fetch(`./JSON-Parser.html?file=m3u/movie/new.txt&mode=json`);
+        const response = await fetch(`https://parser--zeroarm151.replit.app/xi.php?file=https://raw.githubusercontent.com/Digital1ID/digital1id.github.io/refs/heads/main/m3u/movie/new.txt`);
         if (!response.ok) throw new Error("ไม่สามารถโหลดข้อมูลจาก Parser ได้");
         const movies = await response.json();
 
