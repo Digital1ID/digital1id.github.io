@@ -54,25 +54,32 @@ function createMovieSection(title, movies) {
 
 // --- [ SAFE JSON PARSER ] ---
 async function fetchMovies(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error("โหลดไม่สำเร็จ");
-  const rawText = await res.text();
-
-  // หาเฉพาะส่วนที่เป็น JSON array
-  const start = rawText.indexOf("[");
-  const end = rawText.lastIndexOf("]") + 1;
-
-  if (start >= 0 && end > start) {
-    const jsonText = rawText.slice(start, end).trim();
-    try {
-      return JSON.parse(jsonText);
-    } catch (e) {
-      console.error("Parse error:", e, "jsonText=", jsonText);
-      throw e;
+  try {
+    const res = await fetch(url);
+    if (!res.ok) {
+      throw new Error(`โหลดไม่สำเร็จ: ${res.status} ${res.statusText}`);
     }
-  }
+    const rawText = await res.text();
 
-  throw new Error("Response ไม่มี JSON array");
+    const start = rawText.indexOf("[");
+    const end = rawText.lastIndexOf("]") + 1;
+
+    if (start >= 0 && end > start) {
+      const jsonText = rawText.slice(start, end).trim();
+      try {
+        return JSON.parse(jsonText);
+      } catch (e) {
+        console.error("Parse error:", e, "jsonText=", jsonText);
+        throw e;
+      }
+    }
+
+    console.error("Response ไม่ใช่ JSON array:", rawText);
+    throw new Error("Response ไม่มี JSON array");
+  } catch (err) {
+    console.error("FetchMovies Error:", err);
+    throw err;
+  }
 }
 
 // --- [ LOAD MOVIES ] ---
