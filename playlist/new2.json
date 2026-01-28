@@ -165,15 +165,15 @@
     "Referrer": "https://main.24playerhd.com/"
   },
   {
-    "player": "p2p/player",
+    "player": "p2p/jwplayer",
     "name": "Sisu 2 (2025) สิสู้…เฒ่ามหากาฬ 2",
     "category": "หนังแนะนำ",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/brBQ79UmzdpHx4Pl3kKRU8F9ubD.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/mthnew//Sisu.Road.to.Revenge.2025.TH.mp4/playlist.m3u8",
-    "Referrer": "http://web02.dynns.com:1935/"
+    "video": "https://web02.dynns.com:1935/mthnew//Sisu.Road.to.Revenge.2025.TH.mp4/playlist.m3u8",
+    "Referrer": "https://web02.dynns.com:1935/"
   },
   {
     "player": "p2p/player",
@@ -194,7 +194,7 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web01.dynns.com:1935/msub2016/Predator.Badlands.2025.SUB.mp4/playlist.m3u8",
+    "video": "https://web01.dynns.com:1935/msub2016/Predator.Badlands.2025.SUB.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
@@ -238,7 +238,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/vHDrjztw6EPVEXxrGGP95lKXahO.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/zoom//Wildcat.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "https://web02.dynns.com:1935/zoom//Wildcat.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
@@ -260,7 +260,7 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/sGdgToQLaq2QE27Z43ZacO9ChSe.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/zoom//Crayon.Shin.chan.The.Movie.33.Cho.Karei.Shakunetsu.no.Kasukabe.Dancers.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "https://web02.dynns.com:1935/zoom//Crayon.Shin.chan.The.Movie.33.Cho.Karei.Shakunetsu.no.Kasukabe.Dancers.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
@@ -436,8 +436,8 @@
       "poster": "https://image.tmdb.org/t/p/w260_and_h390_face/j5JspcDP1PhADsb24LSIfYUzDSd.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/nangth//Tha.Rae.The.Exorcist.2025.mp4/playlist.m3u8",
-    "Referrer": "http://web02.dynns.com:1935/"
+    "video": "https://web02.dynns.com:1935/nangth//Tha.Rae.The.Exorcist.2025.mp4/playlist.m3u8",
+    "Referrer": "https://web02.dynns.com:1935/"
   },
   {
     "player": "p2p/player",
@@ -572,80 +572,80 @@
     "Referrer": "https://main.24playerhd.com/"
   },
   {
-    "player": "p2p/player",
+    "player": "p2p/jwplayer",
     "name": "เสือ (2025) Tiger",
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7MSluuPJEw0EfYc7wPb5Oa5iy3B.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/zoom//4.Tigers.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "https://web02.dynns.com:1935/zoom//4.Tigers.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
-    "player": "p2p/player",
+    "player": "p2p/jwplayer",
     "name": "Good Fortune เทวดาแบบใดห์ (2025) บรรยายไทย",
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bYMkAVxY1Z3hA2UWcFXOtvWSfjr.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/zoom//Good.Fortune.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "https://web02.dynns.com:1935/zoom//Good.Fortune.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
-    "player": "p2p/player",
+    "player": "p2p/jwplayer",
     "name": "The Smashing Machine ตำนานเครื่องจักรสังเวียนเดือด (2025)",
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mPuBDGrVIBGOymBxR6rO3iIvBSe.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/zoom//The.Smashing.Machine.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "https://web02.dynns.com:1935/zoom//The.Smashing.Machine.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
-    "player": "p2p/player",
+    "player": "p2p/jwplayer",
     "name": "Frankenstein แฟรงเกนสไตน์ (2025)",
     "category": "หนังแนะนำ",
     "info": {
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xVaAZaSClR9t5Ky96TwBSrZbwW5.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/mthnew//Frankenstein.2025.TH.mp4/playlist.m3u8",
+    "video": "https://web02.dynns.com:1935/mthnew//Frankenstein.2025.TH.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
-    "player": "p2p/player",
+    "player": "p2p/jwplayer",
     "name": "The Fantastic Four First Steps (2025) เดอะ แฟนแทสติก 4 จุดเริ่มต้นปฐมบทใหม่",
     "category": "หนังแนะนำ",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w440_and_h660_face/yrnppxmjk01yGifdFPXzGK54QGO.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://oneid151.serv00.net/tp.php?cdn=statics-02.duckduckcdn.com&id=0a14667f-e741-5a86-ae3d-bee41ff017b4",
+    "video": "https://oneid151.serv00.net/tp.php?cdn=statics-02.duckduckcdn.com&id=0a14667f-e741-5a86-ae3d-bee41ff017b4",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
-    "player": "p2p/player",
+    "player": "p2p/jwplayer",
     "name": "Marvel Studios' The Fantastic Four: First Steps - World Premiere (2025) เดอะ แฟนแทสติก 4 จุดเริ่มต้นปฐมบทใหม่",
     "category": "หนังแนะนำ",
     "info": {
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/z7wI0jpec9gz2IwVciND1nbRBy0.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/mthnew//The.Fantastic.Four.First.Steps.2025.TH.mp4/playlist.m3u8",
+    "video": "https://web02.dynns.com:1935/mthnew//The.Fantastic.Four.First.Steps.2025.TH.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
-    "player": "p2p/player",
+    "player": "p2p/jwplayer",
     "name": "Black Phone 2 (2025) สายหลอน ซ่อนวิญญาณ 2",
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/wx0OSEQNoMr1W3fAzip4dD1sAE5.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/zoom/Black.Phone.2.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "https://web02.dynns.com:1935/zoom/Black.Phone.2.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
@@ -814,15 +814,15 @@
     "Referrer": "https://asset.fembed.co/"
   },
   {
-    "player": "p2p/player",
+    "player": "p2p/jwplayer",
     "name": "Saint Young Men The Movie Holy Men vs Demon Army (2024) ศาสดาลาพักร้อน เดอะมูฟวี่",
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ycalf81uKj3KEoJWuoKps5vYljq.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/zoom/Saint.Young.Men.The.Movie.Holy.Men.vs.Demon.Army.2024.ZOOM.mp4/playlist.m3u8",
-    "Referrer": "http://web02.dynns.com:1935/"
+    "video": "https://web02.dynns.com:1935/zoom/Saint.Young.Men.The.Movie.Holy.Men.vs.Demon.Army.2024.ZOOM.mp4/playlist.m3u8",
+    "Referrer": "https://web02.dynns.com:1935/"
   },
   {
     "player": "p2p/player",
@@ -1221,14 +1221,14 @@
     "Referrer": "https://main.24playerhd.com/"
   },
   {
-    "player": "p2p/player",
+    "player": "p2p/jwplayer",
     "name": "คายอ้อ ลบหลู่ ศรัทธา อาถรรพ์ (2025)",
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/k3OsMTa25kKLnvZVcPIgfDwyTXH.jpg",
       "description": "พากย์ไทย"
     },
-    "video": "http://web02.dynns.com:1935/zoom//Kayaor.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "https://web02.dynns.com:1935/zoom//Kayaor.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
