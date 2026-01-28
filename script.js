@@ -1,3 +1,5 @@
+//script-v2.js
+
 let allMovies = [];
 let allMoviesByTitle = {};
 let originalSectionsHtml = "";
@@ -14,11 +16,17 @@ function createMovieCard(movie) {
     watchUrl += `&subtitle=${encodeURIComponent(movieSubtitle)}`;
   }
 
+  // ✅ ดึง poster จาก info.poster ถ้ามี
+  const poster = movie.logo || movie.image || movie.poster || (movie.info && movie.info.poster);
+
+  // ✅ ดึง description จาก info.description ถ้ามี
+  const description = (movie.info && movie.info.description) ? movie.info.description : (movie.info || "");
+
   return `
     <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/30 transition duration-300 poster-card group cursor-pointer">
       <div class="relative">
         <a href="${watchUrl}">
-          <img src="${movie.logo || movie.image || movie.poster}"
+          <img src="${poster || 'https://via.placeholder.com/150x225?text=No+Image'}"
                onerror="this.onerror=null;this.src='https://via.placeholder.com/150x225?text=No+Image';"
                alt="${movieName}"
                class="w-full h-[225px] object-cover transition duration-500">
@@ -26,7 +34,7 @@ function createMovieCard(movie) {
       </div>
       <div class="p-2">
         <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
-        <p class="text-xs text-gray-400">${movie.info || ""}</p>
+        <p class="text-xs text-gray-400">${description}</p>
       </div>
     </div>
   `;
@@ -85,10 +93,10 @@ async function loadAllMovies() {
     const movies = await fetchMovies("https://parser--zeroarm151.replit.app/xi.php?file=https://raw.githubusercontent.com/Digital1ID/digital1id.github.io/refs/heads/main/m3u/movie/new.txt");
     allMovies = movies;
 
-    // ✅ สร้าง section ตาม group
-    const groups = [...new Set(allMovies.map(m => m.group || "อื่นๆ"))];
+    // ✅ สร้าง section ตาม category
+    const groups = [...new Set(allMovies.map(m => m.category || "อื่นๆ"))];
     for (const group of groups) {
-      const moviesInGroup = allMovies.filter(m => (m.group || "อื่นๆ") === group);
+      const moviesInGroup = allMovies.filter(m => (m.category || "อื่นๆ") === group);
       if (moviesInGroup.length > 0) {
         allSectionsHtml += createMovieSection(group, moviesInGroup);
         moviesInGroup.forEach(movie => {
@@ -132,8 +140,8 @@ function searchMovies() {
 
   const filteredMovies = Object.values(allMoviesByTitle).filter(movie => {
     const name = (movie.name || "").toLowerCase();
-    const info = (movie.info || "").toLowerCase();
-    return name.includes(query) || info.includes(query);
+    const infoText = (movie.info && movie.info.description ? movie.info.description : movie.info || "").toLowerCase();
+    return name.includes(query) || infoText.includes(query);
   });
 
   if (filteredMovies.length > 0) {
