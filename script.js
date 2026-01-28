@@ -82,7 +82,7 @@ async function loadAllMovies() {
 
   try {
     // ✅ โหลดจาก Parser เพียงครั้งเดียว
-    const movies = await fetchMovies("https://oneid151.serv00.net/xi.php?file=m3u/new.txt");
+    const movies = await fetchMovies("https://parser--zeroarm151.replit.app/xi.php?file=https://raw.githubusercontent.com/Digital1ID/digital1id.github.io/refs/heads/main/m3u/movie/new.txt");
     allMovies = movies;
 
     // ✅ สร้าง section ตาม group
