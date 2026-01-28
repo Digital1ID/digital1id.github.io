@@ -1,6 +1,83 @@
 [
   {
     "player": "p2p/player",
+    "name": "เห็นค่าในวันที่สาย",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/211470_0.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/eGzINE_7O-eSp/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "โลกนี้ไม่มีใครรักฉันแล้ว",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cover-zJtMyzu8Ru-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/b-TvalT_RzREl/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "ลิขิตรักเสน่ห์หา l บอสสาวกับลูกของเรา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cover-KspYFIObFQ-1-1152x1536.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/UM2g-s9qx_0or/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "เธอไม่เคยทิ้งฉัน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/42000004673.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/Bas-qH_lRePt2/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "ทายาทตัวจริง กลับมาแล้ว",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/81e68539-f703-4935-9f08-0836cbc9e02d.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/Ewh_W-kmYf70I/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "ชีวิตนี้ฉันกำหนด",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/5c7efc9661d7a69681cb463c8d601a7e.jpg@1920w_1080h_1e_1c_90q.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/rC7V5I_hX-60y/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "เคยถูกทิ้ง แต่วันนี้ครองบัลลังก์",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/o4ee2cvADAFIASAbvtG6SSIt7EA2LjrcRLUEBetplv-tiktokx-origin.png",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/3tWv3SU-k_aXg/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
     "name": "ยิ่งมีเมียยิ่งรวยในยุคกันดาร",
     "category": "ละครสั้นจีน",
     "info": { 
