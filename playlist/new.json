@@ -121,32 +121,6 @@
   {
     "player": "p2p/player",
     "name": "The Big Fake (2026) จอมปลอม",
-    "category": "หนังแนะนำ",
-    "info": {
-      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qNEL6chkH2s6gwvt0Jt9NfiXG8m.jpg",
-      "description": "",
-        "sound": "พากย์ไทย",
-        "subtitles": ""
-    },
-    "video": "https://main.24playerhd.com/newplaylist/e1cba647c9565e9705dd03e1/e1cba647c9565e9705dd03e1.m3u8",
-    "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/player",
-    "name": "All the Devils Are Here (2025) ที่นี่…มีแต่ปีศาจ",
-    "category": "หนังแนะนำ",
-    "info": {
-      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4GJTUSjbCGynQo4PpTTNzzxYfBM.jpg",
-      "description": "",
-        "sound": "พากย์ไทย",
-        "subtitles": ""
-    },
-    "video": "https://main.24playerhd.com/newplaylist/fd7b4f45db0a1dd00039e312/fd7b4f45db0a1dd00039e312.m3u8",
-    "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/player",
-    "name": "The Big Fake (2026) จอมปลอม",
     "info": { 
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qNEL6chkH2s6gwvt0Jt9NfiXG8m.jpg",
         "sound": "พากย์ไทย",
@@ -258,154 +232,214 @@
   {
     "player": "p2p/player",
     "name": "Greenland 2 Migration (2025) ฝ่าชะตา โลกาวินาศ",
-    "info": "ไทยโรง",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kscgi20X3SWi1VjH2SU2uN2hQac.jpg",
+        "sound": "ไทยโรง",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/8b1f6ea78f972d03517b7239/8b1f6ea78f972d03517b7239.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "Strange Darling (2024) รัก ลวง ฆ่า",
-    "info": "ไทยโรง",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/lVrwcMH5BR8OjKdXr5I6eEIQUx0.jpg",
+        "sound": "ไทยโรง",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/7503cc47719e75530b2f96cb/7503cc47719e75530b2f96cb.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "The Cursed Insatiable Desires (2025) เรื่องผีสาป",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/vRxZoRi57Ggd7z6SNnDcZvR5Tx3.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/9c16aba4bba6ed192a42809e/9c16aba4bba6ed192a42809e.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "The Housemaid (2025) ความลับแม่บ้านร้าย",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/7T2dTV6BLr8F3yVYsibpAcmZvSd.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/d3e9e32befa933d3b06172d7/d3e9e32befa933d3b06172d7.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "The Rip (2026) เงินบาปกระชากคน",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/2y46LNXNuYtUdSe0MsvKqcQIlUX.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/67b0698384efc6944d6bd52d/67b0698384efc6944d6bd52d.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "Smurfs (2025) สเมิร์ฟ",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4opAzolezkfzs9nnoiv3gfJogon.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/79d704ffa81e99b0fdf3414a/79d704ffa81e99b0fdf3414a.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "Event Horizon (1997) ผ่านรกสุดขอบฟ้า",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qfluaDXv0cIdLwgQWzNB2piHL2q.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://hot.24playerhd.com/autoplaylist/50cc5cb3336da146e3a53900fec338ba/50cc5cb3336da146e3a53900fec338ba.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "The Smashing Machine (2025) ตำนานเครื่องจักรสังเวียนเดือด",
-    "info": "บรรยายไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/mPuBDGrVIBGOymBxR6rO3iIvBSe.jpg",
+        "sound": "อังกฤษ",
+        "subtitles": "บรรยายไทย"
+        },
     "video": "https://main.24playerhd.com/newplaylist/8fe1808dc8b9979dd164c0a6/8fe1808dc8b9979dd164c0a6.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "A Babysitter’s Guide to Monster Hunting (2020) คู่มือล่าปีศาจฉบับพี่เลี้ยง",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bkld8Me0WiLWipLORRNfF1yIPHu.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/3c318fd475b55aa9fd66ee92/3c318fd475b55aa9fd66ee92.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "Murderer Report (2025) รายงานฆาตกร",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bZrX1VolCiL1abM7ahaarjQAmXL.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/14a58963121e489bed176001/14a58963121e489bed176001.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "Iron Mask (2019) อภินิหารมังกรฟัดโลก",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/nM6Mf4UIp8Uw6Jgw40WlY9OnQOS.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/2926d1e3840b7030751373d6/2926d1e3840b7030751373d6.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "The Tank (2025) รถถังเจ้าพยัคฆ์",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/f18LeJhnI9opCLcIDym3uVH301V.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/edf50323f9634eb56ea96988/edf50323f9634eb56ea96988.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "Trap House (2025) ดักแผนล่า ท้าทรชน",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/AoNiNdiWLEHU5EBfZ82Gx08ymDo.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/a9bab40cda22ea22218687dd/a9bab40cda22ea22218687dd.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "Alma and The Wolf (2025) อัลมาและมนุษย์หมาป่า",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/t4SUgmGGhMS4t9g0DJzAjRS5Hcj.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/d775aab91f7971f91ccf33b9/d775aab91f7971f91ccf33b9.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/player",
     "name": "100 Meters (2025) 100 เมตร",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/w2pzrRTevXrW3vgIK4CCYaXvtIc.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/286abb643dd8fa56fb4ea513/286abb643dd8fa56fb4ea513.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "name": "Nak Loves Mak Sooo Much! (2025) นากรักมาก ม๊ากมาก",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/yaQheZpKECFzwU4KWcQ0rpYqDhD.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://master.steamhls88.com/hlsr2/752219e7697f0274c41f4e13600a8d2b/master.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
     "name": "TRON: Ares (2025) ทรอน แอรีส",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/oZg0fthw8egPhvZd2Qtiv8ulJuq.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://master.steamhls88.com/hlsr2/bdbf03fffe0c0a33e1a9065c5b800398/master.m3u8"
   },
   {
     "name": "Sisu 2 (2025) สิสู้…เฒ่ามหากาฬ 2",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/brBQ79UmzdpHx4Pl3kKRU8F9ubD.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://master.steamhls88.com/hlsr2/fa32f6e7863455645a5415d62f8a6faf/master.m3u8"
   },
   {
     "name": "Predator: Badlands (2025) พรีเดเตอร์: แดนเถื่อน",
-    "info": {"sound": "ไทยโรง","subtitles": "ไทย"},
+    "info": {
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg",
+    "sound": "ไทยโรง",
+    "subtitles": "ไทย"
+    },
     "video": "https://master.steamhls88.com/hlsr2/2097f3cb82493b08fcfb95ec231a4a2a/master.m3u8",
     "subtitle": "https://raw.githubusercontent.com/Digital1ID/digital1id.github.io/refs/heads/main/playlist/Predator.srt"
   },
   {
     "player": "p2p/player",
     "name": "Demon Slayer Kimetsu no Yaiba (2025) ดาบพิฆาตอสูร ภาคปราสาทไร้ขอบเขต",
-    "info": "ไทยโรง",
+    "info": {
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/aAQdIzd5muq376bf0HZv3wIpmtI.jpg",
+        "sound": "ไทยโรง",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/2b771028c7a47aaa066c7796/2b771028c7a47aaa066c7796.m3u8",
     "subtitle": "",
     "Referrer": "https://main.24playerhd.com/"
@@ -413,8 +447,11 @@
   {
     "player": "p2p/player",
     "name": "Kill the Drug Lords (2023) ตำรวจผู้พิทักษ์",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/83xhucBgTL0Il9E298JT8DYv76B.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/cc7e32c1238620d7e40215e8/cc7e32c1238620d7e40215e8.m3u8",
     "subtitle": "",
     "Referrer": "https://main.24playerhd.com/"
@@ -422,8 +459,11 @@
   {
     "player": "p2p/player",
     "name": "The Hunt For Red October (1990) ล่าตุลาแดง",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/1bjcOe8n2Wwh5kKL1tmmeriz5Zn.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://main.24playerhd.com/newplaylist/bba8d661839999fe052e4753/bba8d661839999fe052e4753.m3u8",
     "subtitle": "",
     "Referrer": "https://main.24playerhd.com/"
@@ -431,8 +471,11 @@
   {
     "player": "p2p/player",
     "name": "Kpop Demon Hunters (2025) เกิร์ลกรุ๊ปนักล่าปีศาจ",
-    "info": "พากย์ไทย",
+    "info": {
     "poster": "https://img.shirokami.me/images/2025/06/25/d4561e8fb4d8a1ba811cba4b896ce21e.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
     "video": "https://files.akuma-player.xyz/view/eb7463d7-49ae-5dc9-8f0e-b81b21302ad9.m3u8"
   }
   
