@@ -54,30 +54,30 @@ https://main.24playerhd.com/newplaylist/a4a30e4a588b5a7cc5b72425/a4a30e4a588b5a7
 https://main.24playerhd.com/newplaylist/cf5c58bc66256b1f9fc658fe/cf5c58bc66256b1f9fc658fe.m3u8
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="1", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | ยังไม่จบ S05 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="1", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | 8 ตอนจบ S05 E01
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/17c39d89244e261b958a4d37/17c39d89244e261b958a4d37.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="2", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | ยังไม่จบ S05 E02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="2", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | 8 ตอนจบ S05 E02
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/8984f180853932e72f1838c5/8984f180853932e72f1838c5.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="3", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | ยังไม่จบ S05 E03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="3", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | 8 ตอนจบ S05 E03
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/847bb1675f7f33e05143fae7/847bb1675f7f33e05143fae7.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="4", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | ยังไม่จบ S05 E04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="4", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | 8 ตอนจบ S05 E04
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/b2aecf695ef0335a403d07a9/b2aecf695ef0335a403d07a9.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="5", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | ยังไม่จบ S05 E05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="5", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | 8 ตอนจบ S05 E05
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="6", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | ยังไม่จบ S05 E06
+https://main.24playerhd.com/newplaylist/158504a8bbbb911c3fa711fc/158504a8bbbb911c3fa711fc.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="6", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | 8 ตอนจบ S05 E06
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="7", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | ยังไม่จบ S05 E07
+https://main.24playerhd.com/newplaylist/87b95a951bf3b3aa5fb775ce/87b95a951bf3b3aa5fb775ce.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="7", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | 8 ตอนจบ S05 E07
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="8", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | ยังไม่จบ S05 E08
+https://main.24playerhd.com/newplaylist/761f5a4ab349ab91820c44ba/761f5a4ab349ab91820c44ba.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg" tvg-season="5" tvg-episode="8", Stranger Things Season 5 (2025) สเตรนเจอร์ ธิงส์ ซีซั่น 5 | พากย์ไทย | 8 ตอนจบ S05 E08
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-
+https://main.24playerhd.com/newplaylist/89ff3697efac8321d8b0053e/89ff3697efac8321d8b0053e.m3u8
 
 
 #EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2025/11/11/8c78b0636bc250d965ec1ba95b70de9d.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="8" tvg-episode="1", Boku no Hero Academia Season 8 Final Season มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E01
