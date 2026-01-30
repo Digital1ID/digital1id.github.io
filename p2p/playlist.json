@@ -1,5 +1,275 @@
 [
     {
+        "id": "10007",
+        "name": "Jujutsu Kaisen 3rd Season (Jujutsu Kaisen The Culling Game Part 1) มหาเวทย์ผนึกมาร ภาค 3 พาร์ท 1",
+        "category": "",
+        "info": {
+            "poster": "https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp",
+            "description": "เมื่อไม่อาจหนีความตายได้พ้น ยูจิ นักเรียนมัธยมที่กลืนนิ้วต้องสาปเข้าไปตัดสินใจตามล่าหานิ้วที่เหลืออีก 19 นิ้วมากลืนกิน เพื่อผนึกคำสาปมรณะและตายไปพร้อมกับมัน",
+            "year": 2026
+        },
+        "seasons": [
+            {
+                "season": 3,
+                "name": "Jujutsu Kaisen 3rd Season (Jujutsu Kaisen The Culling Game Part 1) มหาเวทย์ผนึกมาร ภาค 3 พาร์ท 1",
+                "info": {
+                    "poster": "https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp",
+                    "description": "หลังจากเหตุการณ์ในชิบูย่าสิ้นสุดลง ญี่ปุ่นตกอยู่ในสภาวะโกลาหล เกะโท หรือ เคนจาคิ ได้ประกาศเริ่มแผนการถัดไปนั่นคือเกมจรดลล้างคำสาป ซึ่งเป็นการบีบให้ผู้มีพลังคุณไสยและผู้ที่เพิ่งได้รับพลังใหม่ต้องมาฆ่าฟันกันเองภายในเขตอาคม ทั่วญี่ปุ่น พวกยูจิและเมงุมิมีเป้าหมายคือต้องตามหาบุคคลที่ชื่อว่า แองเจิล เพื่อขอความช่วยเหลือในการปลดปล่อย โกโจ ซาโตรุ ออกจากผนึก ยูจิและเพื่อนๆ ต้องเข้าร่วมเกมที่ผู้เล่นต้องสะสมคะแนนจากการฆ่ากันเอง เพื่อหาทางเพิ่มกฎใหม่ที่จะช่วยหยุดยั้งเกมนี้และช่วยเหลือนัตสึมิ ที่ติดอยู่ในเกมเช่นกัน",
+                    "year": 2026
+                    },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "ตอนที่ 1",
+                        "video": "https://files.akuma-player.xyz/view/480595b3-3a4a-5448-bea5-16e00e1b3687.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "ตอนที่ 2",
+                        "video": "https://files.akuma-player.xyz/view/3bbee2f3-f1cd-5c5a-ab20-54bc848a0036.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "ตอนที่ 3",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 4,
+                        "name": "ตอนที่ 4",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 5,
+                        "name": "ตอนที่ 5",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 6,
+                        "name": "ตอนที่ 6",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 7,
+                        "name": "ตอนที่ 7",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 8,
+                        "name": "ตอนที่ 8",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 9,
+                        "name": "ตอนที่ 9",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 9,
+                        "name": "ตอนที่ 9",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 10,
+                        "name": "ตอนที่ 10",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 11,
+                        "name": "ตอนที่ 11",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 12,
+                        "name": "ตอนที่ 12",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 13,
+                        "name": "ตอนที่ 13",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 14,
+                        "name": "ตอนที่ 14",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 15,
+                        "name": "ตอนที่ 15",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 16,
+                        "name": "ตอนที่ 16",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    }
+                ]
+            },{
+                "season": 2,
+                "info": {
+                    "poster": "",
+                    "description": "",
+                    "year": 2025
+                    },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "ตอนที่ 1",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "ตอนที่ 2",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "ตอนที่ 3",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 4,
+                        "name": "ตอนที่ 4",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 5,
+                        "name": "ตอนที่ 5",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 6,
+                        "name": "ตอนที่ 6",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 7,
+                        "name": "ตอนที่ 7",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 8,
+                        "name": "ตอนที่ 8",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 9,
+                        "name": "ตอนที่ 9",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 9,
+                        "name": "ตอนที่ 9",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 10,
+                        "name": "ตอนที่ 10",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 11,
+                        "name": "ตอนที่ 11",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 12,
+                        "name": "ตอนที่ 12",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 13,
+                        "name": "ตอนที่ 13",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 14,
+                        "name": "ตอนที่ 14",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 15,
+                        "name": "ตอนที่ 15",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    },
+                    {
+                        "episode": 16,
+                        "name": "ตอนที่ 16",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://main.24playerhd.com/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "10006",
         "name": "Nice to Not Meet You - ยินดีที่ไม่รู้จัก",
         "category": "ซีรี่ย์ เกาหลี",
