@@ -22,6 +22,9 @@
 
 
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/FEnl9oWLFmkBe0H5hNzYCENCy6.jpg", Deaw Still Alive (2026) เดี่ยว สตีล อะไลฟ์
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://master.steamhls88.com/hlsr2/04b152f23704baa37c79fd98fc9af85e/master.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/lzc4bvk7FA35bod1YgUQWNleb2q.jpg", The Wrecking Crew (2026) คู่พยัคฆ์เดือด เชือดเจ้าพ่อฮาวาย
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
