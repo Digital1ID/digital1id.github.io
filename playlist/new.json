@@ -1,6 +1,19 @@
 [
   {
     "player": "p2p/player",
+    "name": "Deaw Still Alive (2026) เดี่ยว สตีล อะไลฟ์",
+    "category": "หนังแนะนำ",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/FEnl9oWLFmkBe0H5hNzYCENCy6.jpg",
+        "description": "อุดม แต้พานิช ขึ้นเวทีจับไมค์แชร์ชีวิตวายป่วง ตั้งแต่ประสบการณ์มูเตลู พิธีกรรมสายดำ ไปจนถึงวีรกรรมตอนไปเกาหลีอย่างไม่มีกั๊ก ในผลงานสแตนด์อัพคอมเมดี้ชุดนี้",
+        "year": 2026,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "https://master.steamhls88.com/hlsr2/04b152f23704baa37c79fd98fc9af85e/master.m3u8"
+  },
+  {
+    "player": "p2p/player",
     "name": "The Wrecking Crew (2026) คู่พยัคฆ์เดือด เชือดเจ้าพ่อฮาวาย",
     "category": "หนังแนะนำ",
     "info": {
