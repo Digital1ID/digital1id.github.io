@@ -22,6 +22,10 @@
 
 
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/ptCV0gu9dvPiznWThy3c89f4M3h.jpg", Saw X (2023) ชำแหละแค้น…เกมตัดตาย
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://master.steamhls88.com/hlsr2/daf4fbec8206ed5af4ed7306fe2cf941/master.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/FEnl9oWLFmkBe0H5hNzYCENCy6.jpg", Deaw Still Alive (2026) เดี่ยว สตีล อะไลฟ์
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://master.steamhls88.com/hlsr2/04b152f23704baa37c79fd98fc9af85e/master.m3u8
