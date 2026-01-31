@@ -1,5 +1,61 @@
 [
   {
+    "player": "p2p/player",
+    "name": "Di Renjie Resurrection (2026) ตี๋เหรินเเจี๋ยกับคดีศพคืนชีพ",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://www.24-hdmovie.com/wp-content/uploads/2026/01/Di-Renjie-Resurrection-2026-%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B9%8B%E0%B8%A2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%94%E0%B8%B5%E0%B8%A8%E0%B8%9E%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%8A%E0%B8%B5%E0%B8%9E-187x269.png",
+      "description": "",
+      "year": 2026,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+    },
+    "video": "https://main.24playerhd.com/newplaylist/095b674dc780b436356b1d3a/095b674dc780b436356b1d3a.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Anaconda (2025) อนาคอนดา เลื้อยสยองโลก",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/5MDnvvkOqthhE5gQebzkcOhD1p5.jpg",
+      "description": "",
+      "year": 2026,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+    },
+    "video": "https://main.24playerhd.com/newplaylist/e277c49c77fdf4ad32100b1c/e277c49c77fdf4ad32100b1c.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "96 Minutes (2025) 96 นาทีชีวิต",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/uwB0yTkLEM8gENuXxHtkYaG3HEx.jpg",
+      "description": "",
+      "year": 2026,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+    },
+    "video": "https://main.24playerhd.com/newplaylist/8902fafd336db05187fc7bff/8902fafd336db05187fc7bff.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Send Help (2026) โปรดส่งใครมาช่วยฉันที",
+    "category": "ซูมโรง ชนโรง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/xYPOuHq3SAUs3KOlFTbfpNKwcFz.jpg",
+      "description": "",
+      "year": 2026,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+    },
+    "video": "https://main.24playerhd.com/newplaylist/97a31b2ca644b89c319ce5c9/97a31b2ca644b89c319ce5c9.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
     "player": "",
     "name": "Saw X (2023) ชำแหละแค้น…เกมตัดตาย",
     "category": "หนังแนะนำ",
@@ -31,7 +87,7 @@
     "category": "หนังแนะนำ",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/lzc4bvk7FA35bod1YgUQWNleb2q.jpg",
-      "description": "พากย์ไทย",
+      "description": "",
       "year": 2026,
         "sound": "พากย์ไทย",
         "subtitles": ""
