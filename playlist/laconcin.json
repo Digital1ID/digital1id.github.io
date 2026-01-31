@@ -1,6 +1,72 @@
 [
   {
     "player": "p2p/player",
+    "name": "ศัตรูหัวใจ",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%A8%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B9%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1186.webp",
+        "sound": "",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/QQ3YZ-MNcB_Ko/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "รักแรกในยามท้าย",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/43644351_20260128-111555.jpgtplv-vod-rs_651_868.webp",
+        "sound": "",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/ha_lScl-aenue/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "เปิดเกมยุคอดอยาก ฉันเลี้ยงดูท่านอ๋องด้วยมิติเก็บของ",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/cover-l6OimtsgSI-1-1152x1536.jpg",
+        "sound": "",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/N-r_yPIRrCgjv/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "ตำนานแห่งความเร็ว",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/admin-ajax.webp",
+        "sound": "",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/dO9KCIJH-h_Vx/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "ก้าวเล็กๆ สู่ดวงดาว",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B9%86%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7-%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1156.webp",
+        "sound": "",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/7C_m-J1DbWXzh/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
+    "name": "ก้าวไปด้วยรัก",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--82c7abb4jua0l.com/wp-content/uploads/2026/01/6dcde05b4be1b822dea232d268dc6944.jpg",
+        "sound": "",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/X6_U7xl-W9nxT/playlist.m3u8"
+  },
+  {
+    "player": "p2p/player",
     "name": "เห็นค่าในวันที่สาย",
     "category": "ละครสั้นจีน",
     "info": { 
