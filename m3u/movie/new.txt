@@ -22,13 +22,29 @@
 
 
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://www.24-hdmovie.com/wp-content/uploads/2026/01/Di-Renjie-Resurrection-2026-%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B9%8B%E0%B8%A2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%94%E0%B8%B5%E0%B8%A8%E0%B8%9E%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%8A%E0%B8%B5%E0%B8%9E-187x269.png", Di Renjie Resurrection (2026) ตี๋เหรินเเจี๋ยกับคดีศพคืนชีพ
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/095b674dc780b436356b1d3a/095b674dc780b436356b1d3a.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/5MDnvvkOqthhE5gQebzkcOhD1p5.jpg", Anaconda (2025) อนาคอนดา เลื้อยสยองโลก
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/e277c49c77fdf4ad32100b1c/e277c49c77fdf4ad32100b1c.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/uwB0yTkLEM8gENuXxHtkYaG3HEx.jpg", 96 Minutes (2025) 96 นาทีชีวิต
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/8902fafd336db05187fc7bff/8902fafd336db05187fc7bff.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xYPOuHq3SAUs3KOlFTbfpNKwcFz.jpg", Send Help (2026) โปรดส่งใครมาช่วยฉันที
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/97a31b2ca644b89c319ce5c9/97a31b2ca644b89c319ce5c9.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/ptCV0gu9dvPiznWThy3c89f4M3h.jpg", Saw X (2023) ชำแหละแค้น…เกมตัดตาย
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://master.steamhls88.com/hlsr2/daf4fbec8206ed5af4ed7306fe2cf941/master.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/FEnl9oWLFmkBe0H5hNzYCENCy6.jpg", Deaw Still Alive (2026) เดี่ยว สตีล อะไลฟ์
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://master.steamhls88.com/hlsr2/04b152f23704baa37c79fd98fc9af85e/master.m3u8
+https://main.24playerhd.com/newplaylist/fb24105d68f2b4f428909236/fb24105d68f2b4f428909236.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/lzc4bvk7FA35bod1YgUQWNleb2q.jpg", The Wrecking Crew (2026) คู่พยัคฆ์เดือด เชือดเจ้าพ่อฮาวาย
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
@@ -146,10 +162,6 @@ https://main.24playerhd.com/newplaylist/d775aab91f7971f91ccf33b9/d775aab91f7971f
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aAQdIzd5muq376bf0HZv3wIpmtI.jpg", Demon Slayer Kimetsu no Yaiba (2025) ดาบพิฆาตอสูร ภาคปราสาทไร้ขอบเขต | พากย์ไทย
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/2b771028c7a47aaa066c7796/2b771028c7a47aaa066c7796.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/5MDnvvkOqthhE5gQebzkcOhD1p5.jpg", Anaconda (2025) อนาคอนดา เลื้อยสยองโลก
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/91fb9b2b2c16a928c949eaae/91fb9b2b2c16a928c949eaae.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/rojphxx05QkxzrmMKAP8sIYPZlj.jpg", The SpongeBob Movie Search for SquarePants (2025) เดอะ สพันจ์บ็อบ มูฟวี่ ภารกิจตามหาสพันจ์บ็อบ
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
