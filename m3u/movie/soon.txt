@@ -409,20 +409,30 @@ https://main.24playerhd.com/newplaylist/03ef5f9e116b8662c288a3e1/03ef5f9e116b866
 https://main.24playerhd.com/newplaylist/11cd7be503bd7aa02ab23edb/11cd7be503bd7aa02ab23edb.m3u8
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="" tvg-episode="", Gen V Season 2 (2025) | พากย์ไทย | ยังไม่จบ S02 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="2" tvg-episode="1", Gen V Season 2 (2025) | พากย์ไทย | 8 ตอนจบ S02 E01
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/66919aff81dd1daa3a89b922/66919aff81dd1daa3a89b922.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="" tvg-episode="", Gen V Season 2 (2025) | พากย์ไทย | ยังไม่จบ S02 E02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="2" tvg-episode="2", Gen V Season 2 (2025) | พากย์ไทย | 8 ตอนจบ S02 E02
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/33ccb8265c00ad64e2cce864/33ccb8265c00ad64e2cce864.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="" tvg-episode="", Gen V Season 2 (2025) | พากย์ไทย | ยังไม่จบ S02 E03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="2" tvg-episode="3", Gen V Season 2 (2025) | พากย์ไทย | 8 ตอนจบ S02 E03
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/f923c8898a2a34c851dcbd30/f923c8898a2a34c851dcbd30.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="" tvg-episode="", Gen V Season 2 (2025) | พากย์ไทย | ยังไม่จบ S02 E04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="2" tvg-episode="4", Gen V Season 2 (2025) | พากย์ไทย | 8 ตอนจบ S02 E04
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/9431ebf6678236a55246f98c/9431ebf6678236a55246f98c.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="" tvg-episode="", Gen V Season 2 (2025) | พากย์ไทย | ยังไม่จบ S02 E05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="2" tvg-episode="5", Gen V Season 2 (2025) | พากย์ไทย | 8 ตอนจบ S02 E05
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/33994879e92e3b2c6a8aeba4/33994879e92e3b2c6a8aeba4.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="2" tvg-episode="6", Gen V Season 2 (2025) | พากย์ไทย | 8 ตอนจบ S02 E06
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/e2d3c445a7c59ea1d84d5840/e2d3c445a7c59ea1d84d5840.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="2" tvg-episode="7", Gen V Season 2 (2025) | พากย์ไทย | 8 ตอนจบ S02 E07
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/1fad984aa7448a1d49bc4e7f/1fad984aa7448a1d49bc4e7f.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/tEv842Nd5uMSavURG4aQO1pNtst.jpg" tvg-season="2" tvg-episode="8", Gen V Season 2 (2025) | พากย์ไทย | 8 ตอนจบ S02 E08
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/80ae8c445d245ff7aa0ffeb8/80ae8c445d245ff7aa0ffeb8.m3u8
 
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/eRwVaBQja048VXSiWYi2sc8SNaY.jpg" tvg-season="" tvg-episode="", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา | บรรยายไทย | 12 ตอนจบ S01 E01
