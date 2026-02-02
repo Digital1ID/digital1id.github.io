@@ -119,34 +119,6 @@ https://files.akuma-player.xyz/view/daea5e58-8847-557d-b38c-01431515dd42.m3u8
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/d3f8e76d-f9b6-521f-b232-75a46fab2337.m3u8
 
-
-#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2025/10/04/095c44534ebdf4b9a090c992df7a06cd.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="8" tvg-episode="1", Boku no Hero Academia Final Season 8 มายฮีโร่ อคาเดเมีย ภาค 8 (ภาคสุดท้าย) ซับไทย S08 E01
-#EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
-https://files.akuma-player.xyz/view/ad08bf8a-1b30-5302-9afe-3015a55965e2.m3u8
-#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2025/10/04/095c44534ebdf4b9a090c992df7a06cd.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="8" tvg-episode="2", Boku no Hero Academia Final Season 8 มายฮีโร่ อคาเดเมีย ภาค 8 (ภาคสุดท้าย) ซับไทย S08 E02
-#EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
-https://files.akuma-player.xyz/view/849e3a3f-7be9-5962-aa01-10e48c0f5fd6.m3u8
-#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2025/10/04/095c44534ebdf4b9a090c992df7a06cd.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="8" tvg-episode="3", Boku no Hero Academia Final Season 8 มายฮีโร่ อคาเดเมีย ภาค 8 (ภาคสุดท้าย) ซับไทย S08 E03
-#EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
-https://files.akuma-player.xyz/view/91d3a8b1-9949-5901-aea7-6927b6a52f00.m3u8
-#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2025/10/04/095c44534ebdf4b9a090c992df7a06cd.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="8" tvg-episode="4", Boku no Hero Academia Final Season 8 มายฮีโร่ อคาเดเมีย ภาค 8 (ภาคสุดท้าย) ซับไทย S08 E04
-#EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
-https://files.akuma-player.xyz/view/bc8b147e-c007-5f20-b276-7ccd59c432ba.m3u8
-#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2025/10/04/095c44534ebdf4b9a090c992df7a06cd.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="8" tvg-episode="5", Boku no Hero Academia Final Season 8 มายฮีโร่ อคาเดเมีย ภาค 8 (ภาคสุดท้าย) ซับไทย S08 E05
-#EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
-https://files.akuma-player.xyz/view/1861b6f1-98e9-52ad-a1ce-1a9b573c787a.m3u8
-#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2025/10/04/095c44534ebdf4b9a090c992df7a06cd.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="8" tvg-episode="6", Boku no Hero Academia Final Season 8 มายฮีโร่ อคาเดเมีย ภาค 8 (ภาคสุดท้าย) ซับไทย S08 E06
-#EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
-https://files.akuma-player.xyz/view/0c93d061-512e-5ae1-835c-07f9c65feba1.m3u8
-#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2025/10/04/095c44534ebdf4b9a090c992df7a06cd.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="8" tvg-episode="7", Boku no Hero Academia Final Season 8 มายฮีโร่ อคาเดเมีย ภาค 8 (ภาคสุดท้าย) ซับไทย S08 E07
-#EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
-https://files.akuma-player.xyz/view/113c741b-bdda-54d2-bea5-7d87aa2d8f4a.m3u8
-#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2025/10/04/095c44534ebdf4b9a090c992df7a06cd.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="8" tvg-episode="8", Boku no Hero Academia Final Season 8 มายฮีโร่ อคาเดเมีย ภาค 8 (ภาคสุดท้าย) ซับไทย S08 E08
-#EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
-https://files.akuma-player.xyz/view/1eca3844-e020-5740-bc26-6981c96a4781.m3u8
-
-
-
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/bkjnyuYBwamc2DPQyKyayg2kKhL.jpg" tvg-season="1" tvg-episode="1", Love Design Uncut Ver. (2025) รับ(รัก)ออกแบบ | 8 ตอนจบ S01 E01
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/6e38897c2b5ef55f75a12726/6e38897c2b5ef55f75a12726.m3u8
