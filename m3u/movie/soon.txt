@@ -1303,121 +1303,121 @@ https://vod1.stream25.com/Wednesday-S02E07-TH.mp4.m3u8
 https://vod1.stream25.com/Wednesday-S02E08-TH.mp4.m3u8
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E01
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP01-tha.mp4.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E02
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP02-tha.mp4.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E03
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP03-tha.mp4.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E04
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP04-tha.mp4.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E05
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP05-tha.mp4.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E06
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E06
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP06-tha.mp4.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E07
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E07
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP07-tha.mp4.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E08
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E08
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP08-tha.mp4.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E09
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E09
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP09-tha.mp4.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E10
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E10
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP10-tha.mp4.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E11
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E11
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP11-tha.mp4.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E12
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202507/movie/cac9354e49f9e51d8f21520d06988842.jpg" tvg-season="" tvg-episode="", โนราโหงโรง (2025) Haunted mansion | 12 ตอนจบ S01 E12
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/Haunted-Mansion-S01EP12-tha.mp4.m3u8
 
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E01
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/51cc68c8cc68f12a52a698d5/51cc68c8cc68f12a52a698d5.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E02
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/957ebb7ecd7b097089131c40/957ebb7ecd7b097089131c40.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E03
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/55d89f942369ca12ffe47a32/55d89f942369ca12ffe47a32.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E04
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/1f029b6c1afa9c4f17bda5de/1f029b6c1afa9c4f17bda5de.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E05
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/cd8ead055ccc085adb2f718e/cd8ead055ccc085adb2f718e.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E06
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E06
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/2979a1328f45d18326db9ea2/2979a1328f45d18326db9ea2.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E07
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E07
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/aa38b05e40d5ea1d173ebd8d/aa38b05e40d5ea1d173ebd8d.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E08
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://bbk100.xyz/media/cache/strip/202508/movie/130ce790d2c95807291d53846ba66e00.jpg" tvg-season="" tvg-episode="", TASTE (2025) เด็กเจนแซ่บ | 8 ตอนจบ S01 E08
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/55ab25595af323d43f1ec21a/55ab25595af323d43f1ec21a.m3u8
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E01
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/S-Line-S01E01-SUB.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E02
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/S-Line-S01E02-SUB.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E03
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/S-Line-S01E03-SUB.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E04
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/S-Line-S01E04-SUB.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E05
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/S-Line-S01E05-SUB.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E06
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/7TGolwcia6AI6uvInBOoedAi9Il.jpg" tvg-season="" tvg-episode="", S Line พันธนาการสัมพันธ์สีแดง (2025) | บรรยายไทย | 6 ตอนจบ S01 E06
 #EXTVLCOPT:http-referrer=https://bbk100.xyz/
 https://vod1.stream25.com/S-Line-S01E06-SUB.mp4
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E01
 #EXTVLCOPT:http-referrer=https://doodii2.doodii.net/
-https://doodii2.doodii.net/VOD/series/Ballard_SS1_2025_TH/ep1.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E02
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E02
 #EXTVLCOPT:http-referrer=https://doodii2.doodii.net/
-https://doodii2.doodii.net/VOD/series/Ballard_SS1_2025_TH/ep2.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E03
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E03
 #EXTVLCOPT:http-referrer=https://doodii2.doodii.net/
-https://doodii2.doodii.net/VOD/series/Ballard_SS1_2025_TH/ep3.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E04
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E04
 #EXTVLCOPT:http-referrer=https://doodii2.doodii.net/
-https://doodii2.doodii.net/VOD/series/Ballard_SS1_2025_TH/ep4.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E05
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E05
 #EXTVLCOPT:http-referrer=https://doodii2.doodii.net/
-https://doodii2.doodii.net/VOD/series/Ballard_SS1_2025_TH/ep5.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E06
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E06
 #EXTVLCOPT:http-referrer=https://doodii2.doodii.net/
-https://doodii2.doodii.net/VOD/series/Ballard_SS1_2025_TH/ep6.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E07
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E07
 #EXTVLCOPT:http-referrer=https://doodii2.doodii.net/
-https://doodii2.doodii.net/VOD/series/Ballard_SS1_2025_TH/ep7.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E08
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E08
 #EXTVLCOPT:http-referrer=https://doodii2.doodii.net/
-https://doodii2.doodii.net/VOD/series/Ballard_SS1_2025_TH/ep8.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E09
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E09
 #EXTVLCOPT:http-referrer=https://doodii2.doodii.net/
-https://doodii2.doodii.net/VOD/series/Ballard_SS1_2025_TH/ep9.mp4
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E10
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_bestv2/ptE2FPBdoMxmSADAH07hwN80uHT.jpg" tvg-season="" tvg-episode="", Ballard - บัลลาร์ดศิษย์สืบเก๋า (2025) | พากย์ไทย |  10 ตอนจบ S01 E10
 #EXTVLCOPT:http-referrer=https://doodii2.doodii.net/
-https://doodii2.doodii.net/VOD/series/Ballard_SS1_2025_TH/ep10.mp4
+
 
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2022/10/11/60bc60d73fcc5eeb37870b7402c9d3ff.jpg" tvg-season="" tvg-episode="", Primal Season 2 - คนหินแดนเถื่อน ซีซั่น 2 | 10 ตอนจบ S02 E01
@@ -1483,31 +1483,31 @@ https://files.akuma-player.xyz/view/e396d58d-fdb1-5429-ae85-bd38531e1de0.m3u8
 https://files.akuma-player.xyz/view/2b01d9d4-e0d6-5b68-bf9f-ed41d409c679.m3u8
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E01
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/0098a896b5e1b2d02349f41c/0098a896b5e1b2d02349f41c.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E02
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/4b1f3f508ce23705661130d6/4b1f3f508ce23705661130d6.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E03
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/9d8ccc64afa252b7af9800fa/9d8ccc64afa252b7af9800fa.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E04
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/a9a8aed986fd04970ec7be42/a9a8aed986fd04970ec7be42.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E05
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/4c8f50d377913d8fa8c9c562/4c8f50d377913d8fa8c9c562.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E06
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E06
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/f37f5e1d0197bb024c78d0e8/f37f5e1d0197bb024c78d0e8.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E07
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E07
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/5fb2bac8c3d5cd8ef4316bcc/5fb2bac8c3d5cd8ef4316bcc.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E08
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E08
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/71aad0fd85124d0e23f940eb/71aad0fd85124d0e23f940eb.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E09
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://www.serieday-hd.com/wp-content/uploads/2024/01/Masters-of-the-Air-2024-1-200x300.jpg" tvg-season="" tvg-episode="", Masters of the Air (2024) | บรรยายไทย | 9 ตอนจบ S01 E09
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/f1c43c911204cfe6deea9f6f/f1c43c911204cfe6deea9f6f.m3u8
 
