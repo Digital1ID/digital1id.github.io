@@ -80,37 +80,37 @@ https://main.24playerhd.com/newplaylist/761f5a4ab349ab91820c44ba/761f5a4ab349ab9
 https://main.24playerhd.com/newplaylist/89ff3697efac8321d8b0053e/89ff3697efac8321d8b0053e.m3u8
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="08"  tvg-episode="01" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="8"  tvg-episode="01" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E01
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/30228241-5969-5e3f-86af-9e974eb2b82d.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="08"  tvg-episode="02" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="8"  tvg-episode="02" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E02
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/2a11c82e-013c-5c08-a3fa-ef954156d4b1.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="08"  tvg-episode="03" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="8"  tvg-episode="03" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E03
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/b079de70-08ce-5cbc-99b5-00215fa80c72.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="08"  tvg-episode="04" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="8"  tvg-episode="04" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E04
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/24926dc6-5d07-5cb8-ada0-9b57f167edf2.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="08"  tvg-episode="05" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="8"  tvg-episode="05" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E05
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/0f5558ea-1a06-5918-bc80-b5abafee7919.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="08"  tvg-episode="06" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E06
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="8"  tvg-episode="06" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E06
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/68f5f667-d7d7-5c90-ab07-fe7e72f58e2b.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="08"  tvg-episode="07" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E07
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="8"  tvg-episode="07" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E07
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/27b20dae-98df-5a85-bb5e-1fd915df4292.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="08"  tvg-episode="08" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E08
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="8"  tvg-episode="08" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E08
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/fa4a5615-73d3-51f3-8d7d-7a5d0de5c328.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="08"  tvg-episode="09" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E09
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="8"  tvg-episode="09" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E09
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/0d35b08d-dd34-5f2a-9bca-9c2dc047801a.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="08"  tvg-episode="10" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E10
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="8"  tvg-episode="10" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E10
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/daea5e58-8847-557d-b38c-01431515dd42.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="08"  tvg-episode="11" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E11
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2025/12/27/8c78b0636bc250d965ec1ba95b70de9d.webp"  tvg-season="8"  tvg-episode="11" , Boku no Hero Academia Season 8 Final Season (My Hero Academia Final Season) มายฮีโร่ อคาเดเมีย ภาค 8 ไฟนอลซีซั่น พากย์ไทย S08 E11
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/d3f8e76d-f9b6-521f-b232-75a46fab2337.m3u8
 
