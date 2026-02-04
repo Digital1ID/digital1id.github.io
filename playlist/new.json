@@ -1,6 +1,20 @@
 [
   {
     "player": "p2p/player",
+    "name": "Art of the Devil Rebirth (2026) พนอ 2",
+    "category": "ซูมโรง ชนโรง",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4mTkjl2LoEp1xGZb5Gc9EXHfrut.jpg",
+        "description": "หลังจากที่ พนอ คืนพลังเทพสามตา ชีวิตของพนอก็เหมือนถูกรีเซ็ตเริ่มความทรงจำใหม่กับการเรียนในรั้ววิทยาลัยครูอย่างที่เธอใฝ่ฝัน โดยมี เปี๊ยก คอยเฝ้ามองและช่วยเหลือเธออยู่ห่างๆ อยากให้ทุกคนจงจำไว้ว่า อย่าปลุกพลังเทพสามตาให้ตื่นขึ้นมา เพราะ พนอ จะไม่ใช่พนอที่คุณรู้จักอีกต่อไป! ทุกเสียง ทุกกระแส ทุกสายตา ได้ร่วมพิสูจน์กับปรากฎการณ์ความคลั่งของ พนอ",
+        "year": 2026,
+        "sound": "ไทยโรง",
+        "subtitles": ""
+        },
+    "video": "https://media.themoviedb.org/t/p/w260_and_h390_face/4mTkjl2LoEp1xGZb5Gc9EXHfrut.jpg",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "Di Renjie Resurrection (2026) ตี๋เหรินเเจี๋ยกับคดีศพคืนชีพ",
     "category": "หนังแนะนำ",
     "info": {
