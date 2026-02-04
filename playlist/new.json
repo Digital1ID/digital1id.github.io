@@ -1,6 +1,19 @@
 [
   {
     "player": "p2p/player",
+    "name": "Shelter (2026) คลั่งนรก หลบตาย",
+    "category": "ซูมโรง ชนโรง",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/tpMafEgJ53zroHCZUF3sy62HQXa.jpg",
+        "description": "เมสัน คือชายผู้ใช้ชีวิตอย่างสันโดษบนเกาะแห่งหนึ่ง ในตอนที่เขาเลือกที่จะช่วยชีวิตเด็กหญิงหนึ่งจากการจมนํ้าในพายุที่โหมกระหน่ำ เขาก็ได้จุดชนวนให้เหตุการณ์หลายอย่างเกิดขึ้นตามมา ซึ่งจะนำเอาความรุนแรงมาสู่เขา และบีบบังคับให้เขาต้องเผชิญหน้ากับตัวเลือกจากอดีตของเขา",
+        "sound": "อังกฤษ",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/jH_gpaR-HU9wH/playlist.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "28 Years Later The Bone Temple (2026) 28 ปีให้หลัง เชื้อเขมือบคน วิหารซากกะโหลก",
     "category": "ซูมโรง ชนโรง",
     "info": { 
