@@ -20,6 +20,16 @@
     "video": "3501"
   },
   {
+    "player": "p2p/playlist",
+    "name": "Naruto Shippuden - นารูโตะ ตำนานวายุสลาตัน ซีซั้น 1-25 จบภาค",
+    "info": { 
+        "poster": "https://img.shirokami.me/images/2021/10/05/image30d75b7b148b15ec.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "59"
+  },
+  {
     "player": "",
     "name": "Your Letter (2025) จดหมายของยอน",
     "info": "บรรยายไทย",
@@ -18405,4 +18415,5 @@
     "info": "บรรยายไทย"
   }
 ]
+
 
