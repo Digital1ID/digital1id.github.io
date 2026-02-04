@@ -7,7 +7,17 @@
         "sound": "พากย์ไทย - ญี่ปุ่น",
         "subtitles": "บรรยายไทย"
         },
-    "video": "10007"
+    "video": "109963"
+  },
+  {
+    "player": "p2p/playlist",
+    "name": "Naruto Shippuden นารูโตะ ตำนานวายุสลาตัน ซีซั้น1 พากย์ไทย (เสียงใหม่)",
+    "info": { 
+        "poster": "https://img.shirokami.me/images/2021/10/05/imagee98533e72d60e5d1.md.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "3501"
   },
   {
     "player": "",
