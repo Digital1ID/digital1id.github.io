@@ -14,6 +14,19 @@
   },
   {
     "player": "p2p/playlist",
+    "name": "Moonlit Reunion (2025) ใต้แสงจันทร์วันหวนคืน EP.1-38 (จบ)",
+    "category": "ซีรี่ย์ จีน",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pOy5ysYxiHth3ZfW9NjrtJuauxF.jpg",
+      "description": "เหมยจู๋อวี่ นักปราบปีศาจผู้เก่งกาจพบอู่เจิน ผู้ปกครองครึ่งปีศาจในความวุ่นวาย พวกเขาตกหลุมรักกัน และเผชิญความขัดแย้งของหน้าที่และความปรารถนาที่ลิขิตไว้",
+      "year": 2025,
+        "sound": "จีน",
+        "subtitles": "บรรยายไทย"
+        },
+    "video": "moonlit-reunion-2025"
+  },
+  {
+    "player": "p2p/playlist",
     "name": "The Unclouded Soul (2025) เซียวเหยา พลิกชะตาราชาปีศาจ EP.1-40 (จบ)",
     "category": "ซีรี่ย์ จีน",
     "info": {
