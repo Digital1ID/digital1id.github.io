@@ -23,118 +23,118 @@
 
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="1", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="1", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E01
 https://media.vdohls.com/bd-tG_3fcXNri/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="2", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="2", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E02
 https://media.vdohls.com/Aqu-Lqd_npwcI/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="3", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="3", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E03
 https://media.vdohls.com/M-dghcOq3x_7M/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="4", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="4", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E04
 https://media.vdohls.com/Et9_TI-UhFojF/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="5", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="5", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E05
 https://media.vdohls.com/x-sP0hORO9_SS/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="6", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP06
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="6", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E06
 https://media.vdohls.com/E_7Sy-XOmjWI0/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="7", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP07
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="7", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E07
 https://media.vdohls.com/ycCz_Q17yq-jt/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="8", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP08
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="8", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E08
 https://media.vdohls.com/xjelP_p-YVD4r/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="9", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP09
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="9", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E09
 https://media.vdohls.com/A403s4i_n-5Bl/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="10", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP10
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="10", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E10
 https://media.vdohls.com/1Vxwqd-y_Hts9/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="11", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP11
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="11", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E11
 https://media.vdohls.com/9nTQHCD_F-qn5/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="12", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP12
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="12", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E12
 https://media.vdohls.com/Ii_vQ-L9RGJ1B/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="13", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP13
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="13", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E13
 https://media.vdohls.com/Srg_PnNM-0uWr/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="14", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP14
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="14", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E14
 https://media.vdohls.com/a_lnV1r-Borxw/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="15", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP15
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="15", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E15
 https://media.vdohls.com/JQCQ_lsuW-pN5/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="16", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP16
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="16", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E16
 https://media.vdohls.com/iphieqA-7_OPx/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="17", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP17
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="17", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E17
 https://media.vdohls.com/6-tCzJT_ICmBj/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="18", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP18
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="18", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E18
 https://media.vdohls.com/ONO_8yrfIm-un/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="19", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP19
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="19", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E19
 https://media.vdohls.com/lUXwuv_M0-VQq/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="20", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP20
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="20", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E20
 https://media.vdohls.com/utKvc3_c-eZ4q/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="21", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP21
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="21", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E21
 https://media.vdohls.com/1_GEit-yv3QiJ/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="22", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP22
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="22", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E22
 https://media.vdohls.com/FCB93Iym-0_Jj/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="23", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP23
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="23", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E23
 https://media.vdohls.com/aMu9N-ue_FbKk/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="24", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP24
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="24", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 E24
 https://media.vdohls.com/QH7z0F_Wt-by3/playlist.m3u8
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="1", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="1", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E01
 https://media.vdohls.com/g38os466y8/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="2", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="2", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E02
 https://media.vdohls.com/cwvuw1vaj5/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="3", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="3", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E03
 https://media.vdohls.com/zvjkjsgrob/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="4", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="4", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E04
 https://media.vdohls.com/518jxbymej/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="5", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="5", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E05
 https://media.vdohls.com/udkbctj4m5/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="6", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP06
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="6", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E06
 https://media.vdohls.com/qpg6dmxywx/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="7", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP07
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="7", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E07
 https://media.vdohls.com/bm2sxgf149/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="8", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP08
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="8", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E08
 https://media.vdohls.com/ibz31jfwe5/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="9", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP09
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="9", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E09
 https://media.vdohls.com/oag4l71buw/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="10", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP10
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="10", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E10
 https://media.vdohls.com/lfd2891ytd/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="11", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP11
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="11", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E11
 https://media.vdohls.com/lqswevg9jo/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="12", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP12
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="12", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E12
 https://media.vdohls.com/w32vf6skam/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="13", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP13
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="13", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E13
 https://media.vdohls.com/2v0e3r1m91/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="14", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP14
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="14", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E14
 https://media.vdohls.com/zwnfia4frg/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="15", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP15
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="15", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E15
 https://media.vdohls.com/q34huc4kjc/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="16", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP16
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="16", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E16
 https://media.vdohls.com/imak6fg7sm/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="17", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP17
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="17", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E17
 https://media.vdohls.com/iH_l-Ie9Dklxr/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="18", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP18
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="18", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E18
 https://media.vdohls.com/Hy1Y-p_0J6bOm/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="19", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP19
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="19", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E19
 https://media.vdohls.com/FucLkm0_Mi-gA/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="20", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP20
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="20", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E20
 https://media.vdohls.com/sR65gbY-S_aPf/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="21", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP21
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="21", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E21
 https://media.vdohls.com/Kr-wlpJ2L_IAM/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="22", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP22
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="22", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E22
 https://media.vdohls.com/QUbnS-xn7K_rA/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="23", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP23
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="23", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E23
 https://media.vdohls.com/31vmCd_2dO-wI/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="24", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP24
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="24", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E24
 https://media.vdohls.com/Bv-YbWC_pnpcH/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="25", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP25
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="25", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E25
 https://media.vdohls.com/uT_Sqc63W-ACG/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="26", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP26
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="26", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E26
 https://media.vdohls.com/VYwd_ln3Di-Hy/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="27", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP27
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="27", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E27
 https://media.vdohls.com/l-mSH_YZW7aeS/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="28", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP28
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="28", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E28
 https://media.vdohls.com/pl3u_X-G8n57f/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="29", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP29
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="29", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E29
 https://media.vdohls.com/nX_0RGz5L-rcI/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="30", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP30
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="30", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E30
 https://media.vdohls.com/af_TY-2RoMvTy/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="31", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP31
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="31", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E31
 https://media.vdohls.com/Ic7_6EYmK-NYl/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="32", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP32
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg" tvg-season="1" tvg-episode="32", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 E32
 https://media.vdohls.com/vrYL_T-Jgy5UF/playlist.m3u8
 
 
