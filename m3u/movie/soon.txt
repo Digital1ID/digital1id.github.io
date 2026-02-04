@@ -23,6 +23,55 @@
 
 
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="1", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP01
+https://media.vdohls.com/bd-tG_3fcXNri/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="2", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP02
+https://media.vdohls.com/Aqu-Lqd_npwcI/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="3", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP03
+https://media.vdohls.com/M-dghcOq3x_7M/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="4", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP04
+https://media.vdohls.com/Et9_TI-UhFojF/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="5", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP05
+https://media.vdohls.com/x-sP0hORO9_SS/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="6", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP06
+https://media.vdohls.com/E_7Sy-XOmjWI0/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="7", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP07
+https://media.vdohls.com/ycCz_Q17yq-jt/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="8", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP08
+https://media.vdohls.com/xjelP_p-YVD4r/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="9", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP09
+https://media.vdohls.com/A403s4i_n-5Bl/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="10", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP10
+https://media.vdohls.com/1Vxwqd-y_Hts9/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="11", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP11
+https://media.vdohls.com/9nTQHCD_F-qn5/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="12", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP12
+https://media.vdohls.com/Ii_vQ-L9RGJ1B/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="13", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP13
+https://media.vdohls.com/Srg_PnNM-0uWr/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="14", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP14
+https://media.vdohls.com/a_lnV1r-Borxw/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="15", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP15
+https://media.vdohls.com/JQCQ_lsuW-pN5/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="16", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP16
+https://media.vdohls.com/iphieqA-7_OPx/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="17", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP17
+https://media.vdohls.com/6-tCzJT_ICmBj/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="18", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP18
+https://media.vdohls.com/ONO_8yrfIm-un/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="19", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP19
+https://media.vdohls.com/lUXwuv_M0-VQq/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="20", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP20
+https://media.vdohls.com/utKvc3_c-eZ4q/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="21", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP21
+https://media.vdohls.com/1_GEit-yv3QiJ/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="22", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP22
+https://media.vdohls.com/FCB93Iym-0_Jj/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="23", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP23
+https://media.vdohls.com/aMu9N-ue_FbKk/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Eternal-Love-of-the-Fox-2026.webp" tvg-season="1" tvg-episode="24", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก EP.1-24 (จบ) S01 EP24
+https://media.vdohls.com/QH7z0F_Wt-by3/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="1", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP01
 https://media.vdohls.com/g38os466y8/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="2", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP02
@@ -87,6 +136,7 @@ https://media.vdohls.com/af_TY-2RoMvTy/playlist.m3u8
 https://media.vdohls.com/Ic7_6EYmK-NYl/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="32", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP32
 https://media.vdohls.com/vrYL_T-Jgy5UF/playlist.m3u8
+
 
 #EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="3" tvg-episode="1", Jujutsu Kaisen 3rd Season : The Culling Game Part 1 - มหาเวทย์ผนึกมาร ภาค 3 พาร์ท 1 S03 E01
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
