@@ -7,7 +7,7 @@ let serialData = null;
 function getQueryParams() {
   const params = new URLSearchParams(window.location.search);
   return {
-    id: params.get("id") || params.get("file"), // ถ้าไม่มี id จะใช้ file แทน
+    id: params.get("id") || params.get("file"),
     season: params.get("season"),
     name: params.get("name")
   };
@@ -28,11 +28,13 @@ function showInfo(info, serialName, category) {
 // ✅ เล่นตอน
 function playEpisode(url, index) {
   const videoFrame = document.getElementById("videoFrame");
-  const placeholder = document.getElementById("placeholder");
 
-  placeholder.style.display = "none";   // ซ่อนข้อความ
-  //videoFrame.style.display = "block";   // แสดง iframe
+  // ตั้งค่า src
   videoFrame.src = url;
+
+  // ขยาย iframe ให้แสดงผล
+  videoFrame.style.height = "100%";
+
   videoFrame.scrollIntoView({ behavior: "smooth", block: "center" });
 
   currentIndex = index;
@@ -49,14 +51,10 @@ function loadSeason(season) {
   season.episodes.forEach((ep, index) => {
     const li = document.createElement("li");
     const btn = document.createElement("button");
-
     const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
-
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.className = "block w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
-
     btn.addEventListener("click", () => playEpisode(url, index));
-
     li.appendChild(btn);
     playlistEl.appendChild(li);
   });
