@@ -33,7 +33,6 @@ function playEpisode(url, index) {
   videoFrame.src = url;
 
   // ขยาย iframe ให้แสดงผล
-  videoContainer.style.aspectRatio = "16/9";
   videoFrame.style.height = "100%";
 
   videoFrame.scrollIntoView({ behavior: "smooth", block: "center" });
