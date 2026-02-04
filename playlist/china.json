@@ -1,5 +1,44 @@
 [
   {
+    "player": "p2p/playlist",
+    "name": "Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ)",
+    "category": "ซีรี่ย์ จีน",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4DdNW3xwkNlCUCwAAvjNawNL1W.jpg",
+      "description": "เรื่องราวของนักเขียนเนี่ยซี ที่ได้รับแรงบันดาลใจในการเขียนนวนิยายแฟนตาซีตะวันออกหลังจากชมนิทรรศการ นวนิยายเรื่องนี้บอกเล่าเรื่องราวของเนี่ยจิ่วหลัว ผู้คลั่งไคล้ในองค์กรเหนือธรรมชาติลึกลับอย่าง “นักล่าหนานซาน” และเหยียนท่า หนุ่มซื่อสัตย์และเที่ยงตรงที่อดทนต่อความอัปยศอดสูมาหลายปี",
+      "year": 2025,
+       "sound": "พากย์ไทย",
+       "subtitles": ""
+        },
+    "video": "love-on-the-turquoise-land-2025"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Second Life (2024) ตัวมัมประจำคุก",
+    "category": "หนังเอเชีย",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/w8j0eIBIsUvmXPFTOj2YdQxr3ou.jpg",
+        "description": "Second Life (2024) ตัวมัมประจำคุก เมื่อ 28 ปีที่แล้ว เหล่าเหลียงให้กำเนิดลูกชายชื่อ “เสี่ยวเหลียงเฝิ่น” ในคุก เมื่อลูกอายุได้ 1 ขวบ แม่และเด็กก็แยกจากกันไร้ซึ่งการติดต่อใด ๆ หลายปีต่อมา “พี่กุ่ย” นักสู้ของกลุ่มชิงหลงถูกลอบทำร้ายระหว่างปฏิบัติภารกิจและตาบอด เมื่อเหล่าเหลียงได้รับการปล่อยตัวจากคุก เขาได้พบกับอากุ่ย คนหนึ่งเพียงต้องการไขคดีฆาตกรรม ส่วนอีกคนต้องการชดเชยความสัมพันธ์ในครอบครัว ด้วยสถานการณ์ที่ไม่คาดคิด ทำให้แม่และลูกชายต้องชดเชยกันและกลับไปสู่เส้นทางที่ถูกต้อง",
+        "year": 2024,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/1a5435b0e5aabb3e64875b96/1a5435b0e5aabb3e64875b96.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Due West Our Sex Journey (2012) กามาสัญจร",
+    "category": "หนังเอเชีย",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/iHNfgw9bS5DBjsVxVAXL8Nm6Klm.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/a13dec65fa3aa54dfd87e2f5/a13dec65fa3aa54dfd87e2f5.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
     "name": "Sons of the Neon Night (2025)",
     "info": "บรรยายไทย",
     "poster": "https://movie22hd.com/wp-content/uploads/2025/10/Sons-of-the-Neon-Night.webp",
