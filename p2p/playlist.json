@@ -260,7 +260,7 @@
         },
         "seasons": [
             {
-                "season": 1,
+                "season": 3,
                 "name": "Primal Season 3 - คนหินแดนเถื่อน ซีซั่น 3",
                 "info": {
                     "poster": "https://img.shirokami.me/images/2026/01/15/586923370_18537283816063334_7958204247110378570_n_11zonaed52f6d615ec81b.webp",
@@ -290,10 +290,8 @@
                         "referrer": "https://files.akuma-player.xyz/"
                     }
                 ]
-            }
-        ]
-    },
-    {
+            },
+            {
                 "season": 2,
                 "name": "Primal Season 2 คนหินแดนเถื่อน Season 2",
                 "info": {
