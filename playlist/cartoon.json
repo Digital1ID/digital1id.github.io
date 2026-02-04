@@ -21,16 +21,6 @@
   },
   {
     "player": "p2p/playlist",
-    "name": "Naruto Shippuden - นารูโตะ ตำนานวายุสลาตัน ซีซั้น 1-25 จบภาค",
-    "info": { 
-        "poster": "https://img.shirokami.me/images/2021/10/05/image30d75b7b148b15ec.jpg",
-        "sound": "พากย์ไทย - ญี่ปุ่น",
-        "subtitles": "บรรยายไทย"
-        },
-    "video": "60"
-  },
-  {
-    "player": "p2p/playlist",
     "name": "Naruto นารูโตะ นินจาจอมคาถา พากย์ไทย (เสียงใหม่) จบภาค",
     "info": { 
         "poster": "https://img.shirokami.me/images/2021/10/05/imagef94f8732dc065feb.md.png",
@@ -18425,6 +18415,7 @@
     "info": "บรรยายไทย"
   }
 ]
+
 
 
 
