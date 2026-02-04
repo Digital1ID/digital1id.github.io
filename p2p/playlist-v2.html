@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Player</title>
+  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background:#141414; color:#fff; font-family:'Segoe UI',system-ui,sans-serif; }
+    .video-container { aspect-ratio:16/9; max-width:854px; margin:0 auto; position:relative; }
+    .video-js { width:100% !important; height:100% !important; border-radius:8px; }
+    .active-episode { background:#E50914!important; color:#fff!important; }
+  </style>
+</head>
+<body>
+  <header class="bg-[#141414] shadow-lg">
+    <div class="container mx-auto px-4 py-4 flex justify-start items-center">
+      <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">FLIX <span class="text-white">Movie</span></h1>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 mt-8 mb-16">
+    <!-- Video Player -->
+    <div class="video-container">
+      <video id="my-video" class="video-js vjs-default-skin" controls autoplay preload="auto" data-setup="{}"></video>
+    </div>
+
+    <!-- Title Overlay -->
+    <div id="videoTitle" class="w-full rounded-lg border border-gray-700 p-3 text-center mt-4 mb-4 text-lg font-bold bg-gradient-to-r from-black via-[#111] to-black text-[#E50914] shadow-md">
+      🎬 กำลังโหลด...
+    </div>
+
+    <!-- Next/Prev -->
+    <div class="flex justify-between mt-4">
+      <button id="prevBtn" class="px-4 py-2 bg-[#333] rounded hover:bg-[#444] disabled:opacity-50">ก่อนหน้า</button>
+      <button id="nextBtn" class="px-4 py-2 bg-[#333] rounded hover:bg-[#444] disabled:opacity-50">ถัดไป</button>
+    </div>
+
+    <!-- Serial Info -->
+    <div id="serialInfo" class="bg-[#222] p-4 rounded-lg mt-6">
+      <h3 class="text-lg font-semibold mb-2">ข้อมูลซีรีส์</h3>
+      <div id="serialDetails" class="text-sm text-gray-300"></div>
+    </div>
+
+    <!-- Season Selector -->
+    <div class="bg-[#222] p-4 rounded-lg mt-6">
+      <label for="seasonSelect" class="block text-lg font-semibold mb-2">เลือกซีซัน</label>
+      <select id="seasonSelect" class="w-full px-3 py-2 bg-[#333] rounded text-white"></select>
+    </div>
+
+    <!-- Playlist -->
+    <div class="bg-[#222] p-4 rounded-lg mt-6">
+      <h2 class="text-lg font-semibold mb-2">Playlist</h2>
+      <ul id="playlist" class="space-y-2 max-h-64 overflow-y-auto"></ul>
+    </div>
+  </main>
+
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
