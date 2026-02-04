@@ -10,6 +10,16 @@
     "video": "109963"
   },
   {
+    "player": "p2p/playlist",,
+    "name": "Primal - คนหินแดนเถื่อน",
+    "info": {
+        "poster": "https://img.shirokami.me/images/2026/01/15/586923370_18537283816063334_7958204247110378570_n_11zonaed52f6d615ec81b.webp",
+        "sound": "ญี่ปุ่น",
+        "subtitles": "บรรยายไทย"
+        },
+    "video": "6425"
+  },
+  {
     "player": "p2p/playlist",
     "name": "Naruto Shippuden - นารูโตะ ตำนานวายุสลาตัน ซีซั้น 1-25 จบภาค",
     "info": { 
@@ -18415,6 +18425,7 @@
     "info": "บรรยายไทย"
   }
 ]
+
 
 
 
