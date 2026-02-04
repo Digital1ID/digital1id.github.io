@@ -20,6 +20,74 @@
 
 
 
+
+
+
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="1", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP01
+https://media.vdohls.com/g38os466y8/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="2", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP02
+https://media.vdohls.com/cwvuw1vaj5/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="3", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP03
+https://media.vdohls.com/zvjkjsgrob/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="4", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP04
+https://media.vdohls.com/518jxbymej/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="5", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP05
+https://media.vdohls.com/udkbctj4m5/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="6", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP06
+https://media.vdohls.com/qpg6dmxywx/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="7", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP07
+https://media.vdohls.com/bm2sxgf149/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="8", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP08
+https://media.vdohls.com/ibz31jfwe5/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="9", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP09
+https://media.vdohls.com/oag4l71buw/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="10", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP10
+https://media.vdohls.com/lfd2891ytd/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="11", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP11
+https://media.vdohls.com/lqswevg9jo/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="12", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP12
+https://media.vdohls.com/w32vf6skam/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="13", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP13
+https://media.vdohls.com/2v0e3r1m91/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="14", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP14
+https://media.vdohls.com/zwnfia4frg/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="15", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP15
+https://media.vdohls.com/q34huc4kjc/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="16", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP16
+https://media.vdohls.com/imak6fg7sm/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="17", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP17
+https://media.vdohls.com/iH_l-Ie9Dklxr/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="18", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP18
+https://media.vdohls.com/Hy1Y-p_0J6bOm/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="19", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP19
+https://media.vdohls.com/FucLkm0_Mi-gA/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="20", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP20
+https://media.vdohls.com/sR65gbY-S_aPf/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="21", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP21
+https://media.vdohls.com/Kr-wlpJ2L_IAM/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="22", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP22
+https://media.vdohls.com/QUbnS-xn7K_rA/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="23", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP23
+https://media.vdohls.com/31vmCd_2dO-wI/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="24", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP24
+https://media.vdohls.com/Bv-YbWC_pnpcH/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="25", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP25
+https://media.vdohls.com/uT_Sqc63W-ACG/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="26", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP26
+https://media.vdohls.com/VYwd_ln3Di-Hy/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="27", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP27
+https://media.vdohls.com/l-mSH_YZW7aeS/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="28", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP28
+https://media.vdohls.com/pl3u_X-G8n57f/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="29", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP29
+https://media.vdohls.com/nX_0RGz5L-rcI/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="30", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP30
+https://media.vdohls.com/af_TY-2RoMvTy/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="31", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP31
+https://media.vdohls.com/Ic7_6EYmK-NYl/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Love-on-the-Turquoise-Land-2025.webp" tvg-season="1" tvg-episode="32", Love on the Turquoise Land (2025) ครามพิฆาต EP.1-32 (จบ) S01 EP32
+https://media.vdohls.com/vrYL_T-Jgy5UF/playlist.m3u8
+
 #EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="3" tvg-episode="1", Jujutsu Kaisen 3rd Season : The Culling Game Part 1 - มหาเวทย์ผนึกมาร ภาค 3 พาร์ท 1 S03 E01
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/480595b3-3a4a-5448-bea5-16e00e1b3687.m3u8
@@ -28,10 +96,9 @@ https://files.akuma-player.xyz/view/480595b3-3a4a-5448-bea5-16e00e1b3687.m3u8
 https://files.akuma-player.xyz/view/3bbee2f3-f1cd-5c5a-ab20-54bc848a0036.m3u8
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2026/02/01/127108l_11zon65015c137ff83844.webp"  tvg-season="3"  tvg-episode="01" , One Punch Man Season 3 เทพบุตรหมัดเดียวจอด ภาค3 พากย์ไทย S03 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2026/02/01/127108l_11zon65015c137ff83844.webp"  tvg-season="3"  tvg-episode="1" , One Punch Man Season 3 เทพบุตรหมัดเดียวจอด ภาค3 พากย์ไทย S03 E01
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/f8e4bb3e-ed63-5bad-be45-04caace5549a.m3u8
-
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/nQSwaSwscNhu4siZhW0eJgnAChR.jpg" tvg-season="2" tvg-episode="1", The Believers 2 (2025) สาธุ 2 | พากย์ไทย | 8 ตอนจบ S02 E01
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
@@ -3164,7 +3231,6 @@ https://main.24playerhd.com/newplaylist/453f90839923dcd5941f1a3e/453f90839923dcd
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://www.serie-day.com/wp-content/uploads/2024/11/The-Trunk-2024-203x300.jpg" tvg-season="" tvg-episode="", The Trunk (2024) | พากย์ไทย | 8 ตอนจบ S01 E08
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/51f124ee7fe8d660344aaf32/51f124ee7fe8d660344aaf32.m3u8
-
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://www.serie-day.com/wp-content/uploads/2024/10/Fangs-of-Fortune-2024-%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%87%E0%B8%9D%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%A7%E0%B8%99%E0%B8%84%E0%B8%B7%E0%B8%99-169x300.jpg" tvg-season="" tvg-episode="", Fangs of Fortune (2024) ห้วงฝันหวนคืน | พากย์ไทย | 34 ตอนจบ S01 E01
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
