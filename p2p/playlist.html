@@ -120,12 +120,7 @@
 
   // ✅ ปุ่ม Next/Prev
 document.getElementById("backBtn").addEventListener("click", () => {
-  if (currentIndex > 0) {
-    currentIndex--;
-    const ep = playlistData[currentIndex];
-    const url = `../movie.html`;
-    playEpisode(url, currentIndex);
-  }
+  window.location.href = "../movie.html";
 });
   </script>
 </body>
