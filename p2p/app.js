@@ -17,7 +17,7 @@ function getQueryParams() {
 function showInfo(info, serialName, category) {
   const serialDetails = document.getElementById("serialDetails");
   serialDetails.innerHTML = `
-    <p><strong>ชื่อเรื่อง:</strong> ${serialName}</p>
+    <p><strong>ชื่อเรื่อง:</strong> ${name}</p>
     <p><strong>หมวดหมู่:</strong> ${category}</p>
     <p><strong>ปีที่ออกฉาย:</strong> ${info.year}</p>
     <p><strong>เรื่องย่อ:</strong> ${info.description}</p>
