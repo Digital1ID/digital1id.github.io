@@ -31,7 +31,7 @@ function playEpisode(url, index) {
   const placeholder = document.getElementById("placeholder");
 
   placeholder.style.display = "none";   // ซ่อนข้อความ
-  videoFrame.style.display = "block";   // แสดง iframe
+  //videoFrame.style.display = "block";   // แสดง iframe
   videoFrame.src = url;
   videoFrame.scrollIntoView({ behavior: "smooth", block: "center" });
 
