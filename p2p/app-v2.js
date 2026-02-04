@@ -2,7 +2,7 @@ let playlistData = [];
 let currentIndex = 0;
 let currentSeason = null;
 let serialData = null;
-let player = null; // Video.js instance
+let player = null;
 
 // ✅ อ่าน query string
 function getQueryParams() {
@@ -29,7 +29,14 @@ function showInfo(info, serialName, category) {
 // ✅ เล่นตอนด้วย Video.js
 function playEpisode(ep, index) {
   if (!player) {
-    player = videojs("my-video"); // ใช้ id ของ video ใน index.html
+    player = videojs("my-video");
+    // Auto-play ตอนถัดไปเมื่อจบ
+    player.on("ended", () => {
+      if (currentIndex < playlistData.length - 1) {
+        currentIndex++;
+        playEpisode(playlistData[currentIndex], currentIndex);
+      }
+    });
   }
 
   const file = ep.video;
@@ -44,9 +51,13 @@ function playEpisode(ep, index) {
   document.title = ep.name;
   document.getElementById("videoTitle").textContent = ep.name;
 
-  // ไฮไลท์ตอนที่เล่น
-  document.querySelectorAll("#playlist button").forEach(b => b.classList.remove("active-episode"));
-  document.querySelectorAll("#playlist button")[index].classList.add("active-episode");
+  // ไฮไลท์ตอนที่เล่น + Auto-scroll
+  const buttons = document.querySelectorAll("#playlist button");
+  buttons.forEach(b => b.classList.remove("active-episode"));
+  if (buttons[index]) {
+    buttons[index].classList.add("active-episode");
+    buttons[index].scrollIntoView({ behavior: "smooth", block: "center" });
+  }
 }
 
 // ✅ โหลดซีซัน
@@ -67,6 +78,11 @@ function loadSeason(season) {
     li.appendChild(btn);
     playlistEl.appendChild(li);
   });
+
+  // ✅ เล่นตอนแรกอัตโนมัติ
+  if (playlistData.length > 0) {
+    playEpisode(playlistData[0], 0);
+  }
 }
 
 // ✅ โหลดข้อมูลจาก playlist.json
