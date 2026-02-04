@@ -1,6 +1,20 @@
 [
   {
     "player": "p2p/player",
+    "name": "28 Years Later The Bone Temple (2026) 28 ปีให้หลัง เชื้อเขมือบคน วิหารซากกะโหลก",
+    "category": "ซูมโรง ชนโรง",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+        "description": "ดร. เคลสัน ได้พบว่าเขาอยู่ในความสัมพันธ์อันน่าตกใจ ที่ผลลัพธ์ของมันอาจจะเปลี่ยนแปลงโลกที่พวกเขารู้จักได้ และการพบกันของ สไปค์ และ จิมมี่ คริสตัล ก็กลายมาเป็นฝันร้ายที่ไม่มีทางหนี",
+        "year": 2026,
+        "sound": "อังกฤษ",
+        "subtitles": ""
+        },
+    "video": "https://media.vdohls.com/zk0Rzjb-V_xX7/playlist.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "Art of the Devil Rebirth (2026) พนอ 2",
     "category": "ซูมโรง ชนโรง",
     "info": { 
