@@ -1,6 +1,20 @@
 [
   {
     "player": "p2p/player",
+    "name": "Death Whisperer 3 (2025) ธี่หยด 3",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kcmymlJPZ3mDQbKht20XRGBogd2.jpg",
+      "description": "เมื่อยี่ถูกลัทธิลึกลับจับตัวไป ยักษ์และเพื่อนๆ ของเขา ต้องออกเดินทางเพื่อช่วยเหลือยี่ด้วยความสิ้นหวัง การเดินทางของพวกนำนำไปสู่หมู่บ้านต้องคำสาป ที่เต็มไปด้วยความลับดำมืด, วิญญาณอาฆาต และพิธีกรรมโบราณ เมื่อเผยความสยองออกมา การเอาชีวิตรอด กลับกลายเป็นการต่อสู้กับเหล่าสิ่งที่เหนือการควบคุม ยิ่งพวกเขาเข้าไปลึกเท่าไหร่ ก็ยิ่งมืดมนเท่านั้น",
+      "year": 2025,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+    },
+    "video": "https://main.24playerhd.com/newplaylist/abd82a71ec04762c078c4432/abd82a71ec04762c078c4432.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "Shelter (2026) คลั่งนรก หลบตาย",
     "category": "ซูมโรง ชนโรง",
     "info": { 
