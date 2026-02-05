@@ -23,6 +23,9 @@
 
 
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/kcmymlJPZ3mDQbKht20XRGBogd2.jpg", Death Whisperer 3 (2025) ธี่หยด 3
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/abd82a71ec04762c078c4432/abd82a71ec04762c078c4432.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4mTkjl2LoEp1xGZb5Gc9EXHfrut.jpg", Art of the Devil Rebirth (2026) พนอ 2
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
@@ -405,12 +408,6 @@ https://main.24playerhd.com/newplaylist/006a872aff0e36eada6b12cf/006a872aff0e36e
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/ce8514eb145d5e534ccf7f83/ce8514eb145d5e534ccf7f83.m3u8
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/zlNmT4zKAJmbibf68q1X6DJRAj7.jpg", One Battle After Another (2025) หนึ่งศึกครั้งแล้วครั้งเล่า
-#EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/kcmymlJPZ3mDQbKht20XRGBogd2.jpg", Death Whisperer 3 (2025) ธี่หยด 3
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/6a66306122f5ca1b6cab6905/6a66306122f5ca1b6cab6905.m3u8
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="", Death Whisperer 3 (2025) ธี่หยด 3
 #EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
 
 
