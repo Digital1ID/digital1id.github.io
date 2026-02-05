@@ -5,7 +5,10 @@
     "category": "หนังแนะนำ",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kcmymlJPZ3mDQbKht20XRGBogd2.jpg",
-      "description": "พากย์ไทย"
+      "description": "",
+      "year": 2025,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
     },
     "video": "https://main.24playerhd.com/newplaylist/abd82a71ec04762c078c4432/abd82a71ec04762c078c4432.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -16,7 +19,10 @@
     "category": "ซูมโรง ชนโรง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4mTkjl2LoEp1xGZb5Gc9EXHfrut.jpg",
-      "description": "พากย์ไทย"
+      "description": "",
+      "year": 2026,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
     },
     "video": "https://media.vdohls.com/uqspWRe_z-ztl/playlist.m3u8",
     "Referrer": "https://main.24playerhd.com/"
