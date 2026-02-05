@@ -1,6 +1,17 @@
 [
   {
     "player": "p2p/playlist",
+    "name": "Hell's Paradise - สุขาวดีอเวจี",
+    "category": "",
+    "info": {
+        "poster": "https://img.shirokami.me/images/2026/01/25/140418l_11zone1e943429ad2909a.webp",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+   "video": "6451"
+  },
+  {
+    "player": "p2p/playlist",
     "name": "Jujutsu Kaisen - มหาเวทย์ผนึกมาร",
     "info": { 
         "poster": "https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp",
@@ -18425,6 +18436,7 @@
     "info": "บรรยายไทย"
   }
 ]
+
 
 
 
