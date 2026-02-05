@@ -1136,7 +1136,7 @@
             "episode": 17,
             "name": "EP. 17",
             "video": "https://media.vdohls.com/Ga_0-B4D4377K/playlist.m3u8",
-            "subtitle": "",
+            "subtitle": ""
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
@@ -1922,8 +1922,116 @@
                         "referrer": "https://files.akuma-player.xyz/"
                     }
                 ]
-            },
-        
+          }, 
+          {
+                "season": 1,
+                "name": "Jigokuraku (Hell's Paradise) สุขาวดีอเวจี พากย์ไทย Season 1",
+                "info": {
+                    "poster": "https://img.shirokami.me/images/2025/11/20/337f931dfbccf1a19b61bb3d89dda5af.webp",
+                    "description": "เรื่องย่อ: กาบิมารุ ผู้ว่างเปล่า นินจาผู้แข็งแกร่งและน่าหวาดกลัวที่สุด อยู่มาวันหนึ่งเขาถูกทางการจับกุมตัวไประหว่างปฏิบัติภารกิจลอบสังหาร และถูกตัดสินให้ประหารชีวิต แต่ดูเหมือนไม่มีอะไรจะฆ่าเขาได้เนื่องจากร่างกายที่เหนือมนุษย์ของเขา ยามาดะ อาซาเอมอน ซากิริ นักตัดเศียรเชื่อว่าความรักที่เขามีต่อภรรยาทำให้เขามีชีวิตอยู่โดยไม่รู้ตัว เสนอโอกาสให้เขาได้รับการอภัยโทษจากอาชญากรรมทั้งหมดจากโชกุน หากเขาพบ \"ยาอมตะ\" ในแดนสุขาวดี ดินแดนในตำนานที่เพิ่งถูกค้นพบทางตะวันตกเฉียงใต้ของอาณาจักรริวกิว หลังจากสูญเสียทีมสำรวจ 5 คนที่ถูกส่งไปที่เกาะ ครั้งนี้รัฐบาลโชกุนส่งนักโทษประหารกลุ่มหนึ่ง นักโทษแต่ละคนจะเดินทางไปพร้อมกับพร้อมกับตระกูลนักตัดเศียร “ยามาดะอาซาเอมอน” การเดินทางสู่ดินแดนที่ไม่มีผู้ใดรอดชีวิตกลับมาได้",
+                    "year": 2026
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "ตอนที่ 1",
+                        "video": "https://files.akuma-player.xyz/view/e2010ffc-3d52-5204-9315-edf0ee04f89d.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "ตอนที่ 2",
+                        "video": "https://files.akuma-player.xyz/view/dde09f39-8910-52fe-af8b-7c06bd61355f.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "ตอนที่ 3",
+                        "video": "https://files.akuma-player.xyz/view/126a607c-a509-5d8e-a565-03d2542972e6.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 4,
+                        "name": "ตอนที่ 4",
+                        "video": "https://files.akuma-player.xyz/view/9dfcfd55-6a69-5130-9197-d05330a1904f.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 5,
+                        "name": "ตอนที่ 5",
+                        "video": "https://files.akuma-player.xyz/view/929c74c1-164f-5e4a-bf9f-aa13b956024f.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 6,
+                        "name": "ตอนที่ 6",
+                        "video": "https://files.akuma-player.xyz/view/63dc1517-d3a8-56aa-8c6a-b69d295e834d.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 7,
+                        "name": "ตอนที่ 7",
+                        "video": "https://files.akuma-player.xyz/view/5c95ef86-5cce-5f6e-99a8-0c1612274511.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 8,
+                        "name": "ตอนที่ 8",
+                        "video": "https://files.akuma-player.xyz/view/6cc9c600-cdb6-55f5-b274-8acb692d05e7.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 9,
+                        "name": "ตอนที่ 9",
+                        "video": "https://files.akuma-player.xyz/view/3d4ee799-8f29-51e6-97dd-3fe6c5f9fb4b.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 10,
+                        "name": "ตอนที่ 10",
+                        "video": "https://files.akuma-player.xyz/view/bf725500-40a7-5acd-aa09-481b971a08ea.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 11,
+                        "name": "ตอนที่ 11",
+                        "video": "https://files.akuma-player.xyz/view/41a151b1-c844-59a9-a21c-afda693c2be7.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 12,
+                        "name": "ตอนที่ 12",
+                        "video": "https://files.akuma-player.xyz/view/bf03e804-23bd-5a44-8c1b-1921f772aed7.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 13,
+                        "name": "ตอนที่ 13",
+                        "video": "https://files.akuma-player.xyz/view/45186399-4a9d-58dc-b590-0431b1d81897.m3u8",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 14,
+                        "name": "ตอนที่ 14",
+                        "video": "",
+                        "subtitle": "",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    }
+                ]
+            }
         ]
     },
     {
