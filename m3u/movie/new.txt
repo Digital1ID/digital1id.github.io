@@ -23,6 +23,15 @@
 
 
 
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/tpMafEgJ53zroHCZUF3sy62HQXa.jpg", Shelter (2026) คลั่งนรก หลบตาย
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/1d1ca47ef68dcb4ae721e859/1d1ca47ef68dcb4ae721e859.m3u8",
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg", 28 Years Later The Bone Temple (2026) 28 ปีให้หลัง เชื้อเขมือบคน วิหารซากกะโหลก
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/c8fcac81fd3926916a7888c5/c8fcac81fd3926916a7888c5.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/kcmymlJPZ3mDQbKht20XRGBogd2.jpg", Death Whisperer 3 (2025) ธี่หยด 3
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/abd82a71ec04762c078c4432/abd82a71ec04762c078c4432.m3u8
