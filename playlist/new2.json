@@ -1,6 +1,33 @@
 [
   {
     "player": "p2p/player",
+    "name": "Shelter (2026) คลั่งนรก หลบตาย",
+    "category": "ซูมโรง ชนโรง",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/tpMafEgJ53zroHCZUF3sy62HQXa.jpg",
+        "description": "เมสัน คือชายผู้ใช้ชีวิตอย่างสันโดษบนเกาะแห่งหนึ่ง ในตอนที่เขาเลือกที่จะช่วยชีวิตเด็กหญิงหนึ่งจากการจมนํ้าในพายุที่โหมกระหน่ำ เขาก็ได้จุดชนวนให้เหตุการณ์หลายอย่างเกิดขึ้นตามมา ซึ่งจะนำเอาความรุนแรงมาสู่เขา และบีบบังคับให้เขาต้องเผชิญหน้ากับตัวเลือกจากอดีตของเขา",
+        "sound": "ไทยโรง",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/1d1ca47ef68dcb4ae721e859/1d1ca47ef68dcb4ae721e859.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "28 Years Later The Bone Temple (2026) 28 ปีให้หลัง เชื้อเขมือบคน วิหารซากกะโหลก",
+    "category": "ซูมโรง ชนโรง",
+    "info": { 
+        "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+        "description": "ดร. เคลสัน ได้พบว่าเขาอยู่ในความสัมพันธ์อันน่าตกใจ ที่ผลลัพธ์ของมันอาจจะเปลี่ยนแปลงโลกที่พวกเขารู้จักได้ และการพบกันของ สไปค์ และ จิมมี่ คริสตัล ก็กลายมาเป็นฝันร้ายที่ไม่มีทางหนี",
+        "year": 2026,
+        "sound": "ไทยโรง",
+        "subtitles": ""
+        },
+    "video": "https://main.24playerhd.com/newplaylist/c8fcac81fd3926916a7888c5/c8fcac81fd3926916a7888c5.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "Death Whisperer 3 (2025) ธี่หยด 3",
     "category": "หนังแนะนำ",
     "info": {
