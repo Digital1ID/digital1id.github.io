@@ -22,6 +22,55 @@
 
 
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="1", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E01
+https://media.vdohls.com/rt67vvk2v6/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="2", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E02
+https://media.vdohls.com/zem4nngat8/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="3", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E03
+https://media.vdohls.com/sn0q4oh1f8/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="4", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E04
+https://media.vdohls.com/m9zdpeyih2/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="5", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E05
+https://media.vdohls.com/roihxivxl8/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="6", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E06
+https://media.vdohls.com/dxd6ej0h8y/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="7", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E07
+https://media.vdohls.com/w19kxmni6c/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="8", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E08
+https://media.vdohls.com/qycd3ou80l/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="9", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E09
+https://media.vdohls.com/45xw6cyppy/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="10", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E10
+https://media.vdohls.com/c1j665ie9m/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="11", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E11
+https://media.vdohls.com/vihgumh7rb/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="12", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E12
+https://media.vdohls.com/wi2lg9bsyu/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="13", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E13
+https://media.vdohls.com/kwymo5nudk/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="14", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E14
+https://media.vdohls.com/29fycq9n2h/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="15", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E15
+https://media.vdohls.com/xn906iwul8/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="16", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E16
+https://media.vdohls.com/uf5qmf872n/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="17", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E17
+https://media.vdohls.com/6kvwjb52oy/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="18", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E18
+https://media.vdohls.com/grl8dfozm5/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="19", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E19
+https://media.vdohls.com/yxb832phrd/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="20", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E20
+https://media.vdohls.com/5sps4ljsik/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="21", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E21
+https://media.vdohls.com/ytqs2pqjpc/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="22", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E22
+https://media.vdohls.com/YYGnTQ_56-QEG/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="23", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E23
+https://media.vdohls.com/PCo-OL_xeSbbx/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg" tvg-season="1" tvg-episode="24", Voyage to Haihun (2025) ทะลุเวลาปั้นฮ่องเต้ใหม่ | พากย์ไทย | Season 1-2 (จบ) S01 E24
+https://media.vdohls.com/a_L3si-D2grtg/playlist.m3u8
+
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="1", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E01
 https://media.vdohls.com/V75Lt8pl-D_tp/playlist.m3u8
