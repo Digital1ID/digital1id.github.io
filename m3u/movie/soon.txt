@@ -23,53 +23,53 @@
 
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="1", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="1", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E01
 https://media.vdohls.com/V75Lt8pl-D_tp/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="2", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="2", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E02
 https://media.vdohls.com/KJZgN-n_HzGsl/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="3", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="3", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E03
 https://media.vdohls.com/WFqZ-77VD_95G/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="4", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="4", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E04
 https://media.vdohls.com/4taXan3-h_VeO/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="5", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="5", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E05
 https://media.vdohls.com/Vf-Z96sJIv_j6/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="6", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E06
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="6", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E06
 https://media.vdohls.com/e-BS_QBHz7Dom/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="7", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E07
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="7", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E07
 https://media.vdohls.com/FlyuWp_W4e-G0/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="8", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E08
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="8", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E08
 https://media.vdohls.com/8L-G_lsRT36JV/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="9", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E09
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="9", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E09
 https://media.vdohls.com/1s_w-BSRAPvxM/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="10", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E10
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="10", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E10
 https://media.vdohls.com/je_N-qImXNQSW/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="11", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E11
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="11", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E11
 https://media.vdohls.com/uk2-6N5gk_HrE/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="12", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E12
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="12", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E12
 https://media.vdohls.com/gOZKMM9n-K_rO/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="13", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E13
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="13", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E13
 https://media.vdohls.com/eJVahyU-j4_EW/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="14", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E14
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="14", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E14
 https://media.vdohls.com/KEZV_f-7VD4p8/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="15", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E15
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="15", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E15
 https://media.vdohls.com/Y-E8A_Lta9uxE/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="16", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E16
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="16", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E16
 https://media.vdohls.com/CB-I3_EfnrNH8/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="17", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E17
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="17", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E17
 https://media.vdohls.com/Z-GTQnw41_PXR/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="18", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E18
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="18", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E18
 https://media.vdohls.com/G-V20CTAFL_2P/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="19", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E19
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="19", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E19
 https://media.vdohls.com/35Xv_9Zg-qVLk/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="20", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E20
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="20", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E20
 https://media.vdohls.com/vUfPtOW-a_dIf/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="21", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E21
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="21", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E21
 https://media.vdohls.com/nN2-K_itxwvF2/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="22", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E22
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="22", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E22
 https://media.vdohls.com/2y_hGawz-UMWQ/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="23", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E23
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="23", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E23
 https://media.vdohls.com/X-8_aRXxurD0f/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Sharp-blade-in-the-snow-2026.webp" tvg-season="1" tvg-episode="24", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E24
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg" tvg-season="1" tvg-episode="24", Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ | บรรยายไทย | EP.1-24 (จบ) S01 E24
 https://media.vdohls.com/65Ga-JP_qLqjO/playlist.m3u8
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน"  tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/s7zwCsO4VQp1wAdDT3VJ6rn2htX.jpg" tvg-season="1" tvg-episode="1", Eternal Love of the Fox (2026) จิ้งจอกเก้าหางพานพบรัก | บรรยายไทย | EP.1-24 (จบ) S01 E01
