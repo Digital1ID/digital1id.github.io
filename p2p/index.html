@@ -63,17 +63,6 @@
       font-size: 16px;
       z-index: 10000;
     }
-    #engineIndicator {
-      position: fixed;
-      top: 50px;
-      left: 20px;
-      color: #fff;
-      background: rgba(0,0,0,0.5);
-      padding: 4px 8px;
-      border-radius: 4px;
-      font-size: 12px;
-      z-index: 10000;
-    }
   </style>
 </head>
 <body>
@@ -82,17 +71,13 @@
 
   <!-- Video.js -->
   <div class="video-container" id="videojs-container" style="display:none;">
-    <video id="my-video" class="video-js vjs-default-skin" controls autoplay preload="auto">
-      <source id="videoSource" src="" type="">
-      ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
-    </video>
+    <video id="my-video" class="video-js vjs-default-skin" controls autoplay preload="auto"></video>
   </div>
 
   <!-- JWPlayer -->
   <div id="play" style="display:none;"></div>
 
   <div id="videoTitle"></div>
-  <div id="engineIndicator"></div>
 
   <script>
     jwplayer.key = "eNFaXCjyURVoCCGiHp7HTQ3hDhE/AfL0g8VE1fRbL84=";
@@ -105,31 +90,48 @@
     if (file) file = decodeURIComponent(file);
     if (name) name = decodeURIComponent(name);
 
-    function initVideoJS(file, name) {
-      document.getElementById("videojs-container").style.display = "block";
-      const videoSource = document.getElementById("videoSource");
-      if (file) {
-        videoSource.src = file;
-        videoSource.type = file.includes(".m3u8")
-          ? "application/x-mpegURL"
-          : "video/mp4";
-      }
-      const player = videojs("my-video", {
-        autoplay: true,
-        controls: true,
-        preload: "auto"
-      });
-      player.load();
-      if (name) {
-        document.title = name;
-        document.getElementById("videoTitle").textContent = name;
-      } else {
-        document.getElementById("videoTitle").textContent = "ไม่พบไฟล์วิดีโอ";
-      }
-      return player;
+    if (name) {
+      document.title = name;
+      document.getElementById("videoTitle").textContent = name;
+    } else {
+      document.getElementById("videoTitle").textContent = "ไม่พบไฟล์วิดีโอ";
     }
 
-    function initJWPlayer(file, name) {
+    function initVideoJS(file, name) {
+  // แสดง container
+  document.getElementById("videojs-container").style.display = "block";
+
+  // อัปเดต source element ที่มีอยู่แล้ว
+  const videoSource = document.getElementById("videoSource");
+  if (file) {
+    videoSource.src = file;
+    videoSource.type = file.includes(".m3u8")
+      ? "application/x-mpegURL"
+      : "video/mp4";
+  }
+
+  // สร้าง player instance
+  const player = videojs("my-video", {
+    autoplay: true,
+    controls: true,
+    preload: "auto"
+  });
+
+  // บังคับให้ Video.js โหลด source ใหม่
+  player.load();
+
+  // ตั้งชื่อเรื่องใน overlay และ title
+  if (name) {
+    document.title = name;
+    document.getElementById("videoTitle").textContent = name;
+  } else {
+    document.getElementById("videoTitle").textContent = "ไม่พบไฟล์วิดีโอ";
+  }
+
+  return player;
+}
+
+    function initJWPlayer() {
       document.getElementById("play").style.display = "block";
       if (file) {
         jwplayer("play").setup({
@@ -148,23 +150,15 @@
           autostart: true
         });
       }
-      if (name) {
-        document.title = name;
-        document.getElementById("videoTitle").textContent = name;
-      } else {
-        document.getElementById("videoTitle").textContent = "ไม่พบไฟล์วิดีโอ";
-      }
       return jwplayer("play");
     }
 
     let currentPlayer;
     if (engine === "jwplayer") {
-      currentPlayer = initJWPlayer(file, name);
+      currentPlayer = initJWPlayer();
     } else {
-      currentPlayer = initVideoJS(file, name);
+      currentPlayer = initVideoJS();
     }
-
-    document.getElementById("engineIndicator").textContent = "Now using: " + engine;
 
     // reload button
     document.getElementById("reloadBtn").addEventListener("click", (e) => {
