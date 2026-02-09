@@ -28,7 +28,7 @@
       width: 100vw !important;
       height: 100vh !important;
     }
-    .back-button, .reload-button, .switch-button {
+    .reload-button, .switch-button {
       position: fixed;
       top: 15px;
       z-index: 10000;
@@ -40,19 +40,14 @@
       transition: background-color 0.3s;
       color: #fff;
     }
-    .back-button {
-      left: 15px;
-      background-color: rgba(255, 255, 255, 0.2);
-    }
     .reload-button {
       right: 20px;
       background-color: rgba(0, 123, 255, 0.3);
     }
     .switch-button {
-      left: 100px;
+      left: 20px;
       background-color: rgba(40, 167, 69, 0.3);
     }
-    .back-button:hover { background-color: rgba(255,255,255,0.4); }
     .reload-button:hover { background-color: rgba(0,123,255,0.6); }
     .switch-button:hover { background-color: rgba(40,167,69,0.6); }
 
@@ -70,7 +65,6 @@
   </style>
 </head>
 <body>
-  <a href="../movie.html" class="back-button">ย้อนกลับ</a>
   <a href="#" id="reloadBtn" class="reload-button">โหลดซ้ำ</a>
   <a href="#" id="switchBtn" class="switch-button">สลับ Player</a>
 
