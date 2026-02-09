@@ -1155,6 +1155,30 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 #EXTINF:-1 group-title="Varieties | Entertainment" tvg-logo="", MTV WMA
 ##http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS08/master.m3u8
 
+
+#EXTINF:-1 group-logo="https://encrypted-tbn0.gstatic.com/images.jpg?q=tbn:ANd9GcSznI4RLJ9EcoXW0OzvW_4kibj1kUy9VDuioQ&usqp=CAU" group-title="AIS SPORTS",
+
+#EXTINF:-1 tvg-id="" group-title="AIS SPORTS;NFL" tvg-logo="https://raw.githubusercontent.com/appiptv1/logotv/main/monomax/Screenshot%202025-09-05%20083229.png", PLAY SPORTS 51 EN/TH
+#EXTVLCOPT:http-referrer=http://6395online.com:8080
+#EXTVLCOPT:http-user-agent=ProPlayer
+#EXTVLCOPT:network-caching=1000
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398296.m3u8
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398299.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="AIS SPORTS;NFL" tvg-logo="https://raw.githubusercontent.com/appiptv1/logotv/main/monomax/Screenshot%202025-09-05%20083311.png", PLAY SPORTS 52 EN/TH
+#EXTVLCOPT:http-referrer=http://6395online.com:8080
+#EXTVLCOPT:http-user-agent=ProPlayer
+#EXTVLCOPT:network-caching=1000
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398297.m3u8
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398300.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="AIS SPORTS;NFL" tvg-logo="https://raw.githubusercontent.com/appiptv1/logotv/main/monomax/Screenshot%202025-09-05%20083347.png", PLAY SPORTS 53 EN/TH
+#EXTVLCOPT:http-referrer=http://6395online.com:8080
+#EXTVLCOPT:http-user-agent=ProPlayer
+#EXTVLCOPT:network-caching=1000
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398298.m3u8
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398301.m3u8
+
 #EXTINF:-1 tvg-id="NFLNetwork.us" tvg-name="US064:NFL-Network" tvg-logo="https://static.www.nfl.com/image/private/f_auto/league/ued3sskkptnlpeh0artu.png" group-title="International;NFL", NFL Network
 #EXTVLCOPT:http-user-agent=AndroidXMedia3/1.1.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://2.0!NFL_NETWORK!.z?7
