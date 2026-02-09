@@ -23,6 +23,7 @@
   },
   {
     "player": "p2p/playlist",
+    "engine": "jwplayer",
     "name": "Primal - คนหินแดนเถื่อน",
     "info": {
         "poster": "https://img.shirokami.me/images/2026/01/15/586923370_18537283816063334_7958204247110378570_n_11zonaed52f6d615ec81b.webp",
@@ -33,6 +34,7 @@
   },
   {
     "player": "p2p/playlist",
+    "engine": "jwplayer",
     "name": "Naruto Shippuden - นารูโตะ ตำนานวายุสลาตัน ซีซั้น 1-25 จบภาค",
     "info": { 
         "poster": "https://img.shirokami.me/images/2021/10/05/imagee98533e72d60e5d1.md.jpg",
@@ -43,6 +45,7 @@
   },
   {
     "player": "p2p/playlist",
+    "engine": "jwplayer",
     "name": "Naruto นารูโตะ นินจาจอมคาถา พากย์ไทย (เสียงใหม่) จบภาค",
     "info": { 
         "poster": "https://img.shirokami.me/images/2021/10/05/imagef94f8732dc065feb.md.png",
