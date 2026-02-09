@@ -1,20 +1,295 @@
 [
   {
-    "id": "voyage-to-haihun-2025",
-    "name": "Voyage to Haihun ทะลุเวลาปั้นฮ่องเต้ใหม่ Season 1-2 (จบ)",
-    "category": "ซีรี่ย์ จีน",
+    "id": "love-in-the-clouds-2025",
+    "name": "Love In The Clouds (2025) สู่ห้วงเมฆา EP.1-36 (จบ)",
+    "category": "ซีรี่ย์",
     "info": {
-      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg",
-      "description": "หวังเหิงทะลุมิติไปราชวงศ์ฮั่นตะวันตกโดยบังเอิญ พบกับเต๋อจิ่วที่คล้ายแฟนเก่า และผูกมิตรกับหลิวเฮ่อที่ร่าเริง พวกเขาร่วมมือกันท้าทายประวัติศาสตร์และพยายามเปลี่ยนชะตากรรมของหลิวเฮ่อที่ได้ครองราชย์เพียง 27 วัน เริ่มการผจญภัยแปลงโชคชะตาข้ามเวลา",
+      "poster": "https://kub24hd.com/wp-content/uploads/2025/10/Love-In-The-Clouds-20252.webp",
+      "description": "8.1",
       "year": 2026
     },
     "seasons": [
       {
         "season": 1,
-        "name": "Voyage to Haihun ทะลุเวลาปั้นฮ่องเต้ใหม่ Season 1",
+        "name": "Season 1",
         "info": {
-          "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/9YDSwNpicSQT4o8r77jWoNH7dLy.jpg",
-          "description": "หวังเหิงทะลุมิติไปราชวงศ์ฮั่นตะวันตกโดยบังเอิญ พบกับเต๋อจิ่วที่คล้ายแฟนเก่า และผูกมิตรกับหลิวเฮ่อที่ร่าเริง พวกเขาร่วมมือกันท้าทายประวัติศาสตร์และพยายามเปลี่ยนชะตากรรมของหลิวเฮ่อที่ได้ครองราชย์เพียง 27 วัน เริ่มการผจญภัยแปลงโชคชะตาข้ามเวลา",
+          "poster": "https://kub24hd.com/wp-content/uploads/2025/10/Love-In-The-Clouds-20252.webp",
+          "description": "8.1",
+          "year": 2026
+        },
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "EP. 1",
+            "video": "https://media.vdohls.com/w6nw3iak1q/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 2,
+            "name": "EP. 2",
+            "video": "https://media.vdohls.com/ft60g66gxl/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 3,
+            "name": "EP. 3",
+            "video": "https://media.vdohls.com/4jip53virj/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 4,
+            "name": "EP. 4",
+            "video": "https://media.vdohls.com/vuzhq2a4h9/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 5,
+            "name": "EP. 5",
+            "video": "https://media.vdohls.com/x01bi1p65i/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 6,
+            "name": "EP. 6",
+            "video": "https://media.vdohls.com/0fdptysov8/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 7,
+            "name": "EP. 7",
+            "video": "https://media.vdohls.com/8tb9mitcer/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 8,
+            "name": "EP. 8",
+            "video": "https://media.vdohls.com/zhathx6c3u/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 9,
+            "name": "EP. 9",
+            "video": "https://media.vdohls.com/1ckyhx04lw/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 10,
+            "name": "EP. 10",
+            "video": "https://media.vdohls.com/23pn8mdu4l/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 11,
+            "name": "EP. 11",
+            "video": "https://media.vdohls.com/fyzci0uhzz/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 12,
+            "name": "EP. 12",
+            "video": "https://media.vdohls.com/04nba1xpef/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 13,
+            "name": "EP. 13",
+            "video": "https://media.vdohls.com/c94l7psjdp/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 14,
+            "name": "EP. 14",
+            "video": "https://media.vdohls.com/z9av8bghhd/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 15,
+            "name": "EP. 15",
+            "video": "https://media.vdohls.com/g8jfsoh6se/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 16,
+            "name": "EP. 16",
+            "video": "https://media.vdohls.com/boz6zjlgoi/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 17,
+            "name": "EP. 17",
+            "video": "https://media.vdohls.com/6lweu3hs7w/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 18,
+            "name": "EP. 18",
+            "video": "https://media.vdohls.com/oge0b5b39q/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 19,
+            "name": "EP. 19",
+            "video": "https://media.vdohls.com/3gbyntyl7x/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 20,
+            "name": "EP. 20",
+            "video": "https://media.vdohls.com/oe2sm60unn/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 21,
+            "name": "EP. 21",
+            "video": "https://media.vdohls.com/0inbt8qcj7/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 22,
+            "name": "EP. 22",
+            "video": "https://media.vdohls.com/m4h1uqhhqb/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 23,
+            "name": "EP. 23",
+            "video": "https://media.vdohls.com/h5zp7vchwe/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 24,
+            "name": "EP. 24",
+            "video": "https://media.vdohls.com/ct39n1eqc4/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 25,
+            "name": "EP. 25",
+            "video": "https://media.vdohls.com/3kj6tk1edh/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 26,
+            "name": "EP. 26",
+            "video": "https://media.vdohls.com/4o1oy7fwjq/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 27,
+            "name": "EP. 27",
+            "video": "https://media.vdohls.com/6fmkwh8ned/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 28,
+            "name": "EP. 28",
+            "video": "https://media.vdohls.com/okoe8v560e/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 29,
+            "name": "EP. 29",
+            "video": "https://media.vdohls.com/ogy9gd9ypd/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 30,
+            "name": "EP. 30",
+            "video": "https://media.vdohls.com/i1if72d0m5/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 31,
+            "name": "EP. 31",
+            "video": "https://media.vdohls.com/t7sh2ratn6/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 32,
+            "name": "EP. 32",
+            "video": "https://media.vdohls.com/sb6410ifft/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 33,
+            "name": "EP. 33",
+            "video": "https://media.vdohls.com/kajrdixrdd/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 34,
+            "name": "EP. 34",
+            "video": "https://media.vdohls.com/nulchjr63u/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 35,
+            "name": "EP. 35",
+            "video": "https://media.vdohls.com/y4mnpx2gmh/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 36,
+            "name": "EP. 36",
+            "video": "https://media.vdohls.com/db9eg9sp9u/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "voyage-to-haihun-2025",
+    "name": "Voyage to Haihun ทะลุเวลาปั้นฮ่องเต้ใหม่ Season 1-2 (จบ)",
+    "category": "ซีรี่ย์",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2025/09/Voyage-to-Haihun-2025.webp",
+      "description": "7.4",
+      "year": 2026
+    },
+    "seasons": [
+      {
+        "season": 1,
+        "name": "Season 1",
+        "info": {
+          "poster": "https://kub24hd.com/wp-content/uploads/2025/09/Voyage-to-Haihun-2025.webp",
+          "description": "7.4",
           "year": 2026
         },
         "episodes": [
@@ -187,192 +462,13 @@
             "referrer": "https://hplay.hdplayfull.xyz/"
           }
         ]
-      },
-      {
-        "season": 2,
-        "name": "Voyage to Haihun ทะลุเวลาปั้นฮ่องเต้ใหม่ Season 2",
-        "info": {
-          "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/gcPMZ3jEY9gb0HoST0GeuQUgmZp.jpg",
-          "description": "7.4",
-          "year": 2026
-        },
-        "episodes": [
-          {
-            "episode": 1,
-            "name": "EP. 1",
-            "video": "https://media.vdohls.com/1chqwll0jm/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 2,
-            "name": "EP. 2",
-            "video": "https://media.vdohls.com/r515jov0u4/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 3,
-            "name": "EP. 3",
-            "video": "https://media.vdohls.com/iro2nfwr3x/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 4,
-            "name": "EP. 4",
-            "video": "https://media.vdohls.com/m5m087t7f3/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 5,
-            "name": "EP. 5",
-            "video": "https://media.vdohls.com/nz6mauouq8/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 6,
-            "name": "EP. 6",
-            "video": "https://media.vdohls.com/ru3ajpxtb6/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 7,
-            "name": "EP. 7",
-            "video": "https://media.vdohls.com/kvvxgzrhs8/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 8,
-            "name": "EP. 8",
-            "video": "https://media.vdohls.com/3ce3brs7pg/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 9,
-            "name": "EP. 9",
-            "video": "https://media.vdohls.com/hrecuuyj4v/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 10,
-            "name": "EP. 10",
-            "video": "https://media.vdohls.com/y4y2g8wuab/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 11,
-            "name": "EP. 11",
-            "video": "https://media.vdohls.com/e23p97s31q/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 12,
-            "name": "EP. 12",
-            "video": "https://media.vdohls.com/ju3vstu8qj/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 13,
-            "name": "EP. 13",
-            "video": "https://media.vdohls.com/wf24f23ll7/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 14,
-            "name": "EP. 14",
-            "video": "https://media.vdohls.com/n4a1pkt47b/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 15,
-            "name": "EP. 15",
-            "video": "https://media.vdohls.com/8taqsrd2zi/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 16,
-            "name": "EP. 16",
-            "video": "https://media.vdohls.com/7lzm4czrtc/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 17,
-            "name": "EP. 17",
-            "video": "https://media.vdohls.com/fg2m7y0gcr/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 18,
-            "name": "EP. 18",
-            "video": "https://media.vdohls.com/5v5p51yxwn/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 19,
-            "name": "EP. 19",
-            "video": "https://media.vdohls.com/prtvp0bp0n/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 20,
-            "name": "EP. 20",
-            "video": "https://media.vdohls.com/79h7808u57/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 21,
-            "name": "EP. 21",
-            "video": "https://media.vdohls.com/5wfvfac6xg/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 22,
-            "name": "EP. 22",
-            "video": "https://media.vdohls.com/bhidxnr155/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 23,
-            "name": "EP. 23",
-            "video": "https://media.vdohls.com/uuszzeao5c/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          },
-          {
-            "episode": 24,
-            "name": "EP. 24",
-            "video": "https://media.vdohls.com/ozg8vxqddk/playlist.m3u8",
-            "subtitle": "",
-            "referrer": "https://hplay.hdplayfull.xyz/"
-          }
-        ]
       }
     ]
   },
   {
     "id": "sharp-blade-in-the-snow-2026",
     "name": "Sharp blade in the snow (2026) หญิงงามเบื้องหลังคมดาบ EP.1-24 (จบ)",
-    "category": "ซีรี่ย์ จีน",
+    "category": "ซีรี่ย ์ จีน",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qNbLQPoKwHMLgTdYeDemqQc4voz.jpg",
       "description": "เจ้าหญิงเฟิงหลี่ถูกกล่าวหาอย่างไม่เป็นธรรมว่าฆ่าพ่อของเธอ เธอจึงกลับจากการเนรเทศในฐานะผู้ปกครองที่น่าเกรงขามเพื่อค้นหาความจริงเบื้องหลังอาชญากรรมนั้น ในงานเลี้ยงอันหรูหราที่จัดขึ้นเพื่อกำจัดศัตรูของเธอ เธอได้ใกล้ชิดกับหยุนจ้าน ทาสลึกลับผู้ซึ่งแท้จริงแล้วเป็นเจ้าชายตกอับ เมื่อแรงจูงใจที่ซ่อนเร้นของทั้งสองปะทะกันและแผนการทางการเมืองเข้ามาใกล้ เฟิงหลี่และหยุนจ้านต้องเลือกระหว่างการแก้แค้น อำนาจ และความรักที่คุกคามจะทำลายพวกเขาทั้งสอง",
@@ -2407,7 +2503,7 @@
     {
         "id": "109963",
         "name": "Jujutsu Kaisen - มหาเวทย์ผนึกมาร",
-        "category": "ซีรี่ย์ การ์ตูน",
+        "category": "",
         "info": {
             "poster": "https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp",
             "description": "เมื่อไม่อาจหนีความตายได้พ้น ยูจิ นักเรียนมัธยมที่กลืนนิ้วต้องสาปเข้าไปตัดสินใจตามล่าหานิ้วที่เหลืออีก 19 นิ้วมากลืนกิน เพื่อผนึกคำสาปมรณะและตายไปพร้อมกับมัน",
@@ -2663,8 +2759,8 @@
     },
     {
         "id": "6451",
-        "name": "Hell's Paradise Season 1-2 - สุขาวดีอเวจี ภาค 1-2 พากย์ไทย",
-        "category": "ซีรี่ย์ การ์ตูน",
+        "name": "Jigokuraku 2nd Season (Hell's Paradise Season 2) สุขาวดีอเวจี ภาค 2 พากย์ไทย",
+        "category": "",
         "info": {
             "poster": "https://img.shirokami.me/images/2026/01/25/140418l_11zone1e943429ad2909a.webp",
             "description": "",
@@ -2672,8 +2768,8 @@
         },
         "seasons": [
             {
-                "season": 2,
-                "name": "Jigokuraku 2nd Season (Hell's Paradise Season 2) สุขาวดีอเวจี ภาค 2 พากย์ไทย Season 2",
+                "season": 1,
+                "name": "Jigokuraku 2nd Season (Hell's Paradise Season 2) สุขาวดีอเวจี ภาค 2 พากย์ไทย Season 1",
                 "info": {
                     "poster": "https://img.shirokami.me/images/2026/01/25/140418l_11zone1e943429ad2909a.webp",
                     "description": "",
@@ -2705,7 +2801,7 @@
           }, 
           {
                 "season": 1,
-                "name": "Hell's Paradise - สุขาวดีอเวจี พากย์ไทย Season 1",
+                "name": "Jigokuraku (Hell's Paradise) สุขาวดีอเวจี พากย์ไทย Season 1",
                 "info": {
                     "poster": "https://img.shirokami.me/images/2025/11/20/337f931dfbccf1a19b61bb3d89dda5af.webp",
                     "description": "เรื่องย่อ: กาบิมารุ ผู้ว่างเปล่า นินจาผู้แข็งแกร่งและน่าหวาดกลัวที่สุด อยู่มาวันหนึ่งเขาถูกทางการจับกุมตัวไประหว่างปฏิบัติภารกิจลอบสังหาร และถูกตัดสินให้ประหารชีวิต แต่ดูเหมือนไม่มีอะไรจะฆ่าเขาได้เนื่องจากร่างกายที่เหนือมนุษย์ของเขา ยามาดะ อาซาเอมอน ซากิริ นักตัดเศียรเชื่อว่าความรักที่เขามีต่อภรรยาทำให้เขามีชีวิตอยู่โดยไม่รู้ตัว เสนอโอกาสให้เขาได้รับการอภัยโทษจากอาชญากรรมทั้งหมดจากโชกุน หากเขาพบ \"ยาอมตะ\" ในแดนสุขาวดี ดินแดนในตำนานที่เพิ่งถูกค้นพบทางตะวันตกเฉียงใต้ของอาณาจักรริวกิว หลังจากสูญเสียทีมสำรวจ 5 คนที่ถูกส่งไปที่เกาะ ครั้งนี้รัฐบาลโชกุนส่งนักโทษประหารกลุ่มหนึ่ง นักโทษแต่ละคนจะเดินทางไปพร้อมกับพร้อมกับตระกูลนักตัดเศียร “ยามาดะอาซาเอมอน” การเดินทางสู่ดินแดนที่ไม่มีผู้ใดรอดชีวิตกลับมาได้",
@@ -2817,7 +2913,7 @@
     {
         "id": "6425",
         "name": "Primal - คนหินแดนเถื่อน",
-        "category": "ซีรี่ย์ การ์ตูน",
+        "category": "",
         "info": {
             "poster": "https://img.shirokami.me/images/2026/01/15/586923370_18537283816063334_7958204247110378570_n_11zonaed52f6d615ec81b.webp",
             "description": "",
@@ -3023,7 +3119,7 @@
     {
         "id": "3501",
         "name": "Naruto Shippuden - นารูโตะ ตำนานวายุสลาตัน พากย์ไทย",
-        "category": "ซีรี่ย์ การ์ตูน",
+        "category": "",
         "info": {
             "poster": "https://img.shirokami.me/images/2021/10/05/imagee98533e72d60e5d1.md.jpg",
             "description": "ณ หมู่บ้าน โคโนฮะนาคุเระ โลกแห่งนินจา ได้ถูกปีศาจจิ้งจอกเก้าหางโจมตีเมื่อ 12 ปีก่อน ปีศาจจิ้งจอกเก้าหางได้ตื่นขึ้นจากการหลับไหลยาวนานเป็นเวลาหลายพันปี ได้ออกอาละวาดทำลายบ้านเรือนชีวิตทรัพย์สินของผู้คนบริสุทธิ์เป็นจำนวนมาก จนกระทั่ง โฮคาเงะรุ่นที่ 4 หัวหน้าของหมู่บ้านโคโนฮะ ได้สละชีวิตด้วยการการผนึกร่างของปีศาจจิ้งจอกเก้าหางไว้ในร่างของทารกน้อย นาม อุซึมากิ นารุโตะ อีก12 ปีผ่านไป นารุโตะได้เติบโตขึ้น ณ หมู่บ้าน โคโนฮะ ร่างกายของนารุโตะได้ผนึกปีศาจจิ้งจอกเก้าหางที่ร้ายกาจไว้ ทำให้ผู้คนในหมู่บ้านต่างพากันรังเกียจตัวเขา แต่นารูโตะมีความใฝ่ฝันอยากจะเป็นนินจาผู้ยิ่งใหญ่ ผู้สืบทอดชื่อโฮคาเงะให้คงอยู่ต่อไป",
@@ -3876,7 +3972,7 @@
     {
         "id": "950",
         "name": "Naruto นารูโตะ นินจาจอมคาถา พากย์ไทย (เสียงใหม่)",
-        "category": "ซีรี่ย์ การ์ตูน",
+        "category": "",
         "info": {
             "poster": "https://img.shirokami.me/images/2021/10/05/imagef94f8732dc065feb.md.png",
             "description": "",
