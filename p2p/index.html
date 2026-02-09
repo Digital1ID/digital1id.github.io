@@ -117,6 +117,10 @@
       document.getElementById("videoTitle").textContent = name;
       console.log("Now Playing:", name);
     }
+    
+    if (!file) {
+      document.getElementById("videoTitle").textContent = "ไม่พบไฟล์วิดีโอ";
+    }
   </script>
 <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
