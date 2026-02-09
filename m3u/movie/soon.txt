@@ -67,6 +67,31 @@ https://media.vdohls.com/7VXuANJ-0g_mC/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="16", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E16
 https://media.vdohls.com/0oXP_vu1XN-3P/playlist.m3u8
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="1", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E01
+https://media.vdohls.com/OXL_Q-CfMLyFP/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="2", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E02
+https://media.vdohls.com/Ii-EifarqC_9N/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="3", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E03
+https://media.vdohls.com/mf5-J_synpiKh/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="4", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E04
+https://media.vdohls.com/AXiZ_EP-Rptku/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="5", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E05
+https://media.vdohls.com/VAQf_4S0V-JXp/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="6", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E06
+https://media.vdohls.com/P2T_qZ-DD71VH/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="7", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E07
+https://media.vdohls.com/QGW3U1-0G_x4I/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="8", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E08
+https://media.vdohls.com/h-Yn_mQMZMrIL/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="9", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E09
+https://media.vdohls.com/Yu-Yc_GZOQu1F/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="10", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E10
+https://media.vdohls.com/oFj-Njw0D_A31/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="11", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E11
+https://media.vdohls.com/VC_8BmdTwV-BJ/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="12", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E12
+https://media.vdohls.com/rZJ8-emu_lBu3/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="1", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E01
 https://media.vdohls.com/ydlil4yycq/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="2", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E02
