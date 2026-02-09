@@ -1155,7 +1155,47 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 #EXTINF:-1 group-title="Varieties | Entertainment" tvg-logo="", MTV WMA
 ##http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS08/master.m3u8
 
+#EXTINF:-1 tvg-id="NFLNetwork.us" tvg-name="US064:NFL-Network" tvg-logo="https://static.www.nfl.com/image/private/f_auto/league/ued3sskkptnlpeh0artu.png" group-title="International;NFL", NFL Network
+#EXTVLCOPT:http-user-agent=AndroidXMedia3/1.1.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://2.0!NFL_NETWORK!.z?7
+https://fl1.moveonjoy.com/NFL_NETWORK/index.m3u8
+https://fl1.moveonjoy.com/NFL_NETWORK/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.www.nfl.com/image/private/f_auto/league/urcgb91h8b4jl6a7dnnq.png" group-title="International;NFL", NFL RedZone
+#EXTVLCOPT:http-referrer=https://fl1.moveonjoy.com/
+https://fl1.moveonjoy.com/NFL_RedZone/index.m3u8
+https://fl1.moveonjoy.com/NFL_RedZone/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRldsixUzLvyOO3bdOflgdiEoFZHDLSLvgo1g&usqp=CAU" group-title="International;NFL", NFL Channel
+#EXTVLCOPT:http-user-agent=AndroidXMedia3/1.1.1 Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=002007110c69a23803173b50eab05f23:590d6e8f4ca81319f9bb29104f571990
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(lc107a1ddy)/master.mpd
+
+#EXTINF:-1 tvg-logo="https://media.d3.nhle.com/image/private/t_q-best/prd/assets/nhl/logos/nhl_shield_on_dark_kl1omz.jpg" group-title="International", NHL NETWORK
+#EXTVLCOPT:http-referrer=https://fl1.moveonjoy.com/
+https://fl1.moveonjoy.com/NHL_NETWORK/index.m3u8
+https://fl1.moveonjoy.com/NHL_NETWORK/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="International;SpoTV" tvg-id="SpoTV.kr" tvg-name="SPOTV" tvg-logo="https://i.ibb.co/qJpj9QP/4b47.png", SPOTV 1 | MY
+#EXTVLCOPT:http-referrer=
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
+https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
+
+#EXTINF:-1 group-title="International;SpoTV" tvg-id="spotv2.kr" tvg-logo="https://i.ibb.co/TqysLvR/768b.png", SPOTV 2 | MY
+#EXTVLCOPT:http-referrer=
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
+https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRotqUbjlqXSD2VvuMDkPvas6NACBv_EMOrA&usqp=CAU", group-title="International;beIN SPORTS CONNECT", beIN Sports Xtra | EN
+#EXTVLCOPT:http-user-agent=Lavf/57.83.100 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 
 
 
