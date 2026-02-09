@@ -544,17 +544,21 @@ https://media.vdohls.com/Ic7_6EYmK-NYl/playlist.m3u8
 https://media.vdohls.com/vrYL_T-Jgy5UF/playlist.m3u8
 
 
-#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="3" tvg-episode="1", Jujutsu Kaisen 3rd Season : The Culling Game Part 1 - มหาเวทย์ผนึกมาร ภาค 3 พาร์ท 1 S03 E01
+#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="3" tvg-episode="1", Jujutsu Kaisen 3rd Season : The Culling Game Part 1 - มหาเวทย์ผนึกมาร ภาค 3 พาร์ท 1 | พากย์ไทย | ยังไม่จบ S03 E01
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/480595b3-3a4a-5448-bea5-16e00e1b3687.m3u8
-#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="3" tvg-episode="2", Jujutsu Kaisen 3rd Season : The Culling Game Part 1 - มหาเวทย์ผนึกมาร ภาค 3 พาร์ท 1 S03 E02
+#EXTINF:-1 type="series" tvg-logo="https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="3" tvg-episode="2", Jujutsu Kaisen 3rd Season : The Culling Game Part 1 - มหาเวทย์ผนึกมาร ภาค 3 พาร์ท 1 | พากย์ไทย | ยังไม่จบ S03 E02
 #EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
 https://files.akuma-player.xyz/view/3bbee2f3-f1cd-5c5a-ab20-54bc848a0036.m3u8
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2026/02/01/127108l_11zon65015c137ff83844.webp"  tvg-season="3"  tvg-episode="1" , One Punch Man Season 3 เทพบุตรหมัดเดียวจอด ภาค3 พากย์ไทย S03 E01
-#EXTVLCOPT:http-referrer=https://files.akuma-player.xyz/
-https://files.akuma-player.xyz/view/f8e4bb3e-ed63-5bad-be45-04caace5549a.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2026/02/01/127108l_11zon65015c137ff83844.webp"  tvg-season="3"  tvg-episode="1" , One Punch Man Season 3 เทพบุตรหมัดเดียวจอด ภาค3 | พากย์ไทย | ยังไม่จบ S03 E01
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/nahuOa3U8J/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2026/02/01/127108l_11zon65015c137ff83844.webp"  tvg-season="3"  tvg-episode="2" , One Punch Man Season 3 เทพบุตรหมัดเดียวจอด ภาค3 | พากย์ไทย | ยังไม่จบ S03 E02
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/K4llnmP3rv/video.mp4/playlist.m3u8
+
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/nQSwaSwscNhu4siZhW0eJgnAChR.jpg" tvg-season="2" tvg-episode="1", The Believers 2 (2025) สาธุ 2 | พากย์ไทย | 8 ตอนจบ S02 E01
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
