@@ -19,11 +19,12 @@ let originalSectionsHtml = ''; // เก็บ HTML หน้าหลักเ�
 // --- [ COMMON FUNCTIONS ] ---
 function createMovieCard(movie) {
   const moviePlayer = movie.player || 'watch';
+  const movieEngine = movie.engine || '';
   const movieFile = movie.file || movie.url || movie.video;
   const movieName = movie.name || '';
   const movieSubtitle = movie.subtitle;
 
-  let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}`;
+  let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}&engine=${movieEngine}`;
   if (movieSubtitle?.trim()) {
     watchUrl += `&subtitle=${encodeURIComponent(movieSubtitle)}`;
   }
