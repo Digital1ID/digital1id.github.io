@@ -25,14 +25,13 @@ let currentCategory = '';  // หมวดหมู่ที่กำลัง�
  */
 function createMovieCard(movie) {
 	const moviePlayer = movie.player || 'watch';
-	const movieEngine = movie.engine || '';
     const movieFile = movie.file || movie.url || movie.video;
     const movieName = movie.name || '';
     // *** 1. ดึง URL ของ Subtitle จาก Object ***
     const movieSubtitle = movie.subtitle; 
 
     // 2. สร้าง URL พื้นฐาน (File และ Name)
-    let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}&engine=${movieEngine}`;
+    let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}`;
 
     // 3. *** ส่วนที่ถูกแก้ไข: เพิ่ม Subtitle URL ถ้ามีค่า ***
     if (movieSubtitle && movieSubtitle.trim() !== '') {
