@@ -51,7 +51,7 @@ function loadSeason(season) {
   season.episodes.forEach((ep, index) => {
     const li = document.createElement("li");
     const btn = document.createElement("button");
-    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}&engine=${movieEngine}`;
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.className = "block w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
     btn.addEventListener("click", () => playEpisode(url, index));
