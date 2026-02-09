@@ -34,6 +34,39 @@ https://media.vdohls.com/pQ_g-uzDqTTH8/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="5", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | บรรยายไทย | EP.1-32 ยังไม่จบ S01 E05
 https://media.vdohls.com/y3WEfn_D-R8Ew/playlist.m3u8
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="1", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E01
+https://media.vdohls.com/lUC5c-jt_PfE1/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="2", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E02
+https://media.vdohls.com/3L02_mvQ-KrLR/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="3", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E03
+https://media.vdohls.com/u_6HTU-2YNpIE/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="4", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E04
+https://media.vdohls.com/v-bhX_lHv632q/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="5", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E05
+https://media.vdohls.com/Uq6BF_Fm-EVNC/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="6", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E06
+https://media.vdohls.com/FT7-9gZq_orpQ/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="7", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E07
+https://media.vdohls.com/qrN_Ih-HOZisV/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="8", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E08
+https://media.vdohls.com/B0g_fvA8u-qqL/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="9", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E09
+https://media.vdohls.com/j-xfE_GwQ2wn3/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="10", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E10
+https://media.vdohls.com/nrRCPlk_8-TMh/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="11", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E11
+https://media.vdohls.com/CCDua-W_ajpwi/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="12", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E12
+https://media.vdohls.com/6zE-Z_W0EA0SW/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="13", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E13
+https://media.vdohls.com/9LW_0PC-bouZG/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="14", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E14
+https://media.vdohls.com/JY-FJGfCzz_sN/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="15", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E15
+https://media.vdohls.com/7VXuANJ-0g_mC/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="16", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E16
+https://media.vdohls.com/0oXP_vu1XN-3P/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="1", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E01
 https://media.vdohls.com/ydlil4yycq/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="2", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E02
