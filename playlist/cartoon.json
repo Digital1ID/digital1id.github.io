@@ -1,6 +1,7 @@
 [
   {
     "player": "p2p/playlist",
+    "engine": "jwplayer",
     "name": "Jujutsu Kaisen - มหาเวทย์ผนึกมาร",
     "info": { 
         "poster": "https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp",
