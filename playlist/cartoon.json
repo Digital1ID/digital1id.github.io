@@ -1,6 +1,16 @@
 [
   {
     "player": "p2p/playlist",
+    "name": "Jujutsu Kaisen - มหาเวทย์ผนึกมาร",
+    "info": { 
+        "poster": "https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp",
+        "sound": "พากย์ไทย - ญี่ปุ่น",
+        "subtitles": "บรรยายไทย"
+        },
+    "video": "6461"
+  },
+  {
+    "player": "p2p/playlist",
     "name": "Hell's Paradise - สุขาวดีอเวจี",
     "category": "",
     "info": {
@@ -9,16 +19,6 @@
         "subtitles": ""
         },
    "video": "6451"
-  },
-  {
-    "player": "p2p/playlist",
-    "name": "Jujutsu Kaisen - มหาเวทย์ผนึกมาร",
-    "info": { 
-        "poster": "https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp",
-        "sound": "พากย์ไทย - ญี่ปุ่น",
-        "subtitles": "บรรยายไทย"
-        },
-    "video": "6461"
   },
   {
     "player": "p2p/playlist",
