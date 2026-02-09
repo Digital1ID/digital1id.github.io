@@ -106,7 +106,8 @@ document.getElementById("prevBtn").addEventListener("click", () => {
   if (currentIndex > 0) {
     currentIndex--;
     const ep = playlistData[currentIndex];
-    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    const engine = ep.engine || serialData.engine || "videojs";
+    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}&engine=${engine}`;
     playEpisode(url, currentIndex);
   }
 });
@@ -115,7 +116,8 @@ document.getElementById("nextBtn").addEventListener("click", () => {
   if (currentIndex < playlistData.length - 1) {
     currentIndex++;
     const ep = playlistData[currentIndex];
-    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    const engine = ep.engine || serialData.engine || "videojs";
+    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}&engine=${engine}`;
     playEpisode(url, currentIndex);
   }
 });
