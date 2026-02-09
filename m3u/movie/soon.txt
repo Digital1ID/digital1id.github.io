@@ -34,71 +34,71 @@ https://media.vdohls.com/pQ_g-uzDqTTH8/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="5", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | บรรยายไทย | EP.1-32 ยังไม่จบ S01 E05
 https://media.vdohls.com/y3WEfn_D-R8Ew/playlist.m3u8
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="1", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="1", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E01
 https://media.vdohls.com/ydlil4yycq/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="2", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="2", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E02
 https://media.vdohls.com/dswlg01ezx/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="3", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="3", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E03
 https://media.vdohls.com/k5e3ly45ig/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="4", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="4", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E04
 https://media.vdohls.com/u3hplujhz4/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="5", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="5", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E05
 https://media.vdohls.com/ajm94obwlk/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="6", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E06
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="6", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E06
 https://media.vdohls.com/aze2222y3y/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="7", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E07
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="7", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E07
 https://media.vdohls.com/wsfjz1j0gx/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="8", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E08
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="8", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E08
 https://media.vdohls.com/scm46nltgl/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="9", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E09
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="9", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E09
 https://media.vdohls.com/yi64ec13ia/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="10", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E10
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="10", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E10
 https://media.vdohls.com/vbfkosupde/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="11", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E11
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="11", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E11
 https://media.vdohls.com/wkl11hpqis/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="12", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E12
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="12", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E12
 https://media.vdohls.com/il39gal44u/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="13", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E13
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="13", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E13
 https://media.vdohls.com/o0pre6u3p2/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="14", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E14
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="14", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E14
 https://media.vdohls.com/qqyqy0l6gn/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="15", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E15
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="15", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E15
 https://media.vdohls.com/7dzeehwead/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="16", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E16
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="16", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E16
 https://media.vdohls.com/kupe5hbfuc/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="17", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E17
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="17", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E17
 https://media.vdohls.com/harhad2e6g/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="18", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E18
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="18", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E18
 https://media.vdohls.com/wyzlyhkxns/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="19", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E19
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="19", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E19
 https://media.vdohls.com/vy7ay28q2a/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="20", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E20
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="20", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E20
 https://media.vdohls.com/lhl66jtt71/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="21", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E21
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="21", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E21
 https://media.vdohls.com/stharcrzgp/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="22", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E22
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="22", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E22
 https://media.vdohls.com/kr2q1fdepz/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="23", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E23
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="23", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E23
 https://media.vdohls.com/xbw5msjkwk/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="24", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E24
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="24", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E24
 https://media.vdohls.com/aepsucgfos/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="25", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E25
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="25", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E25
 https://media.vdohls.com/kz7g6z8zly/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="26", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E26
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="26", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E26
 https://media.vdohls.com/17hhx8pwb5/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="27", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E27
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="27", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E27
 https://media.vdohls.com/89a9yc2pvi/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="28", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E28
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="28", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E28
 https://media.vdohls.com/5uzw9ys6jm/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="29", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E29
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="29", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E29
 https://media.vdohls.com/z5sl0pzm0v/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="30", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E30
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="30", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E30
 https://media.vdohls.com/gaitqgukh5/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="31", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E31
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="31", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E31
 https://media.vdohls.com/g08ysmoyno/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="32", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E32
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="32", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E32
 https://media.vdohls.com/i9vvpzx7om/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/When-Destiny-Brings-the-Demon-2025.webp" tvg-season="1" tvg-episode="33", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E33
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/xgv4j1CBrmn0P9PIHb0LTi5iDsN.jpg" tvg-season="1" tvg-episode="33", When Destiny Brings the Demon (2025) วาสนาของปลาเค็ม EP.1-33 (จบ) S01 E33
 https://media.vdohls.com/9yb335fkh4/playlist.m3u8
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/10/Love-In-The-Clouds-20252.webp" tvg-season="1" tvg-episode="1", Love In The Clouds (2025) สู่ห้วงเมฆา EP.1-36 (จบ) S01 E01
