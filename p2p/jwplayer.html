@@ -1,103 +1,128 @@
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="th">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>ดูหนังใหม่ ดูซี่รี่ย์ใหม่</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/custom.css?v=0.72101000 1769584060">
-    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap + Font -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@200;400;600&display=swap" rel="stylesheet">
 
-    <title>ดูหนังใหม่ ดูซี่รี่ย์ใหม่</title>
-
-    <style>
-        html,
-        body {
-            font-family: 'Sarabun', sans-serif;
-            font-weight: 200;
-            color: #a8dadc;
-            background-color: #000; /* พื้นหลังดำให้เหมือนโรงหนัง */
-        }
-
-        a:hover,
-        a:visited,
-        a:link,
-        a:active {
-            color: #a8dadc;
-            text-decoration: none;
-        }
-
-        #title {
-            color: #f1faee;
-            font-weight: 400;
-            margin: 15px 0;
-        }
-    </style>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #000;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #play {
+      width: 100vw;
+      height: 100vh;
+    }
+    .back-button, .reload-button {
+      position: fixed;
+      top: 15px;
+      z-index: 10000;
+      padding: 8px 12px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 14px;
+      backdrop-filter: blur(4px);
+      transition: background-color 0.3s;
+      color: #fff;
+    }
+    .back-button {
+      left: 15px;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    .back-button:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+    .reload-button {
+      right: 20px;
+      background-color: rgba(0, 123, 255, 0.3);
+    }
+    .reload-button:hover {
+      background-color: rgba(0, 123, 255, 0.6);
+    }
+    #videoTitle {
+      position: fixed;
+      bottom: 60px;
+      left: 20px;
+      color: #fff;
+      background: rgba(0,0,0,0.5);
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 16px;
+      z-index: 10000;
+    }
+  </style>
 </head>
-
 <body>
-    <!-- JWPlayer -->
-    <script type="text/javascript" src="jw/jwplayer.js"></script>
-    <script type="text/javascript">
-        jwplayer.key = "eNFaXCjyURVoCCGiHp7HTQ3hDhE/AfL0g8VE1fRbL84=";
+  <a href="../movie.html" class="back-button">ย้อนกลับ</a>
+  <a href="#" id="reloadBtn" class="reload-button">โหลดซ้ำ</a>
 
-        // อ่านค่า query string
-        const params = new URLSearchParams(window.location.search);
-        let file = params.get("file");
-        let name = params.get("name");
+  <div id="play"></div>
+  <div id="videoTitle"></div>
 
-        if (file) file = decodeURIComponent(file);
-        if (name) name = decodeURIComponent(name);
+  <!-- JWPlayer -->
+  <script src="jw/jwplayer.js"></script>
+  <script>
+    jwplayer.key = "eNFaXCjyURVoCCGiHp7HTQ3hDhE/AfL0g8VE1fRbL84=";
 
-        // แก้ไข domain ถ้าเป็น https
-        //if (file) {
-        //file = file.replace(/^https:\/\//, "https://");
-        //}
+    const params = new URLSearchParams(window.location.search);
+    let file = params.get("file");
+    let name = params.get("name");
 
-        // เริ่มต้น player
-        window.onload = function () {
-            if (file) {
-                // แสดงชื่อเรื่อง
-                if (name) {
-                    document.getElementById("title").innerText = name;
-                }
+    if (file) file = decodeURIComponent(file);
+    if (name) name = decodeURIComponent(name);
 
-                // setup player
-                jwplayer('play').setup({
-                    width: '100%',
-                    aspectratio: '16:9',
-                    playlist: [
-                        {
-                            sources: [
-                                {
-                                    default: false,
-                                    file: file,
-                                    label: 'HD',
-                                    type: 'mp4'
-                                }
-                            ]
-                        }
-                    ],
-                    primary: 'html5',
-                    hlshtml: true,
-                    autostart: true
-                });
-            }
-        };
-    </script>
+    window.onload = function () {
+      if (file) {
+        if (name) {
+          document.title = name;
+          document.getElementById("videoTitle").innerText = name;
+        }
 
-    <div class="container-fluid">
-        <h5 class="text-center" id="title"></h5>
-        <div id="play"></div>
-    </div>
+        jwplayer("play").setup({
+          width: "100%",
+          height: "100%",
+          aspectratio: "16:9",
+          playlist: [{
+            sources: [{
+              file: file,
+              label: "HD",
+              type: file.includes(".m3u8") ? "hls" : "mp4"
+            }]
+          }],
+          primary: "html5",
+          hlshtml: true,
+          autostart: true
+        });
+      } else {
+        document.getElementById("videoTitle").innerText = "ไม่พบไฟล์วิดีโอ";
+      }
+    };
 
-    <!-- Cloudflare Beacon -->
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
-        integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
-        data-cf-beacon='{"version":"2024.11.0","token":"e4b9c94ba5f54a2d942039390e2619f5","r":1}'
-        crossorigin="anonymous"></script>
+    // reload button
+    document.getElementById("reloadBtn").addEventListener("click", (e) => {
+      e.preventDefault();
+      if (file) {
+        jwplayer("play").load([{
+          sources: [{
+            file: file,
+            label: "HD",
+            type: file.includes(".m3u8") ? "hls" : "mp4"
+          }]
+        }]);
+        jwplayer("play").play();
+      }
+    });
+  </script>
 </body>
-
 </html>
