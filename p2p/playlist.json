@@ -533,7 +533,7 @@
     "name": "Voyage to Haihun ทะลุเวลาปั้นฮ่องเต้ใหม่ Season 1-2 (จบ)",
     "category": "ซีรี่ย์ จีน",
     "info": {
-      "poster": "https://kub24hd.com/wp-content/uploads/2025/09/Voyage-to-Haihun-2025.webp",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/b5PswM9wuvZOanrpkd5I1kNFP1w.jpg",
       "description": "7.4",
       "year": 2026
     },
@@ -542,9 +542,9 @@
         "season": 1,
         "name": "Season 1",
         "info": {
-          "poster": "https://kub24hd.com/wp-content/uploads/2025/09/Voyage-to-Haihun-2025.webp",
-          "description": "7.4",
-          "year": 2026
+          "poster": "https://media.themoviedb.org/t/p/w188_and_h282_face/9YDSwNpicSQT4o8r77jWoNH7dLy.jpg",
+          "description": "",
+          "year": 2025
         },
         "episodes": [
           {
@@ -712,6 +712,185 @@
             "episode": 24,
             "name": "EP. 24",
             "video": "https://media.vdohls.com/a_L3si-D2grtg/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          }
+        ]
+      },
+      {
+        "season": 2,
+        "name": "Season 2",
+        "info": {
+          "poster": "https://media.themoviedb.org/t/p/w188_and_h282_face/gcPMZ3jEY9gb0HoST0GeuQUgmZp.jpg",
+          "description": "",
+          "year": 2025
+        },
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "EP. 1",
+            "video": "https://media.vdohls.com/1chqwll0jm/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 2,
+            "name": "EP. 2",
+            "video": "https://media.vdohls.com/r515jov0u4/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 3,
+            "name": "EP. 3",
+            "video": "https://media.vdohls.com/iro2nfwr3x/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 4,
+            "name": "EP. 4",
+            "video": "https://media.vdohls.com/m5m087t7f3/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 5,
+            "name": "EP. 5",
+            "video": "https://media.vdohls.com/nz6mauouq8/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 6,
+            "name": "EP. 6",
+            "video": "https://media.vdohls.com/ru3ajpxtb6/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 7,
+            "name": "EP. 7",
+            "video": "https://media.vdohls.com/kvvxgzrhs8/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 8,
+            "name": "EP. 8",
+            "video": "https://media.vdohls.com/3ce3brs7pg/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 9,
+            "name": "EP. 9",
+            "video": "https://media.vdohls.com/hrecuuyj4v/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 10,
+            "name": "EP. 10",
+            "video": "https://media.vdohls.com/y4y2g8wuab/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 11,
+            "name": "EP. 11",
+            "video": "https://media.vdohls.com/e23p97s31q/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 12,
+            "name": "EP. 12",
+            "video": "https://media.vdohls.com/ju3vstu8qj/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 13,
+            "name": "EP. 13",
+            "video": "https://media.vdohls.com/wf24f23ll7/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 14,
+            "name": "EP. 14",
+            "video": "https://media.vdohls.com/n4a1pkt47b/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 15,
+            "name": "EP. 15",
+            "video": "https://media.vdohls.com/8taqsrd2zi/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 16,
+            "name": "EP. 16",
+            "video": "https://media.vdohls.com/7lzm4czrtc/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 17,
+            "name": "EP. 17",
+            "video": "https://media.vdohls.com/fg2m7y0gcr/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 18,
+            "name": "EP. 18",
+            "video": "https://media.vdohls.com/5v5p51yxwn/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 19,
+            "name": "EP. 19",
+            "video": "https://media.vdohls.com/prtvp0bp0n/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 20,
+            "name": "EP. 20",
+            "video": "https://media.vdohls.com/79h7808u57/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 21,
+            "name": "EP. 21",
+            "video": "https://media.vdohls.com/5wfvfac6xg/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 22,
+            "name": "EP. 22",
+            "video": "https://media.vdohls.com/bhidxnr155/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 23,
+            "name": "EP. 23",
+            "video": "https://media.vdohls.com/uuszzeao5c/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 24,
+            "name": "EP. 24",
+            "video": "https://media.vdohls.com/ozg8vxqddk/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           }
