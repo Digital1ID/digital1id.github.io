@@ -91,54 +91,53 @@
   <!-- Overlay ชื่อเรื่อง -->
   <div id="videoTitle"></div>
 
-  <script>
-    // ดึงค่า file และ name จาก query string
-    const params = new URLSearchParams(window.location.search);
-    let file = params.get("file");
-    let name = params.get("name");
+<script>
+  // ดึงค่า file และ name จาก query string
+  const params = new URLSearchParams(window.location.search);
+  let file = params.get("file");
+  let name = params.get("name");
 
-    // decode ค่า
-    if (file) file = decodeURIComponent(file);
-    if (name) name = decodeURIComponent(name);
+  if (file) file = decodeURIComponent(file);
+  if (name) name = decodeURIComponent(name);
 
-    // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
-    if (file) {
-      file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
-    }
+  // engine ปัจจุบัน
+  const engine = "videojs";
 
-    // ใส่ค่าเข้าไปใน video source
-    const videoSource = document.getElementById("videoSource");
-    if (file) {
-      videoSource.src = file;
-      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
-    }
+  // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
+  if (file) {
+    file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
+  }
 
-    // ปุ่ม reload
-    document.getElementById("reloadBtn").addEventListener("click", (e) => {
-      e.preventDefault();
-      location.reload();
-    });
+  // ใส่ค่าเข้าไปใน video source
+  const videoSource = document.getElementById("videoSource");
+  if (file) {
+    videoSource.src = file;
+    videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
+  }
 
-    // แสดงชื่อเรื่องทั้งใน title และ overlay และ console (หรือจะเอาไปใช้ใน UI ก็ได้)
-    if (name) {
-      document.title = name;
-      document.getElementById("videoTitle").textContent = name;
-      console.log("Now Playing:", name);
-    }
-    
-    if (!file) {
-      document.getElementById("videoTitle").textContent = "ไม่พบไฟล์วิดีโอ";
-    }
-    
-    // switch button
-    document.getElementById("switchBtn").addEventListener("click", (e) => {
-      e.preventDefault();
-      const newEngine = engine === "jwplayer" ? "videojs" : "jwplayer";
-      const newUrl = new URL(window.location.href);
-      newUrl.searchParams.set("engine", newEngine);
-      window.location.href = newUrl.toString();
-    });
-  </script>
+  // ปุ่ม reload
+  document.getElementById("reloadBtn").addEventListener("click", (e) => {
+    e.preventDefault();
+    location.reload();
+  });
+
+  // แสดงชื่อเรื่อง
+  if (name) {
+    document.title = name;
+    document.getElementById("videoTitle").textContent = name;
+    console.log("Now Playing:", name);
+  } else {
+    document.getElementById("videoTitle").textContent = "ไม่พบไฟล์วิดีโอ";
+  }
+
+  // ปุ่มสลับ Player → ไป jwplayer.html
+  document.getElementById("switchBtn").addEventListener("click", (e) => {
+    e.preventDefault();
+    const newUrl = new URL(window.location.href);
+    newUrl.pathname = newUrl.pathname.replace("videojs.html", "jwplayer.html");
+    window.location.href = newUrl.toString();
+  });
+</script>
 <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
