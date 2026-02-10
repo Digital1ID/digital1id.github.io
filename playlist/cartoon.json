@@ -35,6 +35,7 @@
   {
     "player": "p2p/playlist",
     "name": "Primal - คนหินแดนเถื่อน",
+    "category": "ซีรี่ย์ การ์ตูน",
     "info": {
         "poster": "https://img.shirokami.me/images/2026/01/15/586923370_18537283816063334_7958204247110378570_n_11zonaed52f6d615ec81b.webp",
         "sound": "อังกฤษ",
@@ -45,6 +46,7 @@
   {
     "player": "p2p/playlist",
     "name": "Naruto Shippuden - นารูโตะ ตำนานวายุสลาตัน ซีซั้น 1-25 จบภาค",
+    "category": "ซีรี่ย์ การ์ตูน",
     "info": { 
         "poster": "https://img.shirokami.me/images/2021/10/05/imagee98533e72d60e5d1.md.jpg",
         "sound": "พากย์ไทย - ญี่ปุ่น",
@@ -55,12 +57,24 @@
   {
     "player": "p2p/playlist",
     "name": "Naruto นารูโตะ นินจาจอมคาถา พากย์ไทย (เสียงใหม่) จบภาค",
+    "category": "ซีรี่ย์ การ์ตูน",
     "info": { 
         "poster": "https://img.shirokami.me/images/2021/10/05/imagef94f8732dc065feb.md.png",
         "sound": "พากย์ไทย",
         "subtitles": ""
         },
     "video": "950"
+  },
+  {
+    "player": "p2p/playlist",
+    "name": "Reborn - ครูพิเศษจอมป่วน รีบอร์น พากย์ไทย จบ",
+    "category": "ซีรี่ย์ การ์ตูน",
+    "info": { 
+        "poster": "https://img.shirokami.me/images/2021/10/05/image062449e785cf94ad.md.jpg",
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+        },
+    "video": "1789"
   },
   {
     "player": "",
@@ -18448,6 +18462,7 @@
     "info": "บรรยายไทย"
   }
 ]
+
 
 
 
