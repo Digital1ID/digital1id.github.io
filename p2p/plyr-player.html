@@ -45,10 +45,19 @@
   <script>
     const player = new Plyr('#player', { ratio: '16:9' });
 
-    // โหลดข้อมูลจากไฟล์ JSON
-    fetch('data-lakon.json')
+    // โหลดข้อมูลจาก data-lakon/1038.json
+    fetch('data-lakon/1038.json')
       .then(res => res.json())
       .then(data => {
+        // ปรับชื่อเรื่องให้เป็นพากย์ไทย/ซับไทย
+        let displayTitle = data.name;
+        if (displayTitle.toLowerCase().endsWith('th')) {
+          displayTitle = displayTitle.slice(0, -2).trim() + ' พากย์ไทย';
+        } else if (displayTitle.toLowerCase().endsWith('sub')) {
+          displayTitle = displayTitle.slice(0, -3).trim() + ' ซับไทย';
+        }
+        document.title = `รับชม ${displayTitle} - Rongyok`;
+
         const episodes = data.seasons[0].episodes;
         const list = document.getElementById('episodeList');
 
