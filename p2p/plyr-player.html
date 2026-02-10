@@ -7,49 +7,34 @@
   <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
   <style>
     body {
-      font-family: 'Prompt', sans-serif;
-      background: #0f0a19;
-      color: #fff;
       margin: 0;
+      background: #000;
       height: 100vh;
-      display: flex;
-      flex-direction: column;
+      overflow: hidden;
     }
-    .video-container { flex: 1; position: relative; }
-    /* Sidebar */
-    .episode-sidebar {
-      position: fixed;
-      top: 0; right: -300px;
-      width: 300px;
+    .video-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+    video {
+      width: 100%;
       height: 100%;
-      background: #1a132b;
-      padding: 1rem;
-      transition: right 0.3s ease;
-      overflow-y: auto;
-      z-index: 20;
+      object-fit: cover;
     }
-    .episode-sidebar.active { right: 0; }
-    .episode-sidebar button {
-      display: block;
-      margin: .5rem 0;
-      padding: .5rem 1rem;
-      background: #e53e3e;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .episode-sidebar button:hover { background: #c53030; }
-    /* Toggle button */
-    .toggle-btn {
-      position: fixed;
-      top: 20px; right: 20px;
-      background: rgba(229,62,62,0.9);
+    /* Floating Title */
+    .floating-title {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0,0,0,0.6);
       color: #fff;
       padding: .5rem 1rem;
-      border-radius: 5px;
-      cursor: pointer;
-      z-index: 30;
+      border-radius: 8px;
+      font-family: 'Prompt', sans-serif;
+      font-size: 1.2rem;
+      z-index: 10;
     }
     /* Overlay แจ้งเตือน */
     .next-overlay {
@@ -67,21 +52,10 @@
   </style>
 </head>
 <body>
-  <h1 style="padding:1rem;">ยินดีต้อนรับสู่สวรรค์ (ซับไทย)</h1>
-  
-  <!-- Player -->
   <div class="video-container">
     <video id="player" playsinline controls></video>
+    <div class="floating-title" id="floatingTitle">ยินดีต้อนรับสู่สวรรค์ (ซับไทย)</div>
     <div id="nextOverlay" class="next-overlay"></div>
-  </div>
-
-  <!-- Toggle button -->
-  <div class="toggle-btn" id="toggleSidebar">📺 ตอนทั้งหมด</div>
-
-  <!-- Episode Sidebar -->
-  <div class="episode-sidebar" id="episodeSidebar">
-    <h2>รายการตอน</h2>
-    <div id="episodeList"></div>
   </div>
 
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
@@ -102,18 +76,9 @@
           displayTitle = displayTitle.slice(0, -3).trim() + ' ซับไทย';
         }
         document.title = `รับชม ${displayTitle} - Rongyok`;
+        document.getElementById('floatingTitle').textContent = displayTitle;
 
         episodes = data.seasons[0].episodes;
-        const list = document.getElementById('episodeList');
-
-        episodes.forEach((ep, index) => {
-          const btn = document.createElement('button');
-          btn.textContent = ep.name;
-          btn.addEventListener('click', () => {
-            loadEpisode(index);
-          });
-          list.appendChild(btn);
-        });
 
         // โหลดตอนแรกอัตโนมัติ
         if (episodes.length > 0) {
@@ -155,13 +120,6 @@
       } else {
         alert('คุณดูครบทุกตอนแล้ว 🎉');
       }
-    });
-
-    // Toggle Sidebar
-    const toggleBtn = document.getElementById('toggleSidebar');
-    const sidebar = document.getElementById('episodeSidebar');
-    toggleBtn.addEventListener('click', () => {
-      sidebar.classList.toggle('active');
     });
   </script>
 </body>
