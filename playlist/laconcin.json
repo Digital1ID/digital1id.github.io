@@ -25,18 +25,6 @@
   },
   {
     "player": "p2p/plyr-player",
-    "name": "",
-    "category": "ละครสั้นจีน",
-    "info": { 
-        "poster": "",
-        "description": "",
-        "year": 2026,
-        "sound": "พากย์ไทย"
-        },
-    "video": ""
-  },
-  {
-    "player": "p2p/plyr-player",
     "name": "ลูกในความลับพ่อมหาเศรษฐี",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -46,7 +34,32 @@
         "sound": "พากย์ไทย"
         },
     "video": "1274"
+  },
+  {
+    "player": "p2p/plyr-player",
+    "name": "ยินดีต้อนรับสู่สวรรค์",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://rongyok.com/images/poster/ยินดีต้อนรับสู่สวรรค์-ซับไทย-2026-1038.jpg",
+        "description": "",
+        "year": 2026,
+        "sound": "บรรยายไทย"
+        },
+    "video": "1038"
+  },
+  {
+    "player": "p2p/plyr-player",
+    "name": "",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": ""
   }
 
 ]
+
 
