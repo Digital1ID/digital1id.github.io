@@ -119,10 +119,6 @@
   if (file) file = decodeURIComponent(file);
   if (name) name = decodeURIComponent(name);
 
-  if (file) {
-    file = file.replace(/^https:\/\/, "http://");
-  }
-
   const videoSource = document.getElementById("videoSource");
   if (file) {
     videoSource.src = file;
