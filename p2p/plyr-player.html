@@ -16,13 +16,13 @@
     }
     .video-container {
       position: relative;
-      width: auto;
-      max-height: 100%;
-      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
     }
     video {
-      width: autu;
-      height: 100%; /* ย่อ/ขยายตามขนาดจอ */
+      width: 100%;
+      height: auto; /* ย่อ/ขยายตามขนาดจอ */
     }
     .floating-title {
       position: absolute;
@@ -63,6 +63,7 @@
     const player = new Plyr('#player');
     let episodes = [];
     let currentIndex = 0;
+    let wakeLock = null;
 
     // อ่าน series_id จาก URL
     const urlParams = new URLSearchParams(window.location.search);
@@ -128,7 +129,37 @@
         });
       } else {
         alert('คุณดูครบทุกตอนแล้ว 🎉');
+        releaseWakeLock();
       }
+    });
+
+    // Wake Lock API
+    async function requestWakeLock() {
+      try {
+        wakeLock = await navigator.wakeLock.request('screen');
+        console.log('Wake Lock activated');
+        wakeLock.addEventListener('release', () => {
+          console.log('Wake Lock released');
+        });
+      } catch (err) {
+        console.error(`${err.name}, ${err.message}`);
+      }
+    }
+
+    function releaseWakeLock() {
+      if (wakeLock !== null) {
+        wakeLock.release();
+        wakeLock = null;
+      }
+    }
+
+    // ผูกกับ player
+    player.on('play', () => {
+      requestWakeLock();
+    });
+
+    player.on('pause', () => {
+      releaseWakeLock();
     });
   </script>
 </body>
