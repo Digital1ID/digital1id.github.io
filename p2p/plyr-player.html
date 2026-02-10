@@ -13,16 +13,23 @@
       justify-content: center;
       align-items: center;
     }
-    .video-container {
-      position: relative;
-      width: auto;
-      max-height: 100%;
-      height: 100%;
-    }
-    video {
-      width: auto;
-      height: 100%; /* ย่อ/ขยายตามขนาดจอ */
-    }
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;       /* ใช้เต็มความสูงจอ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;    /* พื้นหลังดำ */
+}
+
+video {
+  max-width: 100%;     /* ไม่เกินความกว้างจอ */
+  max-height: 100%;    /* ไม่เกินความสูงจอ */
+  width: auto;
+  height: auto;
+  object-fit: contain; /* รักษาสัดส่วน ไม่บิดเบี้ยว */
+}
     .floating-title {
       position: absolute;
       top: 20px;
@@ -48,6 +55,31 @@
       display: none;
       z-index: 10;
     }
+    /* เมนูเลือกตอน */
+    .episode-list {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0,0,0,0.6);
+      padding: 10px;
+      border-radius: 8px;
+      z-index: 20;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    .episode-list button {
+      padding: 5px 10px;
+      background: #e53e3e;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .episode-list button:hover {
+      background: #c53030;
+    }
   </style>
 </head>
 <body>
@@ -55,6 +87,7 @@
     <video id="player" playsinline controls></video>
     <div class="floating-title" id="floatingTitle">กำลังโหลด...</div>
     <div id="nextOverlay" class="next-overlay"></div>
+    <div class="episode-list" id="episodeList"></div>
   </div>
 
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
@@ -86,6 +119,17 @@
           document.getElementById('floatingTitle').textContent = displayTitle;
 
           episodes = data.seasons[0].episodes;
+
+          // สร้างปุ่มเลือกตอน
+          const list = document.getElementById('episodeList');
+          episodes.forEach((ep, index) => {
+            const btn = document.createElement('button');
+            btn.textContent = ep.name;
+            btn.addEventListener('click', () => {
+              loadEpisode(index);
+            });
+            list.appendChild(btn);
+          });
 
           // โหลดตอนแรกอัตโนมัติ
           if (episodes.length > 0) {
