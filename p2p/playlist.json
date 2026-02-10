@@ -3270,6 +3270,7 @@
   },
   {
     "id": "6359",
+    "engine": "akuma",
     "name": "Fate strange Fake Whispers of Dawn มหาสงครามจอกศักดิ์สิทธิ์ ซับไทย",
     "category": "ซีรี่ย์ การ์ตูน",
     "info": {
@@ -3342,7 +3343,7 @@
 },
 {
         "id": "6461",
-        "engine": "",
+        "engine": "akuma",
         "name": "Jujutsu Kaisen - มหาเวทย์ผนึกมาร",
         "category": "ซีรี่ย์ การ์ตูน",
         "info": {
@@ -3600,7 +3601,7 @@
     },
     {
         "id": "6451",
-        "engine": "",
+        "engine": "akuma",
         "name": "Hell's Paradise Season - สุขาวดีอเวจี พากย์ไทย",
         "category": "ซีรี่ย์ การ์ตูน",
         "info": {
@@ -3754,7 +3755,7 @@
     },
     {
         "id": "6425",
-        "engine": "",
+        "engine": "akuma",
         "name": "Primal - คนหินแดนเถื่อน",
         "category": "ซีรี่ย์ การ์ตูน",
         "info": {
@@ -3968,7 +3969,7 @@
     },
     {
         "id": "3501",
-        "engine": "",
+        "engine": "akuma",
         "name": "Naruto Shippuden - นารูโตะ ตำนานวายุสลาตัน พากย์ไทย",
         "category": "ซีรี่ย์ การ์ตูน",
         "info": {
@@ -4822,7 +4823,7 @@
     },
     {
         "id": "950",
-        "engine": "",
+        "engine": "akuma",
         "name": "Naruto นารูโตะ นินจาจอมคาถา พากย์ไทย (เสียงใหม่)",
         "category": "ซีรี่ย์ การ์ตูน",
         "info": {
