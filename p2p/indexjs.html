@@ -24,7 +24,7 @@
       width: 100vw !important;
       height: 100vh !important;
     }
-    .back-button, .reload-button, .switch-button {
+    .back-button, .reload-button {
       position: fixed;
       top: 15px;
       z-index: 10000;
@@ -50,16 +50,9 @@
     .reload-button:hover {
       background-color: rgba(0, 123, 255, 0.6);
     }
-    .switch-button {
-      left: 20px;
-      background-color: rgba(40, 167, 69, 0.3);
-    }
-    .switch-button:hover { 
-      background-color: rgba(40,167,69,0.6); 
-    }
     #videoTitle {
       position: fixed;
-      bottom: 60px;
+      bottom: 20px;
       left: 20px;
       color: #fff;
       background: rgba(0,0,0,0.5);
@@ -72,7 +65,6 @@
 </head>
 <body>
   <!--a href="../movie.html" class="back-button">ย้อนกลับ</a-->
-  <a href="#" id="switchBtn" class="switch-button">สลับ Player</a>
   <a href="#" id="reloadBtn" class="reload-button">โหลดซ้ำ</a>
 
   <div class="video-container">
@@ -91,48 +83,41 @@
   <!-- Overlay ชื่อเรื่อง -->
   <div id="videoTitle"></div>
 
-<script>
-  // ดึงค่า file และ name จาก query string
-  const params = new URLSearchParams(window.location.search);
-  let file = params.get("file");
-  let name = params.get("name");
+  <script>
+    // ดึงค่า file และ name จาก query string
+    const params = new URLSearchParams(window.location.search);
+    let file = params.get("file");
+    let name = params.get("name");
 
-  if (file) file = decodeURIComponent(file);
-  if (name) name = decodeURIComponent(name);
+    // decode ค่า
+    if (file) file = decodeURIComponent(file);
+    if (name) name = decodeURIComponent(name);
 
-  // engine ปัจจุบัน
-  const engine = "videojs";
+    // ถ้ามีการใช้ https://oneid151.serv00.net ให้เปลี่ยนเป็น http://
+    if (file) {
+      file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
+    }
 
-  // ใส่ค่าเข้าไปใน video source
-  const videoSource = document.getElementById("videoSource");
-  if (file) {
-    videoSource.src = file;
-    videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
-  }
+    // ใส่ค่าเข้าไปใน video source
+    const videoSource = document.getElementById("videoSource");
+    if (file) {
+      videoSource.src = file;
+      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
+    }
 
-  // ปุ่ม reload
-  document.getElementById("reloadBtn").addEventListener("click", (e) => {
-    e.preventDefault();
-    location.reload();
-  });
+    // ปุ่ม reload
+    document.getElementById("reloadBtn").addEventListener("click", (e) => {
+      e.preventDefault();
+      location.reload();
+    });
 
-  // แสดงชื่อเรื่อง
-  if (name) {
-    document.title = name;
-    document.getElementById("videoTitle").textContent = name;
-    console.log("Now Playing:", name);
-  } else {
-    document.getElementById("videoTitle").textContent = "ไม่พบไฟล์วิดีโอ";
-  }
-
-  // ปุ่มสลับ Player → ไป jwplayer.html
-  document.getElementById("switchBtn").addEventListener("click", (e) => {
-    e.preventDefault();
-    const newUrl = new URL(window.location.href);
-    newUrl.pathname = newUrl.pathname.replace("videojs.html", "jwplayer.html");
-    window.location.href = newUrl.toString();
-  });
-</script>
+    // แสดงชื่อเรื่องทั้งใน title และ overlay และ console (หรือจะเอาไปใช้ใน UI ก็ได้)
+    if (name) {
+      document.title = name;
+      document.getElementById("videoTitle").textContent = name;
+      console.log("Now Playing:", name);
+    }
+  </script>
 <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
