@@ -37,6 +37,18 @@
   },
   {
     "player": "p2p/plyr-player",
+    "name": "ทะลุมิติมาสะสมรัก2",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://xn--72c9ab1ec1bc6q.online//uploads/posters/c126b4ef29f1d067bec8692ad4da3e7c.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "973"
+  },
+  {
+    "player": "p2p/plyr-player",
     "name": "ยินดีต้อนรับสู่สวรรค์",
     "category": "ละครสั้นจีน",
     "info": { 
