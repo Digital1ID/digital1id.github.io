@@ -3342,7 +3342,7 @@
 },
 {
         "id": "6461",
-        "engine": "indexjs",
+        "engine": "",
         "name": "Jujutsu Kaisen - มหาเวทย์ผนึกมาร",
         "category": "ซีรี่ย์ การ์ตูน",
         "info": {
@@ -3600,7 +3600,7 @@
     },
     {
         "id": "6451",
-        "engine": "jwplayer",
+        "engine": "",
         "name": "Hell's Paradise Season - สุขาวดีอเวจี พากย์ไทย",
         "category": "ซีรี่ย์ การ์ตูน",
         "info": {
@@ -3754,7 +3754,7 @@
     },
     {
         "id": "6425",
-        "engine": "jwplayer",
+        "engine": "",
         "name": "Primal - คนหินแดนเถื่อน",
         "category": "ซีรี่ย์ การ์ตูน",
         "info": {
@@ -3968,7 +3968,7 @@
     },
     {
         "id": "3501",
-        "engine": "jwplayer",
+        "engine": "",
         "name": "Naruto Shippuden - นารูโตะ ตำนานวายุสลาตัน พากย์ไทย",
         "category": "ซีรี่ย์ การ์ตูน",
         "info": {
@@ -4822,7 +4822,7 @@
     },
     {
         "id": "950",
-        "engine": "jwplayer",
+        "engine": "",
         "name": "Naruto นารูโตะ นินจาจอมคาถา พากย์ไทย (เสียงใหม่)",
         "category": "ซีรี่ย์ การ์ตูน",
         "info": {
