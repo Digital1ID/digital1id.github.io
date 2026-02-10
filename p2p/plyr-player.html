@@ -13,34 +13,33 @@
       justify-content: center;
       align-items: center;
     }
-.video-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;       /* ใช้เต็มความสูงจอ */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #000;
-  overflow: hidden;    /* กันไม่ให้วิดีโอเกินขอบ */
-}
-
-video {
-  max-width: 100%;     /* ไม่เกินความกว้างจอ */
-  max-height: 100vh;   /* ไม่เกินความสูงจอ */
-  width: auto;
-  height: auto;
-  object-fit: contain; /* รักษาสัดส่วน ไม่บิดเบี้ยว */
-}
+    .video-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      overflow: hidden;
+    }
+    video {
+      max-width: 100%;
+      max-height: 100vh;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+    }
     .floating-title {
       position: absolute;
       top: 20px;
       right: 20px; /* ย้ายไปฝั่งขวา */
       background: rgba(0,0,0,0.6);
       color: #fff;
-      padding: .5rem 1rem;
-      border-radius: 8px;
+      padding: .3rem .8rem;
+      border-radius: 6px;
       font-family: 'Prompt', sans-serif;
-      font-size: 1.2rem;
+      font-size: 1rem; /* ปรับให้เล็กลงพอดี */
       z-index: 10;
     }
     .next-overlay {
@@ -55,21 +54,31 @@ video {
       display: none;
       z-index: 10;
     }
-    /* ปุ่มเลือกตอนใต้ floating-title */
-    .episode-list {
-      position: absolute;
-      top: 70px;   /* อยู่ใต้ floating-title */
-      right: 20px; /* ชิดขวาเหมือน floating-title */
-      background: rgba(0,0,0,0.6);
-      padding: 10px;
-      border-radius: 8px;
-      z-index: 20;
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
+    /* Sidebar เลือกตอน */
+    .episode-sidebar {
+      position: fixed;
+      top: 0;
+      right: -300px; /* ซ่อนอยู่ด้านข้าง */
+      width: 300px;
+      height: 100%;
+      background: rgba(0,0,0,0.9);
+      padding: 20px;
+      transition: right 0.3s ease;
+      overflow-y: auto;
+      z-index: 30;
     }
-    .episode-list button {
-      padding: 5px 10px;
+    .episode-sidebar.active {
+      right: 0; /* เลื่อนออกมา */
+    }
+    .episode-sidebar h2 {
+      color: #fff;
+      margin-top: 0;
+    }
+    .episode-sidebar button {
+      display: block;
+      width: 100%;
+      margin: 5px 0;
+      padding: 8px;
       background: #e53e3e;
       color: #fff;
       border: none;
@@ -77,8 +86,21 @@ video {
       cursor: pointer;
       text-align: left;
     }
-    .episode-list button:hover {
+    .episode-sidebar button:hover {
       background: #c53030;
+    }
+    /* ปุ่ม toggle */
+    .toggle-btn {
+      position: absolute;
+      top: 70px; /* อยู่ใต้ floating-title */
+      right: 20px;
+      background: rgba(229,62,62,0.9);
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 40;
+      font-size: 0.9rem;
     }
     /* ปุ่มย้อนกลับ */
     .back-btn {
@@ -98,9 +120,13 @@ video {
   <div class="video-container">
     <video id="player" playsinline controls></video>
     <div class="floating-title" id="floatingTitle">กำลังโหลด...</div>
-    <div class="episode-list" id="episodeList"></div>
+    <div class="toggle-btn" id="toggleSidebar">📺 เลือกตอน</div>
     <div class="back-btn" id="backBtn">⬅ กลับ</div>
     <div id="nextOverlay" class="next-overlay"></div>
+    <div class="episode-sidebar" id="episodeSidebar">
+      <h2>รายการตอน</h2>
+      <div id="episodeList"></div>
+    </div>
   </div>
 
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
@@ -111,14 +137,14 @@ video {
     let wakeLock = null;
     let seriesName = "";
 
-    // อ่าน series_id จาก URL
+    // อ่าน file จาก URL
     const urlParams = new URLSearchParams(window.location.search);
-    const seriesId = urlParams.get('series_id');
+    const fileName = urlParams.get('file');
 
-    if (!seriesId) {
-      document.getElementById('floatingTitle').textContent = 'ไม่พบรหัสซีรีส์';
+    if (!fileName) {
+      document.getElementById('floatingTitle').textContent = 'ไม่พบชื่อไฟล์';
     } else {
-      fetch(`data-lakon/${seriesId}.json`)
+      fetch(`data-lakon/${fileName}.json`)
         .then(res => res.json())
         .then(data => {
           seriesName = data.name;
@@ -211,6 +237,13 @@ video {
 
     player.on('pause', () => {
       releaseWakeLock();
+    });
+
+    // Toggle Sidebar
+    const toggleBtn = document.getElementById('toggleSidebar');
+    const sidebar = document.getElementById('episodeSidebar');
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
     });
 
     // ปุ่มย้อนกลับ
