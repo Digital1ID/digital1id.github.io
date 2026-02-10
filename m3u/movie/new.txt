@@ -27,9 +27,9 @@
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/65955b82543e1803cd3134b7/65955b82543e1803cd3134b7.m3u8
 
-#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="", This is I (2026) นี่คือตัวฉัน
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://www.24-hdmovie.com/wp-content/uploads/2026/02/This-is-I-2026-%E0%B8%99%E0%B8%B5%E0%B9%88%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%89%E0%B8%B1%E0%B8%99-187x269.png", This is I (2026) นี่คือตัวฉัน
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-
+https://main.24playerhd.com/newplaylist/7f39b6446cc67bc833988632/7f39b6446cc67bc833988632.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/rojphxx05QkxzrmMKAP8sIYPZlj.jpg", The SpongeBob Movie Search for SquarePants (2025) เดอะ สพันจ์บ็อบ มูฟวี่ ภารกิจตามหาสพันจ์บ็อบ
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
