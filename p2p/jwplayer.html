@@ -131,6 +131,15 @@
         jwplayer("play").play();
       }
     });
+    
+    // switch button
+    document.getElementById("switchBtn").addEventListener("click", (e) => {
+      e.preventDefault();
+      const newEngine = engine === "jwplayer" ? "videojs" : "jwplayer";
+      const newUrl = new URL(window.location.href);
+      newUrl.searchParams.set("engine", newEngine);
+      window.location.href = newUrl.toString();
+    });
   </script>
 </body>
 </html>
