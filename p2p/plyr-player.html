@@ -15,9 +15,21 @@
       display: flex;
       flex-direction: column;
     }
-    .video-container { flex: 1; }
-    .episode-list { padding: 1rem; background: #1a132b; }
-    .episode-list button {
+    .video-container { flex: 1; position: relative; }
+    /* Sidebar */
+    .episode-sidebar {
+      position: fixed;
+      top: 0; right: -300px;
+      width: 300px;
+      height: 100%;
+      background: #1a132b;
+      padding: 1rem;
+      transition: right 0.3s ease;
+      overflow-y: auto;
+      z-index: 20;
+    }
+    .episode-sidebar.active { right: 0; }
+    .episode-sidebar button {
       display: block;
       margin: .5rem 0;
       padding: .5rem 1rem;
@@ -27,7 +39,31 @@
       border-radius: 5px;
       cursor: pointer;
     }
-    .episode-list button:hover { background: #c53030; }
+    .episode-sidebar button:hover { background: #c53030; }
+    /* Toggle button */
+    .toggle-btn {
+      position: fixed;
+      top: 20px; right: 20px;
+      background: rgba(229,62,62,0.9);
+      color: #fff;
+      padding: .5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 30;
+    }
+    /* Overlay แจ้งเตือน */
+    .next-overlay {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0,0,0,0.8);
+      color: #fff;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      display: none;
+      z-index: 10;
+    }
   </style>
 </head>
 <body>
@@ -36,20 +72,29 @@
   <!-- Player -->
   <div class="video-container">
     <video id="player" playsinline controls></video>
+    <div id="nextOverlay" class="next-overlay"></div>
   </div>
 
-  <!-- Episode List -->
-  <div class="episode-list" id="episodeList"></div>
+  <!-- Toggle button -->
+  <div class="toggle-btn" id="toggleSidebar">📺 ตอนทั้งหมด</div>
+
+  <!-- Episode Sidebar -->
+  <div class="episode-sidebar" id="episodeSidebar">
+    <h2>รายการตอน</h2>
+    <div id="episodeList"></div>
+  </div>
 
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
   <script>
     const player = new Plyr('#player', { ratio: '16:9' });
+    let episodes = [];
+    let currentIndex = 0;
 
     // โหลดข้อมูลจาก data-lakon/1038.json
     fetch('data-lakon/1038.json')
       .then(res => res.json())
       .then(data => {
-        // ปรับชื่อเรื่องให้เป็นพากย์ไทย/ซับไทย
+        // ปรับชื่อเรื่อง
         let displayTitle = data.name;
         if (displayTitle.toLowerCase().endsWith('th')) {
           displayTitle = displayTitle.slice(0, -2).trim() + ' พากย์ไทย';
@@ -58,33 +103,66 @@
         }
         document.title = `รับชม ${displayTitle} - Rongyok`;
 
-        const episodes = data.seasons[0].episodes;
+        episodes = data.seasons[0].episodes;
         const list = document.getElementById('episodeList');
 
-        episodes.forEach(ep => {
+        episodes.forEach((ep, index) => {
           const btn = document.createElement('button');
           btn.textContent = ep.name;
           btn.addEventListener('click', () => {
-            player.source = {
-              type: 'video',
-              sources: [{ src: ep.video, type: 'video/mp4' }]
-            };
-            player.play();
+            loadEpisode(index);
           });
           list.appendChild(btn);
         });
 
         // โหลดตอนแรกอัตโนมัติ
         if (episodes.length > 0) {
-          player.source = {
-            type: 'video',
-            sources: [{ src: episodes[0].video, type: 'video/mp4' }]
-          };
+          loadEpisode(0);
         }
       })
       .catch(err => {
         console.error('โหลดข้อมูลล้มเหลว', err);
       });
+
+    // ฟังก์ชันโหลดตอน
+    function loadEpisode(index) {
+      currentIndex = index;
+      player.source = {
+        type: 'video',
+        sources: [{ src: episodes[index].video, type: 'video/mp4' }]
+      };
+      player.play();
+    }
+
+    // Overlay แจ้งเตือน
+    function showNextOverlay(nextEpName, callback) {
+      const overlay = document.getElementById('nextOverlay');
+      overlay.textContent = `กำลังเล่น ${nextEpName} ต่อไป...`;
+      overlay.style.display = 'block';
+      setTimeout(() => {
+        overlay.style.display = 'none';
+        callback();
+      }, 3000); // แสดง 3 วินาที
+    }
+
+    // เมื่อวิดีโอจบ → เล่นตอนถัดไป
+    player.on('ended', () => {
+      if (currentIndex < episodes.length - 1) {
+        const nextIndex = currentIndex + 1;
+        showNextOverlay(episodes[nextIndex].name, () => {
+          loadEpisode(nextIndex);
+        });
+      } else {
+        alert('คุณดูครบทุกตอนแล้ว 🎉');
+      }
+    });
+
+    // Toggle Sidebar
+    const toggleBtn = document.getElementById('toggleSidebar');
+    const sidebar = document.getElementById('episodeSidebar');
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+    });
   </script>
 </body>
 </html>
