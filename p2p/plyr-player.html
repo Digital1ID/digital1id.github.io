@@ -13,26 +13,28 @@
       justify-content: center;
       align-items: center;
     }
-    .video-container {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #000;
-    }
-    video {
-      max-width: 100%;
-      max-height: 100%;
-      width: auto;
-      height: auto;
-      object-fit: contain; /* รองรับทั้งแนวตั้งและแนวนอน */
-    }
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;       /* ใช้เต็มความสูงจอ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  overflow: hidden;    /* กันไม่ให้วิดีโอเกินขอบ */
+}
+
+video {
+  max-width: 100%;     /* ไม่เกินความกว้างจอ */
+  max-height: 100vh;   /* ไม่เกินความสูงจอ */
+  width: auto;
+  height: auto;
+  object-fit: contain; /* รักษาสัดส่วน ไม่บิดเบี้ยว */
+}
     .floating-title {
       position: absolute;
       top: 20px;
-      left: 20px; /* ย้ายไปฝั่งซ้าย */
+      right: 20px; /* ย้ายไปฝั่งขวา */
       background: rgba(0,0,0,0.6);
       color: #fff;
       padding: .5rem 1rem;
@@ -53,31 +55,21 @@
       display: none;
       z-index: 10;
     }
-    /* Sidebar เลือกตอน */
-    .episode-sidebar {
-      position: fixed;
-      top: 0;
-      right: -300px;
-      width: 300px;
-      height: 100%;
-      background: rgba(0,0,0,0.9);
-      padding: 20px;
-      transition: right 0.3s ease;
-      overflow-y: auto;
-      z-index: 30;
+    /* ปุ่มเลือกตอนใต้ floating-title */
+    .episode-list {
+      position: absolute;
+      top: 70px;   /* อยู่ใต้ floating-title */
+      right: 20px; /* ชิดขวาเหมือน floating-title */
+      background: rgba(0,0,0,0.6);
+      padding: 10px;
+      border-radius: 8px;
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
     }
-    .episode-sidebar.active {
-      right: 0;
-    }
-    .episode-sidebar h2 {
-      color: #fff;
-      margin-top: 0;
-    }
-    .episode-sidebar button {
-      display: block;
-      width: 100%;
-      margin: 5px 0;
-      padding: 8px;
+    .episode-list button {
+      padding: 5px 10px;
       background: #e53e3e;
       color: #fff;
       border: none;
@@ -85,26 +77,14 @@
       cursor: pointer;
       text-align: left;
     }
-    .episode-sidebar button:hover {
+    .episode-list button:hover {
       background: #c53030;
-    }
-    /* ปุ่ม toggle */
-    .toggle-btn {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      background: rgba(229,62,62,0.9);
-      color: #fff;
-      padding: 8px 12px;
-      border-radius: 5px;
-      cursor: pointer;
-      z-index: 40;
     }
     /* ปุ่มย้อนกลับ */
     .back-btn {
       position: absolute;
       top: 20px;
-      left: 100px; /* อยู่ถัดจาก floating-title */
+      left: 20px;
       background: rgba(255,255,255,0.2);
       color: #fff;
       padding: 8px 12px;
@@ -118,13 +98,9 @@
   <div class="video-container">
     <video id="player" playsinline controls></video>
     <div class="floating-title" id="floatingTitle">กำลังโหลด...</div>
+    <div class="episode-list" id="episodeList"></div>
     <div class="back-btn" id="backBtn">⬅ กลับ</div>
     <div id="nextOverlay" class="next-overlay"></div>
-    <div class="toggle-btn" id="toggleSidebar">📺 เลือกตอน</div>
-    <div class="episode-sidebar" id="episodeSidebar">
-      <h2>รายการตอน</h2>
-      <div id="episodeList"></div>
-    </div>
   </div>
 
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
@@ -235,13 +211,6 @@
 
     player.on('pause', () => {
       releaseWakeLock();
-    });
-
-    // Toggle Sidebar
-    const toggleBtn = document.getElementById('toggleSidebar');
-    const sidebar = document.getElementById('episodeSidebar');
-    toggleBtn.addEventListener('click', () => {
-      sidebar.classList.toggle('active');
     });
 
     // ปุ่มย้อนกลับ
