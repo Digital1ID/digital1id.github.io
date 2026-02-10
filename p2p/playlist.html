@@ -54,7 +54,7 @@
     <div class="video-container">
       <!-- ✅ Iframe -->
       <iframe id="videoFrame" name="videoFrame"
-        referrerpolicy="strict-origin-when-cross-origin"
+        referrerpolicy="no-referrer|origin|origin-when-cross-origin"
         frameborder="0" allowfullscreen></iframe>
 
       <!-- ปุ่ม overlay >
@@ -93,13 +93,13 @@
 
     <!-- Serial Info -->
     <div id="serialInfo" class="bg-[#222] p-4 rounded-lg mt-6">
-      <h3 class="text-lg font-semibold mb-2">ข้อมูลซีรีส์</h3>
+      <h3 class="text-lg font-semibold mb-2">ข้อมูลซีรี่ย์</h3>
       <div id="serialDetails" class="text-sm text-gray-300"></div>
     </div>
 
     <!-- Season Selector -->
     <div class="bg-[#222] p-4 rounded-lg mt-6">
-      <label for="seasonSelect" class="block text-lg font-semibold mb-2">เลือกซีซัน</label>
+      <label for="seasonSelect" class="block text-lg font-semibold mb-2">เลือกซีซั่น</label>
       <select id="seasonSelect" class="w-full px-3 py-2 bg-[#333] rounded text-white"></select>
     </div>
 
