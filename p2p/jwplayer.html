@@ -110,9 +110,6 @@
       if (host === 'media-asset.fembed.co' && (m = path.match(/\/([a-zA-Z0-9]+)\/playlist\.m3u8$/))) {
         return "https://play.baiwarp.com/embed/" + m[1];
       }
-      if (host === 'text-lb.xmoviedo24.com' && path.match(/\/playlist2\/([a-zA-Z0-9]+)[^/]+\/master\.m3u8$/)) {
-        return "http://oneid151.serv00.net/p2p-player.php?url=" + encodeURIComponent(btoa(url));
-      }
       if (host === 'api.doo-nang.com' && (m = path.match(/\/video\/([a-f0-9\-]{36})\/(?:[^/]+\/)?playlist\.m3u8$/i))) {
         const metaID = m[1];
         return "http://oneid151.serv00.net/api/doo-nang/player.php?url=" + encodeURIComponent(btoa(url)) + "&metaID=" + metaID;
@@ -163,8 +160,7 @@
       document.getElementById("videoTitle").innerText = "ไม่พบไฟล์วิดีโอ";
     }
   };
-</script>
-<script>
+
     // reload button
     document.getElementById("reloadBtn").addEventListener("click", (e) => {
       e.preventDefault();
