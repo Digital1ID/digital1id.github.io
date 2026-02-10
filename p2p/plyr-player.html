@@ -13,28 +13,26 @@
       justify-content: center;
       align-items: center;
     }
-.video-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;       /* ใช้เต็มความสูงจอ */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #000;    /* พื้นหลังดำ */
-}
-
-video {
-  max-width: 100%;     /* ไม่เกินความกว้างจอ */
-  max-height: 100%;    /* ไม่เกินความสูงจอ */
-  width: auto;
-  height: auto;
-  object-fit: contain; /* รักษาสัดส่วน ไม่บิดเบี้ยว */
-}
+    .video-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+    }
+    video {
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain; /* รองรับทั้งแนวตั้งและแนวนอน */
+    }
     .floating-title {
       position: absolute;
       top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
+      left: 20px; /* ย้ายไปฝั่งซ้าย */
       background: rgba(0,0,0,0.6);
       color: #fff;
       padding: .5rem 1rem;
@@ -55,30 +53,64 @@ video {
       display: none;
       z-index: 10;
     }
-    /* เมนูเลือกตอน */
-    .episode-list {
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: rgba(0,0,0,0.6);
-      padding: 10px;
-      border-radius: 8px;
-      z-index: 20;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
+    /* Sidebar เลือกตอน */
+    .episode-sidebar {
+      position: fixed;
+      top: 0;
+      right: -300px;
+      width: 300px;
+      height: 100%;
+      background: rgba(0,0,0,0.9);
+      padding: 20px;
+      transition: right 0.3s ease;
+      overflow-y: auto;
+      z-index: 30;
     }
-    .episode-list button {
-      padding: 5px 10px;
+    .episode-sidebar.active {
+      right: 0;
+    }
+    .episode-sidebar h2 {
+      color: #fff;
+      margin-top: 0;
+    }
+    .episode-sidebar button {
+      display: block;
+      width: 100%;
+      margin: 5px 0;
+      padding: 8px;
       background: #e53e3e;
       color: #fff;
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      text-align: left;
     }
-    .episode-list button:hover {
+    .episode-sidebar button:hover {
       background: #c53030;
+    }
+    /* ปุ่ม toggle */
+    .toggle-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(229,62,62,0.9);
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 40;
+    }
+    /* ปุ่มย้อนกลับ */
+    .back-btn {
+      position: absolute;
+      top: 20px;
+      left: 100px; /* อยู่ถัดจาก floating-title */
+      background: rgba(255,255,255,0.2);
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 40;
     }
   </style>
 </head>
@@ -86,8 +118,13 @@ video {
   <div class="video-container">
     <video id="player" playsinline controls></video>
     <div class="floating-title" id="floatingTitle">กำลังโหลด...</div>
+    <div class="back-btn" id="backBtn">⬅ กลับ</div>
     <div id="nextOverlay" class="next-overlay"></div>
-    <div class="episode-list" id="episodeList"></div>
+    <div class="toggle-btn" id="toggleSidebar">📺 เลือกตอน</div>
+    <div class="episode-sidebar" id="episodeSidebar">
+      <h2>รายการตอน</h2>
+      <div id="episodeList"></div>
+    </div>
   </div>
 
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
@@ -96,6 +133,7 @@ video {
     let episodes = [];
     let currentIndex = 0;
     let wakeLock = null;
+    let seriesName = "";
 
     // อ่าน series_id จาก URL
     const urlParams = new URLSearchParams(window.location.search);
@@ -104,23 +142,19 @@ video {
     if (!seriesId) {
       document.getElementById('floatingTitle').textContent = 'ไม่พบรหัสซีรีส์';
     } else {
-      // โหลดข้อมูลจากไฟล์ JSON ตาม series_id
       fetch(`data-lakon/${seriesId}.json`)
         .then(res => res.json())
         .then(data => {
-          // ปรับชื่อเรื่อง
-          let displayTitle = data.name;
-          if (displayTitle.toLowerCase().endsWith('th')) {
-            displayTitle = displayTitle.slice(0, -2).trim() + ' พากย์ไทย';
-          } else if (displayTitle.toLowerCase().endsWith('sub')) {
-            displayTitle = displayTitle.slice(0, -3).trim() + ' ซับไทย';
+          seriesName = data.name;
+          if (seriesName.toLowerCase().endsWith('th')) {
+            seriesName = seriesName.slice(0, -2).trim() + ' พากย์ไทย';
+          } else if (seriesName.toLowerCase().endsWith('sub')) {
+            seriesName = seriesName.slice(0, -3).trim() + ' ซับไทย';
           }
-          document.title = `รับชม ${displayTitle} - Rongyok`;
-          document.getElementById('floatingTitle').textContent = displayTitle;
+          document.title = `รับชม ${seriesName} - Rongyok`;
 
           episodes = data.seasons[0].episodes;
 
-          // สร้างปุ่มเลือกตอน
           const list = document.getElementById('episodeList');
           episodes.forEach((ep, index) => {
             const btn = document.createElement('button');
@@ -131,7 +165,6 @@ video {
             list.appendChild(btn);
           });
 
-          // โหลดตอนแรกอัตโนมัติ
           if (episodes.length > 0) {
             loadEpisode(0);
           }
@@ -142,7 +175,6 @@ video {
         });
     }
 
-    // ฟังก์ชันโหลดตอน
     function loadEpisode(index) {
       currentIndex = index;
       player.source = {
@@ -150,9 +182,12 @@ video {
         sources: [{ src: episodes[index].video, type: 'video/mp4' }]
       };
       player.play();
+
+      // อัปเดต floating-title แบบ real-time
+      const titleBox = document.getElementById('floatingTitle');
+      titleBox.textContent = `${seriesName} - ${episodes[index].name}`;
     }
 
-    // Overlay แจ้งเตือน
     function showNextOverlay(nextEpName, callback) {
       const overlay = document.getElementById('nextOverlay');
       overlay.textContent = `กำลังเล่น ${nextEpName} ต่อไป...`;
@@ -163,7 +198,6 @@ video {
       }, 3000);
     }
 
-    // เมื่อวิดีโอจบ → เล่นตอนถัดไป
     player.on('ended', () => {
       if (currentIndex < episodes.length - 1) {
         const nextIndex = currentIndex + 1;
@@ -176,7 +210,6 @@ video {
       }
     });
 
-    // Wake Lock API
     async function requestWakeLock() {
       try {
         wakeLock = await navigator.wakeLock.request('screen');
@@ -196,13 +229,25 @@ video {
       }
     }
 
-    // ผูกกับ player
     player.on('play', () => {
       requestWakeLock();
     });
 
     player.on('pause', () => {
       releaseWakeLock();
+    });
+
+    // Toggle Sidebar
+    const toggleBtn = document.getElementById('toggleSidebar');
+    const sidebar = document.getElementById('episodeSidebar');
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+    });
+
+    // ปุ่มย้อนกลับ
+    const backBtn = document.getElementById('backBtn');
+    backBtn.addEventListener('click', () => {
+      window.history.back();
     });
   </script>
 </body>
