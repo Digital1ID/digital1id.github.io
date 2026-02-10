@@ -1,3 +1,4 @@
+// app.js
 let playlistData = [];
 let currentIndex = 0;
 let currentSeason = null;
@@ -11,6 +12,15 @@ function getQueryParams() {
     season: params.get("season"),
     name: params.get("name")
   };
+}
+
+// ✅ ฟังก์ชันตรวจจับและแปลงไฟล์ .txt เป็นลิงก์ตัวเล่นจริง
+function resolveAkumaUrl(url) {
+  if (url.includes("files.akuma-player.xyz/view/") && url.endsWith(".txt")) {
+    const id = url.split("/").pop().replace(".txt", "");
+    return `https://akuma-player.xyz/play/${id}?v=1`;
+  }
+  return url;
 }
 
 // ✅ แสดงข้อมูลซีรีส์/ซีซัน
@@ -29,12 +39,8 @@ function showInfo(info, serialName, category) {
 function playEpisode(url, index) {
   const videoFrame = document.getElementById("videoFrame");
 
-  // ตั้งค่า src
   videoFrame.src = url;
-
-  // ขยาย iframe ให้แสดงผล
   videoFrame.style.height = "480px";
-
   videoFrame.scrollIntoView({ behavior: "smooth", block: "center" });
 
   currentIndex = index;
@@ -52,13 +58,15 @@ function loadSeason(season) {
     const li = document.createElement("li");
     const btn = document.createElement("button");
 
-    // ใช้ engine จาก episode ถ้ามี, ถ้าไม่มีใช้ของ serialData
     const engine = ep.engine || serialData.engine || "videojs";
 
-    // ใช้ชื่อไฟล์ตาม engine เช่น videojs.html หรือ jwplayer.html รองรับ Subtitle
-    const url = `${engine}.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`
-           + (ep.subtitle ? `&subtitle=${encodeURIComponent(ep.subtitle)}` : "")
-           + (ep.subtitle_en ? `&subtitle_en=${encodeURIComponent(ep.subtitle_en)}` : "");
+    // ตรวจจับและแปลงลิงก์ก่อนส่งไป player
+    const resolvedUrl = resolveAkumaUrl(ep.video);
+
+    // ส่ง subtitle ถ้ามี
+    let url = `${engine}.html?file=${encodeURIComponent(resolvedUrl)}&name=${encodeURIComponent(ep.name)}`;
+    if (ep.subtitle) url += `&subtitle=${encodeURIComponent(ep.subtitle)}`;
+    if (ep.subtitle_en) url += `&subtitle_en=${encodeURIComponent(ep.subtitle_en)}`;
 
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.className = "block w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
@@ -111,7 +119,12 @@ document.getElementById("prevBtn").addEventListener("click", () => {
     currentIndex--;
     const ep = playlistData[currentIndex];
     const engine = ep.engine || serialData.engine || "videojs";
-    const url = `${engine}.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    const resolvedUrl = resolveAkumaUrl(ep.video);
+
+    let url = `${engine}.html?file=${encodeURIComponent(resolvedUrl)}&name=${encodeURIComponent(ep.name)}`;
+    if (ep.subtitle) url += `&subtitle=${encodeURIComponent(ep.subtitle)}`;
+    if (ep.subtitle_en) url += `&subtitle_en=${encodeURIComponent(ep.subtitle_en)}`;
+
     playEpisode(url, currentIndex);
   }
 });
@@ -121,7 +134,12 @@ document.getElementById("nextBtn").addEventListener("click", () => {
     currentIndex++;
     const ep = playlistData[currentIndex];
     const engine = ep.engine || serialData.engine || "videojs";
-    const url = `${engine}.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    const resolvedUrl = resolveAkumaUrl(ep.video);
+
+    let url = `${engine}.html?file=${encodeURIComponent(resolvedUrl)}&name=${encodeURIComponent(ep.name)}`;
+    if (ep.subtitle) url += `&subtitle=${encodeURIComponent(ep.subtitle)}`;
+    if (ep.subtitle_en) url += `&subtitle_en=${encodeURIComponent(ep.subtitle_en)}`;
+
     playEpisode(url, currentIndex);
   }
 });
