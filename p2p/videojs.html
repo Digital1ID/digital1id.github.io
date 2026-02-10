@@ -8,11 +8,70 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public">
   <title>Movie Player</title>
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .video-container {
+      width: 100vw;
+    }
+    @media screen and (orientation: landscape) {
+      .video-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9999;
+        background-color: #000;
+      }
+      .video-js {
+        width: 100vw !important;
+        height: 100vh !important;
+      }
+    }
+    .back-button {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      z-index: 10000;
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 14px;
+      backdrop-filter: blur(4px);
+      transition: background-color 0.3s;
+    }
+    .back-button:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+    .reload-button {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      z-index: 10000;
+      background-color: rgba(0, 123, 255, 0.3);
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 14px;
+      backdrop-filter: blur(4px);
+      transition: background-color 0.3s;
+    }
+    .reload-button:hover {
+      background-color: rgba(0, 123, 255, 0.6);
+    }
+  </style>
 </head>
-<body class="bg-[#141414] text-white font-sans">
-  <!-- Main -->
-  <main class="container mx-auto px-4 mt-8 mb-16">
+<body>
     <div class="relative aspect-video max-w-[854px] mx-auto">
       <video
         id="my-video"
@@ -80,3 +139,5 @@
   <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
+
+
