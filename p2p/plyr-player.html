@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>รับชม ยินดีต้อนรับสู่สวรรค์ ซับไทย - Rongyok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
+  <style>
+    body {
+      font-family: 'Prompt', sans-serif;
+      background: #0f0a19;
+      color: #fff;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .video-container { flex: 1; }
+    .episode-list { padding: 1rem; background: #1a132b; }
+    .episode-list button {
+      display: block;
+      margin: .5rem 0;
+      padding: .5rem 1rem;
+      background: #e53e3e;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .episode-list button:hover { background: #c53030; }
+  </style>
+</head>
+<body>
+  <h1 style="padding:1rem;">ยินดีต้อนรับสู่สวรรค์ (ซับไทย)</h1>
+  
+  <!-- Player -->
+  <div class="video-container">
+    <video id="player" playsinline controls></video>
+  </div>
+
+  <!-- Episode List -->
+  <div class="episode-list" id="episodeList"></div>
+
+  <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+  <script>
+    const player = new Plyr('#player', { ratio: '16:9' });
+
+    // โหลดข้อมูลจากไฟล์ JSON
+    fetch('data-lakon.json')
+      .then(res => res.json())
+      .then(data => {
+        const episodes = data.seasons[0].episodes;
+        const list = document.getElementById('episodeList');
+
+        episodes.forEach(ep => {
+          const btn = document.createElement('button');
+          btn.textContent = ep.name;
+          btn.addEventListener('click', () => {
+            player.source = {
+              type: 'video',
+              sources: [{ src: ep.video, type: 'video/mp4' }]
+            };
+            player.play();
+          });
+          list.appendChild(btn);
+        });
+
+        // โหลดตอนแรกอัตโนมัติ
+        if (episodes.length > 0) {
+          player.source = {
+            type: 'video',
+            sources: [{ src: episodes[0].video, type: 'video/mp4' }]
+          };
+        }
+      })
+      .catch(err => {
+        console.error('โหลดข้อมูลล้มเหลว', err);
+      });
+  </script>
+</body>
+</html>
