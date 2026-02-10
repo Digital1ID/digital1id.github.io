@@ -1,7 +1,19 @@
 [
   {
     "player": "p2p/playlist",
+    "name": "Fate strange Fake Whispers of Dawn มหาสงครามจอกศักดิ์สิทธิ์ ซับไทย",
+    "category": "ซีรี่ย์ การ์ตูน",
+    "info": {
+        "poster": "https://img.shirokami.me/images/2026/01/03/MV5BMzIyZDNmMmUtMGZkNC00MTJjLTlmYzUtODllYWM5NDQ4YTJjXkEyXkFqcGc._V1_.jpg",
+        "sound": "ญี่ปุ่น",
+        "subtitles": "บรรยายไทย"
+        },
+    "video": "6359"
+  },
+  {
+    "player": "p2p/playlist",
     "name": "Jujutsu Kaisen - มหาเวทย์ผนึกมาร",
+    "category": "ซีรี่ย์ การ์ตูน",
     "info": { 
         "poster": "https://img.shirokami.me/images/2026/01/28/154920l_11zon4657c185173d8484.webp",
         "sound": "พากย์ไทย - ญี่ปุ่น",
@@ -12,7 +24,7 @@
   {
     "player": "p2p/playlist",
     "name": "Hell's Paradise - สุขาวดีอเวจี",
-    "category": "",
+    "category": "ซีรี่ย์ การ์ตูน",
     "info": {
         "poster": "https://img.shirokami.me/images/2026/01/25/140418l_11zone1e943429ad2909a.webp",
         "sound": "พากย์ไทย",
@@ -18436,6 +18448,7 @@
     "info": "บรรยายไทย"
   }
 ]
+
 
 
 
