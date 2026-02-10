@@ -54,7 +54,7 @@ function loadSeason(season) {
 
     // ใช้ engine จาก episode ถ้ามี, ถ้าไม่มีใช้ของ serialData
     const engine = ep.engine || serialData.engine || "videojs";
-    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}&engine=${engine}`;
+    const url = `${engine}.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
 
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.className = "block w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
