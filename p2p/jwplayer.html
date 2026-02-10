@@ -80,43 +80,91 @@
 
   <!-- JWPlayer -->
   <script src="jw/jwplayer.js"></script>
-  <script>
-    jwplayer.key = "eNFaXCjyURVoCCGiHp7HTQ3hDhE/AfL0g8VE1fRbL84=";
+<script>
+  jwplayer.key = "eNFaXCjyURVoCCGiHp7HTQ3hDhE/AfL0g8VE1fRbL84=";
 
-    const params = new URLSearchParams(window.location.search);
-    let file = params.get("file");
-    let name = params.get("name");
+  // ===== Detect special hosts (JavaScript version) =====
+  function detectAkumaJS(url) {
+    try {
+      const u = new URL(url);
+      const host = u.host;
+      const path = u.pathname;
 
-    if (file) file = decodeURIComponent(file);
-    if (name) name = decodeURIComponent(name);
+      let m;
 
-    window.onload = function () {
-      if (file) {
-        if (name) {
-          document.title = name;
-          document.getElementById("videoTitle").innerText = name;
-        }
-
-        jwplayer("play").setup({
-          width: "100%",
-          height: "100%",
-          aspectratio: "16:9",
-          playlist: [{
-            sources: [{
-              file: file,
-              label: "HD",
-              type: file.includes(".m3u8") ? "hls" : "mp4"
-            }]
-          }],
-          primary: "html5",
-          hlshtml: true,
-          autostart: true
-        });
-      } else {
-        document.getElementById("videoTitle").innerText = "ไม่พบไฟล์วิดีโอ";
+      if (host === 'files.akuma-player.xyz' && (m = path.match(/^\/(view|watch|embed)\/([\w-]+)/))) {
+        return "https://akuma-player.xyz/play/" + m[2];
       }
-    };
+      if (host === 'master.steamhls88.com' && (m = path.match(/^\/hlsr2\/([a-z0-9]+)\/master\.m3u8$/i))) {
+        return "https://player.stream1689.com/p2p/" + m[1];
+      }
+      if (host === 'master.streamhls.com' && (m = path.match(/^\/hlsr2\/([a-z0-9]+)\/master\.m3u8$/i))) {
+        return "https://master.streamhls.com/p2p/" + m[1];
+      }
+      if (host === 'asset.fembed.co' && (m = path.match(/\/master\/th\/([a-zA-Z0-9]+)\.m3u8$/))) {
+        return "https://fembed.co/embed/" + m[1];
+      }
+      if (host === 'media-asset.fembed.co' && (m = path.match(/\/master\/th\/([a-zA-Z0-9]+)\.m3u8$/))) {
+        return "https://fembed.co/embed/" + m[1];
+      }
+      if (host === 'media-asset.fembed.co' && (m = path.match(/\/([a-zA-Z0-9]+)\/playlist\.m3u8$/))) {
+        return "https://play.baiwarp.com/embed/" + m[1];
+      }
+      if (host === 'text-lb.xmoviedo24.com' && path.match(/\/playlist2\/([a-zA-Z0-9]+)[^/]+\/master\.m3u8$/)) {
+        return "http://oneid151.serv00.net/p2p-player.php?url=" + encodeURIComponent(btoa(url));
+      }
+      if (host === 'api.doo-nang.com' && (m = path.match(/\/video\/([a-f0-9\-]{36})\/(?:[^/]+\/)?playlist\.m3u8$/i))) {
+        const metaID = m[1];
+        return "http://oneid151.serv00.net/api/doo-nang/player.php?url=" + encodeURIComponent(btoa(url)) + "&metaID=" + metaID;
+      }
+      if (host === 'api.xn--72czaud0ezbn4b8de.com' && (m = path.match(/\/video\/([a-f0-9\-]{36})\/(?:[^/]+\/)?playlist\.m3u8$/i))) {
+        const metaID = m[1];
+        return "http://oneid151.serv00.net/hls-player.php?url=" + encodeURIComponent(btoa(url)) + "&metaID=" + metaID;
+      }
+    } catch (e) {
+      console.error("detectAkumaJS error:", e);
+    }
+    return url; // ถ้าไม่ match ให้คืนค่าเดิม
+  }
 
+  const params = new URLSearchParams(window.location.search);
+  let file = params.get("file");
+  let name = params.get("name");
+
+  if (file) file = decodeURIComponent(file);
+  if (name) name = decodeURIComponent(name);
+
+  // ใช้ detectAkumaJS ก่อนเล่น
+  if (file) file = detectAkumaJS(file);
+
+  window.onload = function () {
+    if (file) {
+      if (name) {
+        document.title = name;
+        document.getElementById("videoTitle").innerText = name;
+      }
+
+      jwplayer("play").setup({
+        width: "100%",
+        height: "100%",
+        aspectratio: "16:9",
+        playlist: [{
+          sources: [{
+            file: file,
+            label: "HD",
+            type: file.includes(".m3u8") ? "hls" : "mp4"
+          }]
+        }],
+        primary: "html5",
+        hlshtml: true,
+        autostart: true
+      });
+    } else {
+      document.getElementById("videoTitle").innerText = "ไม่พบไฟล์วิดีโอ";
+    }
+  };
+</script>
+<script>
     // reload button
     document.getElementById("reloadBtn").addEventListener("click", (e) => {
       e.preventDefault();
