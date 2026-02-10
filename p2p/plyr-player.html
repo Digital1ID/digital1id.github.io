@@ -33,13 +33,13 @@
     .floating-title {
       position: absolute;
       top: 20px;
-      right: 20px; /* ย้ายไปฝั่งขวา */
+      right: 20px;
       background: rgba(0,0,0,0.6);
       color: #fff;
       padding: .3rem .8rem;
       border-radius: 6px;
       font-family: 'Prompt', sans-serif;
-      font-size: 1rem; /* ปรับให้เล็กลงพอดี */
+      font-size: 1rem; /* เล็กลงพอดี */
       z-index: 10;
     }
     .next-overlay {
@@ -73,6 +73,8 @@
     .episode-sidebar h2 {
       color: #fff;
       margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.1rem;
     }
     .episode-sidebar button {
       display: block;
@@ -124,7 +126,7 @@
     <div class="back-btn" id="backBtn">⬅ กลับ</div>
     <div id="nextOverlay" class="next-overlay"></div>
     <div class="episode-sidebar" id="episodeSidebar">
-      <h2>รายการตอน</h2>
+      <h2 id="seriesTitle">ชื่อเรื่อง</h2>
       <div id="episodeList"></div>
     </div>
   </div>
@@ -155,6 +157,9 @@
           }
           document.title = `รับชม ${seriesName} - Rongyok`;
 
+          // แสดงชื่อหนังใน Sidebar
+          document.getElementById('seriesTitle').textContent = seriesName;
+
           episodes = data.seasons[0].episodes;
 
           const list = document.getElementById('episodeList');
@@ -163,6 +168,7 @@
             btn.textContent = ep.name;
             btn.addEventListener('click', () => {
               loadEpisode(index);
+              sidebar.classList.remove('active'); // ปิด Sidebar หลังเลือกตอน
             });
             list.appendChild(btn);
           });
@@ -185,9 +191,9 @@
       };
       player.play();
 
-      // อัปเดต floating-title แบบ real-time
+      // Floating-title แสดงเฉพาะตอนที่กำลังเล่น
       const titleBox = document.getElementById('floatingTitle');
-      titleBox.textContent = `${seriesName} - ${episodes[index].name}`;
+      titleBox.textContent = episodes[index].name;
     }
 
     function showNextOverlay(nextEpName, callback) {
@@ -253,4 +259,4 @@
     });
   </script>
 </body>
-</html>
+</html
