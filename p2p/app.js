@@ -55,8 +55,10 @@ function loadSeason(season) {
     // ใช้ engine จาก episode ถ้ามี, ถ้าไม่มีใช้ของ serialData
     const engine = ep.engine || serialData.engine || "videojs";
 
-    // ใช้ชื่อไฟล์ตาม engine เช่น videojs.html หรือ jwplayer.html
-    const url = `${engine}.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
+    // ใช้ชื่อไฟล์ตาม engine เช่น videojs.html หรือ jwplayer.html รองรับ Subtitle
+    const url = `${engine}.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`
+           + (ep.subtitle ? `&subtitle=${encodeURIComponent(ep.subtitle)}` : "")
+           + (ep.subtitle_en ? `&subtitle_en=${encodeURIComponent(ep.subtitle_en)}` : "");
 
     btn.textContent = `EP${ep.episode}: ${ep.name}`;
     btn.className = "block w-full text-left px-3 py-2 bg-[#333] rounded hover:bg-[#444]";
