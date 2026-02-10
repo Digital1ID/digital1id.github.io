@@ -39,7 +39,7 @@
       padding: .3rem .8rem;
       border-radius: 6px;
       font-family: 'Prompt', sans-serif;
-      font-size: 1rem; /* เล็กลงพอดี */
+      font-size: 0.9rem;
       z-index: 10;
     }
     .next-overlay {
@@ -58,7 +58,7 @@
     .episode-sidebar {
       position: fixed;
       top: 0;
-      right: -300px; /* ซ่อนอยู่ด้านข้าง */
+      right: -300px; /* ซ่อนอยู่นอกจอ */
       width: 300px;
       height: 100%;
       background: rgba(0,0,0,0.9);
@@ -68,7 +68,7 @@
       z-index: 30;
     }
     .episode-sidebar.active {
-      right: 0; /* เลื่อนออกมา */
+      right: 0; /* เลื่อนเข้ามา */
     }
     .episode-sidebar h2 {
       color: #fff;
@@ -221,7 +221,6 @@
     async function requestWakeLock() {
       try {
         wakeLock = await navigator.wakeLock.request('screen');
-        console.log('Wake Lock activated');
         wakeLock.addEventListener('release', () => {
           console.log('Wake Lock released');
         });
