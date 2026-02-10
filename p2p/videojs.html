@@ -24,7 +24,7 @@
       width: 100vw !important;
       height: 100vh !important;
     }
-    .back-button, .reload-button, .switch-button {
+    .reload-button, .switch-button {
       position: fixed;
       top: 15px;
       z-index: 10000;
@@ -35,13 +35,6 @@
       backdrop-filter: blur(4px);
       transition: background-color 0.3s;
       color: #fff;
-    }
-    .back-button {
-      left: 15px;
-      background-color: rgba(255, 255, 255, 0.2);
-    }
-    .back-button:hover {
-      background-color: rgba(255, 255, 255, 0.4);
     }
     .reload-button {
       right: 20px;
@@ -103,9 +96,7 @@
       class="video-js vjs-default-skin"
       controls
       autoplay
-      preload="auto"
-      data-setup="{}">
-      <source id="videoSource" src="" type="">
+      preload="auto">
       ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
     </video>
   </div>
@@ -117,19 +108,47 @@
   const params = new URLSearchParams(window.location.search);
   let file = params.get("file");
   let name = params.get("name");
+  let sub = params.get("subtitle");
+  let subEn = params.get("subtitle_en");
 
   if (file) file = decodeURIComponent(file);
   if (name) name = decodeURIComponent(name);
-
-  const videoSource = document.getElementById("videoSource");
-  if (file) {
-    videoSource.src = file;
-    videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
-  }
+  if (sub) sub = decodeURIComponent(sub);
+  if (subEn) subEn = decodeURIComponent(subEn);
 
   const player = videojs("my-video");
 
-  // แสดงชื่อเรื่อง
+  // Multi-quality sources
+  if (file) {
+    const qualities = ["480p","720p","1080p"];
+    const labels = ["SD","HD","Full HD"];
+    const sources = qualities.map((q,i)=>{
+      const f = file.replace("720p",q);
+      return { src: f, label: labels[i], type: f.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4" };
+    });
+    player.src(sources);
+  }
+
+  // Subtitle tracks
+  if (sub && sub.trim() !== '' && sub !== 'undefined') {
+    player.addRemoteTextTrack({
+      src: sub,
+      kind: "captions",
+      srclang: "th",
+      label: "Thai",
+      default: true
+    }, false);
+  }
+  if (subEn && subEn.trim() !== '' && subEn !== 'undefined') {
+    player.addRemoteTextTrack({
+      src: subEn,
+      kind: "captions",
+      srclang: "en",
+      label: "English"
+    }, false);
+  }
+
+  // Show title
   if (name) {
     document.title = name;
     document.getElementById("videoTitle").textContent = name;
@@ -137,13 +156,13 @@
     document.getElementById("videoTitle").textContent = "ไม่พบไฟล์วิดีโอ";
   }
 
-  // ปุ่ม reload
+  // Reload button
   document.getElementById("reloadBtn").addEventListener("click", (e) => {
     e.preventDefault();
     location.reload();
   });
 
-  // ปุ่มสลับ Player → ไป jwplayer.html
+  // Switch Player button
   document.getElementById("switchBtn").addEventListener("click", (e) => {
     e.preventDefault();
     const newUrl = new URL(window.location.href);
