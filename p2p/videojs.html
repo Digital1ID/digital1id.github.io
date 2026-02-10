@@ -121,7 +121,7 @@
   if (name) name = decodeURIComponent(name);
 
   if (file) {
-    file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
+    file = file.replace(/^https:\/\/, "http://");
   }
 
   const videoSource = document.getElementById("videoSource");
