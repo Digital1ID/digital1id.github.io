@@ -65,6 +65,9 @@
 </head>
 <body>
   <!--a href="../movie.html" class="back-button">ย้อนกลับ</a-->
+  <a href="#" id="switchBtn" class="reload-button" style="right:100px; background-color:rgba(40,167,69,0.3)">
+  สลับ Player
+</a>
   <a href="#" id="reloadBtn" class="reload-button">โหลดซ้ำ</a>
 
   <div class="video-container">
@@ -105,11 +108,24 @@
       videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
     }
 
-    // ปุ่ม reload
-    document.getElementById("reloadBtn").addEventListener("click", (e) => {
-      e.preventDefault();
-      location.reload();
-    });
+  // ปุ่ม reload
+  document.getElementById("reloadBtn").addEventListener("click", (e) => {
+    e.preventDefault();
+    location.reload();
+  });
+
+  // ปุ่มสลับ Player
+  document.getElementById("switchBtn").addEventListener("click", (e) => {
+    e.preventDefault();
+    const newUrl = new URL(window.location.href);
+    // ถ้าไฟล์นี้ชื่อ videojs.html ให้สลับไป jwplayer.html
+    if (newUrl.pathname.includes("videojs.html")) {
+      newUrl.pathname = newUrl.pathname.replace("videojs.html", "jwplayer.html");
+    } else {
+      newUrl.pathname = newUrl.pathname.replace("jwplayer.html", "videojs.html");
+    }
+    window.location.href = newUrl.toString();
+  });
 
     // แสดงชื่อเรื่องทั้งใน title และ overlay และ console (หรือจะเอาไปใช้ใน UI ก็ได้)
     if (name) {
