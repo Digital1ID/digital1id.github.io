@@ -81,80 +81,95 @@
   <!-- JWPlayer -->
   <script src="jw/jwplayer.js"></script>
 <script>
-    jwplayer.key = "eNFaXCjyURVoCCGiHp7HTQ3hDhE/AfL0g8VE1fRbL84=";
+  jwplayer.key = "eNFaXCjyURVoCCGiHp7HTQ3hDhE/AfL0g8VE1fRbL84=";
 
-    const params = new URLSearchParams(window.location.search);
-    let file = params.get("file");
-    let name = params.get("name");
+  const params = new URLSearchParams(window.location.search);
+  let file = params.get("file");
+  let sub = params.get("subtitle"); 
+  let name = params.get("name");
 
-    if (file) file = decodeURIComponent(file);
-    if (name) name = decodeURIComponent(name);
+  if (file) file = decodeURIComponent(file);
+  if (sub) sub = decodeURIComponent(sub);
+  if (name) name = decodeURIComponent(name);
 
-window.onload = function () {
-  if (file) {
-    if (name) {
-      document.title = name;
-      document.getElementById("videoTitle").innerText = name;
-    }
-
-    jwplayer("play").setup({
-      width: "100%",
-      height: "100%",
-      aspectratio: "16:9",
-      playlist: [{
-        sources: [
-          { file: file.replace("720p", "480p"), label: "SD", type: file.includes(".m3u8") ? "hls" : "mp4" },
-          { file: file.replace("720p", "720p"), label: "HD", type: file.includes(".m3u8") ? "hls" : "mp4" },
-          { file: file.replace("720p", "1080p"), label: "Full HD", type: file.includes(".m3u8") ? "hls" : "mp4" }
-        ]
-      }],
-      primary: "html5",
-      hlshtml: true,
-      crossorigin: "anonymous",
-      controls: true,
-      autostart: true,
-      playbackRateControls: true,
-            captions: {
-                position: 'bottom',
-                backgroundOpacity: 0,
-                color: '#FFFFFF'
-            },
-            tracks: []
-    });
-
-    // Error Handling
-    jwplayer("play").on("error", function(event) {
-      document.getElementById("videoTitle").innerText = "เกิดข้อผิดพลาดในการโหลดวิดีโอ 'สลับ Player'";
-      console.error("JWPlayer error:", event);
-    });
-
-  } else {
-    document.getElementById("videoTitle").innerText = "ไม่พบไฟล์วิดีโอ";
-  }
-};
-
-    // reload button
-    document.getElementById("reloadBtn").addEventListener("click", (e) => {
-      e.preventDefault();
-      if (file) {
-        jwplayer("play").load([{
-          sources: [{
-            file: file,
-            label: "HD",
-            type: file.includes(".m3u8") ? "hls" : "mp4"
-          }]
-        }]);
-        jwplayer("play").play();
+  window.onload = function () {
+    if (file) {
+      if (name) {
+        document.title = name;
+        document.getElementById("videoTitle").innerText = name;
       }
-    });
-    
-    // ปุ่มสลับ Player → ไป videojs.html
+
+      // สร้าง config สำหรับ JWPlayer
+      const playerConfig = {
+        width: "100%",
+        height: "100%",
+        aspectratio: "16:9",
+        playlist: [{
+          sources: [
+            { file: file.replace("720p", "480p"), label: "SD", type: file.includes(".m3u8") ? "hls" : "mp4" },
+            { file: file.replace("720p", "720p"), label: "HD", type: file.includes(".m3u8") ? "hls" : "mp4" },
+            { file: file.replace("720p", "1080p"), label: "Full HD", type: file.includes(".m3u8") ? "hls" : "mp4" }
+          ],
+          tracks: [] // เตรียม subtitle tracks
+        }],
+        primary: "html5",
+        hlshtml: true,
+        crossorigin: "anonymous",
+        controls: true,
+        autostart: true,
+        playbackRateControls: true,
+        captions: {
+          position: 'bottom',
+          backgroundOpacity: 0,
+          color: '#FFFFFF'
+        }
+      };
+
+      // ถ้ามี subtitle ให้เพิ่มเข้าไป
+      if (sub && sub.trim() !== '' && sub !== 'undefined') {
+        playerConfig.playlist[0].tracks.push({
+          file: sub,
+          label: 'Thai',
+          kind: 'captions',
+          default: true
+        });
+      }
+
+      jwplayer("play").setup(playerConfig);
+
+      // Error Handling
+      jwplayer("play").on("error", function(event) {
+        document.getElementById("videoTitle").innerText = "เกิดข้อผิดพลาดในการโหลดวิดีโอ";
+        console.error("JWPlayer error:", event);
+      });
+
+    } else {
+      document.getElementById("videoTitle").innerText = "ไม่พบไฟล์วิดีโอ";
+    }
+  };
+
+  // reload button
+  document.getElementById("reloadBtn").addEventListener("click", (e) => {
+    e.preventDefault();
+    if (file) {
+      jwplayer("play").load([{
+        sources: [{
+          file: file,
+          label: "HD",
+          type: file.includes(".m3u8") ? "hls" : "mp4"
+        }]
+      }]);
+      jwplayer("play").play();
+    }
+  });
+
+  // ปุ่มสลับ Player → ไป videojs.html
   document.getElementById("switchBtn").addEventListener("click", (e) => {
     e.preventDefault();
     const newUrl = new URL(window.location.href);
     newUrl.pathname = newUrl.pathname.replace("jwplayer.html", "videojs.html");
     window.location.href = newUrl.toString();
   });
-  </script>
+</script>
 </body>
 </html>
