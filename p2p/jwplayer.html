@@ -54,8 +54,13 @@
       left: 20px;
       background-color: rgba(40, 167, 69, 0.3);
     }
-    .switch-button:hover { 
+    .switch-button:hover, .switch-btn-Error { 
       background-color: rgba(40,167,69,0.6); 
+    }
+    .switch-btn-Error {
+      bottom: 60px;
+      left: 20px;
+      background-color: rgba(40, 167, 69, 0.3);
     }
     #videoTitle {
       position: fixed;
@@ -140,7 +145,7 @@
       // Error Handling
       jwplayer("play").on("error", function(event) {
         document.getElementById("videoTitle").innerHTML = 
-  "<a href='#' id='switchBtnError' class='switch-button'>เกิดข้อผิดพลาดในการโหลดวิดีโอ สลับ Player</a>";
+  "<a href='#' id='switchBtnError' class='switch-btn-Error'>เกิดข้อผิดพลาดในการโหลดวิดีโอ สลับ Player</a>";
         console.error("JWPlayer error:", event);
       });
 
