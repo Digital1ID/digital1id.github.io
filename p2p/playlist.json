@@ -1,5 +1,98 @@
 [
   {
+    "id": "twisted-metal",
+    "name": "Twisted Metal (2023) EP.1-10 (จบ)",
+    "category": "ซีรี่ย์ ฝรั่ง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg",
+      "description": "คนนอกคอกปากร้ายไร้ความทรงจำเกี่ยวกับอดีต ได้รับโอกาสให้มีชีวิตที่ดีขึ้น แต่ก็ต้องแลกมาด้วยการส่งพัสดุปริศนาข้ามดินแดนรกร้างหลังหายนะ ด้วยความช่วยเหลือจากโจรขโมยรถสุดโหด เขาจะต้องเผชิญกับเหล่าโจรป่าเถื่อนที่ขับรถทำลายล้างและอันตรายอื่นๆ บนท้องถนน รวมถึงตัวตลกเพี้ยนๆ ที่ขับรถไอศกรีมที่คุ้นตา",
+      "year": 2023
+    },
+    "seasons": [
+      {
+        "season": 1,
+        "name": "Season 1",
+        "info": {
+          "poster": "https://media.themoviedb.org/t/p/w188_and_h282_face/3Zr9qJXqHQwi9IyPBDwukgg1jcZ.jpg",
+          "description": "คนนอกคอกปากร้ายไร้ความทรงจำเกี่ยวกับอดีต ได้รับโอกาสให้มีชีวิตที่ดีขึ้น แต่ก็ต้องแลกมาด้วยการส่งพัสดุปริศนาข้ามดินแดนรกร้างหลังหายนะ ด้วยความช่วยเหลือจากโจรขโมยรถสุดโหด เขาจะต้องเผชิญกับเหล่าโจรป่าเถื่อนที่ขับรถทำลายล้างและอันตรายอื่นๆ บนท้องถนน รวมถึงตัวตลกเพี้ยนๆ ที่ขับรถไอศกรีมที่คุ้นตา",
+          "year": 2026
+        },
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "EP. 1",
+            "video": "https://media.vdohls.com/dp2lfvemdt/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 2,
+            "name": "EP. 2",
+            "video": "https://media.vdohls.com/z4okjqrfz8/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 3,
+            "name": "EP. 3",
+            "video": "https://media.vdohls.com/3odvtzuj02/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 4,
+            "name": "EP. 4",
+            "video": "https://media.vdohls.com/2c5qinvt67/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 5,
+            "name": "EP. 5",
+            "video": "https://media.vdohls.com/pyp9inv7ph/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 6,
+            "name": "EP. 6",
+            "video": "https://media.vdohls.com/ff0kf7sf7x/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 7,
+            "name": "EP. 7",
+            "video": "https://media.vdohls.com/h99c9axgo8/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 8,
+            "name": "EP. 8",
+            "video": "https://media.vdohls.com/17ns1q3bl7/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 9,
+            "name": "EP. 9",
+            "video": "https://media.vdohls.com/2cyysjyt99/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 10,
+            "name": "EP. 10",
+            "video": "https://media.vdohls.com/wr7mzq2scv/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "our-parallel-universes-2024",
     "name": "Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ)",
     "category": "ซีรี่ย์ จีน",
