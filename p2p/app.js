@@ -107,7 +107,7 @@ document.getElementById("prevBtn").addEventListener("click", () => {
     currentIndex--;
     const ep = playlistData[currentIndex];
     const engine = ep.engine || serialData.engine || "videojs";
-    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}&engine=${engine}`;
+    const url = `${engine}.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
     playEpisode(url, currentIndex);
   }
 });
@@ -117,7 +117,7 @@ document.getElementById("nextBtn").addEventListener("click", () => {
     currentIndex++;
     const ep = playlistData[currentIndex];
     const engine = ep.engine || serialData.engine || "videojs";
-    const url = `index.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}&engine=${engine}`;
+    const url = `${engine}.html?file=${encodeURIComponent(ep.video)}&name=${encodeURIComponent(ep.name)}`;
     playEpisode(url, currentIndex);
   }
 });
