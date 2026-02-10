@@ -139,7 +139,8 @@
 
       // Error Handling
       jwplayer("play").on("error", function(event) {
-        document.getElementById("videoTitle").innerHTML = "เกิดข้อผิดพลาดในการโหลดวิดีโอ <a href='#' id='switchBtn' class='switch-button'>สลับ Player</a>";
+        document.getElementById("videoTitle").innerHTML = 
+  "เกิดข้อผิดพลาดในการโหลดวิดีโอ <a href='#' id='switchBtnError' class='switch-button'>สลับ Player</a>";
         console.error("JWPlayer error:", event);
       });
 
@@ -170,6 +171,14 @@
     newUrl.pathname = newUrl.pathname.replace("jwplayer.html", "videojs.html");
     window.location.href = newUrl.toString();
   });
+
+  document.getElementById("switchBtnError")?.addEventListener("click", (e) => {
+  e.preventDefault();
+  const newUrl = new URL(window.location.href);
+  newUrl.pathname = newUrl.pathname.replace("jwplayer.html", "videojs.html");
+  window.location.href = newUrl.toString();
+});
+
 </script>
 </body>
 </html>
