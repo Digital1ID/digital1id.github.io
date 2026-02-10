@@ -1,6 +1,34 @@
 [
   {
     "player": "p2p/player",
+    "name": "From the World of John Wick: Ballerina จักรวาลของ จอห์น วิค บัลเลรินา แค้นกว่านรก (2025)",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w440_and_h660_face/gQHzLJz7cjjYPTwwq7uYTWdreG0.jpg",
+      "description": "",
+      "year": 2025,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+    },
+    "video": "https://main.24playerhd.com/newplaylist/65955b82543e1803cd3134b7/65955b82543e1803cd3134b7.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "The SpongeBob Movie Search for SquarePants (2025) เดอะ สพันจ์บ็อบ มูฟวี่ ภารกิจตามหาสพันจ์บ็อบ",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/rojphxx05QkxzrmMKAP8sIYPZlj.jpg",
+      "description": "",
+      "year": 2025,
+        "sound": "พากย์ไทย",
+        "subtitles": ""
+    },
+    "video": "https://main.24playerhd.com/newplaylist/c15d938f7e7f19e5966a814c/c15d938f7e7f19e5966a814c.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "Shelter (2026) คลั่งนรก หลบตาย",
     "category": "ซูมโรง ชนโรง",
     "info": { 
