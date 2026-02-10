@@ -110,7 +110,16 @@ window.onload = function () {
       }],
       primary: "html5",
       hlshtml: true,
-      autostart: true
+      crossorigin: "anonymous",
+      controls: true,
+      autostart: true,
+      playbackRateControls: true,
+            captions: {
+                position: 'bottom',
+                backgroundOpacity: 0,
+                color: '#FFFFFF'
+            },
+            tracks: []
     });
 
     // Error Handling
