@@ -3175,7 +3175,79 @@
       }
     ]
   },
-    {
+  {
+    "id": "6359",
+    "name": "Fate strange Fake Whispers of Dawn มหาสงครามจอกศักดิ์สิทธิ์ ซับไทย",
+    "category": "ซีรี่ย์ การ์ตูน",
+    "info": {
+        "poster": "https://img.shirokami.me/images/2026/01/03/MV5BMzIyZDNmMmUtMGZkNC00MTJjLTlmYzUtODllYWM5NDQ4YTJjXkEyXkFqcGc._V1_.jpg",
+        "description": "เรื่องราวเกิดขึ้นหลังจากผ่านไปหลายปีของสงครามจอกศักดิ์สิทธิ์ครั้งที่ 5 ในญี่ปุ่นสิ้นสุดลง จุดศูนย์กลางครั้งนี้อยู่ที่สงครามจอกศักดิ์สิทธิ์ซึ่งถูกคัดลอกมาอย่างผิดพลาดครั้งที่สามในเมืองฟุยูกิ หลังจากสงครามจอกครั้งที่สามสิ้นสุดลง องค์กรจากสหรัฐอเมริกา ซึ่งประกอบด้วยจอมเวทที่แยกตัวจากสมาคมจอมเวทแห่งลอนดอน ได้ขโมยข้อมูลจากสงครามจอกของฟุยูกิและวางแผนประกอบพิธีกรรม เจ็ดสิบปีต่อมา พวกเขาใช้เมืองสโนว์ฟิลด์เป็นดินแดนศักดิ์สิทธิ์สำหรับสงครามจอก ถึงอย่างไง พวกเขาก็ไม่สามารถก็อปพิธีกรรมได้ครบถ้วน ส่งผลให้จอกครั้งนี้เป็นเพียงของเลียนแบบ ซึ่งทำให้สงครามครั้งนี้ได้สูญเสียคลาส Saber ไป และเปิดทางให้มีการอัญเชิญเซอร์แวนที่แปลกประหลายขึ้น",
+        "year": 2026
+    },
+    "seasons": [
+        {
+            "season": 1,
+            "name": "Fate strange Fake Whispers of Dawn มหาสงครามจอกศักดิ์สิทธิ์ ซับไทย Season 1",
+            "info": {
+                "poster": "https://img.shirokami.me/images/2026/01/03/MV5BMzIyZDNmMmUtMGZkNC00MTJjLTlmYzUtODllYWM5NDQ4YTJjXkEyXkFqcGc._V1_.jpg",
+                "description": "เรื่องราวเกิดขึ้นหลังจากผ่านไปหลายปีของสงครามจอกศักดิ์สิทธิ์ครั้งที่ 5 ในญี่ปุ่นสิ้นสุดลง จุดศูนย์กลางครั้งนี้อยู่ที่สงครามจอกศักดิ์สิทธิ์ซึ่งถูกคัดลอกมาอย่างผิดพลาดครั้งที่สามในเมืองฟุยูกิ หลังจากสงครามจอกครั้งที่สามสิ้นสุดลง องค์กรจากสหรัฐอเมริกา ซึ่งประกอบด้วยจอมเวทที่แยกตัวจากสมาคมจอมเวทแห่งลอนดอน ได้ขโมยข้อมูลจากสงครามจอกของฟุยูกิและวางแผนประกอบพิธีกรรม เจ็ดสิบปีต่อมา พวกเขาใช้เมืองสโนว์ฟิลด์เป็นดินแดนศักดิ์สิทธิ์สำหรับสงครามจอก ถึงอย่างไง พวกเขาก็ไม่สามารถก็อปพิธีกรรมได้ครบถ้วน ส่งผลให้จอกครั้งนี้เป็นเพียงของเลียนแบบ ซึ่งทำให้สงครามครั้งนี้ได้สูญเสียคลาส Saber ไป และเปิดทางให้มีการอัญเชิญเซอร์แวนที่แปลกประหลายขึ้น",
+                "year": 2026
+            },
+            "episodes": [
+                {
+                    "episode": 1,
+                    "name": "ตอนที่ 1",
+                    "video": "https://files.akuma-player.xyz/view/b1b87c6a-8604-523d-b42a-5ca524d1e3c8.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                },
+                {
+                    "episode": 2,
+                    "name": "ตอนที่ 2",
+                    "video": "https://files.akuma-player.xyz/view/848e6c4a-97f2-5198-99bf-496d9a50b07d.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                },
+                {
+                    "episode": 3,
+                    "name": "ตอนที่ 3",
+                    "video": "https://files.akuma-player.xyz/view/9ccc699f-dfac-527d-aca7-c42204406306.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                },
+                {
+                    "episode": 4,
+                    "name": "ตอนที่ 4",
+                    "video": "https://files.akuma-player.xyz/view/ae318d4d-7421-56c8-b630-32ee7052ddc3.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                },
+                {
+                    "episode": 5,
+                    "name": "ตอนที่ 5",
+                    "video": "https://files.akuma-player.xyz/view/4f832420-101f-5851-b059-b8034c0f4a88.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                },
+                {
+                    "episode": 6,
+                    "name": "ตอนที่ 6",
+                    "video": "https://files.akuma-player.xyz/view/0ef942eb-e342-50dc-9b16-3270fb2ed8df.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                },
+                {
+                    "episode": 7,
+                    "name": "ตอนที่ 7",
+                    "video": "",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                }
+            ]
+        }
+    ]
+},
+{
         "id": "6461",
         "engine": "jwplayer",
         "name": "Jujutsu Kaisen - มหาเวทย์ผนึกมาร",
