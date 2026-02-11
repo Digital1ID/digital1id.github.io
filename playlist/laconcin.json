@@ -1,6 +1,6 @@
 [
   {
-    "player": "p2p/plyr-player",
+    "player": "p2p/api-plyr",
     "name": "ดาบสังหารมังกร",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -12,7 +12,7 @@
     "video": "1285"
   },
   {
-    "player": "p2p/plyr-player",
+    "player": "p2p/api-plyr",
     "name": "ชาติใหม่ของเจ้าหญิงสายหวาน",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -24,7 +24,7 @@
     "video": "1284"
   },
   {
-    "player": "p2p/plyr-player",
+    "player": "p2p/api-plyr",
     "name": "ลูกในความลับพ่อมหาเศรษฐี",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -36,7 +36,7 @@
     "video": "1274"
   },
   {
-    "player": "p2p/plyr-player",
+    "player": "p2p/api-plyr",
     "name": "ทะลุมิติมาสะสมรัก2",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -48,7 +48,7 @@
     "video": "973"
   },
   {
-    "player": "p2p/plyr-player",
+    "player": "p2p/api-plyr",
     "name": "ยินดีต้อนรับสู่สวรรค์",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -60,7 +60,7 @@
     "video": "1038"
   },
   {
-    "player": "p2p/plyr-player",
+    "player": "p2p/api-plyr",
     "name": "",
     "category": "ละครสั้นจีน",
     "info": { 
