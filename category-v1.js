@@ -39,24 +39,31 @@ function createMovieCard(movie) {
     }
     // *******************************************************
 
-    const soundText = movie.info?.sound || (typeof movie.info === 'string' ? movie.info : '');
-    const subtitleText = movie.info?.subtitles || '';
+  const soundText = movie.info?.sound || (typeof movie.info === 'string' ? movie.info : '');
+  const subtitleText = movie.info?.subtitles || '';
+  const posterUrl = movie.logo || movie.image || movie.poster || (typeof movie.info === 'object' ? movie.info.poster : null);
+
+  // Debug log
+  console.log("DEBUG:", { name: movie.name, posterUrl, infoPoster: movie.info?.poster });
 
     return `
         <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-red-500/30 transition duration-300 poster-card group cursor-pointer">
-            <div class="relative">
-                <a href="${watchUrl}">
-                    <img src="${movie.logo || movie.image || movie.poster || movie.info?.poster}"
-                         onerror="this.onerror=null;this.src='https://via.placeholder.com/150x225?text=No+Image';"
-                         alt="${movie.name}"
-                         class="w-full h-[225px] object-cover transition duration-500">
-                </a>
-            </div>
-            <div class="p-2">
-                <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
-                <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
-                <p class="text-xs text-gray-400">คำบรรยาย : ${subtitleText}</p>
-            </div>
+      <a href="${watchUrl}">
+        <div class="relative">
+          <img src="${posterUrl || '/images/no-image.jpg.svg'}"
+               onerror="this.onerror=null;this.src='/images/no-image.jpg.svg';"
+               alt="${movieName}"
+               class="w-full h-[225px] object-cover transition duration-500">
+          <div class="absolute top-1 right-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs px-2 py-1 rounded-md font-medium shadow-md border border-blue-400/30">
+            ${soundText}
+          </div>
+        </div>
+        <div class="p-2">
+          <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
+          <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
+          <p class="text-xs text-gray-400">คำบรรยาย : ${subtitleText}</p>
+        </div>
+      </a>
         </div>
     `;
 }
