@@ -32,11 +32,10 @@ function createMovieCard(movie) {
   const subtitleText = movie.info?.subtitles || '';
 
   // ✅ รองรับ poster ทั้งบนสุดและใน info
-  const posterUrl =
-    movie.logo ||
-    movie.image ||
-    movie.poster ||
-    (typeof movie.info === 'object' ? movie.info.poster : null);
+  const posterUrl = movie.logo || movie.image || movie.poster || (typeof movie.info === 'object' ? movie.info.poster : null);
+
+  // 🔍 Debug log
+  console.log("DEBUG movie:", movie.name, "posterUrl:", posterUrl, "info.poster:", movie.info?.poster);
 
   return `
     <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/30 transition duration-300 poster-card group cursor-pointer">
