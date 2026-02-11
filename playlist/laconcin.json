@@ -4,7 +4,7 @@
     "name": "ดาบสังหารมังกร",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "data-lakon/2026-1285.jpg",
+        "poster": "./data-lakon/2026-1285.jpg",
         "description": "",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -16,7 +16,7 @@
     "name": "ชาติใหม่ของเจ้าหญิงสายหวาน",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "data-lakon/2026-1284.jpg",
+        "poster": "./data-lakon/2026-1284.jpg",
         "description": "",
         "year": 2026,
         "sound": "พากย์ไทย"
