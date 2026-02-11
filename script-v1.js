@@ -17,6 +17,7 @@ let allMoviesByTitle = {};
 let originalSectionsHtml = ''; // เก็บ HTML หน้าหลักเดิม
 
 // --- [ COMMON FUNCTIONS ] ---
+
 function createMovieCard(movie) {
   const moviePlayer = movie.player || 'watch';
   const movieFile = movie.file || movie.url || movie.video;
@@ -35,23 +36,36 @@ function createMovieCard(movie) {
   const posterUrl = movie.logo || movie.image || movie.poster || (typeof movie.info === 'object' ? movie.info.poster : null);
 
   // 🔍 Debug log
-  console.log("DEBUG movie:", movie.name, "posterUrl:", posterUrl, "info.poster:", movie.info?.poster);
+  console.log("DEBUG:", {
+    name: movie.name,
+    posterUrl: posterUrl,
+    infoPoster: movie.info?.poster,
+    rawInfo: movie.info
+  });
 
   return `
     <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/30 transition duration-300 poster-card group cursor-pointer">
-      <div class="relative">
-        <a href="${watchUrl}">
-          <img src="${posterUrl || 'https://via.placeholder.com/150x225?text=No+Image'}"
-               onerror="this.onerror=null;this.src='https://via.placeholder.com/150x225?text=No+Image';"
-               alt="${movieName}"
-               class="w-full h-[225px] object-cover transition duration-500">
-        </a>
-      </div>
-      <div class="p-2">
-        <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
-        <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
-        <p class="text-xs text-gray-400">คำบรรยาย : ${subtitleText}</p>
-      </div>
+    <div class="relative">
+      <a href="${watchUrl}">
+        <div class="relative overflow-hidden rounded-lg">
+          <img 
+            src="${posterUrl || '/images/no-image.jpg.svg'}" 
+            alt="${movieName}" 
+            class="w-full h-[225px] object-cover" 
+            loading="lazy"
+            onerror="this.onerror=null; this.src='/images/no-image.jpg.svg';"
+          >
+          <div 
+            class="absolute top-1 right-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs px-2 py-1 rounded-md font-medium shadow-md border border-blue-400/30" 
+            role="img" 
+            aria-label="${soundText}">
+            ${soundText}
+          </div>
+        </div>
+        <div class="movie-tag text-xs md:text-sm py-1 md:py-2 truncate" title="${movieName}">
+          ${movieName}
+        </div>
+      </a>
     </div>
   `;
 }
