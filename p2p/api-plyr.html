@@ -101,7 +101,7 @@ document.getElementById('backBtn').addEventListener('click',()=>window.history.b
 // --- Main ---
 (async function main(){
   const params=new URLSearchParams(window.location.search);
-  const seriesId=params.get("series_id")||"1038";
+  const seriesId=params.get("file")||"";
   const url=`https://rongyok.com/watch/?series_id=${seriesId}`;
   const html=await fetchViaProxy(url);
   const data=extractSeriesData(html);
