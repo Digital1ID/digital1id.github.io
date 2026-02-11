@@ -37,6 +37,42 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "นักรบผู้ถูกเหยียดหยามปล่อยพลัง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "../playlist/data-lakon/2026-1254.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1254"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ข้าไม่อยากยุ่งเรื่องในวัง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "../playlist/data-lakon/2026-1220.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1220"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "อเมริกันสไนเปอร์นัดสุดท้าย",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "../playlist/data-lakon/2026-1214.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1214"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "ทะลุมิติมาสะสมรัก2",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -49,10 +85,22 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": ""
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "ยินดีต้อนรับสู่สวรรค์",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "https://rongyok.com/images/poster/%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%AA%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%84%E0%B9%8C-%E0%B8%8B%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%97%E0%B8%A2-2026-1038.webp",
+        "poster": "../playlist/data-lakon/2026-1038.webp",
         "description": "",
         "year": 2026,
         "sound": "บรรยายไทย"
@@ -64,7 +112,7 @@
     "name": "",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "",
+        "poster": "../playlist/data-lakon/2026-.webp",
         "description": "",
         "year": 2026,
         "sound": "พากย์ไทย"
