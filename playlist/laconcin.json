@@ -40,7 +40,7 @@
     "name": "นักรบผู้ถูกเหยียดหยามปล่อยพลัง",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "../playlist/data-lakon/2026-1254.webp",
+        "poster": "https://xn--72c9ab1ec1bc6q.online//uploads/posters/e0f7cbae100995c7a3da69fd94b2c30a.webp",
         "description": "",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -52,7 +52,7 @@
     "name": "ข้าไม่อยากยุ่งเรื่องในวัง",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "../playlist/data-lakon/2026-1220.webp",
+        "poster": "https://xn--72c9ab1ec1bc6q.online//uploads/posters/6e2ca37df3f95713c73ba929c74350d6.webp",
         "description": "",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -70,6 +70,18 @@
         "sound": "พากย์ไทย"
         },
     "video": "1214"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ชายาฮ่องเต้ข้านี่แหละคือชะตาหงส์ตัวจริง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "../playlist/data-lakon/2026-1130.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1130"
   },
   {
     "player": "p2p/api-plyr",
