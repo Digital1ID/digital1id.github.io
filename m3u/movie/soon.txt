@@ -47,6 +47,14 @@ https://statics-01.duckduckcdn.com/73cbf27e-5455-5402-bfd8-36f8dedc80b2/audio-th
 https://statics-01.duckduckcdn.com/73cbf27e-5455-5402-bfd8-36f8dedc80b2/audio-tha/audio.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="12", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E12
 https://statics-01.duckduckcdn.com/7ca302ea-ebaf-5fcd-a161-ebcc6c569927/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="13", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E13
+https://oklive-1.xyz/cdn/hls/65b94e446e65ec21fcff7eeb8b18db49/master.txt?s=3&d=
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="14", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E14
+https://oklive-1.xyz/cdn/hls/5ecd337c7a132b0a480566246d062f0a/master.txt?s=3&d=
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="15", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E15
+https://online225.com/cdn/hls/4858faf1e3771e510acfc7bf44d07c4b/master.txt?s=2&d=
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="16", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E16
+https://online225.com/cdn/hls/a9126d406d5aae0820e69729cd55b8ce/master.txt?s=2&d=
 
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="1", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E01
