@@ -57,7 +57,7 @@ function createMovieCard(movie) {
   `;
 }
 
-// Section แบบ Netflix (มีปุ่มเลื่อนซ้าย–ขวา)
+// --- [ INDEX.HTML LOGIC ] ---
 function createMovieSection(title, movies, categoryKey, isSearch = false) {
   const limit = isSearch ? movies.length : ITEMS_PER_ROW;
   const limitedMovies = movies.slice(0, limit);
@@ -93,29 +93,6 @@ function createMovieSection(title, movies, categoryKey, isSearch = false) {
       </button>
     </section>
   `;
-}
-
-// --- [ INDEX.HTML LOGIC ] ---
-function createMovieSection(title, movies, categoryKey, isSearch = false) {
-    const limit = isSearch ? movies.length : ITEMS_PER_ROW;
-    const limitedMovies = movies.slice(0, limit);
-    const cardsHtml = limitedMovies.map(createMovieCard).join('');
-
-    const categoryUrl = `category.html?cat=${categoryKey}`;
-
-    return `
-        <section class="mb-10">
-            <a href="${categoryUrl}" class="group block mb-6">
-                <h3 class="text-3xl font-bold border-l-4 border-red-600 pl-3 transition duration-300 group-hover:text-red-500">
-                    ${title} 
-                    <span class="text-red-600 text-xl ml-2 group-hover:ml-3 transition-all duration-300">›</span>
-                </h3>
-            </a>
-            <div class="horizontal-scroll-container flex space-x-2 overflow-x-auto pb-4 -mx-4 px-4 sm:mx-0 sm:px-0">
-                ${cardsHtml}
-            </div>
-        </section>
-    `;
 }
 
 async function loadAllMovies() {
