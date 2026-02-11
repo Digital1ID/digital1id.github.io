@@ -17,7 +17,6 @@ let allMoviesByTitle = {};
 let originalSectionsHtml = ''; // เก็บ HTML หน้าหลักเดิม
 
 // --- [ COMMON FUNCTIONS ] ---
-
 function createMovieCard(movie) {
   const moviePlayer = movie.player || 'watch';
   const movieFile = movie.file || movie.url || movie.video;
@@ -31,42 +30,68 @@ function createMovieCard(movie) {
 
   const soundText = movie.info?.sound || (typeof movie.info === 'string' ? movie.info : '');
   const subtitleText = movie.info?.subtitles || '';
-
-  // ✅ รองรับ poster ทั้งบนสุดและใน info
   const posterUrl = movie.logo || movie.image || movie.poster || (typeof movie.info === 'object' ? movie.info.poster : null);
 
-  // 🔍 Debug log
-  console.log("DEBUG:", {
-    name: movie.name,
-    posterUrl: posterUrl,
-    infoPoster: movie.info?.poster,
-    rawInfo: movie.info
-  });
+  // Debug log
+  console.log("DEBUG:", { name: movie.name, posterUrl, infoPoster: movie.info?.poster });
 
   return `
-    <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/30 transition duration-300 poster-card group cursor-pointer">
-    <div class="relative">
+    <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/30 transition duration-300 group cursor-pointer">
       <a href="${watchUrl}">
-        <div class="relative overflow-hidden rounded-lg">
-          <img 
-            src="${posterUrl || '/images/no-image.jpg.svg'}" 
-            alt="${movieName}" 
-            class="w-full h-[225px] object-cover" 
-            loading="lazy"
-            onerror="this.onerror=null; this.src='/images/no-image.jpg.svg';"
-          >
-          <div 
-            class="absolute top-1 right-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs px-2 py-1 rounded-md font-medium shadow-md border border-blue-400/30" 
-            role="img" 
-            aria-label="${soundText}">
+        <div class="relative">
+          <img src="${posterUrl || '/images/no-image.jpg.svg'}"
+               onerror="this.onerror=null;this.src='/images/no-image.jpg.svg';"
+               alt="${movieName}"
+               class="w-full h-[225px] object-cover transition duration-500">
+          <div class="absolute top-1 right-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs px-2 py-1 rounded-md font-medium shadow-md border border-blue-400/30">
             ${soundText}
           </div>
         </div>
-        <div class="movie-tag text-xs md:text-sm py-1 md:py-2 truncate" title="${movieName}">
-          ${movieName}
+        <div class="p-2">
+          <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
+          <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
+          <p class="text-xs text-gray-400">คำบรรยาย : ${subtitleText}</p>
         </div>
       </a>
     </div>
+  `;
+}
+
+// Section แบบ Netflix (มีปุ่มเลื่อนซ้าย–ขวา)
+function createMovieSection(title, movies, categoryKey, isSearch = false) {
+  const limit = isSearch ? movies.length : ITEMS_PER_ROW;
+  const limitedMovies = movies.slice(0, limit);
+  const cardsHtml = limitedMovies.map(createMovieCard).join('');
+  const categoryUrl = `category.html?cat=${categoryKey}`;
+
+  return `
+    <section class="mb-10 relative">
+      <a href="${categoryUrl}" class="group block mb-6">
+        <h3 class="text-3xl font-bold border-l-4 border-red-600 pl-3 transition duration-300 group-hover:text-red-500">
+          ${title} 
+          <span class="text-red-600 text-xl ml-2 group-hover:ml-3 transition-all duration-300">›</span>
+        </h3>
+      </a>
+
+      <!-- ปุ่มเลื่อนซ้าย -->
+      <button 
+        class="absolute left-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 z-10"
+        onclick="scrollSection(this, -1)">
+        ‹
+      </button>
+
+      <!-- Container แนวนอน -->
+      <div class="flex space-x-2 overflow-x-auto scrollbar-hide pb-4 px-4 snap-x snap-mandatory scroll-smooth" id="movie-row">
+        ${cardsHtml}
+      </div>
+
+      <!-- ปุ่มเลื่อนขวา -->
+      <button 
+        class="absolute right-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 z-10"
+        onclick="scrollSection(this, 1)">
+        ›
+      </button>
+    </section>
   `;
 }
 
