@@ -23,16 +23,31 @@
 
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="1", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | บรรยายไทย | EP.1-32 ยังไม่จบ S01 E01
-https://media.vdohls.com/WMsL-Tu_rOPjb/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="2", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | บรรยายไทย | EP.1-32 ยังไม่จบ S01 E02
-https://media.vdohls.com/1-mTelH8H_lVJ/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="3", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | บรรยายไทย | EP.1-32 ยังไม่จบ S01 E03
-https://media.vdohls.com/WKjKs-T_Wq7ie/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="4", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | บรรยายไทย | EP.1-32 ยังไม่จบ S01 E04
-https://media.vdohls.com/pQ_g-uzDqTTH8/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="5", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | บรรยายไทย | EP.1-32 ยังไม่จบ S01 E05
-https://media.vdohls.com/y3WEfn_D-R8Ew/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="1", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E01
+https://statics-02.duckduckcdn.com/6349a059-718e-516c-87a6-0dd1347b820f/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="2", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E02
+https://statics-02.duckduckcdn.com/9a1f19a0-d851-5386-b5e7-97a4ae61184f/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="3", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E03
+https://statics-02.duckduckcdn.com/b7ade16c-756d-543a-a412-b6714386b4af/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="4", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E04
+https://statics-02.duckduckcdn.com/5e228baa-d105-5fe3-b6d4-f02ec9031fbf/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="5", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E05
+https://statics-02.duckduckcdn.com/c1eb55a0-b338-537e-b880-73afc7a4f205/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="6", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E06
+https://statics-02.duckduckcdn.com/9abef6c8-e9e8-52df-b9d9-fb28c635dee2/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="7", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E07
+https://statics-02.duckduckcdn.com/0599cca3-f34a-5f6d-aeba-0d115511ae6e/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="8", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E08
+https://statics-02.duckduckcdn.com/9113c7f5-51f1-5e34-abac-5090025710bc/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="9", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E09
+https://statics-01.duckduckcdn.com/4e725d8d-8344-5514-938c-5fc86e899191/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="10", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E10
+https://statics-01.duckduckcdn.com/73cbf27e-5455-5402-bfd8-36f8dedc80b2/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="11", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E11
+https://statics-01.duckduckcdn.com/73cbf27e-5455-5402-bfd8-36f8dedc80b2/audio-tha/audio.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="12", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | EP.1-32 ยังไม่จบ S01 E12
+https://statics-01.duckduckcdn.com/7ca302ea-ebaf-5fcd-a161-ebcc6c569927/audio-tha/audio.m3u8
+
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="1", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E01
 https://media.vdohls.com/lUC5c-jt_PfE1/playlist.m3u8
