@@ -4,7 +4,7 @@
     "name": "ดาบสังหารมังกร",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "./data-lakon/2026-1285.jpg",
+        "poster": "../playlist/data-lakon/2026-1285.webp",
         "description": "",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -16,7 +16,7 @@
     "name": "ชาติใหม่ของเจ้าหญิงสายหวาน",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "./data-lakon/2026-1284.jpg",
+        "poster": "../playlist/data-lakon/2026-1284.webp",
         "description": "",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -28,7 +28,7 @@
     "name": "ลูกในความลับพ่อมหาเศรษฐี",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "data-lakon/2026-1274.jpg",
+        "poster": "../playlist/data-lakon/2026-1274.webp",
         "description": "",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -73,5 +73,6 @@
   }
 
 ]
+
 
 
