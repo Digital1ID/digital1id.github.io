@@ -1,6 +1,18 @@
 [
   {
     "player": "p2p/api-plyr",
+    "name": "ทะลุมิติตะลุยวังหลวง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4M82cXzARhnZn_WmrqZ2n09kQDq95scmjZpI1sLCH3A&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "761"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "ดาบสังหารมังกร",
     "category": "ละครสั้นจีน",
     "info": { 
