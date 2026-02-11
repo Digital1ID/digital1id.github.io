@@ -85,6 +85,42 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "เด็กสาวผู้เลือกดาบ",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/091c976bc06e9c6882eab0bee9e8e7bb.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1086"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ลูกเขยขอทานผู้ยิ่งใหญ่",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/ec123679619b5583e1ee090711f7f16d.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1015"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ดวงตาสวรรค์ในเมืองใหญ่",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/f9ab727647984bb553a13faffc8c9957.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "991"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "ทะลุมิติมาสะสมรัก2",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -97,27 +133,123 @@
   },
   {
     "player": "p2p/api-plyr",
-    "name": "",
+    "name": "ปรมาจารย์ตาบอด",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "",
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/eacfc3336d33a83ecf354b6298fa0e31.webp",
         "description": "",
         "year": 2026,
         "sound": "พากย์ไทย"
         },
-    "video": ""
+    "video": "881"
   },
   {
     "player": "p2p/api-plyr",
-    "name": "ยินดีต้อนรับสู่สวรรค์",
+    "name": "ผู้มาเยือนจากอดีต",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "../playlist/data-lakon/2026-1038.webp",
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/8f95faa24d8306200938b7ae6a45b65a.webp",
         "description": "",
         "year": 2026,
-        "sound": "บรรยายไทย"
+        "sound": "พากย์ไทย"
         },
-    "video": "1038"
+    "video": "842"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ฟ้าลิขิตภรรยาใบ้",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSNiS3iMV2XsFA58jCZubNUhovPs6y3hmPBOBOuO9hxQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "797"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ตั้งแต่วันนี้ฉันคือคนรวยที่สุด",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/3bdc8dafe1420fe289c9ce855d10c98e.png",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "787"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ดาบลับในโลกวิปลาส",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/753797e05d0f8078b2b11ea9a8a56d53.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "780"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ราชันมังกรหวนคืน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/b9ad5bb3323d84fc697a95bb6ce9b4d7.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "769"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ดวงตาแห่งความมั่งคั่ง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/fbe04c451027dfdd8a1d14d596667752.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "759"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "รักษาภรรยาผู้เป็นมนุษย์ของข้า",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/edd4bd7ea915279c068f9652e77a6bd2.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "741"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ดวงตาแห่งโชคชะตา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/71232b957daa6816be2cceeb2d5ff50c.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "713"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เกมนี้ฉันคือผู้คุม",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://www.xn--72c9ab1ec1bc6q.online/uploads/posters/5c9bf1b3df6e12e0db4337baf55bc353.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "712"
   },
   {
     "player": "p2p/api-plyr",
