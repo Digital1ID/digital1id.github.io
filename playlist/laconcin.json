@@ -49,6 +49,18 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "คุณหนูตัวร้ายกับองค์ชายสี่",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyxIxh3HdtgoK-9iwgsyDCZKyDlU45Qypv2di_qpdamQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1269"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "นักรบผู้ถูกเหยียดหยามปล่อยพลัง",
     "category": "ละครสั้นจีน",
     "info": { 
