@@ -265,6 +265,18 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "ในอ้อมกอดของข้า",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://zshipubcdn.farsunpteltd.com/playlet/1749015258_6YKRnY2eMX.jpg?x-oss-process=image/resize,w_300,image/format,webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "391"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "",
     "category": "ละครสั้นจีน",
     "info": { 
