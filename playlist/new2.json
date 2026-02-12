@@ -1,14 +1,39 @@
 [
   {
     "player": "p2p/player",
+    "name": "Return to Silent Hill (2026) เมืองห่าผี นครคืนชีพ",
+    "category": "ซูมโรง ชนโรง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ocVWTfImJpCqlO52DxpQXgj3MQO.jpg",
+      "plot": "",
+      "year": 2026,
+        "sound": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/89749854cfafbca214b38913/89749854cfafbca214b38913.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Primate (2026) ลิงคลั่งพันธุ์ดิบ",
+    "category": "ซูมโรง ชนโรง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/lNFxrtwkiwWUY85bKI2PXT40OZy.jpg",
+      "plot": "",
+      "year": 2026,
+        "sound": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/c79b8b16ffbeb8676cd569fd/c79b8b16ffbeb8676cd569fd.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "From the World of John Wick: Ballerina จักรวาลของ จอห์น วิค บัลเลรินา แค้นกว่านรก (2025)",
     "category": "หนังแนะนำ",
     "info": {
-      "poster": "https://media.themoviedb.org/t/p/w440_and_h660_face/gQHzLJz7cjjYPTwwq7uYTWdreG0.jpg",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/gQHzLJz7cjjYPTwwq7uYTWdreG0.jpg",
       "plot": "",
       "year": 2025,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/65955b82543e1803cd3134b7/65955b82543e1803cd3134b7.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -21,8 +46,7 @@
       "poster": "https://www.24-hdmovie.com/wp-content/uploads/2026/02/This-is-I-2026-%E0%B8%99%E0%B8%B5%E0%B9%88%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%89%E0%B8%B1%E0%B8%99-187x269.png",
       "plot": "",
       "year": 2025,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/7f39b6446cc67bc833988632/7f39b6446cc67bc833988632.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -35,8 +59,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/rojphxx05QkxzrmMKAP8sIYPZlj.jpg",
       "plot": "",
       "year": 2025,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/c15d938f7e7f19e5966a814c/c15d938f7e7f19e5966a814c.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -48,8 +71,7 @@
     "info": { 
         "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/tpMafEgJ53zroHCZUF3sy62HQXa.jpg",
         "plot": "เมสัน คือชายผู้ใช้ชีวิตอย่างสันโดษบนเกาะแห่งหนึ่ง ในตอนที่เขาเลือกที่จะช่วยชีวิตเด็กหญิงหนึ่งจากการจมนํ้าในพายุที่โหมกระหน่ำ เขาก็ได้จุดชนวนให้เหตุการณ์หลายอย่างเกิดขึ้นตามมา ซึ่งจะนำเอาความรุนแรงมาสู่เขา และบีบบังคับให้เขาต้องเผชิญหน้ากับตัวเลือกจากอดีตของเขา",
-        "sound": "ไทยโรง",
-        "subtitles": ""
+        "sound": "ไทยโรง"
         },
     "video": "https://main.24playerhd.com/newplaylist/1d1ca47ef68dcb4ae721e859/1d1ca47ef68dcb4ae721e859.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -62,8 +84,7 @@
         "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
         "plot": "ดร. เคลสัน ได้พบว่าเขาอยู่ในความสัมพันธ์อันน่าตกใจ ที่ผลลัพธ์ของมันอาจจะเปลี่ยนแปลงโลกที่พวกเขารู้จักได้ และการพบกันของ สไปค์ และ จิมมี่ คริสตัล ก็กลายมาเป็นฝันร้ายที่ไม่มีทางหนี",
         "year": 2026,
-        "sound": "ไทยโรง",
-        "subtitles": ""
+        "sound": "ไทยโรง"
         },
     "video": "https://main.24playerhd.com/newplaylist/c8fcac81fd3926916a7888c5/c8fcac81fd3926916a7888c5.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -76,8 +97,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kcmymlJPZ3mDQbKht20XRGBogd2.jpg",
       "plot": "เมื่อยี่ถูกลัทธิลึกลับจับตัวไป ยักษ์และเพื่อนๆ ของเขา ต้องออกเดินทางเพื่อช่วยเหลือยี่ด้วยความสิ้นหวัง การเดินทางของพวกนำนำไปสู่หมู่บ้านต้องคำสาป ที่เต็มไปด้วยความลับดำมืด, วิญญาณอาฆาต และพิธีกรรมโบราณ เมื่อเผยความสยองออกมา การเอาชีวิตรอด กลับกลายเป็นการต่อสู้กับเหล่าสิ่งที่เหนือการควบคุม ยิ่งพวกเขาเข้าไปลึกเท่าไหร่ ก็ยิ่งมืดมนเท่านั้น",
       "year": 2025,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/abd82a71ec04762c078c4432/abd82a71ec04762c078c4432.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -90,8 +110,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4mTkjl2LoEp1xGZb5Gc9EXHfrut.jpg",
       "plot": "หลังจากที่ พนอ คืนพลังเทพสามตา ชีวิตของพนอก็เหมือนถูกรีเซ็ตเริ่มความทรงจำใหม่กับการเรียนในรั้ววิทยาลัยครูอย่างที่เธอใฝ่ฝัน โดยมี เปี๊ยก คอยเฝ้ามองและช่วยเหลือเธออยู่ห่างๆ อยากให้ทุกคนจงจำไว้ว่า อย่าปลุกพลังเทพสามตาให้ตื่นขึ้นมา เพราะ พนอ จะไม่ใช่พนอที่คุณรู้จักอีกต่อไป! ทุกเสียง ทุกกระแส ทุกสายตา ได้ร่วมพิสูจน์กับปรากฎการณ์ความคลั่งของ พนอ",
       "year": 2026,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
     },
     "video": "https://media.vdohls.com/uqspWRe_z-ztl/playlist.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -104,8 +123,7 @@
       "poster": "https://www.24-hdmovie.com/wp-content/uploads/2026/01/Di-Renjie-Resurrection-2026-%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B9%8B%E0%B8%A2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%94%E0%B8%B5%E0%B8%A8%E0%B8%9E%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%8A%E0%B8%B5%E0%B8%9E-187x269.png",
       "plot": "",
       "year": 2026,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/095b674dc780b436356b1d3a/095b674dc780b436356b1d3a.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -118,8 +136,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/5MDnvvkOqthhE5gQebzkcOhD1p5.jpg",
       "plot": "",
       "year": 2025,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/e277c49c77fdf4ad32100b1c/e277c49c77fdf4ad32100b1c.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -132,8 +149,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/uwB0yTkLEM8gENuXxHtkYaG3HEx.jpg",
       "plot": "",
       "year": 2025,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/8902fafd336db05187fc7bff/8902fafd336db05187fc7bff.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -146,8 +162,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/xYPOuHq3SAUs3KOlFTbfpNKwcFz.jpg",
       "plot": "",
       "year": 2026,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/97a31b2ca644b89c319ce5c9/97a31b2ca644b89c319ce5c9.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -160,8 +175,7 @@
         "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ptCV0gu9dvPiznWThy3c89f4M3h.jpg",
         "plot": "เมื่อ จอห์น เครเมอร์ ที่กำลังป่วยเจียนตาย ต้องระหกระเหินไปเม็กซิโกเพื่อรับการรักษามะเร็ง แม้ว่ายังอยู่ในขั้นทดลองที่หวังว่าจะมีปาฏิหาริย์รักษาชีวิตเขาไว้ได้ แต่เขากลับพบว่าทุกอย่างเป็นเรื่องแหกตา เป็นแค่เพียงขบวนการต้มตุ๋นที่จ้องเล่นงานคนที่กำลังเจอทางตัน มันจุดไฟแค้นให้ฆาตกรอัจฉริยะผู้นี้เอาคืนพวก 18 มงกุฏ ด้วยการทดสอบสุดวิปริตที่นรกยังต้องเกรงใจ",
         "year": 2023,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
         },
     "video": "https://master.steamhls88.com/hlsr2/daf4fbec8206ed5af4ed7306fe2cf941/master.m3u8"
   },
@@ -173,8 +187,7 @@
         "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/FEnl9oWLFmkBe0H5hNzYCENCy6.jpg",
         "plot": "อุดม แต้พานิช ขึ้นเวทีจับไมค์แชร์ชีวิตวายป่วง ตั้งแต่ประสบการณ์มูเตลู พิธีกรรมสายดำ ไปจนถึงวีรกรรมตอนไปเกาหลีอย่างไม่มีกั๊ก ในผลงานสแตนด์อัพคอมเมดี้ชุดนี้",
         "year": 2026,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
         },
     "video": "https://main.24playerhd.com/newplaylist/fb24105d68f2b4f428909236/fb24105d68f2b4f428909236.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -187,8 +200,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/lzc4bvk7FA35bod1YgUQWNleb2q.jpg",
       "plot": "พากย์ไทย",
       "year": 2026,
-        "sound": "พากย์ไทย",
-        "subtitles": ""
+        "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/8148988604a36db26475e577/8148988604a36db26475e577.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -202,28 +214,6 @@
       "plot": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/7d35fa31e8b9f3eee7c5b03a/7d35fa31e8b9f3eee7c5b03a.m3u8",
-    "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/player",
-    "name": "Primate (2026) ลิงคลั่งพันธุ์ดิบ",
-    "category": "ซูมโรง ชนโรง",
-    "info": {
-      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg",
-      "plot": "พากย์ไทย"
-    },
-    "video": "https://main.24playerhd.com/newplaylist/6b1c881e92e88a28e444fcd7/6b1c881e92e88a28e444fcd7.m3u8",
-    "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/player",
-    "name": "Return to Silent Hill (2026) เมืองห่าผี นครคืนชีพ",
-    "category": "ซูมโรง ชนโรง",
-    "info": {
-      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ocVWTfImJpCqlO52DxpQXgj3MQO.jpg",
-      "plot": "พากย์ไทย"
-    },
-    "video": "https://main.24playerhd.com/newplaylist/855f6a0a065177d44b4b6778/855f6a0a065177d44b4b6778.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
@@ -366,8 +356,8 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/brBQ79UmzdpHx4Pl3kKRU8F9ubD.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/mthnew//Sisu.Road.to.Revenge.2025.TH.mp4/playlist.m3u8",
-    "Referrer": "https://web02.dynns.com:1935/"
+    "video": "http://web02.dynns.com:1935/mthnew//Sisu.Road.to.Revenge.2025.TH.mp4/playlist.m3u8",
+    "Referrer": "http://web02.dynns.com:1935/"
   },
   {
     "player": "p2p/player",
@@ -432,7 +422,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/vHDrjztw6EPVEXxrGGP95lKXahO.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/zoom//Wildcat.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "http://web02.dynns.com:1935/zoom//Wildcat.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
@@ -454,7 +444,7 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/sGdgToQLaq2QE27Z43ZacO9ChSe.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/zoom//Crayon.Shin.chan.The.Movie.33.Cho.Karei.Shakunetsu.no.Kasukabe.Dancers.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "http://web02.dynns.com:1935/zoom//Crayon.Shin.chan.The.Movie.33.Cho.Karei.Shakunetsu.no.Kasukabe.Dancers.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
@@ -630,8 +620,8 @@
       "poster": "https://image.tmdb.org/t/p/w260_and_h390_face/j5JspcDP1PhADsb24LSIfYUzDSd.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/nangth//Tha.Rae.The.Exorcist.2025.mp4/playlist.m3u8",
-    "Referrer": "https://web02.dynns.com:1935/"
+    "video": "http://web02.dynns.com:1935/nangth//Tha.Rae.The.Exorcist.2025.mp4/playlist.m3u8",
+    "Referrer": "http://web02.dynns.com:1935/"
   },
   {
     "player": "p2p/player",
@@ -773,7 +763,7 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7MSluuPJEw0EfYc7wPb5Oa5iy3B.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/zoom//4.Tigers.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "http://web02.dynns.com:1935/zoom//4.Tigers.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
@@ -784,7 +774,7 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bYMkAVxY1Z3hA2UWcFXOtvWSfjr.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/zoom//Good.Fortune.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "http://web02.dynns.com:1935/zoom//Good.Fortune.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
@@ -795,7 +785,7 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mPuBDGrVIBGOymBxR6rO3iIvBSe.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/zoom//The.Smashing.Machine.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "http://web02.dynns.com:1935/zoom//The.Smashing.Machine.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
@@ -806,7 +796,7 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xVaAZaSClR9t5Ky96TwBSrZbwW5.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/mthnew//Frankenstein.2025.TH.mp4/playlist.m3u8",
+    "video": "http://web02.dynns.com:1935/mthnew//Frankenstein.2025.TH.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
@@ -828,7 +818,7 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/z7wI0jpec9gz2IwVciND1nbRBy0.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/mthnew//The.Fantastic.Four.First.Steps.2025.TH.mp4/playlist.m3u8",
+    "video": "http://web02.dynns.com:1935/mthnew//The.Fantastic.Four.First.Steps.2025.TH.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
@@ -839,7 +829,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/wx0OSEQNoMr1W3fAzip4dD1sAE5.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/zoom/Black.Phone.2.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "http://web02.dynns.com:1935/zoom/Black.Phone.2.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "https://main.24playerhd.com/"
   },
   {
@@ -1015,8 +1005,8 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ycalf81uKj3KEoJWuoKps5vYljq.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/zoom/Saint.Young.Men.The.Movie.Holy.Men.vs.Demon.Army.2024.ZOOM.mp4/playlist.m3u8",
-    "Referrer": "https://web02.dynns.com:1935/"
+    "video": "http://web02.dynns.com:1935/zoom/Saint.Young.Men.The.Movie.Holy.Men.vs.Demon.Army.2024.ZOOM.mp4/playlist.m3u8",
+    "Referrer": "http://web02.dynns.com:1935/"
   },
   {
     "player": "p2p/player",
@@ -1422,7 +1412,7 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/k3OsMTa25kKLnvZVcPIgfDwyTXH.jpg",
       "plot": "พากย์ไทย"
     },
-    "video": "https://web02.dynns.com:1935/zoom//Kayaor.2025.ZOOM.mp4/playlist.m3u8",
+    "video": "http://web02.dynns.com:1935/zoom//Kayaor.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
