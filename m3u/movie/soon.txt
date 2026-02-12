@@ -105,6 +105,9 @@ https://media.vdohls.com/qf_DsB-gIgTEh/playlist.m3u8
 https://media.vdohls.com/v83sYQ_UB-ria/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/12/The-Architect-2025.webp" tvg-season="1" tvg-episode="24", The Architect (2025) ลิขิตรักในกำมือ EP.1-30 (ยังไม่จบ) S01 E24
 https://media.vdohls.com/J_3J-TyckE553/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/12/The-Architect-2025.webp" tvg-season="1" tvg-episode="25", The Architect (2025) ลิขิตรักในกำมือ EP.1-30 (ยังไม่จบ) S01 E25
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/12/The-Architect-2025.webp" tvg-season="1" tvg-episode="26", The Architect (2025) ลิขิตรักในกำมือ EP.1-30 (ยังไม่จบ) S01 E26
 
 
 
