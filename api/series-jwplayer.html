@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Series Parser + JWPlayer</title>
+  <style>
+    body { margin:0; background:#000; width:100vw; height:100vh; display:flex; flex-direction:column; }
+    #play { flex:1; }
+    #episodeSelector { background:#111; color:#fff; padding:10px; }
+    select { padding:6px; margin-left:10px; }
+    #videoTitle { color:#fff; padding:10px; }
+  </style>
+</head>
+<body>
+  <div id="episodeSelector">
+    <label for="episodeSelect">เลือกตอน:</label>
+    <select id="episodeSelect"></select>
+  </div>
+  <div id="play"></div>
+  <div id="videoTitle"></div>
+
+  <script src="p2p/jw/jwplayer.js"></script>
+<script>
+jwplayer.key = "eNFaXCjyURVoCCGiHp7HTQ3hDhE/AfL0g8VE1fRbL84=";
+
+async function checkSubtitleExists(url) {
+  try { const res = await fetch(url, { method: 'HEAD' }); return res.ok; } catch { return false; }
+}
+function extractAudioTracks(m3u8Text) {
+  const audioTracks = []; const regex = /#EXT-X-MEDIA:TYPE=AUDIO.*?LANGUAGE="([^"]+)".*?URI="([^"]+)"/g; let match;
+  while ((match = regex.exec(m3u8Text)) !== null) audioTracks.push({ language: match[1], uri: match[2] });
+  return audioTracks;
+}
+
+async function fetchSeriesById(showId) {
+  const query = `
+    query getShow($id: Int!) {
+      show(id: $id) {
+        id titleTh titleEn
+        episodes {
+          seasonNo episodeNo titleTh titleEn
+          video { transcodeUuid cdnHostname subtitleMetadata }
+        }
+      }
+    }
+  `;
+  const response = await fetch("https://api.doo-nang.com/graphql", {
+    method:"POST", headers:{ "Content-Type":"application/json" },
+    body: JSON.stringify({ query, variables:{ id: showId } })
+  });
+  const result = await response.json();
+  return result?.data?.show || null;
+}
+
+async function processEpisode(ep) {
+  const transcodeUuid = ep.video?.transcodeUuid;
+  const cdnHostname = ep.video?.cdnHostname;
+  let videoUrl="", subtitle=[], audioTracks=[];
+  if (transcodeUuid && cdnHostname) {
+    const base = `https://${cdnHostname}/${transcodeUuid}`;
+    videoUrl = `https://api.doo-nang.com/video/${transcodeUuid}/playlist.m3u8`;
+    if (ep.video?.subtitleMetadata) {
+      for (const [lang, subs] of Object.entries(ep.video.subtitleMetadata)) {
+        for (const sub of subs) {
+          const src = `${base}/${sub.pathName}.${sub.codec.toLowerCase()}`;
+          if (await checkSubtitleExists(src)) subtitle.push({ lang, codec: sub.codec, src });
+        }
+      }
+    }
+    try { const res = await fetch(videoUrl); if (res.ok) audioTracks = extractAudioTracks(await res.text()); } catch {}
+  }
+  return { season: ep.seasonNo, episode: ep.episodeNo, title: ep.titleTh || ep.titleEn || `EP${ep.episodeNo}`, video: videoUrl, subtitle, audioTracks };
+}
+
+async function initPage() {
+  const params = new URLSearchParams(window.location.search);
+  const ids = params.get("ids");
+  if (!ids) { document.getElementById("videoTitle").innerText="ไม่พบ Show ID"; return; }
+  const show = await fetchSeriesById(parseInt(ids,10));
+  if (!show) { document.getElementById("videoTitle").innerText="ไม่พบข้อมูล"; return; }
+
+  document.title = `${show.titleTh} (${show.titleEn})`;
+
+  const select = document.getElementById("episodeSelect");
+  show.episodes.forEach(ep=>{
+    const opt=document.createElement("option");
+    opt.value=`${ep.seasonNo}-${ep.episodeNo}`;
+    opt.text=`Season ${ep.seasonNo} Episode ${ep.episodeNo} - ${ep.titleTh || ep.titleEn}`;
+    select.appendChild(opt);
+  });
+
+  select.addEventListener("change", async ()=>{
+    const [season,episode]=select.value.split("-");
+    const ep=show.episodes.find(e=>String(e.seasonNo)===season && String(e.episodeNo)===episode);
+    if(ep){ const epData=await processEpisode(ep); setupPlayer(epData); }
+  });
+
+  // โหลดตอนแรกโดยอัตโนมัติ
+  if(show.episodes.length>0){
+    const epData=await processEpisode(show.episodes[0]);
+    setupPlayer(epData);
+  }
+}
+
+function setupPlayer(epData){
+  document.getElementById("videoTitle").innerText=epData.title;
+  const playerConfig={
+    width:"100%", height:"100%", aspectratio:"16:9",
+    playlist:[{ file:epData.video, tracks:[] }],
+    primary:"html5", hlshtml:true, controls:true, autostart:true
+  };
+  epData.subtitle.forEach(sub=>playerConfig.playlist[0].tracks.push({ file:sub.src, label:sub.lang.toUpperCase(), kind:"captions" }));
+  epData.audioTracks.forEach(at=>playerConfig.playlist[0].tracks.push({ file:at.uri, label:at.language.toUpperCase()+" Audio", kind:"audio" }));
+  jwplayer("play").setup(playerConfig);
+}
+
+window.onload=initPage;
+</script>
+</body>
+</html>
