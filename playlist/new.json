@@ -280,6 +280,7 @@
   {
     "player": "p2p/player",
     "name": "The Big Fake (2026) จอมปลอม",
+    "category": "หนังแนะนำ",
     "info": { 
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qNEL6chkH2s6gwvt0Jt9NfiXG8m.jpg",
         "sound": "พากย์ไทย"
@@ -290,6 +291,7 @@
   {
     "player": "p2p/player",
     "name": "All the Devils Are Here (2025) ที่นี่…มีแต่ปีศาจ",
+    "category": "หนังแนะนำ",
     "info": { 
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4GJTUSjbCGynQo4PpTTNzzxYfBM.jpg",
         "sound": "พากย์ไทย"
@@ -300,6 +302,7 @@
   {
     "player": "p2p/player",
     "name": "Cosmic Princess Kaguya! (2026) เจ้าหญิงกระบอกไม้ไผ่",
+    "category": "หนังแนะนำ",
     "info": { 
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/9I9cM38gecZcwJ0C6r0cwfvtPJP.jpg",
         "sound": "พากย์ไทย"
@@ -310,6 +313,7 @@
   {
     "player": "p2p/player",
     "name": "Kidnapped Elizabeth Smart (2026) คดีลักพาตัว เอลิซาเบธ สมาร์ท",
+    "category": "หนังแนะนำ",
     "info": { 
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/hMVhZxgbFLXZcDUIZ10NGb6s8w4.jpg",
         "sound": "พากย์ไทย"
@@ -320,6 +324,7 @@
   {
     "player": "p2p/player",
     "name": "Dream Animals The Movie (2025) ดรีม แอนิมอล เดอะ มูฟวี่",
+    "category": "",
     "info": { 
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/ub9BOD7DgSUMHbN5aoT54av9iPF.jpg",
         "sound": "ไทยโรง"
@@ -330,6 +335,7 @@
   {
     "player": "p2p/player",
     "name": "The SpongeBob Movie Search for SquarePants (2025) เดอะ สพันจ์บ็อบ มูฟวี่ ภารกิจตามหาสพันจ์บ็อบ",
+    "category": "",
     "info": { 
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/rojphxx05QkxzrmMKAP8sIYPZlj.jpg",
         "sound": "ไทยโรง"
@@ -340,6 +346,7 @@
   {
     "player": "p2p/player",
     "name": "Dangerous Animals (2025)",
+    "category": "หนังแนะนำ",
     "info": { 
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/9tk3Si960hg4E49eMt81dS7Qe9Z.jpg",
         "sound": "บรรยายไทย"
@@ -350,6 +357,7 @@
   {
     "player": "p2p/player",
     "name": "Unrelenting Drug Interdiction (2025) ปราบยาล่าไม่เลิก",
+    "category": "หนังแนะนำ",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bIuFxlWX1piZn4tIG0Q5tgWowKu.jpg",
         "sound": "บรรยายไทย"
@@ -360,6 +368,7 @@
   {
     "player": "p2p/player",
     "name": "The Legend of Feng Lou Divine Fox (2025) ตำนานเซียนจิ้งจอกแห่งเฟิ่งโหลว",
+    "category": "หนังแนะนำ",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bcZ9kCPf3UhABoXrnDlpe1pA2d5.jpg",
         "sound": "บรรยายไทย"
@@ -370,6 +379,7 @@
   {
     "player": "p2p/player",
     "name": "Black Storm (2024) พายุทมิฬ",
+    "category": "หนังแนะนำ",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/sqILl3CWEZv7M8V70aPtH23GOAl.jpg",
         "sound": "พากย์ไทย"
@@ -381,6 +391,7 @@
   {
     "player": "p2p/player",
     "name": "Greenland 2 Migration (2025) ฝ่าชะตา โลกาวินาศ",
+    "category": "",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kscgi20X3SWi1VjH2SU2uN2hQac.jpg",
         "sound": "ไทยโรง"
@@ -391,6 +402,7 @@
   {
     "player": "p2p/player",
     "name": "Strange Darling (2024) รัก ลวง ฆ่า",
+    "category": "",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/lVrwcMH5BR8OjKdXr5I6eEIQUx0.jpg",
         "sound": "ไทยโรง"
@@ -401,6 +413,7 @@
   {
     "player": "p2p/player",
     "name": "The Cursed Insatiable Desires (2025) เรื่องผีสาป",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/vRxZoRi57Ggd7z6SNnDcZvR5Tx3.jpg",
         "sound": "พากย์ไทย"
@@ -411,6 +424,7 @@
   {
     "player": "p2p/player",
     "name": "The Housemaid (2025) ความลับแม่บ้านร้าย",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/7T2dTV6BLr8F3yVYsibpAcmZvSd.jpg",
         "sound": "พากย์ไทย"
@@ -421,6 +435,7 @@
   {
     "player": "p2p/player",
     "name": "The Rip (2026) เงินบาปกระชากคน",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/2y46LNXNuYtUdSe0MsvKqcQIlUX.jpg",
         "sound": "พากย์ไทย"
@@ -431,6 +446,7 @@
   {
     "player": "p2p/player",
     "name": "Smurfs (2025) สเมิร์ฟ",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/4opAzolezkfzs9nnoiv3gfJogon.jpg",
         "sound": "พากย์ไทย"
@@ -441,6 +457,7 @@
   {
     "player": "p2p/player",
     "name": "Event Horizon (1997) ผ่านรกสุดขอบฟ้า",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/qfluaDXv0cIdLwgQWzNB2piHL2q.jpg",
         "sound": "พากย์ไทย"
@@ -451,10 +468,10 @@
   {
     "player": "p2p/player",
     "name": "The Smashing Machine (2025) ตำนานเครื่องจักรสังเวียนเดือด",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/mPuBDGrVIBGOymBxR6rO3iIvBSe.jpg",
-        "sound": "อังกฤษ",
-        "subtitles": "บรรยายไทย"
+        "sound": "บรรยายไทย"
         },
     "video": "https://main.24playerhd.com/newplaylist/8fe1808dc8b9979dd164c0a6/8fe1808dc8b9979dd164c0a6.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -462,6 +479,7 @@
   {
     "player": "p2p/player",
     "name": "A Babysitter’s Guide to Monster Hunting (2020) คู่มือล่าปีศาจฉบับพี่เลี้ยง",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bkld8Me0WiLWipLORRNfF1yIPHu.jpg",
         "sound": "พากย์ไทย"
@@ -472,6 +490,7 @@
   {
     "player": "p2p/player",
     "name": "Murderer Report (2025) รายงานฆาตกร",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bZrX1VolCiL1abM7ahaarjQAmXL.jpg",
         "sound": "พากย์ไทย"
@@ -482,6 +501,7 @@
   {
     "player": "p2p/player",
     "name": "Iron Mask (2019) อภินิหารมังกรฟัดโลก",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/nM6Mf4UIp8Uw6Jgw40WlY9OnQOS.jpg",
         "sound": "พากย์ไทย"
@@ -492,6 +512,7 @@
   {
     "player": "p2p/player",
     "name": "The Tank (2025) รถถังเจ้าพยัคฆ์",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/f18LeJhnI9opCLcIDym3uVH301V.jpg",
         "sound": "พากย์ไทย"
@@ -502,6 +523,7 @@
   {
     "player": "p2p/player",
     "name": "Trap House (2025) ดักแผนล่า ท้าทรชน",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/AoNiNdiWLEHU5EBfZ82Gx08ymDo.jpg",
         "sound": "พากย์ไทย"
@@ -512,6 +534,7 @@
   {
     "player": "p2p/player",
     "name": "Alma and The Wolf (2025) อัลมาและมนุษย์หมาป่า",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/t4SUgmGGhMS4t9g0DJzAjRS5Hcj.jpg",
         "sound": "พากย์ไทย"
@@ -522,6 +545,7 @@
   {
     "player": "p2p/player",
     "name": "100 Meters (2025) 100 เมตร",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/w2pzrRTevXrW3vgIK4CCYaXvtIc.jpg",
         "sound": "พากย์ไทย"
@@ -531,6 +555,7 @@
   },
   {
     "name": "Nak Loves Mak Sooo Much! (2025) นากรักมาก ม๊ากมาก",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/yaQheZpKECFzwU4KWcQ0rpYqDhD.jpg",
         "sound": "พากย์ไทย"
@@ -540,6 +565,7 @@
   },
   {
     "name": "TRON: Ares (2025) ทรอน แอรีส",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/oZg0fthw8egPhvZd2Qtiv8ulJuq.jpg",
         "sound": "พากย์ไทย"
@@ -548,6 +574,7 @@
   },
   {
     "name": "Sisu 2 (2025) สิสู้…เฒ่ามหากาฬ 2",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/brBQ79UmzdpHx4Pl3kKRU8F9ubD.jpg",
         "sound": "พากย์ไทย"
@@ -556,6 +583,7 @@
   },
   {
     "name": "Predator: Badlands (2025) พรีเดเตอร์: แดนเถื่อน",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg",
     "sound": "ไทยโรง",
@@ -567,6 +595,7 @@
   {
     "player": "p2p/player",
     "name": "Demon Slayer Kimetsu no Yaiba (2025) ดาบพิฆาตอสูร ภาคปราสาทไร้ขอบเขต",
+    "category": "",
     "info": {
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/aAQdIzd5muq376bf0HZv3wIpmtI.jpg",
         "sound": "ไทยโรง"
@@ -578,6 +607,7 @@
   {
     "player": "p2p/player",
     "name": "Kill the Drug Lords (2023) ตำรวจผู้พิทักษ์",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/83xhucBgTL0Il9E298JT8DYv76B.jpg",
         "sound": "พากย์ไทย"
@@ -589,6 +619,7 @@
   {
     "player": "p2p/player",
     "name": "The Hunt For Red October (1990) ล่าตุลาแดง",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/1bjcOe8n2Wwh5kKL1tmmeriz5Zn.jpg",
         "sound": "พากย์ไทย"
@@ -600,6 +631,7 @@
   {
     "player": "p2p/player",
     "name": "Kpop Demon Hunters (2025) เกิร์ลกรุ๊ปนักล่าปีศาจ",
+    "category": "หนังแนะนำ",
     "info": {
     "poster": "https://img.shirokami.me/images/2025/06/25/d4561e8fb4d8a1ba811cba4b896ce21e.jpg",
         "sound": "พากย์ไทย"
