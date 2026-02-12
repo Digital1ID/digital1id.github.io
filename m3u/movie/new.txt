@@ -23,7 +23,15 @@
 
 
 
-#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w440_and_h660_face/gQHzLJz7cjjYPTwwq7uYTWdreG0.jpg", From the World of John Wick: Ballerina จักรวาลของ จอห์น วิค บัลเลรินา แค้นกว่านรก (2025)
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/ocVWTfImJpCqlO52DxpQXgj3MQO.jpg", Return to Silent Hill (2026) เมืองห่าผี นครคืนชีพ
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/89749854cfafbca214b38913/89749854cfafbca214b38913.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/lNFxrtwkiwWUY85bKI2PXT40OZy.jpg", Primate (2026) ลิงคลั่งพันธุ์ดิบ
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/c79b8b16ffbeb8676cd569fd/c79b8b16ffbeb8676cd569fd.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/gQHzLJz7cjjYPTwwq7uYTWdreG0.jpg", From the World of John Wick: Ballerina จักรวาลของ จอห์น วิค บัลเลรินา แค้นกว่านรก (2025)
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/65955b82543e1803cd3134b7/65955b82543e1803cd3134b7.m3u8
 
@@ -82,14 +90,6 @@ https://main.24playerhd.com/newplaylist/8148988604a36db26475e577/8148988604a36db
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg", Mercy (2025) 90 นาทีสั่งตาย
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/7d35fa31e8b9f3eee7c5b03a/7d35fa31e8b9f3eee7c5b03a.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg", Primate (2026) ลิงคลั่งพันธุ์ดิบ
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/6b1c881e92e88a28e444fcd7/6b1c881e92e88a28e444fcd7.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/ocVWTfImJpCqlO52DxpQXgj3MQO.jpg", Return to Silent Hill (2026) เมืองห่าผี นครคืนชีพ
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/855f6a0a065177d44b4b6778/855f6a0a065177d44b4b6778.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qrQpTL24qRQWoYKL2LvBwvLawVi.jpg", Silent Hill Revelation (2012) เมืองห่าผี เรฟเวเลชั่น
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
