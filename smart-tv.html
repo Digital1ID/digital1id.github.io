@@ -52,7 +52,6 @@ body{background:#000;color:#fff;overflow:hidden}
 
 @media (max-width:600px){
 .video-container{position:absolute;display: flex;justify-content: center;align-items: center;width:100%;height:100%;background:#000}
-.contain{display: flex;justify-content: center;align-items: center;width:100%;height:auto;background:#000}
 #video{width:100%;height:auto;object-fit:fill;background:#000}
 }
 
@@ -571,11 +570,11 @@ body{background:#000;color:#fff;overflow:hidden}
 
 <body>
 <div class="video-container">
-<div class="contain">
+
   <video id="video" autoplay playsinline></video>
 
   <div id="loading" class="overlayCenter"><div class="spinner"></div></div>
-</div>
+
   <div id="noSignal" class="noSignal">
     <i class="fas fa-tv"></i>
     <b>No Signal</b>
