@@ -273,19 +273,19 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
-                name: "",
+                name: "Thairath TV",
                 sources: [
                     { 
                         name: "THAI", 
-                        url: "",
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/32/32.mpd",
                         type: "dash",
                         drm: {
-                            kid: "",
-                            key: "",
+                            kid: "4b2bff3e598043cfaf949305e3d153fa",
+                            key: "545df84ff4c54af6b5385516e0f65956",
                         }
                     }
                 ],
-                img: "", 
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/32.png", 
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
