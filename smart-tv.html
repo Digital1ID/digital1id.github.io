@@ -138,6 +138,24 @@ body{background:#000;color:#fff;overflow:hidden}
 .btn.starOn:hover{background:rgba(255,213,74,.35)}
 .btn i{pointer-events:none}
 
+@media (max-width:600px){
+  .infoBar{
+    bottom:10px;
+    width:96vw;
+    flex-direction:column;
+    gap:8px;
+    padding:8px;
+  }
+  .infoRight{
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  .infoRight .btn{
+    flex:1 1 22%;
+    margin:4px;
+  }
+}
+
 /* ===== Settings Overlay ===== */
 .settingsOverlay{
   position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
@@ -246,6 +264,18 @@ body{background:#000;color:#fff;overflow:hidden}
 .serverValue{font-size:13px;color:#bbb;font-weight:500}
 .serverStats{
   font-size:12px;color:#aaa;margin-top:4px;
+}
+
+@media (max-width:600px){
+  .settingsOverlay,
+  .packageOverlay,
+  .serverOverlay{
+    width:94vw;
+    height:80vh;
+  }
+  .settingsHeader b,
+  .packageHeader b,
+  .serverHeader b{font-size:14px;}
 }
 
 /* ================= GUIDE (MODAL STYLE) ================= */
@@ -359,6 +389,12 @@ body{background:#000;color:#fff;overflow:hidden}
   grid-template-columns:repeat(auto-fill,minmax(100px,1fr));
 }
   
+@media (max-width:600px){
+  .guide{width:96vw;height:85vh;}
+  .cat{width:90px;}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(90px,1fr));}
+}
+
 /* ===== Guide: Logo-only Grid (Round + Focus Ring) ===== */
 .tile.logoOnly{
   position:relative;
