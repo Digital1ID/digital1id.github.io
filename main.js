@@ -33,6 +33,57 @@ const channels = [
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
+              },{ 
+                name: "ThaiPBS",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/3/3.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "4d4426a505f64382a9841155d721cee6",
+                            key: "0f4770219ccb4be5836a7517057e51c3",
+                        }
+                    }
+                ],
+                img: "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0014.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "ALTV",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/4/4.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "1e98456bcbea44b7ad05831387e364ef",
+                            key: "3d14fd4f9d3149a79b35a7124fccbd67",
+                        }
+                    }
+                ],
+                img: "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/ALTV.PNG", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
               },
               {
                 name: "BBC News", 
