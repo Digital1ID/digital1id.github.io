@@ -341,19 +341,20 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
-                name: "",
+                name: "PPTV HD",
                 sources: [
+                    { name: "Default", url: "https://www.livedoomovies.com:4431/02_PPTVHD_720p/playlist.m3u8" },
                     { 
                         name: "THAI", 
-                        url: "",
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/36/36.mpd",
                         type: "dash",
                         drm: {
-                            kid: "",
-                            key: "",
+                            kid: "0aeffa7753674e77b99443fac7757b8a",
+                            key: "b8c8a462008a40aa91823e0b02e8dd31",
                         }
                     }
                 ],
-                img: "", 
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/36.png", 
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
