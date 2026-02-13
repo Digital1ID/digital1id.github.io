@@ -38,46 +38,6 @@ https://49-231-37-237-rewriter.ais-vidnt.com/ais/play/origin/live/eds/TL007/HLS/
 #EXTVLCOPT:http-user-agent=ExoPlayer/2.9.3.135%20(AISPlaybox)%20ExoPlayerLib/2.6.0
 https://49-231-37-237-rewriter.ais-vidnt.com/ais/play/origin/live/eds/TL008/HLS/TL008.m3u8
 
-#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono1.jpg", MONOMAX 1
-#EXTVLCOPT:http-referrer=https://vvipscore.vip/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-https://cdn2.googlecdnforstreaming.live/vv/monomax-1/playlist.m3u8
-
-#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono2.jpg", MONOMAX 2
-#EXTVLCOPT:http-referrer=https://vvipscore.vip/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-https://cdn2.googlecdnforstreaming.live/vv/monomax-2/playlist.m3u8
-
-#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono3.jpg", MONOMAX 3
-#EXTVLCOPT:http-referrer=https://vvipscore.vip/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-https://cdn2.googlecdnforstreaming.live/vv/monomax-3/playlist.m3u8
-
-#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono4.jpg", MONOMAX 4
-#EXTVLCOPT:http-referrer=https://vvipscore.vip/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-https://cdn2.googlecdnforstreaming.live/vv/monomax-4/playlist.m3u8
-
-#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono5.jpg", MONOMAX 5
-#EXTVLCOPT:http-referrer=https://vvipscore.vip/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-https://cdn2.googlecdnforstreaming.live/vv/monomax-5/playlist.m3u8
-
-#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono6.jpg", MONOMAX 6
-#EXTVLCOPT:http-referrer=https://vvipscore.vip/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-https://cdn2.googlecdnforstreaming.live/vv/monomax-6/playlist.m3u8
-
-#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono7.jpg", MONOMAX 7
-#EXTVLCOPT:http-referrer=https://vvipscore.vip/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-https://cdn2.googlecdnforstreaming.live/vv/monomax-7/playlist.m3u8
-
-#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono8.jpg", MONOMAX 8
-#EXTVLCOPT:http-referrer=https://vvipscore.vip/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-https://cdn2.googlecdnforstreaming.live/vv/monomax-8/playlist.m3u8
-
 #EXTINF:-1 tvg-id="SpoTV.kr" tvg-name="SPOTV" tvg-logo="https://dooballplus2.live/wp-content/uploads/2023/11/spotv1.png" group-title="Sports;SpoTV", SPOTV
 #EXTVLCOPT:http-referrer=https://vvipscore.vip/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
@@ -133,26 +93,44 @@ https://cdn2.googlecdnforstreaming.live/vv/bein2/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
 https://cdn2.googlecdnforstreaming.live/vv/bein3/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Sports;TRUE SPORTS;beIN SPORTS CONNECT" tvg-logo="https://dooballplus2.live/wp-content/uploads/2023/11/bein1.png", Bein1
-#EXTVLCOPT:http-origin=https://dooballplus2.live
-#EXTVLCOPT:http-referrer=https://dooballplus2.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
-##http://oneid151.serv00.net/api/dooballplus.php?ch=bein1
 
-#EXTINF:-1 tvg-id="" group-title="Sports;TRUE SPORTS;beIN SPORTS CONNECT" tvg-logo="https://dooballplus2.live/wp-content/uploads/2023/11/bein2.png", Bein2
-#EXTVLCOPT:http-origin=https://dooballplus2.live
-#EXTVLCOPT:http-referrer=https://dooballplus2.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
-##http://oneid151.serv00.net/api/dooballplus.php?ch=bein2
 
-#EXTINF:-1 tvg-id="" group-title="Sports;TRUE SPORTS;beIN SPORTS CONNECT" tvg-logo="https://dooballplus2.live/wp-content/uploads/2023/11/bein3.png", Bein3
-#EXTVLCOPT:http-origin=https://dooballplus2.live
-#EXTVLCOPT:http-referrer=https://dooballplus2.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
-##http://oneid151.serv00.net/api/dooballplus.php?ch=bein3
+#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono1.jpg", MONOMAX 1
+#EXTVLCOPT:http-referrer=https://vvipscore.vip/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+https://cdn2.googlecdnforstreaming.live/vv/monomax-1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Sports;TRUE SPORTS;beIN SPORTS CONNECT" tvg-logo="https://dooballplus2.live/wp-content/uploads/2023/11/bein4.png", Bein4
-#EXTVLCOPT:http-origin=https://dooballplus2.live
-#EXTVLCOPT:http-referrer=https://dooballplus2.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
-##http://oneid151.serv00.net/api/dooballplus.php?ch=bein4
+#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono2.jpg", MONOMAX 2
+#EXTVLCOPT:http-referrer=https://vvipscore.vip/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+https://cdn2.googlecdnforstreaming.live/vv/monomax-2/playlist.m3u8
+
+#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono3.jpg", MONOMAX 3
+#EXTVLCOPT:http-referrer=https://vvipscore.vip/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+https://cdn2.googlecdnforstreaming.live/vv/monomax-3/playlist.m3u8
+
+#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono4.jpg", MONOMAX 4
+#EXTVLCOPT:http-referrer=https://vvipscore.vip/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+https://cdn2.googlecdnforstreaming.live/vv/monomax-4/playlist.m3u8
+
+#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono5.jpg", MONOMAX 5
+#EXTVLCOPT:http-referrer=https://vvipscore.vip/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+https://cdn2.googlecdnforstreaming.live/vv/monomax-5/playlist.m3u8
+
+#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono6.jpg", MONOMAX 6
+#EXTVLCOPT:http-referrer=https://vvipscore.vip/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+https://cdn2.googlecdnforstreaming.live/vv/monomax-6/playlist.m3u8
+
+#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono7.jpg", MONOMAX 7
+#EXTVLCOPT:http-referrer=https://vvipscore.vip/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+https://cdn2.googlecdnforstreaming.live/vv/monomax-7/playlist.m3u8
+
+#EXTINF:-1 group-title="Sports;MONOMAX;MONOMAX SPORTS;AIS SPORTS" tvg-id="" tvg-logo="https://www.img08.xyz/assets/img/ch_logo/PL_Mono8.jpg", MONOMAX 8
+#EXTVLCOPT:http-referrer=https://vvipscore.vip/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+https://cdn2.googlecdnforstreaming.live/vv/monomax-8/playlist.m3u8
