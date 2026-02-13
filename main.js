@@ -256,19 +256,19 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
-                name: "",
+                name: "ONE31 HD",
                 sources: [
                     { 
                         name: "THAI", 
-                        url: "",
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/31/31.mpd",
                         type: "dash",
                         drm: {
-                            kid: "",
-                            key: "",
+                            kid: "6529c8cd99db4489bd237f616f37124b",
+                            key: "b9d299ba9ea94fd2ac4a77e8966dd91e",
                         }
                     }
                 ],
-                img: "", 
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/31.png", 
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
