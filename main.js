@@ -120,6 +120,108 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
+                name: "JKN 18",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/18/18.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "333de6034a1d45fe91c829539caf1149",
+                            key: "2710efc048ca44bba4c2b57397989a26",
+                        }
+                    }
+                ],
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/18.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "Nation TV",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/22/22.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "88b44b9be186449ca5322053d975aa4c",
+                            key: "b95b471541994278a1960fd4f85a7ee2",
+                        }
+                    }
+                ],
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/22.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "Workpoint",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/23/23.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "8e66726c1191403588f95c0757613ff1",
+                            key: "67c26ba7f9b84024944808e01bbe6f47",
+                        }
+                    }
+                ],
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/23.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "True4U",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/24/24.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "4eabd5db684248a98c5124fbb0687bde",
+                            key: "d2f7a6f45b3c48678ca69c91d7823c25",
+                        }
+                    }
+                ],
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/24.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "GMM 25",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/25/25.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "ae986b6dd3d84b2bb868c8765c604815",
+                            key: "89bf3c85580249d5bac4d3edaec019ec",
+                        }
+                    }
+                ],
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/25.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
                 name: "",
                 sources: [
                     { 
