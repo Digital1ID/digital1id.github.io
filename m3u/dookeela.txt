@@ -149,28 +149,94 @@ https://cdn2.googlecdnforstreaming.live/vv/monomax-7/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
 https://cdn2.googlecdnforstreaming.live/vv/monomax-8/playlist.m3u8
 
-#EXTINF:-1,Euro Sport 1
+
+#EXTINF:-1 group-logo="https://encrypted-tbn0.gstatic.com/images.jpg?q=tbn:ANd9GcSznI4RLJ9EcoXW0OzvW_4kibj1kUy9VDuioQ&usqp=CAU" group-title="AIS SPORTS",
+
+#EXTINF:-1 tvg-id="" group-title="AIS SPORTS;NFL" tvg-logo="https://raw.githubusercontent.com/appiptv1/logotv/main/monomax/Screenshot%202025-09-05%20083229.png", PLAY SPORTS 51 EN/TH
+#EXTVLCOPT:http-referrer=http://6395online.com:8080
+#EXTVLCOPT:http-user-agent=ProPlayer
+#EXTVLCOPT:network-caching=1000
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398296.m3u8
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398299.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="AIS SPORTS;NFL" tvg-logo="https://raw.githubusercontent.com/appiptv1/logotv/main/monomax/Screenshot%202025-09-05%20083311.png", PLAY SPORTS 52 EN/TH
+#EXTVLCOPT:http-referrer=http://6395online.com:8080
+#EXTVLCOPT:http-user-agent=ProPlayer
+#EXTVLCOPT:network-caching=1000
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398297.m3u8
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398300.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="AIS SPORTS;NFL" tvg-logo="https://raw.githubusercontent.com/appiptv1/logotv/main/monomax/Screenshot%202025-09-05%20083347.png", PLAY SPORTS 53 EN/TH
+#EXTVLCOPT:http-referrer=http://6395online.com:8080
+#EXTVLCOPT:http-user-agent=ProPlayer
+#EXTVLCOPT:network-caching=1000
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398298.m3u8
+http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398301.m3u8
+
+#EXTINF:-1 tvg-id="NFLNetwork.us" tvg-name="US064:NFL-Network" tvg-logo="https://static.www.nfl.com/image/private/f_auto/league/ued3sskkptnlpeh0artu.png" group-title="International;NFL", NFL Network
+#EXTVLCOPT:http-user-agent=AndroidXMedia3/1.1.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://2.0!NFL_NETWORK!.z?7
+https://fl1.moveonjoy.com/NFL_NETWORK/index.m3u8
+https://fl1.moveonjoy.com/NFL_NETWORK/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.www.nfl.com/image/private/f_auto/league/urcgb91h8b4jl6a7dnnq.png" group-title="International;NFL", NFL RedZone
+#EXTVLCOPT:http-referrer=https://fl1.moveonjoy.com/
+https://fl1.moveonjoy.com/NFL_RedZone/index.m3u8
+https://fl1.moveonjoy.com/NFL_RedZone/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRldsixUzLvyOO3bdOflgdiEoFZHDLSLvgo1g&usqp=CAU" group-title="International;NFL", NFL Channel
+#EXTVLCOPT:http-user-agent=AndroidXMedia3/1.1.1 Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=002007110c69a23803173b50eab05f23:590d6e8f4ca81319f9bb29104f571990
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(lc107a1ddy)/master.mpd
+
+#EXTINF:-1 tvg-logo="https://media.d3.nhle.com/image/private/t_q-best/prd/assets/nhl/logos/nhl_shield_on_dark_kl1omz.jpg" group-title="International", NHL NETWORK
+#EXTVLCOPT:http-referrer=https://fl1.moveonjoy.com/
+https://fl1.moveonjoy.com/NHL_NETWORK/index.m3u8
+https://fl1.moveonjoy.com/NHL_NETWORK/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="International;SpoTV" tvg-id="SpoTV.kr" tvg-name="SPOTV" tvg-logo="https://i.ibb.co/qJpj9QP/4b47.png", SPOTV 1 | MY
+#EXTVLCOPT:http-referrer=
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
+https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
+
+#EXTINF:-1 group-title="International;SpoTV" tvg-id="spotv2.kr" tvg-logo="https://i.ibb.co/TqysLvR/768b.png", SPOTV 2 | MY
+#EXTVLCOPT:http-referrer=
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
+https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRotqUbjlqXSD2VvuMDkPvas6NACBv_EMOrA&usqp=CAU", group-title="International;beIN SPORTS CONNECT", beIN Sports Xtra | EN
+#EXTVLCOPT:http-user-agent=Lavf/57.83.100 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="International",Euro Sport 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 https://dash2.antik.sk/stream/nvidia_eurosport1/playlist_cenc.mpd
 
-#EXTINF:-1,Euro Sport 2
+#EXTINF:-1 group-title="International",Euro Sport 2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 https://dash2.antik.sk/stream/nvidia_eurosport2/playlist_cenc.mpd
 
-#EXTINF:-1,Euro Sport 1
+#EXTINF:-1 group-title="International",Euro Sport 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=01a665d487aa4c1c898c9eb0ff1a21df:a0b9df5f92e6b218ddb6aa40a2cd996d
 https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561802/index.mpd
 
-#EXTINF:-1,Euro Sport 2
+#EXTINF:-1 group-title="International",Euro Sport 2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
