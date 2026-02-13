@@ -564,6 +564,39 @@ body{background:#000;color:#fff;overflow:hidden}
   .pkgGrid{grid-template-columns:repeat(2, 1fr);}
 }
 
+.zoom-menu {
+  position: absolute;
+  bottom: 60px; /* โผล่ขึ้นเหนือปุ่ม */
+  right: 120px; /* ปรับตำแหน่งใกล้ปุ่ม Zoom */
+  background: rgba(0,0,0,.85);
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 12px;
+  padding: 8px;
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  z-index: 200;
+}
+.zoom-menu.active { display: flex; }
+
+.zoom-menu .settings-item {
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(255,255,255,.08);
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.zoom-menu .settings-item.active {
+  background: rgba(229,9,20,.25);
+  border-left: 3px solid #e50914;
+}
+.zoom-menu .settings-item:hover {
+  background: rgba(255,255,255,.12);
+}
 </style>
 
 </head>
@@ -591,16 +624,24 @@ body{background:#000;color:#fff;overflow:hidden}
       </div>
     </div>
     <div class="infoRight">
-      <button class="btn" id="btnPrev" title="Prev"><i class="fas fa-chevron-left"></i></button>
-      <button class="btn" id="btnPlay" title="Play/Pause"><i class="fas fa-play" id="playIcon"></i></button>
-      <button class="btn" id="btnMute" title="Mute/Unmute"><i class="fas fa-volume-up" id="muteIcon"></i></button>
-      <button class="btn" id="btnFullscreen" title="Fullscreen"><i class="fas fa-expand" id="fullscreenIcon"></i></button>
-      <button class="btn" id="btnSettings" title="Settings"><i class="fas fa-cog"></i></button>
-      <button class="btn" id="btnPackage" title="Packages"><i class="fas fa-box"></i></button>
-      <button class="btn" id="btnGuide" title="Guide"><i class="fas fa-list"></i></button>
-      <button class="btn" id="btnNext" title="Next"><i class="fas fa-chevron-right"></i></button>
-      <button class="btn" id="btnFav" title="Favorite"><i class="fas fa-star" id="favIcon"></i></button>
-    </div>
+  <button class="btn" id="btnPrev" title="Prev"><i class="fas fa-chevron-left"></i></button>
+  <button class="btn" id="btnPlay" title="Play/Pause"><i class="fas fa-play" id="playIcon"></i></button>
+  <button class="btn" id="btnMute" title="Mute/Unmute"><i class="fas fa-volume-up" id="muteIcon"></i></button>
+  <button class="btn" id="btnFullscreen" title="Fullscreen"><i class="fas fa-expand" id="fullscreenIcon"></i></button>
+  <!-- ปุ่ม Zoom -->
+  <button class="btn" id="btnZoom" title="Zoom"><i class="fas fa-expand-alt"></i></button>
+  <!-- Zoom Menu -->
+  <div class="zoom-menu" id="zoom-menu">
+    <div class="settings-item active" data-zoom="fill"><i class="fas fa-arrows-alt-h"></i> Fill</div>
+    <div class="settings-item" data-zoom="cover"><i class="fas fa-arrows-alt-v"></i> Cover</div>
+    <div class="settings-item" data-zoom="contain"><i class="fas fa-arrows-alt"></i> Contain</div>
+  </div>
+  <button class="btn" id="btnSettings" title="Settings"><i class="fas fa-cog"></i></button>
+  <button class="btn" id="btnPackage" title="Packages"><i class="fas fa-box"></i></button>
+  <button class="btn" id="btnGuide" title="Guide"><i class="fas fa-list"></i></button>
+  <button class="btn" id="btnNext" title="Next"><i class="fas fa-chevron-right"></i></button>
+  <button class="btn" id="btnFav" title="Favorite"><i class="fas fa-star" id="favIcon"></i></button>
+</div>
   </div>
 
   <div class="video-logo-watermark hidden" id="videoLogoWatermark">
@@ -758,6 +799,27 @@ const pkgGrid = document.getElementById("pkgGrid");
 const pkgStatus = document.getElementById("pkgStatus");
 const pkgCodeInput = document.getElementById("pkgCodeInput");
 
+const zoomMenu = document.getElementById('zoom-menu');
+const zoomOptions = zoomMenu.querySelectorAll('.settings-item');
+const btnZoom = document.getElementById('btnZoom');
+
+btnZoom.addEventListener('click', () => {
+  zoomMenu.classList.toggle('active');
+});
+
+zoomOptions.forEach(option => {
+  option.addEventListener('click', () => {
+    const zoomMode = option.getAttribute('data-zoom');
+    video.style.objectFit = zoomMode;
+
+    // Update active state
+    zoomOptions.forEach(opt => opt.classList.remove('active'));
+    option.classList.add('active');
+
+    zoomMenu.classList.remove('active');
+    resetControlsTimer();
+  });
+});
 
 /* Players */
 let shakaP = null;
