@@ -6,13 +6,15 @@
   <style>
     body { margin:0; background:#000; width:100vw; height:100vh; display:flex; flex-direction:column; }
     #play { flex:1; }
-    #episodeSelector { background:#111; color:#fff; padding:10px; display:none; }
-    select { padding:6px; margin-left:10px; }
+    #selectorBar { background:#111; color:#fff; padding:10px; display:none; gap:20px; }
+    select { padding:6px; }
     #videoTitle { color:#fff; padding:10px; }
   </style>
 </head>
 <body>
-  <div id="episodeSelector">
+  <div id="selectorBar">
+    <label for="seasonSelect">เลือกซีซั่น:</label>
+    <select id="seasonSelect"></select>
     <label for="episodeSelect">เลือกตอน:</label>
     <select id="episodeSelect"></select>
   </div>
@@ -127,19 +129,51 @@ async function initPage(){
   } else if(type==="series"){
     const show=await fetchSeriesById(parseInt(ids,10));
     if(!show){ document.getElementById("videoTitle").innerText="ไม่พบข้อมูลซีรีส์"; return; }
-    const select=document.getElementById("episodeSelect"); document.getElementById("episodeSelector").style.display="block";
+
+    document.title=`${show.titleTh} (${show.titleEn})`;
+    const seasonSelect=document.createElement("select");
+    seasonSelect.id="seasonSelect";
+    const episodeSelect=document.getElementById("episodeSelect");
+    const selectorBar=document.getElementById("episodeSelector");
+    selectorBar.insertBefore(seasonSelect, episodeSelect.previousSibling);
+    selectorBar.style.display="flex";
+
+    // Group episodes by season
+    const seasonMap={};
     show.episodes.forEach(ep=>{
-      const opt=document.createElement("option");
-      opt.value=`${ep.seasonNo}-${ep.episodeNo}`;
-      opt.text=`Season ${ep.seasonNo} Episode ${ep.episodeNo} - ${ep.titleTh||ep.titleEn}`;
-      select.appendChild(opt);
+      if(!seasonMap[ep.seasonNo]) seasonMap[ep.seasonNo]=[];
+      seasonMap[ep.seasonNo].push(ep);
     });
-    select.addEventListener("change", async ()=>{
-      const [season,episode]=select.value.split("-");
-      const ep=show.episodes.find(e=>String(e.seasonNo)===season && String(e.episodeNo)===episode);
+
+    Object.keys(seasonMap).forEach(seasonNo=>{
+      const opt=document.createElement("option");
+      opt.value=seasonNo; opt.text=`Season ${seasonNo}`;
+      seasonSelect.appendChild(opt);
+    });
+
+    async function loadEpisodes(seasonNo){
+      episodeSelect.innerHTML="";
+      seasonMap[seasonNo].forEach(ep=>{
+        const opt=document.createElement("option");
+        opt.value=ep.episodeNo; opt.text=`Episode ${ep.episodeNo} - ${ep.titleTh||ep.titleEn}`;
+        episodeSelect.appendChild(opt);
+      });
+      const firstEp=seasonMap[seasonNo][0];
+      const epData=await processEpisode(firstEp);
+      setupPlayer(epData);
+    }
+
+    seasonSelect.addEventListener("change", ()=>loadEpisodes(seasonSelect.value));
+    episodeSelect.addEventListener("change", async ()=>{
+      const seasonNo=seasonSelect.value, episodeNo=episodeSelect.value;
+      const ep=seasonMap[seasonNo].find(e=>String(e.episodeNo)===episodeNo);
       if(ep){ const epData=await processEpisode(ep); setupPlayer(epData); }
     });
-    if(show.episodes.length>0){ const epData=await processEpisode(show.episodes[0]); setupPlayer(epData); }
+
+    // โหลดซีซั่นแรกและตอนแรกโดยอัตโนมัติ
+    const firstSeason=Object.keys(seasonMap)[0];
+    seasonSelect.value=firstSeason;
+    await loadEpisodes(firstSeason);
   }
 }
 
