@@ -155,6 +155,11 @@ http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398297.m3u8
 #EXTVLCOPT:network-caching=1000
 http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398298.m3u8
 
+#EXTINF:-1 group-title="International" tvg-id="US064:NFL-Network" tvg-logo="https://dookeela2.live/uploads/1694909293.png", NFL Network
+#EXTVLCOPT:http-referrer=https://vvipscore.vip/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+https://cdn2.googlecdnforstreaming.live/vv/nfl/playlist.m3u8
+
 #EXTINF:-1 tvg-id="NFLNetwork.us" tvg-name="US064:NFL-Network" tvg-logo="https://static.www.nfl.com/image/private/f_auto/league/ued3sskkptnlpeh0artu.png" group-title="International;NFL", NFL Network
 #EXTVLCOPT:http-user-agent=AndroidXMedia3/1.1.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://2.0!NFL_NETWORK!.z?7
