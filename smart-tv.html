@@ -1170,20 +1170,19 @@ function toggleSettings(force) {
 
 function loadAvailableResolutions() {
   resolutionList.innerHTML = '';
-  
+
   let qualities = [];
-  
+
   if (shakaP) {
     const tracks = shakaP.getVariantTracks();
     qualities = tracks.map(track => ({
       id: track.id,
       label: track.height ? `${track.height}p` : `${Math.round(track.bandwidth/1000)}kbps`,
-      height: track.height,
+      height: track.height || 0,
       selected: track.active
     }));
   }
-  
-  // If no dynamic qualities found
+
   if (qualities.length === 0) {
     const noOpt = document.createElement('div');
     noOpt.className = 'noOptions';
@@ -1191,10 +1190,21 @@ function loadAvailableResolutions() {
     resolutionList.appendChild(noOpt);
     return;
   }
-  
-  // Add Auto option first
+
+  // กรอง resolution ที่ไม่ซ้ำ
+  const seen = new Set();
+  qualities = qualities.filter(q => {
+    if (seen.has(q.label)) return false;
+    seen.add(q.label);
+    return true;
+  });
+
+  // จัดเรียงจากสูงไปต่ำ
+  qualities.sort((a, b) => b.height - a.height);
+
+  // Auto option
   const autoOption = document.createElement('div');
-  autoOption.className = `settingsOption active`; // Always active for Shaka
+  autoOption.className = `settingsOption active`;
   autoOption.innerHTML = `
     <div class="optionLabel">Auto (Best)</div>
     <div class="optionValue">✓</div>
@@ -1207,8 +1217,8 @@ function loadAvailableResolutions() {
     toggleSettings(false);
   };
   resolutionList.appendChild(autoOption);
-  
-  // Add available qualities
+
+  // Append unique resolutions
   qualities.forEach(quality => {
     const option = document.createElement('div');
     option.className = `settingsOption ${quality.selected ? 'active' : ''}`;
