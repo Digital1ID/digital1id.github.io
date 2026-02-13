@@ -52,9 +52,6 @@ async function fetchMovieById(movieId) {
   const movie = result?.data?.movie;
   if (!movie) return null;
 
-  const plot = movie.descriptionTh?.trim() || movie.synopsisTh?.trim() || '-';
-  const year = movie.releaseDate?.substring(0,4) || "0000";
-
   let videoUrl="", subtitle=[], audioTracks=[];
   const transcodeUuid=movie.video?.transcodeUuid, cdnHostname=movie.video?.cdnHostname;
   if(transcodeUuid && cdnHostname){
@@ -131,11 +128,9 @@ async function initPage(){
     if(!show){ document.getElementById("videoTitle").innerText="ไม่พบข้อมูลซีรีส์"; return; }
 
     document.title=`${show.titleTh} (${show.titleEn})`;
-    const seasonSelect=document.createElement("select");
-    seasonSelect.id="seasonSelect";
+    const seasonSelect=document.getElementById("seasonSelect");
     const episodeSelect=document.getElementById("episodeSelect");
-    const selectorBar=document.getElementById("episodeSelector");
-    selectorBar.insertBefore(seasonSelect, episodeSelect.previousSibling);
+    const selectorBar=document.getElementById("selectorBar");
     selectorBar.style.display="flex";
 
     // Group episodes by season
