@@ -38,7 +38,7 @@ const channels = [
                 sources: [
                     { 
                         name: "THAI", 
-                        url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/3/3.mpd",
+                        url: "https://cco-streamer3.cdn.3bbtv.com:8443/3bb/live/3/3.mpd",
                         type: "dash",
                         drm: {
                             kid: "4d4426a505f64382a9841155d721cee6",
@@ -55,7 +55,7 @@ const channels = [
                 sources: [
                     { 
                         name: "THAI", 
-                        url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/4/4.mpd",
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/4/4.mpd",
                         type: "dash",
                         drm: {
                             kid: "1e98456bcbea44b7ad05831387e364ef",
