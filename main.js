@@ -16,6 +16,23 @@ const channels = [
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
+              },{ 
+                name: "NBT2HD",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/2/2.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "ca20a93cf8e3421dafbd5bdb1990081b",
+                            key: "86ae86a7391c481ea93eecdb740f0a14",
+                        }
+                    }
+                ],
+                img: "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/0001.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
               },
               {
                 name: "BBC News", 
