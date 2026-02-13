@@ -142,31 +142,28 @@ https://cdn2.googlecdnforstreaming.live/vv/monomax-8/playlist.m3u8
 #EXTVLCOPT:http-user-agent=ProPlayer
 #EXTVLCOPT:network-caching=1000
 http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398296.m3u8
-http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398299.m3u8
 
 #EXTINF:-1 tvg-id="" group-title="AIS SPORTS;NFL" tvg-logo="https://raw.githubusercontent.com/appiptv1/logotv/main/monomax/Screenshot%202025-09-05%20083311.png", PLAY SPORTS 52 EN/TH
 #EXTVLCOPT:http-referrer=http://6395online.com:8080
 #EXTVLCOPT:http-user-agent=ProPlayer
 #EXTVLCOPT:network-caching=1000
 http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398297.m3u8
-http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398300.m3u8
 
 #EXTINF:-1 tvg-id="" group-title="AIS SPORTS;NFL" tvg-logo="https://raw.githubusercontent.com/appiptv1/logotv/main/monomax/Screenshot%202025-09-05%20083347.png", PLAY SPORTS 53 EN/TH
 #EXTVLCOPT:http-referrer=http://6395online.com:8080
 #EXTVLCOPT:http-user-agent=ProPlayer
 #EXTVLCOPT:network-caching=1000
 http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398298.m3u8
-http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/398301.m3u8
 
 #EXTINF:-1 tvg-id="NFLNetwork.us" tvg-name="US064:NFL-Network" tvg-logo="https://static.www.nfl.com/image/private/f_auto/league/ued3sskkptnlpeh0artu.png" group-title="International;NFL", NFL Network
 #EXTVLCOPT:http-user-agent=AndroidXMedia3/1.1.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://2.0!NFL_NETWORK!.z?7
-https://fl1.moveonjoy.com/NFL_NETWORK/index.m3u8
+https://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8
 https://fl1.moveonjoy.com/NFL_NETWORK/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.www.nfl.com/image/private/f_auto/league/urcgb91h8b4jl6a7dnnq.png" group-title="International;NFL", NFL RedZone
 #EXTVLCOPT:http-referrer=https://fl1.moveonjoy.com/
-https://fl1.moveonjoy.com/NFL_RedZone/index.m3u8
+https://fl2.moveonjoy.com/NFL_RedZone/index.m3u8
 https://fl1.moveonjoy.com/NFL_RedZone/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRldsixUzLvyOO3bdOflgdiEoFZHDLSLvgo1g&usqp=CAU" group-title="International;NFL", NFL Channel
@@ -178,7 +175,7 @@ https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(lc107a1ddy)/m
 
 #EXTINF:-1 tvg-logo="https://media.d3.nhle.com/image/private/t_q-best/prd/assets/nhl/logos/nhl_shield_on_dark_kl1omz.jpg" group-title="International", NHL NETWORK
 #EXTVLCOPT:http-referrer=https://fl1.moveonjoy.com/
-https://fl1.moveonjoy.com/NHL_NETWORK/index.m3u8
+https://fl2.moveonjoy.com/NHL_NETWORK/index.m3u8
 https://fl1.moveonjoy.com/NHL_NETWORK/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="International;SpoTV" tvg-id="SpoTV.kr" tvg-name="SPOTV" tvg-logo="https://i.ibb.co/qJpj9QP/4b47.png", SPOTV 1 | MY
