@@ -222,6 +222,74 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
+                name: "Mono 29",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "96a14b36335645b391bbbb48c424fec7",
+                            key: "e6971b27837a4822832d8215156bb516",
+                        }
+                    }
+                ],
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/29.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "MCOT HD",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/30/30.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "edef8ba979d64acea3c827dcd51d21ed",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/30.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
                 name: "",
                 sources: [
                     { 
