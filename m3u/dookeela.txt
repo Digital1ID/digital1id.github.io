@@ -126,12 +126,12 @@ https://cdn2.googlecdnforstreaming.live/vv/bein1/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Sports;TRUE SPORTS;beIN SPORTS CONNECT" tvg-logo="https://dooballplus2.live/wp-content/uploads/2023/11/bein2.png", Bein2
 #EXTVLCOPT:http-referrer=https://vvipscore.vip/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-https://cdn2.googlecdnforstreaming.live/vv/bein1/playlist.m3u8
+https://cdn2.googlecdnforstreaming.live/vv/bein2/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" group-title="Sports;TRUE SPORTS;beIN SPORTS CONNECT" tvg-logo="https://dooballplus2.live/wp-content/uploads/2023/11/bein3.png", Bein3
 #EXTVLCOPT:http-referrer=https://vvipscore.vip/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
-https://cdn2.googlecdnforstreaming.live/vv/bein1/playlist.m3u8
+https://cdn2.googlecdnforstreaming.live/vv/bein3/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" group-title="Sports;TRUE SPORTS;beIN SPORTS CONNECT" tvg-logo="https://dooballplus2.live/wp-content/uploads/2023/11/bein1.png", Bein1
 #EXTVLCOPT:http-origin=https://dooballplus2.live
