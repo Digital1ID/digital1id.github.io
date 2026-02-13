@@ -290,6 +290,74 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
+                name: "3HD",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/33/33.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "9d76aea451d441a4913d4d70c4e586ab",
+                            key: "051027a6ff54494b949ba792928e9008",
+                        }
+                    }
+                ],
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/33.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "AmarinTV HD",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/34/34.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "0b898bb9530b4b0a97e444d1e1f8960e",
+                            key: "dab1a7c035d94287ac64417ef809ed3b",
+                        }
+                    }
+                ],
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/34.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "CH7 HD",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/35/35.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "4d4426a505f64382a9841155d721cee6",
+                            key: "0f4770219ccb4be5836a7517057e51c3",
+                        }
+                    }
+                ],
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/35.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
                 name: "",
                 sources: [
                     { 
