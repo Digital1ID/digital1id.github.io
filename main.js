@@ -1,22 +1,5 @@
 const channels = [
-              { 
-                name: "5HD",
-                sources: [
-                    { 
-                        name: "THAI", 
-                        url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/5/5.mpd",
-                        type: "dash",
-                        drm: {
-                            kid: "87db4361f7894655a4656e9c8b935a02",
-                            key: "b025a4b950df41158a87cfc8d6f2ac34"
-                        }
-                    }
-                ],
-                img: "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/ch5new.logo.png", 
-                category: "Digital TV",
-                package: ["150","250","500"],
-                description: "THAI News"
-              },{ 
+                { 
                 name: "NBT2HD",
                 sources: [
                     { 
@@ -29,13 +12,14 @@ const channels = [
                         }
                     }
                 ],
-                img: "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/0001.png", 
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/2.png", 
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
                 name: "ThaiPBS",
                 sources: [
+                    { name: "Default", url: "https://thaipbs-ophctt.cdn.byteark.com/live/playlist.m3u8" },
                     { 
                         name: "THAI", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/3/3.mpd",
@@ -46,7 +30,7 @@ const channels = [
                         }
                     }
                 ],
-                img: "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0014.png", 
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/3.png", 
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
@@ -63,58 +47,75 @@ const channels = [
                         }
                     }
                 ],
-                img: "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/ALTV.PNG", 
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/4.png", 
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
-                name: "",
+                name: "TV5 HD",
                 sources: [
                     { 
                         name: "THAI", 
-                        url: "",
+                        url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/5/5.mpd",
                         type: "dash",
                         drm: {
-                            kid: "",
-                            key: "",
+                            kid: "87db4361f7894655a4656e9c8b935a02",
+                            key: "b025a4b950df41158a87cfc8d6f2ac34"
                         }
                     }
                 ],
-                img: "", 
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/5.png", 
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
-                name: "",
+                name: "T Sports 7",
                 sources: [
                     { 
                         name: "THAI", 
-                        url: "",
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/7/7.mpd",
                         type: "dash",
                         drm: {
-                            kid: "",
-                            key: "",
+                            kid: "6187523f92b9475bb5b192f70cef1342",
+                            key: "5119311f482144d58dacabc5bc1fa4ba",
                         }
                     }
                 ],
-                img: "", 
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/7.png", 
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
-                name: "",
+                name: "TPTV",
                 sources: [
                     { 
                         name: "THAI", 
-                        url: "",
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/10/10.mpd",
                         type: "dash",
                         drm: {
-                            kid: "",
-                            key: "",
+                            kid: "5da46688fd1e4ed5b085a12519b9dc4e",
+                            key: "fd07bcf33823447180f53f6540f74ccb",
                         }
                     }
                 ],
-                img: "", 
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/10.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "TNN16",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/16/16.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "9ebedc957e934d2b9023e4e60b97af73",
+                            key: "7bcb4363df74457bbafedec1a864e6b6",
+                        }
+                    }
+                ],
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/16.png", 
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
