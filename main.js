@@ -205,19 +205,19 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
-                name: "",
+                name: "CH8",
                 sources: [
                     { 
                         name: "THAI", 
-                        url: "",
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/27/27.mpd",
                         type: "dash",
                         drm: {
-                            kid: "",
-                            key: "",
+                            kid: "4a0a9dd380b4409c8dad910691283a0d",
+                            key: "1447c104caa244d9a367549534e0b807",
                         }
                     }
                 ],
-                img: "", 
+                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/27.png", 
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
