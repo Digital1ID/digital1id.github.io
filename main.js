@@ -247,7 +247,7 @@ const channels = [
                         type: "dash",
                         drm: {
                             kid: "edef8ba979d64acea3c827dcd51d21ed",
-                            key: "",
+                            key: "1c9f0222e49da66fc785376c0645d86d",
                         }
                     }
                 ],
