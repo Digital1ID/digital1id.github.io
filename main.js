@@ -233,7 +233,7 @@ const channels = [
                             key: "e6971b27837a4822832d8215156bb516",
                         }
                     },
-                    { name: "Default", url: "https://monomax-uiripn.cdn.byteark.com/plain/th/playlist.m3u8" },
+                    { name: "Default", url: "https://monomax-uiripn.cdn.byteark.com/plain/th/playlist.m3u8" }
                 ],
                 img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/29.png", 
                 category: "Digital TV",
