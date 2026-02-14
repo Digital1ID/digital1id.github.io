@@ -232,7 +232,8 @@ const channels = [
                             kid: "96a14b36335645b391bbbb48c424fec7",
                             key: "e6971b27837a4822832d8215156bb516",
                         }
-                    }
+                    },
+                    { name: "Default", url: "https://monomax-uiripn.cdn.byteark.com/plain/th/playlist.m3u8" },
                 ],
                 img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/29.png", 
                 category: "Digital TV",
@@ -343,7 +344,7 @@ const channels = [
               },{ 
                 name: "PPTV HD",
                 sources: [
-                    { name: "Default", url: "https://www.livedoomovies.com:4431/02_PPTVHD_720p/playlist.m3u8" },
+                    { name: "Default", url: "https://ww.dooballfree.vip/live/pptv/playlist.m3u8" },
                     { 
                         name: "THAI", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/36/36.mpd",
@@ -355,6 +356,91 @@ const channels = [
                     }
                 ],
                 img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/36.png", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "", 
+                category: "Digital TV",
+                package: ["150","250","500"],
+                description: "THAI News"
+              },{ 
+                name: "",
+                sources: [
+                    { 
+                        name: "THAI", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "", 
                 category: "Digital TV",
                 package: ["150","250","500"],
                 description: "THAI News"
