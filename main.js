@@ -380,7 +380,7 @@ const channels = [
               },{ 
                 name: "MONO29 Plus",
                 sources: [
-                    { name: "Server 1", url: "https://monomax-ooleht.cdn.byteark.com/fleetstream/MonoPlus/index.m3u8" }
+                    { name: "Server 1", url: "https://monomax-ooleht.cdn.byteark.com/fleetstream/MonoPlus/index.m3u8" },
                     { 
                         name: "Server 2", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/109/109.mpd",
@@ -460,7 +460,7 @@ const channels = [
                     }
                 ],
                 img: "", 
-                category: "Digital TV",
+                category: "",
                 package: ["150","250","500"],
                 description: "THAI"
               },
