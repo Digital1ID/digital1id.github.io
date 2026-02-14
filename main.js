@@ -3,7 +3,7 @@ const channels = [
                 name: "NBT2HD",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/2/2.mpd",
                         type: "dash",
                         drm: {
@@ -17,11 +17,11 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
-                name: "ThaiPBS",
+                name: "Server 1PBS",
                 sources: [
-                    { name: "Default", url: "https://thaipbs-ophctt.cdn.byteark.com/live/playlist.m3u8" },
+                    { name: "Default", url: "https://Server 1pbs-ophctt.cdn.byteark.com/live/playlist.m3u8" },
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/3/3.mpd",
                         type: "dash",
                         drm: {
@@ -38,7 +38,7 @@ const channels = [
                 name: "ALTV",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/4/4.mpd",
                         type: "dash",
                         drm: {
@@ -55,7 +55,7 @@ const channels = [
                 name: "TV5 HD",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/5/5.mpd",
                         type: "dash",
                         drm: {
@@ -72,7 +72,7 @@ const channels = [
                 name: "T Sports 7",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/7/7.mpd",
                         type: "dash",
                         drm: {
@@ -89,7 +89,7 @@ const channels = [
                 name: "TPTV",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/10/10.mpd",
                         type: "dash",
                         drm: {
@@ -106,7 +106,7 @@ const channels = [
                 name: "TNN16",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/16/16.mpd",
                         type: "dash",
                         drm: {
@@ -123,7 +123,7 @@ const channels = [
                 name: "JKN 18",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/18/18.mpd",
                         type: "dash",
                         drm: {
@@ -140,7 +140,7 @@ const channels = [
                 name: "Nation TV",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/22/22.mpd",
                         type: "dash",
                         drm: {
@@ -157,7 +157,7 @@ const channels = [
                 name: "Workpoint",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/23/23.mpd",
                         type: "dash",
                         drm: {
@@ -174,7 +174,7 @@ const channels = [
                 name: "True4U",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/24/24.mpd",
                         type: "dash",
                         drm: {
@@ -191,7 +191,7 @@ const channels = [
                 name: "GMM 25",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/25/25.mpd",
                         type: "dash",
                         drm: {
@@ -208,7 +208,7 @@ const channels = [
                 name: "CH8",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/27/27.mpd",
                         type: "dash",
                         drm: {
@@ -225,7 +225,7 @@ const channels = [
                 name: "Mono 29",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd",
                         type: "dash",
                         drm: {
@@ -233,7 +233,7 @@ const channels = [
                             key: "e6971b27837a4822832d8215156bb516",
                         }
                     },
-                    { name: "Default", url: "https://monomax-uiripn.cdn.byteark.com/plain/th/playlist.m3u8" }
+                    { name: "Server 2", url: "https://monomax-uiripn.cdn.byteark.com/plain/th/playlist.m3u8" }
                 ],
                 img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/29.png", 
                 category: "Digital TV",
@@ -243,7 +243,7 @@ const channels = [
                 name: "MCOT HD",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/30/30.mpd",
                         type: "dash",
                         drm: {
@@ -260,7 +260,7 @@ const channels = [
                 name: "ONE31 HD",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/31/31.mpd",
                         type: "dash",
                         drm: {
@@ -277,7 +277,7 @@ const channels = [
                 name: "Thairath TV",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/32/32.mpd",
                         type: "dash",
                         drm: {
@@ -294,7 +294,7 @@ const channels = [
                 name: "3HD",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/33/33.mpd",
                         type: "dash",
                         drm: {
@@ -311,7 +311,7 @@ const channels = [
                 name: "AmarinTV HD",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/34/34.mpd",
                         type: "dash",
                         drm: {
@@ -328,7 +328,7 @@ const channels = [
                 name: "CH7 HD",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/35/35.mpd",
                         type: "dash",
                         drm: {
@@ -344,9 +344,9 @@ const channels = [
               },{ 
                 name: "PPTV HD",
                 sources: [
-                    { name: "Default", url: "https://ww.dooballfree.vip/live/pptv/playlist.m3u8" },
+                    { name: "Server 1", url: "https://ww.dooballfree.vip/live/pptv/playlist.m3u8" },
                     { 
-                        name: "THAI", 
+                        name: "Server 2", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/36/36.mpd",
                         type: "dash",
                         drm: {
@@ -358,12 +358,48 @@ const channels = [
                 img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/36.png", 
                 category: "Digital TV",
                 package: ["150","250","500"],
-                description: "THAI News"
+                description: "THAI"
+              },{ 
+                name: "Asian Hits",
+                sources: [
+                    { name: "Server 1", url: "https://monomax-2qrxos.cdn.byteark.com/fleetstream/AsianHit/index.m3u8" },
+                    { 
+                        name: "Server 2", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/101/101.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "dac6cbd9d17a451bb76386f52469e0e9",
+                            key: "2e2ac52cadf843459915eaa1a9b95e48",
+                        }
+                    }
+                ],
+                img: "https://monomax-2qrxos.cdn.byteark.com/fleetstream/AsianHit/index.m3u8", 
+                category: "Movies | Series",
+                package: ["150","250","500"],
+                description: "THAI"
+              },{ 
+                name: "MONO29 Plus",
+                sources: [
+                    { name: "Server 1", url: "https://monomax-ooleht.cdn.byteark.com/fleetstream/MonoPlus/index.m3u8" }
+                    { 
+                        name: "Server 2", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/109/109.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "072eeb02f6744f838fcc8f0ef36b312e",
+                            key: "b797c12f2dd64728aae23fd3c8ef275c",
+                        }
+                    }
+                ],
+                img: "https://img.monomax.me/w0r-W06YNoyEQi2N0f54auLLmkc=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/r4SQIxOmqPEEXsWRyoA1OvEo6u0rBwn7.png", 
+                category: "Movies | Series",
+                package: ["150","250","500"],
+                description: "THAI"
               },{ 
                 name: "",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "",
                         type: "dash",
                         drm: {
@@ -375,12 +411,12 @@ const channels = [
                 img: "", 
                 category: "Digital TV",
                 package: ["150","250","500"],
-                description: "THAI News"
+                description: "THAI"
               },{ 
                 name: "",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "",
                         type: "dash",
                         drm: {
@@ -392,12 +428,12 @@ const channels = [
                 img: "", 
                 category: "Digital TV",
                 package: ["150","250","500"],
-                description: "THAI News"
+                description: "THAI"
               },{ 
                 name: "",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "",
                         type: "dash",
                         drm: {
@@ -409,12 +445,12 @@ const channels = [
                 img: "", 
                 category: "Digital TV",
                 package: ["150","250","500"],
-                description: "THAI News"
+                description: "THAI"
               },{ 
                 name: "",
                 sources: [
                     { 
-                        name: "THAI", 
+                        name: "Server 1", 
                         url: "",
                         type: "dash",
                         drm: {
@@ -426,41 +462,7 @@ const channels = [
                 img: "", 
                 category: "Digital TV",
                 package: ["150","250","500"],
-                description: "THAI News"
-              },{ 
-                name: "",
-                sources: [
-                    { 
-                        name: "THAI", 
-                        url: "",
-                        type: "dash",
-                        drm: {
-                            kid: "",
-                            key: "",
-                        }
-                    }
-                ],
-                img: "", 
-                category: "Digital TV",
-                package: ["150","250","500"],
-                description: "THAI News"
-              },{ 
-                name: "",
-                sources: [
-                    { 
-                        name: "THAI", 
-                        url: "",
-                        type: "dash",
-                        drm: {
-                            kid: "",
-                            key: "",
-                        }
-                    }
-                ],
-                img: "", 
-                category: "Digital TV",
-                package: ["150","250","500"],
-                description: "THAI News"
+                description: "THAI"
               },
               {
                 name: "BBC News", 
