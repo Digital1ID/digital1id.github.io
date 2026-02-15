@@ -2,6 +2,17 @@
   
   {
     "player": "p2p/player",
+    "name": "Predator: Badlands (2025) พรีเดเตอร์: แดนเถื่อน",
+    "category": "หนังแนะนำ",
+    "info": {
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg",
+    "sound": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/3e61b296e4db484d3ed2a51f/3e61b296e4db484d3ed2a51f.m3u8",
+    "subtitle": "https://raw.githubusercontent.com/Digital1ID/digital1id.github.io/refs/heads/main/playlist/Predator.srt"
+  },
+  {
+    "player": "p2p/player",
     "name": "Predator Badlands (2025) พรีเดเตอร์: แดนเถื่อน",
     "category": "หนังแนะนำ",
     "info": {
@@ -47,7 +58,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/Q0CQDyF1uZgXjRG6zpBmT1bKEd.jpg",
       "plot": "",
       "year": 2026,
-      "sound": "พากย์ไทย"
+      "sound": "ไทยโรง"
     },
     "video": "https://main.24playerhd.com/newplaylist/3323eacd87a5e22ce44c4ff2/3323eacd87a5e22ce44c4ff2.m3u8",
     "Referrer": "https://main.24playerhd.com/"
@@ -60,7 +71,7 @@
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/nGH4OgV86lghXzaNdIraM21pFdn.jpg",
       "plot": "",
       "year": 2026,
-      "sound": "พากย์ไทย"
+      "sound": "ไทยโรง"
     },
     "video": "https://main.24playerhd.com/newplaylist/0eafb6cb73b9f88373105c27/0eafb6cb73b9f88373105c27.m3u8",
     "Referrer": "https://main.24playerhd.com/"
