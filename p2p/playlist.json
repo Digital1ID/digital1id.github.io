@@ -3922,8 +3922,8 @@
   },
     {
     "id": "begins-necromancer-2026",
-    "name": "Begins Necromancer (2026) จอมขมังเวทย์ ตอนที่1-10 (ยังไม่จบ)",
-    "category": "ซีรี่ย์ ไทย",
+    "name": "Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ)",
+    "category": "ซีรี่ย์",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w188_and_h282_face/eUSneFRLWu9WWzl67rnYxF18GYY.jpg",
       "plot": "Begins Necromancer (2026) จอมขมังเวทย์ “สิงห์”นักเลงย่าน Walking Street เขาเติบโตมากับแม่เพียงสองคน เพราะพ่อที่เป็นตำรวจเก่าหายตัวไปอย่างลึกลับ วันหนึ่งสิงห์เจอเหตุการณ์เฉียดตาย แต่เขารอดมาได้เพราะฝีมือ “อาจารย์เดช” อดีตตำรวจรุ่นน้องของพ่อเขา ที่ตอนนี้ผันตัวไปเป็นอาจารย์ด้านไสยศาสตร์ สิงห์พบว่าร่างกายของเขาเต็มไปด้วยรอยสัก นั่นเป็นการถ่ายทอดพลังอย่างหนึ่งจากผู้เป็นพ่อที่เชื่อมโยงมาถึงลูก เขาเริ่มเรียนรู้พลังของตัวเองที่เพิ่มขึ้นแบบทวีคูณ ขณะเดียวกันก็ต้องเผชิญกับ “อานนท์” นักการเมืองท้องถิ่นที่พยายามจะยืมมือ “ก๊อด”เพื่อใช้ไสยศาสตร์ครอบครองเมืองนี้ ทำให้สิงห์ต้องฝึกฝนวิชาให้แกร่งขึ้น! และตัดสินใจว่าจะใช้พลังเหล่านี้ในทางใดเพื่อปกป้องตนเองและคนที่เขารัก จากความชั่วร้ายที่กำลังคืบคลานเข้ามา",
@@ -3941,57 +3941,71 @@
         "episodes": [
           {
             "episode": 1,
-            "name": "ตอนที่ 1",
+            "name": "EP. 1",
             "video": "https://media.vdohls.com/86H_Dnh3-3sVB/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 2,
-            "name": "ตอนที่ 2",
+            "name": "EP. 2",
             "video": "https://media.vdohls.com/93_1Qe-CVaDmY/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 3,
-            "name": "ตอนที่ 3",
+            "name": "EP. 3",
             "video": "https://media.vdohls.com/TyMT-johE_f3c/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 4,
-            "name": "ตอนที่ 4",
+            "name": "EP. 4",
             "video": "https://media.vdohls.com/MSyCrn-V_pXAq/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 5,
-            "name": "ตอนที่ 5",
+            "name": "EP. 5",
             "video": "https://media.vdohls.com/4Qkj_A7Pn-tnb/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 6,
-            "name": "ตอนที่ 6",
+            "name": "EP. 6",
             "video": "https://media.vdohls.com/3v-T_1tzwBzv8/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 7,
-            "name": "ตอนที่ 7",
+            "name": "EP. 7",
             "video": "https://media.vdohls.com/b1O_8dXL4-NtX/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 8,
-            "name": "ตอนที่ 8",
+            "name": "EP. 8",
             "video": "https://media.vdohls.com/vk9egKc-iJ_Bk/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 9,
+            "name": "EP. 9",
+            "video": "https://media.vdohls.com/1-zAhYIxF_KtM/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 10,
+            "name": "EP. 10",
+            "video": "https://media.vdohls.com/b7ri_ptn-a8gd/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           }
