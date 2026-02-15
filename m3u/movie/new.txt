@@ -23,13 +23,17 @@
 
 
 
-#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg", Predator Badlands พรีเดเตอร์: แดนเถื่อน (2025) บรรยายไทย
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg", Predator Badlands (2025) พรีเดเตอร์: แดนเถื่อน
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/3e61b296e4db484d3ed2a51f/3e61b296e4db484d3ed2a51f.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4GIqZUgPZ146BhibsPHMHef2nXX.jpg", Eddington (2025) เอ็ดดิงตัน
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/a8a02def1bbf4a7b0ada62c8/a8a02def1bbf4a7b0ada62c8.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/jWGOCUlzF4aCVLwHoiuqWWfhcrA.jpg", Joe’s College Road Trip (2026) โร้ดทริปป่วนกับคุณปู่โจ
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/b4a454038c8a93ea8530c85d/b4a454038c8a93ea8530c85d.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/Q0CQDyF1uZgXjRG6zpBmT1bKEd.jpg", Suppaleehuan (2026) สรรพลี้หวน
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
