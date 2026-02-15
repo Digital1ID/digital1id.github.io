@@ -436,7 +436,7 @@ const channels = [
                     }
                 ],
                 img: "", 
-                category: "",
+                category: "Documentary",
                 package: ["150","250","500"],
                 description: "THAI"
               },
