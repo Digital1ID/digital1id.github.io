@@ -427,7 +427,7 @@ const channels = [
                     }
                 ],
                 img: "", 
-                category: "Digital TV",
+                category: "Movies | Series",
                 package: ["150","250","500"],
                 description: "THAI"
               },{ 
