@@ -110,6 +110,26 @@ https://media.vdohls.com/J_3J-TyckE553/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/12/The-Architect-2025.webp" tvg-season="1" tvg-episode="26", The Architect (2025) ลิขิตรักในกำมือ EP.1-30 (ยังไม่จบ) S01 E26
 
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="1", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E01
+https://media.vdohls.com/86H_Dnh3-3sVB/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="2", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E02
+https://media.vdohls.com/93_1Qe-CVaDmY/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="3", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E03
+https://media.vdohls.com/TyMT-johE_f3c/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="4", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E04
+https://media.vdohls.com/MSyCrn-V_pXAq/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="5", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E05
+https://media.vdohls.com/4Qkj_A7Pn-tnb/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="6", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E06
+https://media.vdohls.com/3v-T_1tzwBzv8/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="7", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E07
+https://media.vdohls.com/b1O_8dXL4-NtX/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="8", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E08
+https://media.vdohls.com/vk9egKc-iJ_Bk/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="9", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E09
+https://media.vdohls.com/1-zAhYIxF_KtM/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="10", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E10
+https://media.vdohls.com/b7ri_ptn-a8gd/playlist.m3u8
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="1", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E01
 https://media.vdohls.com/lUC5c-jt_PfE1/playlist.m3u8
