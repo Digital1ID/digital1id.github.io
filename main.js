@@ -396,9 +396,9 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI"
               },{ 
-                name: "CHANNEL 8",
+                name: "ThaiPBS VIPA",
                 sources: [
-                    { name: "Server 1", url: "http://54c241893bf39.streamlock.net:1935/ch8/ch8/chunklist.m3u8"}
+                    { name: "Server 1", url: "https://bcovlive-a.akamaihd.net/0db95d655989436dbd571dcb8f70d98f/ap-southeast-1/6075037809001/playlist.m3u8"}
                 ],
                 img: "", 
                 category: "Movies | Series",
@@ -417,7 +417,7 @@ const channels = [
                         }
                     }
                 ],
-                img: "", 
+                img: "https://d198sf0nbhx18q.cloudfront.net/web/images/logo/logo.png", 
                 category: "Movies | Series",
                 package: ["150","250","500"],
                 description: "THAI"
