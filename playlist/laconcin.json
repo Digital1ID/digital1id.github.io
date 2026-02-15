@@ -1,6 +1,42 @@
 [
   {
     "player": "p2p/api-plyr",
+    "name": "รักซ่อนใจหลังวิวาห์",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW8ZSDMh981dPBTS-Ff2ceuYzjDaD_9ae9yoXdSotpgA&s",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1322"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "วิวาห์รักผิดตัว",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbBVyJbTnVLZCPaRVlKwehTxsGp_-8I4CJlRd0Cgvqfw&s",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1321"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "รักแท้ฟื้นคืนจากพันธะลิขิต",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNP_dwy94PN4jSGfORYJ_mUZeiMFH8_uxQd_bnfwkY3A&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1313"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "ทะลุมิติตะลุยวังหลวง",
     "category": "ละครสั้นจีน",
     "info": { 
