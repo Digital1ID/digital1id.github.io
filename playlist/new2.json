@@ -1,6 +1,17 @@
 [
   {
     "player": "p2p/player",
+    "name": "Predator Badlands พรีเดเตอร์: แดนเถื่อน (2025) บรรยายไทย",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg",
+      "plot": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/3e61b296e4db484d3ed2a51f/3e61b296e4db484d3ed2a51f.m3u8",
+    "Referrer": "http://m2.inwstream.com:1935/"
+  },
+  {
+    "player": "p2p/player",
     "name": "Return to Silent Hill (2026) เมืองห่าผี นครคืนชีพ",
     "category": "ซูมโรง ชนโรง",
     "info": {
@@ -369,17 +380,6 @@
     },
     "video": "https://main.24playerhd.com/newplaylist/645abf56072d4cc3e89ebaff/645abf56072d4cc3e89ebaff.m3u8",
     "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/jwplayer",
-    "name": "Predator Badlands พรีเดเตอร์: แดนเถื่อน (2025) บรรยายไทย",
-    "category": "ซูมโรง ชนโรง",
-    "info": {
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg",
-      "plot": "พากย์ไทย"
-    },
-    "video": "https://web01.dynns.com:1935/msub2016/Predator.Badlands.2025.SUB.mp4/playlist.m3u8",
-    "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
     "player": "p2p/player",
