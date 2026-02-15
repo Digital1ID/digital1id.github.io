@@ -1,8 +1,21 @@
 [
   {
     "player": "p2p/playlist",
+    "name": "The Seven Legends (2026) 7 ประจัญบาน EP.1-10 (ยังไม่จบ)",
+    "category": "ซีรี่ย์ ไทย",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2026/02/The-Seven-Legends-2026.webp",
+      "description": "The Seven Legends (2026) 7 ประจัญบาน เมืองชายแดนชื่อ “ผาหมอก” กลายเป็นต้นแบบของเมืองอัจฉริยะที่รัฐบาลผลักดัน แต่ภายใต้ภาพลักษณ์ทันสมัยนั้นกลับซุกซ่อนอาณาจักรอาชญากรรมไซเบอร์ข้ามชาติ ตั้งแต่คอลเซ็นเตอร์, เว็บพนัน, ค้ามนุษย์ ไปจนถึงการฟอกเงินระดับชาติ",
+      "year": 2026,
+      "sound": "พากย์ไทย",
+      "subtitles": ""
+    },
+    "video": "the-seven-legends-2026"
+  },
+  {
+    "player": "p2p/playlist",
     "name": "Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (ยังไม่จบ)",
-    "category": "ซีรีส์ ไทย",
+    "category": "ซีรี่ย์ ไทย",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w220_and_h330_face/eUSneFRLWu9WWzl67rnYxF18GYY.jpg",
         "sound": "ไทย",
