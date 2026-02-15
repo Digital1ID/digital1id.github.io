@@ -36,9 +36,9 @@ function parseM3U8(text) {
         "info": {
           "poster": "",
           "plot": "",
-          "year": 2026,
+          "year": null,
           "sound": "พากย์ไทย"
-                },
+        },
         "video": "",
         "Referrer": ""
       };
@@ -49,6 +49,12 @@ function parseM3U8(text) {
       current.category = attrs["group-title"] || "";
       current.info.poster = attrs["tvg-logo"] || "";
       current.name = title;
+
+      // ✅ ดึงค่า year จากวงเล็บ เช่น (2025)
+      const yearMatch = title.match(/\((\d{4})\)/);
+      if (yearMatch) {
+        current.info.year = parseInt(yearMatch[1], 10);
+      }
     } else if (line.startsWith("#EXTVLCOPT:http-referrer=")) {
       if (current) current.Referrer = line.replace("#EXTVLCOPT:http-referrer=","").trim();
     } else if (!line.startsWith("#")) {
@@ -58,34 +64,6 @@ function parseM3U8(text) {
   flush();
   return entries;
 }
-
-(async () => {
-  const params = new URLSearchParams(window.location.search);
-  const fileUrl = params.get("file");
-  const mode = params.get("mode");
-
-  if (!fileUrl) {
-    document.getElementById("output").textContent = "กรุณาระบุพารามิเตอร์ ?file=...";
-    return;
-  }
-
-  try {
-    const res = await fetch(fileUrl);
-    const text = await res.text();
-    const movies = parseM3U8(text);
-
-    if (mode === "json") {
-      // ✅ ส่งออก JSON เพียว ๆ
-      document.open();
-      document.write(JSON.stringify(movies));
-      document.close();
-    } else {
-      document.getElementById("output").textContent = JSON.stringify(movies, null, 2);
-    }
-  } catch (e) {
-    document.getElementById("output").textContent = "Error: " + e;
-  }
-})();
 </script>
 </body>
 </html>
