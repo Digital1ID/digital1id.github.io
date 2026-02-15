@@ -398,8 +398,9 @@ const channels = [
               },{ 
                 name: "",
                 sources: [
+                    { name: "Server 1", url: "http://54c241893bf39.streamlock.net:1935/ch8/ch8/chunklist.m3u8"},
                     { 
-                        name: "Server 1", 
+                        name: "", 
                         url: "",
                         type: "dash",
                         drm: {
