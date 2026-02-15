@@ -135,6 +135,36 @@ https://media.vdohls.com/1-zAhYIxF_KtM/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="10", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E10
 https://media.vdohls.com/b7ri_ptn-a8gd/playlist.m3u8
 
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="1", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E01
+https://media.vdohls.com/BDrh_eYz-8B9F/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="2", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E02
+https://media.vdohls.com/CagFB-Q_AT8h5/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="3", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E03
+https://media.vdohls.com/KS_MCBHE-Q9ti/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="4", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E04
+https://media.vdohls.com/Zl2T3kx-6h_fj/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="5", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E05
+https://media.vdohls.com/irY-MY_TmczJ0/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="6", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E06
+https://media.vdohls.com/iM3FQ-RvEj_mo/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="7", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E07
+https://media.vdohls.com/zJ0x-qrW_p9Uf/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="8", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E08
+https://media.vdohls.com/Zr_HnSGo-Lv5K/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="9", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E09
+https://media.vdohls.com/Ytsg_2S-QzrdZ/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="10", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E10
+https://media.vdohls.com/26-Xi_yhY34M3/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="11", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E11
+https://media.vdohls.com/eG6t_2l-hg8Bb/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="12", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E12
+https://media.vdohls.com/G-lyfz70a_Eni/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="13", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E13
+https://media.vdohls.com/3_IwI-1Z5whOB/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="14", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E14
+https://media.vdohls.com/Pin-X6o_YDs8I/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="1", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E01
 https://media.vdohls.com/lUC5c-jt_PfE1/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="2", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E02
