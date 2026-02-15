@@ -23,6 +23,22 @@
 
 
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg", Predator Badlands พรีเดเตอร์: แดนเถื่อน (2025) บรรยายไทย
+#EXTVLCOPT:https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/3e61b296e4db484d3ed2a51f/3e61b296e4db484d3ed2a51f.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/4GIqZUgPZ146BhibsPHMHef2nXX.jpg", Eddington (2025) เอ็ดดิงตัน
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/a8a02def1bbf4a7b0ada62c8/a8a02def1bbf4a7b0ada62c8.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/Q0CQDyF1uZgXjRG6zpBmT1bKEd.jpg", Suppaleehuan (2026) สรรพลี้หวน
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/3323eacd87a5e22ce44c4ff2/3323eacd87a5e22ce44c4ff2.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/nGH4OgV86lghXzaNdIraM21pFdn.jpg", Pillion (2026) คนข้างหลัง
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/0eafb6cb73b9f88373105c27/0eafb6cb73b9f88373105c27.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/ocVWTfImJpCqlO52DxpQXgj3MQO.jpg", Return to Silent Hill (2026) เมืองห่าผี นครคืนชีพ
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/89749854cfafbca214b38913/89749854cfafbca214b38913.m3u8
@@ -146,10 +162,6 @@ http://web02.dynns.com:1935/mthnew//Sisu.Road.to.Revenge.2025.TH.mp4/playlist.m3
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/oZg0fthw8egPhvZd2Qtiv8ulJuq.jpg", TRON: Ares (2025) ทรอน แอรีส
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/645abf56072d4cc3e89ebaff/645abf56072d4cc3e89ebaff.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6hVLMwezYm3DoMcNKbgVO9lvqbe.jpg", Predator Badlands พรีเดเตอร์: แดนเถื่อน (2025) บรรยายไทย
-#EXTVLCOPT:http-referrer=http://m2.inwstream.com:1935/
-http://web01.dynns.com:1935/msub2016/Predator.Badlands.2025.SUB.mp4/playlist.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qikDbqUNySuvnjv51lpWbYQV3PW.jpg", No Other Choice งานนี้.. ฆ่าเอา (2025)
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
