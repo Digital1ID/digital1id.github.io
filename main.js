@@ -422,15 +422,6 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI"
               },{ 
-                name: "LOVE NATURE 4K",
-                sources: [
-                    { name: "Server 1", url: "https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8" }
-                ],
-                img: "https://cdn6.aptoide.com/imgs/5/1/7/51713cb38f60e82562a65727ce7d5493_icon.png", 
-                category: "Documentary",
-                package: ["150","250","500"],
-                description: "THAI"
-              },{ 
                 name: "NATURE TIME",
                 sources: [
                     { name: "Server 1", url: "https://amg00090-blueantmedia-naturetime-samsungfr-yakbf.amagi.tv/playlist/amg00090-blueantmedia-naturetime-samsungfr/playlist.m3u8" } 
