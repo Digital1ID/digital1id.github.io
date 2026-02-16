@@ -17,9 +17,9 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
-                name: "Server 1PBS",
+                name: "ThaiPBS",
                 sources: [
-                    { name: "Default", url: "https://Server 1pbs-ophctt.cdn.byteark.com/live/playlist.m3u8" },
+                    { name: "Default", url: "https://thaipbs-ophctt.cdn.byteark.com/live/playlist.m3u8" },
                     { 
                         name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/3/3.mpd",
