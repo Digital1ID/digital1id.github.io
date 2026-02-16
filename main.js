@@ -19,7 +19,6 @@ const channels = [
               },{ 
                 name: "ThaiPBS",
                 sources: [
-                    { name: "Default", url: "https://thaipbs-ophctt.cdn.byteark.com/live/playlist.m3u8" },
                     { 
                         name: "Server 1", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/3/3.mpd",
@@ -28,7 +27,8 @@ const channels = [
                             kid: "4d4426a505f64382a9841155d721cee6",
                             key: "0f4770219ccb4be5836a7517057e51c3",
                         }
-                    }
+                    },
+                    { name: "Server 2", url: "https://thaipbs-ophctt.cdn.byteark.com/live/playlist.m3u8" }
                 ],
                 img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/3.png", 
                 category: "Digital TV",
