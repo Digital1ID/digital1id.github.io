@@ -124,7 +124,7 @@ const channels = [
                 sources: [
                     { 
                         name: "Server 1", 
-                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/18/18.mpd",
+                        url: "https://cri-streamer1.cdn.3bbtv.com:8443/3bb/live/18/18.mpd",
                         type: "dash",
                         drm: {
                             kid: "333de6034a1d45fe91c829539caf1149",
@@ -373,7 +373,7 @@ const channels = [
                         }
                     }
                 ],
-                img: "https://monomax-2qrxos.cdn.byteark.com/fleetstream/AsianHit/index.m3u8", 
+                img: "https://img.monomax.me/MlIce33_PHDL9uTGoR5Ev47sGV8=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/ffnp2br3EBz7jnhgShnYK2QJNmnhNuDe.png", 
                 category: "Movies | Series",
                 package: ["150","250","500"],
                 description: "THAI"
