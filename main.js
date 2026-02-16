@@ -10,6 +10,14 @@ const channels = [
                             kid: "ca20a93cf8e3421dafbd5bdb1990081b",
                             key: "86ae86a7391c481ea93eecdb740f0a14",
                         }
+                    },{ 
+                        name: "Server 2", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/2/2.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "ca20a93cf8e3421dafbd5bdb1990081b",
+                            key: "86ae86a7391c481ea93eecdb740f0a14",
+                        }
                     }
                 ],
                 img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/2.png", 
@@ -57,6 +65,14 @@ const channels = [
                     { 
                         name: "Server 1", 
                         url: "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/5/5.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "87db4361f7894655a4656e9c8b935a02",
+                            key: "b025a4b950df41158a87cfc8d6f2ac34"
+                        }
+                    },{ 
+                        name: "Server 2", 
+                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/5/5.mpd",
                         type: "dash",
                         drm: {
                             kid: "87db4361f7894655a4656e9c8b935a02",
@@ -396,7 +412,7 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI"
               },{ 
-                name: "ThaiPBS VIPA",
+                name: "VIPA ThaiPBS",
                 sources: [
                     { name: "Server 1", url: "https://bcovlive-a.akamaihd.net/0db95d655989436dbd571dcb8f70d98f/ap-southeast-1/6075037809001/playlist.m3u8"}
                 ],
