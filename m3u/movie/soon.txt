@@ -136,6 +136,32 @@ https://media.vdohls.com/1-zAhYIxF_KtM/playlist.m3u8
 https://media.vdohls.com/b7ri_ptn-a8gd/playlist.m3u8
 
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="1", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E01
+https://media.vdohls.com/4nu40xodb0/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="2", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E02
+https://media.vdohls.com/5ig8e2m7jr/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="3", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E03
+https://media.vdohls.com/miqjh52xwi/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="4", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E04
+https://media.vdohls.com/yt1frp5lye/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="5", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E05
+https://media.vdohls.com/obg6ywef3n/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="6", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E06
+https://media.vdohls.com/gtp3ry23mk/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="7", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E07
+https://media.vdohls.com/99beetbqq0/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="8", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E08
+https://media.vdohls.com/pcrfnvwnw2/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="9", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E09
+https://media.vdohls.com/1le744upnu/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="10", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E10
+https://media.vdohls.com/23t1pt3px9/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="11", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E11
+https://media.vdohls.com/5rrwn4l7lp/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="12", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E12
+https://media.vdohls.com/b6sqinyce1/playlist.m3u8
+
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="1", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E01
 https://media.vdohls.com/BDrh_eYz-8B9F/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/11/Moon-River-2025.webp" tvg-season="1" tvg-episode="2", Moon River (2025) เงาจันทร์สลับร่าง EP.1-14 (จบ) S01 E02
