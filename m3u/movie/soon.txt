@@ -135,6 +135,38 @@ https://media.vdohls.com/1-zAhYIxF_KtM/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ไทย" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Begins-Necromancer-2026.webp" tvg-season="1" tvg-episode="10", Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (จบ) S01 E10
 https://media.vdohls.com/b7ri_ptn-a8gd/playlist.m3u8
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="1", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E01
+https://media.vdohls.com/rhw1k8jklh/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="2", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E02
+https://media.vdohls.com/3z5colqqpu/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="3", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E03
+https://media.vdohls.com/8s8jvih489/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="4", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E04
+https://media.vdohls.com/88h5dudle7/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="5", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E05
+https://media.vdohls.com/pfb0n2dapq/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="6", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E06
+https://media.vdohls.com/ao0400cxqz/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="7", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E07
+https://media.vdohls.com/qhxc67pq1l/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="8", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E08
+https://media.vdohls.com/9d4h46herh/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="9", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E09
+https://media.vdohls.com/832i6qb6z9/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="10", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E10
+https://media.vdohls.com/w5gk6dvauf/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="11", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E11
+https://media.vdohls.com/sge5woeyvp/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="12", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E12
+https://media.vdohls.com/f0vfztfzju/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="13", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E13
+https://media.vdohls.com/ki1knq6yrl/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="14", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E14
+https://media.vdohls.com/x66ghxekc3/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="15", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E15
+https://media.vdohls.com/9cffypaxaw/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Haunted-Palace-2025.webp" tvg-season="1" tvg-episode="16", The Haunted Palace (2025) ปราสาทหลอนวิญญาณ EP.1-16 (จบ) S01 E16
+https://media.vdohls.com/wb7gq3y2mn/playlist.m3u8
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/08/Bon-Appetit-Your-Majesty-2025.webp" tvg-season="1" tvg-episode="1", Bon Appetit Your Majesty (2025) เมนูรักพิชิตใจราชา EP.1-12 (จบ) S01 E01
 https://media.vdohls.com/4nu40xodb0/playlist.m3u8
