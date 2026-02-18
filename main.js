@@ -396,6 +396,10 @@ const channels = [
                 sources: [
                     { 
                         name: "Server 1", 
+                        url: ""
+                    },
+                    { 
+                        name: "Server 2", 
                         url: "",
                         type: "dash",
                         drm: {
@@ -406,6 +410,85 @@ const channels = [
                 ],
                 img: "", 
                 category: "Movies | Series",
+                package: ["150","250","500"],
+                description: "THAI"
+              },{ 
+                name: "A'lure Channel",
+                sources: [
+                    { 
+                        name: "Server 1", 
+                        url: "https://monomax-d1yqi0.cdn.byteark.com/fleetstream/ALURE/index.m3u8"
+                    },
+                    { 
+                        name: "Server 2", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "https://img.monomax.me/M7eXiQ7VjfsKfr5EsmWLp-XgrV0=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/0h1Bs0iQLcfgbkxMs8jeEivUufagnVaH.png", 
+                category: "Varieties | Entertainment",
+                package: ["150","250","500"],
+                description: "THAI"
+              },{ 
+                name: "RUSH Stories",
+                sources: [
+                    { 
+                        name: "Server 1", 
+                        url: "https://monomax-bl9d80.cdn.byteark.com/fleetstream/RUSH/index.m3u8"
+                    },
+                    { 
+                        name: "Server 2", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "https://img.monomax.me/ttRFKQ4M3xnfytnIBbSSNYSkkc8=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/rWayopP3T7VDmZi0MLE4eDs7Nr3izXvf.png", 
+                category: "Varieties | Entertainment",
+                package: ["150","250","500"],
+                description: "THAI"
+              },{ 
+                name: "Mono29Musicstation",
+                sources: [
+                    { 
+                        name: "Server 1", 
+                        url: "https://monomax-ye61nx.cdn.byteark.com/fleetstream/Mono29MusicStation/index.m3u8"
+                    },
+                    { 
+                        name: "Server 2", 
+                        url: "https://monomax-ye61nx.cdn.byteark.com/fleetstream/Mono29MusicStation/1080p/index.m3u8"
+                    }
+                ],
+                img: "https://img.monomax.me/FMCVhDPqBblpP2uKaRw82Q_5ywI=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/qx2B9PD0UWmV5pSLwLTsOp75Kjzm5ghp.png", 
+                category: "Varieties | Entertainment",
+                package: ["150","250","500"],
+                description: "THAI"
+              },{ 
+                name: "",
+                sources: [
+                    { 
+                        name: "Server 1", 
+                        url: ""
+                    },
+                    { 
+                        name: "Server 2", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "", 
+                category: "Varieties | Entertainment",
                 package: ["150","250","500"],
                 description: "THAI"
               },{ 
