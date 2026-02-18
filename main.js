@@ -114,23 +114,6 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
-                name: "JKN 18",
-                sources: [
-                    { 
-                        name: "Server 1", 
-                        url: "https://cri-streamer1.cdn.3bbtv.com:8443/3bb/live/18/18.mpd",
-                        type: "dash",
-                        drm: {
-                            kid: "333de6034a1d45fe91c829539caf1149",
-                            key: "2710efc048ca44bba4c2b57397989a26",
-                        }
-                    }
-                ],
-                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/18.png", 
-                category: "Digital TV",
-                package: ["150","250","500"],
-                description: "THAI News"
-              },{ 
                 name: "Nation TV",
                 sources: [
                     { 
