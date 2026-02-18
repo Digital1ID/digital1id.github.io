@@ -175,7 +175,8 @@ const channels = [
                             kid: "ae986b6dd3d84b2bb868c8765c604815",
                             key: "89bf3c85580249d5bac4d3edaec019ec",
                         }
-                    }
+                    },
+                    {  name: "Server 2", url: "https://bcovlive-a.akamaihd.net/57d4bf695e80436d9335f4f50adbe438/ap-southeast-1/6415628290001/7e85dc4a59904e45b4fdffebd62e1d82/playlist_ssaiM.m3u8" }
                 ],
                 img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/25.png", 
                 category: "Digital TV",
@@ -247,6 +248,9 @@ const channels = [
                             kid: "6529c8cd99db4489bd237f616f37124b",
                             key: "b9d299ba9ea94fd2ac4a77e8966dd91e",
                         }
+                    },
+                    {
+                    	name: "Serves 2", url: "https://bcovlive-a.akamaihd.net/b6603a14ea59440a95e9235e14bc9332/ap-southeast-1/6415628290001/9c3d7fc7d10840a69e48b5939ae886e0/playlist_ssaiM.m3u8"
                     }
                 ],
                 img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/31.png", 
