@@ -392,6 +392,27 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI"
               },{ 
+                name: "Ch 8 Thailand ",
+                sources: [
+                    { 
+                        name: "Server 1", 
+                        url: "https://cdn-th-vip.livestreaming.in.th/ch8/ch8/chunklist_w1708048131.m3u8"
+                    },
+                    { 
+                        name: "Server 2", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "https://i.postimg.cc/RFVxDzJm/IMG-1839.png", 
+                category: "Movies | Series",
+                package: ["150","250","500"],
+                description: "THAI"
+              },{ 
                 name: "",
                 sources: [
                     { 
