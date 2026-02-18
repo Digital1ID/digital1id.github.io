@@ -477,7 +477,7 @@ const channels = [
                 package: ["150","250","500"],
                 description: "World News"
             },
-              { 
+            { 
                 name: "Test", 
                 sources: [
                     { 
@@ -492,6 +492,33 @@ const channels = [
                 ], 
                 img: "https://i.ibb.co.com/pf4SxjC/knbc.png", 
                 category: "Sports",
+                package: ["150","250","500"],
                 description: "World"
+            },
+            { 
+                name: "Test 1", 
+                sources: [
+                    { 
+                        name: "Auto", 
+                        url: "http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8"
+                    }
+                ], 
+                img: "https://i.ibb.co.com/pf4SxjC/knbc.png", 
+                category: "18+",
+                package: ["500"],
+                description: "18+"
+            },
+            { 
+                name: "Test 2", 
+                sources: [
+                    { 
+                        name: "Auto", 
+                        url: "http://88.212.7.11/live/test_basbes_hd_hevc/playlist.m3u8"
+                    }
+                ], 
+                img: "https://i.ibb.co.com/pf4SxjC/knbc.png", 
+                category: "18+",
+                package: ["500"],
+                description: "18+"
             },
         ];
