@@ -69,7 +69,7 @@ https://main.24playerhd.com/newplaylist/1d1ca47ef68dcb4ae721e859/1d1ca47ef68dcb4
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg", 28 Years Later The Bone Temple (2026) 28 ปีให้หลัง เชื้อเขมือบคน วิหารซากกะโหลก
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/c8fcac81fd3926916a7888c5/c8fcac81fd3926916a7888c5.m3u8
+https://main.24playerhd.com/newplaylist/13ab8887664ea8b783e38608/13ab8887664ea8b783e38608.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/kcmymlJPZ3mDQbKht20XRGBogd2.jpg", Death Whisperer 3 (2025) ธี่หยด 3
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
@@ -109,7 +109,7 @@ https://main.24playerhd.com/newplaylist/8148988604a36db26475e577/8148988604a36db
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg", Mercy (2025) 90 นาทีสั่งตาย
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/7d35fa31e8b9f3eee7c5b03a/7d35fa31e8b9f3eee7c5b03a.m3u8
+https://main.24playerhd.com/newplaylist/e446d31d15fb844c70565297/e446d31d15fb844c70565297.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/qrQpTL24qRQWoYKL2LvBwvLawVi.jpg", Silent Hill Revelation (2012) เมืองห่าผี เรฟเวเลชั่น
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
