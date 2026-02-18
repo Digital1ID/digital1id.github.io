@@ -471,6 +471,27 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI"
               },{ 
+                name: "Gags",
+                sources: [
+                    { 
+                        name: "Server 1", 
+                        url: "https://distributionsjustepourrire-justforlaughsgags-1-us.tcl.wurl.tv/playlist.m3u8"
+                    },
+                    { 
+                        name: "Server 2", 
+                        url: "",
+                        type: "dash",
+                        drm: {
+                            kid: "",
+                            key: "",
+                        }
+                    }
+                ],
+                img: "https://i.postimg.cc/XvhXpRSc/IMG-2613.png", 
+                category: "Varieties | Entertainment",
+                package: ["150","250","500"],
+                description: "THAI"
+              },{ 
                 name: "",
                 sources: [
                     { 
