@@ -38,23 +38,6 @@ const channels = [
                 package: ["150","250","500"],
                 description: "THAI News"
               },{ 
-                name: "ALTV",
-                sources: [
-                    { 
-                        name: "Server 1", 
-                        url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/4/4.mpd",
-                        type: "dash",
-                        drm: {
-                            kid: "1e98456bcbea44b7ad05831387e364ef",
-                            key: "3d14fd4f9d3149a79b35a7124fccbd67",
-                        }
-                    }
-                ],
-                img: "https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/4.png", 
-                category: "Digital TV",
-                package: ["150","250","500"],
-                description: "THAI News"
-              },{ 
                 name: "TV5 HD",
                 sources: [
                     { 
@@ -218,8 +201,11 @@ const channels = [
               },{ 
                 name: "CH8",
                 sources: [
+                    {  name: "Server 1",
+                        url: "https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8"
+                     },
                     { 
-                        name: "Server 1", 
+                        name: "Server 2", 
                         url: "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/27/27.mpd",
                         type: "dash",
                         drm: {
