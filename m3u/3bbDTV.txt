@@ -33,7 +33,7 @@ https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/3/3.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1e98456bcbea44b7ad05831387e364ef:3d14fd4f9d3149a79b35a7124fccbd67
-https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/4/4.mpd
+##https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/4/4.mpd
 
 #EXTINF:-1 tvg-id="TV5 HD.th" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/5.png" group-title="DigitalTV", TV5 HD
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -68,7 +68,7 @@ https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/16/16.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=333de6034a1d45fe91c829539caf1149:2710efc048ca44bba4c2b57397989a26
-https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/18/18.mpd
+##https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/18/18.mpd
 
 #EXTINF:-1 tvg-id="Nation TV.th" tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/22.png" group-title="DigitalTV", Nation TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
