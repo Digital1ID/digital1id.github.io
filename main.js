@@ -202,7 +202,7 @@ const channels = [
                 name: "CH8",
                 sources: [
                     {  name: "Server 1",
-                        url: "https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8"
+                       url: "https://prsmedia-mykojh.cdn.byteark.com/fleetstream/live/720p/index.m3u8"
                      },
                     { 
                         name: "Server 2", 
