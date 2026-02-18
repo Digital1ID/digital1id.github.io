@@ -1,6 +1,90 @@
 [
   {
     "player": "p2p/api-plyr",
+    "name": "การล้างแค้นในงานเลี้ยงหลวง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhtMyvAGpUTof-0DcB7jMXjhrAafYrFwJl4C7qxrObkw&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1335"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "บอสคะจริงๆฉันรักเงินมากกว่า",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN8wz0bKtGgSb91yhwvRNBmrU4awpFR-qIS3NubsrRiw&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1334"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "พลิกชะตาร้ายให้กลายเป็นรัก",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJL5aPAbAKuQJq9AhshUJV_p9_OjPb0yW2GfhMD3fKkw&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1331"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "หมอหนุ่มผู้เขียนชะตาใหม่",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT1WZzirdhJM4uAgCP614L_sEydegf2Xz0R5eeYpHaUQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1330"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เมื่อรักแรกสายไปแต่รักใหม่มาถึง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBWN906qy1t85Y9lkXdc4jI8q4qnf-MScYDpFgWZSNRw&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1329"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ยิ่งเปย์ยิ่งรวย",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlXtXdSStqaq6mMHtdjRUm2GPV8wbGIXm4JbUGBaFikQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1327"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ตรมรักสามชาติมิอาจเลือน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8k4WKJ2g49aG2ppCEGiOxnJgDg8YdNL3RTur5iy1Gdw&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1326"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "รักซ่อนใจหลังวิวาห์",
     "category": "ละครสั้นจีน",
     "info": { 
