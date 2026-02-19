@@ -256,6 +256,39 @@ https://media.vdohls.com/7VXuANJ-0g_mC/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="16", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E16
 https://media.vdohls.com/0oXP_vu1XN-3P/playlist.m3u8
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="1", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E01
+https://media.vdohls.com/ecMh1V_ct-LDP/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="2", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E02
+https://media.vdohls.com/Mv5o_VLphG-fg/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="3", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E03
+https://media.vdohls.com/aGL_aUj4L-rcV/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="4", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E04
+https://media.vdohls.com/i-J7Q9x1v9_Yv/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="5", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E05
+https://media.vdohls.com/CGR4N_l-0itt0/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="6", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E06
+https://media.vdohls.com/j-lJ_QJUm1JG2/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="7", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E07
+https://media.vdohls.com/g5PNKh3_vb-o1/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="8", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E08
+https://media.vdohls.com/ZEpiEbe-d0_3X/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="9", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E09
+https://media.vdohls.com/hRC0_gnDQ-jyO/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="10", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E10
+https://media.vdohls.com/qL_3J1RUB-lRY/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="11", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E11
+https://media.vdohls.com/Ad9M-hO_ASqbC/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="12", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E12
+https://media.vdohls.com/VLQ_40kpeF-j7/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="13", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E13
+https://media.vdohls.com/vKFD7-bM_0V1C/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="14", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E14
+https://media.vdohls.com/ti55_mW-ZEpEf/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="15", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E15
+https://media.vdohls.com/dt-XC_IEKL6jT/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="16", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E16
+https://media.vdohls.com/Sns_GGN-69eBl/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="1", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E01
 https://media.vdohls.com/OXL_Q-CfMLyFP/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="2", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E02
