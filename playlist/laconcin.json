@@ -109,6 +109,18 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "../playlist/data-lakon/2026-.webp",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1319"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "รักแท้ฟื้นคืนจากพันธะลิขิต",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -118,6 +130,66 @@
         "sound": "พากย์ไทย"
         },
     "video": "1313"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ข้าจะตัดกิเลสทั้งปวง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrrIFPzofxPHikvCkdDFm4iX8vboKuyOoZFzOaYKlttg&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1312"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "บุพเพใต้เงาบุปผา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRtJslWvzGdvlLE-6v9zp-9FK5Yeogw6KBBzfjcg4PPw&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1311"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ชาตินี้ข้าเลือกศัตรูขององค์ชาย",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUNzbWceM5LCkrYjIhXYsrC-QHb8niEXM22JL-re-FQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1310"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เทพนักรบพลิกชะตา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStECIFTC_LGsHwMtjgyXEQ-utIkJgVUspaE2Qczfha5w&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1306"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เกิดมาเพื่อเป็นมาสเตอร์",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyzog8zoTRp7VKatmwkj2iPHKvHseqLPXuAdJAJdDKqA&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1304"
   },
   {
     "player": "p2p/api-plyr",
@@ -417,7 +489,7 @@
         "year": 2026,
         "sound": "พากย์ไทย"
         },
-    "video": "1327"
+    "video": ""
   }
 
 ]
