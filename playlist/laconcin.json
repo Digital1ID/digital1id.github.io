@@ -109,10 +109,10 @@
   },
   {
     "player": "p2p/api-plyr",
-    "name": "",
+    "name": "บอดี้การ์ดขั้นเทพ",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "../playlist/data-lakon/2026-.webp",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwv9oH2fbiWvcwBmSo_9zR5Wc0LuG1I_DH_-nIilhUJA&s=10",
         "description": "",
         "year": 2026,
         "sound": "พากย์ไทย"
