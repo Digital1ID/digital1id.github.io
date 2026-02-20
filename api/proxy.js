@@ -1,6 +1,3 @@
-// pages/api/proxy.js (สำหรับ Next.js)
-// หรือ api/proxy.js (สำหรับ Vercel)
-
 export default async function handler(req, res) {
   const target = req.query.url;
   if (!target) {
@@ -21,26 +18,23 @@ export default async function handler(req, res) {
       return;
     }
 
-    // ตรวจสอบว่าเป็น playlist หรือ segment
     const contentType = response.headers.get("content-type") || "";
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Content-Type", contentType);
 
     if (contentType.includes("application/vnd.apple.mpegurl") || target.endsWith(".m3u8")) {
-      // ถ้าเป็น playlist ให้แก้ไขลิงก์ segment ให้ผ่าน proxy ด้วย
+      // ถ้าเป็น playlist ให้ rewrite segment
       let text = await response.text();
       const baseUrl = new URL(target);
 
       text = text.replace(/^(?!#)(.*\.ts.*)$/gm, (line) => {
-        // ทำให้เป็น absolute URL
         const absUrl = new URL(line, baseUrl).href;
-        // rewrite ให้เรียกผ่าน proxy อีกที
         return `/api/proxy?url=${encodeURIComponent(absUrl)}`;
       });
 
       res.send(text);
     } else {
-      // ถ้าเป็น segment (.ts/.mp4) ให้ส่งต่อแบบ stream
+      // ถ้าเป็น segment ให้ส่งต่อแบบ stream
       response.body.pipe(res);
     }
   } catch (err) {
