@@ -11,7 +11,7 @@ export default async function handler(req, res) {
     const response = await fetch(target, {
       headers: {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Referer": "https://www.xn--72c9ab1ec1bc6q.online/"
+        "Referer": "https://357ms.com/"
       }
     });
 
