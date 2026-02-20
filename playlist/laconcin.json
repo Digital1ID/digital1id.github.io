@@ -9,7 +9,7 @@
         "year": 2026,
         "sound": "พากย์ไทย"
         },
-    "video": "https://vz-b105018e-32f.b-cdn.net/20023df4-983d-4b07-95bc-a8cbaa74d591/playlist.m3u8"
+    "video": "https://digital1id.vercel.app/api/proxy?url=https://hls.357ms.com/series_75/ep_2/master.m3u8"
   },
   {
     "player": "p2p/api-plyr",
