@@ -1,6 +1,78 @@
 [
   {
     "player": "p2p/api-plyr",
+    "name": "เมียจ๋าขอเกาะหน่อยนะ",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxbAs2qrSCAlMfGBBuOrenax59mRCad9rhWOFRfa5pYg&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1341"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "พันธนากรแห่งรัก",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgaDDb_hTHUEM837JKX7fyT3PO17MelgkVkTe5l_XJcQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1340"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "วิวาห์เพิ่มพลัง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf4DC82waZbHcyuyeQt7mp_EDME_igpoK_cot9G-ZXvg&s",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1339"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "จ้าวชิงหู่ทะลุมิติพารวย",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhpCmrSczX9ppDIDPBfEkvaDDUXrMOjA72gJTUfnDyww&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1338"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เมียเด็กของคุณอา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyIAHwQJbg29IqItTaxCUJoFzQRSoI-0HtZ6Hpye-ZgA&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1337"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "หมอหญิงทะลุมิติ",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvSnSzcL2oACLNHJVEjsnmWCb90M26oJZuN-KeBGnHCg&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1336"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "การล้างแค้นในงานเลี้ยงหลวง",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -484,7 +556,7 @@
     "name": "",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "../playlist/data-lakon/2026-.webp",
+        "poster": "",
         "description": "",
         "year": 2026,
         "sound": "พากย์ไทย"
