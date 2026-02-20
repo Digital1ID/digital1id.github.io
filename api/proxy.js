@@ -1,3 +1,5 @@
+// pages/api/proxy.js
+
 export default async function handler(req, res) {
   const target = req.query.url;
   if (!target) {
@@ -9,7 +11,7 @@ export default async function handler(req, res) {
     const response = await fetch(target, {
       headers: {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Referer": "https://357ms.com/"
+        "Referer": "https://www.xn--72c9ab1ec1bc6q.online/"
       }
     });
 
@@ -20,7 +22,6 @@ export default async function handler(req, res) {
 
     const contentType = response.headers.get("content-type") || "";
     res.setHeader("Access-Control-Allow-Origin", "*");
-    res.setHeader("Content-Type", contentType);
 
     if (contentType.includes("application/vnd.apple.mpegurl") || target.endsWith(".m3u8")) {
       // ถ้าเป็น playlist ให้ rewrite segment
@@ -32,10 +33,13 @@ export default async function handler(req, res) {
         return `/api/proxy?url=${encodeURIComponent(absUrl)}`;
       });
 
+      res.setHeader("Content-Type", "application/vnd.apple.mpegurl");
       res.send(text);
     } else {
-      // ถ้าเป็น segment ให้ส่งต่อแบบ stream
-      response.body.pipe(res);
+      // ถ้าเป็น segment (.ts/.mp4) ให้ส่งเป็น buffer แทน pipe
+      const buffer = await response.arrayBuffer();
+      res.setHeader("Content-Type", contentType || "application/octet-stream");
+      res.send(Buffer.from(buffer));
     }
   } catch (err) {
     res.status(500).json({ error: err.message });
