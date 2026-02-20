@@ -373,6 +373,18 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "พันธนาการรักแห่งแสงจันทร์",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAZRpFYfw9b5OKQtSVILzY3YfaGPpxg2p6HqbO53q62MJ0MZLqoyLtHj-Y&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1161"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "เด็กสาวผู้เลือกดาบ",
     "category": "ละครสั้นจีน",
     "info": { 
