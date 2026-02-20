@@ -1,5 +1,17 @@
 [
   {
+    "player": "p2p/player",
+    "name": "สาวไทยข้ามภพป่วนใจแม่ทัพ",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX05mZdOkCEjARoCIgmx3f8Zc0KNHT9nfwZGe-KVCwYg&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "https://vz-b105018e-32f.b-cdn.net/20023df4-983d-4b07-95bc-a8cbaa74d591/playlist.m3u8"
+  }
+  {
     "player": "p2p/api-plyr",
     "name": "เมียจ๋าขอเกาะหน่อยนะ",
     "category": "ละครสั้นจีน",
