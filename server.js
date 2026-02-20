@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Proxy endpoint
-app.get("/proxy", async (req, res) => {
+app.get("/proxys", async (req, res) => {
   const targetUrl = req.query.url;
   if (!targetUrl) {
     return res.status(400).send("Missing url parameter");
