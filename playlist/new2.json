@@ -1,6 +1,17 @@
 [
   {
     "player": "p2p/player",
+    "name": "Nobody 2 (2025)",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/xGLoqM9peusKQeuwlSw2Qlhx740.jpg",
+      "plot": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/d8241e97abbbb6fbd3f0c240/d8241e97abbbb6fbd3f0c240.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "Playdate (2025) ยอดคนป่วนก๊วนพ่อลูก | บรรยายไทย",
     "category": "หนังแนะนำ",
     "info": {
@@ -492,17 +503,6 @@
     },
     "video": "http://web02.dynns.com:1935/zoom//Wildcat.2025.ZOOM.mp4/playlist.m3u8",
     "Referrer": "http://m2.inwstream.com:1935/"
-  },
-  {
-    "player": "p2p/player",
-    "name": "Nobody 2 (2025) บรรยายไทย",
-    "category": "ซูมโรง ชนโรง",
-    "info": {
-      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/xGLoqM9peusKQeuwlSw2Qlhx740.jpg",
-      "plot": "พากย์ไทย"
-    },
-    "video": "https://main.24playerhd.com/newplaylist/bc37f1ab675b400e55dd4bac/bc37f1ab675b400e55dd4bac.m3u8",
-    "Referrer": "https://main.24playerhd.com/"
   },
   {
     "player": "p2p/jwplayer",
