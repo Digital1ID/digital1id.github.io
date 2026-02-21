@@ -1,6 +1,32 @@
 [
   {
     "player": "p2p/player",
+    "name": "One Mile Chapter Two (2026)",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/3sjc9qXXmQoUWKQ3qIjS1nZaUJy.jpg",
+      "plot": "",
+      "year": 2026,
+      "sound": "บรรยายไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/06615a9a9a03d78b0e2d18d6/06615a9a9a03d78b0e2d18d6.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "One Mile Chapter One (2026)",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/1GZaoYe0mQy211DgDSAxAXr30ul.jpg",
+      "plot": "",
+      "year": 2026,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/771b5b9d478dfe6320b840c2/771b5b9d478dfe6320b840c2.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "Nobody 2 (2025)",
     "category": "หนังแนะนำ",
     "info": {
