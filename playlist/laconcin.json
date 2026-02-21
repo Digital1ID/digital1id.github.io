@@ -2,6 +2,222 @@
   
   {
     "player": "p2p/api-plyr",
+    "name": "ผมกลายเป็นมหาเศรษฐีอันดับหนึ่ง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpb_eQqpKDJs8PoZcjXv0mnLITauY5mh-wDMCzxNufg&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1359"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ตำนานเจ้าพ่อเขียงหมู",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ihO4VvBOXVAIydumB7UwpwJRGjU8u0mfT0HVYFSVZQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1358"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เซียนพนันล้างมลทิน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7I57vcCopOR4oD46mludH8W29UHxPYEABjz5qDPRbGw&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1357"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เธอคือจอมเขมือบแห่งสวรรค์",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBHnJRPq3RHZ-_K099K7vvLrFFRCT7Ytwr6xUa15fJLA&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1356"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เสือเอกไร้เทียมทาน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMm9kDOQwqSAAh5v7EunJ1e9LKZCSspLFE8yR4fM7Yyg&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1355"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ตำหนักเซียนเทพธัน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6qI80bQMqIy5U_H_ZfmIrPoNpWr5leOkv9g_82swnIA&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1354"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ผจญภัยวุ่นในนิยายที่เขียนเอง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7FHS4rm4HvpkBV6n_dcuUKSX_t2R8-oha-rN2KtAlbg&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1353"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "พลิกฟ้าด้วยมีดเชือดหมู",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVCDVzJdxeyb_7RJ_ie2mVGcrqz84nuwUA73YhTfuf0g&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1352"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ไอ้ระบบตัวดีพาพี่ช่วยสาวงาม",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB8JoIfyO5zh3WPZfCa7ytQZwgMoeVPElTBoUqT1aiYg&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1351"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ข้ามภพไปสอบขุนนาง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxPvpPm4GLvzyU9g8CqEFucpIKScMGJwluY0XkdbEJw&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1350"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "แสนชัยนายหมัดทะลวงฟ้า",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWchfTdZ0tRscGCnRoH4zdh6ec6RIyu5v5jnNmwYrckA&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1349"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "มองทะลุเหนือชะตา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMjnSPwVTzbtaiC-amdUkOje4pC8tEhxBWmdE4QKotXQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1348"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "คุณหนูป่วนไรเดอร์ตาทิพย์",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTMFk7MGn5ZNIWBRve41OY8vP3PL4JgRA7w7zsMFcF3A&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "บรรยายไทย"
+        },
+    "video": "1347"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เกิดใหม่ทั้งทีลาแล้วดาวมหาลัย",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReEHyfaJw01Z2UQ-vNpWnMTp736JOoGiggggP2jKtNZw&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1346"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ชีวิตใหม่ของธันวา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAVvCHfILpHxzMRjqR5zRX2c4xfqlDvzu7okLU26hbdQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1345"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "แฟนเก่ามาเป็นบอส",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzNd8ub_clY_xudNSpFyP5D8cO7BHH2uTaPNJ8HcZzXQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1344"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เขยขั้นเทพสะท้านโลกันต์",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmRACfPrGNI9bkrkTjp0-3TJMdCY4Ag2I4ER6ZZy2gTQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1343"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เสเพลนักข้าจะจัดการให้",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQqgi1c1VKq2OzCicMkhjfi20DsWTu98PKvE7HUTehQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1342"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "เมียจ๋าขอเกาะหน่อยนะ",
     "category": "ละครสั้นจีน",
     "info": { 
