@@ -43,6 +43,89 @@
             "referrer": "https://anime-good.com/"
           }
         ]
+      },
+      {
+        "season": 2,
+        "name": "Season 2",
+        "info": {
+          "poster": "https://anime-good.com/wp-content/uploads/2021/11/One-Punch-Man-เทพบุตรหมัดเดียวจอด-ภาค-2-.jpg",
+          "plot": "เรื่องย่อ : หลังจากเอาชนะโบรอสและกองทัพอันทรงพลังของเขาได้ ไซตามะได้กลับมาใช้ชีวิตประจำวันที่ในซีซิตี้ อย่างไรก็ตาม โดยที่เขาไม่รู้ จำนวนของมอนสเตอร์ที่ปรากฏยังคงเพิ่มขึ้นอย่างต่อเนื่อง ทำให้ทรัพยากรของสมาคมฮีโร่เครียด ผู้บริหารระดับสูงของพวกเขาตัดสินใจอย่างกล้าหาญในการสรรหาคนร้ายเพื่อช่วยในการต่อสู้ แต่ระหว่างการพบปะกับผู้มาใหม่ที่มีศักยภาพเหล่านี้ครั้งแรก ชายลึกลับที่เรียกตัวเองว่า Garou ปรากฏตัวขึ้น โดยอ้างว่าเป็นสัตว์ประหลาด เขาเริ่มโจมตีฝูงชนอย่างไร้ความปราณี",
+          "year": 2024
+        },
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "ตอนที่ 1",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/qPx5hapv/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 2,
+            "name": "ตอนที่ 2",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/kWU1GBBl/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 3,
+            "name": "ตอนที่ 3",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/EZhtGwY7/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 4,
+            "name": "ตอนที่ 4",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/VHd4ptH/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 5,
+            "name": "ตอนที่ 5",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/W5IsF6bN/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 6,
+            "name": "ตอนที่ 6",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/9AX7ZSfn/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 7,
+            "name": "ตอนที่ 7",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/c4NsuMOL/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 8,
+            "name": "ตอนที่ 8",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/erEXOtBK/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 9,
+            "name": "ตอนที่ 9",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/vJTFQCCX/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 10,
+            "name": "ตอนที่ 10",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/IS9lRlbJ/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 11,
+            "name": "ตอนที่ 11",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/nleg8nuY/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 12,
+            "name": "ตอนที่ 12",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/x6ZzEHPR/video.mp4/playlist.m3u8",
+            "referrer": "https://anime-good.com/"
+          }
+        ]
       }
     ]
   },
