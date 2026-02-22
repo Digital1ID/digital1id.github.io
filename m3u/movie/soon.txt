@@ -1049,12 +1049,18 @@ https://files.akuma-player.xyz/view/480595b3-3a4a-5448-bea5-16e00e1b3687.m3u8
 https://files.akuma-player.xyz/view/3bbee2f3-f1cd-5c5a-ab20-54bc848a0036.m3u8
 
 
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2026/02/01/127108l_11zon65015c137ff83844.webp"  tvg-season="3"  tvg-episode="1" , One Punch Man Season 3 เทพบุตรหมัดเดียวจอด ภาค3 | พากย์ไทย | ยังไม่จบ S03 E01
+#EXTINF:-1 tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" tvg-season="1" tvg-episode="1", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP01
 #EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
 https://moji.abcdxzy.xyz:8443/vod/nahuOa3U8J/video.mp4/playlist.m3u8
-#EXTINF:-1 type="series" group-title="ซีรี่ย์ การ์ตูน" tvg-logo="https://img.shirokami.me/images/2026/02/01/127108l_11zon65015c137ff83844.webp"  tvg-season="3"  tvg-episode="2" , One Punch Man Season 3 เทพบุตรหมัดเดียวจอด ภาค3 | พากย์ไทย | ยังไม่จบ S03 E02
+#EXTINF:-1 tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" tvg-season="1" tvg-episode="2", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP02
 #EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
 https://moji.abcdxzy.xyz:8443/vod/K4llnmP3rv/video.mp4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" tvg-season="1" tvg-episode="3", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP03
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/Og3byvTNWt/video.mp4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" tvg-season="1" tvg-episode="4", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP04
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/Dp0eOoBRCy/video.mp4/playlist.m3u8
 
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ กำลังฉาย" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/nQSwaSwscNhu4siZhW0eJgnAChR.jpg" tvg-season="2" tvg-episode="1", The Believers 2 (2025) สาธุ 2 | พากย์ไทย | 8 ตอนจบ S02 E01
