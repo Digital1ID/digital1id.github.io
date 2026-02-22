@@ -1049,16 +1049,16 @@ https://files.akuma-player.xyz/view/480595b3-3a4a-5448-bea5-16e00e1b3687.m3u8
 https://files.akuma-player.xyz/view/3bbee2f3-f1cd-5c5a-ab20-54bc848a0036.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" tvg-season="1" tvg-episode="1", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP01
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="1" tvg-episode="1", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP01
 #EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
 https://moji.abcdxzy.xyz:8443/vod/nahuOa3U8J/video.mp4/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" tvg-season="1" tvg-episode="2", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP02
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="1" tvg-episode="2", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP02
 #EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
 https://moji.abcdxzy.xyz:8443/vod/K4llnmP3rv/video.mp4/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" tvg-season="1" tvg-episode="3", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP03
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="1" tvg-episode="3", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP03
 #EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
 https://moji.abcdxzy.xyz:8443/vod/Og3byvTNWt/video.mp4/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" tvg-season="1" tvg-episode="4", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP04
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp" group-title="ซีรี่ย์ การ์ตูน" tvg-season="1" tvg-episode="4", One Punch Man Season 3 วันพันช์แมน ภาค 3 | พากย์ไทย | ตอนที่ 1-4 ยังไม่จบ S03 EP04
 #EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
 https://moji.abcdxzy.xyz:8443/vod/Dp0eOoBRCy/video.mp4/playlist.m3u8
 
