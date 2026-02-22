@@ -28,7 +28,7 @@ export default async function handler(req, res) {
       let text = await response.text();
       const baseUrl = new URL(target);
 
-      text = text.replace(/^(?!#)(.*\.ts.*)$/gm, (line) => {
+      text = text.replace(/^(?!#)(.*\.dts.*)$/gm, (line) => {
         const absUrl = new URL(line, baseUrl).href;
         return `/api/proxy?url=${encodeURIComponent(absUrl)}`;
       });
