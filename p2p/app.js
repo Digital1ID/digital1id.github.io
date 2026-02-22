@@ -30,7 +30,7 @@ function showInfo(info, serialName, category) {
     <p><strong>ชื่อเรื่อง:</strong> ${serialName}</p>
     <p><strong>หมวดหมู่:</strong> ${category}</p>
     <p><strong>ปีที่ออกฉาย:</strong> ${info.year}</p>
-    <p><strong>เรื่องย่อ:</strong> ${info.plot || info.description || "ไม่มีข้อมูล"}</p>
+    <p><strong>รายละเอียด:</strong> ${info.plot || info.description || "ไม่มีข้อมูล"}</p>
     <img src="${info.poster}" alt="${serialName}" class="mt-3 rounded-lg shadow-md">
   `;
 }
