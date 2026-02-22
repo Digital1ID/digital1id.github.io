@@ -1,5 +1,49 @@
 [
   {
+    "id": "one-punch-man-season-3-th",
+    "name": "One Punch Man Season 3 วันพันช์แมน ภาค 3 พากย์ไทย",
+    "category": "อนิเมะ",
+    "info": {
+      "poster": "https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp",
+      "description": "ไซตามะผู้เริ่มเป็นฮีโร่จากงานอดิเรก จากการฝึกฝน 3 ปีทำให้ได้รับพลังไร้เทียมทาน และเข้าร่วมองค์กรฮีโร่ร่วมกับลูกศิษย์เจนอส วันหนึ่งเหล่ามนุษย์ประหลาดที่อ้างตัวว่าเป็นสมาคมมนุษย์ประหลาดปรากฏตัวขึ้นจับลูกผู้บริหารสมาคมฮีโร่เป็นตัวประกัน เหล่าฮีโร่ระดับ S รวมตัวแทรกซึมเข้าไปสมาคมสัตว์ประหลาดเพื่อช่วยตัวประกัน อีกด้าน กาโร่ “มนุษย์ประหลาด” ที่ถูกสมาคมมนุษย์ประหลาดพาตัวไประหว่างการต่อสู้กับเหล่าฮีโร่ก็ได้ฟื้นขึ้นมาอีกครั้ง",
+      "year": 2026
+    },
+    "seasons": [
+      {
+        "season": 1,
+        "name": "Season 1",
+        "info": {
+          "poster": "https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp",
+          "description": "ไซตามะผู้เริ่มเป็นฮีโร่จากงานอดิเรก จากการฝึกฝน 3 ปีทำให้ได้รับพลังไร้เทียมทาน และเข้าร่วมองค์กรฮีโร่ร่วมกับลูกศิษย์เจนอส วันหนึ่งเหล่ามนุษย์ประหลาดที่อ้างตัวว่าเป็นสมาคมมนุษย์ประหลาดปรากฏตัวขึ้นจับลูกผู้บริหารสมาคมฮีโร่เป็นตัวประกัน เหล่าฮีโร่ระดับ S รวมตัวแทรกซึมเข้าไปสมาคมสัตว์ประหลาดเพื่อช่วยตัวประกัน อีกด้าน กาโร่ “มนุษย์ประหลาด” ที่ถูกสมาคมมนุษย์ประหลาดพาตัวไประหว่างการต่อสู้กับเหล่าฮีโร่ก็ได้ฟื้นขึ้นมาอีกครั้ง",
+          "year": 2026
+        },
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "One Punch Man Season 3 วันพันช์แมน ภาค 3 ตอนที่ 1 พากย์ไทย",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/nahuOa3U8J/video.mp4/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 2,
+            "name": "One Punch Man Season 3 วันพันช์แมน ภาค 3 ตอนที่ 2 พากย์ไทย",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/K4llnmP3rv/video.mp4/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://anime-good.com/"
+          },
+          {
+            "episode": 3,
+            "name": "One Punch Man Season 3 วันพันช์แมน ภาค 3 ตอนที่ 3 พากย์ไทย",
+            "video": "https://moji.abcdxzy.xyz:8443/vod/Og3byvTNWt/video.mp4/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://anime-good.com/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "the-seven-legends-2026",
     "name": "The Seven Legends (2026) 7 ประจัญบาน ตอนที่1-10 (ยังไม่จบ)",
     "category": "ซีรี่ย์ ไทย",
