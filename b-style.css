@@ -329,7 +329,9 @@ tbody tr {
   }
 }
 
-/* MOBILE CARD HORIZONTAL */
+/* ============================= */
+/* MOBILE 3 ROW CARD LAYOUT */
+/* ============================= */
 
 @media (max-width: 480px) {
 
@@ -344,41 +346,101 @@ tbody tr {
 
   tbody tr {
     display: block;
-    margin-bottom: 15px;
-    border-radius: 12px;
-    padding: 12px;
+    margin: 0 12px 18px 12px;
+    padding: 16px;
+    border-radius: 16px;
     background: #1c1c1c;
-    border: 1px solid #333;
+    border: 1px solid #2a2a2a;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
   }
 
   tbody td {
+    display: block;
     border: none;
     padding: 6px 0;
   }
 
-  .team-row {
-    display: flex;
+  /* ===== ROW 1 : TEAM + SCORE ===== */
+
+  tbody td:nth-child(1),
+  tbody td:nth-child(2),
+  tbody td:nth-child(3) {
+    display: inline-flex;
     align-items: center;
-    justify-content: space-between;
+    vertical-align: middle;
+  }
+
+  tbody td:nth-child(1) {
+    justify-content: flex-start;
+    width: 40%;
     gap: 8px;
   }
 
-  .team-row .team {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    flex: 1;
-  }
-
-  .team-row .score {
+  tbody td:nth-child(2) {
+    justify-content: center;
+    width: 20%;
     font-weight: 800;
-    font-size: 1rem;
-    text-align: center;
-    min-width: 70px;
+    font-size: 1.1rem;
   }
 
-  .logo {
-    width: 40px;
-    height: 40px;
+  tbody td:nth-child(3) {
+    justify-content: flex-end;
+    width: 40%;
+    gap: 8px;
+    text-align: right;
   }
+
+  /* ทำให้ 3 ช่องแรกอยู่บรรทัดเดียว */
+  tbody td:nth-child(1),
+  tbody td:nth-child(2),
+  tbody td:nth-child(3) {
+    float: left;
+  }
+
+  /* เคลียร์ float */
+  tbody tr::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  /* ===== ROW 2 : TIME + STATUS ===== */
+
+  tbody td:nth-child(4),
+  tbody td:nth-child(5) {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0.85rem;
+    margin-top: 6px;
+    color: #ccc;
+  }
+
+  tbody td:nth-child(5) {
+    justify-content: flex-end;
+  }
+
+  /* ===== ROW 3 : BUTTON ===== */
+
+  tbody td:nth-child(6) {
+    display: none; /* ซ่อนช่อง */
+  }
+
+  tbody td:nth-child(7) {
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  tbody td:nth-child(7) button {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  /* โลโก้เล็กลงให้สมดุล */
+  .logo {
+    width: 36px;
+    height: 36px;
+  }
+
 }
