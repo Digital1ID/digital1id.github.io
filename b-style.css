@@ -318,12 +318,12 @@ tbody tr {
 }
 
 @media (max-width: 480px) {
+
   /* ปลดล็อก table ไม่ให้โดนบีบ */
   table {
     width: 100% !important;
     min-width: unset !important;
     margin: 10px 0;
-    table-layout: auto !important;
   }
 
   .table-wrapper {
