@@ -90,11 +90,13 @@ function renderAllLeagues() {
 
   Object.keys(leagueMap).forEach(league => {
     const leagueRow = document.createElement("tr");
-    leagueRow.innerHTML = `<td colspan="8" class="league-header">${league}</td>`;
+    leagueRow.classList.add("league-header", "animate-fadeIn");
+    leagueRow.innerHTML = `<td colspan="8">${league}</td>`;
     tbody.appendChild(leagueRow);
 
     leagueMap[league].forEach(match => {
       const tr = document.createElement("tr");
+      tr.classList.add("animate-fadeIn");
       tr.innerHTML = `
         <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
         <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
@@ -102,7 +104,12 @@ function renderAllLeagues() {
         <td data-label="เวลา">${match.time}</td>
         <td data-label="สถานะ">${match.status}</td>
         <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
-        <td data-label="ดูสด"><button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">เล่น</button></td>
+        <td data-label="ดูสด">
+          <button class="px-3 py-1 bg-[#E50914] text-white rounded hover:bg-red-700 transition"
+                  onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
+            ▶️ เล่น
+          </button>
+        </td>
       `;
       tbody.appendChild(tr);
     });
@@ -116,11 +123,13 @@ function renderLeagueMatches(league) {
   if (!leagueMap[league]) return;
 
   const leagueRow = document.createElement("tr");
-  leagueRow.innerHTML = `<td colspan="8" class="league-header">${league}</td>`;
+  leagueRow.classList.add("league-header", "animate-fadeIn");
+  leagueRow.innerHTML = `<td colspan="8">${league}</td>`;
   tbody.appendChild(leagueRow);
 
   leagueMap[league].forEach(match => {
     const tr = document.createElement("tr");
+    tr.classList.add("animate-fadeIn");
     tr.innerHTML = `
       <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
       <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
@@ -128,7 +137,12 @@ function renderLeagueMatches(league) {
       <td data-label="เวลา">${match.time}</td>
       <td data-label="สถานะ">${match.status}</td>
       <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
-      <td data-label="ดูสด"><button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">เล่น</button></td>
+      <td data-label="ดูสด">
+        <button class="px-3 py-1 bg-[#E50914] text-white rounded hover:bg-red-700 transition"
+                onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
+          ▶️ เล่น
+        </button>
+      </td>
     `;
     tbody.appendChild(tr);
   });
@@ -166,7 +180,7 @@ function playStream(url, homeTeam = "", awayTeam = "", league = "", rowElement =
 
   // ✅ ใส่ highlight ให้คู่ที่กดเล่น
   if (rowElement) {
-    rowElement.classList.add("active-match");
+    rowElement.classList.add("active-match", "animate-fadeIn");
     rowElement.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 }
