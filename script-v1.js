@@ -66,9 +66,11 @@ function createMovieSection(title, movies, categoryKey, isSearch = false) {
   if (isSearch) {
     return `
       <section class="mb-10">
-        <h3 class="text-2xl font-bold border-l-4 border-red-600 pl-3 mb-6">
-          ${title}
-        </h3>
+        <div class="flex justify-between items-center mb-6">
+          <h3 class="text-2xl font-bold border-l-4 border-red-600 pl-3">
+            ${title}
+          </h3>
+        </div>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
           ${cardsHtml}
         </div>
@@ -78,18 +80,27 @@ function createMovieSection(title, movies, categoryKey, isSearch = false) {
 
   return `
     <section class="mb-10 relative">
-      <a href="${categoryUrl}" class="group block mb-6">
-        <h3 class="text-3xl font-bold border-l-4 border-red-600 pl-3 transition duration-300 group-hover:text-red-500">
-          ${title} 
-          <span class="text-red-600 text-xl ml-2 group-hover:ml-3 transition-all duration-300">›</span>
+      <div class="flex justify-between items-center mb-6">
+        <h3 class="text-3xl font-bold border-l-4 border-red-600 pl-3">
+          ${title}
         </h3>
-      </a>
+        <a href="${categoryUrl}" 
+           class="text-red-600 font-semibold hover:text-red-400 transition">
+          ดูทั้งหมด ›
+        </a>
+      </div>
+
+      <!-- ปุ่มเลื่อนซ้าย -->
       <button 
         class="absolute left-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 z-10"
         onclick="scrollSection(this, -1)">‹</button>
+
+      <!-- Container แนวนอน -->
       <div class="movie-row flex space-x-2 overflow-x-auto scrollbar-hide pb-4 px-4 snap-x snap-mandatory scroll-smooth">
         ${cardsHtml}
       </div>
+
+      <!-- ปุ่มเลื่อนขวา -->
       <button 
         class="absolute right-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 z-10"
         onclick="scrollSection(this, 1)">›</button>
