@@ -4,10 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -110,7 +106,7 @@ select:focus,
 }
 
 /* ============================= */
-/* TABLE WRAPPER */
+/* TABLE WRAPPER (Scroll Safe) */
 /* ============================= */
 
 .table-wrapper {
@@ -119,7 +115,7 @@ select:focus,
 }
 
 /* ============================= */
-/* DESKTOP TABLE */
+/* PREMIUM TABLE */
 /* ============================= */
 
 table {
@@ -143,17 +139,14 @@ table {
 }
 
 /* HEADER */
-
-@media (min-width: 769px) {
-  thead th {
-    position: sticky;
-    top: 0;
-    z-index: 5;
-  }
-}
-
 thead tr {
   background: linear-gradient(90deg, #E50914, #b20710);
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
 th {
@@ -166,7 +159,6 @@ th {
 }
 
 /* BODY */
-
 td {
   padding: 14px 8px;
   font-size: 0.95rem;
@@ -177,10 +169,12 @@ td {
   transition: background 0.2s ease;
 }
 
+/* Zebra */
 tbody tr:nth-child(even) {
   background: rgba(255,255,255,0.02);
 }
 
+/* Hover Desktop */
 @media (hover: hover) {
   tbody tr:hover {
     background: rgba(229,9,20,0.15);
@@ -188,7 +182,6 @@ tbody tr:nth-child(even) {
 }
 
 /* Column Width Lock */
-
 th:nth-child(1), td:nth-child(1) { width: 20%; }
 th:nth-child(2), td:nth-child(2) { width: 8%; }
 th:nth-child(3), td:nth-child(3) { width: 20%; }
@@ -198,7 +191,7 @@ th:nth-child(6), td:nth-child(6) { width: 16%; }
 th:nth-child(7), td:nth-child(7) { width: 8%; }
 
 /* ============================= */
-/* TEAM */
+/* TEAM STYLE */
 /* ============================= */
 
 .team-cell {
@@ -208,12 +201,6 @@ th:nth-child(7), td:nth-child(7) { width: 8%; }
   gap: 8px;
 }
 
-.team-cell span {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 .logo {
   width: 56px;
   height: 56px;
@@ -221,11 +208,10 @@ th:nth-child(7), td:nth-child(7) { width: 8%; }
   border-radius: 50%;
   background: #fff;
   padding: 3px;
-  flex-shrink: 0;
 }
 
 /* ============================= */
-/* STATUS */
+/* STATUS BADGE */
 /* ============================= */
 
 .status {
@@ -249,7 +235,7 @@ th:nth-child(7), td:nth-child(7) { width: 8%; }
 }
 
 /* ============================= */
-/* BUTTON */
+/* WATCH BUTTON */
 /* ============================= */
 
 button {
@@ -279,6 +265,7 @@ button:active {
 /* ============================= */
 
 .active-match {
+  position: relative;
   font-weight: 600;
   background: rgba(229, 9, 20, 0.08);
   box-shadow:
@@ -305,7 +292,6 @@ button:active {
 
 tbody tr {
   animation: fadeIn 0.4s ease forwards;
-  will-change: transform, opacity;
 }
 
 @keyframes fadeIn {
@@ -329,159 +315,36 @@ tbody tr {
   }
 }
 
-/* ===================================== */
-/* MOBILE CLEAN 3 ROW CARD (NO FLOAT) */
-/* ===================================== */
-
 @media (max-width: 480px) {
 
-  thead {
-    display: none;
-  }
-
-  table {
+  table, thead, tbody, th, td, tr {
+    display: block;
     width: 100%;
+    min-width: 100%;
   }
 
-  tbody tr {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  thead { display: none; }
 
-    margin: 14px;
-    padding: 16px;
-
-    background: linear-gradient(145deg,#1e1e1e,#181818);
-    border-radius: 18px;
-    border: 1px solid #2a2a2a;
-
-    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  tr {
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    background: #1c1c1c;
   }
 
-  tbody td {
+  td {
+    text-align: left;
     border: none;
-    padding: 0;
-  }
-
-  /* ===================== */
-  /* ROW 1 : TEAM + SCORE */
-  /* ===================== */
-
-  tbody td:nth-child(1),
-  tbody td:nth-child(2),
-  tbody td:nth-child(3) {
-    display: inline-flex;
-    align-items: center;
-  }
-
-  /* สร้างแถวบนด้วย flex */
-  tbody tr > td:nth-child(1),
-  tbody tr > td:nth-child(2),
-  tbody tr > td:nth-child(3) {
-    order: 1;
-  }
-
-  /* จัด layout แถวแรก */
-  tbody tr {
+    padding: 6px 10px;
     position: relative;
   }
 
-  /* สร้าง container เสมือน */
-  tbody tr::before {
-    content: "";
+  td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #E50914;
     display: block;
+    margin-bottom: 4px;
   }
-
-  /* ทำให้ 3 ช่องบนเรียงแนวนอน */
-  tbody td:nth-child(1),
-  tbody td:nth-child(2),
-  tbody td:nth-child(3) {
-    width: auto;
-  }
-
-  /* ใช้ flex wrapper */
-  tbody tr {
-    display: flex;
-  }
-
-  tbody tr > td:nth-child(1),
-  tbody tr > td:nth-child(2),
-  tbody tr > td:nth-child(3) {
-    flex: 1;
-  }
-
-  tbody td:nth-child(1) {
-    justify-content: flex-start;
-    gap: 8px;
-  }
-
-  tbody td:nth-child(2) {
-    justify-content: center;
-    font-size: 1.2rem;
-    font-weight: 800;
-  }
-
-  tbody td:nth-child(3) {
-    justify-content: flex-end;
-    gap: 8px;
-    text-align: right;
-  }
-
-  /* ===================== */
-  /* ROW 2 : DATE + STATUS */
-  /* ===================== */
-
-  tbody td:nth-child(4),
-  tbody td:nth-child(5) {
-    font-size: 0.85rem;
-    color: #aaa;
-  }
-
-  tbody td:nth-child(4) {
-    order: 2;
-    text-align: left;
-  }
-
-  tbody td:nth-child(5) {
-    order: 2;
-    text-align: right;
-  }
-
-  /* ทำให้ row 2 อยู่บรรทัดเดียว */
-  tbody td:nth-child(4),
-  tbody td:nth-child(5) {
-    width: 50%;
-    display: inline-block;
-  }
-
-  /* ===================== */
-  /* ROW 3 : BUTTON */
-  /* ===================== */
-
-  tbody td:nth-child(6) {
-    display: none; /* ซ่อนช่องทีวี */
-  }
-
-  tbody td:nth-child(7) {
-    order: 3;
-    margin-top: 8px;
-  }
-
-  tbody td:nth-child(7) button {
-    width: 100%;
-    padding: 11px;
-    border-radius: 12px;
-    font-size: 0.95rem;
-  }
-
-  /* ===================== */
-  /* LOGO SIZE */
-  /* ===================== */
-
-  .logo {
-    width: 38px;
-    height: 38px;
-    object-fit: contain;
-  }
-
 }
