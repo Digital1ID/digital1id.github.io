@@ -1,4 +1,4 @@
-const channelMap = {};
+const leagueMap = {};
 
 async function parseMatches() {
   try {
@@ -9,10 +9,7 @@ async function parseMatches() {
     const doc = parser.parseFromString(htmlText, "text/html");
 
     const containers = doc.querySelectorAll("div.row.gy-3");
-    const tbody = document.querySelector("#matchesTable tbody");
-    const channelSelect = document.getElementById("channelSelect");
-
-    let currentLeague = "";
+    const leagueSelect = document.getElementById("leagueSelect");
 
     containers.forEach(container => {
       const statusNode = container.querySelector("div.col-lg-1 div");
@@ -23,20 +20,14 @@ async function parseMatches() {
       const homeTeam = container.querySelector("div.text-end p")?.textContent.trim() || "ทีมเหย้า";
       const awayTeam = container.querySelector("div.text-start p")?.textContent.trim() || "ทีมเยือน";
 
-      // ✅ ดึงชื่อลีก
       const leagueNode = container.closest("div.col-lg-12").previousElementSibling?.querySelector("strong.text-uppercase");
       const leagueFull = leagueNode ? leagueNode.textContent.trim().replace("|", ":") : "ไม่ระบุลีก";
 
       const dateNode = container.closest("div").querySelector("b.fs-4");
       const thaiDate = dateNode ? dateNode.textContent.trim() : new Date().toLocaleDateString("th-TH");
 
-      // ✅ เพิ่มหัวข้อลีก
-      if (leagueFull !== currentLeague) {
-        currentLeague = leagueFull;
-        const leagueRow = document.createElement("tr");
-        leagueRow.innerHTML = `<td colspan="8" class="league-header">${currentLeague}</td>`;
-        tbody.appendChild(leagueRow);
-      }
+      const homeLogo = container.querySelector("div.col-lg-1.col-md-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
+      const awayLogo = container.querySelector("div.col-lg-1.col-md-1.col-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
 
       const streams = container.querySelectorAll("img.iam-list-tv");
       const seenChannels = new Set();
@@ -51,49 +42,70 @@ async function parseMatches() {
         if (!url) return;
         url = url.replace(":443", "").replace("/dooballfree-com/", "/do-ball.com/");
 
-        // ✅ รวมช่องซ้ำเป็น dropdown
-        if (!channelMap[channel]) {
-          channelMap[channel] = { url, logo };
-const opt = document.createElement("option");
-opt.value = url;
-opt.textContent = channel;
-opt.dataset.home = homeTeam;
-opt.dataset.away = awayTeam;
-opt.dataset.league = leagueFull;
-channelSelect.appendChild(opt);
+        if (!leagueMap[leagueFull]) {
+          leagueMap[leagueFull] = [];
+          const opt = document.createElement("option");
+          opt.value = leagueFull;
+          opt.textContent = leagueFull;
+          leagueSelect.appendChild(opt);
         }
 
-const tr = document.createElement("tr");
-tr.innerHTML = `
-  <td>${leagueFull}</td>
-  <td><img src="${container.querySelector("div.text-end img")?.src || ""}" class="logo"> ${homeTeam}</td>
-  <td><img src="${container.querySelector("div.text-start img")?.src || ""}" class="logo"> ${awayTeam}</td>
-  <td>${thaiDate}</td>
-  <td>${matchTime}</td>
-  <td>${statusText}</td>
-  <td><img src="${logo}" class="logo" alt="${channel}"> ${channel}</td>
-  <td><button onclick="playStream('${url}', '${homeTeam}', '${awayTeam}', '${leagueFull}')">เล่น</button></td>
-`;
-tbody.appendChild(tr);
+        leagueMap[leagueFull].push({
+          homeTeam,
+          awayTeam,
+          homeLogo,
+          awayLogo,
+          date: thaiDate,
+          time: matchTime,
+          status: statusText,
+          channel,
+          logo,
+          url
+        });
       });
     });
-    
-channelSelect.addEventListener("change", function() {
-  const selected = this.options[this.selectedIndex];
-  playStream(selected.value, selected.dataset.home, selected.dataset.away, selected.dataset.league);
-});
-    
+
+    leagueSelect.addEventListener("change", function() {
+      const selectedLeague = this.value;
+      renderLeagueMatches(selectedLeague);
+    });
+
   } catch (err) {
     document.querySelector("#matchesTable tbody").innerHTML =
       `<tr><td colspan="8">ไม่สามารถโหลดข้อมูลการแข่งขัน</td></tr>`;
   }
 }
 
+function renderLeagueMatches(league) {
+  const tbody = document.querySelector("#matchesTable tbody");
+  tbody.innerHTML = "";
+
+  if (!leagueMap[league]) return;
+
+  const leagueRow = document.createElement("tr");
+  leagueRow.innerHTML = `<td colspan="8" class="league-header">${league}</td>`;
+  tbody.appendChild(leagueRow);
+
+  leagueMap[league].forEach(match => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${league}</td>
+      <td><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
+      <td><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
+      <td>${match.date}</td>
+      <td>${match.time}</td>
+      <td>${match.status}</td>
+      <td><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
+      <td><button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}')">เล่น</button></td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
 function playStream(url, homeTeam = "", awayTeam = "", league = "") {
   if (!url) return;
-  document.getElementById("playerBox").style.display = "block"; // ✅ แสดงตัวเล่นเมื่อกดเล่น
+  document.getElementById("playerBox").style.display = "block";
 
-  // ✅ อัปเดตหัวข้อให้ตรงกับคู่ที่เลือก
   const title = document.querySelector("#playerBox h2");
   if (homeTeam && awayTeam && league) {
     title.textContent = `🎬 ${league} | ${homeTeam} vs ${awayTeam}`;
