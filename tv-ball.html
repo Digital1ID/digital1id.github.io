@@ -4,45 +4,49 @@
   <meta charset="UTF-8">
   <title>⚽ ตารางแข่งขันฟุตบอลสด</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="b-style.css">
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 <body>
-<header class="bg-[#141414] shadow-lg">
-  <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-    <!-- โลโก้ -->
-    <a href="../index.html" class="flex items-center space-x-2">
-      <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
-        FLIX <span class="text-white">Soccer</span>
-      </h1>
-    </a>
+  <!-- Header -->
+  <header class="bg-[#141414] shadow-lg">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <!-- โลโก้ -->
+      <a href="../index.html" class="flex items-center space-x-2">
+        <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
+          FLIX <span class="text-white">Soccer</span>
+        </h1>
+      </a>
 
-    <!-- เมนูนำทาง (Desktop) -->
-    <nav class="hidden md:flex space-x-6 text-white font-semibold">
-      <a href="../tv-ball.html" class="hover:text-[#E50914] transition">🏟 ตารางสด</a>
-      <a href="../movie.html" class="hover:text-[#E50914] transition">🎬 หนัง/ซีรี่ย์</a>
-      <a href="../about.html" class="hover:text-[#E50914] transition">ℹ️ เกี่ยวกับเรา</a>
+      <!-- เมนูนำทาง (Desktop) -->
+      <nav class="hidden md:flex space-x-6 text-white font-semibold">
+        <a href="../index.html" class="hover:text-[#E50914] transition">🏟 ตารางสด</a>
+        <a href="../movie.html" class="hover:text-[#E50914] transition">🎬 หนัง/ซีรี่ย์</a>
+        <a href="../about.html" class="hover:text-[#E50914] transition">ℹ️ เกี่ยวกับเรา</a>
+      </nav>
+
+      <!-- Hamburger Menu (Mobile) -->
+      <button id="menuToggle" class="md:hidden text-white focus:outline-none">
+        ☰
+      </button>
+    </div>
+
+    <!-- เมนูนำทาง (Mobile) -->
+    <nav id="mobileMenu" class="hidden md:hidden bg-[#222] p-4 space-y-3 text-white font-semibold">
+      <a href="../index.html" class="block hover:text-[#E50914] transition">🏟 ตารางสด</a>
+      <a href="../movie.html" class="block hover:text-[#E50914] transition">🎬 หนัง/ซีรี่ย์</a>
+      <a href="../about.html" class="block hover:text-[#E50914] transition">ℹ️ เกี่ยวกับเรา</a>
     </nav>
+  </header>
 
-    <!-- Hamburger Menu (Mobile) -->
-    <button id="menuToggle" class="md:hidden text-white focus:outline-none">
-      ☰
-    </button>
-  </div>
-
-  <!-- เมนูนำทาง (Mobile) -->
-  <nav id="mobileMenu" class="hidden md:hidden bg-[#222] p-4 space-y-3 text-white font-semibold">
-    <a href="../tv-ball.html" class="block hover:text-[#E50914] transition">🏟 ตารางสด</a>
-    <a href="../movie.html" class="block hover:text-[#E50914] transition">🎬 หนัง/ซีรี่ย์</a>
-    <a href="../about.html" class="block hover:text-[#E50914] transition">ℹ️ เกี่ยวกับเรา</a>
-  </nav>
-</header>
-
+  <!-- Player -->
   <div class="player" id="playerBox">
-    <h2>⚽ ตัวเล่นวิดีโอ</h2>
+    <h2>🎬 ตัวเล่นวิดีโอ</h2>
     <video id="videoPlayer" controls></video>
   </div>
 
+  <!-- Controls -->
   <div class="controls">
     <select id="leagueSelect">
       <option value="all">ทุกลีก</option>
@@ -59,6 +63,7 @@
     </div>
   </div>
 
+  <!-- Table -->
   <table id="matchesTable">
     <thead>
       <tr>
@@ -76,6 +81,7 @@
 
   <script src="b-script.js"></script>
   <script>
+    // Search toggle
     document.getElementById("searchToggle").addEventListener("click", function() {
       const box = document.querySelector(".search-box");
       box.classList.toggle("active");
@@ -83,14 +89,13 @@
         document.getElementById("searchInput").focus();
       }
     });
-  </script>
-<script>
-  const menuToggle = document.getElementById("menuToggle");
-  const mobileMenu = document.getElementById("mobileMenu");
 
-  menuToggle.addEventListener("click", () => {
-    mobileMenu.classList.toggle("hidden");
-  });
-</script>
+    // Hamburger menu toggle
+    const menuToggle = document.getElementById("menuToggle");
+    const mobileMenu = document.getElementById("mobileMenu");
+    menuToggle.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
 </body>
 </html>
