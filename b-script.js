@@ -29,8 +29,6 @@ async function parseMatches() {
       const statusNode = container.querySelector("div.col-lg-1 div, div.col-lg-1 span");
       const statusText = statusNode ? statusNode.textContent.trim() : "-";
 
-      const matchTime = statusText.replace(/(\d{1,2}):(\d{2})/, "$1.$2");
-
       const homeTeam = container.querySelector("div.text-end p")?.textContent.trim() || "ทีมเหย้า";
       const awayTeam = container.querySelector("div.text-start p")?.textContent.trim() || "ทีมเยือน";
 
@@ -71,7 +69,6 @@ async function parseMatches() {
         if (!leagueMap[leagueFull]) {
           leagueMap[leagueFull] = [];
 
-          // เพิ่มลีกใน dropdown ถ้ายังไม่มี
           if (![...leagueSelect.options].some(opt => opt.value === leagueFull)) {
             const opt = document.createElement("option");
             opt.value = leagueFull;
@@ -86,7 +83,6 @@ async function parseMatches() {
           homeLogo,
           awayLogo,
           date: thaiDate,
-          time: matchTime,
           status: statusText,
           score: scoreText,
           channel,
@@ -110,29 +106,21 @@ async function parseMatches() {
 
 
 // ==============================
-// FORCE LIVE STATUS
+// STATUS FORMAT
 // ==============================
-function forceLiveStatus(matchDate, matchTime, statusText) {
+function formatStatus(statusText) {
 
-  if (statusText.toUpperCase() === "FT") return "FT";
+  const raw = statusText ? statusText.trim().toUpperCase() : "-";
 
-  if (!matchTime || matchTime === "-") {
-    return "LIVE";
+  if (raw === "FT") return "FT";
+
+  if (raw === "-" || raw === "") return "LIVE";
+
+  if (/^\d{1,2}[:.]\d{2}$/.test(raw)) {
+    return raw.replace(".", ":");
   }
 
-  if (!matchDate.includes("/")) return statusText;
-
-  const [day, month, year] = matchDate.split("/");
-  const gregorianYear = parseInt(year) - 543;
-  const [hour, minute] = matchTime.split(".");
-
-  const matchDateTime = new Date(gregorianYear, month - 1, day, hour, minute);
-  const now = new Date();
-
-  if (now < matchDateTime) return "UPCOMING";
-  if (now >= matchDateTime) return "LIVE";
-
-  return statusText || "UPCOMING";
+  return raw;
 }
 
 
@@ -140,10 +128,14 @@ function forceLiveStatus(matchDate, matchTime, statusText) {
 // STATUS CLASS
 // ==============================
 function getStatusClass(status) {
+
   const s = status.toUpperCase();
 
-  if (s.includes("LIVE") || s.includes("+") || s === "HT") return "status-live";
+  if (s === "LIVE") return "status-live";
   if (s === "FT") return "status-ft";
+
+  if (/^\d{1,2}:\d{2}$/.test(s)) return "status-upcoming";
+
   return "status-upcoming";
 }
 
@@ -159,27 +151,25 @@ function renderAllLeagues() {
   Object.keys(leagueMap).forEach(league => {
 
     const leagueRow = document.createElement("tr");
-    leagueRow.classList.add("league-header", "animate-fadeIn");
+    leagueRow.classList.add("league-header");
     leagueRow.innerHTML = `<td colspan="7">${league}</td>`;
     tbody.appendChild(leagueRow);
 
     leagueMap[league].forEach(match => {
 
       const tr = document.createElement("tr");
-      tr.classList.add("animate-fadeIn");
 
-      const forcedStatus = forceLiveStatus(match.date, match.time, match.status);
-      const statusClass = getStatusClass(forcedStatus);
-      const displayTime = (match.time && match.time !== "-") ? match.time : "ไม่ระบุเวลา";
+      const displayStatus = formatStatus(match.status);
+      const statusClass = getStatusClass(displayStatus);
 
       tr.innerHTML = `
-        <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
-        <td class="vs-cell">${match.score !== "-" ? match.score : "VS"}</td>
-        <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
-        <td data-label="วันที่ / เวลา">${match.date} / ${displayTime}</td>
-        <td data-label="สถานะ"><span class="status ${statusClass}">${forcedStatus}</span></td>
-        <td data-label="ช่อง"><img src="${match.logo}" class="logo"> ${match.channel}</td>
-        <td data-label="ดูสด">
+        <td><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
+        <td>${match.score !== "-" ? match.score : "VS"}</td>
+        <td><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
+        <td>${match.date}</td>
+        <td><span class="status ${statusClass}">${displayStatus}</span></td>
+        <td><img src="${match.logo}" class="logo"> ${match.channel}</td>
+        <td>
           <button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
             ▶️ เล่น
           </button>
@@ -208,7 +198,6 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
   document.querySelector("#playerBox h2").textContent =
     `⚽ ${league} | ${homeTeam} vs ${awayTeam}`;
 
-  // ป้องกัน Memory Leak
   if (hlsPlayer) {
     hlsPlayer.destroy();
     hlsPlayer = null;
@@ -262,21 +251,11 @@ function filterTable() {
 // ==============================
 function startAutoRefresh() {
 
-  if (autoRefreshInterval) {
-    clearInterval(autoRefreshInterval);
-  }
+  if (autoRefreshInterval) clearInterval(autoRefreshInterval);
 
   autoRefreshInterval = setInterval(async () => {
-
-    const leagueSelect = document.getElementById("leagueSelect");
-    const selectedLeague = leagueSelect.value;
-
     await parseMatches();
-
-    leagueSelect.value = selectedLeague;
-
   }, 60000);
-
 }
 
 
@@ -285,23 +264,9 @@ function startAutoRefresh() {
 // ==============================
 document.addEventListener("DOMContentLoaded", async () => {
 
-  const playerBox = document.getElementById("playerBox");
-  const leagueSelect = document.getElementById("leagueSelect");
-
-  playerBox.classList.remove("active");
+  document.getElementById("playerBox").classList.remove("active");
 
   await parseMatches();
-
-  leagueSelect.addEventListener("change", function() {
-
-    if (this.value === "all") {
-      renderAllLeagues();
-    } else {
-      renderLeagueMatches(this.value);
-    }
-
-  });
-
   startAutoRefresh();
 
 });
