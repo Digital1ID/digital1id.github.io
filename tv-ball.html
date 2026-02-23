@@ -4,42 +4,64 @@
   <meta charset="UTF-8">
   <title>⚽ ตารางแข่งขันฟุตบอลสด</title>
   <style>
+    :root {
+      --primary: #0066ff;
+      --secondary: #00ccff;
+      --background: #f4f6f9;
+      --text-dark: #333;
+      --table-bg: #fff;
+      --league-bg: #222;
+    }
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      background: #f4f6f9;
-      color: #333;
+      background: var(--background);
+      color: var(--text-dark);
     }
     header {
-      background: linear-gradient(90deg, #0066ff, #00ccff);
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
       color: white;
-      padding: 20px;
+      padding: 25px;
       text-align: center;
-      font-size: 1.5em;
+      font-size: 1.8em;
       font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     }
     .player {
       margin: 20px auto;
       text-align: center;
-      display: none; /* ✅ ซ่อนตัวเล่นก่อน */
+      display: none; /* ✅ ซ่อนก่อน */
+      background: var(--table-bg);
+      padding: 20px;
+      border-radius: 10px;
+      width: 90%;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     video {
-      width: 80%;
+      width: 100%;
       max-width: 900px;
-      border: 3px solid #0066ff;
+      border: 2px solid var(--primary);
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
     select, input[type="text"] {
-      margin-top: 10px;
-      padding: 8px;
-      border-radius: 4px;
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 6px;
       border: 1px solid #ccc;
       font-size: 1em;
+      width: 250px;
+      transition: 0.3s;
+    }
+    select:focus, input[type="text"]:focus {
+      border-color: var(--primary);
+      outline: none;
+      box-shadow: 0 0 5px var(--secondary);
     }
     .search-bar {
       width: 95%;
-      margin: 10px auto;
+      margin: 15px auto;
       text-align: right;
     }
     table {
@@ -47,45 +69,49 @@
       margin: 20px auto;
       border-collapse: collapse;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      background: white;
+      background: var(--table-bg);
       border-radius: 8px;
       overflow: hidden;
     }
     th, td {
-      padding: 12px;
+      padding: 14px;
       text-align: center;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #eee;
     }
     th {
-      background: #0066ff;
+      background: var(--primary);
       color: white;
+      font-weight: 600;
+      text-transform: uppercase;
     }
     tr:hover {
-      background: #f1f9ff;
+      background: #f9fcff;
     }
     button {
-      background: #00ccff;
+      background: var(--secondary);
       border: none;
-      padding: 8px 12px;
-      border-radius: 4px;
+      padding: 8px 14px;
+      border-radius: 6px;
       color: white;
       cursor: pointer;
       transition: 0.3s;
+      font-weight: 500;
     }
     button:hover {
-      background: #0099cc;
+      background: var(--primary);
     }
     img.logo {
-      height: 20px;
+      height: 22px;
       vertical-align: middle;
-      margin-right: 5px;
+      margin-right: 6px;
     }
     .league-header {
-      background: #333;
+      background: var(--league-bg);
       color: #fff;
       font-weight: bold;
       text-align: left;
-      padding: 8px;
+      padding: 10px;
+      font-size: 1.1em;
     }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
@@ -94,7 +120,7 @@
   <header>📺 ตารางแข่งขันฟุตบอลสด</header>
 
   <div class="player" id="playerBox">
-    <h2>🎬 ตัวเล่นวิดีโอ</h2>
+    <h2 style="margin-bottom:15px;">🎬 ตัวเล่นวิดีโอ</h2>
     <video id="videoPlayer" controls></video><br>
     <select id="channelSelect" onchange="playStream(this.value)">
       <option value="">-- เลือกช่องถ่ายทอดสด --</option>
@@ -234,6 +260,7 @@
       });
     }
 
+    // ✅ เริ่มโหลดข้อมูลเมื่อเปิดหน้า
     parseMatches();
   </script>
 </body>
