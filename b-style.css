@@ -210,7 +210,7 @@ button:active {
   background: linear-gradient(90deg, rgba(229,9,20,0.85), rgba(178,7,16,0.85));
   font-weight: bold;
   position: relative;
-  box-shadow: 0 0 20px rgba(229,9,20,0.6);
+  box-shadow: 0 0 0px rgba(229,9,20,0.6);
 }
 
 .active-match::before {
