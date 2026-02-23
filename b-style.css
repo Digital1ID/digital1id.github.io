@@ -202,8 +202,8 @@ th:nth-child(7), td:nth-child(7) { width: 8%; }
 }
 
 .logo {
-  width: 26px;
-  height: 26px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
   border-radius: 50%;
   background: #fff;
