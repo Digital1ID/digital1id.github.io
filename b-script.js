@@ -183,8 +183,9 @@ function playStream(url, homeTeam = "", awayTeam = "", league = "", rowElement =
     rowElement.classList.add("active-match", "animate-fadeIn");
   }
 
-  // ✅ เลื่อนมาที่ playerBox
+  // ✅ เลื่อนมาที่ playerBox และโฟกัส videoPlayer
   playerBox.scrollIntoView({ behavior: "smooth", block: "center" });
+  video.focus();
 }
 
 function filterTable() {
