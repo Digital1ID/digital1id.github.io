@@ -1,246 +1,99 @@
-:root {
-  --primary: #e50914; /* Netflix Red */
-  --secondary: #b20710;
-  --background: #141414; /* Netflix Black */
-  --text-light: #fff;
-}
-
+/* ฟอนต์หลัก */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  background: var(--background);
-  color: var(--text-light);
+  font-family: 'Inter', sans-serif;
+  background-color: #141414;
+  color: #ffffff;
 }
 
+/* Header */
 header {
-  background: var(--primary);
-  color: white;
-  padding: 20px;
-  text-align: center;
-  font-size: 1.8em;
-  font-weight: bold;
-  letter-spacing: 1px;
+  background-color: rgba(20, 20, 20, 0.95);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.8);
 }
 
-.player {
-  display: none;
-  margin: 20px auto;
-  text-align: center;
-  background: #1c1c1c;
-  padding: 20px;
-  border-radius: 10px;
-  width: 90%;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+/* โลโก้ */
+header h1 {
+  color: #E50914;
 }
 
-video {
-  width: 100%;
-  max-width: 900px;
-  border: 2px solid var(--primary);
-  border-radius: 8px;
+/* Navigation */
+nav a {
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+nav a.active {
+  background-color: #E50914;
+  color: #ffffff;
 }
 
-.controls {
-  width: 95%;
-  margin: 15px auto;
-  display: flex;
-  gap: 10px;
-  justify-content: flex-end;
+/* ปุ่มค้นหา */
+.search-box input {
+  background-color: #333333;
+  border: 1px solid #555555;
+  color: #ffffff;
+}
+.search-box input::placeholder {
+  color: #808080;
+}
+.search-box button {
+  background-color: #E50914;
+  color: #ffffff;
+  transition: background-color 0.3s;
+}
+.search-box button:hover {
+  background-color: #b20710;
 }
 
-select {
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #444;
-  background: #222;
-  color: var(--text-light);
-}
-
+/* ตารางฟุตบอล */
 table {
   width: 95%;
   margin: 20px auto;
   border-collapse: collapse;
-  background: #1c1c1c;
+  background: #1f2937; /* gray-800 */
   border-radius: 8px;
   overflow: hidden;
 }
-
-th, td {
+th {
+  background: #E50914;
+  color: #fff;
+  text-transform: uppercase;
+}
+td {
   padding: 12px;
   text-align: center;
   border-bottom: 1px solid #333;
 }
 
-th {
-  background: var(--secondary);
-  color: white;
-  text-transform: uppercase;
-}
-
-tr:hover {
-  background: #222;
-}
-
-button {
-  background: var(--primary);
-  border: none;
-  padding: 8px 14px;
-  border-radius: 6px;
-  color: white;
-  cursor: pointer;
-}
-
-button:hover {
-  background: var(--secondary);
-}
-
-img.logo {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  object-fit: cover;
-  vertical-align: middle;
-  margin-right: 6px;
-  border: 2px solid var(--primary);
-}
-
-.league-header {
-  background: #000;
-  color: var(--primary);
-  font-weight: bold;
-  text-align: left;
-  padding: 10px;
-}
-
-/* Highlight แถวที่กำลังเล่น */
+/* Highlight แถวที่เล่น */
 .active-match {
-  background: linear-gradient(90deg, rgba(229,9,20,0.8), rgba(178,7,16,0.8));
+  background: linear-gradient(90deg, rgba(229,9,20,0.85), rgba(178,7,16,0.85));
   color: #fff;
   font-weight: bold;
   position: relative;
+  box-shadow: 0 0 15px rgba(229,9,20,0.6);
   transition: background 0.4s ease, transform 0.3s ease;
 }
-
-.active-match::after {
+.active-match::before {
   content: "";
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
-  width: 5px;
+  width: 6px;
   background: #fff;
-  box-shadow: 0 0 10px #fff;
   border-radius: 2px;
+  animation: pulseGlow 1.5s infinite;
 }
-
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 5px #fff; opacity: 0.7; }
+  50% { box-shadow: 0 0 15px #fff; opacity: 1; }
+  100% { box-shadow: 0 0 5px #fff; opacity: 0.7; }
+}
 .active-match:hover {
-  transform: scale(1.02); /* ขยายเล็กน้อยเวลา hover */
-}
-
-@media (max-width: 768px) {
-  .controls {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  select {
-    width: 100%;
-  }
-}
-
-/* สำหรับจอเล็กมาก ๆ เช่นมือถือ <480px */
-@media (max-width: 480px) {
-  table, thead, tbody, th, td, tr {
-    display: block;
-    width: 100%;
-  }
-
-  thead {
-    display: none;
-  }
-
-  tr {
-    margin-bottom: 15px;
-    border: 1px solid #333;
-    border-radius: 8px;
-    padding: 10px;
-    background: #1c1c1c;
-  }
-
-  td {
-    text-align: left;
-    border: none;
-    padding: 6px 10px;
-    position: relative;
-  }
-
-  td:before {
-    content: attr(data-label);
-    font-weight: bold;
-    color: var(--primary);
-    display: block;
-    margin-bottom: 4px;
-  }
-
-  img.logo {
-    height: 30px;
-    width: 30px;
-    margin-right: 4px;
-  }
-
-  button {
-    width: 100%;
-    margin-top: 8px;
-  }
-}
-
-/* Search box */
-.search-box {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.search-box button {
-  background: transparent;
-  border: 2px solid var(--primary);
-  padding: 6px;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.search-box button svg {
-  width: 20px;
-  height: 20px;
-}
-
-.search-box button:hover {
-  background: var(--primary);
-  border-color: var(--secondary);
-}
-
-.search-box input {
-  width: 0;
-  opacity: 0;
-  padding: 8px;
-  margin-left: 8px;
-  border-radius: 6px;
-  border: 1px solid #444;
-  background: #222;
-  color: var(--text-light);
-  transition: width 0.3s ease, opacity 0.3s ease;
-}
-
-.search-box.active input {
-  width: 200px;
-  opacity: 1;
-}
-
-@media (max-width: 480px) {
-  .search-box.active input {
-    width: 100%;
-  }
+  transform: scale(1.02);
 }
