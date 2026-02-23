@@ -2,7 +2,7 @@
 // CONFIG
 // ==============================
 
-const sheetURL = "YOUR_JSON_URL_HERE"; // 🔥 ใส่ URL JSON ของคุณ
+const sheetURL = "https://api-soccer.thai-play.com/api/v4/iptv/livescore/now?token=JF6pHMnpVCRUeEsSqAAjTWA4GbGhMrpD"; // 🔥 ใส่ URL JSON ของคุณ
 
 let allMatches = {};
 let hls = null;
