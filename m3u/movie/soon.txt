@@ -284,6 +284,39 @@ https://media.vdohls.com/7VXuANJ-0g_mC/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Backstreet-Rookie-2020.webp" tvg-season="1" tvg-episode="16", Backstreet Rookie (2020) สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ) S01 E16
 https://media.vdohls.com/0oXP_vu1XN-3P/playlist.m3u8
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="1", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E01
+https://media.vdohls.com/36y_nglFr-MHg/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="2", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E02
+https://media.vdohls.com/XAL0U-hPp2_HH/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="3", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E03
+https://media.vdohls.com/b6TY-o7_h1jLz/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="4", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E04
+https://media.vdohls.com/D4Co_FEG-2Hju/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="5", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E05
+https://media.vdohls.com/euXY-TzGH_hpz/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="6", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E06
+https://media.vdohls.com/h-StU_Kp7xlw6/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="7", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E07
+https://media.vdohls.com/4xM_bz-765296/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="8", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E08
+https://media.vdohls.com/1-A_sKCDd9yPq/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="9", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E09
+https://media.vdohls.com/Z-zsWO_UXc2RW/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="10", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E10
+https://media.vdohls.com/5AK_5i7q-8d2h/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="11", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E11
+https://media.vdohls.com/u-zz_3OQFYvAU/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="12", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E12
+https://media.vdohls.com/jF-K6W_JEKXTk/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="13", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E13
+https://media.vdohls.com/v18_BiD-OSh8z/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="14", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E14
+https://media.vdohls.com/tti7_ELg-WRiK/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="15", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E15
+https://media.vdohls.com/9UaB-ll_yyucP/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Hotel-Del-Luna-2019.webp" tvg-season="1" tvg-episode="16", Hotel Del Luna (2019) คำสาปจันทรา กาลเวลาแห่งรัก EP.1-16 (จบ) S01 E16
+https://media.vdohls.com/XS_dG-SGX3R7G/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="1", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E01
 https://media.vdohls.com/ecMh1V_ct-LDP/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="2", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E02
