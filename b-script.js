@@ -96,13 +96,13 @@ function renderAllLeagues() {
     leagueMap[league].forEach(match => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
-        <td><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
-        <td>${match.date}</td>
-        <td>${match.time}</td>
-        <td>${match.status}</td>
-        <td><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
-        <td><button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}')">เล่น</button></td>
+  <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
+  <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
+  <td data-label="วันที่">${match.date}</td>
+  <td data-label="เวลา">${match.time}</td>
+  <td data-label="สถานะ">${match.status}</td>
+  <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
+  <td data-label="ดูสด"><button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}')">เล่น</button></td>
       `;
       tbody.appendChild(tr);
     });
