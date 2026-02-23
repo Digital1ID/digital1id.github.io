@@ -88,29 +88,18 @@ function renderLeagueMatches(league) {
   tbody.appendChild(leagueRow);
 
   leagueMap[league].forEach(match => {
-// ดึงชื่อทีม
-const homeTeam = container.querySelector("div.text-end p")?.textContent.trim() || "ทีมเหย้า";
-const awayTeam = container.querySelector("div.text-start p")?.textContent.trim() || "ทีมเยือน";
-
-// ✅ ดึงโลโก้ทีมเหย้า
-const homeLogo = container.querySelector("div.col-lg-1.col-md-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
-
-// ✅ ดึงโลโก้ทีมเยือน
-const awayLogo = container.querySelector("div.col-lg-1.col-md-1.col-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
-
-// สร้างแถวตาราง
-const tr = document.createElement("tr");
-tr.innerHTML = `
-  <td>${leagueFull}</td>
-  <td><img src="${homeLogo}" class="logo"> ${homeTeam}</td>
-  <td><img src="${awayLogo}" class="logo"> ${awayTeam}</td>
-  <td>${thaiDate}</td>
-  <td>${matchTime}</td>
-  <td>${statusText}</td>
-  <td><img src="${logo}" class="logo" alt="${channel}"> ${channel}</td>
-  <td><button onclick="playStream('${url}', '${homeTeam}', '${awayTeam}', '${leagueFull}')">เล่น</button></td>
-`;
-tbody.appendChild(tr);
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${league}</td>
+      <td><img src="" class="logo"> ${match.homeTeam}</td>
+      <td><img src="" class="logo"> ${match.awayTeam}</td>
+      <td>${match.date}</td>
+      <td>${match.time}</td>
+      <td>${match.status}</td>
+      <td><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
+      <td><button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}')">เล่น</button></td>
+    `;
+    tbody.appendChild(tr);
   });
 }
 
@@ -122,7 +111,7 @@ function playStream(url, homeTeam = "", awayTeam = "", league = "") {
   if (homeTeam && awayTeam && league) {
     title.textContent = `🎬 ${league} | ${homeTeam} vs ${awayTeam}`;
   } else {
-    title.textContent = "🎬 ";
+    title.textContent = "🎬 ตัวเล่นวิดีโอ";
   }
 
   const video = document.getElementById("videoPlayer");
