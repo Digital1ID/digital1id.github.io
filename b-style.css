@@ -339,7 +339,15 @@ tbody tr {
     padding: 6px 10px;
     position: relative;
   }
-  
+
+  td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #E50914;
+    display: block;
+    margin-bottom: 4px;
+  }
+
   .logo {
   width: 56px;
   height: 56px;
@@ -350,11 +358,11 @@ tbody tr {
   padding: 3px;
 }
 
-  td:before {
-    content: attr(data-label);
-    font-weight: bold;
-    color: #E50914;
-    display: block;
-    margin-bottom: 4px;
-  }
+.team-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
 }
