@@ -313,7 +313,7 @@ tbody tr {
     width: 100%;
   }
   table {
-    min-width: 600px;
+    min-width: 100%;
   }
 }
 
