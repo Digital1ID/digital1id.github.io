@@ -381,7 +381,7 @@ th, td {
 
   /* ปุ่มเต็มแถว */
   td:last-child button {
-    width: 100%;
+    width: 80%;
     margin-top: 6px;
   }
 
