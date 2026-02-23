@@ -110,15 +110,21 @@ async function parseMatches() {
 // ==============================
 function formatStatus(statusText) {
 
-  const raw = statusText ? statusText.trim().toUpperCase() : "-";
+  const raw = statusText ? statusText.trim().toUpperCase() : "";
 
+  // จบเกม
   if (raw === "FT") return "FT";
 
-  if (raw === "-" || raw === "") return "LIVE";
-
+  // ถ้าเป็นเวลา เช่น 01:00
   if (/^\d{1,2}[:.]\d{2}$/.test(raw)) {
     return raw.replace(".", ":");
   }
+
+  // ถ้าเป็น LIVE จริง ๆ
+  if (raw.includes("LIVE")) return "LIVE";
+
+  // ถ้าไม่มีสถานะจริง ๆ
+  if (raw === "" || raw === "-") return "-";
 
   return raw;
 }
