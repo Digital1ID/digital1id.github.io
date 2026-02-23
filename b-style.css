@@ -2,162 +2,346 @@
 /* GLOBAL */
 /* ============================= */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html { scroll-behavior: smooth; }
+
 body {
   font-family: 'Inter', sans-serif;
-  background: #141414;
+  background-color: #141414;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
+
+header {
+  background: rgba(20,20,20,0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+}
+
+header h1 { color: #E50914; }
+
+/* ============================= */
+/* PLAYER */
+/* ============================= */
+
+.player {
+  margin: 20px auto;
+  text-align: center;
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  width: 92%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.4s ease, max-height 0.4s ease;
+}
+
+.player.active {
+  visibility: visible;
+  opacity: 1;
+  max-height: 1200px;
+}
+
+.player h2 { color: #E50914; }
+
+video {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+  border: 2px solid #E50914;
+}
+
+/* ============================= */
+/* CONTROLS */
+/* ============================= */
+
+.controls {
+  width: 95%;
+  margin: 15px auto;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+select,
+.search-box input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #222;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+select:focus,
+.search-box input:focus {
+  outline: none;
+  border-color: #E50914;
+  box-shadow: 0 0 10px rgba(229,9,20,0.5);
+}
+
+.search-box input {
+  width: 220px;
+}
+
+.search-box input::placeholder { color: #aaa; }
+
+/* ============================= */
+/* TABLE WRAPPER */
+/* ============================= */
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* ============================= */
+/* PREMIUM TABLE (DESKTOP) */
+/* ============================= */
+
+table {
+  width: 95%;
+  min-width: 600px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: linear-gradient(180deg, #1c1c1c, #161616);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.03),
+    0 15px 35px rgba(0,0,0,0.7);
+}
+
+thead tr {
+  background: linear-gradient(90deg, #E50914, #b20710);
+}
+
+th {
+  padding: 16px 10px;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
   color: #fff;
 }
 
-#matchesTable {
-  width: 100%;
-  border-collapse: collapse;
+td {
+  padding: 14px 8px;
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-#matchesTable th,
-#matchesTable td {
-  padding: 12px;
-  text-align: center;
-  vertical-align: middle;
-  border-bottom: 1px solid #333;
+tbody tr:nth-child(even) {
+  background: rgba(255,255,255,0.02);
 }
 
-#matchesTable th {
-  background: #1f1f1f;
+@media (hover: hover) {
+  tbody tr:hover {
+    background: rgba(229,9,20,0.15);
+  }
+}
+
+/* ============================= */
+/* TABLE MATCH ROW STYLE */
+/* ============================= */
+
+.match-row-top td {
   font-weight: 600;
+  border-bottom: none;
 }
+
+.match-row-bottom td {
+  font-size: 0.85rem;
+  border-top: none;
+  background: rgba(255,255,255,0.02);
+}
+
+/* ============================= */
+/* TEAM / LOGO */
+/* ============================= */
 
 .logo {
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
 }
+
+/* ============================= */
+/* STATUS */
+/* ============================= */
 
 .status {
-  padding: 4px 8px;
-  border-radius: 6px;
-  font-size: 12px;
-  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
 }
 
-.status.live { background: #e50914; }
-.status.ft { background: #444; }
-.status.upcoming { background: #1e40af; }
+.status-live {
+  background: linear-gradient(90deg, #16a34a, #22c55e);
+}
+
+.status-ft { background: #6b7280; }
+
+.status-upcoming {
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+}
+
+/* ============================= */
+/* CHANNEL */
+/* ============================= */
 
 .channel-cell {
   cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
   transition: 0.2s ease;
 }
 
 .channel-cell:hover {
-  background: rgba(255,255,255,0.05);
-  border-radius: 8px;
+  background: rgba(229,9,20,0.12);
+  color: #E50914;
+  transform: scale(1.02);
 }
 
 /* ============================= */
-/* MOBILE แนวตั้ง (≤768px) */
+/* ACTIVE MATCH */
+/* ============================= */
+
+.active-match td {
+  background: rgba(229, 9, 20, 0.08) !important;
+  box-shadow:
+    inset 0 0 0 2px #E50914,
+    0 0 15px rgba(229,9,20,0.4);
+}
+
+/* ============================= */
+/* LEAGUE HEADER */
+/* ============================= */
+
+.league-header td {
+  background: linear-gradient(90deg, #E50914, #b20710);
+  text-align: center;
+  font-weight: 800;
+  padding: 16px;
+}
+
+/* ============================= */
+/* MOBILE CARD SYSTEM */
+/* ============================= */
+
+#matchesContainer {
+  display: none;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.match-card {
+  background: linear-gradient(180deg, #1c1c1c, #161616);
+  border-radius: 14px;
+  padding: 14px;
+  margin-bottom: 14px;
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.03),
+    0 10px 25px rgba(0,0,0,0.6);
+  transition: 0.3s ease;
+}
+
+.match-card:hover {
+  transform: translateY(-3px);
+}
+
+.match-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.match-top .team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  max-width: 40%;
+  text-align: center;
+  font-size: 0.85rem;
+  white-space: normal;
+}
+
+.match-top .logo {
+  width: 56px;
+  height: 56px;
+}
+
+.score {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #E50914;
+  min-width: 60px;
+  text-align: center;
+}
+
+.match-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.match-bottom .channel {
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.match-bottom .channel:hover {
+  color: #E50914;
+}
+
+/* ============================= */
+/* RESPONSIVE SWITCH */
 /* ============================= */
 
 @media (max-width: 768px) {
 
-  #matchesTable thead {
+  table {
     display: none;
   }
 
-  #matchesTable tr {
+  #matchesContainer {
     display: block;
-    background: #1c1c1c;
-    margin-bottom: 14px;
-    padding: 16px;
-    border-radius: 14px;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.35);
   }
 
-  #matchesTable td {
-    display: block;
-    border: none;
-    padding: 6px 0;
-    text-align: center;
-  }
-
-  /* ซ่อนคอลัมน์ปกติ */
-  #matchesTable td:not(.mobile-layout) {
-    display: none;
-  }
-
-  /* ===== แถวบน ===== */
-  .mobile-row-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .mobile-team {
-    width: 35%;
-    display: flex;
+  .controls {
     flex-direction: column;
-    align-items: center;
-    font-size: 13px;
-    font-weight: 600;
+    align-items: stretch;
   }
 
-  .mobile-team img {
-    width: 52px;
-    height: 52px;
-    margin-bottom: 4px;
-  }
-
-  .mobile-score {
-    width: 30%;
-    font-size: 18px;
-    font-weight: 800;
-  }
-
-  /* ===== แถวล่าง ===== */
-  .mobile-row-bottom {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 13px;
-  }
-
-  .mobile-channel {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-weight: 600;
-    cursor: pointer;
-  }
-
-  .mobile-channel img {
-    width: 22px;
-    height: 22px;
-  }
-}
-
-/* ============================= */
-/* MOBILE แนวนอน + DESKTOP */
-/* ============================= */
-
-@media (min-width: 769px) {
-
-  #matchesTable thead {
-    display: table-header-group;
-  }
-
-  #matchesTable tr {
-    display: table-row;
-    background: transparent;
-    box-shadow: none;
-    padding: 0;
-  }
-
-  #matchesTable td {
-    display: table-cell;
-  }
-
-  .mobile-row-top,
-  .mobile-row-bottom {
-    display: none;
+  select,
+  .search-box input {
+    width: 100%;
   }
 }
