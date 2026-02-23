@@ -318,7 +318,13 @@ tbody tr {
 }
 
 @media (max-width: 480px) {
+th, td {
+  width: 100% !important;
+}
 
+.team-cell {
+  justify-content: flex-start;
+}
   /* ปลดล็อก table ไม่ให้โดนบีบ */
   table {
     width: 100% !important;
