@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>FLIX Soccer ⚽ ตารางแข่งขันฟุตบอลสด</title>
+  <meta name="description" content="FLIX Soccer เว็บดูบอลสด ตารางแข่งขันฟุตบอล ถ่ายทอดสดทุกลีกทั่วโลก อัปเดตเรียลไทม์">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -16,8 +19,10 @@
   <!-- Netflix Theme CSS -->
   <link rel="stylesheet" href="b-style.css">
   
+  <!-- HLS -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
+
 <body class="bg-[#141414] text-white">
   
 <!-- Header -->
@@ -28,7 +33,7 @@
         FLIX <span class="text-white">Soccer</span>
       </h1>
     </a>
-    <nav id="main-nav" class="flex flex-wrap space-x-2 text-sm font-medium">
+    <nav class="flex flex-wrap space-x-2 text-sm font-medium">
       <a href="tv-ball.html" class="py-1 px-3 rounded bg-[#E50914] text-white">🏟 ตารางสด</a>
       <a href="movie.html" class="py-1 px-3 rounded hover:bg-[#333]">🎬 หนัง/ซีรี่ย์</a>
       <a href="about.html" class="py-1 px-3 rounded hover:bg-[#333]">ℹ️ เกี่ยวกับเรา</a>
@@ -48,7 +53,11 @@
     <option value="all">ทุกลีก</option>
   </select>
   <div class="search-box always">
-    <input type="text" id="searchInput" placeholder="ค้นหาทีม/ลีก..." onkeyup="filterTable()">
+    <input 
+      type="text" 
+      id="searchInput" 
+      placeholder="ค้นหาทีม/ลีก..." 
+      onkeyup="filterTable()">
   </div>
 </div>
 
@@ -57,6 +66,7 @@
   <thead>
     <tr>
       <th>ทีมเหย้า</th>
+      <th>สกอร์</th> <!-- ✅ เพิ่มให้ตรงกับ JS -->
       <th>ทีมเยือน</th>
       <th>วันที่ / เวลา</th>
       <th>สถานะ</th>
@@ -64,9 +74,17 @@
       <th>ดูสด</th>
     </tr>
   </thead>
-  <tbody></tbody>
+  <tbody>
+    <!-- ✅ Loading State -->
+    <tr>
+      <td colspan="7" style="text-align:center; padding:20px;">
+        กำลังโหลดข้อมูลการแข่งขัน...
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 <script src="b-script.js"></script>
+
 </body>
 </html>
