@@ -17,7 +17,7 @@ let allMoviesByTitle = {};
 let originalSectionsHtml = ''; // เก็บ HTML หน้าหลักเดิม
 
 // --- [ COMMON FUNCTIONS ] ---
-function createMovieCard(movie) {
+function createMovieCard(movie, index = 0) {
   const moviePlayer = movie.player || 'watch';
   const movieFile = movie.file || movie.url || movie.video;
   const movieName = movie.name || '';
@@ -32,36 +32,36 @@ function createMovieCard(movie) {
   const subtitleText = movie.info?.subtitles || '';
   const posterUrl = movie.logo || movie.image || movie.poster || (typeof movie.info === 'object' ? movie.info.poster : null);
 
-return `
-  <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg 
-              hover:shadow-blue-500/30 transition duration-300 group cursor-pointer 
-              transform hover:scale-105 
-              opacity-0 animate-fadeIn">
-    <a href="${watchUrl}">
-      <div class="relative">
-        <img src="${posterUrl || '/images/no-image.jpg.svg'}"
-             onerror="this.onerror=null;this.src='/images/no-image.jpg.svg';"
-             alt="${movieName}"
-             class="w-full h-[225px] object-cover transition duration-500 group-hover:opacity-90">
-        <div class="absolute top-1 right-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs px-2 py-1 rounded-md font-medium shadow-md border border-blue-400/30">
-          ${soundText}
+  return `
+    <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg 
+                hover:shadow-blue-500/30 transition duration-300 group cursor-pointer 
+                transform hover:scale-105 opacity-0 animate-fadeIn"
+         style="animation-delay:${index * 0.1}s">
+      <a href="${watchUrl}">
+        <div class="relative">
+          <img src="${posterUrl || '/images/no-image.jpg.svg'}"
+               onerror="this.onerror=null;this.src='/images/no-image.jpg.svg';"
+               alt="${movieName}"
+               class="w-full h-[225px] object-cover transition duration-500 group-hover:opacity-90">
+          <div class="absolute top-1 right-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs px-2 py-1 rounded-md font-medium shadow-md border border-blue-400/30">
+            ${soundText}
+          </div>
         </div>
-      </div>
-      <div class="p-2">
-        <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
-        <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
-        <p class="text-xs text-gray-400">ซับไตเติล : ${subtitleText || 'ไม่มี'}</p>
-      </div>
-    </a>
-  </div>
-`;
+        <div class="p-2">
+          <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
+          <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
+          <p class="text-xs text-gray-400">ซับไตเติล : ${subtitleText || 'ไม่มี'}</p>
+        </div>
+      </a>
+    </div>
+  `;
 }
 
 // --- [ INDEX.HTML LOGIC ] ---
 function createMovieSection(title, movies, categoryKey, isSearch = false) {
   const limit = isSearch ? movies.length : ITEMS_PER_ROW;
   const limitedMovies = movies.slice(0, limit);
-  const cardsHtml = limitedMovies.map(createMovieCard).join('');
+  const cardsHtml = limitedMovies.map((movie, i) => createMovieCard(movie, i)).join('');
   const categoryUrl = `category.html?cat=${categoryKey}`;
 
   if (isSearch) {
