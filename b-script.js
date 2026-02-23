@@ -144,7 +144,7 @@ async function parseMatches() {
   } catch (err) {
 
     document.querySelector("#matchesTable tbody").innerHTML =
-      `<tr><td colspan="7">ไม่สามารถโหลดข้อมูลการแข่งขัน</td></tr>`;
+      `<tr><td colspan="6">ไม่สามารถโหลดข้อมูลการแข่งขัน</td></tr>`;
 
   }
 }
@@ -233,7 +233,7 @@ function renderFilteredLeague() {
 
   const leagueRow = document.createElement("tr");
   leagueRow.classList.add("league-header");
-  leagueRow.innerHTML = `<td colspan="7">${selectedLeague}</td>`;
+  leagueRow.innerHTML = `<td colspan="6">${selectedLeague}</td>`;
   tbody.appendChild(leagueRow);
 
   leagueMap[selectedLeague].forEach(match => {
