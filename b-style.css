@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -106,7 +110,7 @@ select:focus,
 }
 
 /* ============================= */
-/* TABLE WRAPPER (Scroll Safe) */
+/* TABLE WRAPPER */
 /* ============================= */
 
 .table-wrapper {
@@ -115,7 +119,7 @@ select:focus,
 }
 
 /* ============================= */
-/* PREMIUM TABLE */
+/* DESKTOP TABLE */
 /* ============================= */
 
 table {
@@ -139,14 +143,17 @@ table {
 }
 
 /* HEADER */
-thead tr {
-  background: linear-gradient(90deg, #E50914, #b20710);
+
+@media (min-width: 769px) {
+  thead th {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
 }
 
-thead th {
-  position: sticky;
-  top: 0;
-  z-index: 5;
+thead tr {
+  background: linear-gradient(90deg, #E50914, #b20710);
 }
 
 th {
@@ -159,6 +166,7 @@ th {
 }
 
 /* BODY */
+
 td {
   padding: 14px 8px;
   font-size: 0.95rem;
@@ -169,12 +177,10 @@ td {
   transition: background 0.2s ease;
 }
 
-/* Zebra */
 tbody tr:nth-child(even) {
   background: rgba(255,255,255,0.02);
 }
 
-/* Hover Desktop */
 @media (hover: hover) {
   tbody tr:hover {
     background: rgba(229,9,20,0.15);
@@ -182,6 +188,7 @@ tbody tr:nth-child(even) {
 }
 
 /* Column Width Lock */
+
 th:nth-child(1), td:nth-child(1) { width: 20%; }
 th:nth-child(2), td:nth-child(2) { width: 8%; }
 th:nth-child(3), td:nth-child(3) { width: 20%; }
@@ -191,7 +198,7 @@ th:nth-child(6), td:nth-child(6) { width: 16%; }
 th:nth-child(7), td:nth-child(7) { width: 8%; }
 
 /* ============================= */
-/* TEAM STYLE */
+/* TEAM */
 /* ============================= */
 
 .team-cell {
@@ -201,6 +208,12 @@ th:nth-child(7), td:nth-child(7) { width: 8%; }
   gap: 8px;
 }
 
+.team-cell span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .logo {
   width: 56px;
   height: 56px;
@@ -208,10 +221,11 @@ th:nth-child(7), td:nth-child(7) { width: 8%; }
   border-radius: 50%;
   background: #fff;
   padding: 3px;
+  flex-shrink: 0;
 }
 
 /* ============================= */
-/* STATUS BADGE */
+/* STATUS */
 /* ============================= */
 
 .status {
@@ -235,7 +249,7 @@ th:nth-child(7), td:nth-child(7) { width: 8%; }
 }
 
 /* ============================= */
-/* WATCH BUTTON */
+/* BUTTON */
 /* ============================= */
 
 button {
@@ -265,7 +279,6 @@ button:active {
 /* ============================= */
 
 .active-match {
-  position: relative;
   font-weight: 600;
   background: rgba(229, 9, 20, 0.08);
   box-shadow:
@@ -292,6 +305,7 @@ button:active {
 
 tbody tr {
   animation: fadeIn 0.4s ease forwards;
+  will-change: transform, opacity;
 }
 
 @keyframes fadeIn {
@@ -315,36 +329,56 @@ tbody tr {
   }
 }
 
+/* MOBILE CARD HORIZONTAL */
+
 @media (max-width: 480px) {
 
-  table, thead, tbody, th, td, tr {
-    display: block;
+  table {
     width: 100%;
     min-width: 100%;
   }
 
-  thead { display: none; }
-
-  tr {
-    margin-bottom: 15px;
-    border: 1px solid #333;
-    border-radius: 10px;
-    padding: 10px;
-    background: #1c1c1c;
+  thead {
+    display: none;
   }
 
-  td {
-    text-align: left;
-    border: none;
-    padding: 6px 10px;
-    position: relative;
-  }
-
-  td:before {
-    content: attr(data-label);
-    font-weight: bold;
-    color: #E50914;
+  tbody tr {
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    padding: 12px;
+    background: #1c1c1c;
+    border: 1px solid #333;
+  }
+
+  tbody td {
+    border: none;
+    padding: 6px 0;
+  }
+
+  .team-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .team-row .team {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+  }
+
+  .team-row .score {
+    font-weight: 800;
+    font-size: 1rem;
+    text-align: center;
+    min-width: 70px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
   }
 }
