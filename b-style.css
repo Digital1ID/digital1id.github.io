@@ -112,10 +112,12 @@ img.logo {
   padding: 10px;
 }
 
+/* Highlight แถวที่กำลังเล่น */
 .active-match {
-  background: rgba(229, 9, 20, 0.3);
-  border-left: 4px solid var(--primary);
-  transition: background 0.3s ease;
+  background: var(--primary) !important;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 @media (max-width: 768px) {
