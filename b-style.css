@@ -18,34 +18,35 @@ header h1 {
 }
 
 /* Navigation */
-nav a {
+#main-nav a {
+  background-color: transparent;
   color: #ffffff;
   transition: background-color 0.3s, color 0.3s;
 }
-nav a:hover {
+#main-nav a:hover {
   background-color: #333333;
   color: #ffffff;
 }
-nav a.active {
+#main-nav a.active {
   background-color: #E50914;
   color: #ffffff;
 }
 
-/* ปุ่มค้นหา */
-.search-box input {
+/* Search Form */
+#search-form input {
   background-color: #333333;
   border: 1px solid #555555;
   color: #ffffff;
 }
-.search-box input::placeholder {
+#search-form input::placeholder {
   color: #808080;
 }
-.search-box button {
+#search-form button {
   background-color: #E50914;
   color: #ffffff;
   transition: background-color 0.3s;
 }
-.search-box button:hover {
+#search-form button:hover {
   background-color: #b20710;
 }
 
