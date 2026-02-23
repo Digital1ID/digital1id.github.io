@@ -19,7 +19,10 @@
 <select id="leagueSelect">
   <option value="all">ทุกลีก</option>
 </select>
-    <input type="text" id="searchInput" placeholder="🔍 ค้นหาทีม/ลีก..." onkeyup="filterTable()">
+    <div class="search-box">
+<button id="searchToggle">🔍</button>
+  <input type="text" id="searchInput" placeholder="ค้นหาทีม/ลีก..." onkeyup="filterTable()">
+</div>
   </div>
 
   <table id="matchesTable">
@@ -38,5 +41,14 @@
   </table>
 
   <script src="b-script.js"></script>
+<script>
+  document.getElementById("searchToggle").addEventListener("click", function() {
+  const box = document.querySelector(".search-box");
+  box.classList.toggle("active");
+  if (box.classList.contains("active")) {
+    document.getElementById("searchInput").focus();
+  }
+});
+</script>
 </body>
 </html>
