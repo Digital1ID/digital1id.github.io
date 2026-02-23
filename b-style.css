@@ -120,7 +120,7 @@ select:focus,
 
 table {
   width: 95%;
-  min-width: 700px;
+  min-width: 600px;
   margin: 30px auto;
   border-collapse: collapse;
   table-layout: fixed;
@@ -130,11 +130,6 @@ table {
   box-shadow:
     0 0 0 1px rgba(255,255,255,0.03),
     0 15px 35px rgba(0,0,0,0.7);
-}
-
-.table-wrapper {
-  width: 100%;
-  overflow-x: auto;
 }
 
 @media (min-width: 1200px) {
