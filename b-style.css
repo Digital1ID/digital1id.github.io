@@ -181,14 +181,13 @@ tbody tr:nth-child(even) {
   }
 }
 
-/* Column Width Lock */
-th:nth-child(1), td:nth-child(1) { width: 20%; }
-th:nth-child(2), td:nth-child(2) { width: 8%; }
-th:nth-child(3), td:nth-child(3) { width: 20%; }
-th:nth-child(4), td:nth-child(4) { width: 14%; }
-th:nth-child(5), td:nth-child(5) { width: 10%; }
-th:nth-child(6), td:nth-child(6) { width: 16%; }
-th:nth-child(7), td:nth-child(7) { width: 8%; }
+/* Column Width Lock (6 columns) */
+th:nth-child(1), td:nth-child(1) { width: 22%; }  /* เหย้า */
+th:nth-child(2), td:nth-child(2) { width: 10%; }  /* สกอร์ */
+th:nth-child(3), td:nth-child(3) { width: 22%; }  /* เยือน */
+th:nth-child(4), td:nth-child(4) { width: 16%; }  /* วันที่ */
+th:nth-child(5), td:nth-child(5) { width: 12%; }  /* สถานะ */
+th:nth-child(6), td:nth-child(6) { width: 18%; }  /* ช่อง */
 
 /* ============================= */
 /* TEAM STYLE */
@@ -234,39 +233,17 @@ th:nth-child(7), td:nth-child(7) { width: 8%; }
   background: linear-gradient(90deg, #2563eb, #3b82f6);
 }
 
-/* ============================= */
-/* WATCH BUTTON */
-/* ============================= */
-
-button {
-  padding: 6px 16px;
-  min-width: 70px;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-  background: linear-gradient(90deg, #E50914, #ff1f2f);
-  box-shadow: 0 5px 15px rgba(229,9,20,0.4);
-  transition: all 0.2s ease;
-}
-
-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(229,9,20,0.6);
-}
-
-button:active {
-  transform: scale(0.95);
-}
-
 .channel-cell {
-  transition: 0.2s ease;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  border-radius: 8px;
 }
 
 .channel-cell:hover {
-  background: #1f1f1f;
+  background: rgba(229,9,20,0.12);
   color: #E50914;
+  transform: scale(1.02);
 }
 
 /* ============================= */
