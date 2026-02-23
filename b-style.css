@@ -84,6 +84,27 @@ select {
   color: #fff;
 }
 
+/* Search Box Always Visible */
+.search-box.always {
+  display: flex;
+  align-items: center;
+}
+
+.search-box.always input {
+  width: 220px;
+  opacity: 1;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #222;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.search-box.always input::placeholder {
+  color: #aaa;
+}
+
 /* ตารางฟุตบอล */
 table {
   width: 95%;
