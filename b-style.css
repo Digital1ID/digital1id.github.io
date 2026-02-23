@@ -120,7 +120,7 @@ select:focus,
 
 table {
   width: 95%;
-  min-width: 680px;
+  min-width: 640px;
   margin: 30px auto;
   border-collapse: collapse;
   table-layout: fixed;
