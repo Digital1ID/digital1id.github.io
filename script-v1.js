@@ -32,17 +32,16 @@ function createMovieCard(movie) {
   const subtitleText = movie.info?.subtitles || '';
   const posterUrl = movie.logo || movie.image || movie.poster || (typeof movie.info === 'object' ? movie.info.poster : null);
 
-  // Debug log
-  console.log("DEBUG:", { name: movie.name, posterUrl, infoPoster: movie.info?.poster });
-
   return `
-    <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-500/30 transition duration-300 group cursor-pointer">
+    <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg 
+                hover:shadow-blue-500/30 transition duration-300 group cursor-pointer 
+                transform hover:scale-105">
       <a href="${watchUrl}">
         <div class="relative">
           <img src="${posterUrl || '/images/no-image.jpg.svg'}"
                onerror="this.onerror=null;this.src='/images/no-image.jpg.svg';"
                alt="${movieName}"
-               class="w-full h-[225px] object-cover transition duration-500">
+               class="w-full h-[225px] object-cover transition duration-500 group-hover:opacity-90">
           <div class="absolute top-1 right-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs px-2 py-1 rounded-md font-medium shadow-md border border-blue-400/30">
             ${soundText}
           </div>
@@ -50,6 +49,7 @@ function createMovieCard(movie) {
         <div class="p-2">
           <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
           <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
+          <p class="text-xs text-gray-400">ซับไตเติล : ${subtitleText || 'ไม่มี'}</p>
         </div>
       </a>
     </div>
@@ -63,6 +63,19 @@ function createMovieSection(title, movies, categoryKey, isSearch = false) {
   const cardsHtml = limitedMovies.map(createMovieCard).join('');
   const categoryUrl = `category.html?cat=${categoryKey}`;
 
+  if (isSearch) {
+    return `
+      <section class="mb-10">
+        <h3 class="text-2xl font-bold border-l-4 border-red-600 pl-3 mb-6">
+          ${title}
+        </h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          ${cardsHtml}
+        </div>
+      </section>
+    `;
+  }
+
   return `
     <section class="mb-10 relative">
       <a href="${categoryUrl}" class="group block mb-6">
@@ -71,25 +84,15 @@ function createMovieSection(title, movies, categoryKey, isSearch = false) {
           <span class="text-red-600 text-xl ml-2 group-hover:ml-3 transition-all duration-300">›</span>
         </h3>
       </a>
-
-      <!-- ปุ่มเลื่อนซ้าย -->
       <button 
         class="absolute left-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 z-10"
-        onclick="scrollSection(this, -1)">
-        ‹
-      </button>
-
-      <!-- Container แนวนอน -->
-      <div class="flex space-x-2 overflow-x-auto scrollbar-hide pb-4 px-4 snap-x snap-mandatory scroll-smooth" id="movie-row">
+        onclick="scrollSection(this, -1)">‹</button>
+      <div class="movie-row flex space-x-2 overflow-x-auto scrollbar-hide pb-4 px-4 snap-x snap-mandatory scroll-smooth">
         ${cardsHtml}
       </div>
-
-      <!-- ปุ่มเลื่อนขวา -->
       <button 
         class="absolute right-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 z-10"
-        onclick="scrollSection(this, 1)">
-        ›
-      </button>
+        onclick="scrollSection(this, 1)">›</button>
     </section>
   `;
 }
