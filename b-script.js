@@ -106,8 +106,7 @@ function renderAllLeagues() {
       tr.innerHTML = `
         <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
         <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
-        <td data-label="วันที่">${match.date}</td>
-        <!--td data-label="เวลา">${match.time}</td-->
+        <td data-label="วันที่ / เวลา">${match.date} / ${match.time}</td>
         <td data-label="สถานะ"><span class="status ${statusClass}">${match.status}</span></td>
         <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
         <td data-label="ดูสด">
@@ -143,8 +142,7 @@ function renderLeagueMatches(league) {
     tr.innerHTML = `
       <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
       <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
-      <td data-label="วันที่">${match.date}</td>
-      <!--td data-label="เวลา">${match.time}</td-->
+      <td data-label="วันที่ / เวลา">${match.date} / ${match.time}</td>
       <td data-label="สถานะ"><span class="status ${statusClass}">${match.status}</span></td>
       <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
       <td data-label="ดูสด">
