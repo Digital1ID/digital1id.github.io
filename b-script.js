@@ -89,7 +89,6 @@ function renderLeagueMatches(league) {
   leagueMap[league].forEach(match => {
 const tr = document.createElement("tr");
 tr.innerHTML = `
-  <td data-label="ลีก">${league}</td>
   <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
   <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
   <td data-label="วันที่">${match.date}</td>
