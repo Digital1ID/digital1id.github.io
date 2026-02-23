@@ -9,7 +9,6 @@ async function parseMatches() {
     const doc = parser.parseFromString(htmlText, "text/html");
 
     const containers = doc.querySelectorAll("div.row.gy-3");
-    const tbody = document.querySelector("#matchesTable tbody");
     const leagueSelect = document.getElementById("leagueSelect");
 
     containers.forEach(container => {
@@ -107,3 +106,43 @@ function renderLeagueMatches(league) {
   });
 }
 
+function playStream(url, homeTeam = "", awayTeam = "", league = "") {
+  if (!url) return;
+  document.getElementById("playerBox").style.display = "block";
+
+  const title = document.querySelector("#playerBox h2");
+  if (homeTeam && awayTeam && league) {
+    title.textContent = `🎬 ${league} | ${homeTeam} vs ${awayTeam}`;
+  } else {
+    title.textContent = "🎬 ตัวเล่นวิดีโอ";
+  }
+
+  const video = document.getElementById("videoPlayer");
+  if (Hls.isSupported()) {
+    const hls = new Hls();
+    hls.loadSource(url);
+    hls.attachMedia(video);
+    video.play();
+  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+    video.src = url;
+    video.play();
+  } else {
+    alert("เบราว์เซอร์นี้ไม่รองรับการเล่นสตรีม .m3u8");
+  }
+}
+
+function filterTable() {
+  const input = document.getElementById("searchInput").value.toLowerCase();
+  const rows = document.querySelectorAll("#matchesTable tbody tr");
+  rows.forEach(row => {
+    if (row.classList.contains("league-header")) {
+      row.style.display = "";
+      return;
+    }
+    const text = row.textContent.toLowerCase();
+    row.style.display = text.includes(input) ? "" : "none";
+  });
+}
+
+// ✅ เริ่มโหลดข้อมูลเมื่อเปิดหน้า
+parseMatches();
