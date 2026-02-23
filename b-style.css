@@ -20,7 +20,6 @@ body {
 header {
   background: rgba(20,20,20,0.85);
   backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 4px 20px rgba(0,0,0,0.7);
 }
 
@@ -51,8 +50,6 @@ header h1 { color: #E50914; }
   max-height: 1200px;
 }
 
-.player h2 { color: #E50914; }
-
 video {
   width: 100%;
   max-width: 900px;
@@ -80,21 +77,9 @@ select,
   border: 1px solid #444;
   background: #222;
   color: #fff;
-  transition: all 0.3s ease;
 }
 
-select:focus,
-.search-box input:focus {
-  outline: none;
-  border-color: #E50914;
-  box-shadow: 0 0 10px rgba(229,9,20,0.5);
-}
-
-.search-box input {
-  width: 220px;
-}
-
-.search-box input::placeholder { color: #aaa; }
+.search-box input { width: 220px; }
 
 /* ============================= */
 /* TABLE WRAPPER */
@@ -106,15 +91,14 @@ select:focus,
 }
 
 /* ============================= */
-/* PREMIUM TABLE (DESKTOP) */
+/* DESKTOP TABLE (1 ROW) */
 /* ============================= */
 
 table {
   width: 95%;
-  min-width: 600px;
+  min-width: 700px;
   margin: 30px auto;
   border-collapse: collapse;
-  table-layout: fixed;
   background: linear-gradient(180deg, #1c1c1c, #161616);
   border-radius: 14px;
   overflow: hidden;
@@ -130,53 +114,40 @@ thead tr {
 th {
   padding: 16px 10px;
   font-size: 0.85rem;
-  letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
 }
 
 td {
-  padding: 14px 8px;
+  padding: 14px 10px;
   font-size: 0.95rem;
   border-bottom: 1px solid rgba(255,255,255,0.05);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  text-align: center;
 }
 
 tbody tr:nth-child(even) {
   background: rgba(255,255,255,0.02);
 }
 
-@media (hover: hover) {
-  tbody tr:hover {
-    background: rgba(229,9,20,0.15);
-  }
+tbody tr:hover {
+  background: rgba(229,9,20,0.15);
 }
 
 /* ============================= */
-/* TABLE MATCH ROW STYLE */
+/* TEAM CELL */
 /* ============================= */
 
-.match-row-top td {
-  font-weight: 600;
-  border-bottom: none;
+.team-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
-
-.match-row-bottom td {
-  font-size: 0.85rem;
-  border-top: none;
-  background: rgba(255,255,255,0.02);
-}
-
-/* ============================= */
-/* TEAM / LOGO */
-/* ============================= */
 
 .logo {
-  width: 48px;
-  height: 48px;
+  width: 42px;
+  height: 42px;
   object-fit: contain;
   border-radius: 50%;
   background: #fff;
@@ -211,22 +182,20 @@ tbody tr:nth-child(even) {
 .channel-cell {
   cursor: pointer;
   font-weight: 600;
-  border-radius: 8px;
   transition: 0.2s ease;
 }
 
 .channel-cell:hover {
-  background: rgba(229,9,20,0.12);
   color: #E50914;
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 /* ============================= */
 /* ACTIVE MATCH */
 /* ============================= */
 
-.active-match td {
-  background: rgba(229, 9, 20, 0.08) !important;
+.active-match {
+  background: rgba(229, 9, 20, 0.08);
   box-shadow:
     inset 0 0 0 2px #E50914,
     0 0 15px rgba(229,9,20,0.4);
@@ -238,9 +207,9 @@ tbody tr:nth-child(even) {
 
 .league-header td {
   background: linear-gradient(90deg, #E50914, #b20710);
-  text-align: center;
   font-weight: 800;
-  padding: 16px;
+  text-align: center;
+  padding: 14px;
 }
 
 /* ============================= */
@@ -261,19 +230,13 @@ tbody tr:nth-child(even) {
   box-shadow:
     0 0 0 1px rgba(255,255,255,0.03),
     0 10px 25px rgba(0,0,0,0.6);
-  transition: 0.3s ease;
-}
-
-.match-card:hover {
-  transform: translateY(-3px);
 }
 
 .match-top {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin-bottom: 12px;
-  font-weight: 600;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .match-top .team {
@@ -284,7 +247,6 @@ tbody tr:nth-child(even) {
   max-width: 40%;
   text-align: center;
   font-size: 0.85rem;
-  white-space: normal;
 }
 
 .match-top .logo {
@@ -303,37 +265,19 @@ tbody tr:nth-child(even) {
 .match-bottom {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   font-size: 0.8rem;
   flex-wrap: wrap;
-  gap: 8px;
-}
-
-.match-bottom .channel {
-  cursor: pointer;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.match-bottom .channel:hover {
-  color: #E50914;
 }
 
 /* ============================= */
-/* RESPONSIVE SWITCH */
+/* RESPONSIVE */
 /* ============================= */
 
 @media (max-width: 768px) {
 
-  table {
-    display: none;
-  }
+  table { display: none; }
 
-  #matchesContainer {
-    display: block;
-  }
+  #matchesContainer { display: block; }
 
   .controls {
     flex-direction: column;
