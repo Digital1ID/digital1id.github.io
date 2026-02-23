@@ -312,19 +312,10 @@ tbody tr {
   .search-box input {
     width: 100%;
   }
-  table {
-    min-width: 600px;
-  }
 }
 
 @media (max-width: 480px) {
-th, td {
-  width: 100% !important;
-}
 
-.team-cell {
-  justify-content: flex-start;
-}
   /* ปลดล็อก table ไม่ให้โดนบีบ */
   table {
     width: 100% !important;
