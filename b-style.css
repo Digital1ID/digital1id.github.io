@@ -339,24 +339,4 @@ tbody tr {
     padding: 6px 10px;
     position: relative;
   }
-
-  td:before {
-    content: attr(data-label);
-    font-weight: bold;
-    color: #E50914;
-    display: block;
-    margin-bottom: 4px;
-  }
-
-  .logo {
-  width: 56px;
-  height: 56px;
-  align-items: center;
-  justify-content: center;
-  object-fit: contain;
-  border-radius: 50%;
-  background: #fff;
-  padding: 3px;
-}
-
 }
