@@ -74,7 +74,7 @@ video {
   margin: 15px auto;
   display: flex;
   gap: 10px;
-  justify-content: space-between;
+  justify-content: flex-end;  /* space-between; ให้ dropdown อยู่ซ้าย, search อยู่ขวา */
 }
 select {
   padding: 10px;
@@ -84,11 +84,16 @@ select {
   color: #fff;
 }
 
+/*.controls select {
+  flex: 0 0 100px; /* กำหนดความกว้าง dropdown */
+/*}*/
+
 /* Search Box Always Visible */
 .search-box.always {
   display: flex;
   align-items: center;
 }
+
 .search-box.always input {
   width: 220px;
   opacity: 1;
@@ -97,7 +102,9 @@ select {
   border: 1px solid #444;
   background: #222;
   color: #fff;
+  transition: all 0.3s ease;
 }
+
 .search-box.always input::placeholder {
   color: #aaa;
 }
@@ -122,6 +129,13 @@ th {
   padding: 12px;
   font-weight: bold;
   font-size: 0.9rem;
+}
+tbody tr {
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+tbody tr:hover {
+  background: rgba(229,9,20,0.15);
+  transform: scale(1.01);
 }
 td {
   padding: 12px;
@@ -168,6 +182,40 @@ button:hover {
   background: #b20710;
 }
 
+/* Highlight แถวที่เล่น */
+.active-match {
+  background: linear-gradient(90deg, rgba(229,9,20,0.85), rgba(178,7,16,0.85));
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  box-shadow: 0 0 15px rgba(229,9,20,0.6);
+}
+.active-match::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 6px;
+  background: #fff;
+  border-radius: 2px;
+  animation: pulseGlow 1.5s infinite;
+}
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 5px #fff; opacity: 0.7; }
+  50% { box-shadow: 0 0 15px #fff; opacity: 1; }
+  100% { box-shadow: 0 0 5px #fff; opacity: 0.7; }
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
 /* สถานะการแข่งขัน */
 .status {
   font-weight: bold;
@@ -189,54 +237,21 @@ button:hover {
 }
 
 /* Responsive */
-
-/* ✅ PC (≥1024px) — ตารางปกติ */
-@media (min-width: 1024px) {
-  table, thead, tbody, th, td, tr {
-    display: table;
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
   }
-}
-
-/* ✅ มือถือแนวนอน (481px–1023px) — ตาราง block + label */
-@media (max-width: 1023px) and (min-width: 481px) {
-  table, thead, tbody, th, td, tr {
-    display: block;
+  select {
     width: 100%;
   }
-  thead { display: none; }
-
-  tr {
-    margin-bottom: 15px;
-    border: 1px solid #333;
-    border-radius: 8px;
-    padding: 10px;
-    background: #1c1c1c;
-  }
-
-  td {
-    text-align: left;
-    border: none;
-    padding: 6px 10px;
-    position: relative;
-  }
-
-  td:before {
-    content: attr(data-label);
-    font-weight: bold;
-    color: #E50914;
-    display: block;
-    margin-bottom: 4px;
-  }
 }
-
-/* ✅ มือถือแนวตั้ง (≤480px) — ทีมเหย้า vs ทีมเยือน */
 @media (max-width: 480px) {
   table, thead, tbody, th, td, tr {
     display: block;
     width: 100%;
   }
   thead { display: none; }
-
   tr {
     margin-bottom: 15px;
     border: 1px solid #333;
@@ -244,32 +259,17 @@ button:hover {
     padding: 10px;
     background: #1c1c1c;
   }
-
-  td[data-label="ทีมเหย้า"],
-  td[data-label="ทีมเยือน"] {
-    display: inline-flex;
-    align-items: center;
+  td {
+    text-align: left;
     border: none;
     padding: 6px 10px;
-    font-weight: bold;
+    position: relative;
   }
-  td[data-label="ทีมเหย้า"]::after {
-    content: " vs ";
-    color: #E50914;
-    font-weight: bold;
-    margin: 0 6px;
-  }
-
   td:before {
-    display: none;
-  }
-
-  td[data-label="วันที่ / เวลา"],
-  td[data-label="สถานะ"],
-  td[data-label="ช่อง"],
-  td[data-label="ดูสด"] {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #E50914;
     display: block;
-    padding: 6px 10px;
-    border: none;
+    margin-bottom: 4px;
   }
 }
