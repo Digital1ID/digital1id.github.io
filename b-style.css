@@ -329,118 +329,159 @@ tbody tr {
   }
 }
 
-/* ============================= */
-/* MOBILE 3 ROW CARD LAYOUT */
-/* ============================= */
+/* ===================================== */
+/* MOBILE CLEAN 3 ROW CARD (NO FLOAT) */
+/* ===================================== */
 
 @media (max-width: 480px) {
-
-  table {
-    width: 100%;
-    min-width: 100%;
-  }
 
   thead {
     display: none;
   }
 
+  table {
+    width: 100%;
+  }
+
   tbody tr {
-    display: block;
-    margin: 0 12px 18px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin: 14px;
     padding: 16px;
-    border-radius: 16px;
-    background: #1c1c1c;
+
+    background: linear-gradient(145deg,#1e1e1e,#181818);
+    border-radius: 18px;
     border: 1px solid #2a2a2a;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
   }
 
   tbody td {
-    display: block;
     border: none;
-    padding: 6px 0;
+    padding: 0;
   }
 
-  /* ===== ROW 1 : TEAM + SCORE ===== */
+  /* ===================== */
+  /* ROW 1 : TEAM + SCORE */
+  /* ===================== */
 
   tbody td:nth-child(1),
   tbody td:nth-child(2),
   tbody td:nth-child(3) {
     display: inline-flex;
     align-items: center;
-    vertical-align: middle;
+  }
+
+  /* สร้างแถวบนด้วย flex */
+  tbody tr > td:nth-child(1),
+  tbody tr > td:nth-child(2),
+  tbody tr > td:nth-child(3) {
+    order: 1;
+  }
+
+  /* จัด layout แถวแรก */
+  tbody tr {
+    position: relative;
+  }
+
+  /* สร้าง container เสมือน */
+  tbody tr::before {
+    content: "";
+    display: block;
+  }
+
+  /* ทำให้ 3 ช่องบนเรียงแนวนอน */
+  tbody td:nth-child(1),
+  tbody td:nth-child(2),
+  tbody td:nth-child(3) {
+    width: auto;
+  }
+
+  /* ใช้ flex wrapper */
+  tbody tr {
+    display: flex;
+  }
+
+  tbody tr > td:nth-child(1),
+  tbody tr > td:nth-child(2),
+  tbody tr > td:nth-child(3) {
+    flex: 1;
   }
 
   tbody td:nth-child(1) {
     justify-content: flex-start;
-    width: 40%;
     gap: 8px;
   }
 
   tbody td:nth-child(2) {
     justify-content: center;
-    width: 20%;
+    font-size: 1.2rem;
     font-weight: 800;
-    font-size: 1.1rem;
   }
 
   tbody td:nth-child(3) {
     justify-content: flex-end;
-    width: 40%;
     gap: 8px;
     text-align: right;
   }
 
-  /* ทำให้ 3 ช่องแรกอยู่บรรทัดเดียว */
-  tbody td:nth-child(1),
-  tbody td:nth-child(2),
-  tbody td:nth-child(3) {
-    float: left;
-  }
-
-  /* เคลียร์ float */
-  tbody tr::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-
-  /* ===== ROW 2 : TIME + STATUS ===== */
+  /* ===================== */
+  /* ROW 2 : DATE + STATUS */
+  /* ===================== */
 
   tbody td:nth-child(4),
   tbody td:nth-child(5) {
-    display: inline-flex;
-    justify-content: space-between;
-    width: 100%;
     font-size: 0.85rem;
-    margin-top: 6px;
-    color: #ccc;
+    color: #aaa;
+  }
+
+  tbody td:nth-child(4) {
+    order: 2;
+    text-align: left;
   }
 
   tbody td:nth-child(5) {
-    justify-content: flex-end;
+    order: 2;
+    text-align: right;
   }
 
-  /* ===== ROW 3 : BUTTON ===== */
+  /* ทำให้ row 2 อยู่บรรทัดเดียว */
+  tbody td:nth-child(4),
+  tbody td:nth-child(5) {
+    width: 50%;
+    display: inline-block;
+  }
+
+  /* ===================== */
+  /* ROW 3 : BUTTON */
+  /* ===================== */
 
   tbody td:nth-child(6) {
-    display: none; /* ซ่อนช่อง */
+    display: none; /* ซ่อนช่องทีวี */
   }
 
   tbody td:nth-child(7) {
-    margin-top: 12px;
-    text-align: center;
+    order: 3;
+    margin-top: 8px;
   }
 
   tbody td:nth-child(7) button {
     width: 100%;
-    padding: 10px;
+    padding: 11px;
+    border-radius: 12px;
     font-size: 0.95rem;
   }
 
-  /* โลโก้เล็กลงให้สมดุล */
+  /* ===================== */
+  /* LOGO SIZE */
+  /* ===================== */
+
   .logo {
-    width: 36px;
-    height: 36px;
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
   }
 
 }
