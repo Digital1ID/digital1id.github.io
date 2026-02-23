@@ -312,6 +312,9 @@ tbody tr {
   .search-box input {
     width: 100%;
   }
+  table {
+    min-width: 600px;
+  }
 }
 
 @media (max-width: 480px) {
