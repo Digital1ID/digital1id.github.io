@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="th">
 <head>
   <meta charset="UTF-8" />
@@ -50,10 +49,10 @@
     <script src="script-v1.js"></script>
   <script>
   function scrollSection(button, direction) {
-  const container = button.parentElement.querySelector('#movie-row');
-  const scrollAmount = 300; // ระยะเลื่อนแต่ละครั้ง
-  container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
-}
+    const container = button.closest('section').querySelector('.movie-row');
+    const scrollAmount = 300;
+    container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+  }
   </script>
 </body>
 </html>
