@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>⚽ ตารางแข่งขันฟุตบอลสด</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #0066ff, #00ccff);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    table {
+      width: 95%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background: #0066ff;
+      color: white;
+    }
+    tr:hover {
+      background: #f1f9ff;
+    }
+    button {
+      background: #00ccff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #0099cc;
+    }
+    .player {
+      margin: 30px auto;
+      text-align: center;
+    }
+    video {
+      width: 80%;
+      max-width: 900px;
+      border: 3px solid #0066ff;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    pre {
+      background: #222;
+      color: #0f0;
+      padding: 10px;
+      overflow-x: auto;
+      width: 90%;
+      margin: 20px auto;
+      border-radius: 6px;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+  <header>📺 ตารางแข่งขันฟุตบอลสด</header>
+
+  <table id="matchesTable">
+    <thead>
+      <tr>
+        <th>ลีก</th>
+        <th>ทีมเหย้า</th>
+        <th>ทีมเยือน</th>
+        <th>วันที่</th>
+        <th>เวลา</th>
+        <th>สถานะ</th>
+        <th>ช่อง</th>
+        <th>ดูสด</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div class="player">
+    <h2>🎬 ตัวเล่นวิดีโอ</h2>
+    <video id="videoPlayer" controls></video>
+  </div>
+
+  <h2 style="text-align:center;">🔍 Debug JSON</h2>
+  <pre id="output">Loading...</pre>
+
+  <script>
+    async function parseMatches() {
+      try {
+        const res = await fetch("https://api-soccer.thai-play.com/api/v4/iptv/livescore/now?token=JF6pHMnpVCRUeEsSqAAjTWA4GbGhMrpD");
+        const htmlText = await res.text();
+
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlText, "text/html");
+
+        const result = { matches: [], debugLog: [] };
+        const containers = doc.querySelectorAll("div.row.gy-3");
+
+        containers.forEach(container => {
+          const statusNode = container.querySelector("div.col-lg-1 div");
+          const statusText = statusNode ? statusNode.textContent.trim() : "";
+
+          if (statusText.toUpperCase() === "FT") {
+            const homeTeam = container.querySelector("div.text-end p")?.textContent.trim() || "ทีมเหย้า";
+            const awayTeam = container.querySelector("div.text-start p")?.textContent.trim() || "ทีมเยือน";
+            result.debugLog.push(`ข้ามคู่ที่จบแล้ว (FT): ${homeTeam} vs ${awayTeam}`);
+            return;
+          }
+
+          const matchTime = statusText.replace(/(\d{1,2}):(\d{2})/, "$1.$2");
+          const homeTeam = container.querySelector("div.text-end p")?.textContent.trim() || "ทีมเหย้า";
+          const awayTeam = container.querySelector("div.text-start p")?.textContent.trim() || "ทีมเยือน";
+          const leagueNode = container.closest("div").querySelector("strong.text-uppercase");
+          const leagueFull = leagueNode ? leagueNode.textContent.trim().replace("|", ":") : "ไม่ระบุลีก";
+          const dateNode = container.closest("div").querySelector("b.fs-4");
+          const thaiDate = dateNode ? dateNode.textContent.trim() : new Date().toLocaleDateString("th-TH");
+
+          const streams = container.querySelectorAll("img.iam-list-tv");
+          streams.forEach(stream => {
+            const channel = stream.getAttribute("alt");
+            let url = stream.getAttribute("data-url");
+            const logo = stream.getAttribute("src");
+            if (!url) return;
+            url = url.replace(":443", "").replace("/dooballfree-com/", "/do-ball.com/");
+
+            result.matches.push({
+              homeTeam, awayTeam, date: thaiDate, time: matchTime,
+              league: leagueFull, channel, logo, url, status: statusText
+            });
+          });
+        });
+
+        // แสดง JSON debug
+        document.getElementById("output").textContent = JSON.stringify(result, null, 2);
+
+        // เติมตาราง
+        const tbody = document.querySelector("#matchesTable tbody");
+        result.matches.forEach(match => {
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+            <td>${match.league}</td>
+            <td>${match.homeTeam}</td>
+            <td>${match.awayTeam}</td>
+            <td>${match.date}</td>
+            <td>${match.time}</td>
+            <td>${match.status}</td>
+            <td>${match.channel}</td>
+            <td><button onclick="playStream('${match.url}')">เล่น</button></td>
+          `;
+          tbody.appendChild(tr);
+        });
+
+      } catch (err) {
+        document.getElementById("output").textContent = "Error: " + err;
+      }
+    }
+
+    function playStream(url) {
+      const video = document.getElementById("videoPlayer");
+      if (Hls.isSupported()) {
+        const hls = new Hls();
+        hls.loadSource(url);
+        hls.attachMedia(video);
+        video.play();
+      } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+        video.src = url;
+        video.play();
+      } else {
+        alert("เบราว์เซอร์นี้ไม่รองรับการเล่นสตรีม .m3u8");
+      }
+    }
+
+    parseMatches();
+  </script>
+</body>
+</html>
