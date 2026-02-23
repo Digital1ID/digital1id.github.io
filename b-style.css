@@ -74,7 +74,7 @@ video {
   margin: 15px auto;
   display: flex;
   gap: 10px;
-  justify-content: flex-end;  /* space-between; ให้ dropdown อยู่ซ้าย, search อยู่ขวา */
+  justify-content: space-between; /* dropdown ซ้าย, search ขวา */
 }
 select {
   padding: 10px;
@@ -84,16 +84,11 @@ select {
   color: #fff;
 }
 
-/*.controls select {
-  flex: 0 0 100px; /* กำหนดความกว้าง dropdown */
-/*}*/
-
 /* Search Box Always Visible */
 .search-box.always {
   display: flex;
   align-items: center;
 }
-
 .search-box.always input {
   width: 220px;
   opacity: 1;
@@ -104,7 +99,6 @@ select {
   color: #fff;
   transition: all 0.3s ease;
 }
-
 .search-box.always input::placeholder {
   color: #aaa;
 }
@@ -129,13 +123,6 @@ th {
   padding: 12px;
   font-weight: bold;
   font-size: 0.9rem;
-}
-tbody tr {
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-tbody tr:hover {
-  background: rgba(229,9,20,0.15);
-  transform: scale(1.01);
 }
 td {
   padding: 12px;
@@ -237,21 +224,22 @@ button:hover {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-  .controls {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  select {
-    width: 100%;
+
+/* ✅ PC (≥1024px) — ตารางปกติ */
+@media (min-width: 1024px) {
+  table, thead, tbody, th, td, tr {
+    display: table;
   }
 }
-@media (max-width: 480px) {
+
+/* ✅ มือถือแนวนอน (481px–1023px) */
+@media (max-width: 1023px) and (min-width: 481px) {
   table, thead, tbody, th, td, tr {
     display: block;
     width: 100%;
   }
   thead { display: none; }
+
   tr {
     margin-bottom: 15px;
     border: 1px solid #333;
@@ -259,17 +247,66 @@ button:hover {
     padding: 10px;
     background: #1c1c1c;
   }
+
   td {
     text-align: left;
     border: none;
     padding: 6px 10px;
     position: relative;
   }
+
   td:before {
     content: attr(data-label);
     font-weight: bold;
     color: #E50914;
     display: block;
     margin-bottom: 4px;
+  }
+}
+
+/* ✅ มือถือแนวตั้ง (≤480px) — ทีมเหย้า vs ทีมเยือน */
+@media (max-width: 480px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%;
+  }
+  thead { display: none; }
+
+  tr {
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    background: #1c1c1c;
+  }
+
+  td[data-label="ทีมเหย้า"],
+  td[data-label="ทีมเยือน"] {
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    padding: 6px 10px;
+    font-weight: bold;
+  }
+
+  td[data-label="ทีมเหย้า"]::after {
+    content: " vs ";
+    color: #E50914;
+    font-weight: bold;
+    margin: 0 6px;
+  }
+
+  td:before {
+    display: none;
+  }
+
+  td[data-label="วันที่"],
+  td[data-label="เวลา"],
+  td[data-label="สถานะ"],
+  td[data-label="ช่อง"],
+  td[data-label="ดูสด"] {
+    display: block;
+    padding: 6px 10px;
+    border: none;
   }
 }
