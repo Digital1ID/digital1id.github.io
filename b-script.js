@@ -96,13 +96,13 @@ function renderAllLeagues() {
     leagueMap[league].forEach(match => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-  <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
-  <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
-  <td data-label="วันที่">${match.date}</td>
-  <td data-label="เวลา">${match.time}</td>
-  <td data-label="สถานะ">${match.status}</td>
-  <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
-  <td data-label="ดูสด"><button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}')">เล่น</button></td>
+        <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
+        <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
+        <td data-label="วันที่">${match.date}</td>
+        <td data-label="เวลา">${match.time}</td>
+        <td data-label="สถานะ">${match.status}</td>
+        <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
+        <td data-label="ดูสด"><button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">เล่น</button></td>
       `;
       tbody.appendChild(tr);
     });
@@ -120,21 +120,21 @@ function renderLeagueMatches(league) {
   tbody.appendChild(leagueRow);
 
   leagueMap[league].forEach(match => {
-const tr = document.createElement("tr");
-tr.innerHTML = `
-  <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
-  <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
-  <td data-label="วันที่">${match.date}</td>
-  <td data-label="เวลา">${match.time}</td>
-  <td data-label="สถานะ">${match.status}</td>
-  <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
-  <td data-label="ดูสด"><button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}')">เล่น</button></td>
-`;
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
+      <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
+      <td data-label="วันที่">${match.date}</td>
+      <td data-label="เวลา">${match.time}</td>
+      <td data-label="สถานะ">${match.status}</td>
+      <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
+      <td data-label="ดูสด"><button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">เล่น</button></td>
+    `;
     tbody.appendChild(tr);
   });
 }
 
-function playStream(url, homeTeam = "", awayTeam = "", league = "") {
+function playStream(url, homeTeam = "", awayTeam = "", league = "", rowElement = null) {
   if (!url) return;
   const playerBox = document.getElementById("playerBox");
   playerBox.style.display = "block";
@@ -159,8 +159,16 @@ function playStream(url, homeTeam = "", awayTeam = "", league = "") {
     alert("เบราว์เซอร์นี้ไม่รองรับการเล่นสตรีม .m3u8");
   }
 
-  // ✅ เลื่อนหน้าไปหาตัวเล่นวิดีโอ
-  playerBox.scrollIntoView({ behavior: "smooth", block: "start" });
+  // ✅ ลบ highlight เดิมออกก่อน
+  document.querySelectorAll("#matchesTable tbody tr").forEach(tr => {
+    tr.classList.remove("active-match");
+  });
+
+  // ✅ ใส่ highlight ให้คู่ที่กดเล่น
+  if (rowElement) {
+    rowElement.classList.add("active-match");
+    rowElement.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
 }
 
 function filterTable() {
