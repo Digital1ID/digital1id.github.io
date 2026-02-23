@@ -7,6 +7,18 @@ let hlsPlayer = null;
 
 
 // ==============================
+// SAVE / LOAD SELECTED LEAGUE
+// ==============================
+function saveSelectedLeague(league) {
+  localStorage.setItem("selectedLeague", league);
+}
+
+function getSavedLeague() {
+  return localStorage.getItem("selectedLeague") || "all";
+}
+
+
+// ==============================
 // FETCH & PARSE MATCHES
 // ==============================
 async function parseMatches() {
@@ -45,8 +57,8 @@ async function parseMatches() {
         ? dateNode.textContent.trim()
         : new Date().toLocaleDateString("th-TH");
 
-      const homeLogo = container.querySelector("div.col-lg-1.col-md-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
-      const awayLogo = container.querySelector("div.col-lg-1.col-md-1.col-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
+      const homeLogo = container.querySelector("div.text-end img")?.src || "";
+      const awayLogo = container.querySelector("div.text-start img")?.src || "";
 
       const scoreNode = container.querySelector("div.col-lg-2 p");
       const scoreText = scoreNode ? scoreNode.textContent.trim() : "-";
@@ -94,7 +106,16 @@ async function parseMatches() {
 
     });
 
-    renderAllLeagues();
+    // โหลดลีกที่เคยเลือกไว้
+    const savedLeague = getSavedLeague();
+
+    if (savedLeague && leagueMap[savedLeague]) {
+      document.getElementById("leagueSelect").value = savedLeague;
+      renderFilteredLeague();
+    } else {
+      document.getElementById("leagueSelect").value = "all";
+      renderAllLeagues();
+    }
 
   } catch (err) {
 
@@ -112,18 +133,9 @@ function formatStatus(statusText) {
 
   const raw = statusText ? statusText.trim().toUpperCase() : "";
 
-  // จบเกม
   if (raw === "FT") return "FT";
-
-  // ถ้าเป็นเวลา เช่น 01:00
-  if (/^\d{1,2}[:.]\d{2}$/.test(raw)) {
-    return raw.replace(".", ":");
-  }
-
-  // ถ้าเป็น LIVE จริง ๆ
+  if (/^\d{1,2}[:.]\d{2}$/.test(raw)) return raw.replace(".", ":");
   if (raw.includes("LIVE")) return "LIVE";
-
-  // ถ้าไม่มีสถานะจริง ๆ
   if (raw === "" || raw === "-") return "ถ่ายทอดสด";
 
   return raw;
@@ -139,7 +151,6 @@ function getStatusClass(status) {
 
   if (s === "LIVE") return "status-live";
   if (s === "FT") return "status-ft";
-
   if (/^\d{1,2}:\d{2}$/.test(s)) return "status-upcoming";
 
   return "status-upcoming";
@@ -162,30 +173,71 @@ function renderAllLeagues() {
     tbody.appendChild(leagueRow);
 
     leagueMap[league].forEach(match => {
-
-      const tr = document.createElement("tr");
-
-      const displayStatus = formatStatus(match.status);
-      const statusClass = getStatusClass(displayStatus);
-
-tr.innerHTML = `
-  <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
-  <td data-label="สกอร์">${match.score !== "-" ? match.score : "VS"}</td>
-  <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
-  <td data-label="วันที่ / เวลา">${match.date}</td>
-  <td data-label="สถานะ"><span class="status ${statusClass}">${displayStatus}</span></td>
-  <td data-label="ช่อง"><img src="${match.logo}" class="logo"> ${match.channel}</td>
-  <td data-label="ดูสด">
-    <button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
-      ▶️ เล่น
-    </button>
-  </td>
-`;
-
-      tbody.appendChild(tr);
+      appendMatchRow(tbody, match, league);
     });
 
   });
+}
+
+
+// ==============================
+// RENDER FILTERED
+// ==============================
+function renderFilteredLeague() {
+
+  const selectedLeague = document.getElementById("leagueSelect").value;
+  const tbody = document.querySelector("#matchesTable tbody");
+
+  tbody.innerHTML = "";
+
+  saveSelectedLeague(selectedLeague);
+
+  if (selectedLeague === "all") {
+    renderAllLeagues();
+    return;
+  }
+
+  if (!leagueMap[selectedLeague]) {
+    renderAllLeagues();
+    return;
+  }
+
+  const leagueRow = document.createElement("tr");
+  leagueRow.classList.add("league-header");
+  leagueRow.innerHTML = `<td colspan="7">${selectedLeague}</td>`;
+  tbody.appendChild(leagueRow);
+
+  leagueMap[selectedLeague].forEach(match => {
+    appendMatchRow(tbody, match, selectedLeague);
+  });
+}
+
+
+// ==============================
+// APPEND ROW (REUSE)
+// ==============================
+function appendMatchRow(tbody, match, league) {
+
+  const tr = document.createElement("tr");
+
+  const displayStatus = formatStatus(match.status);
+  const statusClass = getStatusClass(displayStatus);
+
+  tr.innerHTML = `
+    <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
+    <td data-label="สกอร์">${match.score !== "-" ? match.score : "VS"}</td>
+    <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
+    <td data-label="วันที่ / เวลา">${match.date}</td>
+    <td data-label="สถานะ"><span class="status ${statusClass}">${displayStatus}</span></td>
+    <td data-label="ช่อง"><img src="${match.logo}" class="logo"> ${match.channel}</td>
+    <td data-label="ดูสด">
+      <button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
+        ▶️ เล่น
+      </button>
+    </td>
+  `;
+
+  tbody.appendChild(tr);
 }
 
 
@@ -217,8 +269,6 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
   } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
     video.src = url;
     video.play();
-  } else {
-    alert("ไม่รองรับการเล่น .m3u8");
   }
 
   document.querySelectorAll("#matchesTable tbody tr")
@@ -271,6 +321,9 @@ function startAutoRefresh() {
 document.addEventListener("DOMContentLoaded", async () => {
 
   document.getElementById("playerBox").classList.remove("active");
+
+  document.getElementById("leagueSelect")
+    .addEventListener("change", renderFilteredLeague);
 
   await parseMatches();
   startAutoRefresh();
