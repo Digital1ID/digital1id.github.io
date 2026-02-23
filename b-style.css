@@ -109,10 +109,14 @@ button:hover {
 }
 
 img.logo {
-  height: 28px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;   /* ✅ ทำให้เป็นวงกลม */
+  object-fit: cover;    /* ✅ ครอบภาพให้พอดี */
   vertical-align: middle;
   margin-right: 6px;
-  border-radius: 4px;
+  border: 2px solid #e50914; /* ✅ ขอบแดง Netflix */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
 }
 
 .league-header {
