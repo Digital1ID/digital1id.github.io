@@ -181,8 +181,10 @@ function playStream(url, homeTeam = "", awayTeam = "", league = "", rowElement =
   // ✅ ใส่ highlight ให้คู่ที่กดเล่น
   if (rowElement) {
     rowElement.classList.add("active-match", "animate-fadeIn");
-    rowElement.scrollIntoView({ behavior: "smooth", block: "center" });
   }
+
+  // ✅ เลื่อนมาที่ playerBox
+  playerBox.scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
 function filterTable() {
