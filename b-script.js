@@ -57,8 +57,17 @@ async function parseMatches() {
         ? dateNode.textContent.trim()
         : new Date().toLocaleDateString("th-TH");
 
-      const homeLogo = container.querySelector("div.text-end img")?.src || "";
-      const awayLogo = container.querySelector("div.text-start img")?.src || "";
+const homeLogo =
+  container.querySelector("div.text-end img")?.src ||
+  container.querySelector("img[alt*='home']")?.src ||
+  container.querySelectorAll("img")[0]?.src ||
+  "";
+
+const awayLogo =
+  container.querySelector("div.text-start img")?.src ||
+  container.querySelector("img[alt*='away']")?.src ||
+  container.querySelectorAll("img")[1]?.src ||
+  "";
 
       const scoreNode = container.querySelector("div.col-lg-2 p");
       const scoreText = scoreNode ? scoreNode.textContent.trim() : "-";
