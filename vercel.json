@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.htm",
+      "src": "tvball.html",
       "use": "@vercel/static"
     },
     {
@@ -17,7 +17,8 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/index.htm"
+      "dest": "/tvball.html"
     }
   ]
 }
+
