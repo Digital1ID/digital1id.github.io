@@ -65,15 +65,48 @@ async function parseMatches() {
       });
     });
 
+    // ✅ แสดงทุกลีกทันที
+    renderAllLeagues();
+
+    // ✅ เมื่อเลือกลีก
     leagueSelect.addEventListener("change", function() {
       const selectedLeague = this.value;
-      renderLeagueMatches(selectedLeague);
+      if (selectedLeague === "all") {
+        renderAllLeagues();
+      } else {
+        renderLeagueMatches(selectedLeague);
+      }
     });
 
   } catch (err) {
     document.querySelector("#matchesTable tbody").innerHTML =
       `<tr><td colspan="8">ไม่สามารถโหลดข้อมูลการแข่งขัน</td></tr>`;
   }
+}
+
+function renderAllLeagues() {
+  const tbody = document.querySelector("#matchesTable tbody");
+  tbody.innerHTML = "";
+
+  Object.keys(leagueMap).forEach(league => {
+    const leagueRow = document.createElement("tr");
+    leagueRow.innerHTML = `<td colspan="8" class="league-header">${league}</td>`;
+    tbody.appendChild(leagueRow);
+
+    leagueMap[league].forEach(match => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
+        <td><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
+        <td>${match.date}</td>
+        <td>${match.time}</td>
+        <td>${match.status}</td>
+        <td><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
+        <td><button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}')">เล่น</button></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  });
 }
 
 function renderLeagueMatches(league) {
