@@ -316,3 +316,14 @@ button:active {
     margin-bottom: 4px;
   }
 }
+
+.live-row {
+  background: rgba(229, 9, 20, 0.1);
+  animation: pulseLive 1.5s infinite;
+}
+
+@keyframes pulseLive {
+  0% { background: rgba(229, 9, 20, 0.05); }
+  50% { background: rgba(229, 9, 20, 0.15); }
+  100% { background: rgba(229, 9, 20, 0.05); }
+}
