@@ -124,39 +124,51 @@ select {
 table {
   width: 95%;
   margin: 20px auto;
-  border-collapse: collapse;
-  background: #1f2937; /* gray-800 */
-  border-radius: 8px;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #1c1c1c;
+  border-radius: 10px;
   overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
 }
-th {
+
+thead tr {
   background: #E50914;
+}
+
+th {
   color: #fff;
   text-transform: uppercase;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
+
+tbody tr {
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+tbody tr:hover {
+  background: rgba(229,9,20,0.15);
+  transform: scale(1.01);
+}
+
 td {
   padding: 12px;
   text-align: center;
   border-bottom: 1px solid #333;
+  font-size: 0.95rem;
 }
 
 /* League Header */
-.league-header {
+.league-header td {
   background: #333;
   color: #E50914;
   font-weight: bold;
   text-align: center;
-  padding: 8px;
+  padding: 10px;
   font-size: 1.1rem;
-}
-
-/* Logo */
-.logo {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-  margin-right: 6px;
-  vertical-align: middle;
+  letter-spacing: 1px;
 }
 
 /* ปุ่มเล่น */
