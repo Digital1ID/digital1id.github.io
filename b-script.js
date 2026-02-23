@@ -164,9 +164,9 @@ function playStream(url, homeTeam = "", awayTeam = "", league = "", rowElement =
 
   const title = document.querySelector("#playerBox h2");
   if (homeTeam && awayTeam && league) {
-    title.textContent = `🎬 ${league} | ${homeTeam} vs ${awayTeam}`;
+    title.textContent = `⚽ ${league} | ${homeTeam} vs ${awayTeam}`;
   } else {
-    title.textContent = "🎬 ตัวเล่นวิดีโอ";
+    title.textContent = "⚽ ตัวเล่นวิดีโอ";
   }
 
   const video = document.getElementById("videoPlayer");
