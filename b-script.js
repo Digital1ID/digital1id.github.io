@@ -114,6 +114,18 @@ function forceLiveStatus(matchDate, matchTime, statusText) {
   return statusText || "UPCOMING";
 }
 
+// ✅ ฟังก์ชันตรวจสอบสถานะ
+function getStatusClass(status) {
+  const statusUpper = status.toUpperCase();
+  if (statusUpper.includes("LIVE") || statusUpper.includes("+") || statusUpper === "HT") {
+    return "status-live";
+  } else if (statusUpper === "FT") {
+    return "status-ft";
+  } else {
+    return "status-upcoming";
+  }
+}
+
 function renderAllLeagues() {
   const tbody = document.querySelector("#matchesTable tbody");
   tbody.innerHTML = "";
