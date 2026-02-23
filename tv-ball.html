@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>⚽ ตารางแข่งขันฟุตบอลสด</title>
-  <link rel="stylesheet" href="b-style.css">
+  <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 <body>
@@ -11,13 +11,13 @@
 
   <div class="player" id="playerBox">
     <h2>🎬 ตัวเล่นวิดีโอ</h2>
-    <video id="videoPlayer" controls></video><br>
-    <select id="channelSelect" onchange="playStream(this.value)">
-      <option value="">-- เลือกช่องถ่ายทอดสด --</option>
-    </select>
+    <video id="videoPlayer" controls></video>
   </div>
 
-  <div class="search-bar">
+  <div class="controls">
+    <select id="leagueSelect">
+      <option value="">-- เลือกลีก --</option>
+    </select>
     <input type="text" id="searchInput" placeholder="🔍 ค้นหาทีม/ลีก..." onkeyup="filterTable()">
   </div>
 
@@ -37,6 +37,6 @@
     <tbody></tbody>
   </table>
 
-  <script src="b-script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
