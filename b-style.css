@@ -351,18 +351,12 @@ tbody tr {
   .logo {
   width: 56px;
   height: 56px;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   object-fit: contain;
   border-radius: 50%;
   background: #fff;
   padding: 3px;
-}
-
-.team-cell {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
 }
 
 }
