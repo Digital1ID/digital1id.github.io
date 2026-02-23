@@ -136,7 +136,8 @@ tr.innerHTML = `
 
 function playStream(url, homeTeam = "", awayTeam = "", league = "") {
   if (!url) return;
-  document.getElementById("playerBox").style.display = "block";
+  const playerBox = document.getElementById("playerBox");
+  playerBox.style.display = "block";
 
   const title = document.querySelector("#playerBox h2");
   if (homeTeam && awayTeam && league) {
@@ -157,6 +158,9 @@ function playStream(url, homeTeam = "", awayTeam = "", league = "") {
   } else {
     alert("เบราว์เซอร์นี้ไม่รองรับการเล่นสตรีม .m3u8");
   }
+
+  // ✅ เลื่อนหน้าไปหาตัวเล่นวิดีโอ
+  playerBox.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function filterTable() {
