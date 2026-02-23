@@ -19,6 +19,24 @@ function getSavedLeague() {
 
 
 // ==============================
+// STATUS FILTER
+// ==============================
+function filterByStatus(statusFilter, matchStatus) {
+
+  if (statusFilter === "all") return true;
+
+  const status = matchStatus.toUpperCase();
+
+  if (statusFilter === "LIVE") return status === "LIVE";
+  if (statusFilter === "FT") return status === "FT";
+  if (statusFilter === "UPCOMING")
+    return status !== "LIVE" && status !== "FT";
+
+  return true;
+}
+
+
+// ==============================
 // FETCH & PARSE MATCHES
 // ==============================
 async function parseMatches() {
@@ -33,7 +51,6 @@ async function parseMatches() {
     const containers = doc.querySelectorAll("div.row.gy-3");
     const leagueSelect = document.getElementById("leagueSelect");
 
-    // ล้างข้อมูลเก่า
     Object.keys(leagueMap).forEach(key => delete leagueMap[key]);
 
     containers.forEach(container => {
@@ -57,17 +74,9 @@ async function parseMatches() {
         ? dateNode.textContent.trim()
         : new Date().toLocaleDateString("th-TH");
 
-const homeLogo =
-  container.querySelector("div.text-end img")?.src ||
-  container.querySelector("img[alt*='home']")?.src ||
-  container.querySelectorAll("img")[0]?.src ||
-  "";
-
-const awayLogo =
-  container.querySelector("div.text-start img")?.src ||
-  container.querySelector("img[alt*='away']")?.src ||
-  container.querySelectorAll("img")[1]?.src ||
-  "";
+      const images = container.querySelectorAll("img");
+      const homeLogo = images[0]?.src || "";
+      const awayLogo = images[1]?.src || "";
 
       const scoreNode = container.querySelector("div.col-lg-2 p");
       const scoreText = scoreNode ? scoreNode.textContent.trim() : "-";
@@ -115,7 +124,6 @@ const awayLogo =
 
     });
 
-    // โหลดลีกที่เคยเลือกไว้
     const savedLeague = getSavedLeague();
 
     if (savedLeague && leagueMap[savedLeague]) {
@@ -198,7 +206,6 @@ function renderFilteredLeague() {
   const tbody = document.querySelector("#matchesTable tbody");
 
   tbody.innerHTML = "";
-
   saveSelectedLeague(selectedLeague);
 
   if (selectedLeague === "all") {
@@ -223,14 +230,17 @@ function renderFilteredLeague() {
 
 
 // ==============================
-// APPEND ROW (REUSE)
+// APPEND MATCH ROW
 // ==============================
 function appendMatchRow(tbody, match, league) {
 
-  const tr = document.createElement("tr");
-
+  const statusFilter = document.getElementById("statusSelect")?.value || "all";
   const displayStatus = formatStatus(match.status);
+
+  if (!filterByStatus(statusFilter, displayStatus)) return;
+
   const statusClass = getStatusClass(displayStatus);
+  const tr = document.createElement("tr");
 
   tr.innerHTML = `
     <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
@@ -333,6 +343,19 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   document.getElementById("leagueSelect")
     .addEventListener("change", renderFilteredLeague);
+
+  document.getElementById("statusSelect")
+    .addEventListener("change", () => {
+
+      const selectedLeague = document.getElementById("leagueSelect").value;
+
+      if (selectedLeague === "all") {
+        renderAllLeagues();
+      } else {
+        renderFilteredLeague();
+      }
+
+    });
 
   await parseMatches();
   startAutoRefresh();
