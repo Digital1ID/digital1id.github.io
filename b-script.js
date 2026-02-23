@@ -12,9 +12,8 @@ async function parseMatches() {
     const leagueSelect = document.getElementById("leagueSelect");
 
     containers.forEach(container => {
-      const statusNode = container.querySelector("div.col-lg-1 div");
-      const statusText = statusNode ? statusNode.textContent.trim() : "";
-      if (statusText.toUpperCase() === "FT") return;
+      const statusNode = container.querySelector("div.col-lg-1 div, div.col-lg-1 span");
+      const statusText = statusNode ? statusNode.textContent.trim() : "-";
 
       const matchTime = statusText.replace(/(\d{1,2}):(\d{2})/, "$1.$2");
       const homeTeam = container.querySelector("div.text-end p")?.textContent.trim() || "ทีมเหย้า";
@@ -28,6 +27,9 @@ async function parseMatches() {
 
       const homeLogo = container.querySelector("div.col-lg-1.col-md-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
       const awayLogo = container.querySelector("div.col-lg-1.col-md-1.col-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
+
+      const scoreNode = container.querySelector("div.col-lg-2 p");
+      const scoreText = scoreNode ? scoreNode.textContent.trim() : "-";
 
       const streams = container.querySelectorAll("img.iam-list-tv");
       const seenChannels = new Set();
@@ -58,6 +60,7 @@ async function parseMatches() {
           date: thaiDate,
           time: matchTime,
           status: statusText,
+          score: scoreText,
           channel,
           logo,
           url
@@ -78,7 +81,7 @@ async function parseMatches() {
 
   } catch (err) {
     document.querySelector("#matchesTable tbody").innerHTML =
-      `<tr><td colspan="8">ไม่สามารถโหลดข้อมูลการแข่งขัน</td></tr>`;
+      `<tr><td colspan="9">ไม่สามารถโหลดข้อมูลการแข่งขัน</td></tr>`;
   }
 }
 
@@ -86,12 +89,14 @@ async function parseMatches() {
 function forceLiveStatus(matchDate, matchTime, statusText) {
   if (statusText.toUpperCase() === "FT") return "FT";
 
-  // ถ้า API ส่ง "-" หรือว่างเปล่า → ใช้เวลา default
   if (!matchTime || matchTime === "-") {
-    matchTime = "20.00"; // กำหนดเวลา default
+    matchTime = "20.00"; // เวลา default
   }
 
-  // แปลงวันที่ พ.ศ. → ค.ศ.
+  if (!statusText || statusText === "-") {
+    statusText = "UPCOMING";
+  }
+
   const [day, month, year] = matchDate.split("/");
   const gregorianYear = parseInt(year) - 543;
   const [hour, minute] = matchTime.split(".");
@@ -99,10 +104,10 @@ function forceLiveStatus(matchDate, matchTime, statusText) {
 
   const now = new Date();
 
-  if (now >= matchDateTime) {
+  if (now >= matchDateTime && statusText !== "FT") {
     return "LIVE";
   }
-  return statusText && statusText !== "-" ? statusText : "UPCOMING";
+  return statusText;
 }
 
 // ✅ ฟังก์ชันตรวจสอบสถานะ
@@ -130,7 +135,7 @@ function renderAllLeagues() {
   Object.keys(leagueMap).forEach(league => {
     const leagueRow = document.createElement("tr");
     leagueRow.classList.add("league-header", "animate-fadeIn");
-    leagueRow.innerHTML = `<td colspan="8">${league}</td>`;
+    leagueRow.innerHTML = `<td colspan="9">${league}</td>`;
     tbody.appendChild(leagueRow);
 
     leagueMap[league].forEach(match => {
@@ -139,11 +144,13 @@ function renderAllLeagues() {
 
       const forcedStatus = forceLiveStatus(match.date, match.time, match.status);
       const statusClass = getStatusClass(forcedStatus);
+      const displayTime = (match.time && match.time !== "-") ? match.time : "ไม่ระบุเวลา";
 
       tr.innerHTML = `
         <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
+        <td class="vs-cell">${match.score !== "-" ? match.score : "VS"}</td>
         <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
-        <td data-label="วันที่ / เวลา">${match.date} / ${match.time}</td>
+        <td data-label="วันที่ / เวลา">${match.date} / ${displayTime}</td>
         <td data-label="สถานะ"><span class="status ${statusClass}">${forcedStatus}</span></td>
         <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
         <td data-label="ดูสด">
@@ -165,7 +172,7 @@ function renderLeagueMatches(league) {
 
   const leagueRow = document.createElement("tr");
   leagueRow.classList.add("league-header", "animate-fadeIn");
-  leagueRow.innerHTML = `<td colspan="8">${league}</td>`;
+  leagueRow.innerHTML = `<td colspan="9">${league}</td>`;
   tbody.appendChild(leagueRow);
 
   leagueMap[league].forEach(match => {
@@ -174,11 +181,13 @@ function renderLeagueMatches(league) {
 
     const forcedStatus = forceLiveStatus(match.date, match.time, match.status);
     const statusClass = getStatusClass(forcedStatus);
+    const displayTime = (match.time && match.time !== "-") ? match.time : "ไม่ระบุเวลา";
 
     tr.innerHTML = `
       <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
+      <td class="vs-cell">${match.score !== "-" ? match.score : "VS"}</td>
       <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
-      <td data-label="วันที่ / เวลา">${match.date} / ${match.time}</td>
+      <td data-label="วันที่ / เวลา">${match.date} / ${displayTime}</td>
       <td data-label="สถานะ"><span class="status ${statusClass}">${forcedStatus}</span></td>
       <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
       <td data-label="ดูสด">
