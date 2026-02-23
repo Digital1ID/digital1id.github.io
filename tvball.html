@@ -39,25 +39,31 @@
 
   <script>
     async function loadMatches() {
-      // เรียก API JSON ที่คุณ deploy ไว้ (แก้ URL ให้ตรงกับของคุณ)
-      const res = await fetch('/api/matches.php');
+      // ดึง JSON โดยตรงจาก API ภายนอก
+      const res = await fetch('https://api-soccer.thai-play.com/api/v4/iptv/livescore/now?token=JF6pHMnpVCRUeEsSqAAjTWA4GbGhMrpD');
       const data = await res.json();
+
       const tbody = document.querySelector('#matchesTable tbody');
 
-      data.matches.forEach((match) => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td>${match.league}</td>
-          <td>${match.homeTeam}</td>
-          <td>${match.awayTeam}</td>
-          <td>${match.date}</td>
-          <td>${match.time}</td>
-          <td>${match.status}</td>
-          <td>${match.channel}</td>
-          <td><button onclick="playStream('${match.url}')">เล่น</button></td>
-        `;
-        tbody.appendChild(tr);
-      });
+      // สมมติว่า API คืนค่าเป็น matches[]
+      if (data.matches) {
+        data.matches.forEach((match) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${match.league}</td>
+            <td>${match.homeTeam}</td>
+            <td>${match.awayTeam}</td>
+            <td>${match.date}</td>
+            <td>${match.time}</td>
+            <td>${match.status}</td>
+            <td>${match.channel}</td>
+            <td><button onclick="playStream('${match.url}')">เล่น</button></td>
+          `;
+          tbody.appendChild(tr);
+        });
+      } else {
+        tbody.innerHTML = `<tr><td colspan="8">ไม่มีข้อมูลการแข่งขัน</td></tr>`;
+      }
     }
 
     function playStream(url) {
