@@ -65,10 +65,8 @@ async function parseMatches() {
       });
     });
 
-    // ✅ แสดงทุกลีกทันที
     renderAllLeagues();
 
-    // ✅ เมื่อเลือกลีก
     leagueSelect.addEventListener("change", function() {
       const selectedLeague = this.value;
       if (selectedLeague === "all") {
@@ -81,6 +79,24 @@ async function parseMatches() {
   } catch (err) {
     document.querySelector("#matchesTable tbody").innerHTML =
       `<tr><td colspan="8">ไม่สามารถโหลดข้อมูลการแข่งขัน</td></tr>`;
+  }
+}
+
+// ✅ ฟังก์ชันตรวจสอบสถานะให้ครอบคลุม
+function getStatusClass(status) {
+  const statusUpper = status.toUpperCase();
+  if (
+    statusUpper.includes("LIVE") ||
+    statusUpper.includes("+") ||
+    statusUpper === "HT" ||
+    /^\d{1,2}:\d{2}$/.test(status) ||
+    statusUpper.includes("กำลังแข่ง")
+  ) {
+    return "status-live";
+  } else if (statusUpper === "FT") {
+    return "status-ft";
+  } else {
+    return "status-upcoming";
   }
 }
 
@@ -98,10 +114,7 @@ function renderAllLeagues() {
       const tr = document.createElement("tr");
       tr.classList.add("animate-fadeIn");
 
-      // ✅ กำหนด class สถานะ
-      let statusClass = "status-upcoming";
-      if (match.status.toUpperCase() === "LIVE") statusClass = "status-live";
-      else if (match.status.toUpperCase() === "FT") statusClass = "status-ft";
+      const statusClass = getStatusClass(match.status);
 
       tr.innerHTML = `
         <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
@@ -135,9 +148,7 @@ function renderLeagueMatches(league) {
     const tr = document.createElement("tr");
     tr.classList.add("animate-fadeIn");
 
-    let statusClass = "status-upcoming";
-    if (match.status.toUpperCase() === "LIVE") statusClass = "status-live";
-    else if (match.status.toUpperCase() === "FT") statusClass = "status-ft";
+    const statusClass = getStatusClass(match.status);
 
     tr.innerHTML = `
       <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
@@ -158,7 +169,7 @@ function renderLeagueMatches(league) {
 function playStream(url, homeTeam = "", awayTeam = "", league = "", rowElement = null) {
   if (!url) return;
   const playerBox = document.getElementById("playerBox");
-  playerBox.classList.add("active"); // ✅ ใช้ class active เพื่อแสดง Player
+  playerBox.classList.add("active");
 
   const title = document.querySelector("#playerBox h2");
   if (homeTeam && awayTeam && league) {
@@ -180,17 +191,14 @@ function playStream(url, homeTeam = "", awayTeam = "", league = "", rowElement =
     alert("เบราว์เซอร์นี้ไม่รองรับการเล่นสตรีม .m3u8");
   }
 
-  // ✅ ลบ highlight เดิมออกก่อน
   document.querySelectorAll("#matchesTable tbody tr").forEach(tr => {
     tr.classList.remove("active-match");
   });
 
-  // ✅ ใส่ highlight ให้คู่ที่กดเล่น
   if (rowElement) {
     rowElement.classList.add("active-match", "animate-fadeIn");
   }
 
-  // ✅ เลื่อนมาที่ playerBox และโฟกัส videoPlayer
   playerBox.scrollIntoView({ behavior: "smooth", block: "center" });
   video.focus();
 }
@@ -216,5 +224,5 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-// ✅ เริ่มโหลดข้อมูลเมื่อเปิดหน้า
+// ✅ เริ่มโหลดข้อมูลเมื่อเปิด
 parseMatches();
