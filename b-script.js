@@ -124,7 +124,7 @@ function formatStatus(statusText) {
   if (raw.includes("LIVE")) return "LIVE";
 
   // ถ้าไม่มีสถานะจริง ๆ
-  if (raw === "" || raw === "-") return "-";
+  if (raw === "" || raw === "-") return "ถ่ายทอดสด";
 
   return raw;
 }
