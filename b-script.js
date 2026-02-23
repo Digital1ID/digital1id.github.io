@@ -97,16 +97,21 @@ function renderAllLeagues() {
     leagueMap[league].forEach(match => {
       const tr = document.createElement("tr");
       tr.classList.add("animate-fadeIn");
+
+      // ✅ กำหนด class สถานะ
+      let statusClass = "status-upcoming";
+      if (match.status.toUpperCase() === "LIVE") statusClass = "status-live";
+      else if (match.status.toUpperCase() === "FT") statusClass = "status-ft";
+
       tr.innerHTML = `
         <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
         <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
         <td data-label="วันที่">${match.date}</td>
         <td data-label="เวลา">${match.time}</td>
-        <td data-label="สถานะ">${match.status}</td>
+        <td data-label="สถานะ"><span class="status ${statusClass}">${match.status}</span></td>
         <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
         <td data-label="ดูสด">
-          <button class="px-3 py-1 bg-[#E50914] text-white rounded hover:bg-red-700 transition"
-                  onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
+          <button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
             ▶️ เล่น
           </button>
         </td>
@@ -130,16 +135,20 @@ function renderLeagueMatches(league) {
   leagueMap[league].forEach(match => {
     const tr = document.createElement("tr");
     tr.classList.add("animate-fadeIn");
+
+    let statusClass = "status-upcoming";
+    if (match.status.toUpperCase() === "LIVE") statusClass = "status-live";
+    else if (match.status.toUpperCase() === "FT") statusClass = "status-ft";
+
     tr.innerHTML = `
       <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
       <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
       <td data-label="วันที่">${match.date}</td>
       <td data-label="เวลา">${match.time}</td>
-      <td data-label="สถานะ">${match.status}</td>
+      <td data-label="สถานะ"><span class="status ${statusClass}">${match.status}</span></td>
       <td data-label="ช่อง"><img src="${match.logo}" class="logo" alt="${match.channel}"> ${match.channel}</td>
       <td data-label="ดูสด">
-        <button class="px-3 py-1 bg-[#E50914] text-white rounded hover:bg-red-700 transition"
-                onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
+        <button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
           ▶️ เล่น
         </button>
       </td>
@@ -148,18 +157,10 @@ function renderLeagueMatches(league) {
   });
 }
 
-// ✅ ซ่อน Player ตอนโหลดหน้า
-document.addEventListener("DOMContentLoaded", () => {
-  const playerBox = document.getElementById("playerBox");
-  if (playerBox) {
-    playerBox.style.display = "none";
-  }
-});
-
 function playStream(url, homeTeam = "", awayTeam = "", league = "", rowElement = null) {
   if (!url) return;
   const playerBox = document.getElementById("playerBox");
-  playerBox.style.display = "block"; // ✅ แสดงเมื่อกดเล่น
+  playerBox.classList.add("active"); // ✅ ใช้ class active เพื่อแสดง Player
 
   const title = document.querySelector("#playerBox h2");
   if (homeTeam && awayTeam && league) {
@@ -208,6 +209,14 @@ function filterTable() {
     row.style.display = text.includes(input) ? "" : "none";
   });
 }
+
+// ✅ ซ่อน Player ตอนโหลดหน้า
+document.addEventListener("DOMContentLoaded", () => {
+  const playerBox = document.getElementById("playerBox");
+  if (playerBox) {
+    playerBox.classList.remove("active");
+  }
+});
 
 // ✅ เริ่มโหลดข้อมูลเมื่อเปิดหน้า
 parseMatches();
