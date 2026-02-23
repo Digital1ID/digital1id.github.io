@@ -256,16 +256,36 @@ function appendMatchRow(tbody, match, league) {
   const tr = document.createElement("tr");
 
   tr.innerHTML = `
-    <td data-label="ทีมเหย้า"><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
-    <td data-label="สกอร์">${match.score !== "-" ? match.score : "VS"}</td>
-    <td data-label="ทีมเยือน"><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
-    <td data-label="วันที่ / เวลา">${match.date}</td>
-    <td data-label="สถานะ"><span class="status ${statusClass}">${displayStatus}</span></td>
-    <td data-label="ช่อง"><img src="${match.logo}" class="logo"> ${match.channel}</td>
-    <td data-label="ดูสด">
-      <button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
-        ▶️ เล่น
-      </button>
+    <td data-label="ทีมเหย้า">
+      <img src="${match.homeLogo}" class="logo"> ${match.homeTeam}
+    </td>
+
+    <td data-label="สกอร์">
+      ${match.score !== "-" ? match.score : "VS"}
+    </td>
+
+    <td data-label="ทีมเยือน">
+      <img src="${match.awayLogo}" class="logo"> ${match.awayTeam}
+    </td>
+
+    <td data-label="วันที่ / เวลา">
+      ${match.date}
+    </td>
+
+    <td data-label="สถานะ">
+      <span class="status ${statusClass}">
+        ${displayStatus}
+      </span>
+    </td>
+
+    <td data-label="ช่อง"
+        class="channel-cell"
+        style="cursor:pointer"
+        onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
+
+      <img src="${match.logo}" class="logo">
+      ${match.channel}
+
     </td>
   `;
 
