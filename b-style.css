@@ -339,6 +339,16 @@ tbody tr {
     padding: 6px 10px;
     position: relative;
   }
+  
+  td, .logo {
+  width: 56px;
+  height: 56px;
+  text-align: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+}
 
   td:before {
     content: attr(data-label);
