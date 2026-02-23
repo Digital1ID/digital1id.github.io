@@ -121,7 +121,7 @@ select:focus,
 
 table {
   width: 95%;
-  min-width: 768px;
+  min-width: 668px;
   margin: 30px auto;
   border-collapse: collapse;
   background: linear-gradient(180deg, #1c1c1c, #161616);
