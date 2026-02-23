@@ -334,9 +334,17 @@ tbody tr {
   }
 
   td {
-    text-align: center;
+    text-align: left;
     border: none;
     padding: 6px 10px;
     position: relative;
+  }
+
+  td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #E50914;
+    display: block;
+    margin-bottom: 4px;
   }
 }
