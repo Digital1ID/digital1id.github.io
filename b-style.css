@@ -119,26 +119,17 @@ select:focus,
 /* ============================= */
 
 table {
-  width: 100%;
+  width: 95%;
+  min-width: 900px;
   margin: 30px auto;
   border-collapse: collapse;
   table-layout: fixed;
   background: linear-gradient(180deg, #1c1c1c, #161616);
   border-radius: 14px;
+  overflow: hidden;
   box-shadow:
     0 0 0 1px rgba(255,255,255,0.03),
     0 15px 35px rgba(0,0,0,0.7);
-}
-
-.table-wrapper {
-  width: 100%;
-  overflow-x: auto;
-}
-
-@media (min-width: 1200px) {
-  table {
-    max-width: 1200px;
-  }
 }
 
 /* HEADER */
@@ -323,7 +314,7 @@ tbody tr {
   table, thead, tbody, th, td, tr {
     display: block;
     width: 100%;
-    max-width: 100%;
+    min-width: 100%;
   }
 
   thead { display: none; }
