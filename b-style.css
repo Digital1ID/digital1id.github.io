@@ -121,3 +121,49 @@ img.logo {
     width: 100%;
   }
 }
+
+/* สำหรับจอเล็กมาก ๆ เช่นมือถือ <480px */
+@media (max-width: 480px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%;
+  }
+
+  thead {
+    display: none; /* ซ่อนหัวตาราง */
+  }
+
+  tr {
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    background: #1c1c1c;
+  }
+
+  td {
+    text-align: left;
+    border: none;
+    padding: 6px 10px;
+    position: relative;
+  }
+
+  td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: var(--primary);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  img.logo {
+    height: 30px;
+    width: 30px;
+    margin-right: 4px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
