@@ -4,6 +4,7 @@
 const leagueMap = {};
 let autoRefreshInterval = null;
 let hlsPlayer = null;
+let hideFinished = false;
 
 
 // ==============================
@@ -21,7 +22,8 @@ async function parseMatches() {
     const containers = doc.querySelectorAll("div.row.gy-3");
     const leagueSelect = document.getElementById("leagueSelect");
 
-    // ล้างข้อมูลเก่า
+    const selectedLeague = leagueSelect.value;
+
     Object.keys(leagueMap).forEach(key => delete leagueMap[key]);
 
     containers.forEach(container => {
@@ -45,8 +47,8 @@ async function parseMatches() {
         ? dateNode.textContent.trim()
         : new Date().toLocaleDateString("th-TH");
 
-      const homeLogo = container.querySelector("div.col-lg-1.col-md-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
-      const awayLogo = container.querySelector("div.col-lg-1.col-md-1.col-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
+      const homeLogo = container.querySelector("img")?.src || "";
+      const awayLogo = container.querySelectorAll("img")[1]?.src || "";
 
       const scoreNode = container.querySelector("div.col-lg-2 p");
       const scoreText = scoreNode ? scoreNode.textContent.trim() : "-";
@@ -94,13 +96,11 @@ async function parseMatches() {
 
     });
 
-    renderAllLeagues();
+    renderAllLeagues(selectedLeague);
 
   } catch (err) {
-
     document.querySelector("#matchesTable tbody").innerHTML =
-      `<tr><td colspan="7">ไม่สามารถโหลดข้อมูลการแข่งขัน</td></tr>`;
-
+      `<tr><td colspan="7">โหลดข้อมูลไม่สำเร็จ</td></tr>`;
   }
 }
 
@@ -113,61 +113,55 @@ function formatStatus(statusText) {
   const raw = statusText ? statusText.trim().toUpperCase() : "-";
 
   if (raw === "FT") return "FT";
-
   if (raw === "-" || raw === "") return "LIVE";
-
-  if (/^\d{1,2}[:.]\d{2}$/.test(raw)) {
-    return raw.replace(".", ":");
-  }
+  if (/^\d{1,2}[:.]\d{2}$/.test(raw)) return raw.replace(".", ":");
 
   return raw;
 }
 
 
 // ==============================
-// STATUS CLASS
+// RENDER
 // ==============================
-function getStatusClass(status) {
-
-  const s = status.toUpperCase();
-
-  if (s === "LIVE") return "status-live";
-  if (s === "FT") return "status-ft";
-
-  if (/^\d{1,2}:\d{2}$/.test(s)) return "status-upcoming";
-
-  return "status-upcoming";
-}
-
-
-// ==============================
-// RENDER ALL
-// ==============================
-function renderAllLeagues() {
+function renderAllLeagues(filterLeague = "all") {
 
   const tbody = document.querySelector("#matchesTable tbody");
   tbody.innerHTML = "";
 
   Object.keys(leagueMap).forEach(league => {
 
+    if (filterLeague !== "all" && league !== filterLeague) return;
+
     const leagueRow = document.createElement("tr");
-    leagueRow.classList.add("league-header");
+    leagueRow.className = "league-header";
     leagueRow.innerHTML = `<td colspan="7">${league}</td>`;
     tbody.appendChild(leagueRow);
 
-    leagueMap[league].forEach(match => {
+    // 🔥 เรียง LIVE ก่อน
+    const sortedMatches = leagueMap[league].sort((a, b) => {
+      const aLive = formatStatus(a.status) === "LIVE" ? 0 : 1;
+      const bLive = formatStatus(b.status) === "LIVE" ? 0 : 1;
+      return aLive - bLive;
+    });
+
+    sortedMatches.forEach(match => {
+
+      const displayStatus = formatStatus(match.status);
+
+      if (hideFinished && displayStatus === "FT") return;
 
       const tr = document.createElement("tr");
 
-      const displayStatus = formatStatus(match.status);
-      const statusClass = getStatusClass(displayStatus);
+      if (displayStatus === "LIVE") {
+        tr.classList.add("live-row");
+      }
 
       tr.innerHTML = `
         <td><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
         <td>${match.score !== "-" ? match.score : "VS"}</td>
         <td><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
         <td>${match.date}</td>
-        <td><span class="status ${statusClass}">${displayStatus}</span></td>
+        <td><span class="status">${displayStatus}</span></td>
         <td><img src="${match.logo}" class="logo"> ${match.channel}</td>
         <td>
           <button onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
@@ -208,41 +202,15 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
     hlsPlayer.loadSource(url);
     hlsPlayer.attachMedia(video);
     video.play();
-  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+  } else {
     video.src = url;
     video.play();
-  } else {
-    alert("ไม่รองรับการเล่น .m3u8");
   }
 
   document.querySelectorAll("#matchesTable tbody tr")
     .forEach(tr => tr.classList.remove("active-match"));
 
   if (rowElement) rowElement.classList.add("active-match");
-
-  playerBox.scrollIntoView({ behavior: "smooth", block: "center" });
-}
-
-
-// ==============================
-// SEARCH
-// ==============================
-function filterTable() {
-
-  const input = document.getElementById("searchInput").value.toLowerCase();
-  const rows = document.querySelectorAll("#matchesTable tbody tr");
-
-  rows.forEach(row => {
-
-    if (row.classList.contains("league-header")) {
-      row.style.display = "";
-      return;
-    }
-
-    const text = row.textContent.toLowerCase();
-    row.style.display = text.includes(input) ? "" : "none";
-
-  });
 }
 
 
@@ -250,7 +218,6 @@ function filterTable() {
 // AUTO REFRESH
 // ==============================
 function startAutoRefresh() {
-
   if (autoRefreshInterval) clearInterval(autoRefreshInterval);
 
   autoRefreshInterval = setInterval(async () => {
@@ -264,9 +231,12 @@ function startAutoRefresh() {
 // ==============================
 document.addEventListener("DOMContentLoaded", async () => {
 
-  document.getElementById("playerBox").classList.remove("active");
-
   await parseMatches();
   startAutoRefresh();
+
+  document.getElementById("leagueSelect")
+    .addEventListener("change", function () {
+      renderAllLeagues(this.value);
+    });
 
 });
