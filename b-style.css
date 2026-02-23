@@ -300,8 +300,7 @@ button:hover {
     display: none;
   }
 
-  td[data-label="วันที่"],
-  td[data-label="เวลา"],
+  td[data-label="วันที่ / เวลา"],
   td[data-label="สถานะ"],
   td[data-label="ช่อง"],
   td[data-label="ดูสด"] {
