@@ -263,6 +263,8 @@ button:active {
   font-weight: bold;
   position: relative;
   padding-right: 60px;
+  overflow: hidden;          /* ✅ เพิ่ม */
+  border-radius: 14px;       /* ✅ ให้ตัดขอบโค้งตรงกับ table */
 }
 
 .active-match::after {
