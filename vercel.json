@@ -1,8 +1,23 @@
 {
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "index.htm",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "api/matches.php",
+      "use": "@vercel/php"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/matches.php",
+      "dest": "/api/matches.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.htm"
     }
   ]
 }
