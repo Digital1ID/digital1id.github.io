@@ -48,7 +48,7 @@ video {
   justify-content: flex-end;
 }
 
-select, input[type="text"] {
+select {
   padding: 10px;
   border-radius: 6px;
   border: 1px solid #444;
@@ -117,7 +117,7 @@ img.logo {
     flex-direction: column;
     align-items: stretch;
   }
-  select, input[type="text"] {
+  select {
     width: 100%;
   }
 }
@@ -168,6 +168,7 @@ img.logo {
   }
 }
 
+/* Search box */
 .search-box {
   position: relative;
   display: flex;
@@ -177,16 +178,24 @@ img.logo {
 .search-box button {
   background: var(--primary);
   border: none;
-  color: white;
-  font-size: 1.2em;
   padding: 8px;
   border-radius: 50%;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.3s, box-shadow 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box button svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
 }
 
 .search-box button:hover {
   background: var(--secondary);
+  box-shadow: 0 0 8px var(--primary); /* glow effect */
 }
 
 .search-box input {
@@ -203,12 +212,12 @@ img.logo {
 
 /* เมื่อ active ให้ขยาย */
 .search-box.active input {
-  width: 200px;   /* ✅ ขยายเป็นช่องค้นหา */
+  width: 200px;
   opacity: 1;
 }
 
 @media (max-width: 480px) {
   .search-box.active input {
-    width: 100%;  /* ✅ บนมือถือเต็มบรรทัด */
+    width: 100%;
   }
 }
