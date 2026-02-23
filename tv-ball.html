@@ -21,6 +21,7 @@
     .player {
       margin: 20px auto;
       text-align: center;
+      display: none; /* ✅ ซ่อนตัวเล่นก่อน */
     }
     video {
       width: 80%;
@@ -29,12 +30,17 @@
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
-    select {
+    select, input[type="text"] {
       margin-top: 10px;
       padding: 8px;
       border-radius: 4px;
       border: 1px solid #ccc;
       font-size: 1em;
+    }
+    .search-bar {
+      width: 95%;
+      margin: 10px auto;
+      text-align: right;
     }
     table {
       width: 95%;
@@ -74,17 +80,29 @@
       vertical-align: middle;
       margin-right: 5px;
     }
+    .league-header {
+      background: #333;
+      color: #fff;
+      font-weight: bold;
+      text-align: left;
+      padding: 8px;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 <body>
   <header>📺 ตารางแข่งขันฟุตบอลสด</header>
 
-  <div class="player">
+  <div class="player" id="playerBox">
+    <h2>🎬 ตัวเล่นวิดีโอ</h2>
     <video id="videoPlayer" controls></video><br>
     <select id="channelSelect" onchange="playStream(this.value)">
       <option value="">-- เลือกช่องถ่ายทอดสด --</option>
     </select>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="🔍 ค้นหาทีม/ลีก..." onkeyup="filterTable()">
   </div>
 
   <table id="matchesTable">
@@ -118,6 +136,8 @@
         const tbody = document.querySelector("#matchesTable tbody");
         const channelSelect = document.getElementById("channelSelect");
 
+        let currentLeague = "";
+
         containers.forEach(container => {
           const statusNode = container.querySelector("div.col-lg-1 div");
           const statusText = statusNode ? statusNode.textContent.trim() : "";
@@ -133,6 +153,14 @@
 
           const dateNode = container.closest("div").querySelector("b.fs-4");
           const thaiDate = dateNode ? dateNode.textContent.trim() : new Date().toLocaleDateString("th-TH");
+
+          // ถ้าเปลี่ยนลีก → เพิ่มหัวข้อใหม่
+          if (leagueFull !== currentLeague) {
+            currentLeague = leagueFull;
+            const leagueRow = document.createElement("tr");
+            leagueRow.innerHTML = `<td colspan="8" class="league-header">${currentLeague}</td>`;
+            tbody.appendChild(leagueRow);
+          }
 
           const streams = container.querySelectorAll("img.iam-list-tv");
           const seenChannels = new Set();
@@ -178,6 +206,7 @@
 
     function playStream(url) {
       if (!url) return;
+      document.getElementById("playerBox").style.display = "block"; // ✅ แสดงตัวเล่นเมื่อกดเล่น
       const video = document.getElementById("videoPlayer");
       if (Hls.isSupported()) {
         const hls = new Hls();
@@ -190,6 +219,19 @@
       } else {
         alert("เบราว์เซอร์นี้ไม่รองรับการเล่นสตรีม .m3u8");
       }
+    }
+
+    function filterTable() {
+      const input = document.getElementById("searchInput").value.toLowerCase();
+      const rows = document.querySelectorAll("#matchesTable tbody tr");
+      rows.forEach(row => {
+        if (row.classList.contains("league-header")) {
+          row.style.display = "";
+          return;
+        }
+        const text = row.textContent.toLowerCase();
+        row.style.display = text.includes(input) ? "" : "none";
+      });
     }
 
     parseMatches();
