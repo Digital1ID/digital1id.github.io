@@ -74,7 +74,7 @@ video {
   margin: 15px auto;
   display: flex;
   gap: 10px;
-  justify-content: flex-end;
+  justify-content: flex-end;  /* space-between; ให้ dropdown อยู่ซ้าย, search อยู่ขวา */
 }
 select {
   padding: 10px;
@@ -82,6 +82,10 @@ select {
   border: 1px solid #444;
   background: #222;
   color: #fff;
+}
+
+.controls select {
+  flex: 0 0 200px; /* กำหนดความกว้าง dropdown */
 }
 
 /* Search Box Always Visible */
