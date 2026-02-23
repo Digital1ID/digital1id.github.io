@@ -340,7 +340,7 @@ tbody tr {
     position: relative;
   }
   
-  td, .logo {
+  .logo {
   width: 56px;
   height: 56px;
   text-align: center;
