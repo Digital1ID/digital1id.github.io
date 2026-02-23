@@ -86,6 +86,11 @@ async function parseMatches() {
 function forceLiveStatus(matchDate, matchTime, statusText) {
   if (statusText.toUpperCase() === "FT") return "FT";
 
+  // ถ้า API ส่ง "-" หรือว่างเปล่า → ใช้เวลา default
+  if (!matchTime || matchTime === "-") {
+    matchTime = "20.00"; // กำหนดเวลา default
+  }
+
   // แปลงวันที่ พ.ศ. → ค.ศ.
   const [day, month, year] = matchDate.split("/");
   const gregorianYear = parseInt(year) - 543;
@@ -97,7 +102,7 @@ function forceLiveStatus(matchDate, matchTime, statusText) {
   if (now >= matchDateTime) {
     return "LIVE";
   }
-  return statusText;
+  return statusText && statusText !== "-" ? statusText : "UPCOMING";
 }
 
 // ✅ ฟังก์ชันตรวจสอบสถานะ
@@ -211,14 +216,17 @@ function playStream(url, homeTeam = "", awayTeam = "", league = "", rowElement =
     alert("เบราว์เซอร์นี้ไม่รองรับการเล่นสตรีม .m3u8");
   }
 
+  // ✅ ลบ highlight เดิมออกก่อน
   document.querySelectorAll("#matchesTable tbody tr").forEach(tr => {
     tr.classList.remove("active-match");
   });
 
+  // ✅ ใส่ highlight ให้คู่ที่กดเล่น
   if (rowElement) {
     rowElement.classList.add("active-match", "animate-fadeIn");
   }
 
+  // ✅ เลื่อนมาที่ playerBox และโฟกัส videoPlayer
   playerBox.scrollIntoView({ behavior: "smooth", block: "center" });
   video.focus();
 }
