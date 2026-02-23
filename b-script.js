@@ -1,108 +1,256 @@
 // ==============================
-// CONFIG
+// GLOBAL
 // ==============================
-
-const sheetURL = "https://api-soccer.thai-play.com/api/v4/iptv/livescore/now?token=JF6pHMnpVCRUeEsSqAAjTWA4GbGhMrpD"; // 🔥 ใส่ URL JSON ของคุณ
-
-let allMatches = {};
-let hls = null;
-
-// ==============================
-// INIT
-// ==============================
-
-document.addEventListener("DOMContentLoaded", () => {
-  loadMatches();
-  window.addEventListener("resize", renderAll);
-});
+const leagueMap = {};
+let autoRefreshInterval = null;
+let hlsPlayer = null;
 
 // ==============================
 // MOBILE CHECK
 // ==============================
-
 function isMobileView() {
   return window.innerWidth <= 768;
 }
 
 // ==============================
-// LOAD DATA
+// SAVE / LOAD SELECTED LEAGUE
 // ==============================
+function saveSelectedLeague(league) {
+  localStorage.setItem("selectedLeague", league);
+}
 
-async function loadMatches() {
+function getSavedLeague() {
+  return localStorage.getItem("selectedLeague") || "all";
+}
+
+// ==============================
+// STATUS FILTER
+// ==============================
+function filterByStatus(statusFilter, matchStatus) {
+  if (statusFilter === "all") return true;
+
+  const status = matchStatus.toUpperCase();
+
+  if (statusFilter === "LIVE") return status === "LIVE";
+  if (statusFilter === "FT") return status === "FT";
+  if (statusFilter === "UPCOMING")
+    return status !== "LIVE" && status !== "FT";
+
+  return true;
+}
+
+// ==============================
+// FETCH & PARSE MATCHES
+// ==============================
+async function parseMatches() {
   try {
-    const res = await fetch(sheetURL);
-    const data = await res.json();
 
-    allMatches = data;
-    populateLeagueFilter();
-    renderAll();
+    const res = await fetch("https://api-soccer.thai-play.com/api/v4/iptv/livescore/now?token=JF6pHMnpVCRUeEsSqAAjTWA4GbGhMrpD");
+    const htmlText = await res.text();
+
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(htmlText, "text/html");
+
+    const containers = doc.querySelectorAll("div.row.gy-3");
+    const leagueSelect = document.getElementById("leagueSelect");
+
+    Object.keys(leagueMap).forEach(key => delete leagueMap[key]);
+
+    containers.forEach(container => {
+
+      const statusNode = container.querySelector("div.col-lg-1 div, div.col-lg-1 span");
+      const statusText = statusNode ? statusNode.textContent.trim() : "-";
+
+      const homeTeam = container.querySelector("div.text-end p")?.textContent.trim() || "ทีมเหย้า";
+      const awayTeam = container.querySelector("div.text-start p")?.textContent.trim() || "ทีมเยือน";
+
+      const leagueNode = container.closest("div.col-lg-12")
+        ?.previousElementSibling
+        ?.querySelector("strong.text-uppercase");
+
+      const leagueFull = leagueNode
+        ? leagueNode.textContent.trim().replace("|", ":")
+        : "ไม่ระบุลีก";
+
+      const dateNode = container.closest("div").querySelector("b.fs-4");
+      const thaiDate = dateNode
+        ? dateNode.textContent.trim()
+        : new Date().toLocaleDateString("th-TH");
+
+      const images = container.querySelectorAll("img");
+      const homeLogo = images[0]?.src || "";
+      const awayLogo = images[1]?.src || "";
+
+      const scoreNode = container.querySelector("div.col-lg-2 p");
+      const scoreText = scoreNode ? scoreNode.textContent.trim() : "-";
+
+      const streams = container.querySelectorAll("img.iam-list-tv");
+      const seenChannels = new Set();
+
+      streams.forEach(stream => {
+
+        const channel = stream.getAttribute("alt");
+        if (seenChannels.has(channel)) return;
+        seenChannels.add(channel);
+
+        let url = stream.getAttribute("data-url");
+        const logo = stream.getAttribute("src");
+        if (!url) return;
+
+        url = url.replace(":443", "").replace("/dooballfree-com/", "/do-ball.com/");
+
+        if (!leagueMap[leagueFull]) {
+          leagueMap[leagueFull] = [];
+
+          if (![...leagueSelect.options].some(opt => opt.value === leagueFull)) {
+            const opt = document.createElement("option");
+            opt.value = leagueFull;
+            opt.textContent = leagueFull;
+            leagueSelect.appendChild(opt);
+          }
+        }
+
+        leagueMap[leagueFull].push({
+          homeTeam,
+          awayTeam,
+          homeLogo,
+          awayLogo,
+          date: thaiDate,
+          status: statusText,
+          score: scoreText,
+          channel,
+          logo,
+          url
+        });
+
+      });
+
+    });
+
+    const savedLeague = getSavedLeague();
+
+    if (savedLeague && leagueMap[savedLeague]) {
+      document.getElementById("leagueSelect").value = savedLeague;
+      renderFilteredLeague();
+    } else {
+      document.getElementById("leagueSelect").value = "all";
+      renderAllLeagues();
+    }
 
   } catch (err) {
-    console.error("โหลดข้อมูลไม่สำเร็จ", err);
+
+    document.querySelector("#matchesTable tbody").innerHTML =
+      `<tr><td colspan="6">ไม่สามารถโหลดข้อมูลการแข่งขัน</td></tr>`;
   }
 }
 
 // ==============================
-// FILTER DROPDOWN
+// STATUS FORMAT
 // ==============================
+function formatStatus(statusText) {
 
-function populateLeagueFilter() {
-  const select = document.getElementById("leagueSelect");
-  select.innerHTML = `<option value="all">ทุกลีก</option>`;
+  const raw = statusText ? statusText.trim().toUpperCase() : "";
 
-  Object.keys(allMatches).forEach(league => {
-    select.innerHTML += `<option value="${league}">${league}</option>`;
-  });
+  if (raw === "FT") return "FT";
+  if (/^\d{1,2}[:.]\d{2}$/.test(raw))
+    return raw.replace(".", ":");
+  if (raw.includes("LIVE")) return "LIVE";
+  if (raw === "" || raw === "-") return "LIVE";
 
-  select.addEventListener("change", renderAll);
-  document.getElementById("statusSelect").addEventListener("change", renderAll);
+  return raw;
 }
 
 // ==============================
-// RENDER
+// STATUS CLASS
 // ==============================
+function getStatusClass(status) {
 
-function renderAll() {
+  const s = status.toUpperCase();
 
-  const leagueFilter = document.getElementById("leagueSelect").value;
-  const searchText = document.getElementById("searchInput").value.toLowerCase();
+  if (s === "LIVE") return "status-live";
+  if (s === "FT") return "status-ft";
+  return "status-upcoming";
+}
 
-  const target = isMobileView()
-    ? document.getElementById("matchesContainer")
-    : document.querySelector("#matchesTable tbody");
+// ==============================
+// RENDER ALL
+// ==============================
+function renderAllLeagues() {
 
-  target.innerHTML = "";
+  const isMobile = isMobileView();
 
-  Object.keys(allMatches).forEach(league => {
+  const tableBody = document.querySelector("#matchesTable tbody");
+  const mobileContainer = document.getElementById("matchesContainer");
 
-    if (leagueFilter !== "all" && league !== leagueFilter) return;
+  tableBody.innerHTML = "";
+  mobileContainer.innerHTML = "";
 
-    allMatches[league].forEach(match => {
+  Object.keys(leagueMap).forEach(league => {
 
-      const textMatch =
-        match.homeTeam.toLowerCase().includes(searchText) ||
-        match.awayTeam.toLowerCase().includes(searchText) ||
-        league.toLowerCase().includes(searchText);
+    if (!isMobile) {
+      const leagueRow = document.createElement("tr");
+      leagueRow.classList.add("league-header");
+      leagueRow.innerHTML = `<td colspan="6">${league}</td>`;
+      tableBody.appendChild(leagueRow);
+    }
 
-      if (!textMatch) return;
-
-      appendMatchRow(target, match, league);
+    leagueMap[league].forEach(match => {
+      appendMatchRow(isMobile ? mobileContainer : tableBody, match, league);
     });
+
   });
 }
 
 // ==============================
-// APPEND ROW / CARD
+// RENDER FILTERED
 // ==============================
+function renderFilteredLeague() {
 
+  const selectedLeague = document.getElementById("leagueSelect").value;
+  const isMobile = isMobileView();
+
+  const tableBody = document.querySelector("#matchesTable tbody");
+  const mobileContainer = document.getElementById("matchesContainer");
+
+  tableBody.innerHTML = "";
+  mobileContainer.innerHTML = "";
+
+  saveSelectedLeague(selectedLeague);
+
+  if (selectedLeague === "all") {
+    renderAllLeagues();
+    return;
+  }
+
+  if (!leagueMap[selectedLeague]) {
+    renderAllLeagues();
+    return;
+  }
+
+  if (!isMobile) {
+    const leagueRow = document.createElement("tr");
+    leagueRow.classList.add("league-header");
+    leagueRow.innerHTML = `<td colspan="6">${selectedLeague}</td>`;
+    tableBody.appendChild(leagueRow);
+  }
+
+  leagueMap[selectedLeague].forEach(match => {
+    appendMatchRow(isMobile ? mobileContainer : tableBody, match, selectedLeague);
+  });
+}
+
+// ==============================
+// APPEND MATCH
+// ==============================
 function appendMatchRow(target, match, league) {
 
-  const displayStatus = match.status;
+  const statusFilter = document.getElementById("statusSelect")?.value || "all";
+  const displayStatus = formatStatus(match.status);
+  if (!filterByStatus(statusFilter, displayStatus)) return;
+
   const statusClass = getStatusClass(displayStatus);
 
-  // ======================
   // 📱 MOBILE CARD
-  // ======================
   if (isMobileView()) {
 
     const card = document.createElement("div");
@@ -112,26 +260,22 @@ function appendMatchRow(target, match, league) {
       <div class="match-top">
         <div class="team">
           <img src="${match.homeLogo}" class="logo">
-          <span>${match.homeTeam}</span>
+          ${match.homeTeam}
         </div>
-
         <div class="score">
           ${match.score !== "-" ? match.score : "VS"}
         </div>
-
         <div class="team">
-          <span>${match.awayTeam}</span>
+          ${match.awayTeam}
           <img src="${match.awayLogo}" class="logo">
         </div>
       </div>
 
       <div class="match-bottom">
-        <div>${match.date}</div>
-
+        <div>📅 ${match.date}</div>
         <div class="status ${statusClass}">
           ${displayStatus}
         </div>
-
         <div class="channel"
           onclick="playStream(
             '${match.url}',
@@ -149,34 +293,33 @@ function appendMatchRow(target, match, league) {
     return;
   }
 
-  // ======================
-  // 💻 DESKTOP TABLE
-  // ======================
-
-  const tr = document.createElement("tr");
-
-  tr.innerHTML = `
-    <td>
-      <img src="${match.homeLogo}" class="logo"> ${match.homeTeam}
+  // 💻 DESKTOP TABLE (2 แถว)
+  const rowTop = document.createElement("tr");
+  rowTop.innerHTML = `
+    <td colspan="2">
+      <img src="${match.homeLogo}" class="logo">
+      ${match.homeTeam}
     </td>
-
-    <td>
+    <td style="text-align:center;font-weight:700;">
       ${match.score !== "-" ? match.score : "VS"}
     </td>
-
-    <td>
-      <img src="${match.awayLogo}" class="logo"> ${match.awayTeam}
+    <td colspan="3" style="text-align:right;">
+      ${match.awayTeam}
+      <img src="${match.awayLogo}" class="logo">
     </td>
+  `;
 
-    <td>${match.date}</td>
-
-    <td>
+  const rowBottom = document.createElement("tr");
+  rowBottom.innerHTML = `
+    <td colspan="2">📅 ${match.date}</td>
+    <td style="text-align:center;">
       <span class="status ${statusClass}">
         ${displayStatus}
       </span>
     </td>
-
-    <td class="channel-cell"
+    <td colspan="3"
+        class="channel-cell"
+        style="text-align:right;cursor:pointer;"
         onclick="playStream(
           '${match.url}',
           '${match.homeTeam}',
@@ -188,47 +331,66 @@ function appendMatchRow(target, match, league) {
     </td>
   `;
 
-  target.appendChild(tr);
+  target.appendChild(rowTop);
+  target.appendChild(rowBottom);
 }
 
 // ==============================
-// STATUS COLOR
+// PLAY STREAM
 // ==============================
+function playStream(url, homeTeam, awayTeam, league) {
 
-function getStatusClass(status) {
-  if (status === "LIVE") return "live";
-  if (status === "FT") return "ft";
-  return "upcoming";
-}
+  if (!url) return;
 
-// ==============================
-// SEARCH
-// ==============================
-
-function filterTable() {
-  renderAll();
-}
-
-// ==============================
-// VIDEO PLAYER
-// ==============================
-
-function playStream(url, home, away, league) {
-
-  const video = document.getElementById("videoPlayer");
   const playerBox = document.getElementById("playerBox");
+  const video = document.getElementById("videoPlayer");
 
-  if (hls) {
-    hls.destroy();
+  playerBox.classList.add("active");
+
+  document.querySelector("#playerBox h2").textContent =
+    `⚽ ${league} | ${homeTeam} vs ${awayTeam}`;
+
+  if (hlsPlayer) {
+    hlsPlayer.destroy();
+    hlsPlayer = null;
   }
 
   if (Hls.isSupported()) {
-    hls = new Hls();
-    hls.loadSource(url);
-    hls.attachMedia(video);
-  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+    hlsPlayer = new Hls();
+    hlsPlayer.loadSource(url);
+    hlsPlayer.attachMedia(video);
+    video.play();
+  } else {
     video.src = url;
+    video.play();
   }
 
-  playerBox.scrollIntoView({ behavior: "smooth" });
+  playerBox.scrollIntoView({ behavior: "smooth", block: "center" });
 }
+
+// ==============================
+// AUTO REFRESH
+// ==============================
+function startAutoRefresh() {
+  if (autoRefreshInterval) clearInterval(autoRefreshInterval);
+  autoRefreshInterval = setInterval(parseMatches, 60000);
+}
+
+// ==============================
+// INIT
+// ==============================
+document.addEventListener("DOMContentLoaded", async () => {
+
+  document.getElementById("playerBox").classList.remove("active");
+
+  document.getElementById("leagueSelect")
+    .addEventListener("change", renderFilteredLeague);
+
+  document.getElementById("statusSelect")
+    .addEventListener("change", renderFilteredLeague);
+
+  window.addEventListener("resize", renderFilteredLeague);
+
+  await parseMatches();
+  startAutoRefresh();
+});
