@@ -119,7 +119,7 @@ select:focus,
 /* ============================= */
 
 table {
-  width: 98%;
+  width: 95%;
   min-width: 600px;
   margin: 30px auto;
   border-collapse: collapse;
@@ -317,68 +317,34 @@ tbody tr {
 
 @media (max-width: 480px) {
 
-  /* ปลดล็อก table ไม่ให้โดนบีบ */
-  table {
-    width: 100% !important;
-    min-width: unset !important;
-    margin: 10px 0;
-  }
-
-  .table-wrapper {
-    overflow-x: visible;
-  }
-
-  thead { 
-    display: none; 
-  }
-
-  table, tbody, tr, td {
+  table, thead, tbody, th, td, tr {
     display: block;
     width: 100%;
+    min-width: 100%;
   }
 
+  thead { display: none; }
+
   tr {
-    margin: 12px;
-    padding: 14px;
-    border-radius: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px;
     background: #1c1c1c;
-    border: 1px solid #2a2a2a;
   }
 
   td {
-    text-align: left;                 /* อ่านง่ายกว่า center */
+    text-align: center;
     border: none;
-    padding: 8px 0;
-    white-space: normal !important;   /* แก้บีบ */
-    overflow: visible !important;
-    text-overflow: unset !important;
+    padding: 6px 10px;
+    position: relative;
   }
 
-  td::before {
+  td:before {
     content: attr(data-label);
-    font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: bold;
     color: #E50914;
-    margin-bottom: 4px;
     display: block;
+    margin-bottom: 4px;
   }
-
-  /* โลโก้เล็กลง */
-  .logo {
-    width: 34px;
-    height: 34px;
-  }
-
-  /* ปุ่มเต็มแถว */
-  td:last-child button {
-    width: 100%;
-    margin-top: 6px;
-  }
-
-  /* badge เล็กลงนิด */
-  .status {
-    font-size: 0.7rem;
-    padding: 3px 10px;
-  }
-
 }
