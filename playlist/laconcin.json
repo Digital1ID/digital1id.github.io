@@ -2,6 +2,18 @@
   
   {
     "player": "p2p/api-plyr",
+    "name": "ชะตารีเซต",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8p9bDVtwNWmbI_cYsPjXWUefyhC-bbuRS3dp_M_qpYQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1363"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "ผมกลายเป็นมหาเศรษฐีอันดับหนึ่ง",
     "category": "ละครสั้นจีน",
     "info": { 
