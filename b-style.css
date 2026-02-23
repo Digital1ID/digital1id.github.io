@@ -4,14 +4,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-html {
-  scroll-behavior: smooth;
+:root {
+  --primary: #E50914;
+  --primary-dark: #b20710;
+  --bg: #141414;
+  --card: #1c1c1c;
+  --muted: #6b7280;
 }
+
+html { scroll-behavior: smooth; }
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #141414;
-  color: #ffffff;
+  background: var(--bg);
+  color: #fff;
   margin: 0;
 }
 
@@ -20,14 +26,16 @@ body {
 /* ============================= */
 
 header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
   background: rgba(20,20,20,0.85);
   backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.6);
 }
 
 header h1 {
-  color: #E50914;
+  color: var(--primary);
 }
 
 /* ============================= */
@@ -36,17 +44,17 @@ header h1 {
 
 .player {
   margin: 20px auto;
-  text-align: center;
-  background: #1c1c1c;
-  padding: 20px;
-  border-radius: 12px;
   width: 92%;
+  background: var(--card);
+  padding: 20px;
+  border-radius: 14px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+
   visibility: hidden;
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 0.4s ease, max-height 0.4s ease;
+  transition: opacity .4s ease, max-height .4s ease;
 }
 
 .player.active {
@@ -56,15 +64,14 @@ header h1 {
 }
 
 .player h2 {
-  color: #E50914;
-  margin-bottom: 12px;
+  color: var(--primary);
 }
 
 video {
   width: 100%;
-  max-width: 900px;
-  border-radius: 10px;
-  border: 2px solid #E50914;
+  max-width: 950px;
+  border-radius: 12px;
+  border: 2px solid var(--primary);
 }
 
 /* ============================= */
@@ -87,26 +94,20 @@ select,
   border: 1px solid #444;
   background: #222;
   color: #fff;
-  transition: all 0.3s ease;
+  transition: .3s;
 }
 
 select:focus,
 .search-box input:focus {
   outline: none;
-  border-color: #E50914;
-  box-shadow: 0 0 10px rgba(229,9,20,0.5);
+  border-color: var(--primary);
+  box-shadow: 0 0 8px rgba(229,9,20,0.4);
 }
 
-.search-box input {
-  width: 220px;
-}
-
-.search-box input::placeholder {
-  color: #aaa;
-}
+.search-box input { width: 220px; }
 
 /* ============================= */
-/* TABLE WRAPPER (Scroll Safe) */
+/* TABLE WRAPPER */
 /* ============================= */
 
 .table-wrapper {
@@ -115,63 +116,41 @@ select:focus,
 }
 
 /* ============================= */
-/* PREMIUM TABLE */
+/* TABLE */
 /* ============================= */
 
 table {
   width: 95%;
-  min-width: 700px;
   margin: 30px auto;
   border-collapse: collapse;
-  table-layout: fixed;
   background: linear-gradient(180deg, #1c1c1c, #161616);
   border-radius: 14px;
-  overflow: hidden;
   box-shadow:
     0 0 0 1px rgba(255,255,255,0.03),
     0 15px 35px rgba(0,0,0,0.7);
 }
 
-.table-wrapper {
-  width: 100%;
-  overflow-x: auto;
-}
-
-@media (min-width: 1200px) {
-  table {
-    max-width: 1200px;
-  }
-}
-
 /* HEADER */
-thead tr {
-  background: linear-gradient(90deg, #E50914, #b20710);
-}
-
 thead th {
   position: sticky;
   top: 0;
-  z-index: 5;
-}
-
-th {
+  z-index: 10;
+  background: linear-gradient(90deg, var(--primary), var(--primary-dark));
   padding: 16px 10px;
-  font-size: 0.85rem;
-  letter-spacing: 1px;
+  font-size: .85rem;
   text-transform: uppercase;
+  letter-spacing: 1px;
   font-weight: 700;
-  color: #fff;
 }
 
 /* BODY */
 td {
   padding: 14px 8px;
-  font-size: 0.95rem;
+  font-size: .95rem;
   border-bottom: 1px solid rgba(255,255,255,0.05);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  transition: background 0.2s ease;
 }
 
 /* Zebra */
@@ -179,103 +158,88 @@ tbody tr:nth-child(even) {
   background: rgba(255,255,255,0.02);
 }
 
-/* Hover Desktop */
-@media (hover: hover) {
+/* Hover */
+@media (hover:hover) {
   tbody tr:hover {
-    background: rgba(229,9,20,0.15);
+    background: rgba(229,9,20,0.12);
   }
 }
 
-/* Column Width Lock */
-th:nth-child(1), td:nth-child(1) { width: 20%; }
-th:nth-child(2), td:nth-child(2) { width: 8%; }
-th:nth-child(3), td:nth-child(3) { width: 20%; }
-th:nth-child(4), td:nth-child(4) { width: 14%; }
-th:nth-child(5), td:nth-child(5) { width: 10%; }
-th:nth-child(6), td:nth-child(6) { width: 16%; }
-th:nth-child(7), td:nth-child(7) { width: 8%; }
-
 /* ============================= */
-/* TEAM STYLE */
+/* TEAM */
 /* ============================= */
 
 .team-cell {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .logo {
-  width: 26px;
-  height: 26px;
+  width: 36px;
+  height: 36px;
   object-fit: contain;
   border-radius: 50%;
   background: #fff;
-  padding: 3px;
+  padding: 4px;
 }
 
 /* ============================= */
-/* STATUS BADGE */
+/* STATUS */
 /* ============================= */
 
 .status {
   padding: 4px 12px;
   border-radius: 20px;
-  font-size: 0.75rem;
+  font-size: .75rem;
   font-weight: 700;
 }
 
 .status-live {
   background: linear-gradient(90deg, #16a34a, #22c55e);
-  box-shadow: 0 0 10px rgba(34,197,94,0.5);
+  box-shadow: 0 0 8px rgba(34,197,94,.5);
 }
 
-.status-ft {
-  background: #6b7280;
-}
+.status-ft { background: var(--muted); }
 
 .status-upcoming {
   background: linear-gradient(90deg, #2563eb, #3b82f6);
 }
 
 /* ============================= */
-/* WATCH BUTTON */
+/* BUTTON */
 /* ============================= */
 
 button {
   padding: 6px 16px;
-  min-width: 70px;
   border-radius: 20px;
-  font-size: 0.85rem;
+  font-size: .85rem;
   font-weight: 700;
   border: none;
   cursor: pointer;
-  background: linear-gradient(90deg, #E50914, #ff1f2f);
-  box-shadow: 0 5px 15px rgba(229,9,20,0.4);
-  transition: all 0.2s ease;
+  background: linear-gradient(90deg, var(--primary), #ff1f2f);
+  box-shadow: 0 5px 15px rgba(229,9,20,.4);
+  transition: .2s;
 }
 
 button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(229,9,20,0.6);
+  box-shadow: 0 8px 20px rgba(229,9,20,.6);
 }
 
-button:active {
-  transform: scale(0.95);
-}
+button:active { transform: scale(.95); }
 
 /* ============================= */
 /* ACTIVE MATCH */
 /* ============================= */
 
 .active-match {
-  position: relative;
   font-weight: 600;
-  background: rgba(229, 9, 20, 0.08);
+  background: rgba(229,9,20,.08);
   box-shadow:
-    inset 0 0 0 2px #E50914,
-    0 0 15px rgba(229,9,20,0.4);
+    inset 0 0 0 2px var(--primary),
+    0 0 15px rgba(229,9,20,.4);
 }
 
 /* ============================= */
@@ -283,25 +247,11 @@ button:active {
 /* ============================= */
 
 .league-header td {
-  background: linear-gradient(90deg, #E50914, #b20710);
+  background: linear-gradient(90deg, var(--primary), var(--primary-dark));
   text-align: center;
-  font-size: 0.9rem;
   font-weight: 800;
   letter-spacing: 1px;
   padding: 16px;
-}
-
-/* ============================= */
-/* ANIMATION */
-/* ============================= */
-
-tbody tr {
-  animation: fadeIn 0.4s ease forwards;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
 }
 
 /* ============================= */
@@ -309,15 +259,8 @@ tbody tr {
 /* ============================= */
 
 @media (max-width: 768px) {
-  .controls {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  select,
-  .search-box input {
-    width: 100%;
-  }
+  .controls { flex-direction: column; }
+  select, .search-box input { width: 100%; }
 }
 
 @media (max-width: 480px) {
@@ -325,21 +268,18 @@ tbody tr {
   table, thead, tbody, th, td, tr {
     display: block;
     width: 100%;
-    min-width: 100%;
   }
 
   thead { display: none; }
 
   tr {
     margin-bottom: 15px;
-    border: 1px solid #333;
-    border-radius: 10px;
-    padding: 10px;
-    background: #1c1c1c;
+    border-radius: 12px;
+    padding: 12px;
+    background: var(--card);
   }
 
   td {
-    text-align: left;
     border: none;
     padding: 6px 10px;
     position: relative;
@@ -347,9 +287,14 @@ tbody tr {
 
   td:before {
     content: attr(data-label);
-    font-weight: bold;
-    color: #E50914;
+    font-weight: 700;
+    color: var(--primary);
     display: block;
     margin-bottom: 4px;
+  }
+
+  .logo {
+    width: 32px;
+    height: 32px;
   }
 }
