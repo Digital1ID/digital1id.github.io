@@ -317,102 +317,34 @@ tbody tr {
 
 @media (max-width: 480px) {
 
-  table {
+  table, thead, tbody, th, td, tr {
+    display: block;
     width: 100%;
     min-width: 100%;
   }
 
-  thead {
-    display: none;
-  }
+  thead { display: none; }
 
-  tbody tr {
-    display: flex;
-    flex-direction: column;
-    margin: 14px;
-    padding: 16px;
-    border-radius: 16px;
+  tr {
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px;
     background: #1c1c1c;
-    box-shadow: 0 10px 25px rgba(0,0,0,.6);
   }
 
-  /* === บรรทัดหลัก: ทีม vs ทีม === */
-  tbody tr {
+  td {
+    text-align: left;
+    border: none;
+    padding: 6px 10px;
     position: relative;
   }
 
-  tbody tr td {
-    border: none;
-    padding: 6px 0;
-  }
-
-  /* แถวบนสุดรวมทีม+สกอร์ */
-  tbody tr td:nth-child(1),
-  tbody tr td:nth-child(3),
-  tbody tr td:nth-child(4) {
-    display: inline-flex;
-    align-items: center;
-  }
-
-  /* ทำให้ทั้ง 3 ช่องอยู่บรรทัดเดียว */
-  tbody tr td:nth-child(1) { 
-    justify-content: flex-start;
-    width: 40%;
-  }
-
-  tbody tr td:nth-child(4) {
-    justify-content: center;
-    width: 20%;
-    font-size: 1.3rem;
-    font-weight: 800;
-  }
-
-  tbody tr td:nth-child(3) {
-    justify-content: flex-end;
-    width: 40%;
-    text-align: right;
-  }
-
-  /* จัด layout บรรทัดบน */
-  tbody tr {
-    display: grid;
-    grid-template-columns: 40% 20% 40%;
-    grid-template-areas:
-      "home score away"
-      "info info info"
-      "button button button";
-  }
-
-  tbody tr td:nth-child(1) { grid-area: home; }
-  tbody tr td:nth-child(4) { grid-area: score; }
-  tbody tr td:nth-child(3) { grid-area: away; }
-
-  /* เวลา + สถานะ */
-  tbody tr td:nth-child(2),
-  tbody tr td:nth-child(5) {
-    grid-area: info;
-    font-size: .85rem;
-    opacity: .8;
-    text-align: center;
-  }
-
-  /* ปุ่ม */
-  tbody tr td:last-child {
-    grid-area: button;
-    margin-top: 8px;
-  }
-
-  button {
-    width: 100%;
-  }
-
-  .logo {
-    width: 32px;
-    height: 32px;
-  }
-
   td:before {
-    display: none;
+    content: attr(data-label);
+    font-weight: bold;
+    color: #E50914;
+    display: block;
+    margin-bottom: 4px;
   }
-
 }
