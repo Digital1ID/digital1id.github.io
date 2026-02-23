@@ -311,15 +311,13 @@ tbody tr {
 
 @media (max-width: 480px) {
 
-  /* ❌ เอา table / thead / tbody ออกจาก block */
-  tbody tr {
+  table, thead, tbody, th, td, tr {
     display: block;
     width: 100%;
+    min-width: 100%;
   }
 
-  thead {
-    display: none;
-  }
+  thead { display: none; }
 
   tr {
     margin-bottom: 15px;
@@ -330,8 +328,6 @@ tbody tr {
   }
 
   td {
-    display: block;      /* ให้ block แค่ td */
-    width: 100%;
     text-align: left;
     border: none;
     padding: 6px 10px;
