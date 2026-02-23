@@ -69,6 +69,11 @@
     button:hover {
       background: #0099cc;
     }
+    img.logo {
+      height: 20px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
@@ -124,7 +129,7 @@
           const awayTeam = container.querySelector("div.text-start p")?.textContent.trim() || "ทีมเยือน";
 
           // ✅ ดึงชื่อลีกจาก sibling ที่ถูกต้อง
-          const leagueNode = container.previousElementSibling?.querySelector("strong.text-uppercase");
+          const leagueNode = container.closest("div.col-lg-12").previousElementSibling?.querySelector("strong.text-uppercase");
           const leagueFull = leagueNode ? leagueNode.textContent.trim().replace("|", ":") : "ไม่ระบุลีก";
 
           const dateNode = container.closest("div").querySelector("b.fs-4");
@@ -143,7 +148,7 @@
             if (!url) return;
             url = url.replace(":443", "").replace("/dooballfree-com/", "/do-ball.com/");
 
-            // ✅ รวมช่องซ้ำเป็น dropdown พร้อมโลโก้
+            // ✅ รวมช่องซ้ำเป็น dropdown (ชื่ออย่างเดียว)
             if (!channelMap[channel]) {
               channelMap[channel] = { url, logo };
               const opt = document.createElement("option");
@@ -160,7 +165,7 @@
               <td>${thaiDate}</td>
               <td>${matchTime}</td>
               <td>${statusText}</td>
-              <td><img src="${logo}" alt="${channel}" style="height:20px;vertical-align:middle;"> ${channel}</td>
+              <td><img src="${logo}" class="logo" alt="${channel}"> ${channel}</td>
               <td><button onclick="playStream('${url}')">เล่น</button></td>
             `;
             tbody.appendChild(tr);
