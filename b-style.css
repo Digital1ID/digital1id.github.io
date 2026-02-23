@@ -314,7 +314,7 @@ tbody tr {
   table, thead, tbody, th, td, tr {
     display: block;
     width: 100%;
-    min-width: 100%;
+    max-width: 100%;
   }
 
   thead { display: none; }
