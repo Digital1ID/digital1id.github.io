@@ -90,11 +90,7 @@ function forceLiveStatus(matchDate, matchTime, statusText) {
   if (statusText.toUpperCase() === "FT") return "FT";
 
   if (!matchTime || matchTime === "-") {
-    matchTime = "20.00"; // เวลา default
-  }
-
-  if (!statusText || statusText === "-") {
-    statusText = "UPCOMING";
+    return "UPCOMING"; // ถ้าไม่มีเวลา → UPCOMING
   }
 
   const [day, month, year] = matchDate.split("/");
@@ -104,22 +100,23 @@ function forceLiveStatus(matchDate, matchTime, statusText) {
 
   const now = new Date();
 
+  // ✅ ถ้ายังไม่ถึงเวลา → UPCOMING
+  if (now < matchDateTime) {
+    return "UPCOMING";
+  }
+
+  // ✅ ถึงเวลาแล้ว → LIVE
   if (now >= matchDateTime && statusText !== "FT") {
     return "LIVE";
   }
-  return statusText;
+
+  return statusText || "UPCOMING";
 }
 
 // ✅ ฟังก์ชันตรวจสอบสถานะ
 function getStatusClass(status) {
   const statusUpper = status.toUpperCase();
-  if (
-    statusUpper.includes("LIVE") ||
-    statusUpper.includes("+") ||
-    statusUpper === "HT" ||
-    /^\d{1,2}:\d{2}$/.test(status) ||
-    statusUpper.includes("กำลังแข่ง")
-  ) {
+  if (statusUpper.includes("LIVE") || statusUpper.includes("+") || statusUpper === "HT") {
     return "status-live";
   } else if (statusUpper === "FT") {
     return "status-ft";
