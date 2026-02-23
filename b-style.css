@@ -114,10 +114,27 @@ img.logo {
 
 /* Highlight แถวที่กำลังเล่น */
 .active-match {
-  background: var(--primary) !important;
-  color: white;
+  background: linear-gradient(90deg, rgba(229,9,20,0.8), rgba(178,7,16,0.8));
+  color: #fff;
   font-weight: bold;
-  transition: background 0.3s ease, color 0.3s ease;
+  position: relative;
+  transition: background 0.4s ease, transform 0.3s ease;
+}
+
+.active-match::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background: #fff;
+  box-shadow: 0 0 10px #fff;
+  border-radius: 2px;
+}
+
+.active-match:hover {
+  transform: scale(1.02); /* ขยายเล็กน้อยเวลา hover */
 }
 
 @media (max-width: 768px) {
