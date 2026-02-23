@@ -89,8 +89,9 @@ async function parseMatches() {
 function forceLiveStatus(matchDate, matchTime, statusText) {
   if (statusText.toUpperCase() === "FT") return "FT";
 
+  // 🔥 ถ้าไม่มีเวลา → ให้เป็น LIVE ทันที
   if (!matchTime || matchTime === "-") {
-    return "UPCOMING"; // ถ้าไม่มีเวลา → UPCOMING
+    return "LIVE";
   }
 
   const [day, month, year] = matchDate.split("/");
