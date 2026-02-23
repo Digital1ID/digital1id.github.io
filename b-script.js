@@ -148,10 +148,18 @@ function renderLeagueMatches(league) {
   });
 }
 
+// ✅ ซ่อน Player ตอนโหลดหน้า
+document.addEventListener("DOMContentLoaded", () => {
+  const playerBox = document.getElementById("playerBox");
+  if (playerBox) {
+    playerBox.style.display = "none";
+  }
+});
+
 function playStream(url, homeTeam = "", awayTeam = "", league = "", rowElement = null) {
   if (!url) return;
   const playerBox = document.getElementById("playerBox");
-  playerBox.style.display = "block";
+  playerBox.style.display = "block"; // ✅ แสดงเมื่อกดเล่น
 
   const title = document.querySelector("#playerBox h2");
   if (homeTeam && awayTeam && league) {
