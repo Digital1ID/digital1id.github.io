@@ -85,7 +85,7 @@ select {
 }
 
 .controls select {
-  flex: 0 0 200px; /* กำหนดความกว้าง dropdown */
+  flex: 0 0 100px; /* กำหนดความกว้าง dropdown */
 }
 
 /* Search Box Always Visible */
