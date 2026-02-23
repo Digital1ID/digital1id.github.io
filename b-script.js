@@ -12,8 +12,6 @@ async function parseMatches() {
     const tbody = document.querySelector("#matchesTable tbody");
     const leagueSelect = document.getElementById("leagueSelect");
 
-    let currentLeague = "";
-
     containers.forEach(container => {
       const statusNode = container.querySelector("div.col-lg-1 div");
       const statusText = statusNode ? statusNode.textContent.trim() : "";
@@ -28,6 +26,10 @@ async function parseMatches() {
 
       const dateNode = container.closest("div").querySelector("b.fs-4");
       const thaiDate = dateNode ? dateNode.textContent.trim() : new Date().toLocaleDateString("th-TH");
+
+      // ✅ ดึงโลโก้ทีมเหย้าและทีมเยือน
+      const homeLogo = container.querySelector("div.col-lg-1.col-md-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
+      const awayLogo = container.querySelector("div.col-lg-1.col-md-1.col-1.text-center.my-auto.d-none.d-md-block img")?.src || "";
 
       const streams = container.querySelectorAll("img.iam-list-tv");
       const seenChannels = new Set();
@@ -54,6 +56,8 @@ async function parseMatches() {
         leagueMap[leagueFull].push({
           homeTeam,
           awayTeam,
+          homeLogo,
+          awayLogo,
           date: thaiDate,
           time: matchTime,
           status: statusText,
@@ -91,8 +95,8 @@ function renderLeagueMatches(league) {
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${league}</td>
-      <td><img src="" class="logo"> ${match.homeTeam}</td>
-      <td><img src="" class="logo"> ${match.awayTeam}</td>
+      <td><img src="${match.homeLogo}" class="logo"> ${match.homeTeam}</td>
+      <td><img src="${match.awayLogo}" class="logo"> ${match.awayTeam}</td>
       <td>${match.date}</td>
       <td>${match.time}</td>
       <td>${match.status}</td>
@@ -103,42 +107,3 @@ function renderLeagueMatches(league) {
   });
 }
 
-function playStream(url, homeTeam = "", awayTeam = "", league = "") {
-  if (!url) return;
-  document.getElementById("playerBox").style.display = "block";
-
-  const title = document.querySelector("#playerBox h2");
-  if (homeTeam && awayTeam && league) {
-    title.textContent = `🎬 ${league} | ${homeTeam} vs ${awayTeam}`;
-  } else {
-    title.textContent = "🎬 ตัวเล่นวิดีโอ";
-  }
-
-  const video = document.getElementById("videoPlayer");
-  if (Hls.isSupported()) {
-    const hls = new Hls();
-    hls.loadSource(url);
-    hls.attachMedia(video);
-    video.play();
-  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-    video.src = url;
-    video.play();
-  } else {
-    alert("เบราว์เซอร์นี้ไม่รองรับการเล่นสตรีม .m3u8");
-  }
-}
-
-function filterTable() {
-  const input = document.getElementById("searchInput").value.toLowerCase();
-  const rows = document.querySelectorAll("#matchesTable tbody tr");
-  rows.forEach(row => {
-    if (row.classList.contains("league-header")) {
-      row.style.display = "";
-      return;
-    }
-    const text = row.textContent.toLowerCase();
-    row.style.display = text.includes(input) ? "" : "none";
-  });
-}
-
-parseMatches();
