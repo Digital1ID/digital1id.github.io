@@ -63,11 +63,6 @@ opt.dataset.league = leagueFull;
 channelSelect.appendChild(opt);
         }
 
-channelSelect.addEventListener("change", function() {
-  const selected = this.options[this.selectedIndex];
-  playStream(selected.value, selected.dataset.home, selected.dataset.away, selected.dataset.league);
-});
-
 const tr = document.createElement("tr");
 tr.innerHTML = `
   <td>${leagueFull}</td>
@@ -82,6 +77,12 @@ tr.innerHTML = `
 tbody.appendChild(tr);
       });
     });
+    
+channelSelect.addEventListener("change", function() {
+  const selected = this.options[this.selectedIndex];
+  playStream(selected.value, selected.dataset.home, selected.dataset.away, selected.dataset.league);
+});
+    
   } catch (err) {
     document.querySelector("#matchesTable tbody").innerHTML =
       `<tr><td colspan="8">ไม่สามารถโหลดข้อมูลการแข่งขัน</td></tr>`;
