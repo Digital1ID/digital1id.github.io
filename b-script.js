@@ -199,7 +199,7 @@ function renderAllLeagues() {
 
     const leagueRow = document.createElement("tr");
     leagueRow.classList.add("league-header");
-    leagueRow.innerHTML = `<td colspan="7">${league}</td>`;
+    leagueRow.innerHTML = `<td colspan="6">${league}</td>`;
     tbody.appendChild(leagueRow);
 
     leagueMap[league].forEach(match => {
