@@ -167,3 +167,48 @@ img.logo {
     margin-top: 8px;
   }
 }
+
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-box button {
+  background: var(--primary);
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-box button:hover {
+  background: var(--secondary);
+}
+
+.search-box input {
+  width: 0;
+  opacity: 0;
+  padding: 8px;
+  margin-left: 8px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #222;
+  color: var(--text-light);
+  transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+/* เมื่อ active ให้ขยาย */
+.search-box.active input {
+  width: 200px;   /* ✅ ขยายเป็นช่องค้นหา */
+  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .search-box.active input {
+    width: 100%;  /* ✅ บนมือถือเต็มบรรทัด */
+  }
+}
