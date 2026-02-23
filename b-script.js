@@ -101,12 +101,12 @@ function forceLiveStatus(matchDate, matchTime, statusText) {
 
   const now = new Date();
 
-  // ✅ ถ้ายังไม่ถึงเวลา → UPCOMING
+  // ✅ ถ้ามีเวลาและยังไม่ถึง → UPCOMING
   if (now < matchDateTime) {
     return "UPCOMING";
   }
 
-  // ✅ ถึงเวลาแล้ว → LIVE
+  // ✅ ถ้ามีเวลาและถึงแล้ว → LIVE
   if (now >= matchDateTime && statusText !== "FT") {
     return "LIVE";
   }
