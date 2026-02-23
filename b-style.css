@@ -315,36 +315,68 @@ tbody tr {
   }
 }
 
+/* ============================= */
+/* MOBILE – CLASSIC BLOCK TABLE */
+/* ============================= */
+
 @media (max-width: 480px) {
 
-  table, thead, tbody, th, td, tr {
-    display: block;
+  table {
     width: 100%;
     min-width: 100%;
   }
 
-  thead { display: none; }
+  thead {
+    display: none;
+  }
 
-  tr {
-    margin-bottom: 15px;
-    border: 1px solid #333;
-    border-radius: 10px;
-    padding: 10px;
+  tbody tr {
+    display: block;
+    margin: 14px;
+    padding: 14px;
+    border-radius: 14px;
     background: #1c1c1c;
+    border: 1px solid #2a2a2a;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.5);
   }
 
-  td {
-    text-align: left;
+  tbody td {
+    display: block;
+    width: 100%;
     border: none;
-    padding: 6px 10px;
-    position: relative;
+    padding: 6px 0;
+    white-space: normal;        /* แก้ล้น */
+    overflow: visible;          /* แก้ตัดข้อความ */
+    text-overflow: unset;       /* แก้ ... */
   }
 
-  td:before {
+  /* label */
+  tbody td::before {
     content: attr(data-label);
-    font-weight: bold;
+    font-size: 0.75rem;
+    font-weight: 700;
     color: #E50914;
     display: block;
     margin-bottom: 4px;
   }
+
+  /* โลโก้เล็กลงสำหรับมือถือ */
+  .logo {
+    width: 34px;
+    height: 34px;
+    padding: 2px;
+  }
+
+  /* ปุ่มเต็มความกว้าง */
+  tbody td:last-child button {
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  /* badge เล็กลง */
+  .status {
+    font-size: 0.7rem;
+    padding: 3px 10px;
+  }
+
 }
