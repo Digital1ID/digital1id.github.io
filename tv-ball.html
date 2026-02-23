@@ -69,11 +69,6 @@
     button:hover {
       background: #0099cc;
     }
-    option img {
-      height: 16px;
-      vertical-align: middle;
-      margin-right: 5px;
-    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
@@ -128,28 +123,32 @@
           const homeTeam = container.querySelector("div.text-end p")?.textContent.trim() || "ทีมเหย้า";
           const awayTeam = container.querySelector("div.text-start p")?.textContent.trim() || "ทีมเยือน";
 
-          // ดึงชื่อลีก
-          const leagueNode = container.closest("div").querySelector("strong.text-uppercase");
+          // ✅ ดึงชื่อลีกจาก sibling ที่ถูกต้อง
+          const leagueNode = container.previousElementSibling?.querySelector("strong.text-uppercase");
           const leagueFull = leagueNode ? leagueNode.textContent.trim().replace("|", ":") : "ไม่ระบุลีก";
 
           const dateNode = container.closest("div").querySelector("b.fs-4");
           const thaiDate = dateNode ? dateNode.textContent.trim() : new Date().toLocaleDateString("th-TH");
 
           const streams = container.querySelectorAll("img.iam-list-tv");
+          const seenChannels = new Set();
+
           streams.forEach(stream => {
             const channel = stream.getAttribute("alt");
+            if (seenChannels.has(channel)) return; // ✅ กรองช่องซ้ำ
+            seenChannels.add(channel);
+
             let url = stream.getAttribute("data-url");
             const logo = stream.getAttribute("src");
             if (!url) return;
             url = url.replace(":443", "").replace("/dooballfree-com/", "/do-ball.com/");
 
-            // รวมช่องซ้ำเป็น dropdown พร้อมโลโก้
+            // ✅ รวมช่องซ้ำเป็น dropdown พร้อมโลโก้
             if (!channelMap[channel]) {
               channelMap[channel] = { url, logo };
               const opt = document.createElement("option");
               opt.value = url;
               opt.textContent = channel;
-              opt.style.backgroundImage = `url(${logo})`;
               channelSelect.appendChild(opt);
             }
 
