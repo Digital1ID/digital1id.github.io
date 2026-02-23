@@ -317,70 +317,34 @@ tbody tr {
 
 @media (max-width: 480px) {
 
-  table {
+  table, thead, tbody, th, td, tr {
+    display: block;
     width: 100%;
+    min-width: 100%;
   }
 
   thead { display: none; }
 
-  tbody tr {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin: 14px;
-    padding: 14px;
-    border-radius: 14px;
-    background: var(--card);
-    box-shadow: 0 8px 20px rgba(0,0,0,.5);
+  tr {
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    background: #1c1c1c;
   }
 
-  /* แถวบน (ทีม + สกอร์ + สถานะ) */
-  tbody tr td {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  td {
+    text-align: left;
     border: none;
-    padding: 4px 0;
+    padding: 6px 10px;
+    position: relative;
   }
 
-  /* ซ่อน data-label */
   td:before {
-    display: none;
+    content: attr(data-label);
+    font-weight: bold;
+    color: #E50914;
+    display: block;
+    margin-bottom: 4px;
   }
-
-  /* ทีม */
-  .team-cell {
-    justify-content: flex-start;
-    gap: 8px;
-  }
-
-  .logo {
-    width: 32px;
-    height: 32px;
-  }
-
-  /* สกอร์เด่น */
-  td[data-label="สกอร์"] {
-    font-size: 1.2rem;
-    font-weight: 800;
-    justify-content: center;
-  }
-
-  /* เวลา */
-  td[data-label="เวลา"] {
-    font-size: .85rem;
-    color: #aaa;
-    justify-content: flex-start;
-  }
-
-  /* ปุ่ม */
-  td:last-child {
-    justify-content: center;
-    margin-top: 6px;
-  }
-
-  button {
-    width: 100%;
-  }
-
 }
