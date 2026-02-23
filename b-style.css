@@ -260,6 +260,15 @@ button:active {
   transform: scale(0.95);
 }
 
+.channel-cell {
+  transition: 0.2s ease;
+}
+
+.channel-cell:hover {
+  background: #1f1f1f;
+  color: #E50914;
+}
+
 /* ============================= */
 /* ACTIVE MATCH */
 /* ============================= */
