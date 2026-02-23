@@ -112,6 +112,12 @@ img.logo {
   padding: 10px;
 }
 
+.active-match {
+  background: rgba(229, 9, 20, 0.3);
+  border-left: 4px solid var(--primary);
+  transition: background 0.3s ease;
+}
+
 @media (max-width: 768px) {
   .controls {
     flex-direction: column;
@@ -130,7 +136,7 @@ img.logo {
   }
 
   thead {
-    display: none; /* ซ่อนหัวตาราง */
+    display: none;
   }
 
   tr {
@@ -176,7 +182,7 @@ img.logo {
 }
 
 .search-box button {
-  background: transparent; /* ✅ ไม่มีพื้นหลัง */
+  background: transparent;
   border: 2px solid var(--primary);
   padding: 6px;
   border-radius: 50%;
@@ -209,7 +215,6 @@ img.logo {
   transition: width 0.3s ease, opacity 0.3s ease;
 }
 
-/* เมื่อ active ให้ขยาย */
 .search-box.active input {
   width: 200px;
   opacity: 1;
