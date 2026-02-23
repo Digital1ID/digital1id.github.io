@@ -2,7 +2,7 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>ตารางแข่งขัน & ตัวเล่น</title>
+  <title>ตารางแข่งขันฟุตบอลสด</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
     table { width: 100%; border-collapse: collapse; margin-top: 20px; }
@@ -11,6 +11,8 @@
     .player { margin-top: 20px; text-align: center; }
     video { width: 80%; max-width: 800px; border: 2px solid #333; }
   </style>
+  <!-- โหลด HLS.js สำหรับเล่น .m3u8 -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 <body>
   <h1>📺 ตารางแข่งขันฟุตบอลสด</h1>
@@ -37,11 +39,12 @@
 
   <script>
     async function loadMatches() {
+      // เรียก API JSON ที่คุณ deploy ไว้ (แก้ URL ให้ตรงกับของคุณ)
       const res = await fetch('/api/matches.php');
       const data = await res.json();
       const tbody = document.querySelector('#matchesTable tbody');
 
-      data.matches.forEach((match, idx) => {
+      data.matches.forEach((match) => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
           <td>${match.league}</td>
@@ -58,9 +61,18 @@
     }
 
     function playStream(url) {
-      const player = document.getElementById('videoPlayer');
-      player.src = url;
-      player.play();
+      const video = document.getElementById('videoPlayer');
+      if (Hls.isSupported()) {
+        const hls = new Hls();
+        hls.loadSource(url);
+        hls.attachMedia(video);
+        video.play();
+      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = url;
+        video.play();
+      } else {
+        alert("เบราว์เซอร์นี้ไม่รองรับการเล่นสตรีม .m3u8");
+      }
     }
 
     loadMatches();
