@@ -16,8 +16,6 @@ header {
   top: 0;
   z-index: 50;
 }
-
-/* โลโก้ */
 header h1 {
   color: #E50914;
 }
@@ -36,7 +34,6 @@ nav a {
 }
 nav a:hover {
   background-color: #333333;
-  color: #ffffff;
 }
 nav a.active {
   background-color: #E50914;
@@ -53,6 +50,12 @@ nav a.active {
   border-radius: 10px;
   width: 90%;
   box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.player.active {
+  display: block;
+  opacity: 1;
 }
 .player h2 {
   color: #E50914;
@@ -65,7 +68,7 @@ video {
   border-radius: 8px;
 }
 
-/* Controls + Search Box */
+/* Controls */
 .controls {
   width: 95%;
   margin: 15px auto;
@@ -80,45 +83,6 @@ select {
   background: #222;
   color: #fff;
 }
-.search-box {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-.search-box button {
-  background: transparent;
-  border: 2px solid #E50914;
-  padding: 6px;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.search-box button svg {
-  width: 20px;
-  height: 20px;
-}
-.search-box button:hover {
-  background: #E50914;
-  border-color: #b20710;
-}
-.search-box input {
-  width: 0;
-  opacity: 0;
-  padding: 8px;
-  margin-left: 8px;
-  border-radius: 6px;
-  border: 1px solid #444;
-  background: #222;
-  color: #fff;
-  transition: width 0.3s ease, opacity 0.3s ease;
-}
-.search-box.active input {
-  width: 200px;
-  opacity: 1;
-}
 
 /* ตารางฟุตบอล */
 table {
@@ -131,11 +95,9 @@ table {
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.6);
 }
-
 thead tr {
   background: #E50914;
 }
-
 th {
   color: #fff;
   text-transform: uppercase;
@@ -143,16 +105,13 @@ th {
   font-weight: bold;
   font-size: 0.9rem;
 }
-
 tbody tr {
   transition: background 0.3s ease, transform 0.2s ease;
 }
-
 tbody tr:hover {
   background: rgba(229,9,20,0.15);
   transform: scale(1.01);
 }
-
 td {
   padding: 12px;
   text-align: center;
@@ -162,13 +121,26 @@ td {
 
 /* League Header */
 .league-header td {
-  background: #333;
-  color: #E50914;
+  background: linear-gradient(90deg, #E50914, #b20710);
+  color: #fff;
   font-weight: bold;
   text-align: center;
-  padding: 10px;
+  padding: 12px;
   font-size: 1.1rem;
   letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Logo */
+.logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  margin-right: 6px;
+  vertical-align: middle;
+  border-radius: 4px;
+  background: #fff;
+  padding: 2px;
 }
 
 /* ปุ่มเล่น */
@@ -192,7 +164,6 @@ button:hover {
   font-weight: bold;
   position: relative;
   box-shadow: 0 0 15px rgba(229,9,20,0.6);
-  transition: background 0.4s ease, transform 0.3s ease;
 }
 .active-match::before {
   content: "";
@@ -210,9 +181,6 @@ button:hover {
   50% { box-shadow: 0 0 15px #fff; opacity: 1; }
   100% { box-shadow: 0 0 5px #fff; opacity: 0.7; }
 }
-.active-match:hover {
-  transform: scale(1.02);
-}
 
 /* Fade-in Animation */
 @keyframes fadeIn {
@@ -221,6 +189,26 @@ button:hover {
 }
 .animate-fadeIn {
   animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* สถานะการแข่งขัน */
+.status {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-block;
+}
+.status-live {
+  background: #16a34a;
+  color: #fff;
+}
+.status-ft {
+  background: #6b7280;
+  color: #fff;
+}
+.status-upcoming {
+  background: #2563eb;
+  color: #fff;
 }
 
 /* Responsive */
