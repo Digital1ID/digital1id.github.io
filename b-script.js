@@ -253,43 +253,62 @@ function appendMatchRow(tbody, match, league) {
   if (!filterByStatus(statusFilter, displayStatus)) return;
 
   const statusClass = getStatusClass(displayStatus);
-  const tr = document.createElement("tr");
 
-  tr.innerHTML = `
-    <td data-label="ทีมเหย้า">
-      <img src="${match.homeLogo}" class="logo"> ${match.homeTeam}
+  // ===== ROW 1 : ทีม + สกอร์ =====
+  const rowTop = document.createElement("tr");
+  rowTop.classList.add("match-row-top");
+
+  rowTop.innerHTML = `
+    <td colspan="2" data-label="ทีมเหย้า">
+      <img src="${match.homeLogo}" class="logo">
+      ${match.homeTeam}
     </td>
 
-    <td data-label="สกอร์">
+    <td data-label="สกอร์" style="text-align:center; font-weight:700;">
       ${match.score !== "-" ? match.score : "VS"}
     </td>
 
-    <td data-label="ทีมเยือน">
-      <img src="${match.awayLogo}" class="logo"> ${match.awayTeam}
+    <td colspan="3" data-label="ทีมเยือน" style="text-align:right;">
+      ${match.awayTeam}
+      <img src="${match.awayLogo}" class="logo">
+    </td>
+  `;
+
+
+  // ===== ROW 2 : วันที่ + สถานะ + ช่อง =====
+  const rowBottom = document.createElement("tr");
+  rowBottom.classList.add("match-row-bottom");
+
+  rowBottom.innerHTML = `
+    <td colspan="2" data-label="วันที่">
+      📅 ${match.date}
     </td>
 
-    <td data-label="วันที่ / เวลา">
-      ${match.date}
-    </td>
-
-    <td data-label="สถานะ">
+    <td data-label="สถานะ" style="text-align:center;">
       <span class="status ${statusClass}">
         ${displayStatus}
       </span>
     </td>
 
-    <td data-label="ช่อง"
+    <td colspan="3"
         class="channel-cell"
-        style="cursor:pointer"
-        onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
+        data-label="ช่อง"
+        style="text-align:right; cursor:pointer;"
+        onclick="playStream(
+          '${match.url}',
+          '${match.homeTeam}',
+          '${match.awayTeam}',
+          '${league}',
+          this.closest('tr').previousElementSibling
+        )">
 
-      <img src="${match.logo}" class="logo">
-      ${match.channel}
-
+        <img src="${match.logo}" class="logo">
+        ${match.channel}
     </td>
   `;
 
-  tbody.appendChild(tr);
+  tbody.appendChild(rowTop);
+  tbody.appendChild(rowBottom);
 }
 
 
