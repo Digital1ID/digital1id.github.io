@@ -84,9 +84,9 @@ select {
   color: #fff;
 }
 
-.controls select {
+/*.controls select {
   flex: 0 0 100px; /* กำหนดความกว้าง dropdown */
-}
+/*}*/
 
 /* Search Box Always Visible */
 .search-box.always {
