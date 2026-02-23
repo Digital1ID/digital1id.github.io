@@ -27,10 +27,17 @@ function filterByStatus(statusFilter, matchStatus) {
 
   const status = matchStatus.toUpperCase();
 
-  if (statusFilter === "LIVE") return status === "LIVE";
-  if (statusFilter === "FT") return status === "FT";
-  if (statusFilter === "UPCOMING")
+  if (statusFilter === "LIVE") {
+    return status === "LIVE";
+  }
+
+  if (statusFilter === "FT") {
+    return status === "FT";
+  }
+
+  if (statusFilter === "UPCOMING") {
     return status !== "LIVE" && status !== "FT";
+  }
 
   return true;
 }
@@ -151,9 +158,15 @@ function formatStatus(statusText) {
   const raw = statusText ? statusText.trim().toUpperCase() : "";
 
   if (raw === "FT") return "FT";
-  if (/^\d{1,2}[:.]\d{2}$/.test(raw)) return raw.replace(".", ":");
+
+  if (/^\d{1,2}[:.]\d{2}$/.test(raw))
+    return raw.replace(".", ":");
+
   if (raw.includes("LIVE")) return "LIVE";
-  if (raw === "" || raw === "-") return "ถ่ายทอดสด";
+
+  // ถ้าเป็น "-" หรือว่าง ให้ถือว่า LIVE
+  if (raw === "" || raw === "-")
+    return "LIVE";
 
   return raw;
 }
