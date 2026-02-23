@@ -8,8 +8,43 @@
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 <body>
-  <header>📺 ตารางแข่งขันฟุตบอลสด</header>
+<header class="bg-[#141414] shadow-lg">
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <!-- โลโก้ -->
+    <a href="../index.html" class="flex items-center space-x-2">
+      <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
+        FLIX <span class="text-white">Soccer</span>
+      </h1>
+    </a>
 
+    <!-- เมนูนำทาง (Desktop) -->
+    <nav class="hidden md:flex space-x-6 text-white font-semibold">
+      <a href="../index.html" class="hover:text-[#E50914] transition">🏟 ตารางสด</a>
+      <a href="../movie.html" class="hover:text-[#E50914] transition">🎬 หนัง/ซีรี่ย์</a>
+      <a href="../about.html" class="hover:text-[#E50914] transition">ℹ️ เกี่ยวกับเรา</a>
+    </nav>
+
+    <!-- Hamburger Menu (Mobile) -->
+    <button id="menuToggle" class="md:hidden text-white focus:outline-none">
+      ☰
+    </button>
+  </div>
+
+  <!-- เมนูนำทาง (Mobile) -->
+  <nav id="mobileMenu" class="hidden md:hidden bg-[#222] p-4 space-y-3 text-white font-semibold">
+    <a href="../index.html" class="block hover:text-[#E50914] transition">🏟 ตารางสด</a>
+    <a href="../movie.html" class="block hover:text-[#E50914] transition">🎬 หนัง/ซีรี่ย์</a>
+    <a href="../about.html" class="block hover:text-[#E50914] transition">ℹ️ เกี่ยวกับเรา</a>
+  </nav>
+</header>
+<script>
+  const menuToggle = document.getElementById("menuToggle");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
   <div class="player" id="playerBox">
     <h2>🎬 ตัวเล่นวิดีโอ</h2>
     <video id="videoPlayer" controls></video>
