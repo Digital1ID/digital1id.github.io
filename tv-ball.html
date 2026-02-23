@@ -10,35 +10,33 @@
 </head>
 <body>
   <!-- Header -->
-  <header class="bg-[#141414] shadow-lg">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-      <!-- โลโก้ -->
-      <a href="../index.html" class="flex items-center space-x-2">
-        <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
-          FLIX <span class="text-white">Soccer</span>
-        </h1>
-      </a>
-
-      <!-- เมนูนำทาง (Desktop) -->
-      <nav class="hidden md:flex space-x-6 text-white font-semibold">
-        <a href="../tv-ball.html" class="hover:text-[#E50914] transition">🏟 ตารางสด</a>
-        <a href="../movie.html" class="hover:text-[#E50914] transition">🎬 หนัง/ซีรี่ย์</a>
-        <a href="../about.html" class="hover:text-[#E50914] transition">ℹ️ เกี่ยวกับเรา</a>
-      </nav>
-
-      <!-- Hamburger Menu (Mobile) -->
-      <button id="menuToggle" class="md:hidden text-white focus:outline-none">
-        ☰
-      </button>
-    </div>
-
-    <!-- เมนูนำทาง (Mobile) -->
-    <nav id="mobileMenu" class="hidden md:hidden bg-[#222] p-4 space-y-3 text-white font-semibold">
-      <a href="../tv-ball.html" class="block hover:text-[#E50914] transition">🏟 ตารางสด</a>
-      <a href="../movie.html" class="block hover:text-[#E50914] transition">🎬 หนัง/ซีรี่ย์</a>
-      <a href="../about.html" class="block hover:text-[#E50914] transition">ℹ️ เกี่ยวกับเรา</a>
+<header class="sticky top-0 z-50 bg-[#141414]/95 backdrop-blur-sm shadow-lg">
+  <div class="container mx-auto px-4 py-4 flex flex-wrap justify-between items-center">
+    
+    <!-- โลโก้ -->
+    <a href="index.html" class="mb-2 sm:mb-0">
+      <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
+        FLIX <span class="text-white">Soccer</span>
+      </h1>
+    </a>
+    
+    <!-- เมนูนำทาง -->
+    <nav id="main-nav" class="flex flex-wrap space-x-2 text-sm font-medium">
+      <a href="tv-ball.html" class="py-1 px-3 rounded bg-[#E50914] text-white">🏟 ตารางสด</a>
+      <a href="movie.html" class="py-1 px-3 rounded hover:bg-[#333]">🎬 หนัง/ซีรี่ย์</a>
+      <a href="about.html" class="py-1 px-3 rounded hover:bg-[#333]">ℹ️ เกี่ยวกับเรา</a>
     </nav>
-  </header>
+
+    <!-- Search Form -->
+    <form id="search-form" class="w-full sm:w-auto flex space-x-2 mt-2 sm:mt-0" onsubmit="return false;">
+      <input type="text" id="search-input" placeholder="ค้นหาทีม/ลีก..." 
+             class="px-4 py-2 rounded bg-[#333] border border-[#555] text-sm focus:ring-2 focus:ring-[#E50914] text-white w-full sm:w-64"
+             oninput="filterTable()">
+      <button type="submit" onclick="filterTable()" 
+              class="px-3 py-2 bg-[#E50914] text-white rounded hover:bg-red-700">🔍</button>
+    </form>
+  </div>
+</header>
 
   <!-- Player -->
   <div class="player" id="playerBox">
