@@ -65,6 +65,152 @@
     ]
   },
   {
+    "id": "fallout",
+    "name": "Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ)",
+    "category": "ซีรี่ย์ ฝรั่ง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/5pyg6q9jhs4DHts4WwsmKLiBNBv.jpg",
+      "description": "สร้างจากหนึ่งในวิดีโอเกมที่ยอดเยี่ยมที่สุดตลอดกาล ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยูเป็นเรื่องราวของผู้มั่งมีและผู้ยากไร้ในโลกที่แทบไม่เหลืออะไรให้ครอบครอง สองร้อยปีหลังเกิดภัยพิบัติ พลเมืองผู้อ่อนโยนของที่หลบภัยนิวเคลียร์อันหรูหราจำต้องกลับสู่โลกอันซับซ้อน พิลึกพิลั่นชวนเบิกบาน และเต็มไปด้วยความรุนแรงที่รออยู่เบื้องบน",
+      "year": 2026
+    },
+    "seasons": [
+      {
+        "season": 1,
+        "name": "Season 1",
+        "info": {
+          "poster": "https://media.themoviedb.org/t/p/w188_and_h282_face/5pyg6q9jhs4DHts4WwsmKLiBNBv.jpg",
+          "description": "สร้างจากหนึ่งในวิดีโอเกมที่ยอดเยี่ยมที่สุดตลอดกาล ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยูเป็นเรื่องราวของผู้มั่งมีและผู้ยากไร้ในโลกที่แทบไม่เหลืออะไรให้ครอบครอง สองร้อยปีหลังเกิดภัยพิบัติ พลเมืองผู้อ่อนโยนของที่หลบภัยนิวเคลียร์อันหรูหราจำต้องกลับสู่โลกอันซับซ้อน พิลึกพิลั่นชวนเบิกบาน และเต็มไปด้วยความรุนแรงที่รออยู่เบื้องบน",
+          "year": 2026
+        },
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "ตอนที่ 1",
+            "video": "https://media.vdohls.com/pu1ha872j8/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 2,
+            "name": "ตอนที่ 2",
+            "video": "https://media.vdohls.com/gq8krkcaxv/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 3,
+            "name": "ตอนที่ 3",
+            "video": "https://media.vdohls.com/m9r32ek4oq/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 4,
+            "name": "ตอนที่ 4",
+            "video": "https://media.vdohls.com/pk90ofwnmm/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 5,
+            "name": "ตอนที่ 5",
+            "video": "https://media.vdohls.com/xicve6f02s/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 6,
+            "name": "ตอนที่ 6",
+            "video": "https://media.vdohls.com/900rlo0b97/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 7,
+            "name": "ตอนที่ 7",
+            "video": "https://media.vdohls.com/fnamezaski/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 8,
+            "name": "ตอนที่ 8",
+            "video": "https://media.vdohls.com/87pw15sx8l/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          }
+        ]
+      },
+      {
+        "season": 2,
+        "name": "Season 2",
+        "info": {
+          "poster": "https://media.themoviedb.org/t/p/w188_and_h282_face/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+          "description": "จะว่าไง คุณแม็คเคลน",
+          "year": 2026
+        },
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "ตอนที่ 1",
+            "video": "https://media.vdohls.com/o95ujn3es0/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 2,
+            "name": "ตอนที่ 2",
+            "video": "https://media.vdohls.com/uG-Wg_gSKdIrb/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 3,
+            "name": "ตอนที่ 3",
+            "video": "https://media.vdohls.com/4-6P_kUylVHeD/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 4,
+            "name": "ตอนที่ 4",
+            "video": "https://media.vdohls.com/YTHm_H8L8-VTS/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 5,
+            "name": "ตอนที่ 5",
+            "video": "https://media.vdohls.com/c7oRySZ_A-pra/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 6,
+            "name": "ตอนที่ 6",
+            "video": "https://media.vdohls.com/Gu5hlZw_m-Kc5/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 7,
+            "name": "ตอนที่ 7",
+            "video": "https://media.vdohls.com/uYXX-3K3Tf_vF/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 8,
+            "name": "ตอนที่ 8",
+            "video": "https://media.vdohls.com/f64_sIs10-6Bv/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "the-night-manager",
     "name": "The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ)",
     "category": "ซีรี่ย์ ฝรั่ง",
@@ -85,42 +231,42 @@
         "episodes": [
           {
             "episode": 1,
-            "name": "EP. 1",
+            "name": "ตอนที่ 1",
             "video": "https://media.vdohls.com/SAO_6CRgZ-RsV/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 2,
-            "name": "EP. 2",
+            "name": "ตอนที่ 2",
             "video": "https://media.vdohls.com/I5e-yDyU4_7Ml/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 3,
-            "name": "EP. 3",
+            "name": "ตอนที่ 3",
             "video": "https://media.vdohls.com/scATQJ-Ph_NEo/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 4,
-            "name": "EP. 4",
+            "name": "ตอนที่ 4",
             "video": "https://media.vdohls.com/pGkBra_091-b4/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 5,
-            "name": "EP. 5",
+            "name": "ตอนที่ 5",
             "video": "https://media.vdohls.com/zd8sqYw_P-YhX/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 6,
-            "name": "EP. 6",
+            "name": "ตอนที่ 6",
             "video": "https://media.vdohls.com/MB6uyntr-B_hX/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
@@ -138,42 +284,42 @@
         "episodes": [
           {
             "episode": 1,
-            "name": "EP. 1",
+            "name": "ตอนที่ 1",
             "video": "https://media.vdohls.com/F-Xx1TpiX_76T/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 2,
-            "name": "EP. 2",
+            "name": "ตอนที่ 2",
             "video": "https://media.vdohls.com/8znSN_4-9UpQP/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 3,
-            "name": "EP. 3",
+            "name": "ตอนที่ 3",
             "video": "https://media.vdohls.com/N174b_oFP-oEh/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 4,
-            "name": "EP. 4",
+            "name": "ตอนที่ 4",
             "video": "https://media.vdohls.com/aLB-EO4lV1_he/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 5,
-            "name": "EP. 5",
+            "name": "ตอนที่ 5",
             "video": "https://media.vdohls.com/sU3HYdi-uK_Bt/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 6,
-            "name": "EP. 6",
+            "name": "ตอนที่ 6",
             "video": "",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
