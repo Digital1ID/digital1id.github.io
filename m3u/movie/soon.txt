@@ -23,6 +23,19 @@
 
 
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp" tvg-season="1" tvg-episode="1", A Knight of the Seven Kingdoms (2026) อัศวินแห่งเจ็ดราชอาณาจักร EP.1-6 (จบ) S01 E01
+https://media.vdohls.com/7tp_hGUY-ZPeZ/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp" tvg-season="1" tvg-episode="2", A Knight of the Seven Kingdoms (2026) อัศวินแห่งเจ็ดราชอาณาจักร EP.1-6 (จบ) S01 E02
+https://media.vdohls.com/v2lj_n9-dz9Fd/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp" tvg-season="1" tvg-episode="3", A Knight of the Seven Kingdoms (2026) อัศวินแห่งเจ็ดราชอาณาจักร EP.1-6 (จบ) S01 E03
+https://media.vdohls.com/PU-k_27OmPOrl/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp" tvg-season="1" tvg-episode="4", A Knight of the Seven Kingdoms (2026) อัศวินแห่งเจ็ดราชอาณาจักร EP.1-6 (จบ) S01 E04
+https://media.vdohls.com/y-6qtU4_Uc7zZ/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp" tvg-season="1" tvg-episode="5", A Knight of the Seven Kingdoms (2026) อัศวินแห่งเจ็ดราชอาณาจักร EP.1-6 (จบ) S01 E05
+https://media.vdohls.com/Yi4sA4M_oN-qQ/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp" tvg-season="1" tvg-episode="6", A Knight of the Seven Kingdoms (2026) อัศวินแห่งเจ็ดราชอาณาจักร EP.1-6 (จบ) S01 E06
+https://media.vdohls.com/5R8hDhH_x0-I2/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="1", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | 32 ตอนจบ S01 E01
 https://statics-02.duckduckcdn.com/6349a059-718e-516c-87a6-0dd1347b820f/audio-tha/audio.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="2", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | 32 ตอนจบ S01 E02
