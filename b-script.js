@@ -1,6 +1,7 @@
 // ==============================
 // GLOBAL
 // ==============================
+
 const leagueMap = {};
 let autoRefreshInterval = null;
 let hlsPlayer = null;
@@ -9,6 +10,7 @@ let hlsPlayer = null;
 // ==============================
 // SAVE / LOAD SELECTED LEAGUE
 // ==============================
+
 function saveSelectedLeague(league) {
   localStorage.setItem("selectedLeague", league);
 }
@@ -21,23 +23,17 @@ function getSavedLeague() {
 // ==============================
 // STATUS FILTER
 // ==============================
+
 function filterByStatus(statusFilter, matchStatus) {
 
   if (statusFilter === "all") return true;
 
   const status = matchStatus.toUpperCase();
 
-  if (statusFilter === "LIVE") {
-    return status === "LIVE";
-  }
-
-  if (statusFilter === "FT") {
-    return status === "FT";
-  }
-
-  if (statusFilter === "UPCOMING") {
+  if (statusFilter === "LIVE") return status === "LIVE";
+  if (statusFilter === "FT") return status === "FT";
+  if (statusFilter === "UPCOMING")
     return status !== "LIVE" && status !== "FT";
-  }
 
   return true;
 }
@@ -46,7 +42,9 @@ function filterByStatus(statusFilter, matchStatus) {
 // ==============================
 // FETCH & PARSE MATCHES
 // ==============================
+
 async function parseMatches() {
+
   try {
 
     const res = await fetch("https://api-soccer.thai-play.com/api/v4/iptv/livescore/now?token=JF6pHMnpVCRUeEsSqAAjTWA4GbGhMrpD");
@@ -55,12 +53,35 @@ async function parseMatches() {
     const parser = new DOMParser();
     const doc = parser.parseFromString(htmlText, "text/html");
 
-    const containers = doc.querySelectorAll("div.row.gy-3");
     const leagueSelect = document.getElementById("leagueSelect");
 
     Object.keys(leagueMap).forEach(key => delete leagueMap[key]);
 
-    containers.forEach(container => {
+    // 🔥 ดึงทุก element ตามลำดับจริง
+    const allRows = doc.querySelectorAll("div.row");
+
+    let currentDate = new Date().toLocaleDateString("th-TH");
+
+    allRows.forEach(row => {
+
+      // =============================
+      // CHECK DATE BLOCK
+      // =============================
+
+      const dateNode = row.querySelector("b.fs-4");
+
+      if (dateNode) {
+        currentDate = dateNode.textContent.trim();
+        return;
+      }
+
+      // =============================
+      // CHECK MATCH BLOCK
+      // =============================
+
+      if (!row.classList.contains("gy-3")) return;
+
+      const container = row;
 
       const statusNode = container.querySelector("div.col-lg-1 div, div.col-lg-1 span");
       const statusText = statusNode ? statusNode.textContent.trim() : "-";
@@ -68,7 +89,7 @@ async function parseMatches() {
       const homeTeam = container.querySelector("div.text-end p")?.textContent.trim() || "ทีมเหย้า";
       const awayTeam = container.querySelector("div.text-start p")?.textContent.trim() || "ทีมเยือน";
 
-      const leagueNode = container.closest("div.col-lg-12")
+      const leagueNode = container.closest(".col-lg-12")
         ?.previousElementSibling
         ?.querySelector("strong.text-uppercase");
 
@@ -76,10 +97,7 @@ async function parseMatches() {
         ? leagueNode.textContent.trim().replace("|", ":")
         : "ไม่ระบุลีก";
 
-      const dateNode = container.closest("div").querySelector("b.fs-4");
-      const thaiDate = dateNode
-        ? dateNode.textContent.trim()
-        : new Date().toLocaleDateString("th-TH");
+      const thaiDate = currentDate;
 
       const images = container.querySelectorAll("img");
       const homeLogo = images[0]?.src || "";
@@ -89,32 +107,32 @@ async function parseMatches() {
       const scoreText = scoreNode ? scoreNode.textContent.trim() : "-";
 
       const streams = container.querySelectorAll("img.iam-list-tv");
-      const seenChannels = new Set();
 
-      streams.forEach(stream => {
+      const matchKey = homeTeam + "_" + awayTeam + "_" + thaiDate;
 
-        const channel = stream.getAttribute("alt");
-        if (seenChannels.has(channel)) return;
-        seenChannels.add(channel);
+      if (!leagueMap[leagueFull]) {
 
-        let url = stream.getAttribute("data-url");
-        const logo = stream.getAttribute("src");
-        if (!url) return;
+        leagueMap[leagueFull] = [];
 
-        url = url.replace(":443", "").replace("/dooballfree-com/", "/do-ball.com/");
+        if (![...leagueSelect.options].some(opt => opt.value === leagueFull)) {
 
-        if (!leagueMap[leagueFull]) {
-          leagueMap[leagueFull] = [];
+          const opt = document.createElement("option");
+          opt.value = leagueFull;
+          opt.textContent = leagueFull;
+          leagueSelect.appendChild(opt);
 
-          if (![...leagueSelect.options].some(opt => opt.value === leagueFull)) {
-            const opt = document.createElement("option");
-            opt.value = leagueFull;
-            opt.textContent = leagueFull;
-            leagueSelect.appendChild(opt);
-          }
         }
 
-        leagueMap[leagueFull].push({
+      }
+
+      let existingMatch = leagueMap[leagueFull]
+        .find(m => m.matchKey === matchKey);
+
+      if (!existingMatch) {
+
+        existingMatch = {
+
+          matchKey,
           homeTeam,
           awayTeam,
           homeLogo,
@@ -122,9 +140,37 @@ async function parseMatches() {
           date: thaiDate,
           status: statusText,
           score: scoreText,
+          channels: []
+
+        };
+
+        leagueMap[leagueFull].push(existingMatch);
+
+      }
+
+      const seenChannels = new Set();
+
+      streams.forEach(stream => {
+
+        const channel = stream.getAttribute("alt");
+        if (!channel || seenChannels.has(channel)) return;
+
+        seenChannels.add(channel);
+
+        let url = stream.getAttribute("data-url");
+        const logo = stream.getAttribute("src");
+
+        if (!url) return;
+
+        url = url.replace(":443","")
+                 .replace("/dooballfree-com/","/do-ball.com/");
+
+        existingMatch.channels.push({
+
           channel,
           logo,
           url
+
         });
 
       });
@@ -134,39 +180,40 @@ async function parseMatches() {
     const savedLeague = getSavedLeague();
 
     if (savedLeague && leagueMap[savedLeague]) {
+
       document.getElementById("leagueSelect").value = savedLeague;
       renderFilteredLeague();
+
     } else {
+
       document.getElementById("leagueSelect").value = "all";
       renderAllLeagues();
+
     }
 
-  } catch (err) {
+  }
+  catch(err){
 
     document.querySelector("#matchesTable tbody").innerHTML =
-      `<tr><td colspan="6">ไม่สามารถโหลดข้อมูลการแข่งขัน</td></tr>`;
+      `<tr><td colspan="6">โหลดข้อมูลไม่สำเร็จ</td></tr>`;
 
   }
+
 }
 
 
 // ==============================
 // STATUS FORMAT
 // ==============================
+
 function formatStatus(statusText) {
 
   const raw = statusText ? statusText.trim().toUpperCase() : "";
 
   if (raw === "FT") return "FT";
-
-  if (/^\d{1,2}[:.]\d{2}$/.test(raw))
-    return raw.replace(".", ":");
-
+  if (/^\d{1,2}[:.]\d{2}$/.test(raw)) return raw.replace(".", ":");
   if (raw.includes("LIVE")) return "LIVE";
-
-  // ถ้าเป็น "-" หรือว่าง ให้ถือว่า LIVE
-  if (raw === "" || raw === "-")
-    return "LIVE";
+  if (raw === "" || raw === "-") return "LIVE";
 
   return raw;
 }
@@ -175,6 +222,7 @@ function formatStatus(statusText) {
 // ==============================
 // STATUS CLASS
 // ==============================
+
 function getStatusClass(status) {
 
   const s = status.toUpperCase();
@@ -190,6 +238,7 @@ function getStatusClass(status) {
 // ==============================
 // RENDER ALL
 // ==============================
+
 function renderAllLeagues() {
 
   const tbody = document.querySelector("#matchesTable tbody");
@@ -207,12 +256,14 @@ function renderAllLeagues() {
     });
 
   });
+
 }
 
 
 // ==============================
 // RENDER FILTERED
 // ==============================
+
 function renderFilteredLeague() {
 
   const selectedLeague = document.getElementById("leagueSelect").value;
@@ -239,12 +290,14 @@ function renderFilteredLeague() {
   leagueMap[selectedLeague].forEach(match => {
     appendMatchRow(tbody, match, selectedLeague);
   });
+
 }
 
 
 // ==============================
 // APPEND MATCH ROW
 // ==============================
+
 function appendMatchRow(tbody, match, league) {
 
   const statusFilter = document.getElementById("statusSelect")?.value || "all";
@@ -253,50 +306,88 @@ function appendMatchRow(tbody, match, league) {
   if (!filterByStatus(statusFilter, displayStatus)) return;
 
   const statusClass = getStatusClass(displayStatus);
-  const tr = document.createElement("tr");
 
-  tr.innerHTML = `
-  
-    <td data-label="ทีมเหย้า">
-      <img src="${match.homeLogo}" class="logo"> ${match.homeTeam}
+  // ========================
+  // แถวแมตช์
+  // ========================
+  const matchTr = document.createElement("tr");
+  matchTr.classList.add("match-row");
+
+  matchTr.innerHTML = `
+    <td>
+      <img src="${match.homeLogo}" class="team-logo">
+      ${match.homeTeam}
     </td>
 
-    <td data-label="สกอร์">
+    <td>
       ${match.score !== "-" ? match.score : "VS"}
     </td>
 
-    <td data-label="ทีมเยือน">
-      <img src="${match.awayLogo}" class="logo"> ${match.awayTeam}
+    <td>
+      <img src="${match.awayLogo}" class="team-logo">
+      ${match.awayTeam}
     </td>
 
-    <td data-label="วันที่ / เวลา">
-      ${match.date}
-    </td>
+    <td>${match.date}</td>
 
-    <td data-label="สถานะ">
+    <td>
       <span class="status ${statusClass}">
         ${displayStatus}
       </span>
     </td>
 
-    <td data-label="ช่อง"
-        class="channel-cell"
-        style="cursor:pointer"
-        onclick="playStream('${match.url}', '${match.homeTeam}', '${match.awayTeam}', '${league}', this.closest('tr'))">
-
-      <img src="${match.logo}" class="logo">
-      ${match.channel}
-
+    <td>
+      <button class="toggle-channel-btn">
+        ช่อง (${match.channels.length})
+      </button>
     </td>
   `;
 
-  tbody.appendChild(tr);
+  // ========================
+  // แถวช่อง (ใหม่)
+  // ========================
+  const channelTr = document.createElement("tr");
+  channelTr.classList.add("channel-row");
+  channelTr.style.display = "none";
+
+  channelTr.innerHTML = `
+    <td colspan="6">
+      <div class="channel-big-wrapper">
+        ${match.channels.map(ch => `
+          <div class="channel-big-item"
+            onclick="playStream('${ch.url}','${match.homeTeam}','${match.awayTeam}','${league}',this.closest('tr').previousElementSibling)">
+            <img src="${ch.logo}" class="channel-big-logo">
+          </div>
+        `).join("")}
+      </div>
+    </td>
+  `;
+
+  // ปุ่ม toggle
+  matchTr.querySelector(".toggle-channel-btn")
+    .addEventListener("click", () => {
+      channelTr.style.display =
+        channelTr.style.display === "none" ? "table-row" : "none";
+    });
+
+  tbody.appendChild(matchTr);
+  tbody.appendChild(channelTr);
+}
+
+// ==============================
+// TOGGLE CHANNEL ROW
+// ==============================
+
+function toggleChannelRow(btn) {
+  const wrapper = btn.nextElementSibling;
+  wrapper.classList.toggle("show");
 }
 
 
 // ==============================
 // PLAY STREAM
 // ==============================
+
 function playStream(url, homeTeam, awayTeam, league, rowElement) {
 
   if (!url) return;
@@ -318,11 +409,11 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
     hlsPlayer = new Hls();
     hlsPlayer.loadSource(url);
     hlsPlayer.attachMedia(video);
-    video.play();
   } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
     video.src = url;
-    video.play();
   }
+
+  video.play();
 
   document.querySelectorAll("#matchesTable tbody tr")
     .forEach(tr => tr.classList.remove("active-match"));
@@ -336,6 +427,7 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
 // ==============================
 // SEARCH
 // ==============================
+
 function filterTable() {
 
   const input = document.getElementById("searchInput").value.toLowerCase();
@@ -352,12 +444,14 @@ function filterTable() {
     row.style.display = text.includes(input) ? "" : "none";
 
   });
+
 }
 
 
 // ==============================
 // AUTO REFRESH
 // ==============================
+
 function startAutoRefresh() {
 
   if (autoRefreshInterval) clearInterval(autoRefreshInterval);
@@ -365,12 +459,14 @@ function startAutoRefresh() {
   autoRefreshInterval = setInterval(async () => {
     await parseMatches();
   }, 60000);
+
 }
 
 
 // ==============================
 // INIT
 // ==============================
+
 document.addEventListener("DOMContentLoaded", async () => {
 
   document.getElementById("playerBox").classList.remove("active");
@@ -383,15 +479,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       const selectedLeague = document.getElementById("leagueSelect").value;
 
-      if (selectedLeague === "all") {
-        renderAllLeagues();
-      } else {
-        renderFilteredLeague();
-      }
+      if (selectedLeague === "all") renderAllLeagues();
+      else renderFilteredLeague();
 
     });
 
   await parseMatches();
   startAutoRefresh();
+
 
 });
