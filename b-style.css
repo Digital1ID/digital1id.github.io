@@ -1,359 +1,261 @@
-/* ============================= */
-/* GLOBAL */
-/* ============================= */
+/* ==============================
+   GLOBAL
+============================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-html {
-  scroll-behavior: smooth;
+body{
+  font-family: Arial, sans-serif;
+  background:#0f172a;
+  color:#fff;
+  margin:0;
+  padding:10px;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: #141414;
-  color: #ffffff;
-  margin: 0;
+table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:14px;
+  background:#111827;
 }
 
-/* ============================= */
-/* HEADER */
-/* ============================= */
-
-header {
-  background: rgba(20,20,20,0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+th, td{
+  padding:10px 8px;
+  text-align:center;
+  border-bottom:1px solid #1f2937;
+  vertical-align:middle;
 }
 
-header h1 {
-  color: #E50914;
+thead{
+  background:#1e293b;
 }
 
-/* ============================= */
-/* PLAYER */
-/* ============================= */
-
-.player {
-  margin: 20px auto;
-  text-align: center;
-  background: #1c1c1c;
-  padding: 20px;
-  border-radius: 12px;
-  width: 92%;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
-  visibility: hidden;
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: opacity 0.4s ease, max-height 0.4s ease;
+tr:hover{
+  background:#1f2937;
 }
 
-.player.active {
-  visibility: visible;
-  opacity: 1;
-  max-height: 1200px;
+
+/* ==============================
+   TEAM CELL
+============================== */
+
+.match-row td:first-child,
+.match-row td:nth-child(3){
+  display:flex;
+  align-items:center;
+  gap:8px;
+  justify-content:flex-start;
 }
 
-.player h2 {
-  color: #E50914;
-  margin-bottom: 12px;
+.team-logo{
+  width:40px;
+  height:40px;
+  object-fit:contain;
+  flex-shrink:0;
 }
 
-video {
-  width: 100%;
-  max-width: 900px;
-  border-radius: 10px;
-  border: 2px solid #E50914;
+
+/* ==============================
+   LEAGUE HEADER
+============================== */
+
+.league-header td{
+  background:#1e293b;
+  font-weight:bold;
+  text-align:left;
+  padding:10px;
+  font-size:15px;
 }
 
-/* ============================= */
-/* CONTROLS */
-/* ============================= */
 
-.controls {
-  width: 95%;
-  margin: 15px auto;
-  display: flex;
-  gap: 10px;
-  justify-content: flex-end;
-  flex-wrap: wrap;
+/* ==============================
+   STATUS
+============================== */
+
+.status{
+  padding:4px 8px;
+  border-radius:6px;
+  font-size:12px;
+  font-weight:bold;
 }
 
-select,
-.search-box input {
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #444;
-  background: #222;
-  color: #fff;
-  transition: all 0.3s ease;
+.status-live{
+  background:#dc2626;
+  color:#fff;
 }
 
-select:focus,
-.search-box input:focus {
-  outline: none;
-  border-color: #E50914;
-  box-shadow: 0 0 10px rgba(229,9,20,0.5);
+.status-ft{
+  background:#16a34a;
+  color:#fff;
 }
 
-.search-box input {
-  width: 220px;
+.status-upcoming{
+  background:#2563eb;
+  color:#fff;
 }
 
-.search-box input::placeholder {
-  color: #aaa;
+
+/* ==============================
+   CHANNEL BUTTON
+============================== */
+
+.toggle-channel-btn{
+  padding:6px 10px;
+  font-size:12px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  background:#374151;
+  color:#fff;
+  transition:0.2s;
 }
 
-/* ============================= */
-/* TABLE WRAPPER (Scroll Safe) */
-/* ============================= */
-
-.table-wrapper {
-  width: 100%;
-  overflow-x: auto;
+.toggle-channel-btn:hover{
+  background:#4b5563;
 }
 
-/* ============================= */
-/* PREMIUM TABLE */
-/* ============================= */
 
-table {
-  width: 95%;
-  min-width: 600px;
-  margin: 30px auto;
-  border-collapse: collapse;
-  table-layout: fixed;
-  background: linear-gradient(180deg, #1c1c1c, #161616);
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow:
-    0 0 0 1px rgba(255,255,255,0.03),
-    0 15px 35px rgba(0,0,0,0.7);
+/* ==============================
+   CHANNEL ROW (DESKTOP CLEAN)
+============================== */
+
+.channel-row td{
+  background:#0f172a;
+  padding:16px 10px;
+  text-align:center;
 }
 
-@media (min-width: 1200px) {
-  table {
-    max-width: 1200px;
-  }
+/* ใช้ Grid เรียงสวย */
+.channel-big-wrapper{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(90px,1fr));
+  gap:16px;
+  max-width:800px;
+  margin:0 auto;
 }
 
-/* HEADER */
-thead tr {
-  background: linear-gradient(90deg, #E50914, #b20710);
+.channel-big-item{
+  background:#1f2937;
+  border-radius:12px;
+  padding:12px;
+  cursor:pointer;
+  transition:0.25s ease;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
-thead th {
-  position: sticky;
-  top: 0;
-  z-index: 5;
+.channel-big-item:hover{
+  background:#374151;
+  transform:translateY(-3px);
 }
 
-th {
-  padding: 16px 10px;
-  font-size: 0.85rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #fff;
+.channel-big-logo{
+  width:60px;
+  height:60px;
+  object-fit:contain;
 }
 
-/* BODY */
-td {
-  padding: 14px 8px;
-  font-size: 0.95rem;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  transition: background 0.2s ease;
+
+/* ==============================
+   ACTIVE MATCH
+============================== */
+
+.active-match{
+  background:#0c4a6e !important;
 }
 
-/* Zebra */
-tbody tr:nth-child(even) {
-  background: rgba(255,255,255,0.02);
+
+/* ==============================
+   PLAYER BOX
+============================== */
+
+#playerBox{
+  display:none;
+  margin-bottom:20px;
+  background:#111827;
+  padding:15px;
+  border-radius:8px;
 }
 
-/* Hover Desktop */
-@media (hover: hover) {
-  tbody tr:hover {
-    background: rgba(229,9,20,0.15);
-  }
+#playerBox.active{
+  display:block;
 }
 
-/* Column Width Lock (6 columns) */
-th:nth-child(1), td:nth-child(1) { width: 22%; }  /* เหย้า */
-th:nth-child(2), td:nth-child(2) { width: 10%; }  /* สกอร์ */
-th:nth-child(3), td:nth-child(3) { width: 22%; }  /* เยือน */
-th:nth-child(4), td:nth-child(4) { width: 16%; }  /* วันที่ */
-th:nth-child(5), td:nth-child(5) { width: 10%; }  /* สถานะ */
-th:nth-child(6), td:nth-child(6) { width: 20%; }  /* ช่อง */
-
-/* ============================= */
-/* CENTER LOGO PERFECTLY */
-/* ============================= */
-
-/* ทำให้ td จัดกลางจริง */
-td {
-  text-align: center;
-  vertical-align: middle;
+#playerBox h2{
+  font-size:16px;
+  margin-bottom:10px;
 }
 
-/* ============================= */
-/* TEAM STYLE */
-/* ============================= */
-/* จัด team cell ให้อยู่กลาง 100% */
-.team-cell {
-  display: flex;
-  flex-direction: column;   /* ให้ชื่ออยู่ใต้ logo */
-  align-items: center;      /* กลางแนวนอน */
-  justify-content: center;  /* กลางแนวตั้ง */
-  text-align: center;
-  width: 100%;
+#videoPlayer{
+  width:100%;
+  border-radius:8px;
 }
 
-/* จัด logo ให้อยู่กลางจริง */
-.team-cell img,
-td img.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 4px;
+
+/* ==============================
+   SEARCH + SELECT
+============================== */
+
+select, input{
+  padding:6px 10px;
+  border-radius:6px;
+  border:1px solid #374151;
+  background:#1f2937;
+  color:#fff;
+  font-size:13px;
+  margin-right:6px;
 }
 
-/* ป้องกันการเบี้ยว */
-.logo {
-  width: 56px;
-  height: 56px;
-  object-fit: contain;
-  border-radius: 50%;
-  background: #fff;
-  padding: 3px;
-}
 
-/* ============================= */
-/* STATUS BADGE */
-/* ============================= */
+/* ==============================
+   MOBILE (SIMPLE VERSION)
+============================== */
 
-.status {
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-size: 0.75rem;
-  font-weight: 700;
-}
+@media (max-width:768px){
 
-.status-live {
-  background: linear-gradient(90deg, #16a34a, #22c55e);
-  box-shadow: 0 0 10px rgba(34,197,94,0.5);
-}
-
-.status-ft {
-  background: #6b7280;
-}
-
-.status-upcoming {
-  background: linear-gradient(90deg, #2563eb, #3b82f6);
-}
-
-.channel-cell {
-  cursor: pointer;
-  font-weight: 600;
-  transition: all 0.2s ease;
-  border-radius: 8px;
-}
-
-.channel-cell:hover {
-  background: rgba(229,9,20,0.12);
-  color: #E50914;
-  transform: scale(1.02);
-}
-
-/* ============================= */
-/* ACTIVE MATCH */
-/* ============================= */
-
-.active-match {
-  position: relative;
-  font-weight: 600;
-  background: rgba(229, 9, 20, 0.08);
-  box-shadow:
-    inset 0 0 0 2px #E50914,
-    0 0 15px rgba(229,9,20,0.4);
-}
-
-/* ============================= */
-/* LEAGUE HEADER */
-/* ============================= */
-
-.league-header td {
-  background: linear-gradient(90deg, #E50914, #b20710);
-  text-align: center;
-  font-size: 0.9rem;
-  font-weight: 800;
-  letter-spacing: 1px;
-  padding: 16px;
-}
-
-/* ============================= */
-/* ANIMATION */
-/* ============================= */
-
-tbody tr {
-  animation: fadeIn 0.4s ease forwards;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* ============================= */
-/* MOBILE */
-/* ============================= */
-
-@media (max-width: 768px) {
-  .controls {
-    flex-direction: column;
-    align-items: stretch;
+  table{
+    font-size:13px;
   }
 
-  select,
-  .search-box input {
-    width: 100%;
+  th{
+    display:none;
   }
+
+  tr{
+    display:block;
+    margin-bottom:12px;
+    background:#111827;
+    padding:10px;
+    border-radius:8px;
+  }
+
+  td{
+    display:block;
+    text-align:left;
+    padding:6px 0;
+    border:none;
+  }
+
+  td::before{
+    content:attr(data-label);
+    font-weight:bold;
+    display:block;
+    font-size:12px;
+    color:#9ca3af;
+    margin-bottom:2px;
+  }
+
+  .team-logo{
+    width:32px;
+    height:32px;
+  }
+
+  .channel-big-wrapper{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+  .channel-big-logo{
+    width:50px;
+    height:50px;
+  }
+
 }
-
-@media (max-width: 480px) {
-
-  table, thead, tbody, th, td, tr {
-    display: block;
-    width: 100%;
-    min-width: 100%;
-  }
-
-  thead { display: none; }
-
-  tr {
-    margin-bottom: 15px;
-    border: 1px solid #333;
-    border-radius: 10px;
-    padding: 10px;
-    background: #1c1c1c;
-  }
-
-  td {
-    text-align: center;
-    border: none;
-    padding: 6px 10px;
-    position: relative;
-  }
-
-  td:before {
-    content: attr(data-label);
-    font-weight: bold;
-    color: #E50914;
-    display: block;
-    margin-bottom: 4px;
-  }
-}
-
