@@ -36,6 +36,33 @@ https://media.vdohls.com/Yi4sA4M_oN-qQ/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp" tvg-season="1" tvg-episode="6", A Knight of the Seven Kingdoms (2026) อัศวินแห่งเจ็ดราชอาณาจักร EP.1-6 (จบ) S01 E06
 https://media.vdohls.com/5R8hDhH_x0-I2/playlist.m3u8
 
+#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="1", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E01
+https://media.vdohls.com/F-Xx1TpiX_76T/playlist.m3u8
+#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="2", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E02
+https://media.vdohls.com/8znSN_4-9UpQP/playlist.m3u8
+#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="3", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E03
+https://media.vdohls.com/N174b_oFP-oEh/playlist.m3u8
+#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="4", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E04
+https://media.vdohls.com/aLB-EO4lV1_he/playlist.m3u8
+#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="5", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E05
+https://media.vdohls.com/sU3HYdi-uK_Bt/playlist.m3u8
+#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="6", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E06
+
+
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="1" tvg-episode="1", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S01 E01
+https://media.vdohls.com/SAO_6CRgZ-RsV/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="1" tvg-episode="2", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S01 E02
+https://media.vdohls.com/I5e-yDyU4_7Ml/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="1" tvg-episode="3", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S01 E03
+https://media.vdohls.com/scATQJ-Ph_NEo/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="1" tvg-episode="4", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S01 E04
+https://media.vdohls.com/pGkBra_091-b4/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="1" tvg-episode="5", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S01 E05
+https://media.vdohls.com/zd8sqYw_P-YhX/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="1" tvg-episode="6", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S01 E06
+https://media.vdohls.com/MB6uyntr-B_hX/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="1", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | 32 ตอนจบ S01 E01
 https://statics-02.duckduckcdn.com/6349a059-718e-516c-87a6-0dd1347b820f/audio-tha/audio.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="2", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | 32 ตอนจบ S01 E02
