@@ -23,6 +23,41 @@
 
 
 
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="2" tvg-episode="1", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S02 E01
+https://media.vdohls.com/o95ujn3es0/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="2" tvg-episode="2", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S02 E02
+https://media.vdohls.com/uG-Wg_gSKdIrb/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="2" tvg-episode="3", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S02 E03
+https://media.vdohls.com/4-6P_kUylVHeD/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="2" tvg-episode="4", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S02 E04
+https://media.vdohls.com/YTHm_H8L8-VTS/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="2" tvg-episode="5", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S02 E05
+https://media.vdohls.com/c7oRySZ_A-pra/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="2" tvg-episode="6", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S02 E06
+https://media.vdohls.com/Gu5hlZw_m-Kc5/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="2" tvg-episode="7", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S02 E07
+https://media.vdohls.com/uYXX-3K3Tf_vF/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="2" tvg-episode="8", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S02 E08
+https://media.vdohls.com/f64_sIs10-6Bv/playlist.m3u8
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="1" tvg-episode="1", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S01 E01
+https://media.vdohls.com/pu1ha872j8/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="1" tvg-episode="2", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S01 E02
+https://media.vdohls.com/gq8krkcaxv/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="1" tvg-episode="3", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S01 E03
+https://media.vdohls.com/m9r32ek4oq/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="1" tvg-episode="4", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S01 E04
+https://media.vdohls.com/pk90ofwnmm/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="1" tvg-episode="5", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S01 E05
+https://media.vdohls.com/xicve6f02s/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="1" tvg-episode="6", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S01 E06
+https://media.vdohls.com/900rlo0b97/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="1" tvg-episode="7", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S01 E07
+https://media.vdohls.com/fnamezaski/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="1" tvg-episode="8", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S01 E08
+https://media.vdohls.com/87pw15sx8l/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp" tvg-season="1" tvg-episode="1", A Knight of the Seven Kingdoms (2026) อัศวินแห่งเจ็ดราชอาณาจักร EP.1-6 (จบ) S01 E01
 https://media.vdohls.com/7tp_hGUY-ZPeZ/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp" tvg-season="1" tvg-episode="2", A Knight of the Seven Kingdoms (2026) อัศวินแห่งเจ็ดราชอาณาจักร EP.1-6 (จบ) S01 E02
@@ -36,17 +71,17 @@ https://media.vdohls.com/Yi4sA4M_oN-qQ/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp" tvg-season="1" tvg-episode="6", A Knight of the Seven Kingdoms (2026) อัศวินแห่งเจ็ดราชอาณาจักร EP.1-6 (จบ) S01 E06
 https://media.vdohls.com/5R8hDhH_x0-I2/playlist.m3u8
 
-#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="1", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E01
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="1", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E01
 https://media.vdohls.com/F-Xx1TpiX_76T/playlist.m3u8
-#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="2", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E02
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="2", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E02
 https://media.vdohls.com/8znSN_4-9UpQP/playlist.m3u8
-#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="3", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E03
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="3", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E03
 https://media.vdohls.com/N174b_oFP-oEh/playlist.m3u8
-#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="4", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E04
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="4", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E04
 https://media.vdohls.com/aLB-EO4lV1_he/playlist.m3u8
-#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="5", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E05
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="5", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E05
 https://media.vdohls.com/sU3HYdi-uK_Bt/playlist.m3u8
-#EXTINF:-1 type="series" group-title="" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="6", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E06
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp" tvg-season="2" tvg-episode="6", The Night Manager สายลับสองหน้าผ่าองค์กรเถื่อน Season 1-2 (ยังไม่จบ) S02 E06
 
 
 
