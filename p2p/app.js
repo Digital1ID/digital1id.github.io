@@ -104,8 +104,7 @@ const fullTitle = `${seriesName} - ${seasonName} - ${episodeName}`;
 
 videoTitle.innerHTML = `
   <div class="text-lg font-bold">${seriesName}</div>
-  <div class="text-sm text-gray-400">${seasonName}</div>
-  <div class="text-base mt-1">${episodeName}</div>
+  <div class="text-sm text-gray-400">${seasonName} - ${episodeName}</div>
 `;
 
 document.title = fullTitle;
