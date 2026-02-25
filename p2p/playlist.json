@@ -5585,18 +5585,18 @@
                         "referrer": "https://files.akuma-player.xyz/"
                     },
                     {
-                        "episode": 5,
-                        "name": "ตอนที่ 5 บรรยายไทย",
-                        "video": "https://moji.abcdxzy.xyz:8443/vod/cXJBkVvehN/video.mp4/playlist.m3u8",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
+                    "episode": 5,
+                    "name": "ตอนที่ 5",
+                    "video": "https://files.akuma-player.xyz/view/a61e680d-032e-57e2-a4fb-29ba141fde26.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
                     },
                     {
-                        "episode": 6,
-                        "name": "ตอนที่ 6 บรรยายไทย",
-                        "video": "https://moji.abcdxzy.xyz:8443/vod/kg1iOma2Wm/video.mp4/playlist.m3u8",
-                        "subtitle": "",
-                        "referrer": "https://main.24playerhd.com/"
+                    "episode": 6,
+                    "name": "ตอนที่ 6",
+                    "video": "https://files.akuma-player.xyz/view/374932a8-1ac0-5e7c-881c-d0c0e30e41a0.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
                     },
                     {
                         "episode": 7,
@@ -6188,7 +6188,21 @@
                     "video": "https://files.akuma-player.xyz/view/9957879a-30cc-591f-bc75-f41fd0f255f2.txt",
                     "subtitle": "",
                     "referrer": "https://files.akuma-player.xyz/"
-                    }
+                    },
+                    {
+                    "episode": 5,
+                    "name": "ตอนที่ 5",
+                    "video": "https://files.akuma-player.xyz/view/ae379c97-55dd-54d0-a149-49931e87bdf0.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                },
+                {
+                    "episode": 6,
+                    "name": "ตอนที่ 6",
+                    "video": "https://files.akuma-player.xyz/view/190c8cab-4dde-569e-88f3-5cdde7e074a1.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                }
                 ]
             },
             {
