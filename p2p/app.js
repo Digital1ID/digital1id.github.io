@@ -8,27 +8,21 @@ let currentSeason = null;
 let serialData = null;
 
 // =============================
-// ✅ อ่าน Query String (Flexible Version)
+// ✅ อ่าน Query String (Flexible)
 // =============================
 function getQueryParams() {
   const params = new URLSearchParams(window.location.search);
 
-  // id ใช้ id ก่อน ถ้าไม่มีใช้ file แทน
   const id = params.get("id") || params.get("file");
 
-  // season แปลงเป็นตัวเลข ถ้าไม่มีให้เป็น null
   const seasonParam = params.get("season");
   const season = seasonParam ? parseInt(seasonParam) : null;
 
-  // รองรับ ?data=playlist2 หรือ playlist2.json
   let file = params.get("data") || "playlist.json";
-
-  // ถ้าไม่มี .json ให้เติมให้อัตโนมัติ
   if (!file.endsWith(".json")) {
     file += ".json";
   }
 
-  // name decode ให้เรียบร้อย
   const name = params.get("name")
     ? decodeURIComponent(params.get("name"))
     : null;
@@ -52,7 +46,7 @@ function resolveAkumaUrl(url) {
 // ✅ สร้าง URL สำหรับเรียก engine player
 // =============================
 function buildPlayerUrl(ep) {
-  const engine = ep.engine || serialData.engine || "videojs";
+  const engine = ep.engine || serialData?.engine || "videojs";
   const resolvedUrl = resolveAkumaUrl(ep.video);
 
   let url = `${engine}.html?file=${encodeURIComponent(resolvedUrl)}&name=${encodeURIComponent(ep.name)}`;
@@ -75,8 +69,8 @@ function showInfo(info, serialName, category) {
   const serialDetails = document.getElementById("serialDetails");
 
   serialDetails.innerHTML = `
-    <p><strong>ชื่อเรื่อง:</strong> ${serialName}</p>
-    <p><strong>หมวดหมู่:</strong> ${category}</p>
+    <p><strong>ชื่อเรื่อง:</strong> ${serialName || "-"}</p>
+    <p><strong>หมวดหมู่:</strong> ${category || "-"}</p>
     <p><strong>ปีที่ออกฉาย:</strong> ${info?.year || "-"}</p>
     <p><strong>รายละเอียด:</strong> ${info?.plot || info?.description || "ไม่มีข้อมูล"}</p>
     ${info?.poster ? `<img src="${info.poster}" alt="${serialName}" class="mt-3 rounded-lg shadow-md">` : ""}
@@ -106,8 +100,11 @@ function playEpisodeByIndex(index) {
   currentIndex = index;
 
   // ปิดปุ่มเมื่อถึงขอบ
-  document.getElementById("prevBtn").disabled = (index === 0);
-  document.getElementById("nextBtn").disabled = (index === playlistData.length - 1);
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+
+  if (prevBtn) prevBtn.disabled = (index === 0);
+  if (nextBtn) nextBtn.disabled = (index === playlistData.length - 1);
 
   // ไฮไลท์ตอนที่เล่น
   document.querySelectorAll("#playlist button")
@@ -121,7 +118,7 @@ function playEpisodeByIndex(index) {
 // ✅ โหลดซีซัน
 // =============================
 function loadSeason(season) {
-  playlistData = season.episodes || [];
+  playlistData = season?.episodes || [];
   const playlistEl = document.getElementById("playlist");
   playlistEl.innerHTML = "";
 
@@ -140,22 +137,31 @@ function loadSeason(season) {
   });
 
   currentIndex = 0;
-  document.getElementById("prevBtn").disabled = true;
-  document.getElementById("nextBtn").disabled = playlistData.length <= 1;
+
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+
+  if (prevBtn) prevBtn.disabled = true;
+  if (nextBtn) nextBtn.disabled = playlistData.length <= 1;
 }
 
 // =============================
-// ✅ โหลด JSON แบบยืดหยุ่น
+// ✅ โหลด JSON แบบยืดหยุ่น (NO TDZ BUG)
 // =============================
-(async function init() {
-  const { id, season, data } = getQueryParams();
+async function init() {
+  const { id, season, file } = getQueryParams();
 
   try {
-    const res = await fetch(data);
+    const res = await fetch(file);
     if (!res.ok) throw new Error("โหลดไฟล์ไม่สำเร็จ");
 
-    const data = await res.json();
-    serialData = data.find(item => item.id === id);
+    const jsonData = await res.json();
+
+    if (!Array.isArray(jsonData)) {
+      throw new Error("รูปแบบ JSON ไม่ถูกต้อง");
+    }
+
+    serialData = jsonData.find(item => item.id === id);
 
     if (!serialData) {
       document.getElementById("serialDetails").innerHTML =
@@ -164,8 +170,16 @@ function loadSeason(season) {
     }
 
     let seasonIndex = season ? parseInt(season) - 1 : 0;
+
     currentSeason =
-      serialData.seasons[seasonIndex] || serialData.seasons[0];
+      serialData.seasons?.[seasonIndex] ||
+      serialData.seasons?.[0];
+
+    if (!currentSeason) {
+      document.getElementById("serialDetails").innerHTML =
+        "<p class='text-red-500'>ไม่มีข้อมูลซีซัน</p>";
+      return;
+    }
 
     showInfo(
       currentSeason.info,
@@ -197,11 +211,14 @@ function loadSeason(season) {
     });
 
   } catch (err) {
-    console.error(err);
+    console.error("INIT ERROR:", err);
     document.getElementById("serialDetails").innerHTML =
       "<p class='text-red-500'>เกิดข้อผิดพลาดในการโหลดข้อมูล</p>";
   }
-})();
+}
+
+// เรียกใช้งาน
+init();
 
 // =============================
 // ✅ ปุ่ม Next / Prev
