@@ -24,72 +24,77 @@
   </header>
 
   <!-- Main -->
-  <main class="container mx-auto px-4 mt-8 mb-16">
-    <div class="relative aspect-video max-w-[854px] mx-auto">
-      <video
-        id="my-video"
-        class="video-js vjs-big-play-centered rounded-lg overflow-hidden w-full h-full"
-        controls
-        autoplay
-        preload="auto"
-        data-setup='{
-          "playbackRates": [0.5, 1, 1.5, 2],
-          "fluid": true,
-          "poster": "poster.jpg"
-        }'>
-        <source id="videoSource" src="" type="">
-        <track id="subtitleTrack" src="">
-        ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
-      </video>
+  <main class="relative w-full h-screen bg-black overflow-hidden">
 
-      <!-- ปุ่ม overlay -->
-      <a href="../movie.html" 
-         class="absolute top-3 left-3 px-3 py-1.5 rounded-md text-sm font-semibold text-white backdrop-blur-sm bg-white/15 hover:bg-white/35 transition">
-         ย้อนกลับ
-      </a>
-      <a href="#" id="reloadBtn" 
-         class="absolute top-3 right-3 px-3 py-1.5 rounded-md text-sm font-semibold text-white backdrop-blur-sm bg-red-600/60 hover:bg-red-600/90 transition">
-         โหลดซ้ำ
-      </a>
-    </div>
+  <!-- Video -->
+  <video
+    id="my-video"
+    class="w-full h-full object-contain bg-black"
+    controls
+    autoplay>
+    <source id="videoSource" src="" type="">
+  </video>
 
-    <div id="videoTitle" 
-         class="w-full rounded-lg border border-gray-700 p-2 text-center mt-4 mb-4 text-lg font-bold bg-black text-[#E50914]">
-         กำลังโหลด...
-    </div>
-  </main>
+  <!-- Gradient Overlay -->
+  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none"></div>
 
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    let file = params.get("file");
-    let name = params.get("name");
+  <!-- Top Bar -->
+  <div class="absolute top-0 left-0 w-full flex justify-between items-center p-5 z-10">
+    <a href="../movie.html"
+       class="text-white text-sm md:text-base font-semibold bg-black/50 px-4 py-2 rounded hover:bg-black/80 transition">
+       ← ย้อนกลับ
+    </a>
 
-    if (file) file = decodeURIComponent(file);
-    if (name) name = decodeURIComponent(name);
+    <button id="reloadBtn"
+       class="text-white text-sm md:text-base font-semibold bg-red-600/70 px-4 py-2 rounded hover:bg-red-600 transition">
+       โหลดซ้ำ
+    </button>
+  </div>
 
-    if (file) {
-      file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
-    }
+  <!-- Title Bottom -->
+  <div class="absolute bottom-0 left-0 w-full p-6 z-10">
+    <h1 id="videoTitle"
+        class="text-2xl md:text-4xl font-extrabold text-white drop-shadow-lg">
+        กำลังโหลด...
+    </h1>
+  </div>
 
-    const videoSource = document.getElementById("videoSource");
-    if (file) {
-      videoSource.src = file;
-      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
-    }
+</main>
 
-    // ปุ่ม reload โหลดทั้งหน้าใหม่
-    document.getElementById("reloadBtn").addEventListener("click", (e) => {
-      e.preventDefault();
-      location.reload(); // โหลดหน้าใหม่ทั้งหมด
-    });
+<script>
+const params = new URLSearchParams(window.location.search);
+let file = params.get("file");
+let name = params.get("name");
 
-    if (name) {
-      document.title = name;
-      document.getElementById("videoTitle").textContent = name;
-      console.log("Now Playing:", name);
-    }
-    
-  </script>
+if (file) file = decodeURIComponent(file);
+if (name) name = decodeURIComponent(name);
+
+const videoSource = document.getElementById("videoSource");
+const video = document.getElementById("my-video");
+const videoTitle = document.getElementById("videoTitle");
+
+// ตั้งชื่อ
+if (name) {
+  document.title = name;
+  videoTitle.textContent = name;
+}
+
+// ตั้งค่า source แบบเสถียรสุด
+if (file) {
+  videoSource.src = file;
+  videoSource.type = file.includes(".m3u8")
+    ? "application/x-mpegURL"
+    : "video/mp4";
+
+  video.load();
+}
+
+// Reload
+document.getElementById("reloadBtn").addEventListener("click", (e) => {
+  e.preventDefault();
+  location.reload();
+});
+</script>
   <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
