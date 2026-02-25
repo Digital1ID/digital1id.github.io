@@ -2,6 +2,126 @@
   
   {
     "player": "p2p/api-plyr",
+    "name": "รักโดยที่เขาไม่รู้",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeRVifJJ8-GCLq-605OFkktKUVhEtX6fmw_QTsi3UrDg&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1385"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "กลายเป็นแม่เลี้ยงของศัตรูตัวฉกาจ",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4bmnJPbn3RHzuSZgt2kETuk_P2h0f4o4Dmt_Gyu0VOA&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1384"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "บทพิสูจน์และชีวิตใหม่",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb0LDKUf1VkCgLx6LKzqrH8xKFUYfRZ4Q11iVpfCBzcw&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1383"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ตัดญาติพลิกชะตา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJirLv43JyBKh29-kQGU7_goOj_dRkAn2LhGNtWu1BPQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "บรรยายไทย"
+        },
+    "video": "1382"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ตาซ้ายของฉันมองทะลุได้ทุกสิ่ง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSXwQt0GAQf_W-2lpF8JCjxOWh2mdM9SpcVHrdXpduvA&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1381"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "โชคดีต่อเนื่องไม่หยุดหย่อน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrcdHKAvTZ718Z1-zTbSNbLDAAvG04Wov0Vq_aghIrqw&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1380"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "หนุ่มประมงพลิกชะตาตกรัก",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm3IcnR0BzKkc5HCutpypQxPMjzeL-i6dpJt4Naaz-QQ&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1376"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "พยัคฆ์สาวคืนรัง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqISQabMlQAcDL1wHohrmN11UkF5oLKMQAJX85e28nlA&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1371"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "คนในฝันกลายเป็นพ่อของลูก",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxi5pMhNbH4D3ZOhjAskbaiS1Z5-fVm8pxe6lUQEfgkA&s",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1366"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "จากไปไม่ต้องหันกลับ",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4isW6TObAFWuN55uyxXZyw0NfAwW3yTLSNHCdr4XXHA&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1365"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "ชะตารีเซต",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -779,6 +899,18 @@
         "sound": "พากย์ไทย"
         },
     "video": "712"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "สลับตัวกันแต่งงาน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV8dfNt0__qTGqtl2JxUFzGN_w6qa9Tc5nf5HqhzJsvg&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "92"
   },
   {
     "player": "p2p/api-plyr",
