@@ -341,6 +341,14 @@ document.addEventListener("fullscreenchange", async () => {
 
 });
 
+document.addEventListener("fullscreenchange", () => {
+  if (document.fullscreenElement) {
+    fullscreenBtn.textContent = "🡼";
+  } else {
+    fullscreenBtn.textContent = "⛶";
+  }
+});
+
   // =========================
   // SKIP / NEXT
   // =========================
