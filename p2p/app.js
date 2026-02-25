@@ -67,9 +67,11 @@ function buildPlayerUrl(ep) {
 // =============================
 function showInfo(info, serialName, category) {
   const serialDetails = document.getElementById("serialDetails");
-
+  const seasonName = currentSeason?.name || `Season ${currentSeason?.season || ""}`;
+  
   serialDetails.innerHTML = `
     <p><strong>ชื่อเรื่อง:</strong> ${serialName || "-"}</p>
+    <p><strong>ซีซั่น:</strong> ${seasonName || "Season 1"}</p>
     <p><strong>หมวดหมู่:</strong> ${category || "-"}</p>
     <p><strong>ปีที่ออกฉาย:</strong> ${info?.year || "-"}</p>
     <p><strong>รายละเอียด:</strong> ${info?.plot || info?.description || "ไม่มีข้อมูล"}</p>
