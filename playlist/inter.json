@@ -11907,7 +11907,7 @@
     },
     {
     "name": "Apollo 13: Survival (2024) อะพอลโล 13: ภารกิจต้องรอด",
-    "info": "บรรยายไทย (Player1)",
+    "info": { "sound": "บรรยายไทย",
     "poster": "https://www.movie22hd.com/wp-content/uploads/2024/09/Apollo-13-Survival.webp"
     },
     "video": "https://text-lb.xmoviedo24.com/playlist2/ad8d0c3brJ1Kv/master.m3u8"
