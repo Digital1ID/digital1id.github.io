@@ -59,36 +59,73 @@
     </div>
   </main>
 
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    let file = params.get("file");
-    let name = params.get("name");
+<script>
+const params = new URLSearchParams(window.location.search);
+const fileCategory = params.get("file"); // เช่น new, thai
+const movieName = decodeURIComponent(params.get("name") || "");
 
-    if (file) file = decodeURIComponent(file);
-    if (name) name = decodeURIComponent(name);
+const videoSource = document.getElementById("videoSource");
+const videoTitle = document.getElementById("videoTitle");
 
-    if (file) {
-      file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
+async function loadMovie() {
+  if (!fileCategory || !movieName) {
+    videoTitle.textContent = "ไม่พบข้อมูลหนัง";
+    return;
+  }
+
+  try {
+    const response = await fetch(`./playlist/${fileCategory}.json`);
+    const movies = await response.json();
+
+    const movie = movies.find(m => m.name === movieName);
+
+    if (!movie) {
+      videoTitle.textContent = "ไม่พบหนังในระบบ";
+      return;
     }
 
-    const videoSource = document.getElementById("videoSource");
-    if (file) {
-      videoSource.src = file;
-      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
+    // ตั้งค่า Video
+    const videoUrl = movie.video || movie.url || movie.file;
+    if (videoUrl) {
+      videoSource.src = videoUrl;
+      videoSource.type = videoUrl.includes(".m3u8")
+        ? "application/x-mpegURL"
+        : "video/mp4";
     }
 
-    // ปุ่ม reload โหลดทั้งหน้าใหม่
-    document.getElementById("reloadBtn").addEventListener("click", (e) => {
-      e.preventDefault();
-      location.reload(); // โหลดหน้าใหม่ทั้งหมด
-    });
-
-    if (name) {
-      document.title = name;
-      document.getElementById("videoTitle").textContent = name;
-      console.log("Now Playing:", name);
+    // ตั้งค่า Poster
+    const player = videojs("my-video");
+    if (movie.info?.poster) {
+      player.poster(movie.info.poster);
     }
-  </script>
+
+    // ตั้งค่า Title แบบ Netflix
+    document.title = movie.name;
+    videoTitle.innerHTML = `
+      <div class="text-xl font-bold text-white">
+        ${movie.name}
+      </div>
+      <div class="text-sm text-gray-400 mt-1">
+        ${movie.info?.year || ""} • ${movie.info?.sound || ""}
+      </div>
+    `;
+
+    console.log("Now Playing:", movie.name);
+
+  } catch (err) {
+    console.error(err);
+    videoTitle.textContent = "โหลดข้อมูลล้มเหลว";
+  }
+}
+
+// reload
+document.getElementById("reloadBtn").addEventListener("click", (e) => {
+  e.preventDefault();
+  location.reload();
+});
+
+loadMovie();
+</script>
   <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
