@@ -33,7 +33,23 @@
     preload="auto">
     <source id="videoSource" src="" type="">
   </video>
+<div id="customControls"
+     class="absolute bottom-20 left-1/2 -translate-x-1/2 flex gap-3 bg-black/70 backdrop-blur-md px-4 py-2 rounded-lg z-40">
 
+  <button id="muteBtn" class="text-white text-sm">🔊</button>
+
+  <select id="speedControl"
+          class="bg-black text-white text-sm border border-gray-600 rounded px-2 py-1">
+    <option value="0.5">0.5x</option>
+    <option value="1" selected>1x</option>
+    <option value="1.5">1.5x</option>
+    <option value="2">2x</option>
+  </select>
+
+  <button id="pipBtn" class="text-white text-sm">PIP</button>
+  <button id="fullscreenBtn" class="text-white text-sm">⛶</button>
+
+</div>
   <!-- Loading Spinner -->
   <div id="loadingSpinner"
        class="absolute inset-0 flex items-center justify-center bg-black z-20">
