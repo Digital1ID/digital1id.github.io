@@ -2,173 +2,93 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <meta name="referrer" content="no-referrer-when-downgrade">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Movie Player</title>
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet"/>
+  <meta http-equiv="Cache-Control" content="max-age=3600, public">
+  <title>Movie Player</title>
+  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <style>
-    body { background:#141414; }
-    .vjs-control-bar { background: rgba(0,0,0,.6); }
-  </style>
 </head>
-<body class="text-white font-sans">
+<body class="bg-[#141414] text-white font-sans">
 
-<header class="px-6 py-4">
-  <a href="../movie.html" class="text-3xl font-extrabold text-red-600">
-    FLIX <span class="text-white">Movie</span>
-  </a>
-</header>
+  <!-- Header -->
+  <header class="bg-[#141414] shadow-lg">
+    <div class="container mx-auto px-4 py-4 flex justify-start items-center">
+      <a href="../movie.html">
+        <h1 class="text-3xl font-extrabold text-[#E50914] tracking-wider">
+          FLIX <span class="text-white">Movie</span>
+        </h1>
+      </a>
+    </div>
+  </header>
 
-<main class="container mx-auto px-4 mb-16">
+  <!-- Main -->
+  <main class="container mx-auto px-4 mt-8 mb-16">
+    <div class="relative aspect-video max-w-[854px] mx-auto">
+      <video
+        id="my-video"
+        class="video-js vjs-big-play-centered rounded-lg overflow-hidden w-full h-full"
+        controls
+        autoplay
+        preload="auto"
+        data-setup='{
+          "playbackRates": [0.5, 1, 1.5, 2],
+          "fluid": true,
+          "poster": "poster.jpg"
+        }'>
+        <source id="videoSource" src="" type="">
+        <track id="subtitleTrack" kind="subtitles" src="" srclang="th" label="Thai" default>
+        ขอโทษค่ะ เบราว์เซอร์ของคุณไม่รองรับวิดีโอนี้
+      </video>
 
-  <div class="relative aspect-video max-w-5xl mx-auto">
-    <video
-      id="my-video"
-      class="video-js vjs-big-play-centered rounded-lg"
-      controls
-      preload="auto"
-      data-setup='{
-        "fluid": true,
-        "playbackRates": [0.5,1,1.5,2]
-      }'>
-      <source id="videoSource" src="" type="">
-    </video>
+      <!-- ปุ่ม overlay -->
+      <a href="../movie.html" 
+         class="absolute top-3 left-3 px-3 py-1.5 rounded-md text-sm font-semibold text-white backdrop-blur-sm bg-white/15 hover:bg-white/35 transition">
+         ย้อนกลับ
+      </a>
+      <a href="#" id="reloadBtn" 
+         class="absolute top-3 right-3 px-3 py-1.5 rounded-md text-sm font-semibold text-white backdrop-blur-sm bg-red-600/60 hover:bg-red-600/90 transition">
+         โหลดซ้ำ
+      </a>
+    </div>
 
-    <button id="reloadBtn"
-      class="absolute top-3 right-3 bg-red-600/70 hover:bg-red-600 px-3 py-1 rounded text-sm">
-      โหลดซ้ำ
-    </button>
-  </div>
+    <div id="videoTitle" 
+         class="w-full rounded-lg border border-gray-700 p-2 text-center mt-4 mb-4 text-lg font-bold bg-black text-[#E50914]">
+         กำลังโหลด...
+    </div>
+  </main>
 
-  <div id="videoTitle"
-    class="mt-6 text-center text-xl font-bold text-red-500">
-    กำลังโหลด...
-  </div>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    let file = params.get("file");
+    let name = params.get("name");
 
-  <div id="videoPlot"
-    class="mt-4 text-gray-300 max-w-4xl mx-auto text-center text-sm leading-relaxed">
-  </div>
+    if (file) file = decodeURIComponent(file);
+    if (name) name = decodeURIComponent(name);
 
-</main>
-
-<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
-
-<script>
-// =============================
-// CONFIG
-// =============================
-const params = new URLSearchParams(window.location.search);
-const categoryKey = params.get("file");
-const movieName = decodeURIComponent(params.get("name") || "");
-
-const videoElement = document.getElementById("my-video");
-const videoSource = document.getElementById("videoSource");
-const videoTitle = document.getElementById("videoTitle");
-const videoPlot = document.getElementById("videoPlot");
-
-let player;
-let currentMovie;
-
-// =============================
-// LOAD MOVIE FROM JSON
-// =============================
-async function loadMovie() {
-
-  if (!categoryKey || !movieName) {
-    videoTitle.textContent = "ไม่พบข้อมูลหนัง";
-    return;
-  }
-
-  try {
-    const res = await fetch(`https://digital1id.vercel.app/playlist/${categoryKey}.json`);
-    const movies = await res.json();
-
-    const movie = movies.find(m => m.name === movieName);
-    if (!movie) {
-      videoTitle.textContent = "ไม่พบหนังในระบบ";
-      return;
+    if (file) {
+      file = file.replace(/^https:\/\/oneid151\.serv00\.net/, "http://oneid151.serv00.net");
     }
 
-    currentMovie = movie;
-
-    const videoUrl = movie.video || movie.url || movie.file;
-
-    if (!videoUrl) {
-      videoTitle.textContent = "ไม่พบไฟล์วิดีโอ";
-      return;
+    const videoSource = document.getElementById("videoSource");
+    if (file) {
+      videoSource.src = file;
+      videoSource.type = file.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
     }
 
-    videoSource.src = videoUrl;
-    videoSource.type = videoUrl.includes(".m3u8")
-      ? "application/x-mpegURL"
-      : "video/mp4";
-
-    player = videojs("my-video");
-
-    // ตั้ง poster
-    if (movie.info?.poster) {
-      player.poster(movie.info.poster);
-    }
-
-    // Resume Time
-    const savedTime = localStorage.getItem("resume_" + movie.name);
-    player.ready(() => {
-      if (savedTime) {
-        player.currentTime(parseFloat(savedTime));
-      }
-      player.play();
+    // ปุ่ม reload โหลดทั้งหน้าใหม่
+    document.getElementById("reloadBtn").addEventListener("click", (e) => {
+      e.preventDefault();
+      location.reload(); // โหลดหน้าใหม่ทั้งหมด
     });
 
-    // บันทึกเวลาเล่นทุก 5 วิ
-    player.on("timeupdate", () => {
-      if (player.currentTime() > 5) {
-        localStorage.setItem(
-          "resume_" + movie.name,
-          player.currentTime()
-        );
-      }
-    });
-
-    // Continue Watching
-    localStorage.setItem("lastMovie", JSON.stringify({
-      name: movie.name,
-      category: categoryKey,
-      poster: movie.info?.poster
-    }));
-
-    // Netflix Title
-    document.title = movie.name;
-    videoTitle.innerHTML = `
-      <div class="text-2xl font-bold text-white">
-        ${movie.name}
-      </div>
-      <div class="text-gray-400 mt-1">
-        ${movie.info?.year || ""} • ${movie.info?.sound || ""}
-      </div>
-    `;
-
-    videoPlot.textContent = movie.info?.plot || "";
-
-  } catch (err) {
-    console.error(err);
-    videoTitle.textContent = "โหลดข้อมูลล้มเหลว";
-  }
-}
-
-
-// =============================
-// RELOAD BUTTON
-// =============================
-document.getElementById("reloadBtn").addEventListener("click", e => {
-  e.preventDefault();
-  location.reload();
-});
-
-loadMovie();
-</script>
-
+    if (name) {
+      document.title = name;
+      document.getElementById("videoTitle").textContent = name;
+      console.log("Now Playing:", name);
+    }
+  </script>
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
