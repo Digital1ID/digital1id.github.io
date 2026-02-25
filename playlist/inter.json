@@ -1071,63 +1071,73 @@
     },
   {
    "name": "The Long Walk (2025) เกมเดินมรณะ",
-   "info": "ซับไทย",
+   "info": { "sound": "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/09/The-Long-Walk-2025-เกมเดินมรณะ.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/d660c724KnSAs/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/d660c724KnSAs/master.m3u8"
   },
   {
    "name": "Girl in the Cellar (2025)",
    "info": "Soundtrack",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/09/Girl-in-the-Cellar-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/fef980242RhH7/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/fef980242RhH7/master.m3u8"
   },
   {
    "name": "Together (2025) ดูดร่างสร้างรัก",
    "info": "Soundtrack",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/09/Together-2025-ดูดร่างสร้างรัก.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/07438b53OzdIY/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/07438b53OzdIY/master.m3u8"
   },
   {
    "name": "Trust (2025)",
    "info": "Soundtrack",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Trust-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/a27b6f53trWA2/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/a27b6f53trWA2/master.m3u8"
   },
   {
    "name": "Blood Brothers Bara Naga (2025) เลือดเดือด ฝ่าองค์กรทมิฬ",
    "info": { "sound": "พากย์ไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Blood-Brothers-Bara-Naga-2025-เลือดเดือด-ฝ่าองค์กรทมิฬ.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/6a01c63e9pvcM/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/6a01c63e9pvcM/master.m3u8"
   },
   {
    "name": "Abandoned Man (2025)",
-   "info": "ซับไทย",
+   "info": { "sound": "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Abandoned-Man-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/39aea6b5WCAjx/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/39aea6b5WCAjx/master.m3u8"
   },
   {
    "name": "Bang (2025)",
-   "info": "ซับไทย",
+   "info": { "sound": "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Bang-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/5736d3de3gAKH/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/5736d3de3gAKH/master.m3u8"
   },
   {
    "name": "Eenie Meanie (2025)",
-   "info": "ซับไทย",
+   "info": { "sound": "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Eenie-Meanie-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/3d42338czbL1h/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/3d42338czbL1h/master.m3u8"
   },
   {
    "name": "The Map That Leads to You (2025)",
-   "info": "ซับไทย",
+   "info": { "sound": "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/The-Map-That-Leads-to-You-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/e4c56cdex7t0A/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/e4c56cdex7t0A/master.m3u8"
   },
   {
    "name": "Jane Austen Wrecked My Life (2025)",
-   "info": "Soundtrack",
+   "info": { "sound": "Soundtrack",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Jane-Austen-Wrecked-My-Life-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/968da163cxh8M/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/968da163cxh8M/master.m3u8"
   },
   {
    "name": "Double Scoop (2025)",
@@ -1217,121 +1227,141 @@
    "name": "Girl in the Cellar (2025)",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/09/Girl-in-the-Cellar-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/fef980242RhH7/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/fef980242RhH7/master.m3u8"
   },
   {
    "name": "Together (2025) ดูดร่างสร้างรัก",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/09/Together-2025-ดูดร่างสร้างรัก.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/07438b53OzdIY/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/07438b53OzdIY/master.m3u8"
   },
   {
    "name": "Trust (2025)",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Trust-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/a27b6f53trWA2/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/a27b6f53trWA2/master.m3u8"
   },
   {
    "name": "Blood Brothers Bara Naga (2025) เลือดเดือด ฝ่าองค์กรทมิฬ",
    "info": { "sound": "พากย์ไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Blood-Brothers-Bara-Naga-2025-เลือดเดือด-ฝ่าองค์กรทมิฬ.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/6a01c63e9pvcM/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/6a01c63e9pvcM/master.m3u8"
   },
   {
    "name": "Abandoned Man (2025)",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Abandoned-Man-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/39aea6b5WCAjx/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/39aea6b5WCAjx/master.m3u8"
   },
   {
    "name": "Bang (2025)",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Bang-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/5736d3de3gAKH/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/5736d3de3gAKH/master.m3u8"
   },
   {
    "name": "Eenie Meanie (2025)",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Eenie-Meanie-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/3d42338czbL1h/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/3d42338czbL1h/master.m3u8"
   },
   {
    "name": "The Map That Leads to You (2025)",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/The-Map-That-Leads-to-You-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/e4c56cdex7t0A/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/e4c56cdex7t0A/master.m3u8"
   },
   {
    "name": "Jane Austen Wrecked My Life (2025)",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Jane-Austen-Wrecked-My-Life-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/968da163cxh8M/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/968da163cxh8M/master.m3u8"
   },
   {
    "name": "Moon The panda (2025) เพื่อนรัก…จากขุนเขา",
    "info": { "sound": "พากย์ไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Moon-The-panda-2025-เพื่อนรัก…จากขุนเขา.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/2a5b465bEOZMq/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/2a5b465bEOZMq/master.m3u8"
   },
   {
    "name": "Red Sonja (2025) บัลลังก์เลือด",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Red-Sonja-2025-บัลลังก์เลือด.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/204f708fYAZCv/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/204f708fYAZCv/master.m3u8"
   },
   {
    "name": "Descendent (2025)",
    "info": { "sound": "พากย์ไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Descendent-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/2bcc78d283Ru9/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/2bcc78d283Ru9/master.m3u8"
   },
   {
    "name": "Nobody 2 (2025) คนธรรมดานรกเรียกพี่ 2",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Nobody-2-2025-คนธรรมดานรกเรียกพี่-2.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/34f8456aNdeWC/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/34f8456aNdeWC/master.m3u8"
   },
   {
    "name": "Weapons (2025) เวเพินส์",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Weapons-2025-เวเพินส์.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/d93c7fb8D6tfd/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/d93c7fb8D6tfd/master.m3u8"
   },
   {
    "name": "Freakier Friday (2025) ศุกร์สยอง สี่ร่างสลับรุ่น",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Freakier-Friday-2025-ศุกร์สยอง-สี่ร่างสลับรุ่น.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/e14b17c16UxFM/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/e14b17c16UxFM/master.m3u8"
   },
   {
    "name": "Birthrite (2025) เบิร์ธไรต์",
    "info": { "sound": "พากย์ไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Birthrite-2025-เบิร์ธไรต์.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/e1254890fJATK/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/e1254890fJATK/master.m3u8"
   },
   {
    "name": "The Occupant (2025) เดอะ โอคเคอร์แพนท์",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/The-Occupant-2025-เดอะ-โอคเคอร์แพนท์.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/1d6c8129daATo/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/1d6c8129daATo/master.m3u8"
   },
   {
    "name": "Guardian (2025)",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Guardian-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/df73e76fDtoUM/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/df73e76fDtoUM/master.m3u8"
   },
   {
    "name": "Plainclothes (2025)",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/Plainclothes-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/2389a09eCS8df/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/2389a09eCS8df/master.m3u8"
   },
   {
    "name": "She Rides Shotgun (2025)",
    "info": { "sound", "บรรยายไทย",
    "poster": "https://dunung24hd.com/wp-content/uploads/2025/08/She-Rides-Shotgun-2025.webp"
-   "video": "https://text-lb.xmoviedo24.com/playlist2/4f8f6c7cZLN6s/master.m3u8"
+    },
+    "video": "https://text-lb.xmoviedo24.com/playlist2/4f8f6c7cZLN6s/master.m3u8"
   },
     {
       "name": "The Master and Margarita (2024)",
