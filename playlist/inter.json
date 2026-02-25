@@ -1491,14 +1491,14 @@
   },
   {
    "name": "I Know What You Did Last Summer (2025) ซัมเมอร์สยอง…ต้องหวีด",
-   "info": " พากย์ไทย",
+   "info": { "sound": "พากย์ไทย",
    "poster": "https://22-max.com/wp-content/uploads/2025/08/I-Know-What-You-Did-Last-Summer-2025.webp"
    },
    "video": "https://text-lb.xmoviedo24.com/playlist2/b55a8059LJh5t/master.m3u8"
   },
   {
    "name": "The Naked Gun (2025) มือปราบปืนเปลือย",
-   "info": " พากย์ไทย",
+   "info": { "sound": "พากย์ไทย",
    "poster": "https://22-max.com/wp-content/uploads/2025/08/The-Naked-Gun.webp"
    },
    "video": "https://text-lb.xmoviedo24.com/playlist2/e77e2a26fzaSX/master.m3u8"
@@ -1512,7 +1512,7 @@
   },
   {
    "name": "Materialists (2025) รักแบบไหนที่ใจตามหา",
-   "info": " พากย์ไทย",
+   "info": { "sound": "พากย์ไทย",
    "poster": "https://22-max.com/wp-content/uploads/2025/06/Materialists.webp"
    },
    "video": "https://text-lb.xmoviedo24.com/playlist2/834d8826go5zD/master.m3u8"
