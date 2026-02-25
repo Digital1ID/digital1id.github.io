@@ -17752,7 +17752,7 @@
     },
     {
     "name": "Curiosa (2019) รักของเรา",
-    "info": "บรรยายไทย(Player1)",
+    "info": { "sound": "บรรยายไทย",
     "poster": "https://www.movie22hd.com/wp-content/uploads/2024/05/Curiosa-2019.webp"
     },
     "video": "https://text-lb.xmoviedo24.com/playlist2/00a11603/master.m3u8"
