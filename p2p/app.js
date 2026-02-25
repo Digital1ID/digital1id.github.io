@@ -63,19 +63,45 @@ function buildPlayerUrl(ep) {
 }
 
 // =============================
-// ✅ แสดงข้อมูลซีรีส์
+// 🎬 แสดงข้อมูลซีรีส์ (Netflix Style)
 // =============================
 function showInfo(info, serialName, category) {
   const serialDetails = document.getElementById("serialDetails");
-  const seasonName = currentSeason?.name || `Season ${currentSeason?.season || ""}`;
-  
+
+  if (!serialDetails) return;
+
+  const seasonNumber = currentSeason?.season || 1;
+  const seasonName = currentSeason?.name || `Season ${seasonNumber}`;
+  const year = info?.year || "-";
+  const plot = info?.plot || info?.description || "ไม่มีข้อมูล";
+  const poster = info?.poster || "";
+
   serialDetails.innerHTML = `
-    <p><strong>ชื่อเรื่อง:</strong> ${serialName || "-"}</p>
-    <p><strong>ซีซั่น:</strong> ${seasonName || "Season 1"}</p>
-    <p><strong>หมวดหมู่:</strong> ${category || "-"}</p>
-    <p><strong>ปีที่ออกฉาย:</strong> ${info?.year || "-"}</p>
-    <p><strong>รายละเอียด:</strong> ${info?.plot || info?.description || "ไม่มีข้อมูล"}</p>
-    ${info?.poster ? `<img src="${info.poster}" alt="${serialName}" class="mt-3 rounded-lg shadow-md">` : ""}
+    <div style="display:flex; gap:20px; flex-wrap:wrap; align-items:flex-start;">
+      
+      ${poster ? `
+        <div>
+          <img src="${poster}" 
+               alt="${serialName}" 
+               style="width:180px; border-radius:10px; box-shadow:0 10px 25px rgba(0,0,0,.5);">
+        </div>
+      ` : ""}
+
+      <div style="flex:1; min-width:250px;">
+        <h2 style="font-size:22px; font-weight:700; margin-bottom:8px;">
+          ${serialName || "-"}
+        </h2>
+
+        <div style="color:#b3b3b3; margin-bottom:10px;">
+          ${seasonName} • ${year} • ${category || "-"}
+        </div>
+
+        <p style="line-height:1.6; color:#ddd;">
+          ${plot}
+        </p>
+      </div>
+
+    </div>
   `;
 }
 
