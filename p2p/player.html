@@ -140,196 +140,193 @@
 </main>
 
 <script>
-const params = new URLSearchParams(window.location.search);
-let file = params.get("file");
-let name = params.get("name");
+document.addEventListener("DOMContentLoaded", () => {
 
-if (file) file = decodeURIComponent(file);
-if (name) name = decodeURIComponent(name);
+  // =============================
+  // Query Params
+  // =============================
+  const params = new URLSearchParams(window.location.search);
+  let file = params.get("file");
+  let name = params.get("name");
 
-const video = document.getElementById("my-video");
-const source = document.getElementById("videoSource");
-const title = document.getElementById("videoTitle");
+  if (file) file = decodeURIComponent(file);
+  if (name) name = decodeURIComponent(name);
 
-const bigPlay = document.getElementById("bigPlay");
-const loadingSpinner = document.getElementById("loadingSpinner");
-const topBar = document.getElementById("topBar");
-const bottomBar = document.getElementById("bottomBar");
-const skipIntro = document.getElementById("skipIntro");
-const nextBtn = document.getElementById("nextBtn");
+  // =============================
+  // Elements
+  // =============================
+  const video = document.getElementById("my-video");
+  const source = document.getElementById("videoSource");
+  const title = document.getElementById("videoTitle");
+  const bigPlay = document.getElementById("bigPlay");
+  const loadingSpinner = document.getElementById("loadingSpinner");
+  const topBar = document.getElementById("topBar");
+  const bottomBar = document.getElementById("bottomBar");
+  const skipIntro = document.getElementById("skipIntro");
+  const nextBtn = document.getElementById("nextBtn");
 
-// ตั้งชื่อ
-if (name) {
-  document.title = name;
-  title.textContent = name;
-}
+  const playPause = document.getElementById("playPause");
+  const progress = document.getElementById("progress");
+  const volume = document.getElementById("volume");
+  const timeDisplay = document.getElementById("timeDisplay");
+  const fullscreenBtn = document.getElementById("fullscreenBtn");
+  const speedControl = document.getElementById("speedControl");
+  const controlBar = document.getElementById("controlBar");
 
-// ตั้งค่า source
-if (file) {
-  source.src = file;
-  source.type = file.includes(".m3u8")
-    ? "application/x-mpegURL"
-    : "video/mp4";
-  video.load();
-}
+  // =============================
+  // Setup Title
+  // =============================
+  if (name) {
+    document.title = name;
+    title.textContent = name;
+  }
 
-// Loading
-video.addEventListener("canplay", () => {
-  loadingSpinner.style.display = "none";
-});
+  // =============================
+  // Setup Source
+  // =============================
+  if (file) {
+    source.src = file;
+    source.type = file.includes(".m3u8")
+      ? "application/x-mpegURL"
+      : "video/mp4";
+    video.load();
+  }
 
-// Big Play
-bigPlay.addEventListener("click", () => {
-  video.play();
-});
+  // =============================
+  // Loading
+  // =============================
+  video.addEventListener("canplay", () => {
+    loadingSpinner.style.display = "none";
+  });
 
-video.addEventListener("play", () => {
-  bigPlay.style.display = "none";
-});
+  // =============================
+  // Big Play
+  // =============================
+  bigPlay.addEventListener("click", () => video.play());
+  video.addEventListener("play", () => bigPlay.style.display = "none");
+  video.addEventListener("pause", () => bigPlay.style.display = "flex");
 
-video.addEventListener("pause", () => {
-  bigPlay.style.display = "flex";
-});
+  // =============================
+  // Play / Pause Button
+  // =============================
+  playPause.addEventListener("click", () => {
+    video.paused ? video.play() : video.pause();
+  });
 
-// Auto Hide Controls
-let hideTimeout;
-function showBars() {
-  topBar.style.opacity = "1";
-  bottomBar.style.opacity = "1";
+  video.addEventListener("play", () => playPause.textContent = "❚❚");
+  video.addEventListener("pause", () => playPause.textContent = "▶");
 
-  clearTimeout(hideTimeout);
-  hideTimeout = setTimeout(() => {
-    if (!video.paused) {
-      topBar.style.opacity = "0";
-      bottomBar.style.opacity = "0";
+  // =============================
+  // Progress
+  // =============================
+  video.addEventListener("timeupdate", () => {
+    if (!video.duration) return;
+
+    const percent = (video.currentTime / video.duration) * 100;
+    progress.value = percent;
+
+    timeDisplay.textContent =
+      formatTime(video.currentTime) + " / " +
+      formatTime(video.duration);
+
+    // Skip Intro
+    if (video.currentTime < 60 && video.currentTime > 5) {
+      skipIntro.classList.remove("hidden");
+    } else {
+      skipIntro.classList.add("hidden");
     }
-  }, 3000);
-}
 
-document.addEventListener("mousemove", showBars);
-document.addEventListener("touchstart", showBars);
+    // Next
+    if (video.duration - video.currentTime < 20) {
+      nextBtn.classList.remove("hidden");
+    } else {
+      nextBtn.classList.add("hidden");
+    }
+  });
 
-// Skip Intro (60 วิแรก)
-video.addEventListener("timeupdate", () => {
-  if (video.currentTime < 60 && video.currentTime > 5) {
-    skipIntro.classList.remove("hidden");
-  } else {
-    skipIntro.classList.add("hidden");
+  progress.addEventListener("input", () => {
+    if (!video.duration) return;
+    video.currentTime = (progress.value / 100) * video.duration;
+  });
+
+  // =============================
+  // Volume
+  // =============================
+  volume.addEventListener("input", () => {
+    video.volume = volume.value;
+  });
+
+  // =============================
+  // Speed
+  // =============================
+  speedControl.addEventListener("change", () => {
+    video.playbackRate = parseFloat(speedControl.value);
+  });
+
+  // =============================
+  // Fullscreen
+  // =============================
+  fullscreenBtn.addEventListener("click", () => {
+    if (!document.fullscreenElement) {
+      video.requestFullscreen();
+    } else {
+      document.exitFullscreen();
+    }
+  });
+
+  // =============================
+  // Skip Intro / Next
+  // =============================
+  skipIntro.addEventListener("click", () => {
+    video.currentTime = 60;
+  });
+
+  nextBtn.addEventListener("click", () => {
+    window.location.href = "../movie.html";
+  });
+
+  // =============================
+  // Reload
+  // =============================
+  document.getElementById("reloadBtn").addEventListener("click", (e) => {
+    e.preventDefault();
+    location.reload();
+  });
+
+  // =============================
+  // Auto Hide (Netflix Style)
+  // =============================
+  let hideTimeout;
+
+  function showControls() {
+    controlBar.style.opacity = "1";
+    topBar.style.opacity = "1";
+    bottomBar.style.opacity = "1";
+
+    clearTimeout(hideTimeout);
+    hideTimeout = setTimeout(() => {
+      if (!video.paused) {
+        controlBar.style.opacity = "0";
+        topBar.style.opacity = "0";
+        bottomBar.style.opacity = "0";
+      }
+    }, 3000);
   }
 
-  // Next ตอนใกล้จบ
-  if (video.duration - video.currentTime < 20) {
-    nextBtn.classList.remove("hidden");
-  } else {
-    nextBtn.classList.add("hidden");
+  document.addEventListener("mousemove", showControls);
+  document.addEventListener("touchstart", showControls);
+
+  // =============================
+  // Format Time
+  // =============================
+  function formatTime(seconds) {
+    if (!seconds || isNaN(seconds)) return "00:00";
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
   }
-});
 
-skipIntro.addEventListener("click", () => {
-  video.currentTime = 60;
-});
-
-nextBtn.addEventListener("click", () => {
-  window.location.href = "../movie.html";
-});
-
-// Reload
-document.getElementById("reloadBtn").addEventListener("click", (e) => {
-  e.preventDefault();
-  location.reload();
 });
 </script>
-<script>
-const playPause = document.getElementById("playPause");
-const progress = document.getElementById("progress");
-const volume = document.getElementById("volume");
-const timeDisplay = document.getElementById("timeDisplay");
-const fullscreenBtn = document.getElementById("fullscreenBtn");
-const speedControl = document.getElementById("speedControl");
-const controlBar = document.getElementById("controlBar");
-
-// =================
-// Play / Pause
-// =================
-playPause.addEventListener("click", () => {
-  if (video.paused) video.play();
-  else video.pause();
-});
-
-video.addEventListener("play", () => playPause.textContent = "❚❚");
-video.addEventListener("pause", () => playPause.textContent = "▶");
-
-// =================
-// Progress
-// =================
-video.addEventListener("timeupdate", () => {
-  const percent = (video.currentTime / video.duration) * 100;
-  progress.value = percent || 0;
-
-  timeDisplay.textContent =
-    formatTime(video.currentTime) + " / " + formatTime(video.duration);
-});
-
-progress.addEventListener("input", () => {
-  const time = (progress.value / 100) * video.duration;
-  video.currentTime = time;
-});
-
-// =================
-// Volume
-// =================
-volume.addEventListener("input", () => {
-  video.volume = volume.value;
-});
-
-// =================
-// Speed
-// =================
-speedControl.addEventListener("change", () => {
-  video.playbackRate = parseFloat(speedControl.value);
-});
-
-// =================
-// Fullscreen
-// =================
-fullscreenBtn.addEventListener("click", () => {
-  if (!document.fullscreenElement) {
-    video.requestFullscreen();
-  } else {
-    document.exitFullscreen();
-  }
-});
-
-// =================
-// Auto Hide
-// =================
-let hideTimeout;
-
-function showControls() {
-  controlBar.style.opacity = "1";
-
-  clearTimeout(hideTimeout);
-  hideTimeout = setTimeout(() => {
-    if (!video.paused) {
-      controlBar.style.opacity = "0";
-    }
-  }, 3000);
-}
-
-document.addEventListener("mousemove", showControls);
-document.addEventListener("touchstart", showControls);
-
-// =================
-// Format Time
-// =================
-function formatTime(seconds) {
-  if (!seconds) return "00:00";
-
-  const mins = Math.floor(seconds / 60);
-  const secs = Math.floor(seconds % 60);
-  return `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
-}
-</script>
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
