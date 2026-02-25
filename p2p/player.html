@@ -33,22 +33,57 @@
     preload="auto">
     <source id="videoSource" src="" type="">
   </video>
-<div id="customControls"
-     class="absolute bottom-20 left-1/2 -translate-x-1/2 flex gap-3 bg-black/70 backdrop-blur-md px-4 py-2 rounded-lg z-40">
+<!-- NETFLIX CONTROL BAR -->
+<div id="controlBar"
+     class="absolute bottom-0 left-0 w-full px-6 pb-6 pt-10 
+            bg-gradient-to-t from-black/90 via-black/60 to-transparent
+            opacity-100 transition-opacity duration-300 z-40">
 
-  <button id="muteBtn" class="text-white text-sm">🔊</button>
+  <!-- Progress -->
+  <div class="mb-4">
+    <input id="progress"
+           type="range"
+           value="0"
+           min="0"
+           max="100"
+           class="w-full accent-red-600 cursor-pointer">
+  </div>
 
-  <select id="speedControl"
-          class="bg-black text-white text-sm border border-gray-600 rounded px-2 py-1">
-    <option value="0.5">0.5x</option>
-    <option value="1" selected>1x</option>
-    <option value="1.5">1.5x</option>
-    <option value="2">2x</option>
-  </select>
+  <!-- Controls Row -->
+  <div class="flex items-center justify-between text-white">
 
-  <button id="pipBtn" class="text-white text-sm">PIP</button>
-  <button id="fullscreenBtn" class="text-white text-sm">⛶</button>
+    <!-- Left -->
+    <div class="flex items-center gap-4">
+      <button id="playPause" class="text-2xl">▶</button>
 
+      <span id="timeDisplay" class="text-sm opacity-80">
+        00:00 / 00:00
+      </span>
+
+      <input id="volume"
+             type="range"
+             min="0"
+             max="1"
+             step="0.05"
+             value="1"
+             class="w-24 accent-white cursor-pointer">
+    </div>
+
+    <!-- Right -->
+    <div class="flex items-center gap-4">
+
+      <select id="speedControl"
+              class="bg-transparent border border-gray-500 rounded px-2 py-1 text-sm">
+        <option value="0.5">0.5x</option>
+        <option value="1" selected>1x</option>
+        <option value="1.5">1.5x</option>
+        <option value="2">2x</option>
+      </select>
+
+      <button id="fullscreenBtn" class="text-xl">⛶</button>
+    </div>
+
+  </div>
 </div>
   <!-- Loading Spinner -->
   <div id="loadingSpinner"
@@ -205,27 +240,60 @@ document.getElementById("reloadBtn").addEventListener("click", (e) => {
 });
 </script>
 <script>
-// ==================
-// MUTE
-// ==================
-const muteBtn = document.getElementById("muteBtn");
-muteBtn.addEventListener("click", () => {
-  video.muted = !video.muted;
-  muteBtn.textContent = video.muted ? "🔇" : "🔊";
+const video = document.getElementById("my-video");
+
+const playPause = document.getElementById("playPause");
+const progress = document.getElementById("progress");
+const volume = document.getElementById("volume");
+const timeDisplay = document.getElementById("timeDisplay");
+const fullscreenBtn = document.getElementById("fullscreenBtn");
+const speedControl = document.getElementById("speedControl");
+const controlBar = document.getElementById("controlBar");
+
+// =================
+// Play / Pause
+// =================
+playPause.addEventListener("click", () => {
+  if (video.paused) video.play();
+  else video.pause();
 });
 
-// ==================
-// SPEED CONTROL
-// ==================
-const speedControl = document.getElementById("speedControl");
+video.addEventListener("play", () => playPause.textContent = "❚❚");
+video.addEventListener("pause", () => playPause.textContent = "▶");
+
+// =================
+// Progress
+// =================
+video.addEventListener("timeupdate", () => {
+  const percent = (video.currentTime / video.duration) * 100;
+  progress.value = percent || 0;
+
+  timeDisplay.textContent =
+    formatTime(video.currentTime) + " / " + formatTime(video.duration);
+});
+
+progress.addEventListener("input", () => {
+  const time = (progress.value / 100) * video.duration;
+  video.currentTime = time;
+});
+
+// =================
+// Volume
+// =================
+volume.addEventListener("input", () => {
+  video.volume = volume.value;
+});
+
+// =================
+// Speed
+// =================
 speedControl.addEventListener("change", () => {
   video.playbackRate = parseFloat(speedControl.value);
 });
 
-// ==================
-// FULLSCREEN
-// ==================
-const fullscreenBtn = document.getElementById("fullscreenBtn");
+// =================
+// Fullscreen
+// =================
 fullscreenBtn.addEventListener("click", () => {
   if (!document.fullscreenElement) {
     video.requestFullscreen();
@@ -234,21 +302,34 @@ fullscreenBtn.addEventListener("click", () => {
   }
 });
 
-// ==================
-// PICTURE IN PICTURE
-// ==================
-const pipBtn = document.getElementById("pipBtn");
+// =================
+// Auto Hide
+// =================
+let hideTimeout;
 
-if ("pictureInPictureEnabled" in document) {
-  pipBtn.addEventListener("click", async () => {
-    if (document.pictureInPictureElement) {
-      await document.exitPictureInPicture();
-    } else {
-      await video.requestPictureInPicture();
+function showControls() {
+  controlBar.style.opacity = "1";
+
+  clearTimeout(hideTimeout);
+  hideTimeout = setTimeout(() => {
+    if (!video.paused) {
+      controlBar.style.opacity = "0";
     }
-  });
-} else {
-  pipBtn.style.display = "none";
+  }, 3000);
+}
+
+document.addEventListener("mousemove", showControls);
+document.addEventListener("touchstart", showControls);
+
+// =================
+// Format Time
+// =================
+function formatTime(seconds) {
+  if (!seconds) return "00:00";
+
+  const mins = Math.floor(seconds / 60);
+  const secs = Math.floor(seconds % 60);
+  return `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
 }
 </script>
   <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
