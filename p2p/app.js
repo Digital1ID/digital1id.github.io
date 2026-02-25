@@ -93,9 +93,22 @@ function playEpisodeByIndex(index) {
   videoFrame.style.height = "480px";
   videoFrame.scrollIntoView({ behavior: "smooth", block: "center" });
 
-  // อัปเดต title
-  videoTitle.textContent = ep.name;
-  document.title = ep.name;
+// =============================
+// อัปเดต Title (ชื่อเรื่อง + ซีซั่น + ตอน)
+// =============================
+const seriesName = serialData?.name || "";
+const seasonName = currentSeason?.name || `Season ${currentSeason?.season || ""}`;
+const episodeName = ep.name || "";
+
+const fullTitle = `${seriesName} - ${seasonName} - ${episodeName}`;
+
+videoTitle.innerHTML = `
+  <div class="text-lg font-bold">${seriesName}</div>
+  <div class="text-sm text-gray-400">${seasonName}</div>
+  <div class="text-base mt-1">${episodeName}</div>
+`;
+
+document.title = fullTitle;
 
   currentIndex = index;
 
