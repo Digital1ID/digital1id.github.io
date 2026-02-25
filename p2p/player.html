@@ -24,40 +24,67 @@
   </header>
 
   <!-- Main -->
-  <main class="relative w-full h-screen bg-black overflow-hidden">
+<main class="relative w-full h-screen bg-black overflow-hidden group">
 
-  <!-- Video -->
+  <!-- VIDEO -->
   <video
     id="my-video"
     class="w-full h-full object-contain bg-black"
-    controls
-    autoplay>
+    preload="auto">
     <source id="videoSource" src="" type="">
   </video>
 
-  <!-- Gradient Overlay -->
-  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none"></div>
+  <!-- Loading Spinner -->
+  <div id="loadingSpinner"
+       class="absolute inset-0 flex items-center justify-center bg-black z-20">
+    <div class="w-14 h-14 border-4 border-red-600 border-t-transparent rounded-full animate-spin"></div>
+  </div>
 
-  <!-- Top Bar -->
-  <div class="absolute top-0 left-0 w-full flex justify-between items-center p-5 z-10">
+  <!-- Big Play Button -->
+  <div id="bigPlay"
+       class="absolute inset-0 flex items-center justify-center z-20 cursor-pointer">
+    <div class="w-24 h-24 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center hover:scale-110 transition">
+      <div class="ml-2 w-0 h-0 border-t-[18px] border-b-[18px] border-l-[28px] border-t-transparent border-b-transparent border-l-white"></div>
+    </div>
+  </div>
+
+  <!-- Gradient -->
+  <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent pointer-events-none"></div>
+
+  <!-- Top Controls -->
+  <div id="topBar"
+       class="absolute top-0 left-0 w-full flex justify-between items-center p-5 z-30 transition-opacity duration-300 opacity-100">
     <a href="../movie.html"
-       class="text-white text-sm md:text-base font-semibold bg-black/50 px-4 py-2 rounded hover:bg-black/80 transition">
+       class="text-white text-sm font-semibold bg-black/60 px-4 py-2 rounded hover:bg-black">
        ← ย้อนกลับ
     </a>
 
     <button id="reloadBtn"
-       class="text-white text-sm md:text-base font-semibold bg-red-600/70 px-4 py-2 rounded hover:bg-red-600 transition">
+       class="text-white text-sm font-semibold bg-red-600/80 px-4 py-2 rounded hover:bg-red-600">
        โหลดซ้ำ
     </button>
   </div>
 
-  <!-- Title Bottom -->
-  <div class="absolute bottom-0 left-0 w-full p-6 z-10">
+  <!-- Bottom Info -->
+  <div id="bottomBar"
+       class="absolute bottom-0 left-0 w-full p-6 z-30 transition-opacity duration-300 opacity-100">
     <h1 id="videoTitle"
         class="text-2xl md:text-4xl font-extrabold text-white drop-shadow-lg">
         กำลังโหลด...
     </h1>
   </div>
+
+  <!-- Skip Intro -->
+  <button id="skipIntro"
+          class="absolute bottom-24 right-8 bg-white text-black px-4 py-2 rounded font-semibold hidden z-40">
+          ข้ามอินโทร
+  </button>
+
+  <!-- Next Episode -->
+  <button id="nextBtn"
+          class="absolute bottom-24 right-8 bg-red-600 text-white px-4 py-2 rounded font-semibold hidden z-40">
+          ดูเรื่องถัดไป
+  </button>
 
 </main>
 
@@ -69,25 +96,91 @@ let name = params.get("name");
 if (file) file = decodeURIComponent(file);
 if (name) name = decodeURIComponent(name);
 
-const videoSource = document.getElementById("videoSource");
 const video = document.getElementById("my-video");
-const videoTitle = document.getElementById("videoTitle");
+const source = document.getElementById("videoSource");
+const title = document.getElementById("videoTitle");
+
+const bigPlay = document.getElementById("bigPlay");
+const loadingSpinner = document.getElementById("loadingSpinner");
+const topBar = document.getElementById("topBar");
+const bottomBar = document.getElementById("bottomBar");
+const skipIntro = document.getElementById("skipIntro");
+const nextBtn = document.getElementById("nextBtn");
 
 // ตั้งชื่อ
 if (name) {
   document.title = name;
-  videoTitle.textContent = name;
+  title.textContent = name;
 }
 
-// ตั้งค่า source แบบเสถียรสุด
+// ตั้งค่า source
 if (file) {
-  videoSource.src = file;
-  videoSource.type = file.includes(".m3u8")
+  source.src = file;
+  source.type = file.includes(".m3u8")
     ? "application/x-mpegURL"
     : "video/mp4";
-
   video.load();
 }
+
+// Loading
+video.addEventListener("canplay", () => {
+  loadingSpinner.style.display = "none";
+});
+
+// Big Play
+bigPlay.addEventListener("click", () => {
+  video.play();
+});
+
+video.addEventListener("play", () => {
+  bigPlay.style.display = "none";
+});
+
+video.addEventListener("pause", () => {
+  bigPlay.style.display = "flex";
+});
+
+// Auto Hide Controls
+let hideTimeout;
+function showBars() {
+  topBar.style.opacity = "1";
+  bottomBar.style.opacity = "1";
+
+  clearTimeout(hideTimeout);
+  hideTimeout = setTimeout(() => {
+    if (!video.paused) {
+      topBar.style.opacity = "0";
+      bottomBar.style.opacity = "0";
+    }
+  }, 3000);
+}
+
+document.addEventListener("mousemove", showBars);
+document.addEventListener("touchstart", showBars);
+
+// Skip Intro (60 วิแรก)
+video.addEventListener("timeupdate", () => {
+  if (video.currentTime < 60 && video.currentTime > 5) {
+    skipIntro.classList.remove("hidden");
+  } else {
+    skipIntro.classList.add("hidden");
+  }
+
+  // Next ตอนใกล้จบ
+  if (video.duration - video.currentTime < 20) {
+    nextBtn.classList.remove("hidden");
+  } else {
+    nextBtn.classList.add("hidden");
+  }
+});
+
+skipIntro.addEventListener("click", () => {
+  video.currentTime = 60;
+});
+
+nextBtn.addEventListener("click", () => {
+  window.location.href = "../movie.html";
+});
 
 // Reload
 document.getElementById("reloadBtn").addEventListener("click", (e) => {
