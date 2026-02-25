@@ -83,7 +83,7 @@ async function loadMovie() {
   }
 
   try {
-    const res = await fetch(`./playlist/${categoryKey}.json`);
+    const res = await fetch(`playlist/${categoryKey}.json`);
     const movies = await res.json();
 
     const movie = movies.find(m => m.name === movieName);
