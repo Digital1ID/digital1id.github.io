@@ -204,6 +204,55 @@ document.getElementById("reloadBtn").addEventListener("click", (e) => {
   location.reload();
 });
 </script>
+<script>
+const video = document.getElementById("my-video");
+
+// ==================
+// MUTE
+// ==================
+const muteBtn = document.getElementById("muteBtn");
+muteBtn.addEventListener("click", () => {
+  video.muted = !video.muted;
+  muteBtn.textContent = video.muted ? "🔇" : "🔊";
+});
+
+// ==================
+// SPEED CONTROL
+// ==================
+const speedControl = document.getElementById("speedControl");
+speedControl.addEventListener("change", () => {
+  video.playbackRate = parseFloat(speedControl.value);
+});
+
+// ==================
+// FULLSCREEN
+// ==================
+const fullscreenBtn = document.getElementById("fullscreenBtn");
+fullscreenBtn.addEventListener("click", () => {
+  if (!document.fullscreenElement) {
+    video.requestFullscreen();
+  } else {
+    document.exitFullscreen();
+  }
+});
+
+// ==================
+// PICTURE IN PICTURE
+// ==================
+const pipBtn = document.getElementById("pipBtn");
+
+if ("pictureInPictureEnabled" in document) {
+  pipBtn.addEventListener("click", async () => {
+    if (document.pictureInPictureElement) {
+      await document.exitPictureInPicture();
+    } else {
+      await video.requestPictureInPicture();
+    }
+  });
+} else {
+  pipBtn.style.display = "none";
+}
+</script>
   <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 </body>
 </html>
