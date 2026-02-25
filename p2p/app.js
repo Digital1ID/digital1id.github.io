@@ -8,15 +8,32 @@ let currentSeason = null;
 let serialData = null;
 
 // =============================
-// ✅ อ่าน Query String
+// ✅ อ่าน Query String (Flexible Version)
 // =============================
 function getQueryParams() {
   const params = new URLSearchParams(window.location.search);
-  return {
-    id: params.get("id"),
-    season: params.get("season"),
-    file: params.get("file") || "playlist.json"
-  };
+
+  // id ใช้ id ก่อน ถ้าไม่มีใช้ file แทน
+  const id = params.get("id") || params.get("file");
+
+  // season แปลงเป็นตัวเลข ถ้าไม่มีให้เป็น null
+  const seasonParam = params.get("season");
+  const season = seasonParam ? parseInt(seasonParam) : null;
+
+  // รองรับ ?data=playlist2 หรือ playlist2.json
+  let file = params.get("data") || "playlist.json";
+
+  // ถ้าไม่มี .json ให้เติมให้อัตโนมัติ
+  if (!file.endsWith(".json")) {
+    file += ".json";
+  }
+
+  // name decode ให้เรียบร้อย
+  const name = params.get("name")
+    ? decodeURIComponent(params.get("name"))
+    : null;
+
+  return { id, season, file, name };
 }
 
 // =============================
@@ -131,10 +148,10 @@ function loadSeason(season) {
 // ✅ โหลด JSON แบบยืดหยุ่น
 // =============================
 (async function init() {
-  const { id, season, file } = getQueryParams();
+  const { id, season, data } = getQueryParams();
 
   try {
-    const res = await fetch(file);
+    const res = await fetch(data);
     if (!res.ok) throw new Error("โหลดไฟล์ไม่สำเร็จ");
 
     const data = await res.json();
