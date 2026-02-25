@@ -17157,7 +17157,7 @@
     },
     {
     "name": "Mary (2019) เรือปีศาจ",
-    "info": "พากย์ไทย (Player1)",
+    "info": { "sound": "พากย์ไทย",
     "poster": "https://www.movie22hd.com/wp-content/uploads/2024/05/Mary.webp"
     },
     "video": "https://text-lb.xmoviedo24.com/playlist2/a7cb7b03/master.m3u8"
