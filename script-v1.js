@@ -1,4 +1,6 @@
-// --- [ CONFIG ] ---
+// =============================
+// 🎬 CONFIG
+// =============================
 const CATEGORIES = [
     { key: 'new', title: 'หนังใหม่' },
     { key: 'thai', title: 'หนังไทย' },
@@ -14,51 +16,70 @@ const CATEGORIES = [
 
 const ITEMS_PER_ROW = 16;
 let allMoviesByTitle = {};
-let originalSectionsHtml = ''; // เก็บ HTML หน้าหลักเดิม
+let originalSectionsHtml = '';
 
-// --- [ COMMON FUNCTIONS ] ---
+
+// =============================
+// 🎬 CREATE MOVIE CARD
+// =============================
 function createMovieCard(movie, index = 0) {
-  const moviePlayer = movie.player || 'watch';
-  const movieFile = movie.file || movie.url || movie.video;
-  const movieName = movie.name || '';
-  const movieSubtitle = movie.subtitle;
 
-  let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}`;
-  if (movieSubtitle?.trim()) {
-    watchUrl += `&subtitle=${encodeURIComponent(movieSubtitle)}`;
-  }
+  const movieName = movie.name || '';
+  const categoryKey = movie.categoryKey || '';
+
+  // ✅ ส่ง categoryKey ไป player แทน video url
+  let watchUrl = `player.html?file=${encodeURIComponent(categoryKey)}&name=${encodeURIComponent(movieName)}`;
 
   const soundText = movie.info?.sound || (typeof movie.info === 'string' ? movie.info : '');
   const subtitleText = movie.info?.subtitles || '';
-  const posterUrl = movie.logo || movie.image || movie.poster || (typeof movie.info === 'object' ? movie.info.poster : null);
+  const posterUrl =
+      movie.logo ||
+      movie.image ||
+      movie.poster ||
+      (typeof movie.info === 'object' ? movie.info.poster : null);
 
   return `
     <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg 
                 hover:shadow-blue-500/30 transition duration-300 group cursor-pointer 
                 transform hover:scale-105 opacity-0 animate-fadeIn"
          style="animation-delay:${index * 0.1}s">
+
       <a href="${watchUrl}">
         <div class="relative">
           <img src="${posterUrl || '/images/no-image.jpg.svg'}"
                onerror="this.onerror=null;this.src='/images/no-image.jpg.svg';"
                alt="${movieName}"
                class="w-full h-[225px] object-cover transition duration-500 group-hover:opacity-90">
-          <div class="absolute top-1 right-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs px-2 py-1 rounded-md font-medium shadow-md border border-blue-400/30">
+
+          <div class="absolute top-1 right-1 bg-gradient-to-r from-blue-600 to-blue-500 
+                      text-white text-xs px-2 py-1 rounded-md font-medium shadow-md 
+                      border border-blue-400/30">
             ${soundText}
           </div>
         </div>
+
         <div class="p-2">
-          <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
-          <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
-          <p class="text-xs text-gray-400">ซับไตเติล : ${subtitleText || 'ไม่มี'}</p>
+          <p class="text-sm font-semibold truncate" title="${movieName}">
+            ${movieName}
+          </p>
+          <p class="text-xs text-gray-400">
+            เสียงภาษา : ${soundText}
+          </p>
+          <p class="text-xs text-gray-400">
+            ซับไตเติล : ${subtitleText || 'ไม่มี'}
+          </p>
         </div>
       </a>
     </div>
   `;
 }
 
-// --- [ INDEX.HTML LOGIC ] ---
+
+// =============================
+// 🎬 CREATE SECTION
+// =============================
 function createMovieSection(title, movies, categoryKey, isSearch = false) {
+
   const limit = isSearch ? movies.length : ITEMS_PER_ROW;
   const limitedMovies = movies.slice(0, limit);
   const cardsHtml = limitedMovies.map((movie, i) => createMovieCard(movie, i)).join('');
@@ -72,7 +93,9 @@ function createMovieSection(title, movies, categoryKey, isSearch = false) {
             ${title}
           </h3>
         </div>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 
+                    lg:grid-cols-6 gap-4">
           ${cardsHtml}
         </div>
       </section>
@@ -85,122 +108,144 @@ function createMovieSection(title, movies, categoryKey, isSearch = false) {
         <h3 class="text-3xl font-bold border-l-4 border-red-600 pl-3">
           ${title}
         </h3>
+
         <a href="${categoryUrl}" 
            class="text-red-600 font-semibold hover:text-red-400 transition">
           ดูทั้งหมด ›
         </a>
       </div>
 
-      <!-- ปุ่มเลื่อนซ้าย -->
-      <button 
-        class="absolute left-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 z-10"
-        onclick="scrollSection(this, -1)">‹</button>
-
-      <!-- Container แนวนอน -->
-      <div class="movie-row flex space-x-2 overflow-x-auto scrollbar-hide pb-4 px-4 snap-x snap-mandatory scroll-smooth">
+      <div class="movie-row flex space-x-2 overflow-x-auto 
+                  scrollbar-hide pb-4 px-4 snap-x snap-mandatory scroll-smooth">
         ${cardsHtml}
       </div>
-
-      <!-- ปุ่มเลื่อนขวา -->
-      <button 
-        class="absolute right-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 z-10"
-        onclick="scrollSection(this, 1)">›</button>
     </section>
   `;
 }
 
-async function loadAllMovies() {
-    const container = document.getElementById('movie-sections-container');
-    const searchResultContainer = document.getElementById('search-result-container');
 
+// =============================
+// 🎬 LOAD ALL MOVIES
+// =============================
+async function loadAllMovies() {
+
+  const container = document.getElementById('movie-sections-container');
+  const searchResultContainer = document.getElementById('search-result-container');
+
+  searchResultContainer.innerHTML = '';
+  searchResultContainer.style.display = 'none';
+  container.style.display = 'block';
+
+  container.innerHTML = '<p class="text-gray-400">กำลังโหลดรายการหนังทั้งหมด...</p>';
+
+  let allSectionsHtml = '';
+  allMoviesByTitle = {};
+
+  for (const category of CATEGORIES) {
+
+    let movies = [];
+
+    try {
+      const response = await fetch(`./playlist/${category.key}.json`);
+      if (!response.ok) continue;
+
+      movies = await response.json();
+
+      // ✅ เพิ่ม categoryKey เข้า movie ทุกตัว
+      movies = movies.map(m => ({
+        ...m,
+        categoryKey: category.key
+      }));
+
+    } catch (error) {
+      console.error(`Error loading ${category.key}:`, error);
+      continue;
+    }
+
+    if (movies && movies.length > 0) {
+
+      allSectionsHtml += createMovieSection(
+        category.title,
+        movies,
+        category.key
+      );
+
+      movies.forEach(movie => {
+        const nameKey = (movie.name || '').toLowerCase();
+        if (!allMoviesByTitle[nameKey]) {
+          allMoviesByTitle[nameKey] = movie;
+        }
+      });
+    }
+  }
+
+  if (allSectionsHtml) {
+    container.innerHTML = allSectionsHtml;
+    originalSectionsHtml = allSectionsHtml;
+  } else {
+    container.innerHTML =
+      '<p class="text-blue-500">ไม่พบรายการหนังในระบบ</p>';
+    originalSectionsHtml = '';
+  }
+}
+
+
+// =============================
+// 🔍 SEARCH
+// =============================
+function searchMovies() {
+
+  const query = document.getElementById('search-input').value.toLowerCase();
+  const container = document.getElementById('movie-sections-container');
+  const searchResultContainer = document.getElementById('search-result-container');
+
+  if (!query || query.length < 2) {
     searchResultContainer.innerHTML = '';
     searchResultContainer.style.display = 'none';
     container.style.display = 'block';
+    container.innerHTML = originalSectionsHtml;
+    return;
+  }
 
-    container.innerHTML = '<p class="text-gray-400">กำลังโหลดรายการหนังทั้งหมด...</p>';
-    let allSectionsHtml = '';
-    allMoviesByTitle = {};
+  container.style.display = 'none';
+  searchResultContainer.style.display = 'block';
 
-    for (const category of CATEGORIES) {
-        let movies = [];
-        try {
-            const response = await fetch(`./playlist/${category.key}.json`);
-            if (!response.ok) {
-                console.warn(`Skipping category ${category.key}: File not found or failed to load.`);
-                continue;
-            }
-            movies = await response.json();
-        } catch (error) {
-            console.error(`Error loading JSON for ${category.key}:`, error);
-            continue;
-        }
+  const allMoviesArray = Object.values(allMoviesByTitle);
 
-        if (movies && movies.length > 0) {
-            allSectionsHtml += createMovieSection(category.title, movies, category.key);
+  const filteredMovies = allMoviesArray.filter(movie => {
 
-            movies.forEach(movie => {
-                const nameKey = (movie.name || '').toLowerCase();
-                if (!allMoviesByTitle[nameKey]) {
-                    allMoviesByTitle[nameKey] = movie;
-                }
-            });
-        }
-    }
+    const name = (movie.name || '').toLowerCase();
+    const description = movie.info?.plot?.toLowerCase() || '';
+    const sound = movie.info?.sound?.toLowerCase() || '';
+    const subtitles = movie.info?.subtitles?.toLowerCase() || '';
 
-    if (allSectionsHtml) {
-        container.innerHTML = allSectionsHtml;
-        originalSectionsHtml = allSectionsHtml;
-    } else {
-        container.innerHTML = '<p class="text-blue-500">ไม่พบรายการหนังในทุกหมวดหมู่. โปรดตรวจสอบไฟล์ JSON ในโฟลเดอร์ playlist/</p>';
-        originalSectionsHtml = '';
-    }
+    const searchText = `${name} ${description} ${sound} ${subtitles}`;
+    return searchText.includes(query);
+  });
+
+  if (filteredMovies.length > 0) {
+
+    const searchTitle =
+      `🔍 ผลการค้นหา "${document.getElementById('search-input').value}" (${filteredMovies.length} รายการ)`;
+
+    const searchSection =
+      createMovieSection(searchTitle, filteredMovies, 'search', true);
+
+    searchResultContainer.innerHTML = searchSection;
+
+  } else {
+
+    searchResultContainer.innerHTML =
+      `<p class="text-blue-500 text-2xl mt-8">
+        ไม่พบรายการหนังที่ตรงกับ "${document.getElementById('search-input').value}"
+      </p>`;
+  }
 }
 
-// --- [ SEARCH LOGIC ] ---
-function searchMovies() {
-    const query = document.getElementById('search-input').value.toLowerCase();
-    const container = document.getElementById('movie-sections-container');
-    const searchResultContainer = document.getElementById('search-result-container');
 
-    if (!query || query.length < 2) {
-        searchResultContainer.innerHTML = '';
-        searchResultContainer.style.display = 'none';
-        container.style.display = 'block';
-        if (originalSectionsHtml) {
-            container.innerHTML = originalSectionsHtml;
-        } else {
-            loadAllMovies();
-        }
-        return;
-    }
-
-    container.style.display = 'none';
-    searchResultContainer.style.display = 'block';
-
-    const allMoviesArray = Object.values(allMoviesByTitle);
-
-    const filteredMovies = allMoviesArray.filter(movie => {
-        const name = (movie.name || '').toLowerCase();
-        const description = movie.info?.description?.toLowerCase() || '';
-        const sound = movie.info?.sound?.toLowerCase() || '';
-        const subtitles = movie.info?.subtitles?.toLowerCase() || '';
-
-        const searchText = `${name} ${description} ${sound} ${subtitles}`;
-        return searchText.includes(query);
-    });
-
-    if (filteredMovies.length > 0) {
-        const searchTitle = `🔍 ผลการค้นหา "${document.getElementById('search-input').value}" (${filteredMovies.length} รายการ)`;
-        const searchSection = createMovieSection(searchTitle, filteredMovies, 'search', true);
-        searchResultContainer.innerHTML = searchSection;
-    } else {
-        searchResultContainer.innerHTML = `<p class="text-blue-500 text-2xl mt-8">ไม่พบรายการหนังที่ตรงกับ "${document.getElementById('search-input').value}"</p>`;
-    }
-}
-
-// --- [ INIT ] ---
+// =============================
+// 🚀 INIT
+// =============================
 document.addEventListener('DOMContentLoaded', () => {
-    if (document.title.includes('หน้าหลัก')) {
-        loadAllMovies();
-    }
+  loadAllMovies();
 });
