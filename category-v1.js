@@ -25,7 +25,7 @@ function createMovieCard(movie, index = 0) {
     const movieFile = movie.file || movie.url || movie.video;
     const movieSubtitle = movie.subtitle;
 
-    let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&season=${encodeURIComponent(movieName)}&name=${encodeURIComponent(movieName)}`;
+    let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&season=${encodeURIComponent(movieSeason)}&name=${encodeURIComponent(movieName)}`;
     if (movieSubtitle && movieSubtitle.trim() !== '') {
         watchUrl += `&subtitle=${encodeURIComponent(movieSubtitle)}`;
     }
