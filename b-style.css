@@ -259,3 +259,55 @@ select, input{
   }
 
 }
+
+.notice-bar {
+  background-color: #141414;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  border-top: 2px solid #e50914;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  font-size: 12px; /* 👈 เล็กลงอีก */
+}
+
+.notice-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.notice-text {
+  flex: 1;
+  min-width: 160px;
+  font-size: 9px; /* 👈 ลดขนาดข้อความลงอีก */
+}
+
+.notice-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.notice-btn {
+  background-color: #e50914;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 9px; /* 👈 ปรับขนาดปุ่มให้เล็กลงอีก */
+  transition: background 0.3s ease;
+}
+.notice-btn:hover {
+  background-color: #f6121d;
+}
+
+.notice-btn.alt {
+  background-color: #333;
+}
+.notice-btn.alt:hover {
+  background-color: #444;
+}
