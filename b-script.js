@@ -353,6 +353,18 @@ async function parseMatches() {
            <td colspan="6">
              โหลดข้อมูลไม่สำเร็จ
            </td>
+         </tr>
+         <tr>
+           <td colspan="6">
+<div class="notice-bar">
+  <img src="https://doo-nang.com/img/warning-icon.svg" alt="warning" class="notice-icon">
+  <span class="notice-text">แนะนำ!! ดูไม่ได้ ภาพไม่มา ใช้ VPN </span>
+  <div class="notice-actions">
+    <a href="https://one.one.one.one" target="_blank" class="notice-btn">1.1.1.1</a>
+    <a href="https://www.youtube.com/watch?v=79kN5Rc-r7M" target="_blank" rel="noopener" class="notice-btn alt">ดูวิธีใช้ VPN</a>
+  </div>
+</div>
+</td>
          </tr>`;
 
   }
