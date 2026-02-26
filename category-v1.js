@@ -21,7 +21,7 @@ let currentCategory = '';
 function createMovieCard(movie, index = 0) {
     const moviePlayer = movie.player || 'watch';
     const movieFile = movie.file || movie.url || movie.video;
-    const movieName = movie.name || '';
+    const movieName = movie.nameTH || movie.nameEN || movie.name || '';
     const movieSubtitle = movie.subtitle; 
 
     let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}`;
