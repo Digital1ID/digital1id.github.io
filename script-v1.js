@@ -37,7 +37,7 @@ function createMovieCard(movie, index = 0) {
     <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg 
                 hover:shadow-blue-500/30 transition duration-300 group cursor-pointer 
                 transform hover:scale-105 opacity-0 animate-fadeIn"
-         style="animation-delay:${index * 0.1}s">
+         style="animation-delay:${index * 0.5}s">
       <a href="${watchUrl}">
         <div class="relative">
           <img src="${posterUrl || '/images/no-image.jpg.svg'}"
