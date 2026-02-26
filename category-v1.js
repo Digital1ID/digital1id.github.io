@@ -20,11 +20,12 @@ let currentCategory = '';
 // --- [ COMMON FUNCTIONS ] ---
 function createMovieCard(movie, index = 0) {
     const moviePlayer = movie.player || 'watch';
-    const movieFile = movie.file || movie.url || movie.video;
     const movieName = movie.nameTH || movie.nameEN || movie.name || '';
-    const movieSubtitle = movie.subtitle; 
+    const movieSeason = movie.season || '1';
+    const movieFile = movie.file || movie.url || movie.video;
+    const movieSubtitle = movie.subtitle;
 
-    let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&name=${encodeURIComponent(movieName)}`;
+    let watchUrl = `${moviePlayer}.html?file=${encodeURIComponent(movieFile || '')}&season=${encodeURIComponent(movieName)}&name=${encodeURIComponent(movieName)}`;
     if (movieSubtitle && movieSubtitle.trim() !== '') {
         watchUrl += `&subtitle=${encodeURIComponent(movieSubtitle)}`;
     }
