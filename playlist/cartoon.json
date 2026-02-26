@@ -25,7 +25,8 @@
       "poster": "https://anime-good.com/wp-content/uploads/2025/10/One-Punch-Man-Season-3.webp",
       "sound": "พากย์ไทย"
     },
-    "video": "one-punch-man-season-3-th"
+    "video": "one-punch-man-season-3-th",
+    "season": "3"
   },
   {
     "player": "p2p/playlist",
@@ -53,7 +54,8 @@
         "sound": "พากย์ไทย - ญี่ปุ่น",
         "subtitles": "บรรยายไทย"
         },
-    "video": "6461"
+    "video": "6461",
+    "season": "3"
   },
   {
     "player": "p2p/playlist",
@@ -67,7 +69,8 @@
         "sound": "พากย์ไทย",
         "subtitles": ""
         },
-   "video": "6451"
+   "video": "6451",
+   "season": "2"
   },
   {
     "player": "p2p/playlist",
@@ -81,7 +84,8 @@
         "sound": "อังกฤษ",
         "subtitles": "บรรยายไทย"
         },
-    "video": "6425"
+    "video": "6425",
+    "season": "3"
   },
   {
     "player": "p2p/playlist",
