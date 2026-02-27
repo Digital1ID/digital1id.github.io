@@ -1,6 +1,19 @@
 [
   {
     "player": "p2p/player",
+    "name": "The Bluff (2026) ชำระแค้นราชินีโจรสลัด",
+    "category": "ซูมโรง ชนโรง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/5VlK5PFVJCHTLWc0gIdpJuhr8qZ.jpg",
+      "plot": "",
+      "year": 2026,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/384da866868579816a09875e/384da866868579816a09875e.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "name": "Crime 101 (2026) เส้นทางปล้นโคตรระห่ำ",
     "category": "ซูมโรง ชนโรง",
     "info": {
