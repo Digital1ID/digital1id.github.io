@@ -827,6 +827,20 @@
             "video": "https://media.vdohls.com/kgW_gPu-4g0Nw/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 6,
+            "name": "ตอนที่ 6",
+            "video": "https://media.vdohls.com/Sya_MFy1CT-RW/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 7,
+            "name": "ตอนที่ 7",
+            "video": "https://media.vdohls.com/U_4c3NO-UQzpf/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
           }
         ]
       }
