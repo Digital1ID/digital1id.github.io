@@ -2,6 +2,18 @@
   
   {
     "player": "p2p/api-plyr",
+    "name": "2002อีกครั้ง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLkQgqByFopph4gBcHVU5cqFMp-1yXnGn-pV510033Lg&s=10",
+        "description": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1405"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "รักโดยที่เขาไม่รู้",
     "category": "ละครสั้นจีน",
     "info": { 
