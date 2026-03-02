@@ -22,6 +22,9 @@
 
 
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/c3hz0WrOdb5EhoWha8TCPfkpMYm.jpg", Scream 7 หวีดสุดขีด 7 (2026)
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://dididino.online/r2master_8c7e88504f57758feef1af2769098724.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/5VlK5PFVJCHTLWc0gIdpJuhr8qZ.jpg", The Bluff (2026) ชำระแค้นราชินีโจรสลัด
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
