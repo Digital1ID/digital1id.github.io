@@ -26,6 +26,10 @@
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://dididino.online/r2master_8c7e88504f57758feef1af2769098724.m3u8
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/jfUDfpwtppoXOkN4QtFwjAJthnz.jpg", Detective Conan Episode ZERO ยอดนักสืบจิ๋ว โคนัน คดีพิพิธภัณฑ์สัตว์น้ำของคุโด้ ชินอิจิ (2026)
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://dididino.online/r2playlist_0e0387e4dcb6ce3620ac9e57cb984e23.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/5VlK5PFVJCHTLWc0gIdpJuhr8qZ.jpg", The Bluff (2026) ชำระแค้นราชินีโจรสลัด
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/384da866868579816a09875e/384da866868579816a09875e.m3u8
