@@ -1,12 +1,12 @@
 [
   {
     "id": "moon-knight-2022",
-    "name": "Moon Knight (2022) อัศวินพระจันทร์ EP.1-6 (จบ)",
+    "name": "Moon Knight (2022) อัศวินพระจันทร์ ตอนที่1-6 (จบ)",
     "category": "ซีรี่ย์",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2023/11/Moon-Knight-2022-e1700373498410.webp",
-      "description": "Home » ดูซีรีย์ออนไลน์ » Moon Knight (2022) อัศวินพระจันทร์ EP.1-6 (จบ)",
-      "year": 2026
+      "plot": "Moon Knight (2022) อัศวินพระจันทร์ ตอนที่1-6 (จบ)",
+      "year": 2022
     },
     "seasons": [
       {
@@ -14,49 +14,114 @@
         "name": "Season 1",
         "info": {
           "poster": "https://kub24hd.com/wp-content/uploads/2023/11/Moon-Knight-2022-e1700373498410.webp",
-          "description": "Home » ดูซีรีย์ออนไลน์ » Moon Knight (2022) อัศวินพระจันทร์ EP.1-6 (จบ)",
-          "year": 2026
+          "plot": "Moon Knight (2022) อัศวินพระจันทร์ ตอนที่1-6 (จบ)",
+          "year": 2022
         },
         "episodes": [
           {
             "episode": 1,
-            "name": "EP. 1",
+            "name": "ตอนที่ 1",
             "video": "https://media.vdohls.com/hazm4xwak5/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 2,
-            "name": "EP. 2",
+            "name": "ตอนที่ 2",
             "video": "https://media.vdohls.com/guoor4wdc6/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 3,
-            "name": "EP. 3",
+            "name": "ตอนที่ 3",
             "video": "https://media.vdohls.com/0vz8pa56hf/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 4,
-            "name": "EP. 4",
+            "name": "ตอนที่ 4",
             "video": "https://media.vdohls.com/acf8326qwa/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 5,
-            "name": "EP. 5",
+            "name": "ตอนที่ 5",
             "video": "https://media.vdohls.com/f93s8uyaso/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 6,
-            "name": "EP. 6",
+            "name": "ตอนที่ 6",
             "video": "https://media.vdohls.com/7u71v5fzl2/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-falcon-and-the-winter-soldier",
+    "name": "The Falcon and the Winter Soldier (2021) ตอนที่1-6 (จบ)",
+    "category": "ซีรี่ย์ ฝรั่ง",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2024/05/The-Falcon-and-the-Winter-Soldier-2021.webp",
+      "plot": "The Falcon and the Winter Soldier (2021) ตอนที่1-6 (จบ)",
+      "year": 2021
+    },
+    "seasons": [
+      {
+        "season": 1,
+        "name": "Season 1",
+        "info": {
+          "poster": "https://kub24hd.com/wp-content/uploads/2024/05/The-Falcon-and-the-Winter-Soldier-2021.webp",
+          "plot": "The Falcon and the Winter Soldier (2021) ตอนที่1-6 (จบ)",
+          "year": 2021
+        },
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "ตอนที่ 1",
+            "video": "https://media.vdohls.com/zyay24nsxw/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 2,
+            "name": "ตอนที่ 2",
+            "video": "https://media.vdohls.com/r4iubccsc6/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 3,
+            "name": "ตอนที่ 3",
+            "video": "https://media.vdohls.com/h6y29b5y58/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 4,
+            "name": "ตอนที่ 4",
+            "video": "https://media.vdohls.com/zo7qnqw1tq/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 5,
+            "name": "ตอนที่ 5",
+            "video": "https://media.vdohls.com/qgpwdh8ctg/playlist.m3u8",
+            "subtitle": "",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 6,
+            "name": "ตอนที่ 6",
+            "video": "https://media.vdohls.com/0pz4tw1oys/playlist.m3u8",
             "subtitle": "",
             "referrer": "https://hplay.hdplayfull.xyz/"
           }
@@ -6290,11 +6355,18 @@
                     },
                     {
                         "episode": 8,
-                        "name": "ตอนที่ 8 ยังไม่มา",
-                        "video": "",
+                        "name": "ตอนที่ 8 บรรยายไทย",
+                        "video": "https://files.akuma-player.xyz/view/225a0a15-ee81-5a22-b14f-d27b4cadc145.txt",
                         "subtitle": "",
                         "referrer": "https://main.24playerhd.com/"
-                    }
+                    },
+                {
+                    "episode": 9,
+                    "name": "ตอนที่ 9 ยังไม่มา",
+                    "video": "",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                }
                 ]
             }
         ]
