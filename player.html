@@ -103,69 +103,88 @@ document.title = movie.name;
 title.textContent = movie.name;
 plot.textContent = movie.info?.plot||"";
 
-// Load Video
-const loadVideo = (url)=>{
-if(url.includes(".m3u8") && Hls.isSupported()){
-const hls = new Hls();
-hls.loadSource(url);
-hls.attachMedia(video);
-}else{
-video.src=url;
+// ======================
+// LOAD VIDEO FUNCTION
+// ======================
+function loadVideo(videoUrl){
+    if(!videoUrl) return;
+    if(videoUrl.endsWith(".m3u8") && Hls.isSupported()){
+        if(window.hls) window.hls.destroy();
+        window.hls = new Hls();
+        hls.loadSource(videoUrl);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+            video.play().catch(()=>{});
+        });
+    } else {
+        video.src = videoUrl;
+        video.load();
+        video.play().catch(()=>{});
+    }
 }
-};
+
+// โหลด video จาก JSON
 loadVideo(movie.video||movie.url||movie.file);
 
-// Subtitles
+// ======================
+// SUBTITLES
+// ======================
 if(movie.subtitles?.length){
-subtitleSelect.innerHTML='<option value="">Subtitles</option>';
-movie.subtitles.forEach((sub,i)=>{
-const opt=document.createElement('option');
-opt.value=i;
-opt.text=sub.lang;
-subtitleSelect.appendChild(opt);
-});
-subtitleSelect.onchange=()=>{
-const index=subtitleSelect.value;
-if(index===""){ Array.from(video.textTracks).forEach(t=>t.mode="disabled"); return; }
-Array.from(video.textTracks).forEach((t,i)=>t.mode=i==index?"showing":"disabled");
-};
+    subtitleSelect.innerHTML='<option value="">Subtitles</option>';
+    movie.subtitles.forEach((sub,i)=>{
+        const opt=document.createElement('option');
+        opt.value=i;
+        opt.text=sub.lang;
+        subtitleSelect.appendChild(opt);
+        const track = document.createElement("track");
+        track.kind="subtitles";
+        track.label=sub.lang;
+        track.srclang=sub.lang;
+        track.src=sub.url;
+        track.default = i===0;
+        video.appendChild(track);
+    });
+    subtitleSelect.onchange=()=>{
+        const index=subtitleSelect.value;
+        Array.from(video.textTracks).forEach((t,i)=>t.mode=i==index?"showing":"disabled");
+    };
 }
 
-// Audio Tracks
+// ======================
+// AUDIO TRACKS
+// ======================
 if(movie.audioTracks?.length){
-audioSelect.innerHTML='<option value="">Audio</option>';
-movie.audioTracks.forEach((at,i)=>{
-const opt=document.createElement('option');
-opt.value=i;
-opt.text=at.lang;
-audioSelect.appendChild(opt);
-});
-audioSelect.onchange=()=>{
-const index=audioSelect.value;
-if(index==="") return;
-const selected=movie.audioTracks[index];
-loadVideo(selected.url);
-};
+    audioSelect.innerHTML='<option value="">Audio</option>';
+    movie.audioTracks.forEach((at,i)=>{
+        const opt=document.createElement('option');
+        opt.value=i;
+        opt.text=at.lang;
+        audioSelect.appendChild(opt);
+    });
+    audioSelect.onchange=()=>{
+        const index=audioSelect.value;
+        if(index==="") return;
+        const selected=movie.audioTracks[index];
+        loadVideo(selected.url);
+    };
 }
 
-// Skip Intro
+// ======================
+// SKIP / NEXT
+// ======================
 if(movie.skipIntro){
-skipIntro.classList.remove("hidden");
-skipIntro.onclick=()=>video.currentTime=movie.skipIntro;
-}else{ skipIntro.classList.add("hidden"); }
+    skipIntro.classList.remove("hidden");
+    skipIntro.onclick=()=>video.currentTime=movie.skipIntro;
+}else skipIntro.classList.add("hidden");
 
-// Next Episode
 if(movie.next){
-nextBtn.classList.remove("hidden");
-nextBtn.onclick=()=>{ window.location.href=`player.html?file=${categoryKey}&id=${movie.next}`; };
-}else{ nextBtn.classList.add("hidden"); }
+    nextBtn.classList.remove("hidden");
+    nextBtn.onclick=()=>window.location.href=`player.html?file=${categoryKey}&id=${movie.next}`;
+}else nextBtn.classList.add("hidden");
 
-} catch(err){
-title.textContent="โหลดข้อมูลล้มเหลว";
-console.error(err);
-}
-
-// UI Controls (play/pause/progress/volume/fullscreen)
+// ======================
+// UI CONTROLS
+// ======================
 const playPause=document.getElementById("playPause");
 const progress=document.getElementById("progress");
 const volume=document.getElementById("volume");
@@ -182,28 +201,26 @@ video.onplay=()=>playPause.textContent="❚❚";
 video.onpause=()=>playPause.textContent="▶";
 
 video.addEventListener("timeupdate",()=>{
-if(!video.duration) return;
-progress.value=(video.currentTime/video.duration)*100;
-timeDisplay.textContent=formatTime(video.currentTime)+" / "+formatTime(video.duration);
-
-// Show skip/next
-if(movie.skipIntro) skipIntro.classList.toggle("hidden", !(video.currentTime>5 && video.currentTime<movie.skipIntro));
-if(movie.next) nextBtn.classList.toggle("hidden", !(video.duration-video.currentTime<20));
+    if(!video.duration) return;
+    progress.value=(video.currentTime/video.duration)*100;
+    timeDisplay.textContent=formatTime(video.currentTime)+" / "+formatTime(video.duration);
+    if(movie.skipIntro) skipIntro.classList.toggle("hidden", !(video.currentTime>5 && video.currentTime<movie.skipIntro));
+    if(movie.next) nextBtn.classList.toggle("hidden", !(video.duration-video.currentTime<20));
 });
 
 progress.oninput=()=>video.currentTime=(progress.value/100)*video.duration;
 volume.oninput=()=>video.volume=volume.value;
 
 fullscreenBtn.onclick=()=>{
-if(!document.fullscreenElement){ document.documentElement.requestFullscreen(); }
-else { document.exitFullscreen(); }
+    if(!document.fullscreenElement) document.documentElement.requestFullscreen();
+    else document.exitFullscreen();
 };
 
 document.addEventListener("keydown",(e)=>{
-if(e.code==="Space"){ e.preventDefault(); togglePlay(); }
-if(e.code==="ArrowRight") seek(5);
-if(e.code==="ArrowLeft") seek(-5);
-if(e.key==="f"||e.key==="F") fullscreenBtn.click();
+    if(e.code==="Space"){ e.preventDefault(); togglePlay(); }
+    if(e.code==="ArrowRight") seek(5);
+    if(e.code==="ArrowLeft") seek(-5);
+    if(e.key==="f"||e.key==="F") fullscreenBtn.click();
 });
 
 function seek(sec){ video.currentTime=Math.max(0,Math.min(video.duration,video.currentTime+sec)); showSeekOverlay(sec>0?`+${sec}s`:`${sec}s`); }
@@ -212,11 +229,28 @@ function formatTime(s){ if(!s||isNaN(s)) return "00:00"; const m=Math.floor(s/60
 
 // Auto hide UI
 let hideTimeout;
-function showUI(){ controlBar.style.opacity="1"; topBar.style.opacity="1"; bottomBar.style.opacity="1"; clearTimeout(hideTimeout); hideTimeout=setTimeout(()=>{ if(!video.paused){ controlBar.style.opacity="0"; topBar.style.opacity="0"; bottomBar.style.opacity="0"; } },3000); }
+function showUI(){ 
+    controlBar.style.opacity="1"; 
+    topBar.style.opacity="1"; 
+    bottomBar.style.opacity="1"; 
+    clearTimeout(hideTimeout); 
+    hideTimeout=setTimeout(()=>{ 
+        if(!video.paused){ 
+            controlBar.style.opacity="0"; 
+            topBar.style.opacity="0"; 
+            bottomBar.style.opacity="0"; 
+        } 
+    },3000); 
+}
 document.addEventListener("mousemove",showUI);
 document.addEventListener("touchstart",showUI);
 
 document.getElementById("reloadBtn").onclick=(e)=>{ e.preventDefault(); location.reload(); };
+
+} catch(err){
+    title.textContent="โหลดข้อมูลล้มเหลว";
+    console.error(err);
+}
 
 });
 </script>
