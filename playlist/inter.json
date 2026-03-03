@@ -161,10 +161,26 @@
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2023/11/Moon-Knight-2022-e1700373498410.webp",
       "plot": "Moon Knight (2022) อัศวินพระจันทร์ EP.1-6 (จบ)",
-      "year": 2026,
+      "year": 2022,
       "sound": "พากย์ไทย"
     },
     "video": "moon-knight-2022"
+  },
+  {
+    "player": "p2p/playlist",
+    "id": "the-falcon-and-the-winter-soldier",
+    "nameEN": "The Falcon and the Winter Soldier",
+    "nameTH": "",
+    "name": "The Falcon and the Winter Soldier (2021) EP.1-6 (จบ)",
+    "category": "ซีรี่ย์ ฝรั่ง",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2024/05/The-Falcon-and-the-Winter-Soldier-2021.webp",
+      "plot": "The Falcon and the Winter Soldier (2021) EP.1-6 (จบ)",
+      "year": 2021,
+      "sound": "พากย์ไทย",
+      "subtitles": ""
+    },
+    "video": "the-falcon-and-the-winter-soldier"
   },
   {
     "player": "",
