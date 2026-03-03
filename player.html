@@ -62,13 +62,11 @@
 // =============================
 const params = new URLSearchParams(window.location.search);
 const categoryKey = params.get("file");
-const movieName = decodeURIComponent(params.get("name") || "");
-
+const movieId = params.get("id"); // ใช้ id แทน name
 const videoElement = document.getElementById("my-video");
 const videoSource = document.getElementById("videoSource");
 const videoTitle = document.getElementById("videoTitle");
 const videoPlot = document.getElementById("videoPlot");
-
 let player;
 let currentMovie;
 
@@ -76,45 +74,34 @@ let currentMovie;
 // LOAD MOVIE FROM JSON
 // =============================
 async function loadMovie() {
-
-  if (!categoryKey || !movieName) {
+  if (!categoryKey || !movieId) {
     videoTitle.textContent = "ไม่พบข้อมูลหนัง";
     return;
   }
-
   try {
     const res = await fetch(`playlist/${categoryKey}.json`);
     const movies = await res.json();
-
-    const movie = movies.find(m => m.name === movieName);
+    const movie = movies.find(m => m.id === movieId); // ค้นหาด้วย id
     if (!movie) {
       videoTitle.textContent = "ไม่พบหนังในระบบ";
       return;
     }
-
     currentMovie = movie;
-
     const videoUrl = movie.video || movie.url || movie.file;
-
     if (!videoUrl) {
       videoTitle.textContent = "ไม่พบไฟล์วิดีโอ";
       return;
     }
 
     videoSource.src = videoUrl;
-    videoSource.type = videoUrl.includes(".m3u8")
-      ? "application/x-mpegURL"
-      : "video/mp4";
-
+    videoSource.type = videoUrl.includes(".m3u8") ? "application/x-mpegURL" : "video/mp4";
     player = videojs("my-video");
 
-    // ตั้ง poster
     if (movie.info?.poster) {
       player.poster(movie.info.poster);
     }
 
-    // Resume Time
-    const savedTime = localStorage.getItem("resume_" + movie.name);
+    const savedTime = localStorage.getItem("resume_" + movie.id);
     player.ready(() => {
       if (savedTime) {
         player.currentTime(parseFloat(savedTime));
@@ -122,42 +109,29 @@ async function loadMovie() {
       player.play();
     });
 
-    // บันทึกเวลาเล่นทุก 5 วิ
     player.on("timeupdate", () => {
       if (player.currentTime() > 5) {
-        localStorage.setItem(
-          "resume_" + movie.name,
-          player.currentTime()
-        );
+        localStorage.setItem("resume_" + movie.id, player.currentTime());
       }
     });
 
-    // Continue Watching
     localStorage.setItem("lastMovie", JSON.stringify({
-      name: movie.name,
+      id: movie.id,
       category: categoryKey,
       poster: movie.info?.poster
     }));
 
-    // Netflix Title
     document.title = movie.name;
     videoTitle.innerHTML = `
-      <div class="text-2xl font-bold text-white">
-        ${movie.name}
-      </div>
-      <div class="text-gray-400 mt-1">
-        ${movie.info?.year || ""} • ${movie.info?.sound || ""}
-      </div>
+      <div class="text-2xl font-bold text-white">${movie.name}</div>
+      <div class="text-gray-400 mt-1">${movie.info?.year || ""} • ${movie.info?.sound || ""}</div>
     `;
-
     videoPlot.textContent = movie.info?.plot || "";
-
   } catch (err) {
     console.error(err);
     videoTitle.textContent = "โหลดข้อมูลล้มเหลว";
   }
 }
-
 
 // =============================
 // RELOAD BUTTON
@@ -171,4 +145,5 @@ loadMovie();
 </script>
 
 </body>
+
 </html>
