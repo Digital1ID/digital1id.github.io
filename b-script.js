@@ -381,6 +381,7 @@ function formatStatus(statusText, matchDate) {
     return "-";
 
   const raw = statusText.trim().toUpperCase();
+  const todayStr = new Date().toLocaleDateString("th-TH");
 
   // =====================
   // FT
@@ -389,40 +390,21 @@ function formatStatus(statusText, matchDate) {
     return "FT";
 
   // =====================
-  // ถ้าเป็นเวลา 22:00
+  // เวลา 22:00
   // =====================
-  if (/^\d{1,2}:\d{2}$/.test(raw)) {
-
-    const today = new Date();
-    const todayStr = today.toLocaleDateString("th-TH");
-
-    // ถ้าไม่ใช่วันนี้ → แสดงเวลาเลย
-    if (matchDate !== todayStr)
-      return raw;
-
-    // ถ้าเป็นวันนี้ → เช็คเวลา
-    const [h, m] = raw.split(":").map(Number);
-
-    const matchTime = new Date();
-    matchTime.setHours(h, m, 0, 0);
-
-    if (today >= matchTime)
-      return "LIVE";
-
+  if (/^\d{1,2}:\d{2}$/.test(raw))
     return raw;
-  }
 
   // =====================
-  // ถ้า status เป็น "-"
+  // ถ้าเป็น "-"
   // =====================
   if (raw === "-") {
 
-    const todayStr =
-      new Date().toLocaleDateString("th-TH");
-
+    // ถ้าเป็นวันนี้ → LIVE
     if (matchDate === todayStr)
       return "LIVE";
 
+    // ถ้าไม่ใช่วันนี้ → แสดง "-"
     return "-";
   }
 
@@ -605,36 +587,37 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
   if (!url) return;
 
   const playerBox = document.getElementById("playerBox");
-  const video = document.getElementById("videoPlayer");
-
   playerBox.classList.add("active");
 
   document.querySelector("#playerBox h2").textContent =
     `⚽ ${league} | ${homeTeam} vs ${awayTeam}`;
 
-  if (hlsPlayer) {
-    hlsPlayer.destroy();
-    hlsPlayer = null;
+  // ลบ player เก่าถ้ามี
+  if (window.jwplayer && jwplayer("jwPlayer")) {
+    jwplayer("jwPlayer").remove();
   }
 
-  if (Hls.isSupported()) {
-    hlsPlayer = new Hls();
-    hlsPlayer.loadSource(url);
-    hlsPlayer.attachMedia(video);
-  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-    video.src = url;
-  }
+  jwplayer("jwPlayer").setup({
+    file: url,
+    width: "100%",
+    aspectratio: "16:9",
+    autostart: true,
+    mute: false
+  });
 
-  video.play();
-
+  // highlight match
   document.querySelectorAll("#matchesTable tbody tr")
     .forEach(tr => tr.classList.remove("active-match"));
 
-  if (rowElement) rowElement.classList.add("active-match");
+  if (rowElement)
+    rowElement.classList.add("active-match");
 
-  playerBox.scrollIntoView({ behavior: "smooth", block: "center" });
+  playerBox.scrollIntoView({
+    behavior: "smooth",
+    block: "center"
+  });
+
 }
-
 
 // ==============================
 // SEARCH
@@ -700,5 +683,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   startAutoRefresh();
 
 });
+
 
 
