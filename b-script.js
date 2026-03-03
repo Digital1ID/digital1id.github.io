@@ -375,22 +375,39 @@ async function parseMatches() {
 // STATUS FORMAT
 // ==============================
 
-function formatStatus(statusText) {
+function formatStatus(statusText, matchDate) {
 
   if (!statusText)
     return "-";
 
-  const raw =
-    statusText.trim().toUpperCase();
+  const raw = statusText.trim().toUpperCase();
 
+  // ==========================
+  // FT
+  // ==========================
   if (raw === "FT")
     return "FT";
 
-  if (raw === "-")
-    return "LIVE";
-
+  // ==========================
+  // TIME FORMAT 22:00
+  // ==========================
   if (/^\d{1,2}:\d{2}$/.test(raw))
     return raw;
+
+  // ==========================
+  // HANDLE "-"
+  // ==========================
+  if (raw === "-") {
+
+    const today =
+      new Date().toLocaleDateString("th-TH");
+
+    if (matchDate === today)
+      return "LIVE";   // วันนี้ → LIVE
+
+    return "-";        // วันอื่น → ไม่ LIVE
+
+  }
 
   return raw;
 }
@@ -666,3 +683,4 @@ document.addEventListener("DOMContentLoaded", async () => {
   startAutoRefresh();
 
 });
+
