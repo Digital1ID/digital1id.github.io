@@ -587,49 +587,33 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
 
   const playerBox = document.getElementById("playerBox");
   const video = document.getElementById("videoPlayer");
-  const title = document.getElementById("playerTitle");
 
-  playerBox.classList.remove("hidden");
+  playerBox.classList.add("active");
 
-  title.textContent =
+  document.querySelector("#playerBox h2").textContent =
     `⚽ ${league} | ${homeTeam} vs ${awayTeam}`;
 
-  // ลบ player เก่า
   if (hlsPlayer) {
     hlsPlayer.destroy();
     hlsPlayer = null;
   }
 
   if (Hls.isSupported()) {
-
-    hlsPlayer = new Hls({
-      enableWorker: true,
-      lowLatencyMode: true
-    });
-
+    hlsPlayer = new Hls();
     hlsPlayer.loadSource(url);
     hlsPlayer.attachMedia(video);
-
   } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-
     video.src = url;
-
   }
 
   video.play();
 
-  // highlight
   document.querySelectorAll("#matchesTable tbody tr")
     .forEach(tr => tr.classList.remove("active-match"));
 
-  if (rowElement)
-    rowElement.classList.add("active-match");
+  if (rowElement) rowElement.classList.add("active-match");
 
-  playerBox.scrollIntoView({
-    behavior: "smooth",
-    block: "center"
-  });
-
+  playerBox.scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
 // ==============================
@@ -696,6 +680,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   startAutoRefresh();
 
 });
+
 
 
 
