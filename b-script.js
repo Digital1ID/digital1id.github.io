@@ -4,8 +4,6 @@
 
 const leagueMap = {};
 let autoRefreshInterval = null;
-let hlsPlayer = null;
-
 
 // ==============================
 // SAVE / LOAD SELECTED LEAGUE
@@ -683,6 +681,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   startAutoRefresh();
 
 });
+
 
 
 
