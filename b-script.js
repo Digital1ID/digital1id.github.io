@@ -592,6 +592,13 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
   title.textContent =
     `⚽ ${league} | ${homeTeam} vs ${awayTeam}`;
 
+  // ถ้ามี player เดิม ให้ลบทิ้งก่อน
+  if (jwplayer("jwPlayer")) {
+    try {
+      jwplayer("jwPlayer").remove();
+    } catch(e){}
+  }
+
   jwplayer("jwPlayer").setup({
     file: url,
     width: "100%",
