@@ -585,14 +585,18 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
   if (!url) return;
 
   const playerBox = document.getElementById("playerBox");
-  playerBox.classList.add("active");
+  const title = document.getElementById("playerTitle");
 
-  document.querySelector("#playerBox h2").textContent =
+  playerBox.classList.remove("hidden");
+
+  title.textContent =
     `⚽ ${league} | ${homeTeam} vs ${awayTeam}`;
 
-  // ลบ player เก่าถ้ามี
-  if (window.jwplayer && jwplayer("jwPlayer")) {
-    jwplayer("jwPlayer").remove();
+  // ถ้ามี player เดิม ให้ลบทิ้งก่อน
+  if (jwplayer("jwPlayer")) {
+    try {
+      jwplayer("jwPlayer").remove();
+    } catch(e){}
   }
 
   jwplayer("jwPlayer").setup({
@@ -600,7 +604,9 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
     width: "100%",
     aspectratio: "16:9",
     autostart: true,
-    mute: false
+    mute: false,
+    stretching: "uniform",
+    primary: "html5"
   });
 
   // highlight match
@@ -681,6 +687,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   startAutoRefresh();
 
 });
+
 
 
 
