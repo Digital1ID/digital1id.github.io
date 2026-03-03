@@ -382,31 +382,48 @@ function formatStatus(statusText, matchDate) {
 
   const raw = statusText.trim().toUpperCase();
 
-  // ==========================
+  // =====================
   // FT
-  // ==========================
+  // =====================
   if (raw === "FT")
     return "FT";
 
-  // ==========================
-  // TIME FORMAT 22:00
-  // ==========================
-  if (/^\d{1,2}:\d{2}$/.test(raw))
-    return raw;
+  // =====================
+  // ถ้าเป็นเวลา 22:00
+  // =====================
+  if (/^\d{1,2}:\d{2}$/.test(raw)) {
 
-  // ==========================
-  // HANDLE "-"
-  // ==========================
+    const today = new Date();
+    const todayStr = today.toLocaleDateString("th-TH");
+
+    // ถ้าไม่ใช่วันนี้ → แสดงเวลาเลย
+    if (matchDate !== todayStr)
+      return raw;
+
+    // ถ้าเป็นวันนี้ → เช็คเวลา
+    const [h, m] = raw.split(":").map(Number);
+
+    const matchTime = new Date();
+    matchTime.setHours(h, m, 0, 0);
+
+    if (today >= matchTime)
+      return "LIVE";
+
+    return raw;
+  }
+
+  // =====================
+  // ถ้า status เป็น "-"
+  // =====================
   if (raw === "-") {
 
-    const today =
+    const todayStr =
       new Date().toLocaleDateString("th-TH");
 
-    if (matchDate === today)
-      return "LIVE";   // วันนี้ → LIVE
+    if (matchDate === todayStr)
+      return "LIVE";
 
-    return "-";        // วันอื่น → ไม่ LIVE
-
+    return "-";
   }
 
   return raw;
@@ -683,4 +700,5 @@ document.addEventListener("DOMContentLoaded", async () => {
   startAutoRefresh();
 
 });
+
 
