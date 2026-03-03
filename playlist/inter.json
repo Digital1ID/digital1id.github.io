@@ -152,6 +152,21 @@
     "Referrer": ""
   },
   {
+    "player": "p2p/playlist",
+    "id": "moon-knight-2022",
+    "nameEN": "Moon Knight",
+    "nameTH": "อัศวินพระจันทร์",
+    "name": "Moon Knight (2022) อัศวินพระจันทร์ EP.1-6 (จบ)",
+    "category": "ซีรี่ย์ ฝรั่ง",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2023/11/Moon-Knight-2022-e1700373498410.webp",
+      "plot": "Moon Knight (2022) อัศวินพระจันทร์ EP.1-6 (จบ)",
+      "year": 2026,
+      "sound": "พากย์ไทย"
+    },
+    "video": "moon-knight-2022"
+  },
+  {
     "player": "",
     "id": "flower-girl",
     "nameEN": "Flower Girl",
