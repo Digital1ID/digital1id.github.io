@@ -4,6 +4,7 @@
 
 const leagueMap = {};
 let autoRefreshInterval = null;
+let hlsPlayer = null;
 
 // ==============================
 // SAVE / LOAD SELECTED LEAGUE
@@ -585,6 +586,7 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
   if (!url) return;
 
   const playerBox = document.getElementById("playerBox");
+  const video = document.getElementById("videoPlayer");
   const title = document.getElementById("playerTitle");
 
   playerBox.classList.remove("hidden");
@@ -592,24 +594,31 @@ function playStream(url, homeTeam, awayTeam, league, rowElement) {
   title.textContent =
     `⚽ ${league} | ${homeTeam} vs ${awayTeam}`;
 
-  // ถ้ามี player เดิม ให้ลบทิ้งก่อน
-  if (jwplayer("jwPlayer")) {
-    try {
-      jwplayer("jwPlayer").remove();
-    } catch(e){}
+  // ลบ player เก่า
+  if (hlsPlayer) {
+    hlsPlayer.destroy();
+    hlsPlayer = null;
   }
 
-  jwplayer("jwPlayer").setup({
-    file: url,
-    width: "100%",
-    aspectratio: "16:9",
-    autostart: true,
-    mute: false,
-    stretching: "uniform",
-    primary: "html5"
-  });
+  if (Hls.isSupported()) {
 
-  // highlight match
+    hlsPlayer = new Hls({
+      enableWorker: true,
+      lowLatencyMode: true
+    });
+
+    hlsPlayer.loadSource(url);
+    hlsPlayer.attachMedia(video);
+
+  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+
+    video.src = url;
+
+  }
+
+  video.play();
+
+  // highlight
   document.querySelectorAll("#matchesTable tbody tr")
     .forEach(tr => tr.classList.remove("active-match"));
 
@@ -687,6 +696,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   startAutoRefresh();
 
 });
+
 
 
 
