@@ -20,6 +20,21 @@
   },
   {
     "player": "p2p/playlist",
+    "id": "girl-from-nowhere",
+    "nameEN": "Girl from Nowhere",
+    "nameTH": "เด็กใหม่",
+    "name": "Girl from Nowhere เด็กใหม่ Season 1-2 (จบ)",
+    "category": "ซีรี่ย์ ไทย",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2026/02/Girl-from-Nowhere.webp",
+      "plot": "Girl from Nowhere เด็กใหม่ Season 1-2 (จบ)",
+      "year": 2026,
+      "sound": "พากย์ไทย"
+    },
+    "video": "girl-from-nowhere"
+  },
+  {
+    "player": "p2p/playlist",
     "id": "begins-necromancer",
     "nameEN": "Begins Necromancer",
     "nameTH": "จอมขมังเวทย์ EP.1-10 (ยังไม่จบ)",
