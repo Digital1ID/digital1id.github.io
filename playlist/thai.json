@@ -2,15 +2,14 @@
   {
     "player": "p2p/playlist",
     "id": "the-seven-legends-7",
-    "nameEN": "The Seven Legends  7",
-    "nameTH": "ประจัญบาน EP.1-10 (ยังไม่จบ)",
+    "nameEN": "The Seven Legends ",
+    "nameTH": "7 ประจัญบาน",
     "name": "The Seven Legends (2026) 7 ประจัญบาน EP.1-10 (ยังไม่จบ)",
     "category": "ซีรี่ย์ ไทย",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2026/02/The-Seven-Legends-2026.webp",
       "description": "The Seven Legends (2026) 7 ประจัญบาน เมืองชายแดนชื่อ “ผาหมอก” กลายเป็นต้นแบบของเมืองอัจฉริยะที่รัฐบาลผลักดัน แต่ภายใต้ภาพลักษณ์ทันสมัยนั้นกลับซุกซ่อนอาณาจักรอาชญากรรมไซเบอร์ข้ามชาติ ตั้งแต่คอลเซ็นเตอร์, เว็บพนัน, ค้ามนุษย์ ไปจนถึงการฟอกเงินระดับชาติ",
       "year": 2026,
-      "subtitles": "",
       "plot": "",
       "sound": "พากย์ไทย"
     },
@@ -37,7 +36,7 @@
     "player": "p2p/playlist",
     "id": "the-school-2026",
     "nameEN": "The School",
-    "nameTH": "ศักดินาวิทยาลัย EP.1-10 (จบ)",
+    "nameTH": "ศักดินาวิทยาลัย",
     "name": "The School (2026) ศักดินาวิทยาลัย EP.1-10 (จบ)",
     "category": "ซีรี่ย์ ไทย",
     "info": {
@@ -52,12 +51,11 @@
     "player": "p2p/playlist",
     "id": "begins-necromancer",
     "nameEN": "Begins Necromancer",
-    "nameTH": "จอมขมังเวทย์ EP.1-10 (ยังไม่จบ)",
+    "nameTH": "จอมขมังเวทย์",
     "name": "Begins Necromancer (2026) จอมขมังเวทย์ EP.1-10 (ยังไม่จบ)",
     "category": "ซีรี่ย์ ไทย",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w220_and_h330_face/eUSneFRLWu9WWzl67rnYxF18GYY.jpg",
-      "subtitles": "",
       "plot": "",
       "year": 2026,
       "sound": "พากย์ไทย"
@@ -75,7 +73,6 @@
     "category": "ซีรี่ย์ ไทย",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w220_and_h330_face/nQSwaSwscNhu4siZhW0eJgnAChR.jpg",
-      "subtitles": "",
       "plot": "",
       "year": 2025,
       "sound": "พากย์ไทย"
