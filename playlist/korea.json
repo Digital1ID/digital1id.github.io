@@ -181,6 +181,21 @@
     "Referrer": ""
   },
   {
+    "player": "p2p/playlist",
+    "id": "doctor-stranger-2014",
+    "nameEN": "Doctor Stranger",
+    "nameTH": "อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ)",
+    "name": "Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ)",
+    "category": "ซีรี่ย์ เกาหลี",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp",
+      "plot": "Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ)",
+      "year": 2026,
+      "sound": "พากย์ไทย"
+    },
+    "video": "doctor-stranger-2014"
+  },
+  {
     "player": "",
     "id": "murderer-report",
     "nameEN": "Murderer Report",
