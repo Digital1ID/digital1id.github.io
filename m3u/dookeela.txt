@@ -136,34 +136,60 @@ https://cdn2.googlecdnforstreaming.live/vv/monomax-8/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://dookeela2.live/uploads/1664802455.png" group-title="TRUE SPORTS",True SP1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/tsp1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dookeela2.live/uploads/1664499966.png" group-title="TRUE SPORTS",True SP2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=
 https://ww.dooballfree.vip/live/tsp2/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dookeela2.live/uploads/1664802480.png" group-title="TRUE SPORTS",True SP3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/tsp3/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dookeela2.live/uploads/1664847910.png" group-title="TRUE SPORTS",True SP5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/tsp5/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dookeela2.live/uploads/1664847921.png" group-title="TRUE SPORTS",True SP7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/tsp7/playlist.m3u8
  
 #EXTINF:-1 tvg-logo="https://www.imgx03.xyz/assets/img/ch_logo/epl-bein1.jpg" group-title="TRUE SPORTS;beIN SPORTS CONNECT",Bein1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=
 https://ww.dooballfree.vip/live/bein1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.imgx04.xyz/assets/img/ch_logo/epl-bein2.jpg" group-title="TRUE SPORTS;beIN SPORTS CONNECT",Bein2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/bein2/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.imgx05.xyz/assets/img/ch_logo/epl-bein3.jpg" group-title="TRUE SPORTS;beIN SPORTS CONNECT",Bein3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/bein3/playlist.m3u8
  
  
 #EXTINF:-1 tvg-logo="https://www.imgx03.xyz/assets/img/ch_logo/doomovie-epl3.png" group-title="TRUE SPORTS",Premier HD3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/tpf3/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.imgx04.xyz/assets/img/ch_logo/doomovie-epl4.png" group-title="TRUE SPORTS",Premier HD4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/tpf4/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.imgx05.xyz/assets/img/ch_logo/doomovie-epl5.png" group-title="TRUE SPORTS",Premier HD5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/tpf5/playlist.m3u8
  
 #EXTINF:-1 tvg-logo="https://www.imgx03.xyz/assets/img/ch_logo/SPOTV1.jpg" group-title="TRUE SPORTS;SpoTV",SPOTV1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/spotv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.imgx04.xyz/assets/img/ch_logo/SPOTV2.jpg" group-title="TRUE SPORTS;SpoTV",SPOTV2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/spotv2/playlist.m3u8
  
  
@@ -174,20 +200,36 @@ https://ww.dooballfree.vip/live/spotv2/playlist.m3u8
  
  
 #EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165328Mono1.jpg" group-title="MONOMAX & AIS SPORTS" ,max 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165343Mono2.jpg" group-title="MONOMAX & AIS SPORTS" ,max 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-2/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165408Mono3.jpg" group-title="MONOMAX & AIS SPORTS" ,max 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-3/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165433Mono4.jpg" group-title="MONOMAX & AIS SPORTS" ,max 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-4/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165451Mono5.jpg" group-title="MONOMAX & AIS SPORTS" ,max 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-5/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165513Mono6.jpg" group-title="MONOMAX & AIS SPORTS" ,max 6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-6/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165536Mono7.jpg" group-title="MONOMAX & AIS SPORTS" ,max 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-7/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165621Mono8.jpg" group-title="MONOMAX & AIS SPORTS" ,max 8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-8/playlist.m3u8
 #####################################################################################################
  
