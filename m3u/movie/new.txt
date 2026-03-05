@@ -22,9 +22,11 @@
 
 
 
+
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/c3hz0WrOdb5EhoWha8TCPfkpMYm.jpg", Scream 7 หวีดสุดขีด 7 (2026)
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://dididino.online/r2master_8c7e88504f57758feef1af2769098724.m3u8
+https://main.24playerhd.com/newplaylist/e7ba898a93b8f9f46dfc4b6d/e7ba898a93b8f9f46dfc4b6d.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/jfUDfpwtppoXOkN4QtFwjAJthnz.jpg", Detective Conan Episode ZERO ยอดนักสืบจิ๋ว โคนัน คดีพิพิธภัณฑ์สัตว์น้ำของคุโด้ ชินอิจิ (2026)
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
@@ -44,7 +46,7 @@ https://main.24playerhd.com/newplaylist/60666f9f29092692e0409ef7/60666f9f2909269
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/fp54NJExgoZRkMPYpuATKJCeFDw.jpg", Whistle (2026) หวีดเรียกผี
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/c4c9bbf0220ff5e43a82a1b3/c4c9bbf0220ff5e43a82a1b3.m3u8
+https://main.24playerhd.com/newplaylist/e7aa59ca281c44be77526c8d/e7aa59ca281c44be77526c8d.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/3sjc9qXXmQoUWKQ3qIjS1nZaUJy.jpg", One Mile Chapter Two (2026) บรรยายไทย
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
