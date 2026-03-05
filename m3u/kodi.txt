@@ -590,7 +590,7 @@ http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/297.m3u8
 #EXTINF:-1 group-title="Varieties | Entertainment" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon///KhongDeeThailand.png", KhongDeeThailand
 #EXTVLCOPT:http-referrer=https://ais-vidnt.com/
 #EXTVLCOPT:http-user-agent=ExoPlayer/2.9.3.135 (AISPlaybox) ExoPlayerLib/2.6.0
-http://oneid151.serv00.net/api/ais.php?id=V0154
+##http://oneid151.serv00.net/api/ais.php?id=V0154
 
 #EXTVLCOPT:http-user-agent=AndroidXMedia3/1.1.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
 ##http://27.254.130.63:8099/LC31/mono.m3u8
@@ -598,7 +598,7 @@ http://oneid151.serv00.net/api/ais.php?id=V0154
 #EXTINF:-1 group-title="Varieties | Entertainment" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon///Thainess.png", ThaiNess
 #EXTVLCOPT:http-referrer=https://ais-vidnt.com/
 #EXTVLCOPT:http-user-agent=ExoPlayer/2.9.3.135 (AISPlaybox) ExoPlayerLib/2.6.0
-http://oneid151.serv00.net/api/ais.php?id=V0155
+##http://oneid151.serv00.net/api/ais.php?id=V0155
 
 #EXTINF:-1 group-title="Varieties | Entertainment" tvg-logo="https://i1.wp.com/www.nextsteptv.com/budsaba/wp-content/uploads/2017/12/cropped-Head-web-02.png?zoom=1.875&fit=300%2C195", บุษบาคาเฟ่
 #EXTVLCOPT:http-referrer=https://wacth.tv
