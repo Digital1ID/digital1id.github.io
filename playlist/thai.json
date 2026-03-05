@@ -83,9 +83,9 @@
   },
   {
     "player": "",
-    "id": "",
-    "nameEN": "",
-    "nameTH": "ตี๋ใหญ่ ฤกษ์ ดาว  Tee Yai: Born To Be Bad",
+    "id": "tee-yai",
+    "nameEN": "Tee Yai: Born To Be Bad",
+    "nameTH": "ตี๋ใหญ่ ฤกษ์ ดาว",
     "name": "ตี๋ใหญ่ ฤกษ์ ดาว (2025) Tee Yai: Born To Be Bad",
     "category": "",
     "info": {
@@ -100,9 +100,9 @@
   },
   {
     "player": "",
-    "id": "-2",
-    "nameEN": "",
-    "nameTH": "เสือ  4 Tigers",
+    "id": "tigers",
+    "nameEN": "4 Tigers",
+    "nameTH": "เสือ",
     "name": "เสือ (2025) 4 Tigers",
     "category": "",
     "info": {
@@ -117,9 +117,9 @@
   },
   {
     "player": "",
-    "id": "-3",
-    "nameEN": "",
-    "nameTH": "คายอ้อ  Kayaor",
+    "id": "kayaor",
+    "nameEN": "Kayaor",
+    "nameTH": "คายอ้อ",
     "name": "คายอ้อ (2025) Kayaor",
     "category": "",
     "info": {
@@ -134,9 +134,9 @@
   },
   {
     "player": "",
-    "id": "-4",
-    "nameEN": "",
-    "nameTH": "แม่ซื้อ  Host",
+    "id": "host",
+    "nameEN": "Host",
+    "nameTH": "แม่ซื้อ",
     "name": "แม่ซื้อ (2025) Host",
     "category": "",
     "info": {
@@ -151,9 +151,9 @@
   },
   {
     "player": "",
-    "id": "-5",
-    "nameEN": "",
-    "nameTH": "วิญญาณเลขที่ 13  Attack 13",
+    "id": "attack13",
+    "nameEN": "Attack 13",
+    "nameTH": "วิญญาณเลขที่ 13",
     "name": "วิญญาณเลขที่ 13 (2025) Attack 13",
     "category": "",
     "info": {
