@@ -199,65 +199,65 @@ https://ww.dooballfree.vip/live/spotv2/playlist.m3u8
 ##############################################################################################################################
  
  
-#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165328Mono1.jpg" group-title="MONOMAX & AIS SPORTS" ,max 1
+#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165328Mono1.jpg" group-title="AIS SPORTS" ,max 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165343Mono2.jpg" group-title="MONOMAX & AIS SPORTS" ,max 2
+#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165343Mono2.jpg" group-title="AIS SPORTS" ,max 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-2/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165408Mono3.jpg" group-title="MONOMAX & AIS SPORTS" ,max 3
+#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165408Mono3.jpg" group-title="AIS SPORTS" ,max 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-3/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165433Mono4.jpg" group-title="MONOMAX & AIS SPORTS" ,max 4
+#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165433Mono4.jpg" group-title="AIS SPORTS" ,max 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-4/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165451Mono5.jpg" group-title="MONOMAX & AIS SPORTS" ,max 5
+#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165451Mono5.jpg" group-title="AIS SPORTS" ,max 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-5/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165513Mono6.jpg" group-title="MONOMAX & AIS SPORTS" ,max 6
+#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165513Mono6.jpg" group-title="AIS SPORTS" ,max 6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-6/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165536Mono7.jpg" group-title="MONOMAX & AIS SPORTS" ,max 7
+#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165536Mono7.jpg" group-title="AIS SPORTS" ,max 7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-7/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165621Mono8.jpg" group-title="MONOMAX & AIS SPORTS" ,max 8
+#EXTINF:-1 tvg-logo="https://www.fileinw.com/postor/20250830165621Mono8.jpg" group-title="AIS SPORTS" ,max 8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://ww.dooballfree.vip/
 https://ww.dooballfree.vip/live/monomax-8/playlist.m3u8
 #####################################################################################################
  
-#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax01.png"group-title="MONOMAX & AIS SPORTS",max1
+#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax01.png"group-title="AIS SPORTS",max1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://dooballland.com/
 https://cdn1.goozaa.xyz/vv/monomax-1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax02.png"group-title="MONOMAX & AIS SPORTS",max2
+#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax02.png"group-title="AIS SPORTS",max2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vvipscore.com/
 https://cdn1.goozaa.xyz/vv/monomax-2/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax03.png"group-title="MONOMAX & AIS SPORTS",max3
+#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax03.png"group-title="AIS SPORTS",max3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vvipscore.com/
 https://cdn1.goozaa.xyz/vv/monomax-3/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax04.png"group-title="MONOMAX & AIS SPORTS",max4
+#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax04.png"group-title="AIS SPORTS",max4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vvipscore.com/
 https://cdn1.goozaa.xyz/vv/monomax-4/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax05.png"group-title="MONOMAX & AIS SPORTS",max5
+#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax05.png"group-title="AIS SPORTS",max5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vvipscore.com/
 https://cdn1.goozaa.xyz/vv/monomax-5/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax06.png"group-title="MONOMAX & AIS SPORTS",max6
+#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax06.png"group-title="AIS SPORTS",max6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vvipscore.com/
 https://cdn1.goozaa.xyz/vv/monomax-6/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax07.png"group-title="MONOMAX & AIS SPORTS",max7
+#EXTINF:-1 tvg-logo="https://api.cantstopwontstop.online/images/png/th-monomax07.png"group-title="AIS SPORTS",max7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช่น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vvipscore.com/
 https://cdn1.goozaa.xyz/vv/monomax-7/playlist.m3u8
