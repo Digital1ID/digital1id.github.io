@@ -665,12 +665,12 @@ https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/205/205.mpd
 
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://d198sf0nbhx18q.cloudfront.net/web/images/logo/logo.png", ThaiPBS VIPA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.10
-https://bcovlive-a.akamaihd.net/0db95d655989436dbd571dcb8f70d98f/ap-southeast-1/6075037809001/playlist.m3u8
+https://fastly.live.brightcove.com/1846248737588002042/ap-southeast-1/6075037809001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoibzRoaGc2LmVncmVzcy5zYjBmOGsiLCJhY2NvdW50X2lkIjoiNjA3NTAzNzgwOTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDc1MDM3ODA5MDAxIl0sImp0aSI6IjE4NDYyNDg3Mzc1ODgwMDIwNDIifQ.HbjGHxGv87ivAdsCtAdEDjj2SVCfRnCUMYWn2fCkVPY/playlist-hls.m3u8
 
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon///SamRujLok.png", SamRujLok
 #EXTVLCOPT:http-referrer=https://ais-vidnt.com/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-https://oneid151.serv00.net/api/ais.php?id=V0151
+##https://oneid151.serv00.net/api/ais.php?id=V0151
 
 ##https://49-231-37-236-rewriter.ais-vidnt.com/ais/play/origin/live/eds/V0151/DASH/V0151.mpd|Referer=https://ais-vidnt.com/&userAgent=ExoPlayer/2.9.3.135%20(AISPlaybox)%20ExoPlayerLib/2.6.0
 
@@ -683,7 +683,7 @@ https://oneid151.serv00.net/api/ais.php?id=V0151
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon///MySCI.png", MySCI
 #EXTVLCOPT:http-referrer=https://ais-vidnt.com/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-https://oneid151.serv00.net/api/ais.php?id=V0152&key=
+##https://oneid151.serv00.net/api/ais.php?id=V0152&key=
 
 ##https://49-231-37-236-rewriter.ais-vidnt.com/ais/play/origin/live/eds/V0152/DASH/V0152.mpd|Referer=https://ais-vidnt.com/&userAgent=ExoPlayer/2.9.3.135%20(AISPlaybox)%20ExoPlayerLib/2.6.0
 
@@ -696,7 +696,7 @@ https://oneid151.serv00.net/api/ais.php?id=V0152&key=
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon///AnimalShow.png", AnimalShow
 #EXTVLCOPT:http-referrer=https://ais-vidnt.com/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-https://oneid151.serv00.net/api/ais.php?id=V0153&key=
+##https://oneid151.serv00.net/api/ais.php?id=V0153&key=
 
 ##https://49-231-37-236-rewriter.ais-vidnt.com/ais/play/origin/live/eds/V0153/DASH/V0153.mpd|Referer=https://ais-vidnt.com/&userAgent=ExoPlayer/2.9.3.135%20(AISPlaybox)%20ExoPlayerLib/2.6.0
 
@@ -711,8 +711,6 @@ https://oneid151.serv00.net/api/ais.php?id=V0153&key=
 ##http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/283.m3u8|User-Agen=ProPlayer
  
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://cms.dmpcdn.com/livetv/2018/12/17/4c6e4330-9408-4280-8b5d-7d3b37305ce0.png", True Explore Wild
-https://e103.hellotherepadawan.org/v5/KyJV5mh52TnwVajOnEQ5Yw/1756852476/92e6f341c728a6e9b2f28b85333fae8d/hcIFpuoUjBSAc_0IbnBnUQ/1756863156/live/vx-origin/sd-expwild_720/chunks.m3u8
-
 ##https://streaming.livescorethai.net/iptv/sd-expwild.stream/playlist.m3u8|Referer=https://freetvdd.com/
 
 ##http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/285.m3u8|User-Agen=ProPlayer
@@ -744,7 +742,7 @@ https://e103.hellotherepadawan.org/v5/KyJV5mh52TnwVajOnEQ5Yw/1756852476/92e6f341
 #EXTVLCOPT:http-user-agent=ExoPlayer/2.9.3.135%20(AISPlaybox)%20ExoPlayerLib/2.6.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7e8393537881b2d8534238f3a916d5a4:2ae033b06e3fb8e3a26ad63fb74d0f2f
-https://oneid151.serv00.net/api/aism.php?id=V0180
+##https://oneid151.serv00.net/api/aism.php?id=V0180
 
 ##https://49-231-37-236-rewriter.ais-vidnt.com/ais/play/origin/live/eds/V0180/DASH/V0180.mpd
 
@@ -837,7 +835,7 @@ https://oneid151.serv00.net/api/aism.php?id=V0180
 ##https://outdoorchannel-samsungau.amagi.tv/playlist720p.m3u8
 
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://cdn6.aptoide.com/imgs/5/1/7/51713cb38f60e82562a65727ce7d5493_icon.png", LOVE NATURE 4K
-https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
+##https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 
 #EXTINF:-1 group-title="Documentary" tvg-logo="https://images.samsung.com/is/image/samsung/assets/au/tvs/smart-tv/samsung-tv-plus/all-channels/nature-time-logo-v2.png", NATURE TIME 
 https://amg00090-blueantmedia-naturetime-samsungfr-yakbf.amagi.tv/playlist/amg00090-blueantmedia-naturetime-samsungfr/playlist.m3u8
@@ -898,12 +896,12 @@ https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/302/302.mpd
 #EXTINF:-1 group-title="Kidz" tvg-id="Boomerang.th" tvg-name="Boomerang TH" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/Boomerang_2025.png", Boomerang
 #EXTVLCOPT:http-referrer=https://ais-vidnt.com/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-https://oneid151.serv00.net/api/ais.php?id=V0104
+##https://oneid151.serv00.net/api/ais.php?id=V0104
 
 #EXTINF:-1 group-title="Kidz" tvg-id="Cartoon Club.th" tvg-name="Cartoon-Club" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0100.png", Cartoon Club
 #EXTVLCOPT:http-referrer=https://ais-vidnt.com/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-https://oneid151.serv00.net/api/ais.php?id=V0100
+##https://oneid151.serv00.net/api/ais.php?id=V0100
 
 #EXTINF:-1 group-title="Kidz" tvg-logo="https://cmsimgservices.dmpcdn.com/v1/resize?url=https%3A%2F%2Fcms.dmpcdn.com%2Flivetv%2F2019%2F01%2F21%2Fa01a26bb-ed4a-45c5-88a9-ff30f6bbb039.png&w=320&h=240",Cartoon Club
 ##https://edge2-bkk.3bb.co.th:9443/Web_CartoonClub_Live/cartoonclub_480P.stream/playlist.m3u8
