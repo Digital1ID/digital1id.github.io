@@ -425,6 +425,47 @@ https://media.vdohls.com/dt-XC_IEKL6jT/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Goblin-2016.webp" tvg-season="1" tvg-episode="16", Goblin (2016) คำสาปรักผู้พิทักษ์วิญญาณ EP.1-16 (จบ) S01 E16
 https://media.vdohls.com/Sns_GGN-69eBl/playlist.m3u8
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="1", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E01
+https://media.vdohls.com/KRj_3MDj-oUSd/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="2", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E02
+https://media.vdohls.com/1h0-yNdJ_8y80/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="3", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E03
+https://media.vdohls.com/3z-TNm6_pHjJI/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="4", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E04
+https://media.vdohls.com/oMFM_cX-E1QKw/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="5", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E05
+https://media.vdohls.com/F-OHOUoDY8_KI/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="6", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E06
+https://media.vdohls.com/QbOtRix-3_7N8/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="7", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E07
+https://media.vdohls.com/H1_5DT-o8trIE/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="8", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E08
+https://media.vdohls.com/hswcT-P_YMLS0/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="9", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E09
+https://media.vdohls.com/PJex-W_3xplbo/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="10", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E10
+https://media.vdohls.com/Zi-ZcD_XWBG8l/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="11", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E11
+https://media.vdohls.com/LT-gA5h6Ko_zi/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="12", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E12
+https://media.vdohls.com/D5I_fMmo8k-0Z/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="13", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E13
+https://media.vdohls.com/ALJB_HjR-kDsp/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="14", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E14
+https://media.vdohls.com/LeV2lDN_w1-NW/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="15", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E15
+https://media.vdohls.com/DzX-s_BGDtguj/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="16", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E16
+https://media.vdohls.com/JjfUhQ-Pf9_v7/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="17", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E17
+https://media.vdohls.com/sp_3EhZUX-mg9/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="18", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E18
+https://media.vdohls.com/o4XNZTd-l_45A/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="19", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E19
+https://media.vdohls.com/c_35-LgOIPJWL/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/01/Doctor-Stranger-2014.webp" tvg-season="1" tvg-episode="20", Doctor Stranger (2014) อัจฉริยะหมอ 2 แผ่นดิน EP.1-20 (จบ) S01 E20
+https://media.vdohls.com/qKp_E528-GdC8/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="1", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E01
 https://media.vdohls.com/OXL_Q-CfMLyFP/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/Our-Parallel-Universes-2024.webp" tvg-season="1" tvg-episode="2", Our Parallel Universes (2024) คู่หูคู่กวนป่วนข้ามมิติ EP.1-12 (จบ) S01 E02
