@@ -6108,50 +6108,74 @@
         },
         "seasons": [
             {
-                "season": 3,
-                "name": "Primal Season 3 - คนหินแดนเถื่อน ซีซั่น 3 (ยังไม่จบ)",
+                "season": 1,
+                "name": "Primal Season 1 คนหินแดนเถื่อน Season 1",
                 "info": {
-                    "poster": "https://img.shirokami.me/images/2026/01/15/586923370_18537283816063334_7958204247110378570_n_11zonaed52f6d615ec81b.webp",
-                    "plot": "",
+                    "poster": "https://img.shirokami.me/images/2022/10/11/bd60cd2fe6a112be09b2509a6d3fb587.jpg",
+                    "plot": "เป็นเรื่องราวของคนถ้ำในยุควิวัฒนาการที่ไดโนเสาร์กำลังจะสูญพันธุ์ ความสัมพันธ์ที่ถูกผูกโดยโศกนาฏกรรมระหว่างมนุษย์และไดโนเสาร์ ได้กลายเป็นความหวังเดียวในการอยู่รอดท่ามกลางความรุนแรง บนยุคกำเนิดโลก",
                     "year": 2026
                 },
                 "episodes": [
                     {
                         "episode": 1,
                         "name": "ตอนที่ 1",
-                        "video": "https://files.akuma-player.xyz/view/2c119934-0822-57a8-94ca-a81857e3f0e7.txt",
+                        "video": "https://files.akuma-player.xyz/view/f3778b0b-80d8-5702-a247-6dfa376570cf.txt",
                         "referrer": "https://files.akuma-player.xyz/"
                     },
                     {
                         "episode": 2,
                         "name": "ตอนที่ 2",
-                        "video": "https://files.akuma-player.xyz/view/19bfd288-2339-53e1-8b63-1e86f8987c24.txt",
+                        "video": "https://files.akuma-player.xyz/view/20d3f4fc-5e1e-5377-9a72-373d0dc53922.txt",
                         "referrer": "https://files.akuma-player.xyz/"
                     },
                     {
                         "episode": 3,
                         "name": "ตอนที่ 3",
-                        "video": "https://files.akuma-player.xyz/view/5a3cdd44-d19b-561a-828f-f797ff006993.txt",
+                        "video": "https://files.akuma-player.xyz/view/ce45db7d-fe8d-5733-a17f-873b1ad4dd4c.txt",
                         "referrer": "https://files.akuma-player.xyz/"
                     },
                     {
-                    "episode": 4,
-                    "name": "ตอนที่ 4",
-                    "video": "https://files.akuma-player.xyz/view/9957879a-30cc-591f-bc75-f41fd0f255f2.txt",
-                    "referrer": "https://files.akuma-player.xyz/"
+                        "episode": 4,
+                        "name": "ตอนที่ 4",
+                        "video": "https://files.akuma-player.xyz/view/d6aa8489-1153-5c72-b4a1-2b3aeea8f793.txt",
+                        "referrer": "https://files.akuma-player.xyz/"
                     },
                     {
-                    "episode": 5,
-                    "name": "ตอนที่ 5",
-                    "video": "https://files.akuma-player.xyz/view/ae379c97-55dd-54d0-a149-49931e87bdf0.txt",
-                    "referrer": "https://files.akuma-player.xyz/"
-                },
-                {
-                    "episode": 6,
-                    "name": "ตอนที่ 6",
-                    "video": "https://files.akuma-player.xyz/view/190c8cab-4dde-569e-88f3-5cdde7e074a1.txt",
-                    "referrer": "https://files.akuma-player.xyz/"
-                }
+                        "episode": 5,
+                        "name": "ตอนที่ 5",
+                        "video": "https://files.akuma-player.xyz/view/54b181ee-7354-566a-9f1c-56b9fc5f6d83.txt",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 6,
+                        "name": "ตอนที่ 6",
+                        "video": "https://files.akuma-player.xyz/view/07ac0fae-c77d-5309-93be-3dc0eade3dd6.txt",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 7,
+                        "name": "ตอนที่ 7",
+                        "video": "https://files.akuma-player.xyz/view/18bfcd01-afd7-5a69-9b8a-e0f57137a07b.txt",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 8,
+                        "name": "ตอนที่ 8",
+                        "video": "https://files.akuma-player.xyz/view/5499f436-e0cb-5549-9280-b39402f726e8.txt",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 9,
+                        "name": "ตอนที่ 9",
+                        "video": "https://files.akuma-player.xyz/view/e396d58d-fdb1-5429-ae85-bd38531e1de0.txt",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    },
+                    {
+                        "episode": 10,
+                        "name": "ตอนที่ 10",
+                        "video": "https://files.akuma-player.xyz/view/2b01d9d4-e0d6-5b68-bf9f-ed41d409c679.txt",
+                        "referrer": "https://files.akuma-player.xyz/"
+                    }
                 ]
             },
             {
@@ -6226,75 +6250,65 @@
                 ]
             },
             {
-                "season": 1,
-                "name": "Primal Season 1 คนหินแดนเถื่อน Season 1",
+                "season": 3,
+                "name": "Primal Season 3 - คนหินแดนเถื่อน ซีซั่น 3 (ยังไม่จบ)",
                 "info": {
-                    "poster": "https://img.shirokami.me/images/2022/10/11/bd60cd2fe6a112be09b2509a6d3fb587.jpg",
-                    "plot": "เป็นเรื่องราวของคนถ้ำในยุควิวัฒนาการที่ไดโนเสาร์กำลังจะสูญพันธุ์ ความสัมพันธ์ที่ถูกผูกโดยโศกนาฏกรรมระหว่างมนุษย์และไดโนเสาร์ ได้กลายเป็นความหวังเดียวในการอยู่รอดท่ามกลางความรุนแรง บนยุคกำเนิดโลก",
+                    "poster": "https://img.shirokami.me/images/2026/01/15/586923370_18537283816063334_7958204247110378570_n_11zonaed52f6d615ec81b.webp",
+                    "plot": "",
                     "year": 2026
                 },
                 "episodes": [
                     {
                         "episode": 1,
                         "name": "ตอนที่ 1",
-                        "video": "https://files.akuma-player.xyz/view/f3778b0b-80d8-5702-a247-6dfa376570cf.txt",
+                        "video": "https://files.akuma-player.xyz/view/2c119934-0822-57a8-94ca-a81857e3f0e7.txt",
                         "referrer": "https://files.akuma-player.xyz/"
                     },
                     {
                         "episode": 2,
                         "name": "ตอนที่ 2",
-                        "video": "https://files.akuma-player.xyz/view/20d3f4fc-5e1e-5377-9a72-373d0dc53922.txt",
+                        "video": "https://files.akuma-player.xyz/view/19bfd288-2339-53e1-8b63-1e86f8987c24.txt",
                         "referrer": "https://files.akuma-player.xyz/"
                     },
                     {
                         "episode": 3,
                         "name": "ตอนที่ 3",
-                        "video": "https://files.akuma-player.xyz/view/ce45db7d-fe8d-5733-a17f-873b1ad4dd4c.txt",
+                        "video": "https://files.akuma-player.xyz/view/5a3cdd44-d19b-561a-828f-f797ff006993.txt",
                         "referrer": "https://files.akuma-player.xyz/"
                     },
                     {
-                        "episode": 4,
-                        "name": "ตอนที่ 4",
-                        "video": "https://files.akuma-player.xyz/view/d6aa8489-1153-5c72-b4a1-2b3aeea8f793.txt",
-                        "referrer": "https://files.akuma-player.xyz/"
+                    "episode": 4,
+                    "name": "ตอนที่ 4",
+                    "video": "https://files.akuma-player.xyz/view/9957879a-30cc-591f-bc75-f41fd0f255f2.txt",
+                    "referrer": "https://files.akuma-player.xyz/"
                     },
                     {
-                        "episode": 5,
-                        "name": "ตอนที่ 5",
-                        "video": "https://files.akuma-player.xyz/view/54b181ee-7354-566a-9f1c-56b9fc5f6d83.txt",
-                        "referrer": "https://files.akuma-player.xyz/"
-                    },
-                    {
-                        "episode": 6,
-                        "name": "ตอนที่ 6",
-                        "video": "https://files.akuma-player.xyz/view/07ac0fae-c77d-5309-93be-3dc0eade3dd6.txt",
-                        "referrer": "https://files.akuma-player.xyz/"
-                    },
-                    {
-                        "episode": 7,
-                        "name": "ตอนที่ 7",
-                        "video": "https://files.akuma-player.xyz/view/18bfcd01-afd7-5a69-9b8a-e0f57137a07b.txt",
-                        "referrer": "https://files.akuma-player.xyz/"
-                    },
-                    {
-                        "episode": 8,
-                        "name": "ตอนที่ 8",
-                        "video": "https://files.akuma-player.xyz/view/5499f436-e0cb-5549-9280-b39402f726e8.txt",
-                        "referrer": "https://files.akuma-player.xyz/"
-                    },
-                    {
-                        "episode": 9,
-                        "name": "ตอนที่ 9",
-                        "video": "https://files.akuma-player.xyz/view/e396d58d-fdb1-5429-ae85-bd38531e1de0.txt",
-                        "referrer": "https://files.akuma-player.xyz/"
-                    },
-                    {
-                        "episode": 10,
-                        "name": "ตอนที่ 10",
-                        "video": "https://files.akuma-player.xyz/view/2b01d9d4-e0d6-5b68-bf9f-ed41d409c679.txt",
-                        "referrer": "https://files.akuma-player.xyz/"
-                    }
-                ]
+                    "episode": 5,
+                    "name": "ตอนที่ 5",
+                    "video": "https://files.akuma-player.xyz/view/ae379c97-55dd-54d0-a149-49931e87bdf0.txt",
+                    "referrer": "https://files.akuma-player.xyz/"
+                },
+                {
+                    "episode": 6,
+                    "name": "ตอนที่ 6",
+                    "video": "https://files.akuma-player.xyz/view/190c8cab-4dde-569e-88f3-5cdde7e074a1.txt",
+                    "referrer": "https://files.akuma-player.xyz/"
+                },
+                {
+                    "episode": 7,
+                    "name": "ตอนที่ 7",
+                    "video": "https://files.akuma-player.xyz/view/5d173709-a029-5bd9-8a72-31ee85e55bc8.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                },
+                {
+                    "episode": 8,
+                    "name": "ตอนที่ 8",
+                    "video": "https://files.akuma-player.xyz/view/eb3a3a1e-663d-5f19-adc0-15ed928d0a4a.txt",
+                    "subtitle": "",
+                    "referrer": "https://files.akuma-player.xyz/"
+                }
+              ]
             }
         ]
     },
