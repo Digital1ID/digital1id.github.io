@@ -7,7 +7,7 @@
 ############### 3BB ###################
 #EXTINF:-1 group-logo="https://img.monomax.me/ta7Z6ncxWUlAa8isqs7EsC3iGCU=/www.monomax.me/assets/monomax/images/logo2025/monomax-logo-white-v-sd.png" group-title="MONOMAX",
 
-#EXTINF:-1 tvg-id="Cinemax.th" group-title="Movies | Series;MONOMAX" tvg-logo="https://3bbtv.co.th/wp-content/themes/changwattana/img/channel/hbo/Cinemax.png", CINEMAX
+#EXTINF:-1 tvg-id="Cinemax.th" group-title="Movies | Series" tvg-logo="https://3bbtv.co.th/wp-content/themes/changwattana/img/channel/hbo/Cinemax.png", CINEMAX
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f48caba466394e93b50780f21798787a:9a074a10db4342e7937076b3e52f6029
 ##https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/107/107.mpd
@@ -16,22 +16,22 @@
 #KODIPROP:inputstream.adaptive.license_key=f48caba466394e93b50780f21798787a:9a074a10db4342e7937076b3e52f6029
 https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/107/107.mpd
 
-#EXTINF:-1 tvg-id="HBO.th" group-title="Movies | Series;MONOMAX" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/R_0148.png",HBO
+#EXTINF:-1 tvg-id="HBO.th" group-title="Movies | Series" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/R_0148.png",HBO
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9c5735afb4fd402580360aed8364469c:128d55d9ac2b47ad85f86b5d08320179
 ##https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/103/103.mpd
  
-#EXTINF:-1 tvg-id="HBOSingnature.th" group-title="Movies | Series;MONOMAX" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon//0149.png", HBO Signature
+#EXTINF:-1 tvg-id="HBOSingnature.th" group-title="Movies | Series" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon//0149.png", HBO Signature
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0db89bae851440a5994f5893ad480494:d88ef77eaedf4451a65be2e0bf6eabde
 ##https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/104/104.mpd
 
-#EXTINF:-1 tvg-id="HBOHits.th" group-title="Movies | Series;MONOMAX" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon//0151.png", HBO Hits
+#EXTINF:-1 tvg-id="HBOHits.th" group-title="Movies | Series" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon//0151.png", HBO Hits
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7c04b8e7aa524afea879b2ed1aef8242:91e72b75fcb94c3bb36cceb741afd621
 ##https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/105/105.mpd
  
-#EXTINF:-1 tvg-id="HBOFamily.th" group-title="Movies | Series;MONOMAX" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0150.png", HBO Family
+#EXTINF:-1 tvg-id="HBOFamily.th" group-title="Movies | Series" tvg-logo="https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0150.png", HBO Family
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=07b138f30ad3441ca5a2f476e550af25:826ee4deef4b45cfafd5f79a591b15c6
 ##https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/106/106.mpd
@@ -48,13 +48,13 @@ https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/106/106.mpd
 #EXTINF:-1 group-title="Movies | Series" tvg-logo="https://encrypted-tbn0.gstatic.com/images.jpg?q=tbn:ANd9GcQe-Dd99fYXC8aCy_Imo2NH8mqjIvyT-gddPQ&usqp=CAU", Star Chinese Movies
 ##https://edge6a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Mono29.th" tvg-name="MONO" group-title="Movies | Series;MONOMAX" tvg-logo="https://img.monomax.me/qgyqboQ6Tq3k2YfHvipk9ZI8PJ0=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/Dqo5Uwq6HMI1oooTBXAvlD2S8pMBiAon.png",MONO 29
+#EXTINF:-1 tvg-id="Mono29.th" tvg-name="MONO" group-title="Movies | Series" tvg-logo="https://img.monomax.me/qgyqboQ6Tq3k2YfHvipk9ZI8PJ0=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/Dqo5Uwq6HMI1oooTBXAvlD2S8pMBiAon.png",MONO 29
 #EXTVLCOPT:http-referrer=https://www.monomax.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
 https://monomax-uiripn.cdn.byteark.com/plain/th/playlist.m3u8
 ##https://monomax-uiripn.cdn.byteark.com/plain/th/1080p/index.m3u8
 
-#EXTINF:-1 tvg-id="3BB Asian" group-title="Movies | Series;MONOMAX" tvg-logo="https://img.monomax.me/MlIce33_PHDL9uTGoR5Ev47sGV8=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/ffnp2br3EBz7jnhgShnYK2QJNmnhNuDe.png",Asian Hits
+#EXTINF:-1 tvg-id="3BB Asian" group-title="Movies | Series" tvg-logo="https://img.monomax.me/MlIce33_PHDL9uTGoR5Ev47sGV8=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/ffnp2br3EBz7jnhgShnYK2QJNmnhNuDe.png",Asian Hits
 #EXTVLCOPT:http-referrer=https://www.monomax.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
 https://monomax-2qrxos.cdn.byteark.com/fleetstream/AsianHit/index.m3u8
@@ -67,7 +67,7 @@ https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/101/101.mpd
 
 ##http://6395online.com:8080/live/mrpoogapooga%40gmail.com/085858/16857.m3u8|UserAgent=ProPlayer
 
-#EXTINF:-1 tvg-id="MONO29 Plus" group-title="Movies | Series;MONOMAX" tvg-logo="https://img.monomax.me/w0r-W06YNoyEQi2N0f54auLLmkc=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/r4SQIxOmqPEEXsWRyoA1OvEo6u0rBwn7.png",MONO29 Plus
+#EXTINF:-1 tvg-id="MONO29 Plus" group-title="Movies | Series" tvg-logo="https://img.monomax.me/w0r-W06YNoyEQi2N0f54auLLmkc=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/r4SQIxOmqPEEXsWRyoA1OvEo6u0rBwn7.png",MONO29 Plus
 #EXTVLCOPT:http-referrer=https://www.monomax.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
 https://monomax-ooleht.cdn.byteark.com/fleetstream/MonoPlus/index.m3u8
@@ -986,14 +986,14 @@ https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/304/304.mpd
 
 
 
-#EXTINF:-1 group-title="Varieties | Entertainment;MONOMAX" tvg-id="AlureChannel.th" tvg-logo="https://img.monomax.me/M7eXiQ7VjfsKfr5EsmWLp-XgrV0=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/0h1Bs0iQLcfgbkxMs8jeEivUufagnVaH.png",A'lure Channel
+#EXTINF:-1 group-title="Varieties | Entertainment" tvg-id="AlureChannel.th" tvg-logo="https://img.monomax.me/M7eXiQ7VjfsKfr5EsmWLp-XgrV0=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/0h1Bs0iQLcfgbkxMs8jeEivUufagnVaH.png",A'lure Channel
 #EXTVLCOPT:http-referrer=https://www.monomax.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
 https://monomax-d1yqi0.cdn.byteark.com/fleetstream/ALURE/index.m3u8
 ##https://monomax-d1yqi0.cdn.byteark.com/fleetstream/ALURE/1080p/index.m3u8
 ##https://49-231-37-236-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0194/HLS/V0194.m3u8|Referer=https://ais-vidnt.com/&userAgent=ExoPlayer/2.9.3.135%20(AISPlaybox)%20ExoPlayerLib/2.6.0
 
-#EXTINF:-1 group-title="Varieties | Entertainment;MONOMAX" tvg-id="RUSHStories.th" tvg-logo="https://img.monomax.me/ttRFKQ4M3xnfytnIBbSSNYSkkc8=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/rWayopP3T7VDmZi0MLE4eDs7Nr3izXvf.png",RUSH Stories
+#EXTINF:-1 group-title="Varieties | Entertainment" tvg-id="RUSHStories.th" tvg-logo="https://img.monomax.me/ttRFKQ4M3xnfytnIBbSSNYSkkc8=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/rWayopP3T7VDmZi0MLE4eDs7Nr3izXvf.png",RUSH Stories
 #EXTVLCOPT:http-referrer=https://www.monomax.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
 https://monomax-bl9d80.cdn.byteark.com/fleetstream/RUSH/index.m3u8
@@ -1001,7 +1001,7 @@ https://monomax-bl9d80.cdn.byteark.com/fleetstream/RUSH/index.m3u8
 #EXTVLCOPT:http-referrer=https://ais-vidnt.com/
 ##https://49-231-37-236-rewriter.ais-vidnt.com/ais/play/origin/live/eds/V0195/HLS/V0195.m3u8|Referer=https://redirector.ais-vidnt.com
 
-#EXTINF:-1 group-title="Varieties | Entertainment;MONOMAX" tvg-id="Mono29Musicstation.th" tvg-logo="https://img.monomax.me/FMCVhDPqBblpP2uKaRw82Q_5ywI=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/qx2B9PD0UWmV5pSLwLTsOp75Kjzm5ghp.png",Mono29Musicstation
+#EXTINF:-1 group-title="Varieties | Entertainment" tvg-id="Mono29Musicstation.th" tvg-logo="https://img.monomax.me/FMCVhDPqBblpP2uKaRw82Q_5ywI=/monomax-obj.obs.ap-southeast-2.myhuaweicloud.com/assets/livechannels/qx2B9PD0UWmV5pSLwLTsOp75Kjzm5ghp.png",Mono29Musicstation
 #EXTVLCOPT:http-referrer=https://www.monomax.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
 https://monomax-ye61nx.cdn.byteark.com/fleetstream/Mono29MusicStation/1080p/index.m3u8
