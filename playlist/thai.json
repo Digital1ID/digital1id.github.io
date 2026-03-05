@@ -35,6 +35,21 @@
   },
   {
     "player": "p2p/playlist",
+    "id": "the-school-2026",
+    "nameEN": "The School",
+    "nameTH": "ศักดินาวิทยาลัย EP.1-10 (จบ)",
+    "name": "The School (2026) ศักดินาวิทยาลัย EP.1-10 (จบ)",
+    "category": "ซีรี่ย์ ไทย",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2026/01/The-School-2026.webp",
+      "plot": "The School (2026) ศักดินาวิทยาลัย EP.1-10 (จบ)",
+      "year": 2026,
+      "sound": "พากย์ไทย"
+    },
+    "video": "the-school-2026"
+  },
+  {
+    "player": "p2p/playlist",
     "id": "begins-necromancer",
     "nameEN": "Begins Necromancer",
     "nameTH": "จอมขมังเวทย์ EP.1-10 (ยังไม่จบ)",
