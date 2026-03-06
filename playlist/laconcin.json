@@ -2,6 +2,162 @@
   
   {
     "player": "p2p/api-plyr",
+    "name": "เจ้าหญิงในแดนร้าง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitLDMnaSm01yfodhwUeoamQDNgCnY-uX9ylu0ppzpIkSaM10MKZEBmNvJ&s=10",
+        "description": "",
+        "episode": "60",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1450"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ผมคือความชั่วร้าย",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3vUMNqa4WBciBAep_iRlAQh9U9lIVRaJ8K6EeVNsaFSNIrmhbUovJaIg&s=10",
+        "description": "",
+        "episode": "58",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1449"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ชะตาสั่งผมไปเป็นเด็กเกเรปี60",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg9iNz0eFBi0SEcmd366WlgHMKINT8s8TJLPAW4eyJgEp8nzc53BFxh9k&s=10",
+        "description": "",
+        "episode": "80",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1448"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "กุหลาบเล่นไฟ",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo9DJD6iNSCWytkBMTXoD9EGn9HrgyH-wHNl-U3ldwNbvDFImOTM-cprg&s=10",
+        "description": "",
+        "episode": "60",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1447"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ทะลุมิติมาเป็นคุณหนูสุดแซ่บ",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfiTe3NDdY-kJidU9HGiDEY9P2vviWcLzBqz6nzQAkQA&s=10",
+        "description": "",
+        "episode": "94",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1446"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "เมียเป็นใหญ่ข้าเป็นตัวร้าย",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMqkoJF72hlypUgnOYkc_x5FbwIVxklP2bPhWXGAQPw&s=10",
+        "description": "",
+        "episode": "70",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1445"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "",
+        "description": "",
+        "episode": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1443"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "",
+        "description": "",
+        "episode": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1442"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "",
+        "description": "",
+        "episode": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1441"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "",
+        "description": "",
+        "episode": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1440"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "",
+        "description": "",
+        "episode": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1439"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "",
+        "description": "",
+        "episode": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1438"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "2002อีกครั้ง",
     "category": "ละครสั้นจีน",
     "info": { 
