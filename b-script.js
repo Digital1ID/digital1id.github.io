@@ -404,7 +404,7 @@ function formatStatus(statusText, matchDate) {
       return "LIVE";
 
     // ถ้าไม่ใช่วันนี้ → แสดง "-"
-    return "-";
+    return "LIVE";
   }
 
   return raw;
