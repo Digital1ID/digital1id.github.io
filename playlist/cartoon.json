@@ -1,15 +1,30 @@
 [
+  
+  {
+    "player": "p2p/playlist",
+    "id": "blue-lock-1-th",
+    "nameEN": "Blue Lock",
+    "nameTH": "บลูล็อก ขังดวลแข้ง",
+    "name": "Blue Lock ขังดวลแข้ง ภาค 1-2 พากย์ไทย",
+    "category": "ซีรี่ย์ การ์ตูน",
+    "info": {
+      "poster": "https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg",
+      "plot": "",
+      "sound": "พากย์ไทย"
+    },
+    "video": "blue-lock-1-th"
+  },
   {
     "player": "p2p/playlist",
     "id": "sousou-no-frieren-2nd-season",
-    "nameEN": "Sousou no Frieren 2nd Season",
-    "nameTH": "คำอธิษฐานในวันที่จากลา ฟรีเรน ภาค 2 ตอนที่ 1-5 ซับไทย",
-    "name": "Sousou no Frieren 2nd Season คำอธิษฐานในวันที่จากลา ฟรีเรน ภาค 2 ตอนที่ 1-5 ซับไทย",
+    "nameEN": "Sousou no Frieren",
+    "nameTH": "คำอธิษฐานในวันที่จากลา ฟรีเรน ภาค 1-2 ซับไทย",
+    "name": "Sousou no Frieren 2nd Season คำอธิษฐานในวันที่จากลา ฟรีเรน ภาค 1-2 ซับไทย ยังไม่จบ",
     "category": "ซีรี่ย์ การ์ตูน",
     "info": {
       "poster": "https://anime-good.com/wp-content/uploads/2026/01/Sousou-no-Frieren-2nd-Season.webp",
       "plot": "",
-      "sound": "พากย์ไทย"
+      "sound": "บรรยายไทย"
     },
     "video": "sousou-no-frieren-1-th",
     "subtitle": "",
