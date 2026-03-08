@@ -1,6 +1,21 @@
 [
   {
     "player": "p2p/playlist",
+    "id": "monarch-legacy-of-monsters-2023",
+    "nameEN": "Monarch Legacy of Monsters",
+    "nameTH": "",
+    "name": "Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ)",
+    "category": "ซีรี่ย์ ฝรั่ง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w600_and_h900_face/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+      "plot": "Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ)",
+      "year": 2023,
+      "sound": "พากย์ไทย"
+    },
+    "video": "monarch-legacy-of-monsters-2023"
+  }
+  {
+    "player": "p2p/playlist",
     "id": "a-knight-of-the-seven-kingdoms",
     "nameEN": "A Knight of the Seven Kingdoms",
     "nameTH": "อัศวินแห่งเจ็ดราชอาณาจักร EP.1-6 (จบ)",
@@ -8,7 +23,7 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp",
-      "description": "",
+      "plot": "",
       "year": 2026,
       "subtitles": "",
       "plot": "",
@@ -27,7 +42,7 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp",
-      "description": "",
+      "plot": "",
       "year": 2026,
       "subtitles": "",
       "plot": "",
@@ -46,7 +61,7 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp",
-      "description": "",
+      "plot": "",
       "year": 2026,
       "subtitles": "",
       "plot": "",
@@ -65,7 +80,7 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2025/08/The-Terminal-List-Dark-Wolf-2025.webp",
-      "description": "7.9",
+      "plot": "7.9",
       "year": 2026,
       "subtitles": "",
       "plot": "",
@@ -84,7 +99,7 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/3Zr9qJXqHQwi9IyPBDwukgg1jcZ.jpg",
-      "description": "",
+      "plot": "",
       "year": 2023,
       "subtitles": "",
       "plot": "",
@@ -103,7 +118,7 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2023/12/Reacher-e1702885561611.webp",
-      "description": "",
+      "plot": "",
       "year": 2022,
       "subtitles": "",
       "plot": "",
@@ -122,7 +137,7 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pgMJEVsSdl28pW6cQEBLHxxD2Uy.jpg",
-      "description": "",
+      "plot": "",
       "year": 2025,
       "subtitles": "",
       "plot": "",
@@ -141,7 +156,7 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
-      "description": "",
+      "plot": "",
       "year": 2025,
       "subtitles": "",
       "plot": "",
