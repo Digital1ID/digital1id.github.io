@@ -52,8 +52,8 @@ function createMovieCard(movie, index = 0) {
         </div>
         <div class="p-2">
           <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
-          <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
-          <p class="text-xs text-gray-400">สถานะ : ${plotText || 'ไม่มี'}</p>
+          <!--<p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
+          <p class="text-xs text-gray-400">สถานะ : ${plotText || 'ไม่มี'}</p>-->
         </div>
       </a>
     </div>
