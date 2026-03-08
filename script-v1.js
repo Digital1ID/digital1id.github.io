@@ -30,7 +30,8 @@ function createMovieCard(movie, index = 0) {
   }
 
   const soundText = movie.info?.sound || (typeof movie.info === 'string' ? movie.info : '');
-  const subtitleText = movie.info?.subtitles || '';
+  const subtitleText = movie.info?.subtitles || (typeof movie.info === 'string' ? movie.info : '');
+  const plotText = movie.info?.plot || (typeof movie.info === 'string' ? movie.info : '');
   const posterUrl = movie.logo || movie.image || movie.poster || (typeof movie.info === 'object' ? movie.info.poster : null);
 
   return `
@@ -51,7 +52,7 @@ function createMovieCard(movie, index = 0) {
         <div class="p-2">
           <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
           <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
-          <p class="text-xs text-gray-400">ซับไตเติล : ${subtitleText || 'ไม่มี'}</p>
+          <p class="text-xs text-gray-400">สถานะ : ${plotText || 'ไม่มี'}</p>
         </div>
       </a>
     </div>
