@@ -119,7 +119,7 @@
         "season": 1,
         "name": "Season 1",
         "info": {
-          "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/1WSuH8eK44KDavNggmWhKS5zUCF.jpg",
+          "poster": "https://media.themoviedb.org/t/p/w220_and_h330_face/8vBWQjdCnK7xSGuNbK1gBK1iIQL.jpg",
           "plot": "ซอมีแรทำงานอย่างเดียวก็เหนื่อยจะแย่ แล้วจะเอาเวลาที่ไหนไปคิดเรื่องมีแฟน แต่พอได้ใช้บริการหาคู่โลกเสมือน หัวใจเจ้ากรรมก็เริ่มหวั่นไหว หรือนี่จะเป็นโอกาสให้เธอได้พบรัก..TF",
           "year": 2026
         },
@@ -1687,6 +1687,71 @@
             "episode": 7,
             "name": "ตอนที่ 7",
             "video": "https://media.vdohls.com/64prymlkdj/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-terminal-list",
+    "name": "The Terminal List (2022) ดับมือสังหาร EP.1-8 (จบ)",
+    "category": "ซีรี่ย์ ฝรั่ง",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2025/04/The-Terminal-List-2022.webp",
+      "plot": "",
+      "year": 2022
+    },
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "EP. 1",
+            "video": "https://media.vdohls.com/vdr7e1e74f/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 2,
+            "name": "EP. 2",
+            "video": "https://media.vdohls.com/dghczr47pq/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 3,
+            "name": "EP. 3",
+            "video": "https://media.vdohls.com/nvqbci06f2/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 4,
+            "name": "EP. 4",
+            "video": "https://media.vdohls.com/qsbv6x3ams/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 5,
+            "name": "EP. 5",
+            "video": "https://media.vdohls.com/6cw2pfnk8c/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 6,
+            "name": "EP. 6",
+            "video": "https://media.vdohls.com/dneknecuti/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 7,
+            "name": "EP. 7",
+            "video": "https://media.vdohls.com/vy2pkd3s4w/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 8,
+            "name": "EP. 8",
+            "video": "https://media.vdohls.com/ye84ep4vei/playlist.m3u8",
             "referrer": "https://hplay.hdplayfull.xyz/"
           }
         ]
