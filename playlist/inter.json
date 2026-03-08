@@ -8,7 +8,7 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w600_and_h900_face/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-      "plot": "Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ)",
+      "plot": "ยังไม่จบ",
       "year": 2023,
       "sound": "บรรยายไทย"
     },
@@ -25,8 +25,6 @@
       "poster": "https://kub24hd.com/wp-content/uploads/2026/01/A-Knight-of-the-Seven-Kingdoms-2026-kub24hd.webp",
       "plot": "",
       "year": 2026,
-      "subtitles": "",
-      "plot": "",
       "sound": "พากย์ไทย"
     },
     "video": "a-knight-of-the-seven-kingdoms-2026",
@@ -42,10 +40,8 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp",
-      "plot": "",
+      "plot": "จบ",
       "year": 2026,
-      "subtitles": "",
-      "plot": "",
       "sound": "พากย์ไทย"
     },
     "video": "fallout",
@@ -61,10 +57,8 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2026/01/The-Night-Manager.webp",
-      "plot": "",
+      "plot": "ยังไม่จบ",
       "year": 2026,
-      "subtitles": "",
-      "plot": "",
       "sound": "พากย์ไทย"
     },
     "video": "the-night-manager",
@@ -80,15 +74,28 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2025/08/The-Terminal-List-Dark-Wolf-2025.webp",
-      "plot": "7.9",
+      "plot": "จบ",
       "year": 2026,
-      "subtitles": "",
-      "plot": "",
       "sound": "พากย์ไทย"
     },
     "video": "the-terminal-list-dark-wolf-2025",
     "subtitle": "",
     "Referrer": ""
+  },
+  {
+    "player": "p2p/playlist",
+    "id": "the-terminal-list",
+    "nameEN": "The Terminal List",
+    "nameTH": "ดับมือสังหาร",
+    "name": "The Terminal List (2022) ดับมือสังหาร EP.1-8 (จบ)",
+    "category": "ซีรี่ย์ ฝรั่ง",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2025/04/The-Terminal-List-2022.webp",
+      "plot": "จบ",
+      "year": 2022,
+      "sound": "พากย์ไทย"
+    },
+    "video": "the-terminal-list"
   },
   {
     "player": "p2p/playlist",
@@ -99,10 +106,8 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/3Zr9qJXqHQwi9IyPBDwukgg1jcZ.jpg",
-      "plot": "",
+      "plot": "จบ",
       "year": 2023,
-      "subtitles": "",
-      "plot": "",
       "sound": "บรรยายไทย"
     },
     "video": "twisted-metal",
@@ -118,10 +123,8 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2023/12/Reacher-e1702885561611.webp",
-      "plot": "",
+      "plot": "จบ",
       "year": 2022,
-      "subtitles": "",
-      "plot": "",
       "sound": "พากย์ไทย"
     },
     "video": "reacher",
@@ -137,10 +140,8 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pgMJEVsSdl28pW6cQEBLHxxD2Uy.jpg",
-      "plot": "",
+      "plot": "จบ",
       "year": 2025,
-      "subtitles": "",
-      "plot": "",
       "sound": "พากย์ไทย"
     },
     "video": "10003",
@@ -156,10 +157,8 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
-      "plot": "",
+      "plot": "จบ",
       "year": 2025,
-      "subtitles": "",
-      "plot": "",
       "sound": "พากย์ไทย"
     },
     "video": "10004",
@@ -175,7 +174,7 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2023/11/Moon-Knight-2022-e1700373498410.webp",
-      "plot": "Moon Knight (2022) อัศวินพระจันทร์ EP.1-6 (จบ)",
+      "plot": "จบ",
       "year": 2022,
       "sound": "พากย์ไทย"
     },
@@ -190,7 +189,7 @@
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://kub24hd.com/wp-content/uploads/2024/05/The-Falcon-and-the-Winter-Soldier-2021.webp",
-      "plot": "The Falcon and the Winter Soldier (2021) EP.1-6 (จบ)",
+      "plot": "จบ",
       "year": 2021,
       "sound": "พากย์ไทย",
       "subtitles": ""
