@@ -30,33 +30,34 @@ function createMovieCard(movie, index = 0) {
         watchUrl += `&subtitle=${encodeURIComponent(movieSubtitle)}`;
     }
 
-    const soundText = movie.info?.sound || (typeof movie.info === 'string' ? movie.info : '');
-    const subtitleText = movie.info?.subtitles || '';
-    const posterUrl = movie.logo || movie.image || movie.poster || (typeof movie.info === 'object' ? movie.info.poster : null);
+  const soundText = movie.info?.sound || (typeof movie.info === 'string' ? movie.info : '');
+  const subtitleText = movie.info?.subtitles || (typeof movie.info === 'string' ? movie.info : '');
+  const plotText = movie.info?.plot || (typeof movie.info === 'string' ? movie.info : '');
+  const posterUrl = movie.logo || movie.image || movie.poster || (typeof movie.info === 'object' ? movie.info.poster : null);
 
-    return `
-        <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg 
-                    hover:shadow-red-500/30 transition duration-300 poster-card group cursor-pointer 
-                    opacity-0 animate-fadeIn" 
-             style="animation-delay:${index * 0.05}s">
-          <a href="${watchUrl}">
-            <div class="relative">
-              <img src="${posterUrl || '/images/no-image.jpg.svg'}"
-                   onerror="this.onerror=null;this.src='/images/no-image.jpg.svg';"
-                   alt="${movieName}"
-                   class="w-full h-[225px] object-cover transition duration-500 group-hover:opacity-90">
-              <div class="absolute top-1 right-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs px-2 py-1 rounded-md font-medium shadow-md border border-blue-400/30">
-                ${soundText}
-              </div>
-            </div>
-            <div class="p-2">
-              <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
-              <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
-              <p class="text-xs text-gray-400">ซับไตเติล : ${subtitleText || 'ไม่มี'}</p>
-            </div>
-          </a>
+  return `
+    <div class="flex-shrink-0 w-[150px] bg-gray-800 rounded-xl overflow-hidden shadow-lg 
+                hover:shadow-blue-500/30 transition duration-300 group cursor-pointer 
+                transform hover:scale-105 opacity-0 animate-fadeIn"
+         style="animation-delay:${index * 0.3}s">
+      <a href="${watchUrl}">
+        <div class="relative">
+          <img src="${posterUrl || '/images/no-image.jpg.svg'}"
+               onerror="this.onerror=null;this.src='/images/no-image.jpg.svg';"
+               alt="${movieName}"
+               class="w-full h-[225px] object-cover transition duration-500 group-hover:opacity-90">
+          <div class="absolute top-1 right-1 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs px-2 py-1 rounded-md font-medium shadow-md border border-blue-400/30">
+            ${soundText}
+          </div>
         </div>
-    `;
+        <div class="p-2">
+          <p class="text-sm font-semibold truncate" title="${movieName}">${movieName}</p>
+          <p class="text-xs text-gray-400">เสียงภาษา : ${soundText}</p>
+          <p class="text-xs text-gray-400">สถานะ : ${plotText || 'ไม่มี'}</p>
+        </div>
+      </a>
+    </div>
+  `;
 }
 
 // --- [ PAGINATION LOGIC ] ---
