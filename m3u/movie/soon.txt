@@ -48,6 +48,124 @@ https://media.vdohls.com/duh4wrxbd3/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="1" tvg-episode="10", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S01 E10
 https://media.vdohls.com/1dgw1aa8hl/playlist.m3u8
 
+
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="1" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP01
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/PijWgu2o1p/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="2" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP02
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/uWaGzNcFik/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="3" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP03
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/J5IzuFQz1Q/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="4" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP04
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/SqGOhFiVTe/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="5" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP05
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/pwGKe1x1xD/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="6" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP06
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/G41uwGuRqS/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="7" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP07
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/jUcazQ7g4a/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="8" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP08
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/xaf3uKZwS7/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="9" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP09
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/tcIg9LiECK/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="10" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP10
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/C9m4TeGYFQ/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="11" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP11
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/gg61Ye6B6f/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="12" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP12
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/W457E65eSL/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="13" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP13
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/DtHHERBr5W/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2024/11/Blue-Lock-2nd-Season.jpg" tvg-season="2" tvg-episode="14" group-title="ซีรี่ย์ การ์ตูน", Blue Lock 2nd Season ขังดวลแข้ง ภาค 2 ตอนที่ 1-14 พากย์ไทย S02 EP14
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/3psNE0VgEW/video.mp4/playlist.m3u8
+
+
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="1" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP01
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/VotNsTUS/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="2" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP02
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/blue-lock-ep-2/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="3" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP03
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/hFzZFxOM/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="4" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP04
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/yx5oF3AX/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="5" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP05
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/6knJlGIb/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="6" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP06
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/bvU9jUPb/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="7" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP07
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/Q0jeNwQr/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="8" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP08
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/RRFHP1f/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="9" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP09
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/f3pDRDUl/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="10" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP10
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/G407Rhnx/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="11" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP11
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/MMV4Pxmw/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="12" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP12
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/YTlJy3QX/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="13" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP13
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/r7EGGNxQ/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="14" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP14
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/pqJAMIr/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="15" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP15
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/vQzJIlOB/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="16" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP16
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/G4G1liA0/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="17" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP17
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/ijnn1g0X/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="18" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP18
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/AgmOqkVN/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="19" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP19
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/7lWiag5E/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="20" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP20
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/YVbW0Vke/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="21" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP21
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/MIg12a75/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="22" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP22
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/dYcJC5L50c/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="23" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP23
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/Vu5z3NSON7/video.mp4/playlist.m3u8
+#EXTINF:-1 type="series" tvg-logo="https://anime-good.com/wp-content/uploads/2022/11/Blue-Lock.jpg" tvg-season="1" tvg-episode="24" group-title="ซีรี่ย์ การ์ตูน", Blue Lock ขังดวลแข้ง ตอนที่ 1-24 พากย์ไทย S01 EP24
+#EXTVLCOPT:http-referrer=https://moji.abcdxzy.xyz/
+https://moji.abcdxzy.xyz:8443/vod/tlAWaNNeQf/video.mp4/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="2" tvg-episode="1", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S02 E01
 https://media.vdohls.com/o95ujn3es0/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="2" tvg-episode="2", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S02 E02
