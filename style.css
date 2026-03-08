@@ -73,6 +73,12 @@ h3 span {
   color: #E50914;
 }
 
+.truncate {
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+}
+
 /* Movie Card */
 .poster-card {
   background-color: #222222;
