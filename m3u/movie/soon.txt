@@ -21,8 +21,32 @@
 
 
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="2" tvg-episode="1", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S02 E01
+https://media.vdohls.com/61V-1vt3Ck_Jy/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="2" tvg-episode="2", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S02 E02
+https://media.vdohls.com/A-gcnOWD7_tmZ/playlist.m3u8
 
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="1" tvg-episode="1", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S01 E01
+https://media.vdohls.com/h6gtkygf3a/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="1" tvg-episode="2", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S01 E02
+https://media.vdohls.com/h6gtkygf3a/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="1" tvg-episode="3", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S01 E03
+https://media.vdohls.com/t1ii49206w/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="1" tvg-episode="4", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S01 E04
+https://media.vdohls.com/e1ktqiet6b/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="1" tvg-episode="5", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S01 E05
+https://media.vdohls.com/php4q8y1c2/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="1" tvg-episode="6", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S01 E06
+https://media.vdohls.com/itahhup81h/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="1" tvg-episode="7", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S01 E07
+https://media.vdohls.com/oc1v2k7dip/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="1" tvg-episode="8", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S01 E08
+https://media.vdohls.com/p1zvvudbal/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="1" tvg-episode="9", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S01 E09
+https://media.vdohls.com/duh4wrxbd3/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="1" tvg-episode="10", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S01 E10
+https://media.vdohls.com/1dgw1aa8hl/playlist.m3u8
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2024/04/Fallout-2024.webp" tvg-season="2" tvg-episode="1", Fallout ฟอลล์เอาท์ ภารกิจฝ่าแดนฝุ่นมฤตยู Season 1-2 (จบ) S02 E01
 https://media.vdohls.com/o95ujn3es0/playlist.m3u8
