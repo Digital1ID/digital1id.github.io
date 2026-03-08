@@ -128,61 +128,61 @@
             "episode": 1,
             "name": "ตอนที่ 1",
             "video": "https://main.24playerhd.com/newplaylist/dc193663d1c96c921bd520ee/dc193663d1c96c921bd520ee.m3u8",
-            "referrer": ""
+            "referrer": "https://main.24playerhd.com/"
           },
           {
             "episode": 2,
             "name": "ตอนที่ 2",
             "video": "https://main.24playerhd.com/newplaylist/a1dda471a1326002a1d12830/a1dda471a1326002a1d12830.m3u8",
-            "referrer": ""
+            "referrer": "https://main.24playerhd.com/"
           },
           {
             "episode": 3,
             "name": "ตอนที่ 3",
             "video": "https://main.24playerhd.com/newplaylist/d649f90c2c9b6715ec1288a2/d649f90c2c9b6715ec1288a2.m3u8",
-            "referrer": ""
+            "referrer": "https://main.24playerhd.com/"
           },
           {
             "episode": 4,
             "name": "ตอนที่ 4",
             "video": "https://main.24playerhd.com/newplaylist/20d452c3f6c2c1a402518120/20d452c3f6c2c1a402518120.m3u8",
-            "referrer": ""
+            "referrer": "https://main.24playerhd.com/"
           },
           {
             "episode": 5,
             "name": "ตอนที่ 5",
             "video": "https://main.24playerhd.com/newplaylist/5a33d082ab1882e426836501/5a33d082ab1882e426836501.m3u8",
-            "referrer": ""
+            "referrer": "https://main.24playerhd.com/"
           },
           {
             "episode": 6,
             "name": "ตอนที่ 6",
             "video": "https://main.24playerhd.com/newplaylist/9fc2d1b10684ecfc566e6782/9fc2d1b10684ecfc566e6782.m3u8",
-            "referrer": ""
+            "referrer": "https://main.24playerhd.com/"
           },
           {
             "episode": 7,
             "name": "ตอนที่ 7",
             "video": "https://main.24playerhd.com/newplaylist/5885f40b654877f7ac05c7ea/5885f40b654877f7ac05c7ea.m3u8",
-            "referrer": ""
+            "referrer": "https://main.24playerhd.com/"
           },
           {
             "episode": 8,
             "name": "ตอนที่ 8",
             "video": "https://main.24playerhd.com/newplaylist/3a9bd745cb51a2505868461b/3a9bd745cb51a2505868461b.m3u8",
-            "referrer": ""
+            "referrer": "https://main.24playerhd.com/"
           },
           {
             "episode": 9,
             "name": "ตอนที่ 9",
             "video": "https://main.24playerhd.com/newplaylist/b051f1a9ce9ec788c87e3066/b051f1a9ce9ec788c87e3066.m3u8",
-            "referrer": ""
+            "referrer": "https://main.24playerhd.com/"
           },
           {
             "episode": 10,
             "name": "ตอนที่ 10",
             "video": "https://main.24playerhd.com/newplaylist/65aac8610bc253b332e51153/65aac8610bc253b332e51153.m3u8",
-            "referrer": ""
+            "referrer": "https://main.24playerhd.com/"
           }
         ]
       }
@@ -1635,16 +1635,16 @@
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bbcKRt7m7KrJoPOyKVwOWKrOlmE.jpg",
       "plot": "หลายปีก่อนเหตุการณ์ในเดอะ เทอร์มินอล ลิสต์ - ดับมือสังหาร หน่วยซีล เบน เอ็ดเวิร์ดส์ และเรฟ เฮสติ้งส์ ต้องเข้าไปพัวพันกับแผนจารกรรมระดับนานาชาติ ขณะปฏิบัติหน้าที่ร่วมกับซีไอเอ แต่ในโลกของ ‘ภารกิจลับ’ ไม่มีใครรอดออกมาโดยไม่เจ็บตัว เพราะสิ่งที่สูญเสีย อาจไม่ใช่แค่ชีวิต แต่อาจเป็นจิตวิญญาณของคุณเอง",
-      "year": 2026
+      "year": 2025
     },
     "seasons": [
       {
         "season": 1,
         "name": "Season 1",
         "info": {
-          "poster": "https://kub24hd.com/wp-content/uploads/2025/08/The-Terminal-List-Dark-Wolf-2025.webp",
-          "plot": "",
-          "year": 2026
+          "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/bbcKRt7m7KrJoPOyKVwOWKrOlmE.jpg",
+          "plot": "หลายปีก่อนเหตุการณ์ในเดอะ เทอร์มินอล ลิสต์ - ดับมือสังหาร หน่วยซีล เบน เอ็ดเวิร์ดส์ และเรฟ เฮสติ้งส์ ต้องเข้าไปพัวพันกับแผนจารกรรมระดับนานาชาติ ขณะปฏิบัติหน้าที่ร่วมกับซีไอเอ แต่ในโลกของ ‘ภารกิจลับ’ ไม่มีใครรอดออกมาโดยไม่เจ็บตัว เพราะสิ่งที่สูญเสีย อาจไม่ใช่แค่ชีวิต แต่อาจเป็นจิตวิญญาณของคุณเอง",
+          "year": 2025
         },
         "episodes": [
           {
@@ -1698,13 +1698,19 @@
     "name": "The Terminal List (2022) ดับมือสังหาร EP.1-8 (จบ)",
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
-      "poster": "https://kub24hd.com/wp-content/uploads/2025/04/The-Terminal-List-2022.webp",
-      "plot": "",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/jbyaKYNexl1poKZnEmB6Qobn60s.jpg",
+      "plot": "ขณะพยายามสืบหาตัวการลึกลับเบื้องหลังการตายของทหารในสังกัด นาวาตรีเจมส์ รีซผู้เป็นอิสระจากกองทัพฯ ตัดสินใจคิดบัญชี โดยนำบทเรียนจากการสู้รบมาเกือบสองทศวรรษมาใช้ตามล่าทุกคนที่มีส่วนเกี่ยวข้อง",
       "year": 2022
     },
     "seasons": [
       {
         "season": 1,
+        "name": "Season 1",
+        "info": {
+          "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/jbyaKYNexl1poKZnEmB6Qobn60s.jpg",
+          "plot": "ขณะพยายามสืบหาตัวการลึกลับเบื้องหลังการตายของทหารในสังกัด นาวาตรีเจมส์ รีซผู้เป็นอิสระจากกองทัพฯ ตัดสินใจคิดบัญชี โดยนำบทเรียนจากการสู้รบมาเกือบสองทศวรรษมาใช้ตามล่าทุกคนที่มีส่วนเกี่ยวข้อง",
+          "year": 2022
+        },
         "episodes": [
           {
             "episode": 1,
