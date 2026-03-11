@@ -21,6 +21,43 @@
 
 
 
+
+
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg" tvg-season="2" tvg-episode="1", ONE PIECE วันพีซ Season 1-2 (จบ) S02E01
+https://media.vdohls.com/O026tp/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg" tvg-season="2" tvg-episode="2", ONE PIECE วันพีซ Season 1-2 (จบ) S02E02
+https://media.vdohls.com/Y/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg" tvg-season="2" tvg-episode="3", ONE PIECE วันพีซ Season 1-2 (จบ) S02E03
+https://media.vdohls.com/aSiS/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg" tvg-season="2" tvg-episode="4", ONE PIECE วันพีซ Season 1-2 (จบ) S02E04
+https://media.vdohls.com/8nXZg/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg" tvg-season="2" tvg-episode="5", ONE PIECE วันพีซ Season 1-2 (จบ) S02E05
+https://media.vdohls.com/i6TAE/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg" tvg-season="2" tvg-episode="6", ONE PIECE วันพีซ Season 1-2 (จบ) S02E06
+https://media.vdohls.com/v/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg" tvg-season="2" tvg-episode="7", ONE PIECE วันพีซ Season 1-2 (จบ) S02E07
+https://media.vdohls.com/z7/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg" tvg-season="2" tvg-episode="8", ONE PIECE วันพีซ Season 1-2 (จบ) S02E08
+https://media.vdohls.com/7/playlist.m3u8
+
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/aP3ScLiUTinmQh7m1z6RDkYTrYk.jpg" tvg-season="1" tvg-episode="1", ONE PIECE วันพีซ Season 1-2 (จบ) S01E01
+https://media.vdohls.com/c6dyrai87y/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/aP3ScLiUTinmQh7m1z6RDkYTrYk.jpg" tvg-season="1" tvg-episode="2", ONE PIECE วันพีซ Season 1-2 (จบ) S01E02
+https://media.vdohls.com/jxhrf797vx/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/aP3ScLiUTinmQh7m1z6RDkYTrYk.jpg" tvg-season="1" tvg-episode="3", ONE PIECE วันพีซ Season 1-2 (จบ) S01E03
+https://media.vdohls.com/6s3pbacrhq/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/aP3ScLiUTinmQh7m1z6RDkYTrYk.jpg" tvg-season="1" tvg-episode="4", ONE PIECE วันพีซ Season 1-2 (จบ) S01E04
+https://media.vdohls.com/9400olkvrp/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/aP3ScLiUTinmQh7m1z6RDkYTrYk.jpg" tvg-season="1" tvg-episode="5", ONE PIECE วันพีซ Season 1-2 (จบ) S01E05
+https://media.vdohls.com/gcsw6buhsz/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/aP3ScLiUTinmQh7m1z6RDkYTrYk.jpg" tvg-season="1" tvg-episode="6", ONE PIECE วันพีซ Season 1-2 (จบ) S01E06
+https://media.vdohls.com/8z1ru2bid3/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/aP3ScLiUTinmQh7m1z6RDkYTrYk.jpg" tvg-season="1" tvg-episode="7", ONE PIECE วันพีซ Season 1-2 (จบ) S01E07
+https://media.vdohls.com/69wb2khvw2/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/aP3ScLiUTinmQh7m1z6RDkYTrYk.jpg" tvg-season="1" tvg-episode="8", ONE PIECE วันพีซ Season 1-2 (จบ) S01E08
+https://media.vdohls.com/t40oufo024/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="2" tvg-episode="1", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S02 E01
 https://media.vdohls.com/61V-1vt3Ck_Jy/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="2" tvg-episode="2", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S02 E02
