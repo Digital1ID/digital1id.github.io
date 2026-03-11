@@ -1,13 +1,29 @@
 [
   {
     "player": "p2p/playlist",
+    "id": "one-piece-2023",
+    "season": "2",
+    "nameEN": "ONE PIECE",
+    "nameTH": "วันพีซ",
+    "name": "ONE PIECE วันพีซ Season 1-2 (จบ)",
+    "category": "ซีรี่ย์ ฝรั่ง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg",
+      "plot": "จบ",
+      "year": 2023,
+      "sound": "พากย์ไทย"
+    },
+    "video": "one-piece-2023"
+  },
+  {
+    "player": "p2p/playlist",
     "id": "monarch-legacy-of-monsters-2023",
     "nameEN": "Monarch Legacy of Monsters",
     "nameTH": "",
     "name": "Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ)",
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
-      "poster": "https://media.themoviedb.org/t/p/w600_and_h900_face/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
       "plot": "ยังไม่จบ",
       "year": 2023,
       "sound": "บรรยายไทย"
