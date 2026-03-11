@@ -1,5 +1,135 @@
 [
   {
+    "id": "one-piece-2023",
+    "name": "ONE PIECE วันพีซ Season 1-2 (จบ)",
+    "category": "ซีรี่ย์ ฝรั่ง",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/aP3ScLiUTinmQh7m1z6RDkYTrYk.jpg",
+      "plot": "โจรสลัดหนุ่ม มังกี้ ดี. ลูฟี่ หมวกฟางคู่ใจ และผองเพื่อนออกเดินทางท่องมหาสมุทร เพื่อตามหาขุมสมบัติในซีรีส์เวอร์ชันคนแสดงจริงซึ่งดัดแปลงมาจากมังงะยอดฮิต",
+      "year": 2023
+    },
+    "seasons": [
+      {
+        "season": 1,
+        "name": "Season 1",
+        "info": {
+          "poster": "https://media.themoviedb.org/t/p/w188_and_h282_face/aP3ScLiUTinmQh7m1z6RDkYTrYk.jpg",
+          "plot": "โจรสลัดหนุ่ม มังกี้ ดี. ลูฟี่ หมวกฟางคู่ใจ และผองเพื่อนออกเดินทางท่องมหาสมุทร เพื่อตามหาขุมสมบัติในซีรีส์เวอร์ชันคนแสดงจริงซึ่งดัดแปลงมาจากมังงะยอดฮิต",
+          "year": 2023
+        },
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "ตอนที่ 1",
+            "video": "https://media.vdohls.com/c6dyrai87y/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 2,
+            "name": "ตอนที่ 2",
+            "video": "https://media.vdohls.com/jxhrf797vx/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 3,
+            "name": "ตอนที่ 3",
+            "video": "https://media.vdohls.com/6s3pbacrhq/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 4,
+            "name": "ตอนที่ 4",
+            "video": "https://media.vdohls.com/9400olkvrp/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 5,
+            "name": "ตอนที่ 5",
+            "video": "https://media.vdohls.com/gcsw6buhsz/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 6,
+            "name": "ตอนที่ 6",
+            "video": "https://media.vdohls.com/8z1ru2bid3/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 7,
+            "name": "ตอนที่ 7",
+            "video": "https://media.vdohls.com/69wb2khvw2/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 8,
+            "name": "ตอนที่ 8",
+            "video": "https://media.vdohls.com/t40oufo024/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          }
+        ]
+      },
+      {
+        "season": 2,
+        "name": "Season 2",
+        "info": {
+          "poster": "https://media.themoviedb.org/t/p/w188_and_h282_face/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg",
+          "plot": "ใน ONE PIECE: Into the Grand Line ลูฟี่และหมวกฟางออกเดินทางสู่ Grand Line ที่น่าทึ่ง ซึ่งเป็นเส้นทางทะเลในตำนานที่อันตรายและความประหลาดใจรออยู่ทุกทิศทาง ขณะที่พวกเขาเดินทางผ่านดินแดนที่คาดเดาไม่ได้นี้เพื่อค้นหาสมบัติที่ยิ่งใหญ่ที่สุดในโลก พวกเขาจะพบกับเกาะแปลกๆ และศัตรูใหม่ที่น่าเกรงขามมากมาย",
+          "year": 2026
+        },
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "ตอนที่ 1",
+            "video": "https://media.vdohls.com/O026tp/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 2,
+            "name": "ตอนที่ 2",
+            "video": "https://media.vdohls.com/Y/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 3,
+            "name": "ตอนที่ 3",
+            "video": "https://media.vdohls.com/aSiS/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 4,
+            "name": "ตอนที่ 4",
+            "video": "https://media.vdohls.com/8nXZg/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 5,
+            "name": "ตอนที่ 5",
+            "video": "https://media.vdohls.com/i6TAE/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 6,
+            "name": "ตอนที่ 6",
+            "video": "https://media.vdohls.com/v/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 7,
+            "name": "ตอนที่ 7",
+            "video": "https://media.vdohls.com/z7/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          },
+          {
+            "episode": 8,
+            "name": "ตอนที่ 8",
+            "video": "https://media.vdohls.com/7/playlist.m3u8",
+            "referrer": "https://hplay.hdplayfull.xyz/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "monarch-legacy-of-monsters-2023",
     "name": "Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ)",
     "category": "ซีรี่ย์ ฝรั่ง",
@@ -1695,7 +1825,7 @@
   },
   {
     "id": "the-terminal-list",
-    "name": "The Terminal List (2022) ดับมือสังหาร EP.1-8 (จบ)",
+    "name": "The Terminal List (2022) ดับมือสังหาร ตอนที่1-8 (จบ)",
     "category": "ซีรี่ย์ ฝรั่ง",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/jbyaKYNexl1poKZnEmB6Qobn60s.jpg",
@@ -1714,49 +1844,49 @@
         "episodes": [
           {
             "episode": 1,
-            "name": "EP. 1",
+            "name": "ตอนที่ 1",
             "video": "https://media.vdohls.com/vdr7e1e74f/playlist.m3u8",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 2,
-            "name": "EP. 2",
+            "name": "ตอนที่ 2",
             "video": "https://media.vdohls.com/dghczr47pq/playlist.m3u8",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 3,
-            "name": "EP. 3",
+            "name": "ตอนที่ 3",
             "video": "https://media.vdohls.com/nvqbci06f2/playlist.m3u8",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 4,
-            "name": "EP. 4",
+            "name": "ตอนที่ 4",
             "video": "https://media.vdohls.com/qsbv6x3ams/playlist.m3u8",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 5,
-            "name": "EP. 5",
+            "name": "ตอนที่ 5",
             "video": "https://media.vdohls.com/6cw2pfnk8c/playlist.m3u8",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 6,
-            "name": "EP. 6",
+            "name": "ตอนที่ 6",
             "video": "https://media.vdohls.com/dneknecuti/playlist.m3u8",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 7,
-            "name": "EP. 7",
+            "name": "ตอนที่ 7",
             "video": "https://media.vdohls.com/vy2pkd3s4w/playlist.m3u8",
             "referrer": "https://hplay.hdplayfull.xyz/"
           },
           {
             "episode": 8,
-            "name": "EP. 8",
+            "name": "ตอนที่ 8",
             "video": "https://media.vdohls.com/ye84ep4vei/playlist.m3u8",
             "referrer": "https://hplay.hdplayfull.xyz/"
           }
