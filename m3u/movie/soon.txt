@@ -58,6 +58,27 @@ https://media.vdohls.com/69wb2khvw2/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/aP3ScLiUTinmQh7m1z6RDkYTrYk.jpg" tvg-season="1" tvg-episode="8", ONE PIECE วันพีซ Season 1-2 (จบ) S01E08
 https://media.vdohls.com/t40oufo024/playlist.m3u8
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Boyfriend-on-Demand-2026.webp" tvg-season="1" tvg-episode="1", Boyfriend on Demand (2026) แฟนสมมติสะดุดรัก EP.1-10 (จบ) S01 E01
+https://media.vdohls.com/9-dd14AH_UzFc/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Boyfriend-on-Demand-2026.webp" tvg-season="1" tvg-episode="2", Boyfriend on Demand (2026) แฟนสมมติสะดุดรัก EP.1-10 (จบ) S01 E02
+https://media.vdohls.com/udAuD_byW-KGz/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Boyfriend-on-Demand-2026.webp" tvg-season="1" tvg-episode="3", Boyfriend on Demand (2026) แฟนสมมติสะดุดรัก EP.1-10 (จบ) S01 E03
+https://media.vdohls.com/yi-vLoSYQ_ovf/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Boyfriend-on-Demand-2026.webp" tvg-season="1" tvg-episode="4", Boyfriend on Demand (2026) แฟนสมมติสะดุดรัก EP.1-10 (จบ) S01 E04
+https://media.vdohls.com/f-j_490xJ3IFk/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Boyfriend-on-Demand-2026.webp" tvg-season="1" tvg-episode="5", Boyfriend on Demand (2026) แฟนสมมติสะดุดรัก EP.1-10 (จบ) S01 E05
+https://media.vdohls.com/p3xkg1gH-9_rI/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Boyfriend-on-Demand-2026.webp" tvg-season="1" tvg-episode="6", Boyfriend on Demand (2026) แฟนสมมติสะดุดรัก EP.1-10 (จบ) S01 E06
+https://media.vdohls.com/t-jlB_B57Mg8E/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Boyfriend-on-Demand-2026.webp" tvg-season="1" tvg-episode="7", Boyfriend on Demand (2026) แฟนสมมติสะดุดรัก EP.1-10 (จบ) S01 E07
+https://media.vdohls.com/MqEZ0z_e-0h11/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Boyfriend-on-Demand-2026.webp" tvg-season="1" tvg-episode="8", Boyfriend on Demand (2026) แฟนสมมติสะดุดรัก EP.1-10 (จบ) S01 E08
+https://media.vdohls.com/qjcdG_pxWT-Og/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Boyfriend-on-Demand-2026.webp" tvg-season="1" tvg-episode="9", Boyfriend on Demand (2026) แฟนสมมติสะดุดรัก EP.1-10 (จบ) S01 E09
+https://media.vdohls.com/iR-dyylDm_gOx/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Boyfriend-on-Demand-2026.webp" tvg-season="1" tvg-episode="10", Boyfriend on Demand (2026) แฟนสมมติสะดุดรัก EP.1-10 (จบ) S01 E10
+https://media.vdohls.com/5_VCAt-VHHq1Y/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="2" tvg-episode="1", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S02 E01
 https://media.vdohls.com/61V-1vt3Ck_Jy/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2023/11/Monarch-Legacy-of-Monsters-2023-e1700662177252.webp" tvg-season="2" tvg-episode="2", Monarch Legacy of Monsters Season 1-2 (ยังไม่จบ) S02 E02
