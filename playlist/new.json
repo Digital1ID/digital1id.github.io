@@ -18,6 +18,23 @@
   },
   {
     "player": "p2p/player",
+    "id": "28-years-later-the-bone-temple-28",
+    "nameEN": "28 Years Later The Bone Temple  28",
+    "nameTH": "28 ปีให้หลัง เชื้อเขมือบคน วิหารซากกะโหลก",
+    "name": "28 Years Later The Bone Temple (2026) 28 ปีให้หลัง เชื้อเขมือบคน วิหารซากกะโหลก",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+      "plot": "ดร. เคลสัน ได้พบว่าเขาอยู่ในความสัมพันธ์อันน่าตกใจ ที่ผลลัพธ์ของมันอาจจะเปลี่ยนแปลงโลกที่พวกเขารู้จักได้ และการพบกันของ สไปค์ และ จิมมี่ คริสตัล ก็กลายมาเป็นฝันร้ายที่ไม่มีทางหนี",
+      "year": 2026,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://master.steamhls88.com/hlsr2/ce6214f5bc265cfeb79c48c3ea2a3fdc/master.m3u8",
+    "subtitle": "",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "id": "war-machine",
     "nameEN": "War Machine",
     "nameTH": "สงครามจักรกลถล่มโลก",
@@ -472,23 +489,6 @@
       "sound": "ไทยโรง"
     },
     "video": "https://main.24playerhd.com/newplaylist/1d1ca47ef68dcb4ae721e859/1d1ca47ef68dcb4ae721e859.m3u8",
-    "subtitle": "",
-    "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/player",
-    "id": "28-years-later-the-bone-temple-28",
-    "nameEN": "28 Years Later The Bone Temple  28",
-    "nameTH": "ปีให้หลัง เชื้อเขมือบคน วิหารซากกะโหลก",
-    "name": "28 Years Later The Bone Temple (2026) 28 ปีให้หลัง เชื้อเขมือบคน วิหารซากกะโหลก",
-    "category": "ซูมโรง ชนโรง",
-    "info": {
-      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
-      "plot": "ดร. เคลสัน ได้พบว่าเขาอยู่ในความสัมพันธ์อันน่าตกใจ ที่ผลลัพธ์ของมันอาจจะเปลี่ยนแปลงโลกที่พวกเขารู้จักได้ และการพบกันของ สไปค์ และ จิมมี่ คริสตัล ก็กลายมาเป็นฝันร้ายที่ไม่มีทางหนี",
-      "year": 2026,
-      "sound": "ไทยโรง"
-    },
-    "video": "https://main.24playerhd.com/newplaylist/13ab8887664ea8b783e38608/13ab8887664ea8b783e38608.m3u8",
     "subtitle": "",
     "Referrer": "https://main.24playerhd.com/"
   },
