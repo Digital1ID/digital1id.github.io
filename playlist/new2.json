@@ -1,6 +1,23 @@
 [
   {
     "player": "p2p/player",
+    "id": "mercy-90",
+    "nameEN": "Mercy  90",
+    "nameTH": "นาทีสั่งตาย",
+    "name": "Mercy (2025) 90 นาทีสั่งตาย",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
+      "plot": "",
+      "year": 2025,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/4097857829716427ce94027b/4097857829716427ce94027b.m3u8",
+    "subtitle": "",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "id": "war-machine",
     "nameEN": "War Machine",
     "nameTH": "สงครามจักรกลถล่มโลก",
@@ -13,6 +30,57 @@
       "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/2ca33e5cbde1d7e0bcd0f74b/2ca33e5cbde1d7e0bcd0f74b.m3u8",
+    "subtitle": "",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "id": "the-exit-8",
+    "nameEN": "The Exit 8",
+    "nameTH": "ทางออกหมายเลข 8",
+    "name": "The Exit 8 (2025) ทางออกหมายเลข 8",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/tsx6FKTO8059teX1eyBfHJeKKrB.jpg",
+      "plot": "",
+      "year": 2025,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/4417efa67a8b27eae0e7fae0/4417efa67a8b27eae0e7fae0.m3u8",
+    "subtitle": "",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "id": "zootopia-2",
+    "nameEN": "Zootopia 2",
+    "nameTH": "นครสัตว์มหาสนุก 2",
+    "name": "Zootopia 2 (2025) นครสัตว์มหาสนุก 2",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/mrVGD3Mrlwd4vvRhlzmkpLvFtjd.jpg",
+      "plot": "",
+      "year": 2025,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://master.steamhls88.com/hlsr2/5f07b9b3eb4292ae1c5d83b95ca953e6/master.m3u8",
+    "subtitle": "",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "id": "zootopia",
+    "nameEN": "Zootopia",
+    "nameTH": "นครสัตว์มหาสนุก",
+    "name": "Zootopia (2016) นครสัตว์มหาสนุก",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/3pu7fvygjLrArtxrSzMjKBBrGe5.jpg",
+      "plot": "",
+      "year": 2016,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://master.steamhls88.com/hlsr2/c927bffd20be2db88aa8b77a143ddd5b/master.m3u8",
     "subtitle": "",
     "Referrer": "https://main.24playerhd.com/"
   },
@@ -579,23 +647,6 @@
       "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/8148988604a36db26475e577/8148988604a36db26475e577.m3u8",
-    "subtitle": "",
-    "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/player",
-    "id": "mercy-90",
-    "nameEN": "Mercy  90",
-    "nameTH": "นาทีสั่งตาย",
-    "name": "Mercy (2025) 90 นาทีสั่งตาย",
-    "category": "ซูมโรง ชนโรง",
-    "info": {
-      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
-      "plot": "",
-      "year": 2025,
-      "sound": "พากย์ไทย"
-    },
-    "video": "https://main.24playerhd.com/newplaylist/e446d31d15fb844c70565297/e446d31d15fb844c70565297.m3u8",
     "subtitle": "",
     "Referrer": "https://main.24playerhd.com/"
   },
@@ -1225,23 +1276,6 @@
       "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/a4c9e14ab4f3f0e06c49960f/a4c9e14ab4f3f0e06c49960f.m3u8",
-    "subtitle": "",
-    "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/player",
-    "id": "the-exit-8",
-    "nameEN": "The Exit 8",
-    "nameTH": "ทางออกหมายเลข 8",
-    "name": "The Exit 8 (2025) ทางออกหมายเลข 8",
-    "category": "ซูมโรง ชนโรง",
-    "info": {
-      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/tsx6FKTO8059teX1eyBfHJeKKrB.jpg",
-      "plot": "",
-      "year": 2025,
-      "sound": "พากย์ไทย"
-    },
-    "video": "https://main.24playerhd.com/newplaylist/97723b096bda9ac41efa53cb/97723b096bda9ac41efa53cb.m3u8",
     "subtitle": "",
     "Referrer": "https://main.24playerhd.com/"
   },
