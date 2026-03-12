@@ -315,6 +315,39 @@ https://media.vdohls.com/vy2pkd3s4w/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://kub24hd.com/wp-content/uploads/2025/04/The-Terminal-List-2022.webp" tvg-season="1" tvg-episode="8", The Terminal List (2022) ดับมือสังหาร EP.1-8 (จบ) S01 E08
 https://media.vdohls.com/ye84ep4vei/playlist.m3u8
 
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="1", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E01
+https://media.vdohls.com/6Zo_ZbB-QhAZ5/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="2", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E02
+https://media.vdohls.com/PK1FB7_fso-JU/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="3", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E03
+https://media.vdohls.com/vvdJ-hMmeS_p0/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="4", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E04
+https://media.vdohls.com/5Z7PoA_hC-Ntt/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="5", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E05
+https://media.vdohls.com/nEciYa_J-NOfA/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="6", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E06
+https://media.vdohls.com/YVMj7-uu_eEDI/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="7", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E07
+https://media.vdohls.com/nnu-Rf_eL6Q72/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="8", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E08
+https://media.vdohls.com/JpDXh-EyZ_Kil/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="9", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E09
+https://media.vdohls.com/y3Kk_7-rvjWn2/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="10", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E10
+https://media.vdohls.com/jLo6A-7WZ_uqS/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="11", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E11
+https://media.vdohls.com/Ga_dd0F3-5CfQ/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="12", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E12
+https://media.vdohls.com/RTc-E_zvlbAj4/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="13", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E13
+https://media.vdohls.com/J9wC1q-Ur_5oQ/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="14", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E14
+https://media.vdohls.com/C2-Q4F_9bPH5F/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="15", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E15
+https://media.vdohls.com/g_wxdvCU-OIcV/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ เกาหลี" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp" tvg-season="1" tvg-episode="16", My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ) S01 E16
+https://media.vdohls.com/G9-uZS5c_USBX/playlist.m3u8
+
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="1", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | 32 ตอนจบ S01 E01
 https://statics-02.duckduckcdn.com/6349a059-718e-516c-87a6-0dd1347b820f/audio-tha/audio.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/02/How-Dare-You-2026.webp" tvg-season="1" tvg-episode="2", How Dare You (2026) ทะลุมิติตะลุยวังหลวง | พากย์ไทย | 32 ตอนจบ S01 E02
