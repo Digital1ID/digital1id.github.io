@@ -30,6 +30,18 @@ https://main.24playerhd.com/newplaylist/4097857829716427ce94027b/409785782971642
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/2ca33e5cbde1d7e0bcd0f74b/2ca33e5cbde1d7e0bcd0f74b.m3u8
 
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/tsx6FKTO8059teX1eyBfHJeKKrB.jpg", The Exit 8 (2025) ทางออกหมายเลข 8
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://main.24playerhd.com/newplaylist/4417efa67a8b27eae0e7fae0/4417efa67a8b27eae0e7fae0.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/mrVGD3Mrlwd4vvRhlzmkpLvFtjd.jpg", Zootopia 2 (2025) นครสัตว์มหาสนุก 2
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://master.steamhls88.com/hlsr2/5f07b9b3eb4292ae1c5d83b95ca953e6/master.m3u8
+
+#EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/3pu7fvygjLrArtxrSzMjKBBrGe5.jpg", Zootopia (2016) นครสัตว์มหาสนุก
+#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
+https://master.steamhls88.com/hlsr2/c927bffd20be2db88aa8b77a143ddd5b/master.m3u8
+
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/jCXbS2yCqHKPpaSAdTClGIW8FtO.jpg", MY BOO 2 (2025) อนงค์ 2..สามสี่ชาติ
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/59e4667d2ccd213a19c8dbb2/59e4667d2ccd213a19c8dbb2.m3u8
@@ -306,14 +318,6 @@ http://web02.dynns.com:1935/nangth//Tha.Rae.The.Exorcist.2025.mp4/playlist.m3u8
 #EXTINF:-1 type="movie" tvg-id="" group-title="หนังแนะนำ" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/A6oQLAzdHomKukJjw9c1iNcqg4K.jpg", Wake Up Dead Man A Knives Out Mystery (2025) ฆาตกรรมหรรษา ใครฆ่าคนบาป
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
 https://main.24playerhd.com/newplaylist/bc1515a8aa7260e70be1ff61/bc1515a8aa7260e70be1ff61.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/klc14K3e6M0XQPymjUJtN633xDu.jpg", Zootopia 2 (2025) นครสัตว์มหาสนุก 2
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/a4c9e14ab4f3f0e06c49960f/a4c9e14ab4f3f0e06c49960f.m3u8
-
-#EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/tsx6FKTO8059teX1eyBfHJeKKrB.jpg", The Exit 8 (2025) ทางออกหมายเลข 8
-#EXTVLCOPT:http-referrer=https://main.24playerhd.com/
-https://main.24playerhd.com/newplaylist/97723b096bda9ac41efa53cb/97723b096bda9ac41efa53cb.m3u8
 
 #EXTINF:-1 type="movie" tvg-id="" group-title="ซูมโรง ชนโรง" tvg-logo="https://media.themoviedb.org/t/p/w260_and_h390_face/8hrjZBxfBWy7qCbJ7xOAcCbSqab.jpg", Five Nights at Freddys 2 (2025) 5 คืนสยองที่ร้านเฟรดดี้ 2
 #EXTVLCOPT:http-referrer=https://main.24playerhd.com/
