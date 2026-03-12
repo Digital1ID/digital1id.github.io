@@ -35,6 +35,45 @@
   },
   {
     "player": "p2p/player",
+    "name": "The Exit 8 (2025) ทางออกหมายเลข 8",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/tsx6FKTO8059teX1eyBfHJeKKrB.jpg",
+      "plot": "",
+      "year": 2025,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/4417efa67a8b27eae0e7fae0/4417efa67a8b27eae0e7fae0.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Zootopia 2 (2025) นครสัตว์มหาสนุก 2",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/mrVGD3Mrlwd4vvRhlzmkpLvFtjd.jpg",
+      "plot": "",
+      "year": 2025,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://master.steamhls88.com/hlsr2/5f07b9b3eb4292ae1c5d83b95ca953e6/master.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
+    "name": "Zootopia (2016) นครสัตว์มหาสนุก",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/3pu7fvygjLrArtxrSzMjKBBrGe5.jpg",
+      "plot": "",
+      "year": 2016,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://master.steamhls88.com/hlsr2/c927bffd20be2db88aa8b77a143ddd5b/master.m3u8",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "id": "my-boo-2",
     "nameEN": "MY BOO 2",
     "nameTH": "อนงค์ 2..สามสี่ชาติ",
