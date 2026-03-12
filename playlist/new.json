@@ -1,6 +1,23 @@
 [
   {
     "player": "p2p/player",
+    "id": "mercy-90",
+    "nameEN": "Mercy  90",
+    "nameTH": "นาทีสั่งตาย",
+    "name": "Mercy (2025) 90 นาทีสั่งตาย",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
+      "plot": "",
+      "year": 2025,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/4097857829716427ce94027b/4097857829716427ce94027b.m3u8",
+    "subtitle": "",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "id": "war-machine",
     "nameEN": "War Machine",
     "nameTH": "สงครามจักรกลถล่มโลก",
@@ -591,23 +608,6 @@
       "sound": "พากย์ไทย"
     },
     "video": "https://main.24playerhd.com/newplaylist/78a34cae47bd572d5bbd1560/78a34cae47bd572d5bbd1560.m3u8",
-    "subtitle": "",
-    "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/player",
-    "id": "mercy-90",
-    "nameEN": "Mercy  90",
-    "nameTH": "นาทีสั่งตาย",
-    "name": "Mercy (2025) 90 นาทีสั่งตาย",
-    "category": "ซูมโรง ชนโรง",
-    "info": {
-      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
-      "plot": "",
-      "year": 2025,
-      "sound": "ไทยโรง"
-    },
-    "video": "https://main.24playerhd.com/newplaylist/e446d31d15fb844c70565297/e446d31d15fb844c70565297.m3u8",
     "subtitle": "",
     "Referrer": "https://main.24playerhd.com/"
   },
