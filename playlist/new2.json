@@ -479,24 +479,7 @@
     "video": "https://main.24playerhd.com/newplaylist/1d1ca47ef68dcb4ae721e859/1d1ca47ef68dcb4ae721e859.m3u8",
     "subtitle": "",
     "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/player",
-    "id": "28-years-later-the-bone-temple-28",
-    "nameEN": "28 Years Later The Bone Temple  28",
-    "nameTH": "ปีให้หลัง เชื้อเขมือบคน วิหารซากกะโหลก",
-    "name": "28 Years Later The Bone Temple (2026) 28 ปีให้หลัง เชื้อเขมือบคน วิหารซากกะโหลก",
-    "category": "ซูมโรง ชนโรง",
-    "info": {
-      "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
-      "plot": "ดร. เคลสัน ได้พบว่าเขาอยู่ในความสัมพันธ์อันน่าตกใจ ที่ผลลัพธ์ของมันอาจจะเปลี่ยนแปลงโลกที่พวกเขารู้จักได้ และการพบกันของ สไปค์ และ จิมมี่ คริสตัล ก็กลายมาเป็นฝันร้ายที่ไม่มีทางหนี",
-      "year": 2026,
-      "sound": "ไทยโรง"
-    },
-    "video": "https://main.24playerhd.com/newplaylist/13ab8887664ea8b783e38608/13ab8887664ea8b783e38608.m3u8",
-    "subtitle": "",
-    "Referrer": "https://main.24playerhd.com/"
-  },
+  }
   {
     "player": "p2p/player",
     "id": "death-whisperer-3",
@@ -3049,9 +3032,9 @@
   },
   {
     "player": "p2p/player",
-    "id": "28-years-later-28",
-    "nameEN": "28 Years Later 28",
-    "nameTH": "ปีให้หลัง เชื้อเขมือบคน",
+    "id": "28-years-later-2",
+    "nameEN": "28 Years Later",
+    "nameTH": "28 ปีให้หลัง เชื้อเขมือบคน",
     "name": "28 Years Later 28 ปีให้หลัง เชื้อเขมือบคน (2025)",
     "category": "หนังแนะนำ",
     "info": {
@@ -3063,23 +3046,6 @@
     "video": "https://main.24playerhd.com/newplaylist/0a6daaa712ea887b975b0d96/0a6daaa712ea887b975b0d96.m3u8",
     "subtitle": "",
     "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/player",
-    "id": "28-years-later-28-2",
-    "nameEN": "28 Years Later 28",
-    "nameTH": "ปีให้หลัง เชื้อเขมือบคน",
-    "name": "28 Years Later 28 ปีให้หลัง เชื้อเขมือบคน (2025)",
-    "category": "หนังแนะนำ",
-    "info": {
-      "poster": "https://img.fw4free.com/postor/20250621042956drg4tQuZatkA0pXR7YLvlxZNNEe.jpg",
-      "plot": "",
-      "year": 2025,
-      "sound": "พากย์ไทย"
-    },
-    "video": "http://bigapp.direct-stream.com/doodii-vip/movies/28_Years_Later_2025_th_1080p.mp4",
-    "subtitle": "",
-    "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
     "player": "p2p/player",
@@ -4052,7 +4018,7 @@
     "player": "p2p/player",
     "id": "28-weeks-later",
     "nameEN": "28 Weeks Later",
-    "nameTH": "มหันตภัยเชื้อนรกถล่มเมือง",
+    "nameTH": "28 อาทิตย์ให้หลัง มหันตภัยเชื้อนรกถล่มเมือง",
     "name": "28 Weeks Later มหันตภัยเชื้อนรกถล่มเมือง (2007)",
     "category": "มาสเตอร์",
     "info": {
@@ -4067,9 +4033,9 @@
   },
   {
     "player": "p2p/player",
-    "id": "28-days-later-28",
-    "nameEN": "28 Days Later… 28",
-    "nameTH": "วันให้หลัง เชื้อเขมือบคน",
+    "id": "28-days-later",
+    "nameEN": "28 Days Later…",
+    "nameTH": "28 วันให้หลัง เชื้อเขมือบคน",
     "name": "28 Days Later… 28 วันให้หลัง เชื้อเขมือบคน (2002)",
     "category": "มาสเตอร์",
     "info": {
