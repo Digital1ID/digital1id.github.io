@@ -70,6 +70,21 @@
   },
   {
     "player": "p2p/playlist",
+    "id": "my-roommate-is-a-gumiho-2021",
+    "nameEN": "My Roommate Is a Gumiho",
+    "nameTH": "รูมเมตฉันคือคุณชายจิ้งจอก",
+    "name": "My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ)",
+    "category": "ซีรี่ย์ เกาหลี",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2026/03/My-Roommate-Is-a-Gumiho-2021.webp",
+      "plot": "My Roommate Is a Gumiho (2021) รูมเมตฉันคือคุณชายจิ้งจอก EP.1-16 (จบ)",
+      "year": 2021,
+      "sound": "พากย์ไทย"
+    },
+    "video": "my-roommate-is-a-gumiho-2021"
+  },
+  {
+    "player": "p2p/playlist",
     "id": "backstreet-rookie",
     "nameEN": "Backstreet Rookie",
     "nameTH": "สะดุดรัก 24 ชั่วโมง EP.1-16 (จบ)",
@@ -90,7 +105,7 @@
     "player": "p2p/playlist",
     "id": "nice-to-not-meet-you",
     "nameEN": "Nice to Not Meet You",
-    "nameTH": "ยินดีที่ไม่รู้จัก ซีซั่น 1",
+    "nameTH": "ยินดีที่ไม่รู้จัก",
     "name": "Nice to Not Meet You (2025) ยินดีที่ไม่รู้จัก ซีซั่น 1",
     "category": "ซีรี่ย์ เกาหลี",
     "info": {
@@ -108,13 +123,13 @@
     "player": "p2p/playlist",
     "id": "cashero",
     "nameEN": "Cashero",
-    "nameTH": "แคชฮีโร่ ซีซั่น 1",
+    "nameTH": "แคชฮีโร่",
     "name": "Cashero (2025) แคชฮีโร่ ซีซั่น 1",
     "category": "ซีรี่ย์ เกาหลี",
     "info": {
       "poster": "https://media.themoviedb.org/t/p/w260_and_h390_face/dm6RoaKgkGUxckamMDzsbqtLhFv.jpg",
       "description": "",
-      "year": 2020,
+      "year": 2025,
       "plot": "",
       "sound": "พากย์ไทย"
     },
