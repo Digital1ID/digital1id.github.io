@@ -314,6 +314,19 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "ทางเลือกรักครั้งสุดท้าย",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4LjoW7Rde1f6Zl1PLRHkmNex9lHacgB3FCge1XeFbCA&s=10",
+        "plot": "",
+        "episode": "66",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1435"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "กลยุทธ์พิชิตเด็กดีที่รัก",
     "category": "ละครสั้นจีน",
     "info": { 
