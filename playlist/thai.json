@@ -99,8 +99,8 @@
     "Referrer": ""
   },
   {
-    "player": "",
-    "id": "tigers",
+    "player": "p2p/player",
+    "id": "4-tigers",
     "nameEN": "4 Tigers",
     "nameTH": "เสือ",
     "name": "เสือ (2025) 4 Tigers",
@@ -111,7 +111,7 @@
       "year": 2025,
       "sound": "พากย์ไทย"
     },
-    "video": "https://text-lb.xmoviedo24.com/playlist2/b22e22cbW0nmB/master.m3u8",
+    "video": "https://main.24playerhd.com/newplaylist/c65f7ad3af13b260f33fc9c6/c65f7ad3af13b260f33fc9c6.m3u8",
     "subtitle": "",
     "Referrer": ""
   },
