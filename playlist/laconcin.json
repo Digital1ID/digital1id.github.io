@@ -2,6 +2,84 @@
   
   {
     "player": "p2p/api-plyr",
+    "name": "ตกสู่หลุมพรางหวานแหวว",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBl8MvAgo5_bgaO76ZvG9GJpHUxe-O8xrqPLBSScH6Gg&s=10",
+        "plot": "",
+        "episode": "90",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1462"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "คืนชีวาพลิกชะตาทวงแค้น",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAgMb5pBhCTPSAys1vWvcOOcTOKCWzpKuFnNWupvQlPw&s=10",
+        "plot": "",
+        "episode": "81",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1461"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "พลิกชีวิตด้วยพาร์ตไทม์",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlmglNy334Hi_N5MUZM77O2WNAQ8MJsMEP71cLiIlG8A&s=10",
+        "plot": "",
+        "episode": "75",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1460"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "คนเก๋ากลับมาแก้เกม",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe9WsdQ-GzuW4cjmOo40WCOWA6dZbDqZehCg2yCDu-5A&s=10",
+        "plot": "",
+        "episode": "66",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1459"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "แผนร้ายรักพลิกล็อก",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt7s8LW7PAdWyzi3NiGAwbFcsa43G1CtZ_honQSy7Pzg&s=10",
+        "plot": "",
+        "episode": "100",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1458"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ฉันแต่งงานกับหนุ่มขี้อ้อน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvtgXgTBdCD3MVIa7Qde8PEFlJurlQWIQRlbjMnMrWrw&s=10",
+        "plot": "",
+        "episode": "83",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1457"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "เธอคือแสงสว่างในชีวิตฉัน",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -233,6 +311,19 @@
         "sound": "พากย์ไทย"
         },
     "video": "1438"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "กลยุทธ์พิชิตเด็กดีที่รัก",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWXrC8HwaORz9cBnYYQGfIAxwwLMYgABR6vsK4jzq-fA&s=10",
+        "plot": "",
+        "episode": "69",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1418"
   },
   {
     "player": "p2p/api-plyr",
