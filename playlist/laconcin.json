@@ -2,11 +2,89 @@
   
   {
     "player": "p2p/api-plyr",
+    "name": "",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "",
+        "plot": "",
+        "episode": "",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": ""
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ป๊ะป๋าของหนูคือท่านประธาน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlhqcJYCEW0pqHSVQJeCv0svMiES6Pd_3o8mJ3nxy8eg&s=10",
+        "plot": "",
+        "episode": "100",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1455"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ยัยตัวร้ายสุดที่รัก",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgYJlGn16uNYHvs3BCR9yPKfBroEUWIilNYZSb5NGd2w&s=10",
+        "plot": "",
+        "episode": "88",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1454"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "บินกี่ไฟลต์ใจก็อยู่ที่เธอ",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU_FtGKx89M7ZSa9hO6OYjrDUP2TJvvtBsbabrpAqT8g&s=10",
+        "plot": "",
+        "episode": "90",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1453"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "หัตถ์เทพหมอเทวดา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHUOPkfxQSE-HpGOAm_VCmEzE65Gd6bAI_e32Fb-CAw&s=10",
+        "plot": "",
+        "episode": "80",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1452"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "รักนี้ไม่มีกัปตัน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3eWK2u8buwQp2cVaobjVojDStc2k-ON4j8hfe50N1Gw&s",
+        "plot": "",
+        "episode": "69",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1451"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "เจ้าหญิงในแดนร้าง",
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitLDMnaSm01yfodhwUeoamQDNgCnY-uX9ylu0ppzpIkSaM10MKZEBmNvJ&s=10",
-        "description": "",
+        "plot": "",
         "episode": "60",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -19,7 +97,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3vUMNqa4WBciBAep_iRlAQh9U9lIVRaJ8K6EeVNsaFSNIrmhbUovJaIg&s=10",
-        "description": "",
+        "plot": "",
         "episode": "58",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -32,7 +110,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg9iNz0eFBi0SEcmd366WlgHMKINT8s8TJLPAW4eyJgEp8nzc53BFxh9k&s=10",
-        "description": "",
+        "plot": "",
         "episode": "80",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -45,7 +123,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo9DJD6iNSCWytkBMTXoD9EGn9HrgyH-wHNl-U3ldwNbvDFImOTM-cprg&s=10",
-        "description": "",
+        "plot": "",
         "episode": "60",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -58,7 +136,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfiTe3NDdY-kJidU9HGiDEY9P2vviWcLzBqz6nzQAkQA&s=10",
-        "description": "",
+        "plot": "",
         "episode": "94",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -71,7 +149,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMqkoJF72hlypUgnOYkc_x5FbwIVxklP2bPhWXGAQPw&s=10",
-        "description": "",
+        "plot": "",
         "episode": "70",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -84,7 +162,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWzYC0hF7Rq3_GmhabFAdfSjhntrJHV2ZPYytFr8OLDA&s=10",
-        "description": "",
+        "plot": "",
         "episode": "82",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -97,7 +175,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3MU9kYeto_Ff_XlXs0-Qgf50HtI_8gV1rOIL8GwVq1Q&s=10",
-        "description": "",
+        "plot": "",
         "episode": "80",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -110,7 +188,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvJjw0U3Kl-nM4dsARDjnI2v8tLAIIqnXu7pA199YvXw&s=10",
-        "description": "",
+        "plot": "",
         "episode": "74",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -123,7 +201,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQCYIOWSvm1d0gjXtWmzQpAzImKfZXoq5O9QILgaOaZg&s=10",
-        "description": "",
+        "plot": "",
         "episode": "76",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -136,7 +214,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqmfMpyt7DdVPpaO7KGs3l3kZL7c1X86AO_7868KzliA&s=10",
-        "description": "",
+        "plot": "",
         "episode": "102",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -149,7 +227,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfIdChDMbUYuJW1nRIW1T_hA0U-UilWObKxWyM4rwe1Q&s=10",
-        "description": "",
+        "plot": "",
         "episode": "66",
         "year": 2026,
         "sound": "พากย์ไทย"
@@ -162,7 +240,7 @@
     "category": "ละครสั้นจีน",
     "info": { 
         "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLkQgqByFopph4gBcHVU5cqFMp-1yXnGn-pV510033Lg&s=10",
-        "description": "",
+        "plot": "",
         "year": 2026,
         "sound": "พากย์ไทย"
         },
