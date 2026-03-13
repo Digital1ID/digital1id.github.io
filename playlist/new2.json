@@ -1,6 +1,23 @@
 [
   {
     "player": "p2p/player",
+    "id": "tiger",
+    "nameEN": "Tiger",
+    "nameTH": "เสือ",
+    "name": "เสือ (2025) Tiger",
+    "category": "หนังแนะนำ",
+    "info": {
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7MSluuPJEw0EfYc7wPb5Oa5iy3B.jpg",
+      "plot": "",
+      "year": 2025,
+      "sound": "พากย์ไทย"
+    },
+    "video": "https://main.24playerhd.com/newplaylist/c65f7ad3af13b260f33fc9c6/c65f7ad3af13b260f33fc9c6.m3u8",
+    "subtitle": "",
+    "Referrer": "https://main.24playerhd.com/"
+  },
+  {
+    "player": "p2p/player",
     "id": "mercy-90",
     "nameEN": "Mercy  90",
     "nameTH": "นาทีสั่งตาย",
@@ -1414,40 +1431,6 @@
     "video": "https://vod1.stream25.com/Tee-Yai-Born-to-Be-Bad-2025-TH.mp4.m3u8",
     "subtitle": "",
     "Referrer": "https://ezmovie4k.com/"
-  },
-  {
-    "player": "p2p/player",
-    "id": "-6",
-    "nameEN": "",
-    "nameTH": "เสือ  Tiger",
-    "name": "เสือ (2025) Tiger",
-    "category": "ซูมโรง ชนโรง",
-    "info": {
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7MSluuPJEw0EfYc7wPb5Oa5iy3B.jpg",
-      "plot": "",
-      "year": 2025,
-      "sound": "พากย์ไทย"
-    },
-    "video": "https://main.24playerhd.com/newplaylist/d312b81f2d633c82a1af7e7f/d312b81f2d633c82a1af7e7f.m3u8",
-    "subtitle": "",
-    "Referrer": "https://main.24playerhd.com/"
-  },
-  {
-    "player": "p2p/jwplayer",
-    "id": "-7",
-    "nameEN": "",
-    "nameTH": "เสือ  Tiger",
-    "name": "เสือ (2025) Tiger",
-    "category": "ซูมโรง ชนโรง",
-    "info": {
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7MSluuPJEw0EfYc7wPb5Oa5iy3B.jpg",
-      "plot": "",
-      "year": 2025,
-      "sound": "พากย์ไทย"
-    },
-    "video": "http://web02.dynns.com:1935/zoom//4.Tigers.2025.ZOOM.mp4/playlist.m3u8",
-    "subtitle": "",
-    "Referrer": "http://m2.inwstream.com:1935/"
   },
   {
     "player": "p2p/jwplayer",
