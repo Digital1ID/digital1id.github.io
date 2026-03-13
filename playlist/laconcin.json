@@ -1,5 +1,17 @@
 [
-  
+  {
+    "player": "p2p/api-plyr",
+    "name": "ลวงรักในเงาแค้น",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvAlQ-OErlS2pYMXOYCbPqa_xPZgvvm3SqfQJ03xX0Mw&s=10",
+        "plot": "",
+        "episode": "55",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "7150"
+  },
   {
     "player": "p2p/api-plyr",
     "name": "ตกสู่หลุมพรางหวานแหวว",
