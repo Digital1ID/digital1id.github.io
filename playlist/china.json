@@ -1,6 +1,21 @@
 [
   {
     "player": "p2p/playlist",
+    "id": "pursuit-of-jade-2026",
+    "nameEN": "Pursuit of Jade",
+    "nameTH": "ล่าหยก EP.1-40 (ยังไม่จบ)",
+    "name": "Pursuit of Jade (2026) ล่าหยก EP.1-40 (ยังไม่จบ)",
+    "category": "ซีรี่ย์ จีน",
+    "info": {
+      "poster": "https://kub24hd.com/wp-content/uploads/2026/03/Pursuit-of-Jade-2026.webp",
+      "plot": "Pursuit of Jade (2026) ล่าหยก EP.1-40 (ยังไม่จบ)",
+      "year": 2026,
+      "sound": "พากย์ไทย"
+    },
+    "video": "pursuit-of-jade-2026"
+  },
+  {
+    "player": "p2p/playlist",
     "id": "how-dare-you",
     "nameEN": "How Dare You",
     "nameTH": "ทะลุมิติตะลุยวังหลวง EP.1-32 (จบ)",
