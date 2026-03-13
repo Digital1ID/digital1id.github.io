@@ -1182,6 +1182,19 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "การกลับมาของเจ้าหญิงเย็นชา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp9fBODvQarXA9Iu_UbDmZ1U9kVZ0Z7TbaQ1BQrJ7Y8iF2vWbY",
+        "plot": "",
+        "episode": "72",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "895"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "ปรมาจารย์ตาบอด",
     "category": "ละครสั้นจีน",
     "info": { 
