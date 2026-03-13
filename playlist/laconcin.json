@@ -327,6 +327,19 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "ด้วยรักเป็นสัญญา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJ3vwP1L-9xz7ol8za14xof3IFGhqyyZ7VuaDGkhDZQ&s=10",
+        "plot": "",
+        "episode": "81",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1428"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "กลยุทธ์พิชิตเด็กดีที่รัก",
     "category": "ละครสั้นจีน",
     "info": { 
