@@ -1,4 +1,44 @@
 [
+
+  {
+    "player": "p2p/api-plyr",
+    "name": "วิวาห์ผิดคิวรักแท้ที่บังเกิด",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSjinr2OGfCVtWmGgbLOAT4_P_hamxXc65iaTeeIF-ew&s=10",
+        "plot": "",
+        "episode": "124",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "7154"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "พ่อฉันคือราชาแวมไพร์",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYJ0JKaJWva_4OGn4azLcIJNgx0AD6AaIEDa58qK1nyA&s=10",
+        "plot": "",
+        "episode": "72",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "7153"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ขอเปลี่ยนชายข้างกาย",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB8wCvoUEWPsvGqw4QrLUphez0WDeychGSiEMZRj5ZiQ&s=10",
+        "plot": "",
+        "episode": "70",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "7152"
+  },
   {
     "player": "p2p/api-plyr",
     "name": "เจ้าสาวผู้ซ่อมบ้าน",
@@ -63,6 +103,19 @@
         "sound": "พากย์ไทย"
         },
     "video": "7147"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ลูกเขยคืนฟอร์ม",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyN9VV75Jy4GoCjjMSiWc1npkKCk1nrW0GloZV5vqIbQ&s=10",
+        "plot": "",
+        "episode": "92",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1473"
   },
   {
     "player": "p2p/api-plyr",
