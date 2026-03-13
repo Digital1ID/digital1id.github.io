@@ -1302,6 +1302,32 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "วาร์ปมา11ปีพลิกชะตาภาค2",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1IlrGgpek1Q_b3pNBm8aQLhJ-FdZAHgeCRNIIzgLS0g&s=10",
+        "plot": "",
+        "episode": "80",
+        "year": 2026,
+        "sound": "บรรยายไทย"
+        },
+    "video": "703"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "วาร์ปมา11ปีพลิกชะตา",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjtUijPDg0pjfW4OfXzZkWolFZLe3qT7yrrpfRf43nXw&s=10",
+        "plot": "",
+        "episode": "80",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "702"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "ย่าเยาว์วัยปฏิวัติวงศ์ตระกูล3",
     "category": "ละครสั้นจีน",
     "info": { 
