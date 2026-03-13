@@ -1,6 +1,19 @@
 [
   {
     "player": "p2p/api-plyr",
+    "name": "เจ้าสาวผู้ซ่อมบ้าน",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXwFsT6z-UC75LmA6B-3aqvMhTYmXYdWS1OzUasLs1g&s=10",
+        "plot": "",
+        "episode": "59",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "7151"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "ลวงรักในเงาแค้น",
     "category": "ละครสั้นจีน",
     "info": { 
@@ -11,6 +24,45 @@
         "sound": "พากย์ไทย"
         },
     "video": "7150"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "บอดี้การ์ดแฟนหนุ่มของผู้บริหารสาว",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRszx7mfXkVYRLHlVDF-xRVRmkRA33aK_BzEjuMI3d2fw&s=10",
+        "plot": "",
+        "episode": "100",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "7149"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "บ้านนี้ชอบเป็นตัวสำรอง",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPEkZ0JjUGCiVVFaOeS4xoi159ytsfCdSfGiQvcaNFYA&s=10",
+        "plot": "",
+        "episode": "49",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "7148"
+  },
+  {
+    "player": "p2p/api-plyr",
+    "name": "ห้าแฝดหรรษาตามหาป่าปี๊",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKqDvoUs6IRv2C3ItbUp7N86SMYvdoGcfG3k8AaDIBGw&s",
+        "plot": "",
+        "episode": "80",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "7147"
   },
   {
     "player": "p2p/api-plyr",
