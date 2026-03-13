@@ -327,6 +327,19 @@
   },
   {
     "player": "p2p/api-plyr",
+    "name": "ทางเลือกใหม่ของเจ้าสาว",
+    "category": "ละครสั้นจีน",
+    "info": { 
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_cXrQ74OoEXVeT7u-k4YZNYM1eOlNAHbPChbdQNOjOg&s=10",
+        "plot": "",
+        "episode": "76",
+        "year": 2026,
+        "sound": "พากย์ไทย"
+        },
+    "video": "1406"
+  },
+  {
+    "player": "p2p/api-plyr",
     "name": "2002อีกครั้ง",
     "category": "ละครสั้นจีน",
     "info": { 
