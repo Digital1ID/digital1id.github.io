@@ -59,6 +59,11 @@ https://media.vdohls.com/q_2ZNL2okP-rK/playlist.m3u8
 https://media.vdohls.com/j-vlQW4_TGqM8/playlist.m3u8
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Pursuit-of-Jade-2026.webp" tvg-season="1" tvg-episode="17", Pursuit of Jade (2026) ล่าหยก EP.1-40 (ยังไม่จบ) S01 E17
 https://media.vdohls.com/A3lxG-K_4kpRq/playlist.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Pursuit-of-Jade-2026.webp" tvg-season="1" tvg-episode="18", Pursuit of Jade (2026) ล่าหยก EP.1-40 (ยังไม่จบ) S01 E18
+https://main.24playerhd.com/newplaylist/8b9fa515e3a4567857d9d902/8b9fa515e3a4567857d9d902.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Pursuit-of-Jade-2026.webp" tvg-season="1" tvg-episode="19", Pursuit of Jade (2026) ล่าหยก EP.1-40 (ยังไม่จบ) S01 E19
+https://main.24playerhd.com/newplaylist/cade0529ac3da8535d6fcf7e/cade0529ac3da8535d6fcf7e.m3u8
+#EXTINF:-1 type="series" group-title="ซีรี่ย์ จีน" tvg-logo="https://kub24hd.com/wp-content/uploads/2026/03/Pursuit-of-Jade-2026.webp" tvg-season="1" tvg-episode="20", Pursuit of Jade (2026) ล่าหยก EP.1-40 (ยังไม่จบ) S01 E20
 
 
 #EXTINF:-1 type="series" group-title="ซีรี่ย์ ฝรั่ง" tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg" tvg-season="2" tvg-episode="1", ONE PIECE วันพีซ Season 1-2 (จบ) S02E01
