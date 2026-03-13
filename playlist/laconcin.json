@@ -2,16 +2,16 @@
   
   {
     "player": "p2p/api-plyr",
-    "name": "",
+    "name": "เธอคือแสงสว่างในชีวิตฉัน",
     "category": "ละครสั้นจีน",
     "info": { 
-        "poster": "",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6pWbltITvqyWIsduSjBEilQhhHcmJ7hvT0rN9uJLXA&s=10",
         "plot": "",
-        "episode": "",
+        "episode": "75",
         "year": 2026,
         "sound": "พากย์ไทย"
         },
-    "video": ""
+    "video": "1456"
   },
   {
     "player": "p2p/api-plyr",
